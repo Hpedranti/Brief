@@ -1,0 +1,9 @@
+{
+  "cursor": "",
+  "markets": [
+    { "ticker": "KXFEDDECISION-26OCT-H0", "event_ticker": "KXFEDDECISION-26OCT", "title": "Fed decision in Oct 2026?", "yes_sub_title": "Hold", "close_time": "2026-10-28T17:55:00Z", "yes_bid": 55, "yes_ask": 58, "last_price": 57 },
+    { "ticker": "KXFEDDECISION-26OCT-C25", "event_ticker": "KXFEDDECISION-26OCT", "title": "Fed decision in Oct 2026?", "yes_sub_title": "Cut 25bps", "close_time": "2026-10-28T17:55:00Z", "yes_bid": 38, "yes_ask": 41, "last_price": 40 },
+    { "ticker": "KXFEDDECISION-26OCT-C26", "event_ticker": "KXFEDDECISION-26OCT", "title": "Fed decision in Oct 2026?", "yes_sub_title": "Cut >25bps", "close_time": "2026-10-28T17:55:00Z", "yes_bid": 1, "yes_ask": 3, "last_price": 2 },
+    { "ticker": "KXFEDDECISION-26DEC-H0", "event_ticker": "KXFEDDECISION-26DEC", "title": "Fed decision in Dec 2026?", "yes_sub_title": "Hold", "close_time": "2026-12-09T18:55:00Z", "yes_bid": 40, "yes_ask": 44, "last_price": 42 }
+  ]
+}

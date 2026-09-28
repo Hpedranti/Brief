@@ -1,0 +1,4 @@
+{ "version": 1, "generated_at": "2026-09-26T13:00:00Z", "date": "2026-09-26", "model": "fixture",
+  "today": [ { "id": "2026-09-26-t1", "headline": "Vell Valley talks enter second day", "what_happened": "Fixture.", "us_angle": "Fixture.", "whats_new": "New today.", "region": "Europe", "storyline_id": "sl-vell-valley-conflict", "sources": [ { "outlet": "Fixture", "title": "Fixture", "url": "https://example.com/world/vell-talks-day-two" } ] } ],
+  "economy": { "read": "Fixture.", "indicators": [], "fed": { "next_meeting": "2026-10-28", "odds": [], "note": "Fixture." }, "week_ahead": [], "items": [] },
+  "washington": [], "storyline_updates": [] }

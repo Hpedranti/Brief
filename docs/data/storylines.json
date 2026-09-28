@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-27T13:00:00Z",
+  "storylines": [
+    {
+      "id": "sl-vell-valley-conflict",
+      "title": "Vell Valley conflict (fictional)",
+      "summary": "Fixture text: Northland and Southmark agreed a 30-day ceasefire after months of fighting; monitors are due to deploy next week.",
+      "status": "active",
+      "first_seen": "2026-09-01",
+      "last_updated": "2026-09-27",
+      "events": [
+        {
+          "date": "2026-09-27",
+          "text": "Both sides sign a 30-day ceasefire.",
+          "url": "https://example.com/world/vell-ceasefire"
+        },
+        {
+          "date": "2026-09-20",
+          "text": "Talks open under a neutral mediator.",
+          "url": "https://example.com/world/vell-talks-open"
+        },
+        {
+          "date": "2026-09-01",
+          "text": "Fighting escalates along the valley border.",
+          "url": "https://example.com/world/vell-escalation"
+        }
+      ]
+    },
+    {
+      "id": "sl-calloway-port-strike",
+      "title": "Calloway port strike (fictional)",
+      "summary": "Fixture text: dock workers are in the third week of a strike; freight rates are rising.",
+      "status": "active",
+      "first_seen": "2026-09-12",
+      "last_updated": "2026-09-27",
+      "events": [
+        {
+          "date": "2026-09-27",
+          "text": "Strike enters third week; freight rates up 4%.",
+          "url": "https://example.com/world/calloway-strike"
+        },
+        {
+          "date": "2026-09-12",
+          "text": "Dock workers walk out over pay.",
+          "url": "https://example.com/world/calloway-walkout"
+        }
+      ]
+    },
+    {
+      "id": "sl-orrin-drought",
+      "title": "Orrin basin drought (fictional)",
+      "summary": "Fixture text: water rationing continues across the basin with no new measures announced.",
+      "status": "dormant",
+      "first_seen": "2026-08-02",
+      "last_updated": "2026-08-30",
+      "events": [
+        {
+          "date": "2026-08-30",
+          "text": "Rationing extended through October.",
+          "url": "https://example.com/world/orrin-rationing"
+        }
+      ]
+    },
+    {
+      "id": "sl-kest-tariffs",
+      "title": "Kest tariff dispute (fictional)",
+      "summary": "Fixture text: the model omits this one, so the job carries it forward and marks it dormant.",
+      "status": "dormant",
+      "first_seen": "2026-08-20",
+      "last_updated": "2026-09-05",
+      "events": [
+        {
+          "date": "2026-09-05",
+          "text": "Kest announces retaliatory tariffs.",
+          "url": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  { "outlet": "NPR", "url": "https://feeds.npr.org/1004/rss.xml", "kind": "world" },
+  { "outlet": "NPR", "url": "https://feeds.npr.org/1014/rss.xml", "kind": "dc" },
+  { "outlet": "NPR", "url": "https://feeds.npr.org/1017/rss.xml", "kind": "econ" },
+  { "outlet": "BBC", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "kind": "world" },
+  { "outlet": "BBC", "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "kind": "us" },
+  { "outlet": "Politico", "url": "https://rss.politico.com/politics-news.xml", "kind": "dc" },
+  { "outlet": "Politico", "url": "https://rss.politico.com/economy.xml", "kind": "econ" },
+  { "outlet": "Axios", "url": "https://api.axios.com/feed/", "kind": "us" },
+  { "outlet": "The Guardian", "url": "https://www.theguardian.com/world/rss", "kind": "world" },
+  { "outlet": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "kind": "world" },
+  { "outlet": "Federal Reserve", "url": "https://www.federalreserve.gov/feeds/press_all.xml", "kind": "econ" },
+  { "outlet": "CNBC", "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html", "kind": "econ" },
+  { "outlet": "Foreign Policy", "url": "https://foreignpolicy.com/feed/", "kind": "world" }
+]

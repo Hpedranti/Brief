@@ -1,0 +1,148 @@
+{
+  "$comment": "Model-output schema for Brief. = docs/data/brief.json minus version/generated_at/date/model, plus the full storylines list. maxLength/maxItems/minItems>1/minimum/maximum/x-maxWords are enforced by the local validator in build-brief.mjs and stripped before the schema is sent to the API (structured outputs does not support them).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["today", "economy", "washington", "storyline_updates", "storylines"],
+  "properties": {
+    "today": { "type": "array", "minItems": 3, "maxItems": 5, "items": { "$ref": "#/$defs/item" } },
+    "economy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["read", "indicators", "fed", "week_ahead", "items"],
+      "properties": {
+        "read": { "type": "string", "maxLength": 480, "x-maxWords": 60 },
+        "indicators": {
+          "type": "array",
+          "maxItems": 10,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["key", "label", "value", "unit", "as_of", "change", "note"],
+            "properties": {
+              "key": { "type": "string", "maxLength": 40 },
+              "label": { "type": "string", "maxLength": 40 },
+              "value": { "type": "string", "maxLength": 20 },
+              "unit": { "type": "string", "maxLength": 10 },
+              "as_of": { "type": "string", "format": "date" },
+              "change": { "type": "string", "maxLength": 30 },
+              "note": { "type": "string", "maxLength": 120, "x-maxWords": 12 }
+            }
+          }
+        },
+        "fed": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["next_meeting", "odds", "note"],
+          "properties": {
+            "next_meeting": { "anyOf": [{ "type": "string", "format": "date" }, { "type": "null" }] },
+            "odds": {
+              "type": "array",
+              "maxItems": 8,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["label", "prob"],
+                "properties": {
+                  "label": { "type": "string", "maxLength": 40 },
+                  "prob": { "type": "number", "minimum": 0, "maximum": 1 }
+                }
+              }
+            },
+            "note": { "type": "string", "maxLength": 200, "x-maxWords": 20 }
+          }
+        },
+        "week_ahead": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["date", "event", "why_it_matters"],
+            "properties": {
+              "date": { "type": "string", "format": "date" },
+              "event": { "type": "string", "maxLength": 80 },
+              "why_it_matters": { "type": "string", "maxLength": 150, "x-maxWords": 15 }
+            }
+          }
+        },
+        "items": { "type": "array", "maxItems": 3, "items": { "$ref": "#/$defs/item" } }
+      }
+    },
+    "washington": { "type": "array", "maxItems": 3, "items": { "$ref": "#/$defs/item" } },
+    "storyline_updates": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["storyline_id", "update"],
+        "properties": {
+          "storyline_id": { "type": "string", "maxLength": 60 },
+          "update": { "type": "string", "maxLength": 300, "x-maxWords": 30 }
+        }
+      }
+    },
+    "storylines": {
+      "type": "array",
+      "maxItems": 60,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "summary", "status", "first_seen", "last_updated", "events"],
+        "properties": {
+          "id": { "type": "string", "maxLength": 60 },
+          "title": { "type": "string", "maxLength": 50 },
+          "summary": { "type": "string", "maxLength": 320, "x-maxWords": 40 },
+          "status": { "type": "string", "enum": ["active", "dormant"] },
+          "first_seen": { "type": "string", "format": "date" },
+          "last_updated": { "type": "string", "format": "date" },
+          "events": {
+            "type": "array",
+            "maxItems": 20,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["date", "text", "url"],
+              "properties": {
+                "date": { "type": "string", "format": "date" },
+                "text": { "type": "string", "maxLength": 220, "x-maxWords": 25 },
+                "url": { "anyOf": [{ "type": "string", "format": "uri" }, { "type": "null" }] }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "headline", "what_happened", "us_angle", "whats_new", "region", "storyline_id", "sources"],
+      "properties": {
+        "id": { "type": "string", "maxLength": 40 },
+        "headline": { "type": "string", "maxLength": 80 },
+        "what_happened": { "type": "string", "maxLength": 400 },
+        "us_angle": { "type": "string", "maxLength": 400 },
+        "whats_new": { "type": "string", "maxLength": 250 },
+        "region": { "type": "string", "enum": ["Europe", "Middle East", "Asia", "Americas", "Africa", "US", "Global"] },
+        "storyline_id": { "anyOf": [{ "type": "string", "maxLength": 60 }, { "type": "null" }] },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["outlet", "title", "url"],
+            "properties": {
+              "outlet": { "type": "string", "maxLength": 40 },
+              "title": { "type": "string", "maxLength": 200 },
+              "url": { "type": "string", "format": "uri" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

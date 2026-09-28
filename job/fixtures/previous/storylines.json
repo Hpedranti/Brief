@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-26T13:00:00Z",
+  "storylines": [
+    {
+      "id": "sl-vell-valley-conflict",
+      "title": "Vell Valley conflict (fictional)",
+      "summary": "Fixture text: talks under a neutral mediator are under way.",
+      "status": "active",
+      "first_seen": "2026-09-01",
+      "last_updated": "2026-09-20",
+      "events": [
+        { "date": "2026-09-20", "text": "Talks open under a neutral mediator.", "url": "https://example.com/world/vell-talks-open" },
+        { "date": "2026-09-01", "text": "Fighting escalates along the valley border.", "url": "https://example.com/world/vell-escalation" }
+      ]
+    },
+    {
+      "id": "sl-kest-tariffs",
+      "title": "Kest tariff dispute (fictional)",
+      "summary": "Fixture text: the model omits this one, so the job carries it forward and marks it dormant.",
+      "status": "active",
+      "first_seen": "2026-08-20",
+      "last_updated": "2026-09-05",
+      "events": [
+        { "date": "2026-09-05", "text": "Kest announces retaliatory tariffs.", "url": null }
+      ]
+    }
+  ]
+}

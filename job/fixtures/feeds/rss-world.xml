@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>Example Wire &amp; World (fictional)</title>
+  <link>https://example.com/</link>
+  <description>Fictional fixture feed for Brief tests</description>
+  <item>
+    <title><![CDATA[Northland & Southmark sign <b>ceasefire</b> in the Vell Valley]]></title>
+    <link>https://example.com/world/vell-ceasefire?utm_source=rss</link>
+    <guid isPermaLink="false">ex-0001</guid>
+    <pubDate>Sat, 27 Sep 2026 09:15:00 GMT</pubDate>
+    <description><![CDATA[<p>Negotiators from the fictional states of Northland and Southmark agreed to a 30-day ceasefire &mdash; the first since spring.</p>]]></description>
+  </item>
+  <item>
+    <title>Port of Calloway strike enters &#8220;third week&#8221; as shipping costs climb</title>
+    <link>https://example.com/world/calloway-strike</link>
+    <pubDate>Fri, 26 Sep 2026 18:40:00 -0400</pubDate>
+    <description>Dock workers at the fictional Port of Calloway extended their strike; freight rates rose 4&#37; this week &amp; insurers are watching.</description>
+  </item>
+  <item>
+    <title>Northland and Southmark sign ceasefire in the Vell Valley</title>
+    <link>https://example.com/world/vell-ceasefire-duplicate</link>
+    <pubDate>Sat, 27 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Near-duplicate headline that dedupe should drop.</description>
+  </item>
+  <item>
+    <title>Old story outside the 36-hour window</title>
+    <link>https://example.com/world/old-story</link>
+    <pubDate>Mon, 21 Sep 2026 10:00:00 GMT</pubDate>
+    <description>Should be filtered by the time window.</description>
+  </item>
+  <item>
+    <title>Island republic of Maravel holds snap election</title>
+    <link>https://example.com/world/maravel-election</link>
+    <dc:date>2026-09-27T04:30:00Z</dc:date>
+    <content:encoded><![CDATA[<div>Voters in fictional Maravel went to the polls after the government collapsed. <a href="https://example.com/x">More</a></div>]]></content:encoded>
+  </item>
+</channel>
+</rss>

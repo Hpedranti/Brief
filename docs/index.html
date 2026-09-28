@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Brief</title>
+    <meta name="description" content="A two-minute read: world news through a US lens, the economy, and running threads." />
+
+    <!-- iOS home-screen web app -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Brief" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+
+    <meta name="theme-color" content="#F5F5F2" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)" />
+
+    <!-- Archivo (variable 400–900) everywhere -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400..900&display=swap"
+    />
+
+    <!-- Debug override (?theme=light|dark) applied before first paint. -->
+    <script>
+      (function () {
+        try {
+          var t = new URLSearchParams(location.search).get('theme');
+          if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {}
+      })();
+    </script>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <header class="top">
+      <div class="top-inner">
+        <div class="wordmark"><span class="wordmark-bar" aria-hidden="true"></span>Brief</div>
+        <div class="stamp" id="stamp" aria-live="polite">
+          <span class="stamp-date" id="stamp-date"></span>
+          <span class="stamp-updated" id="stamp-updated"></span>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="column" tabindex="-1">
+      <div id="banner"></div>
+      <div id="view" role="tabpanel" aria-live="polite">
+        <div class="skeleton" aria-label="Loading">
+          <div class="sk-card"></div>
+          <div class="sk-card"></div>
+          <div class="sk-card"></div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="tabbar" aria-label="Sections">
+      <div class="tabbar-inner" role="tablist" id="tablist"></div>
+    </nav>
+
+    <noscript><p class="column">Brief needs JavaScript to load today's items.</p></noscript>
+  </body>
+</html>

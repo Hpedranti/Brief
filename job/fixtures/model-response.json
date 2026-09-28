@@ -1,0 +1,134 @@
+{
+  "today": [
+    {
+      "id": "t1",
+      "headline": "Northland and Southmark agree 30-day ceasefire in Vell Valley",
+      "what_happened": "Negotiators from the fictional states agreed to a 30-day ceasefire, the first pause in fighting since spring.",
+      "us_angle": "Fixture text: a pause could ease pressure on shipping lanes that carry US-bound goods.",
+      "whats_new": "Talks produced a signed deal after two days of reported progress.",
+      "region": "Europe",
+      "storyline_id": "sl-vell-valley-conflict",
+      "sources": [
+        { "outlet": "Fixture rss-world", "title": "Northland & Southmark sign ceasefire in the Vell Valley", "url": "https://example.com/world/vell-ceasefire?utm_source=rss" }
+      ]
+    },
+    {
+      "id": "t2",
+      "headline": "Port of Calloway strike enters third week",
+      "what_happened": "Dock workers at the fictional port extended their strike and freight rates rose 4% this week.",
+      "us_angle": "Fixture text: longer delays could raise costs for US importers ahead of the holidays.",
+      "whats_new": "New today.",
+      "region": "Asia",
+      "storyline_id": "sl-calloway-port-strike",
+      "sources": [
+        { "outlet": "Fixture rss-world", "title": "Port of Calloway strike enters third week as shipping costs climb", "url": "https://example.com/world/calloway-strike" }
+      ]
+    },
+    {
+      "id": "t3",
+      "headline": "Maravel holds snap election after government collapse",
+      "what_happened": "Voters in the fictional island republic went to the polls after the ruling coalition fell apart.",
+      "us_angle": "Fixture text: Maravel hosts a fictional US naval refuelling agreement up for renewal.",
+      "whats_new": "New today.",
+      "region": "Americas",
+      "storyline_id": null,
+      "sources": [
+        { "outlet": "Fixture rss-world", "title": "Island republic of Maravel holds snap election", "url": "https://example.com/world/maravel-election" }
+      ]
+    }
+  ],
+  "economy": {
+    "read": "Fixture text: inflation is running near 2.7% with unemployment at 4.3%. The Fed cut its target range at its September meeting, and markets lean toward a hold in October. Long-term yields and mortgage rates eased slightly this week.",
+    "indicators": [
+      { "key": "fedfunds", "label": "Fed funds target", "value": "3.75–4.00", "unit": "%", "as_of": "2026-09-18", "change": "down 0.25", "note": "Cut at the September meeting" },
+      { "key": "fedfunds_effective", "label": "Fed funds (effective)", "value": "4.08", "unit": "%", "as_of": "2026-08-01", "change": "down 0.25", "note": "Monthly average" },
+      { "key": "cpi_yoy", "label": "CPI inflation (YoY)", "value": "2.7", "unit": "%", "as_of": "2026-08-01", "change": "unch", "note": "Fixture data" },
+      { "key": "unrate", "label": "Unemployment", "value": "4.30", "unit": "%", "as_of": "2026-08-01", "change": "unch", "note": "Fixture data" },
+      { "key": "dgs10", "label": "10-yr Treasury", "value": "4.09", "unit": "%", "as_of": "2026-09-25", "change": "down 0.06", "note": "Fixture data" },
+      { "key": "dgs2", "label": "2-yr Treasury", "value": "3.55", "unit": "%", "as_of": "2026-09-25", "change": "down 0.03", "note": "Fixture data" },
+      { "key": "mortgage30", "label": "30-yr mortgage", "value": "6.09", "unit": "%", "as_of": "2026-09-25", "change": "down 0.05", "note": "Fixture data" }
+    ],
+    "fed": {
+      "next_meeting": "2026-10-28",
+      "odds": [
+        { "label": "Hold", "prob": 0.57 },
+        { "label": "Cut 25bps", "prob": 0.4 },
+        { "label": "Cut >25bps", "prob": 0.02 }
+      ],
+      "note": "Fixture text: markets lean toward a hold after September's cut."
+    },
+    "week_ahead": [
+      { "date": "2026-10-02", "event": "Fictional jobs report (Sep)", "why_it_matters": "Fixture text: first labor read after the rate cut." }
+    ],
+    "items": [
+      {
+        "id": "e1",
+        "headline": "Fictional retail index slips for a second month",
+        "what_happened": "The made-up Example Retail Index fell 0.3 points, its second monthly decline.",
+        "us_angle": "Fixture text: a proxy for consumer spending, the main engine of US growth.",
+        "whats_new": "New today.",
+        "region": "US",
+        "storyline_id": null,
+        "sources": [
+          { "outlet": "Fixture atom-econ", "title": "Fictional retailer index slips for second month", "url": "https://example.com/econ/retail-index" }
+        ]
+      }
+    ]
+  },
+  "washington": [
+    {
+      "id": "w1",
+      "headline": "Senate committee advances fictional Rail Safety Act, 14–9",
+      "what_happened": "A fictional bill on freight rail inspections cleared a Senate committee 14–9.",
+      "us_angle": "Fixture text: it would set new inspection intervals for hazardous-cargo trains.",
+      "whats_new": "New today.",
+      "region": "US",
+      "storyline_id": null,
+      "sources": [
+        { "outlet": "Fixture atom-econ", "title": "Senate committee advances fictional Rail Safety Act", "url": "https://example.com/dc/rail-safety-act" }
+      ]
+    }
+  ],
+  "storyline_updates": [
+    { "storyline_id": "sl-vell-valley-conflict", "update": "Fixture text: both sides signed a 30-day ceasefire." },
+    { "storyline_id": "sl-calloway-port-strike", "update": "Fixture text: the strike entered its third week." }
+  ],
+  "storylines": [
+    {
+      "id": "sl-vell-valley-conflict",
+      "title": "Vell Valley conflict (fictional)",
+      "summary": "Fixture text: Northland and Southmark agreed a 30-day ceasefire after months of fighting; monitors are due to deploy next week.",
+      "status": "active",
+      "first_seen": "2026-09-01",
+      "last_updated": "2026-09-27",
+      "events": [
+        { "date": "2026-09-27", "text": "Both sides sign a 30-day ceasefire.", "url": "https://example.com/world/vell-ceasefire" },
+        { "date": "2026-09-20", "text": "Talks open under a neutral mediator.", "url": "https://example.com/world/vell-talks-open" },
+        { "date": "2026-09-01", "text": "Fighting escalates along the valley border.", "url": "https://example.com/world/vell-escalation" }
+      ]
+    },
+    {
+      "id": "sl-calloway-port-strike",
+      "title": "Calloway port strike (fictional)",
+      "summary": "Fixture text: dock workers are in the third week of a strike; freight rates are rising.",
+      "status": "active",
+      "first_seen": "2026-09-12",
+      "last_updated": "2026-09-27",
+      "events": [
+        { "date": "2026-09-27", "text": "Strike enters third week; freight rates up 4%.", "url": "https://example.com/world/calloway-strike" },
+        { "date": "2026-09-12", "text": "Dock workers walk out over pay.", "url": "https://example.com/world/calloway-walkout" }
+      ]
+    },
+    {
+      "id": "sl-orrin-drought",
+      "title": "Orrin basin drought (fictional)",
+      "summary": "Fixture text: water rationing continues across the basin with no new measures announced.",
+      "status": "dormant",
+      "first_seen": "2026-08-02",
+      "last_updated": "2026-08-30",
+      "events": [
+        { "date": "2026-08-30", "text": "Rationing extended through October.", "url": "https://example.com/world/orrin-rationing" }
+      ]
+    }
+  ]
+}
