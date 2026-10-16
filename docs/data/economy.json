@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-16T17:33:54Z",
-  "read": "Inflation is re-accelerating, with CPI at 3.7% year over year, while unemployment edged up to 4.20%. The Fed raised rates in September and is expected to hold Oct. 28. Long yields are above 5% and mortgages at 7.40%, while bank and chip stocks are sliding.",
+  "updated_at": "2026-10-16T21:56:40Z",
+  "read": "Inflation is re-accelerating, with CPI at 3.7% after a September rate hike, and unemployment has edged up to 4.20%. Ten-year yields near 5.10% and 7.40% mortgages squeeze borrowers, while an AI-led stock rout and oil at $110 add risk.",
   "indicators": [
     {
       "key": "fedfunds",
@@ -10,7 +10,7 @@
       "unit": "%",
       "as_of": "2026-10-16",
       "change": "up 0.25",
-      "note": "Raised from 3.50–3.75"
+      "note": "Raised in September"
     },
     {
       "key": "fedfunds_effective",
@@ -28,7 +28,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.3",
-      "note": "Inflation heating up"
+      "note": "Inflation re-accelerating"
     },
     {
       "key": "unrate",
@@ -36,26 +36,26 @@
       "value": "4.20",
       "unit": "%",
       "as_of": "2026-09-01",
-      "change": "up 0.10",
-      "note": "Slight rise"
+      "change": "up 0.1",
+      "note": "Slightly higher"
     },
     {
       "key": "dgs10",
       "label": "10-yr Treasury",
-      "value": "5.19",
+      "value": "5.10",
       "unit": "%",
-      "as_of": "2026-10-14",
-      "change": "down 0.02",
-      "note": "Long yields above 5%"
+      "as_of": "2026-10-15",
+      "change": "down 0.09",
+      "note": "Yields eased on buying"
     },
     {
       "key": "dgs2",
       "label": "2-yr Treasury",
-      "value": "4.82",
+      "value": "4.77",
       "unit": "%",
-      "as_of": "2026-10-14",
-      "change": "up 0.03",
-      "note": "Short yields edge higher"
+      "as_of": "2026-10-15",
+      "change": "down 0.05",
+      "note": "Slightly lower"
     },
     {
       "key": "mortgage30",
@@ -69,14 +69,29 @@
   ],
   "fed": {
     "next_meeting": "2026-10-28",
-    "odds": [],
-    "note": "Markets expect a hold, per CNBC, but Warsh's communication style leaves the outcome uncertain."
+    "odds": [
+      {
+        "label": "Fed maintains rate",
+        "prob": 0.87
+      },
+      {
+        "label": "Hike 25bps",
+        "prob": 0.14
+      },
+      {
+        "label": "Cut >25bps",
+        "prob": 0.01
+      },
+      {
+        "label": "Hike >25bps",
+        "prob": 0.01
+      },
+      {
+        "label": "Cut 25bps",
+        "prob": 0.01
+      }
+    ],
+    "note": "Markets expect a hold, though Warsh's communication changes and inflation concerns leave some uncertainty."
   },
-  "week_ahead": [
-    {
-      "date": "2026-10-28",
-      "event": "FOMC rate decision",
-      "why_it_matters": "Sets borrowing costs after September's hike."
-    }
-  ]
+  "week_ahead": []
 }

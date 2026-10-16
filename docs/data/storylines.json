@@ -1,15 +1,25 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T17:33:54Z",
+  "updated_at": "2026-10-16T21:56:40Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "US limits on Starshield access and Trump's criticism of Ukraine's refinery strikes have strained ties; EU leaders backed Zelenskyy and Russia keeps hitting energy targets.",
+      "summary": "Trump denies ordering Starshield limits that hurt Ukraine's defenses, though sources say the order came from the White House. He criticizes Kyiv's refinery strikes, EU leaders back Zelenskyy, and Ukraine advances in Donetsk.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-16",
       "events": [
+        {
+          "date": "2026-10-16",
+          "text": "Trump says neither he nor Musk caused the Starlink slowdown and he doesn't know who ordered the Starshield throttle.",
+          "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-10-16",
+          "text": "Ukraine's Operation Vivaldi retakes more territory in Donetsk, with Starlink playing a key role, the BBC reports.",
+          "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-10-16",
           "text": "Zelenskyy says Starlink access not fully restored; reports say the White House ordered the limit; EU leaders rally behind Kyiv.",
@@ -25,11 +35,16 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Chip stocks, banks and AI-linked borrowers such as CoreWeave are sliding this week as credit markets question the AI debt buildup.",
+      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. CoreWeave fell 25% this week, and oil at $110 adds inflation worries.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-16",
       "events": [
+        {
+          "date": "2026-10-16",
+          "text": "Big Tech posts its biggest weekly drop since 'liberation day'; CoreWeave falls 25% for the week as investors buy Treasuries.",
+          "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-10-16",
           "text": "Chip stocks near longest losing run since 2008; big bank shares on worst weekly streak since 2008.",
@@ -40,7 +55,7 @@
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28, though inflation and his communication changes leave uncertainty.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28, though inflation and his communication changes leave uncertainty. The dollar had its worst week in a month.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-16",
@@ -55,11 +70,16 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue ahead of Nov. 3.",
+      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Trump is campaigning heavily, and early voting is under way ahead of Nov. 3.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-16",
       "events": [
+        {
+          "date": "2026-10-16",
+          "text": "Ocasio-Cortez gives $1 million to Abdul El-Sayed's Michigan Senate bid; Trump rallies in Georgia for Mike Collins.",
+          "url": "https://thehill.com/homenews/campaign/6154747-ocasio-cortez-abdul-el-sayed-michigan-senate-race/"
+        },
         {
           "date": "2026-10-16",
           "text": "Cook Political Report moves 11 House races toward Democrats; Talarico's haul tops Senate GOP rivals.",
@@ -69,6 +89,26 @@
           "date": "2026-10-16",
           "text": "Musk gave a record $158 million to the Senate Leadership Fund.",
           "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html"
+        }
+      ]
+    },
+    {
+      "id": "sl-us-iran-war",
+      "title": "US-Iran war and oil prices",
+      "summary": "After nine months of war, Brent crude has reached $110, its highest since May, on reports of missiles aimed at Gulf energy hubs. CENTCOM says Iran-backed militias are sending money to the cash-strapped IRGC.",
+      "status": "active",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "text": "Brent crude hits $110 for the first time since May amid reports Saudi-led forces intercepted missiles aimed at energy hubs.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows"
+        },
+        {
+          "date": "2026-10-16",
+          "text": "CENTCOM's Adm. Brad Cooper says Iran-backed militias are sending money to the IRGC after nine months of war.",
+          "url": "https://www.axios.com/2026/10/16/iran-backed-militias-sending-money-irgc-centcom"
         }
       ]
     }
