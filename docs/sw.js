@@ -4,7 +4,7 @@
 // are kept in the data cache (the pool is 72 h ≈ 9 drops).
 // To bust every client's cache after a shell change, bump CACHE_VERSION.
 
-const CACHE_VERSION = 'v2-poster-2-reader';
+const CACHE_VERSION = 'v2-poster-3-scrolltop';
 const SHELL_CACHE = `brief-shell-${CACHE_VERSION}`;
 const DATA_CACHE = 'brief-data'; // unversioned: keep the last good data across shell bumps
 const ARTICLE_KEEP = 12;

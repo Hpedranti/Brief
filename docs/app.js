@@ -536,10 +536,10 @@ function openSheet(html, label) {
   const sheet = $('#sheet');
   const scrim = $('#scrim');
   $('#sheet-body').innerHTML = html;
-  $('#sheet-body').scrollTop = 0;
   sheet.setAttribute('aria-label', label || 'Details');
   sheet.hidden = false;
   scrim.hidden = false;
+  $('#sheet-body').scrollTop = 0;   // after unhiding, or the reset is ignored
   sheet.style.transform = '';
   void sheet.offsetWidth;
   sheet.classList.add('open');
@@ -557,6 +557,7 @@ function closeSheet() {
   sheetOpen = false;
   setTimeout(() => {
     if (!sheetOpen) {
+      $('#sheet-body').scrollTop = 0;
       sheet.hidden = true;
       scrim.hidden = true;
     }
@@ -893,9 +894,11 @@ function openReader(c) {
   const body = !want ? articleHTML(c, null) : cached ? articleHTML(c, paragraphsFrom(cached, c)) : SKELETON;
   sc.innerHTML = readerHTML(c, body);
   $('#r-bar-title').textContent = c.headline;
-  sc.scrollTop = 0;
+  el.classList.remove('scrolled');
   el.style.transform = '';
   el.hidden = false;
+  // Reset after unhiding: a scrollTop set on a hidden element is ignored, so the last article's position stuck.
+  sc.scrollTop = 0;
   void el.offsetWidth;
   el.classList.add('open');
   document.body.classList.add('reading');
@@ -932,6 +935,7 @@ function closeReader(fromPop = false) {
   $('#chrome').inert = false;
   setTimeout(() => {
     if (!reader.open) {
+      $('#r-scroll').scrollTop = 0;
       el.hidden = true;
       el.classList.remove('scrolled');
     }
