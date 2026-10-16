@@ -156,26 +156,58 @@ body[data-tab="economy"][data-ink="light"], body[data-tab="threads"][data-ink="l
   margin-right: auto;
   transition: color 0.3s;
 }
-.seg {
+/* Page indicator: current section name + three dots; the thumb slides with --pos (0 feed … 2 threads),
+   which app.js sets continuously while you swipe. */
+.pager {
+  --pos: 0;
+  --step: 18px;
+  height: 38px;
   display: flex;
-  padding: 3px;
+  align-items: center;
+  gap: 8px;
+  padding: 0 6px 0 15px;
   border-radius: 999px;
+  color: var(--c-ink);
   background: var(--c-glass);
   box-shadow: inset 0 0 0 0.5px var(--c-glass-edge);
   -webkit-backdrop-filter: blur(24px) saturate(170%);
   backdrop-filter: blur(24px) saturate(170%);
+  transition: color 0.3s;
 }
-.seg button {
-  height: 32px;
-  padding: 0 12px;
-  border-radius: 999px;
-  font-size: 14px;
-  font-weight: 650;
-  letter-spacing: -0.01em;
-  color: var(--c-ink);
-  transition: background-color 0.25s, color 0.25s;
+.pager-label {
+  font-size: 15px;
+  font-weight: 750;
+  letter-spacing: -0.02em;
 }
-.seg button[aria-selected="true"] { background: var(--c-sel); color: var(--c-sel-ink); }
+.pager-label.swap { animation: pager-swap 0.32s var(--ease-out); }
+@keyframes pager-swap { from { opacity: 0; transform: translateY(5px); } }
+.pager-dots { position: relative; display: flex; }
+.pager-dots button {
+  width: var(--step);
+  height: 38px;
+  display: grid;
+  place-items: center;
+}
+.pager-dots button::before {
+  content: "";
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.38;
+}
+.pager-dots button:focus-visible { outline: 2px solid currentColor; outline-offset: -8px; border-radius: 999px; }
+.pager-thumb {
+  position: absolute;
+  top: 50%;
+  left: calc(var(--pos) * var(--step) + var(--step) / 2 - 8px);
+  width: 16px; height: 6px;
+  margin-top: -3px;
+  border-radius: 3px;
+  background: currentColor;
+  pointer-events: none;
+  transition: left 0.32s var(--spring-soft);
+}
+body.swiping .pager-thumb { transition: none; }
 .gear {
   width: 38px; height: 38px;
   border-radius: 50%;
@@ -224,6 +256,13 @@ body:not([data-tab="feed"]) .progress { opacity: 0; }
   outline: none;
 }
 .feed::-webkit-scrollbar { display: none; }
+.feed { touch-action: pan-y; }
+
+/* Tab swipe: the current section and its neighbour are moved side by side by app.js. */
+.feed, .page { will-change: auto; }
+body.swiping .feed, body.swiping .page { will-change: transform; }
+.tab-snap { transition: transform 0.34s var(--spring-soft) !important; }
+body.swiping { -webkit-user-select: none; user-select: none; }
 
 .card {
   /* family vars default = silver */
@@ -243,7 +282,7 @@ body:not([data-tab="feed"]) .progress { opacity: 0; }
   background: var(--field);
   color: var(--ink);
   overflow: hidden;
-  touch-action: manipulation;
+  touch-action: pan-y; /* vertical scroll is the browser's; horizontal drags reach app.js for tab swipes */
   -webkit-user-select: none;
   user-select: none;
 }
@@ -581,6 +620,8 @@ body:not([data-tab="feed"]) .progress { opacity: 0; }
 .page {
   position: fixed;
   inset: 0;
+  background: var(--bg);
+  touch-action: pan-y;
   overflow-y: auto;
   overscroll-behavior-y: contain;
   -webkit-overflow-scrolling: touch;

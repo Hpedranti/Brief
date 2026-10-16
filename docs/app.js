@@ -368,13 +368,14 @@ function isDarkTheme() {
   if (t) return t === 'dark';
   return window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
 }
+function inkFor(tab) {
+  if (isDarkTheme()) return 'light';
+  if (tab !== 'feed') return 'dark';
+  const el = cardAt(activeIdx);
+  return (el && el.dataset.ink) || 'light';
+}
 function syncInk() {
-  if (isDarkTheme()) document.body.dataset.ink = 'light';
-  else if (document.body.dataset.tab !== 'feed') document.body.dataset.ink = 'dark';
-  else {
-    const el = cardAt(activeIdx);
-    document.body.dataset.ink = (el && el.dataset.ink) || 'light';
-  }
+  document.body.dataset.ink = inkFor(document.body.dataset.tab);
 }
 function updateProgress() {
   const p = unseenCount ? clamp((activeIdx + 1) / unseenCount, 0, 1) : 1;
@@ -701,7 +702,7 @@ function openSettings() {
     <input type="file" id="import-file" accept="application/json,.json" hidden />
     <p class="note">Your taste lives only on this phone. Export saves it as a JSON file you can import later.</p>
     <div class="sh-h">Keep it safe</div>
-    <div class="note-card">${ICON.share}<div>Add Brief to your Home Screen: tap <b>Share</b>, then <b>Add to Home Screen</b>. Safari can clear data for sites that are only opened in a tab.</div></div>
+    <div class="note-card">${ICON.share}<div>Add Gist to your Home Screen: tap <b>Share</b>, then <b>Add to Home Screen</b>. Safari can clear data for sites that are only opened in a tab.</div></div>
     <div class="sh-h"> </div>
     <button class="btn danger" type="button" data-set="reset">Reset taste</button>`;
   openSheet(html, 'Settings');
@@ -761,7 +762,7 @@ function onImport(e) {
       restart();
       openSettings();
     } catch (err) {
-      toast(`Couldn’t import: ${err && err.message ? err.message : 'not a Brief taste export'}`);
+      toast(`Couldn’t import: ${err && err.message ? err.message : 'not a Gist taste export'}`);
     }
     e.target.value = '';
   };
@@ -1208,14 +1209,34 @@ function renderThreads() {
 
 // ------------------------------------------------------------------ tabs
 
+const TABS = ['feed', 'economy', 'threads'];
+const TAB_LABEL = { feed: 'Feed', economy: 'Economy', threads: 'Threads' };
+
+function setPagerPos(p) {
+  $('#tabs').style.setProperty('--pos', String(p));
+}
+
 function setTab(tab, { initial = false } = {}) {
-  if (!['feed', 'economy', 'threads'].includes(tab)) tab = 'feed';
+  if (!TABS.includes(tab)) tab = 'feed';
+  const changed = document.body.dataset.tab !== tab;
   document.body.dataset.tab = tab;
-  for (const id of ['feed', 'economy', 'threads']) {
+  for (const id of TABS) {
     const el = document.getElementById(id);
     el.hidden = id !== tab;
+    el.style.transform = '';
+    el.classList.remove('tab-snap');
   }
   $$('#tabs [data-tab]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === tab)));
+  setPagerPos(TABS.indexOf(tab));
+  const label = $('#pager-label');
+  if (label.textContent !== TAB_LABEL[tab]) {
+    label.textContent = TAB_LABEL[tab];
+    if (changed && !initial && !reduced()) {
+      label.classList.remove('swap');
+      void label.offsetWidth;
+      label.classList.add('swap');
+    }
+  }
   showChrome();
   syncInk();
   if (tab === 'economy') {
@@ -1228,6 +1249,98 @@ function setTab(tab, { initial = false } = {}) {
     state.tab = tab;
     save();
   }
+}
+
+// Swipe left/right anywhere to change section. The browser keeps vertical panning (touch-action: pan-y on
+// the feed and pages); once a drag is clearly sideways (≥ 12 px, mostly horizontal) the current section and
+// its neighbour follow the finger, and the release commits past 25% of the width or on a quick flick.
+// Off the ends it rubber-bands. Never while the reader or a sheet is open.
+function initTabSwipe() {
+  let g = null; // { x, y, t, mode: 'maybe' | 'x', from, to, w, lastX, lastT, vel }
+  const pageOf = (i) => document.getElementById(TABS[i]);
+  const reset = () => {
+    document.body.classList.remove('swiping');
+    g = null;
+  };
+  window.addEventListener('pointerdown', (e) => {
+    if (!e.isPrimary || (e.pointerType === 'mouse' && e.button !== 0)) return;
+    if (reader.open || sheetOpen || g) return;
+    if (e.target.closest('#chrome, #sheet, #reader, #new-pill, input, select, textarea')) return;
+    g = { x: e.clientX, y: e.clientY, t: performance.now(), mode: 'maybe', from: TABS.indexOf(document.body.dataset.tab), to: -1, w: window.innerWidth, lastX: e.clientX, lastT: performance.now(), vel: 0, dx: 0 };
+  });
+  window.addEventListener('pointermove', (e) => {
+    if (!g || !e.isPrimary) return;
+    const dx = e.clientX - g.x;
+    const dy = e.clientY - g.y;
+    if (g.mode === 'maybe') {
+      if (Math.abs(dy) > 12 && Math.abs(dy) > Math.abs(dx)) return reset(); // vertical: browser's
+      if (Math.abs(dx) < 12 || Math.abs(dx) < Math.abs(dy) * 1.4) return;
+      g.mode = 'x';
+      document.body.classList.add('swiping');
+      cancelPendingTap();
+      down = null; // not a tap on the card underneath
+      showChrome();
+    }
+    const t = performance.now();
+    g.vel = (e.clientX - g.lastX) / Math.max(1, t - g.lastT);
+    g.lastX = e.clientX;
+    g.lastT = t;
+    const to = dx < 0 ? g.from + 1 : g.from - 1;
+    const edge = to < 0 || to >= TABS.length;
+    const x = edge ? dx * 0.28 : dx;
+    if (to !== g.to) {
+      if (g.to >= 0 && g.to < TABS.length && g.to !== g.from) {
+        pageOf(g.to).hidden = true;
+        pageOf(g.to).style.transform = '';
+      }
+      g.to = to;
+      if (!edge) pageOf(to).hidden = false;
+    }
+    g.dx = x;
+    pageOf(g.from).style.transform = `translate3d(${x}px,0,0)`;
+    if (!edge) pageOf(to).style.transform = `translate3d(${x + (dx < 0 ? g.w : -g.w)}px,0,0)`;
+    setPagerPos(clamp(g.from - x / g.w, 0, TABS.length - 1));
+    // Header colors follow whichever section covers more of the screen.
+    document.body.dataset.ink = inkFor(!edge && Math.abs(x) > g.w / 2 ? TABS[to] : TABS[g.from]);
+  });
+  const end = (e, cancelled) => {
+    if (!g || (e && !e.isPrimary)) return;
+    const s = g;
+    reset();
+    if (s.mode !== 'x') return;
+    const edge = s.to < 0 || s.to >= TABS.length;
+    const commit = !cancelled && !edge && (Math.abs(s.dx) > s.w * 0.25 || (Math.abs(s.vel) > 0.45 && Math.sign(s.vel) === Math.sign(s.dx)));
+    const cur = pageOf(s.from);
+    const nxt = edge ? null : pageOf(s.to);
+    if (reduced()) {
+      if (commit) setTab(TABS[s.to]);
+      else setTab(TABS[s.from]);
+      return;
+    }
+    const dir = s.dx < 0 ? -1 : 1;
+    [cur, nxt].forEach((el) => el && el.classList.add('tab-snap'));
+    void cur.offsetWidth;
+    if (commit) {
+      cur.style.transform = `translate3d(${dir * s.w}px,0,0)`;
+      nxt.style.transform = 'translate3d(0,0,0)';
+      setPagerPos(s.to);
+    } else {
+      cur.style.transform = 'translate3d(0,0,0)';
+      if (nxt) nxt.style.transform = `translate3d(${-dir * s.w}px,0,0)`;
+      setPagerPos(s.from);
+    }
+    setTimeout(() => setTab(TABS[commit ? s.to : s.from]), 340);
+  };
+  window.addEventListener('pointerup', (e) => end(e, false));
+  window.addEventListener('pointercancel', (e) => end(e, true));
+  // Desktop: arrow keys switch sections when nothing else has focus.
+  document.addEventListener('keydown', (e) => {
+    if (reader.open || sheetOpen || e.altKey || e.metaKey || e.ctrlKey) return;
+    if (e.target.closest && e.target.closest('input, textarea, select')) return;
+    const i = TABS.indexOf(document.body.dataset.tab);
+    if (e.key === 'ArrowRight' && i < TABS.length - 1) setTab(TABS[i + 1]);
+    else if (e.key === 'ArrowLeft' && i > 0) setTab(TABS[i - 1]);
+  });
 }
 
 // ------------------------------------------------------------------ boot
@@ -1246,6 +1359,7 @@ function restart() {
 async function boot() {
   initSheetDrag();
   initReader();
+  initTabSwipe();
   $('#new-pill').addEventListener('click', applyPending);
   $('#tabs').addEventListener('click', (e) => {
     const b = e.target.closest('[data-tab]');
@@ -1286,7 +1400,7 @@ async function boot() {
   economy = ec.status === 'fulfilled' ? ec.value : null;
   storylines = sl.status === 'fulfilled' ? sl.value : null;
   if (fd.status !== 'fulfilled') {
-    feedEl().innerHTML = `<article class="card f-silver empty-card" data-ink="dark"><div class="poster"><div class="hl"><h2 class="hl-t">Can’t reach the feed.</h2></div><div class="lower"><div class="body"><p class="summary">Check your connection and reopen Brief.</p></div></div></div></article>`;
+    feedEl().innerHTML = `<article class="card f-silver empty-card" data-ink="dark"><div class="poster"><div class="hl"><h2 class="hl-t">Can’t reach the feed.</h2></div><div class="lower"><div class="body"><p class="summary">Check your connection and reopen Gist.</p></div></div></div></article>`;
     renderEconomy();
     renderThreads();
     setTab(params.get('tab') || state.tab, { initial: true });

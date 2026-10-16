@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Brief</title>
+    <title>Gist</title>
     <meta name="description" content="A news feed you can doomscroll: bold cards, three drops a day, ranked on your phone by your votes." />
 
     <!-- iOS home-screen web app -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Brief" />
+    <meta name="apple-mobile-web-app-title" content="Gist" />
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
@@ -37,11 +37,16 @@
   <body data-tab="feed" data-ink="light">
     <header class="chrome" id="chrome">
       <div class="chrome-row">
-        <div class="wordmark">Brief</div>
-        <nav class="seg" role="tablist" id="tabs" aria-label="Sections">
-          <button role="tab" type="button" data-tab="feed">Feed</button>
-          <button role="tab" type="button" data-tab="economy">Economy</button>
-          <button role="tab" type="button" data-tab="threads">Threads</button>
+        <div class="wordmark">Gist</div>
+        <!-- Page indicator: swipe left/right to change section; the dots are also tappable. -->
+        <nav class="pager" role="tablist" id="tabs" aria-label="Sections (swipe left or right)">
+          <span class="pager-label" id="pager-label" aria-hidden="true">Feed</span>
+          <span class="pager-dots">
+            <span class="pager-thumb" aria-hidden="true"></span>
+            <button role="tab" type="button" data-tab="feed" aria-label="Feed"></button>
+            <button role="tab" type="button" data-tab="economy" aria-label="Economy"></button>
+            <button role="tab" type="button" data-tab="threads" aria-label="Threads"></button>
+          </span>
         </nav>
         <button class="gear" type="button" id="gear" aria-label="Settings">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h8.5M17.5 7.5H20M4 16.5h2.5M11.5 16.5H20"/><circle cx="15" cy="7.5" r="2.5"/><circle cx="9" cy="16.5" r="2.5"/></svg>
@@ -52,7 +57,7 @@
     <div class="progress" id="progress" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
 
     <main id="feed" class="feed" aria-label="Feed" tabindex="-1">
-      <article class="card loading" aria-label="Loading"><div class="poster"><div class="hl"><div class="hl-t">Brief</div></div></div></article>
+      <article class="card loading" aria-label="Loading"><div class="poster"><div class="hl"><div class="hl-t">Gist</div></div></div></article>
     </main>
     <section id="economy" class="page" aria-label="Economy" hidden></section>
     <section id="threads" class="page" aria-label="Threads" hidden></section>
@@ -78,6 +83,6 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-    <noscript><p style="padding:96px 20px">Brief needs JavaScript to load the feed.</p></noscript>
+    <noscript><p style="padding:96px 20px">Gist needs JavaScript to load the feed.</p></noscript>
   </body>
 </html>

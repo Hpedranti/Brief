@@ -1,7 +1,7 @@
 {
-  "name": "Brief",
-  "short_name": "Brief",
-  "description": "A two-minute read: world news through a US lens, the economy, and running threads.",
+  "name": "Gist",
+  "short_name": "Gist",
+  "description": "The gist of the news: bold cards, three drops a day, ranked on your phone by your votes.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

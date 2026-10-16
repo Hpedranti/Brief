@@ -286,6 +286,10 @@ This replaces v1's Dartfrog look.
   works.
 - **Light and dark follow the phone.** Both are first-class; Apple's semantic colors (label,
   secondaryLabel, systemBackground, secondarySystemBackground) are the model.
+- **Sections.** Swipe left/right anywhere to move Feed ↔ Economy ↔ Threads (the page follows the finger;
+  commits past 25% of the width or on a flick; rubber-bands at the ends; disabled while the reader or a
+  sheet is open). The top bar shows the current section's name plus three dots with a sliding thumb; the
+  dots are also tappable. Display name on the phone is **Gist** (repo, storage keys and job stay "Brief").
 - **Materials.** The top bar, rail and sheets use translucent blur (`backdrop-filter`) like iOS
   chrome, but content is never covered by heavy panels.
 - **Motion with springs.** Spring curves on vote buttons, the double-tap heart burst, sheet open/close,
