@@ -1,28 +1,65 @@
 {
   "version": 1,
-  "updated_at": "2026-09-26T13:00:00Z",
+  "updated_at": "2026-10-15T13:03:00Z",
   "storylines": [
     {
-      "id": "sl-vell-valley-conflict",
+      "id": "sl-vell-valley",
       "title": "Vell Valley conflict (fictional)",
-      "summary": "Fixture text: talks under a neutral mediator are under way.",
+      "summary": "Fixture text: Northland and Southmark hold a 30-day ceasefire and are now in talks; heavy guns have been pulled back.",
       "status": "active",
       "first_seen": "2026-09-01",
-      "last_updated": "2026-09-20",
+      "last_updated": "2026-10-14",
       "events": [
-        { "date": "2026-09-20", "text": "Talks open under a neutral mediator.", "url": "https://example.com/world/vell-talks-open" },
-        { "date": "2026-09-01", "text": "Fighting escalates along the valley border.", "url": "https://example.com/world/vell-escalation" }
+        {
+          "date": "2026-10-14",
+          "text": "A 30-day ceasefire takes effect.",
+          "url": "https://example.com/fx/prev/vell-ceasefire"
+        }
       ]
     },
     {
-      "id": "sl-kest-tariffs",
-      "title": "Kest tariff dispute (fictional)",
-      "summary": "Fixture text: the model omits this one, so the job carries it forward and marks it dormant.",
+      "id": "sl-fed-path",
+      "title": "The Fed's rate path (fictional)",
+      "summary": "Fixture text: after a September cut, officials signal one more cut is possible this year.",
       "status": "active",
-      "first_seen": "2026-08-20",
-      "last_updated": "2026-09-05",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-10-14",
       "events": [
-        { "date": "2026-09-05", "text": "Kest announces retaliatory tariffs.", "url": null }
+        {
+          "date": "2026-09-16",
+          "text": "The Fed cuts by a quarter point.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sl-calloway-strike",
+      "title": "Calloway port strike (fictional)",
+      "summary": "Fixture text: dock workers are voting on a contract offer after a month on strike.",
+      "status": "active",
+      "first_seen": "2026-09-12",
+      "last_updated": "2026-10-14",
+      "events": [
+        {
+          "date": "2026-10-14",
+          "text": "Strike enters its fifth week.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sl-old-dormant",
+      "title": "Harbor bridge repairs (fictional)",
+      "summary": "Fixture text: repairs paused pending funding.",
+      "status": "dormant",
+      "first_seen": "2026-08-01",
+      "last_updated": "2026-09-10",
+      "events": [
+        {
+          "date": "2026-09-10",
+          "text": "Repairs paused.",
+          "url": null
+        }
       ]
     }
   ]

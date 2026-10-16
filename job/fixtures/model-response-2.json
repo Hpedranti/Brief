@@ -1,0 +1,741 @@
+{
+  "cards": [
+    {
+      "headline": "Vell Valley talks open as both sides pull back heavy guns",
+      "summary": "Fixture text: monitors confirmed artillery moved 20 km from the line as talks began in a neutral city.",
+      "why_it_matters": "A durable truce would lower shipping insurance costs for US importers.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "europe"
+      ],
+      "entities": [
+        "Northland",
+        "Southmark"
+      ],
+      "importance": 5,
+      "follows": "2026-10-15T19-c01",
+      "storyline_id": "sl-vell-valley",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Vell Valley talks open as both sides pull back heavy guns",
+          "url": "https://example.com/fx/d2/01-vell-valley-talks-open-as-both-sides-pul"
+        }
+      ]
+    },
+    {
+      "headline": "Kestrel humanoids sort parcels without remote operators",
+      "summary": "Fixture text: the fictional company showed robots working a full shift in a parcel hub with no human teleoperation.",
+      "why_it_matters": "Autonomy, not hardware, is the main barrier to useful humanoids.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "ai"
+      ],
+      "entities": [
+        "Kestrel Robotics"
+      ],
+      "importance": 3,
+      "follows": "2026-10-15T19-c03",
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Kestrel humanoids sort parcels without remote operators",
+          "url": "https://example.com/fx/d2/02-kestrel-humanoids-sort-parcels-without-r"
+        }
+      ]
+    },
+    {
+      "headline": "White House issues guidance on AI tools in federal hiring",
+      "summary": "Fixture text: agencies must test AI screening tools for bias and tell applicants when they are used.",
+      "why_it_matters": "Federal rules often set the template for private employers.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "policy-regulation"
+      ],
+      "entities": [
+        "White House"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "White House issues guidance on AI tools in federal hiring",
+          "url": "https://example.com/fx/d2/03-white-house-issues-guidance-on-ai-tools-"
+        }
+      ]
+    },
+    {
+      "headline": "Retail sales rose 0.4% in September, fictional survey shows",
+      "summary": "Fixture text: spending on restaurants and travel led gains while furniture sales fell.",
+      "why_it_matters": "Consumer spending drives about two-thirds of the US economy.",
+      "region": "US",
+      "topics": [
+        "economy"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-fed-path",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Retail sales rose 0.4% in September, fictional survey shows",
+          "url": "https://example.com/fx/d2/04-retail-sales-rose-0-4-in-september-ficti"
+        }
+      ]
+    },
+    {
+      "headline": "Qaldar and neighbors sign a water-sharing pact",
+      "summary": "Fixture text: the fictional states agreed to split river flows and build two desalination plants.",
+      "why_it_matters": "Water disputes have fueled conflict in a region where US troops are based.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "climate"
+      ],
+      "entities": [
+        "Qaldar"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Qaldar and neighbors sign a water-sharing pact",
+          "url": "https://example.com/fx/d2/05-qaldar-and-neighbors-sign-a-water-sharin"
+        }
+      ]
+    },
+    {
+      "headline": "Tovu elects its first woman prime minister",
+      "summary": "Fixture text: the fictional island nation's parliament chose a former finance minister.",
+      "why_it_matters": "Tovu sits on Pacific sea lanes the US Navy patrols.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "elections"
+      ],
+      "entities": [
+        "Tovu"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Tovu elects its first woman prime minister",
+          "url": "https://example.com/fx/d2/06-tovu-elects-its-first-woman-prime-minist"
+        }
+      ]
+    },
+    {
+      "headline": "Port of Sanmar opens a new deepwater berth",
+      "summary": "Fixture text: the fictional port can now take the largest container ships, cutting transit times by two days.",
+      "why_it_matters": "New routes can lower costs for US exporters to Africa.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "trade"
+      ],
+      "entities": [
+        "Port of Sanmar"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Port of Sanmar opens a new deepwater berth",
+          "url": "https://example.com/fx/d2/07-port-of-sanmar-opens-a-new-deepwater-ber"
+        }
+      ]
+    },
+    {
+      "headline": "Lantern-2 probe sends first close images of a comet",
+      "summary": "Fixture text: the fictional probe passed 800 km from the comet and found jets of water vapor.",
+      "why_it_matters": "Comets hold clues to how Earth got its water.",
+      "region": "Global",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "Lantern-2"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Lantern-2 probe sends first close images of a comet",
+          "url": "https://example.com/fx/d2/08-lantern-2-probe-sends-first-close-images"
+        }
+      ]
+    },
+    {
+      "headline": "Trial finds a cheap pill cuts migraine days by a third",
+      "summary": "Fixture text: a fictional 2,000-patient trial tested a generic blood pressure drug.",
+      "why_it_matters": "Migraines affect about 1 in 7 Americans.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Trial finds a cheap pill cuts migraine days by a third",
+          "url": "https://example.com/fx/d2/09-trial-finds-a-cheap-pill-cuts-migraine-d"
+        }
+      ]
+    },
+    {
+      "headline": "State high court strikes down Pell County district map",
+      "summary": "Fixture text: the fictional court ordered a new map before next year's local elections.",
+      "why_it_matters": "Redistricting fights decide who controls local and state government.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "elections"
+      ],
+      "entities": [
+        "Pell County"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "State high court strikes down Pell County district map",
+          "url": "https://example.com/fx/d2/10-state-high-court-strikes-down-pell-count"
+        }
+      ]
+    },
+    {
+      "headline": "Pinecone patches a browser flaw used in targeted attacks",
+      "summary": "Fixture text: the fictional company urged users to update after spyware exploited the bug.",
+      "why_it_matters": "Update your browser: the flaw was used before a fix existed.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "big-tech"
+      ],
+      "entities": [
+        "Pinecone"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Pinecone patches a browser flaw used in targeted attacks",
+          "url": "https://example.com/fx/d2/11-pinecone-patches-a-browser-flaw-used-in-"
+        }
+      ]
+    },
+    {
+      "headline": "Northland orders 12 air-defense batteries",
+      "summary": "Fixture text: the fictional state signed a contract worth $3 billion, its largest arms deal.",
+      "why_it_matters": "Allied orders support US defense jobs and shape deterrence in Europe.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "europe"
+      ],
+      "entities": [
+        "Northland"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Northland orders 12 air-defense batteries",
+          "url": "https://example.com/fx/d2/12-northland-orders-12-air-defense-batterie"
+        }
+      ]
+    },
+    {
+      "headline": "Tessera shares fall 9% after chip plant delay",
+      "summary": "Fixture text: investors cut forecasts after the fictional chipmaker pushed back its newest factory.",
+      "why_it_matters": "Chip stocks weigh heavily in US index funds.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "chips"
+      ],
+      "entities": [
+        "Tessera Semiconductor"
+      ],
+      "importance": 2,
+      "follows": "2026-10-15T19-c05",
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Tessera shares fall 9% after chip plant delay",
+          "url": "https://example.com/fx/d2/13-tessera-shares-fall-9-after-chip-plant-d"
+        }
+      ]
+    },
+    {
+      "headline": "Grid operator adds record battery storage ahead of winter",
+      "summary": "Fixture text: the fictional operator says new batteries can power 2 million homes for four hours.",
+      "why_it_matters": "Batteries help prevent winter blackouts like recent cold-snap outages.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "climate"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Grid operator adds record battery storage ahead of winter",
+          "url": "https://example.com/fx/d2/14-grid-operator-adds-record-battery-storag"
+        }
+      ]
+    },
+    {
+      "headline": "Calloway dock workers approve contract, ending strike",
+      "summary": "Fixture text: 71% voted yes; ships will start unloading tomorrow.",
+      "why_it_matters": "The backlog of US-bound cargo should clear within weeks.",
+      "region": "Asia",
+      "topics": [
+        "jobs-labor",
+        "trade"
+      ],
+      "entities": [
+        "Calloway Dockworkers Union"
+      ],
+      "importance": 4,
+      "follows": "2026-10-15T19-c19",
+      "storyline_id": "sl-calloway-strike",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Calloway dock workers approve contract, ending strike",
+          "url": "https://example.com/fx/d2/15-calloway-dock-workers-approve-contract-e"
+        }
+      ]
+    },
+    {
+      "headline": "US and Maravel open talks on coffee tariffs",
+      "summary": "Fixture text: the new fictional government asked to cut duties on coffee and cocoa exports.",
+      "why_it_matters": "Lower tariffs could trim US coffee prices.",
+      "region": "Americas",
+      "topics": [
+        "trade",
+        "latin-america"
+      ],
+      "entities": [
+        "Maravel"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-maravel-election",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "US and Maravel open talks on coffee tariffs",
+          "url": "https://example.com/fx/d2/16-us-and-maravel-open-talks-on-coffee-tari"
+        }
+      ]
+    },
+    {
+      "headline": "Two former Lumen researchers raise $25M for AI tutoring",
+      "summary": "Fixture text: the fictional startup will sell math tutoring to school districts.",
+      "why_it_matters": "Schools are deciding now how much to rely on AI tutors.",
+      "region": "US",
+      "topics": [
+        "startups-vc",
+        "ai"
+      ],
+      "entities": [
+        "Lumen Labs"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Two former Lumen researchers raise $25M for AI tutoring",
+          "url": "https://example.com/fx/d2/17-two-former-lumen-researchers-raise-25m-f"
+        }
+      ]
+    },
+    {
+      "headline": "Rail freight volumes hit a two-year high",
+      "summary": "Fixture text: fictional industry data show carloads up 6% from a year ago.",
+      "why_it_matters": "Freight volume is an early read on the goods economy.",
+      "region": "US",
+      "topics": [
+        "autos-transport",
+        "economy"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Rail freight volumes hit a two-year high",
+          "url": "https://example.com/fx/d2/18-rail-freight-volumes-hit-a-two-year-high"
+        }
+      ]
+    },
+    {
+      "headline": "Jury convicts former Brookhaven mayor of bribery",
+      "summary": "Fixture text: the fictional ex-mayor took payments from a towing contractor, prosecutors said.",
+      "why_it_matters": "A reminder of how local contracts can be abused.",
+      "region": "US",
+      "topics": [
+        "crime-justice"
+      ],
+      "entities": [
+        "Brookhaven"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Jury convicts former Brookhaven mayor of bribery",
+          "url": "https://example.com/fx/d2/19-jury-convicts-former-brookhaven-mayor-of"
+        }
+      ]
+    },
+    {
+      "headline": "Paper Moons tops the weekend box office",
+      "summary": "Fixture text: the fictional animated film earned $48 million in its debut.",
+      "why_it_matters": "Original films are rarely this big at the box office.",
+      "region": "US",
+      "topics": [
+        "culture-sports"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Paper Moons tops the weekend box office",
+          "url": "https://example.com/fx/d2/20-paper-moons-tops-the-weekend-box-office"
+        }
+      ]
+    },
+    {
+      "headline": "Early voting opens in three special elections",
+      "summary": "Fixture text: voters in three fictional districts will fill House seats left vacant this summer.",
+      "why_it_matters": "The House majority is narrow; each seat counts.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "House of Representatives"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Early voting opens in three special elections",
+          "url": "https://example.com/fx/d2/21-early-voting-opens-in-three-special-elec"
+        }
+      ]
+    },
+    {
+      "headline": "Ten Pacific states agree on joint fishing patrols",
+      "summary": "Fixture text: the fictional pact shares patrol boats and satellite data against illegal fishing.",
+      "why_it_matters": "The US has pushed for stronger Pacific partnerships.",
+      "region": "Asia",
+      "topics": [
+        "geopolitics",
+        "asia"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Ten Pacific states agree on joint fishing patrols",
+          "url": "https://example.com/fx/d2/22-ten-pacific-states-agree-on-joint-fishin"
+        }
+      ]
+    },
+    {
+      "headline": "Qaldar raises oil output by 200,000 barrels a day",
+      "summary": "Fixture text: repeat of an earlier card, no new development.",
+      "why_it_matters": "Should be dropped.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "middle-east"
+      ],
+      "entities": [
+        "Qaldar"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Qaldar raises oil output by 200,000 barrels a day",
+          "url": "https://example.com/fx/d2/23-qaldar-raises-oil-output-by-200-000-barr"
+        }
+      ]
+    },
+    {
+      "headline": "Deep-sea survey finds 30 new species off Tovu",
+      "summary": "Fixture text: a fictional expedition logged fish, corals and sponges never described before.",
+      "why_it_matters": "Most of the deep ocean is still unmapped.",
+      "region": "Global",
+      "topics": [
+        "science"
+      ],
+      "entities": [
+        "Tovu"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-made-up",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Deep-sea survey finds 30 new species off Tovu",
+          "url": "https://example.com/fx/d2/24-deep-sea-survey-finds-30-new-species-off"
+        }
+      ]
+    }
+  ],
+  "economy": {
+    "read": "Fixture text: inflation is running near 2.7% with unemployment at 4.3%. The Fed cut its target range at its September meeting, and markets lean toward a hold in October. Long-term yields and mortgage rates eased slightly this week.",
+    "indicators": [
+      {
+        "key": "fedfunds",
+        "label": "Fed funds target",
+        "value": "3.75–4.00",
+        "unit": "%",
+        "as_of": "2026-09-18",
+        "change": "down 0.25",
+        "note": "Cut at the September meeting"
+      },
+      {
+        "key": "fedfunds_effective",
+        "label": "Fed funds (effective)",
+        "value": "4.08",
+        "unit": "%",
+        "as_of": "2026-08-01",
+        "change": "down 0.25",
+        "note": "Monthly average"
+      },
+      {
+        "key": "cpi_yoy",
+        "label": "CPI inflation (YoY)",
+        "value": "2.7",
+        "unit": "%",
+        "as_of": "2026-08-01",
+        "change": "unch",
+        "note": "Fixture data"
+      },
+      {
+        "key": "unrate",
+        "label": "Unemployment",
+        "value": "4.30",
+        "unit": "%",
+        "as_of": "2026-08-01",
+        "change": "unch",
+        "note": "Fixture data"
+      },
+      {
+        "key": "dgs10",
+        "label": "10-yr Treasury",
+        "value": "4.09",
+        "unit": "%",
+        "as_of": "2026-09-25",
+        "change": "down 0.06",
+        "note": "Fixture data"
+      },
+      {
+        "key": "dgs2",
+        "label": "2-yr Treasury",
+        "value": "3.55",
+        "unit": "%",
+        "as_of": "2026-09-25",
+        "change": "down 0.03",
+        "note": "Fixture data"
+      },
+      {
+        "key": "mortgage30",
+        "label": "30-yr mortgage",
+        "value": "6.09",
+        "unit": "%",
+        "as_of": "2026-09-25",
+        "change": "down 0.05",
+        "note": "Fixture data"
+      }
+    ],
+    "fed": {
+      "next_meeting": "2026-10-28",
+      "odds": [
+        {
+          "label": "Hold",
+          "prob": 0.57
+        },
+        {
+          "label": "Cut 25bps",
+          "prob": 0.4
+        },
+        {
+          "label": "Cut >25bps",
+          "prob": 0.02
+        }
+      ],
+      "note": "Fixture text: markets lean toward a hold after September's cut."
+    },
+    "week_ahead": [
+      {
+        "date": "2026-10-21",
+        "event": "Fictional housing starts (Sep)",
+        "why_it_matters": "Fixture text: a read on home building as rates fall."
+      }
+    ]
+  },
+  "storylines": [
+    {
+      "id": "sl-vell-valley",
+      "title": "Vell Valley conflict (fictional)",
+      "summary": "Fixture text: Northland and Southmark hold a 30-day ceasefire and are now in talks; heavy guns have been pulled back.",
+      "status": "active",
+      "first_seen": "2026-09-01",
+      "last_updated": "2026-10-15",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "text": "Talks open; both sides pull back heavy guns.",
+          "url": "https://example.com/fx/d2/01-vell-valley-talks-open-as-both-sides-pul"
+        },
+        {
+          "date": "2026-10-15",
+          "text": "Both sides agree to talks on extending the truce.",
+          "url": "https://example.com/fx/d1/01-northland-and-southmark-agree-to-talks-o"
+        },
+        {
+          "date": "2026-10-14",
+          "text": "A 30-day ceasefire takes effect.",
+          "url": "https://example.com/fx/prev/vell-ceasefire"
+        }
+      ]
+    },
+    {
+      "id": "sl-fed-path",
+      "title": "The Fed's rate path (fictional)",
+      "summary": "Fixture text: after a September cut, officials signal one more cut is possible this year.",
+      "status": "active",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-10-15",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "text": "Governor Hale backs one more cut.",
+          "url": "https://example.com/fx/d1/02-fed-governor-ana-hale-backs-one-more-rat"
+        },
+        {
+          "date": "2026-09-16",
+          "text": "The Fed cuts by a quarter point.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sl-calloway-strike",
+      "title": "Calloway port strike (fictional)",
+      "summary": "Fixture text: workers approved a contract, ending a month-long strike.",
+      "status": "active",
+      "first_seen": "2026-09-12",
+      "last_updated": "2026-10-15",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "text": "Workers approve the contract; strike ends.",
+          "url": "https://example.com/fx/d2/15-calloway-dock-workers-approve-contract-e"
+        },
+        {
+          "date": "2026-10-15",
+          "text": "Union puts a contract offer to a vote.",
+          "url": "https://example.com/fx/d1/19-calloway-dock-workers-vote-on-a-new-cont"
+        },
+        {
+          "date": "2026-10-14",
+          "text": "Strike enters its fifth week.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sl-maravel-election",
+      "title": "Maravel's new government (fictional)",
+      "summary": "Fixture text: the opposition won a snap election in a landslide and opened trade talks with the US.",
+      "status": "active",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "text": "New government opens tariff talks with the US.",
+          "url": "https://example.com/fx/d2/16-us-and-maravel-open-talks-on-coffee-tari"
+        },
+        {
+          "date": "2026-10-15",
+          "text": "Opposition wins two-thirds of seats.",
+          "url": "https://example.com/fx/d1/17-maravel-opposition-wins-snap-election-in"
+        }
+      ]
+    },
+    {
+      "id": "sl-old-dormant",
+      "title": "Harbor bridge repairs (fictional)",
+      "summary": "Fixture text: repairs paused pending funding.",
+      "status": "dormant",
+      "first_seen": "2026-08-01",
+      "last_updated": "2026-09-10",
+      "events": [
+        {
+          "date": "2026-09-10",
+          "text": "Repairs paused.",
+          "url": null
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,10 @@ name: brief
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # 13:00 UTC = 6 am PDT / 5 am PST
+    # Three drops a day. Pacific: 6 am / noon / 6 pm in summer (PDT), 5 / 11 / 5 in winter (PST).
+    - cron: "0 13 * * *"
+    - cron: "0 19 * * *"
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,7 +18,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -23,10 +26,11 @@ jobs:
         with:
           node-version: 24
 
-      - name: Build today's brief
+      - name: Build this drop
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BRIEF_MODEL: ${{ vars.BRIEF_MODEL }}
+          BRIEF_EFFORT: ${{ vars.BRIEF_EFFORT }}
         run: node job/build-brief.mjs
 
       - name: Validate
@@ -36,11 +40,11 @@ jobs:
         run: |
           git config user.name "brief-bot"
           git config user.email "brief-bot@users.noreply.github.com"
-          git add docs/data
+          git add -A docs/data
           if git diff --cached --quiet; then
             echo "no changes"
           else
-            git commit -m "brief: $(TZ=America/Los_Angeles date +%F)"
+            git commit -m "brief: drop $(date -u +%Y-%m-%dT%H)"
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi

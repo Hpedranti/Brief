@@ -1,14 +1,14 @@
 {
-  "$comment": "Model-output schema for Brief. = docs/data/brief.json minus version/generated_at/date/model, plus the full storylines list. maxLength/maxItems/minItems>1/minimum/maximum/x-maxWords are enforced by the local validator in build-brief.mjs and stripped before the schema is sent to the API (structured outputs does not support them).",
+  "$comment": "Brief v2 model-output schema: { cards[], economy{}, storylines[] }. The job injects the topic enum from job/topics.json into $defs.topic before sending. maxLength/maxItems/minItems>1/minimum/maximum/x-maxWords are enforced by the local validator in build-brief.mjs and stripped before the schema is sent to the API. Cards are validated one by one (bad cards are dropped); economy and storylines must validate as a whole. The job adds id, drop and published_at to each card.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["today", "economy", "washington", "storyline_updates", "storylines"],
+  "required": ["cards", "economy", "storylines"],
   "properties": {
-    "today": { "type": "array", "minItems": 3, "maxItems": 5, "items": { "$ref": "#/$defs/item" } },
+    "cards": { "type": "array", "minItems": 20, "maxItems": 50, "items": { "$ref": "#/$defs/card" } },
     "economy": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["read", "indicators", "fed", "week_ahead", "items"],
+      "required": ["read", "indicators", "fed", "week_ahead"],
       "properties": {
         "read": { "type": "string", "maxLength": 480, "x-maxWords": 60 },
         "indicators": {
@@ -64,21 +64,6 @@
               "why_it_matters": { "type": "string", "maxLength": 150, "x-maxWords": 15 }
             }
           }
-        },
-        "items": { "type": "array", "maxItems": 3, "items": { "$ref": "#/$defs/item" } }
-      }
-    },
-    "washington": { "type": "array", "maxItems": 3, "items": { "$ref": "#/$defs/item" } },
-    "storyline_updates": {
-      "type": "array",
-      "maxItems": 12,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["storyline_id", "update"],
-        "properties": {
-          "storyline_id": { "type": "string", "maxLength": 60 },
-          "update": { "type": "string", "maxLength": 300, "x-maxWords": 30 }
         }
       }
     },
@@ -115,17 +100,20 @@
     }
   },
   "$defs": {
-    "item": {
+    "topic": { "type": "string", "$comment": "enum injected from job/topics.json" },
+    "card": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "headline", "what_happened", "us_angle", "whats_new", "region", "storyline_id", "sources"],
+      "required": ["headline", "summary", "why_it_matters", "region", "topics", "entities", "importance", "follows", "storyline_id", "sources"],
       "properties": {
-        "id": { "type": "string", "maxLength": 40 },
-        "headline": { "type": "string", "maxLength": 80 },
-        "what_happened": { "type": "string", "maxLength": 400 },
-        "us_angle": { "type": "string", "maxLength": 400 },
-        "whats_new": { "type": "string", "maxLength": 250 },
+        "headline": { "type": "string", "minLength": 8, "maxLength": 80 },
+        "summary": { "type": "string", "maxLength": 340, "x-maxWords": 45 },
+        "why_it_matters": { "type": "string", "maxLength": 230, "x-maxWords": 30 },
         "region": { "type": "string", "enum": ["Europe", "Middle East", "Asia", "Americas", "Africa", "US", "Global"] },
+        "topics": { "type": "array", "minItems": 1, "maxItems": 3, "items": { "$ref": "#/$defs/topic" } },
+        "entities": { "type": "array", "maxItems": 4, "items": { "type": "string", "maxLength": 60 } },
+        "importance": { "type": "integer", "enum": [1, 2, 3, 4, 5] },
+        "follows": { "anyOf": [{ "type": "string", "maxLength": 40 }, { "type": "null" }] },
         "storyline_id": { "anyOf": [{ "type": "string", "maxLength": 60 }, { "type": "null" }] },
         "sources": {
           "type": "array",
@@ -137,7 +125,7 @@
             "required": ["outlet", "title", "url"],
             "properties": {
               "outlet": { "type": "string", "maxLength": 40 },
-              "title": { "type": "string", "maxLength": 200 },
+              "title": { "type": "string", "maxLength": 300 },
               "url": { "type": "string", "format": "uri" }
             }
           }

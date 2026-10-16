@@ -1,0 +1,190 @@
+{
+  "version": 2,
+  "updated_at": "2026-10-15T13:03:00Z",
+  "drops": [
+    {
+      "id": "2026-10-13T01",
+      "at": "2026-10-13T01:03:00Z",
+      "model": "fixture",
+      "count": 3
+    },
+    {
+      "id": "2026-10-15T13",
+      "at": "2026-10-15T13:03:00Z",
+      "model": "fixture",
+      "count": 4
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-10-13T01-c01",
+      "drop": "2026-10-13T01",
+      "headline": "Old fixture story about a fictional telescope",
+      "summary": "Fixture text: an earlier fictional story in the rolling pool.",
+      "why_it_matters": "Fixture text: pool rollover test.",
+      "region": "Global",
+      "topics": [
+        "science"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-12T22:00:00Z",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Old fixture story about a fictional telescope",
+          "url": "https://example.com/fx/prev/2026-10-13T01-1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13T01-c02",
+      "drop": "2026-10-13T01",
+      "headline": "Old fixture story about fictional bond auctions",
+      "summary": "Fixture text: an earlier fictional story in the rolling pool.",
+      "why_it_matters": "Fixture text: pool rollover test.",
+      "region": "Global",
+      "topics": [
+        "markets"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-12T23:00:00Z",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Old fixture story about fictional bond auctions",
+          "url": "https://example.com/fx/prev/2026-10-13T01-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13T01-c03",
+      "drop": "2026-10-13T01",
+      "headline": "Old fixture story about a fictional flu season",
+      "summary": "Fixture text: an earlier fictional story in the rolling pool.",
+      "why_it_matters": "Fixture text: pool rollover test.",
+      "region": "Global",
+      "topics": [
+        "health"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-13T00:00:00Z",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Old fixture story about a fictional flu season",
+          "url": "https://example.com/fx/prev/2026-10-13T01-3"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15T13-c01",
+      "drop": "2026-10-15T13",
+      "headline": "Northland and Southmark ceasefire holds for a second day",
+      "summary": "Fixture text: an earlier fictional story in the rolling pool.",
+      "why_it_matters": "Fixture text: pool rollover test.",
+      "region": "Global",
+      "topics": [
+        "war-conflict",
+        "europe"
+      ],
+      "entities": [
+        "Northland",
+        "Southmark"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-vell-valley",
+      "published_at": "2026-10-15T11:00:00Z",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Northland and Southmark ceasefire holds for a second day",
+          "url": "https://example.com/fx/prev/2026-10-15T13-1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15T13-c02",
+      "drop": "2026-10-15T13",
+      "headline": "Pinecone shows a fictional AI assistant for spreadsheets",
+      "summary": "Fixture text: an earlier fictional story in the rolling pool.",
+      "why_it_matters": "Fixture text: pool rollover test.",
+      "region": "Global",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Pinecone"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T10:30:00Z",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Pinecone shows a fictional AI assistant for spreadsheets",
+          "url": "https://example.com/fx/prev/2026-10-15T13-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15T13-c03",
+      "drop": "2026-10-15T13",
+      "headline": "Fictional Fed minutes show split over pace of cuts",
+      "summary": "Fixture text: an earlier fictional story in the rolling pool.",
+      "why_it_matters": "Fixture text: pool rollover test.",
+      "region": "Global",
+      "topics": [
+        "fed-rates"
+      ],
+      "entities": [
+        "Federal Reserve"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-fed-path",
+      "published_at": "2026-10-15T09:00:00Z",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Fictional Fed minutes show split over pace of cuts",
+          "url": "https://example.com/fx/prev/2026-10-15T13-3"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-15T13-c04",
+      "drop": "2026-10-15T13",
+      "headline": "Fictional marathon sets a course record",
+      "summary": "Fixture text: an earlier fictional story in the rolling pool.",
+      "why_it_matters": "Fixture text: pool rollover test.",
+      "region": "Global",
+      "topics": [
+        "culture-sports"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T08:00:00Z",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Fictional marathon sets a course record",
+          "url": "https://example.com/fx/prev/2026-10-15T13-4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,745 @@
+{
+  "cards": [
+    {
+      "headline": "Northland and Southmark agree to talks on extending Vell Valley truce",
+      "summary": "Fixture text: negotiators from the two fictional states said they will meet next week to discuss turning the 30-day ceasefire into a longer deal.",
+      "why_it_matters": "A longer truce would calm shipping lanes that carry US-bound goods.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "europe"
+      ],
+      "entities": [
+        "Northland",
+        "Southmark"
+      ],
+      "importance": 5,
+      "follows": "2026-10-15T13-c01",
+      "storyline_id": "sl-vell-valley",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Northland and Southmark agree to talks on extending Vell Valley truce",
+          "url": "https://example.com/fx/d1/01-northland-and-southmark-agree-to-talks-o"
+        }
+      ]
+    },
+    {
+      "headline": "Fed governor Ana Hale backs one more rate cut this year",
+      "summary": "Fixture text: the fictional governor said cooling inflation leaves room for one more quarter-point cut before December.",
+      "why_it_matters": "Another cut would lower borrowing costs for mortgages and car loans.",
+      "region": "US",
+      "topics": [
+        "fed-rates",
+        "economy"
+      ],
+      "entities": [
+        "Federal Reserve",
+        "Ana Hale"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-fed-path",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Fed governor Ana Hale backs one more rate cut this year",
+          "url": "https://example.com/fx/d1/02-fed-governor-ana-hale-backs-one-more-rat"
+        }
+      ]
+    },
+    {
+      "headline": "Kestrel Robotics opens its first humanoid assembly line in Ohio",
+      "summary": "Fixture text: the fictional startup says the plant will build 200 humanoid robots a year and hire 300 people.",
+      "why_it_matters": "A test of whether humanoid robots can be built at scale in the US.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Kestrel Robotics"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Kestrel Robotics opens its first humanoid assembly line in Ohio",
+          "url": "https://example.com/fx/d1/03-kestrel-robotics-opens-its-first-humanoi"
+        }
+      ]
+    },
+    {
+      "headline": "Lumen Labs releases an open AI model that runs on a laptop",
+      "summary": "Fixture text: the fictional lab published weights for a small model it says matches last year's large models on coding tests.",
+      "why_it_matters": "Capable AI that runs offline changes who can build with it, and how it is regulated.",
+      "region": "Global",
+      "topics": [
+        "ai"
+      ],
+      "entities": [
+        "Lumen Labs"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Lumen Labs releases an open AI model that runs on a laptop",
+          "url": "https://example.com/fx/d1/04-lumen-labs-releases-an-open-ai-model-tha"
+        }
+      ]
+    },
+    {
+      "headline": "Tessera Semiconductor delays its 2 nm chip plant by six months",
+      "summary": "Fixture text: the fictional chipmaker blamed equipment shortages for pushing back its newest factory.",
+      "why_it_matters": "Delays could tighten supply of advanced chips for US phone and AI companies.",
+      "region": "Asia",
+      "topics": [
+        "chips",
+        "asia"
+      ],
+      "entities": [
+        "Tessera Semiconductor"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Tessera Semiconductor delays its 2 nm chip plant by six months",
+          "url": "https://example.com/fx/d1/05-tessera-semiconductor-delays-its-2-nm-ch"
+        }
+      ]
+    },
+    {
+      "headline": "Orbita launches 40 broadband satellites on a reused booster",
+      "summary": "Fixture text: the fictional launch company flew the booster for a ninth time and landed it at sea.",
+      "why_it_matters": "Cheaper launches mean more competition for rural broadband in the US.",
+      "region": "Global",
+      "topics": [
+        "space"
+      ],
+      "entities": [
+        "Orbita"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Orbita launches 40 broadband satellites on a reused booster",
+          "url": "https://example.com/fx/d1/06-orbita-launches-40-broadband-satellites-"
+        }
+      ]
+    },
+    {
+      "headline": "Drought-hardy wheat holds yields through a three-year field trial",
+      "summary": "Fixture text: researchers report the fictional variety kept 90% of normal yield in dry years.",
+      "why_it_matters": "Hardier crops could steady bread and feed prices as droughts grow more common.",
+      "region": "Global",
+      "topics": [
+        "science",
+        "climate"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Drought-hardy wheat holds yields through a three-year field trial",
+          "url": "https://example.com/fx/d1/07-drought-hardy-wheat-holds-yields-through"
+        }
+      ]
+    },
+    {
+      "headline": "Pell County reports its largest measles outbreak in a decade",
+      "summary": "Fixture text: health officials in the fictional county confirmed 41 cases, most in unvaccinated children.",
+      "why_it_matters": "Outbreaks spread fast where vaccination rates fall.",
+      "region": "US",
+      "topics": [
+        "health"
+      ],
+      "entities": [
+        "Pell County"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Pell County reports its largest measles outbreak in a decade",
+          "url": "https://example.com/fx/d1/08-pell-county-reports-its-largest-measles-"
+        }
+      ]
+    },
+    {
+      "headline": "Senate panel advances a fictional rail safety bill",
+      "summary": "Fixture text: the bill would require new brake sensors on freight cars carrying hazardous materials.",
+      "why_it_matters": "Freight trains carrying chemicals pass through thousands of US towns.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Senate"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Senate panel advances a fictional rail safety bill",
+          "url": "https://example.com/fx/d1/09-senate-panel-advances-a-fictional-rail-s"
+        }
+      ]
+    },
+    {
+      "headline": "Appeals court pauses a state law requiring app-store age checks",
+      "summary": "Fixture text: the court said the fictional law likely burdens free speech while the case continues.",
+      "why_it_matters": "The ruling shapes how states can regulate kids' phone use.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "big-tech"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Appeals court pauses a state law requiring app-store age checks",
+          "url": "https://example.com/fx/d1/10-appeals-court-pauses-a-state-law-requiri"
+        }
+      ]
+    },
+    {
+      "headline": "Stocks edge higher as bond yields dip",
+      "summary": "Fixture text: the main fictional index rose 0.4% as the 10-year yield slipped to its lowest in a month.",
+      "why_it_matters": "Lower yields ease mortgage rates and help retirement accounts.",
+      "region": "US",
+      "topics": [
+        "markets"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Stocks edge higher as bond yields dip",
+          "url": "https://example.com/fx/d1/11-stocks-edge-higher-as-bond-yields-dip"
+        }
+      ]
+    },
+    {
+      "headline": "Qaldar raises oil output by 200,000 barrels a day",
+      "summary": "Fixture text: the fictional producer said it will raise exports from next month to win back market share.",
+      "why_it_matters": "More oil supply tends to push US gasoline prices down.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "middle-east"
+      ],
+      "entities": [
+        "Qaldar"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Qaldar raises oil output by 200,000 barrels a day",
+          "url": "https://example.com/fx/d1/12-qaldar-raises-oil-output-by-200-000-barr"
+        }
+      ]
+    },
+    {
+      "headline": "Alpine glaciers lost record ice this summer, survey finds",
+      "summary": "Fixture text: a fictional monitoring group says glaciers lost 4% of their volume in one season.",
+      "why_it_matters": "Glacier loss feeds sea-level rise that threatens US coastal cities.",
+      "region": "Europe",
+      "topics": [
+        "climate",
+        "europe"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Alpine glaciers lost record ice this summer, survey finds",
+          "url": "https://example.com/fx/d1/13-alpine-glaciers-lost-record-ice-this-sum"
+        }
+      ]
+    },
+    {
+      "headline": "Pentagon picks two firms to build drone-interceptor prototypes",
+      "summary": "Fixture text: the fictional contracts fund 50 low-cost interceptors for testing next year.",
+      "why_it_matters": "Cheap drones have changed modern wars; US bases need cheap defenses.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "robotics"
+      ],
+      "entities": [
+        "Pentagon"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Pentagon picks two firms to build drone-interceptor prototypes",
+          "url": "https://example.com/fx/d1/14-pentagon-picks-two-firms-to-build-drone-"
+        }
+      ]
+    },
+    {
+      "headline": "Ransomware attack disrupts Harbor Health billing systems",
+      "summary": "Fixture text: the fictional hospital group says patient care continues but bills and prescriptions are delayed.",
+      "why_it_matters": "Hospital hacks can delay care and expose patient records.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "health"
+      ],
+      "entities": [
+        "Harbor Health"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Ransomware attack disrupts Harbor Health billing systems",
+          "url": "https://example.com/fx/d1/15-ransomware-attack-disrupts-harbor-health"
+        }
+      ]
+    },
+    {
+      "headline": "China adds two battery minerals to its export license list",
+      "summary": "Fixture text: in this fictional scenario, exporters of two minerals used in batteries will need permits from next month.",
+      "why_it_matters": "US battery and EV makers rely on these minerals.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "trade"
+      ],
+      "entities": [
+        "China"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "China adds two battery minerals to its export license list",
+          "url": "https://example.com/fx/d1/16-china-adds-two-battery-minerals-to-its-e"
+        }
+      ]
+    },
+    {
+      "headline": "Maravel opposition wins snap election in a landslide",
+      "summary": "Fixture text: the opposition alliance in the fictional island republic won two-thirds of seats.",
+      "why_it_matters": "Maravel hosts a US naval refueling station.",
+      "region": "Americas",
+      "topics": [
+        "elections",
+        "latin-america"
+      ],
+      "entities": [
+        "Maravel"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-maravel-election",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Maravel opposition wins snap election in a landslide",
+          "url": "https://example.com/fx/d1/17-maravel-opposition-wins-snap-election-in"
+        }
+      ]
+    },
+    {
+      "headline": "Fern raises $60M to offer rooftop solar leases to renters",
+      "summary": "Fixture text: the fictional startup will pay landlords to host panels and sell power to tenants.",
+      "why_it_matters": "Most renters cannot install solar on their own.",
+      "region": "US",
+      "topics": [
+        "startups-vc",
+        "energy"
+      ],
+      "entities": [
+        "Fern"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Fern raises $60M to offer rooftop solar leases to renters",
+          "url": "https://example.com/fx/d1/18-fern-raises-60m-to-offer-rooftop-solar-l"
+        }
+      ]
+    },
+    {
+      "headline": "Calloway dock workers vote on a new contract offer",
+      "summary": "Fixture text: the fictional union will count ballots tomorrow on a deal with a 9% raise over three years.",
+      "why_it_matters": "Ending the strike would ease delays for US importers before the holidays.",
+      "region": "Asia",
+      "topics": [
+        "jobs-labor",
+        "trade"
+      ],
+      "entities": [
+        "Calloway Dockworkers Union"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-calloway-strike",
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Calloway dock workers vote on a new contract offer",
+          "url": "https://example.com/fx/d1/19-calloway-dock-workers-vote-on-a-new-cont"
+        }
+      ]
+    },
+    {
+      "headline": "Voltline recalls 80,000 e-bikes over battery fires",
+      "summary": "Fixture text: the fictional maker says owners should stop charging the bikes indoors until they get a free battery swap.",
+      "why_it_matters": "E-bike battery fires are a growing cause of home fires.",
+      "region": "US",
+      "topics": [
+        "autos-transport"
+      ],
+      "entities": [
+        "Voltline"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Voltline recalls 80,000 e-bikes over battery fires",
+          "url": "https://example.com/fx/d1/20-voltline-recalls-80-000-e-bikes-over-bat"
+        }
+      ]
+    },
+    {
+      "headline": "Riverside Rovers win their first league title in 40 years",
+      "summary": "Fixture text: the fictional club clinched the title with two games left.",
+      "why_it_matters": "A feel-good story; the club has a large US fan following.",
+      "region": "Europe",
+      "topics": [
+        "culture-sports"
+      ],
+      "entities": [
+        "Riverside Rovers"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Riverside Rovers win their first league title in 40 years",
+          "url": "https://example.com/fx/d1/21-riverside-rovers-win-their-first-league-"
+        }
+      ]
+    },
+    {
+      "headline": "EU fines Pinecone $1.1 billion over default search deals",
+      "summary": "Fixture text: regulators say the fictional tech giant paid phone makers to keep rivals off home screens.",
+      "why_it_matters": "The case mirrors US antitrust suits against big tech.",
+      "region": "Europe",
+      "topics": [
+        "big-tech",
+        "policy-regulation",
+        "europe"
+      ],
+      "entities": [
+        "Pinecone",
+        "European Commission"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "EU fines Pinecone $1.1 billion over default search deals",
+          "url": "https://example.com/fx/d1/22-eu-fines-pinecone-1-1-billion-over-defau"
+        }
+      ]
+    },
+    {
+      "headline": "Fictional coin doubles in a day",
+      "summary": "Fixture text: bad card, topic not in the vocabulary.",
+      "why_it_matters": "Should be dropped.",
+      "region": "Global",
+      "topics": [
+        "crypto"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Fictional coin doubles in a day",
+          "url": "https://example.com/fx/d1/23-fictional-coin-doubles-in-a-day"
+        }
+      ]
+    },
+    {
+      "headline": "Card citing a URL that was never in the input",
+      "summary": "Fixture text: bad card, its source URL is not in the article list.",
+      "why_it_matters": "Should be dropped.",
+      "region": "US",
+      "topics": [
+        "markets"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Card citing a URL that was never in the input",
+          "url": "https://example.com/fx/not-in-input"
+        }
+      ]
+    },
+    {
+      "headline": "Card following a card id that does not exist",
+      "summary": "Fixture text: bad card, follows points nowhere.",
+      "why_it_matters": "Should be dropped.",
+      "region": "US",
+      "topics": [
+        "economy"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": "2026-10-01T13-c99",
+      "storyline_id": null,
+      "sources": [
+        {
+          "outlet": "Fixture wire",
+          "title": "Card following a card id that does not exist",
+          "url": "https://example.com/fx/d1/25-card-following-a-card-id-that-does-not-e"
+        }
+      ]
+    }
+  ],
+  "economy": {
+    "read": "Fixture text: inflation is running near 2.7% with unemployment at 4.3%. The Fed cut its target range at its September meeting, and markets lean toward a hold in October. Long-term yields and mortgage rates eased slightly this week.",
+    "indicators": [
+      {
+        "key": "fedfunds",
+        "label": "Fed funds target",
+        "value": "3.75–4.00",
+        "unit": "%",
+        "as_of": "2026-09-18",
+        "change": "down 0.25",
+        "note": "Cut at the September meeting"
+      },
+      {
+        "key": "fedfunds_effective",
+        "label": "Fed funds (effective)",
+        "value": "4.08",
+        "unit": "%",
+        "as_of": "2026-08-01",
+        "change": "down 0.25",
+        "note": "Monthly average"
+      },
+      {
+        "key": "cpi_yoy",
+        "label": "CPI inflation (YoY)",
+        "value": "2.7",
+        "unit": "%",
+        "as_of": "2026-08-01",
+        "change": "unch",
+        "note": "Fixture data"
+      },
+      {
+        "key": "unrate",
+        "label": "Unemployment",
+        "value": "4.30",
+        "unit": "%",
+        "as_of": "2026-08-01",
+        "change": "unch",
+        "note": "Fixture data"
+      },
+      {
+        "key": "dgs10",
+        "label": "10-yr Treasury",
+        "value": "4.09",
+        "unit": "%",
+        "as_of": "2026-09-25",
+        "change": "down 0.06",
+        "note": "Fixture data"
+      },
+      {
+        "key": "dgs2",
+        "label": "2-yr Treasury",
+        "value": "3.55",
+        "unit": "%",
+        "as_of": "2026-09-25",
+        "change": "down 0.03",
+        "note": "Fixture data"
+      },
+      {
+        "key": "mortgage30",
+        "label": "30-yr mortgage",
+        "value": "6.09",
+        "unit": "%",
+        "as_of": "2026-09-25",
+        "change": "down 0.05",
+        "note": "Fixture data"
+      }
+    ],
+    "fed": {
+      "next_meeting": "2026-10-28",
+      "odds": [
+        {
+          "label": "Hold",
+          "prob": 0.57
+        },
+        {
+          "label": "Cut 25bps",
+          "prob": 0.4
+        },
+        {
+          "label": "Cut >25bps",
+          "prob": 0.02
+        }
+      ],
+      "note": "Fixture text: markets lean toward a hold after September's cut."
+    },
+    "week_ahead": [
+      {
+        "date": "2026-10-21",
+        "event": "Fictional housing starts (Sep)",
+        "why_it_matters": "Fixture text: a read on home building as rates fall."
+      }
+    ]
+  },
+  "storylines": [
+    {
+      "id": "sl-vell-valley",
+      "title": "Vell Valley conflict (fictional)",
+      "summary": "Fixture text: Northland and Southmark hold a 30-day ceasefire and are preparing talks to extend it.",
+      "status": "active",
+      "first_seen": "2026-09-01",
+      "last_updated": "2026-10-15",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "text": "Both sides agree to talks on extending the truce.",
+          "url": "https://example.com/fx/d1/01-northland-and-southmark-agree-to-talks-o"
+        },
+        {
+          "date": "2026-10-14",
+          "text": "A 30-day ceasefire takes effect.",
+          "url": "https://example.com/fx/prev/vell-ceasefire"
+        }
+      ]
+    },
+    {
+      "id": "sl-fed-path",
+      "title": "The Fed's rate path (fictional)",
+      "summary": "Fixture text: after a September cut, officials signal one more cut is possible this year.",
+      "status": "active",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-10-15",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "text": "Governor Hale backs one more cut.",
+          "url": "https://example.com/fx/d1/02-fed-governor-ana-hale-backs-one-more-rat"
+        },
+        {
+          "date": "2026-09-16",
+          "text": "The Fed cuts by a quarter point.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sl-calloway-strike",
+      "title": "Calloway port strike (fictional)",
+      "summary": "Fixture text: dock workers are voting on a contract offer after a month on strike.",
+      "status": "active",
+      "first_seen": "2026-09-12",
+      "last_updated": "2026-10-15",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "text": "Union puts a contract offer to a vote.",
+          "url": "https://example.com/fx/d1/19-calloway-dock-workers-vote-on-a-new-cont"
+        },
+        {
+          "date": "2026-10-14",
+          "text": "Strike enters its fifth week.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sl-maravel-election",
+      "title": "Maravel's new government (fictional)",
+      "summary": "Fixture text: the opposition won a snap election in a landslide.",
+      "status": "active",
+      "first_seen": "2026-10-15",
+      "last_updated": "2026-10-15",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "text": "Opposition wins two-thirds of seats.",
+          "url": "https://example.com/fx/d1/17-maravel-opposition-wins-snap-election-in"
+        }
+      ]
+    },
+    {
+      "id": "sl-old-dormant",
+      "title": "Harbor bridge repairs (fictional)",
+      "summary": "Fixture text: repairs paused pending funding.",
+      "status": "dormant",
+      "first_seen": "2026-08-01",
+      "last_updated": "2026-09-10",
+      "events": [
+        {
+          "date": "2026-09-10",
+          "text": "Repairs paused.",
+          "url": null
+        }
+      ]
+    }
+  ]
+}

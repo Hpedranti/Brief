@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Fixture Tech (fictional)</title>
+  <id>urn:example:fx-tech</id>
+  <updated>2026-10-16T00:00:00Z</updated>
+  <entry>
+    <title>Fed governor Ana Hale backs one more rate cut this year</title>
+    <link rel="alternate" href="https://example.com/fx/d1/02-fed-governor-ana-hale-backs-one-more-rat"/>
+    <id>urn:example:fx-tech:0</id>
+    <published>2026-10-15T11:52:00Z</published>
+    <summary>the fictional governor said cooling inflation leaves room for one more quarter-point cut before December.</summary>
+  </entry>
+  <entry>
+    <title>Lumen Labs releases an open AI model that runs on a laptop</title>
+    <link rel="alternate" href="https://example.com/fx/d1/04-lumen-labs-releases-an-open-ai-model-tha"/>
+    <id>urn:example:fx-tech:1</id>
+    <published>2026-10-15T12:16:00Z</published>
+    <summary>the fictional lab published weights for a small model it says matches last year's large models on coding tests.</summary>
+  </entry>
+  <entry>
+    <title>Orbita launches 40 broadband satellites on a reused booster</title>
+    <link rel="alternate" href="https://example.com/fx/d1/06-orbita-launches-40-broadband-satellites-"/>
+    <id>urn:example:fx-tech:2</id>
+    <published>2026-10-15T12:40:00Z</published>
+    <summary>the fictional launch company flew the booster for a ninth time and landed it at sea.</summary>
+  </entry>
+  <entry>
+    <title>Pell County reports its largest measles outbreak in a decade</title>
+    <link rel="alternate" href="https://example.com/fx/d1/08-pell-county-reports-its-largest-measles-"/>
+    <id>urn:example:fx-tech:3</id>
+    <published>2026-10-15T13:04:00Z</published>
+    <summary>health officials in the fictional county confirmed 41 cases, most in unvaccinated children.</summary>
+  </entry>
+  <entry>
+    <title>Appeals court pauses a state law requiring app-store age checks</title>
+    <link rel="alternate" href="https://example.com/fx/d1/10-appeals-court-pauses-a-state-law-requiri"/>
+    <id>urn:example:fx-tech:4</id>
+    <published>2026-10-15T13:28:00Z</published>
+    <summary>the court said the fictional law likely burdens free speech while the case continues.</summary>
+  </entry>
+  <entry>
+    <title>Qaldar raises oil output by 200,000 barrels a day</title>
+    <link rel="alternate" href="https://example.com/fx/d1/12-qaldar-raises-oil-output-by-200-000-barr"/>
+    <id>urn:example:fx-tech:5</id>
+    <published>2026-10-15T13:52:00Z</published>
+    <summary>the fictional producer said it will raise exports from next month to win back market share.</summary>
+  </entry>
+  <entry>
+    <title>Pentagon picks two firms to build drone-interceptor prototypes</title>
+    <link rel="alternate" href="https://example.com/fx/d1/14-pentagon-picks-two-firms-to-build-drone-"/>
+    <id>urn:example:fx-tech:6</id>
+    <published>2026-10-15T14:16:00Z</published>
+    <summary>the fictional contracts fund 50 low-cost interceptors for testing next year.</summary>
+  </entry>
+  <entry>
+    <title>China adds two battery minerals to its export license list</title>
+    <link rel="alternate" href="https://example.com/fx/d1/16-china-adds-two-battery-minerals-to-its-e"/>
+    <id>urn:example:fx-tech:7</id>
+    <published>2026-10-15T14:40:00Z</published>
+    <summary>in this fictional scenario, exporters of two minerals used in batteries will need permits from next month.</summary>
+  </entry>
+  <entry>
+    <title>Fern raises $60M to offer rooftop solar leases to renters</title>
+    <link rel="alternate" href="https://example.com/fx/d1/18-fern-raises-60m-to-offer-rooftop-solar-l"/>
+    <id>urn:example:fx-tech:8</id>
+    <published>2026-10-15T15:04:00Z</published>
+    <summary>the fictional startup will pay landlords to host panels and sell power to tenants.</summary>
+  </entry>
+  <entry>
+    <title>Voltline recalls 80,000 e-bikes over battery fires</title>
+    <link rel="alternate" href="https://example.com/fx/d1/20-voltline-recalls-80-000-e-bikes-over-bat"/>
+    <id>urn:example:fx-tech:9</id>
+    <published>2026-10-15T15:28:00Z</published>
+    <summary>the fictional maker says owners should stop charging the bikes indoors until they get a free battery swap.</summary>
+  </entry>
+  <entry>
+    <title>EU fines Pinecone $1.1 billion over default search deals</title>
+    <link rel="alternate" href="https://example.com/fx/d1/22-eu-fines-pinecone-1-1-billion-over-defau"/>
+    <id>urn:example:fx-tech:10</id>
+    <published>2026-10-15T15:52:00Z</published>
+    <summary>regulators say the fictional tech giant paid phone makers to keep rivals off home screens.</summary>
+  </entry>
+  <entry>
+    <title>Card following a card id that does not exist</title>
+    <link rel="alternate" href="https://example.com/fx/d1/25-card-following-a-card-id-that-does-not-e"/>
+    <id>urn:example:fx-tech:11</id>
+    <published>2026-10-15T16:28:00Z</published>
+    <summary>bad card, follows points nowhere.</summary>
+  </entry>
+  <entry>
+    <title>Kestrel humanoids sort parcels without remote operators</title>
+    <link rel="alternate" href="https://example.com/fx/d2/02-kestrel-humanoids-sort-parcels-without-r"/>
+    <id>urn:example:fx-tech:12</id>
+    <published>2026-10-15T20:22:00Z</published>
+    <summary>the fictional company showed robots working a full shift in a parcel hub with no human teleoperation.</summary>
+  </entry>
+  <entry>
+    <title>Retail sales rose 0.4% in September, fictional survey shows</title>
+    <link rel="alternate" href="https://example.com/fx/d2/04-retail-sales-rose-0-4-in-september-ficti"/>
+    <id>urn:example:fx-tech:13</id>
+    <published>2026-10-15T20:46:00Z</published>
+    <summary>spending on restaurants and travel led gains while furniture sales fell.</summary>
+  </entry>
+  <entry>
+    <title>Tovu elects its first woman prime minister</title>
+    <link rel="alternate" href="https://example.com/fx/d2/06-tovu-elects-its-first-woman-prime-minist"/>
+    <id>urn:example:fx-tech:14</id>
+    <published>2026-10-15T21:10:00Z</published>
+    <summary>the fictional island nation's parliament chose a former finance minister.</summary>
+  </entry>
+  <entry>
+    <title>Lantern-2 probe sends first close images of a comet</title>
+    <link rel="alternate" href="https://example.com/fx/d2/08-lantern-2-probe-sends-first-close-images"/>
+    <id>urn:example:fx-tech:15</id>
+    <published>2026-10-15T21:34:00Z</published>
+    <summary>the fictional probe passed 800 km from the comet and found jets of water vapor.</summary>
+  </entry>
+  <entry>
+    <title>State high court strikes down Pell County district map</title>
+    <link rel="alternate" href="https://example.com/fx/d2/10-state-high-court-strikes-down-pell-count"/>
+    <id>urn:example:fx-tech:16</id>
+    <published>2026-10-15T21:58:00Z</published>
+    <summary>the fictional court ordered a new map before next year's local elections.</summary>
+  </entry>
+  <entry>
+    <title>Northland orders 12 air-defense batteries</title>
+    <link rel="alternate" href="https://example.com/fx/d2/12-northland-orders-12-air-defense-batterie"/>
+    <id>urn:example:fx-tech:17</id>
+    <published>2026-10-15T22:22:00Z</published>
+    <summary>the fictional state signed a contract worth $3 billion, its largest arms deal.</summary>
+  </entry>
+  <entry>
+    <title>Grid operator adds record battery storage ahead of winter</title>
+    <link rel="alternate" href="https://example.com/fx/d2/14-grid-operator-adds-record-battery-storag"/>
+    <id>urn:example:fx-tech:18</id>
+    <published>2026-10-15T22:46:00Z</published>
+    <summary>the fictional operator says new batteries can power 2 million homes for four hours.</summary>
+  </entry>
+  <entry>
+    <title>US and Maravel open talks on coffee tariffs</title>
+    <link rel="alternate" href="https://example.com/fx/d2/16-us-and-maravel-open-talks-on-coffee-tari"/>
+    <id>urn:example:fx-tech:19</id>
+    <published>2026-10-15T23:10:00Z</published>
+    <summary>the new fictional government asked to cut duties on coffee and cocoa exports.</summary>
+  </entry>
+  <entry>
+    <title>Rail freight volumes hit a two-year high</title>
+    <link rel="alternate" href="https://example.com/fx/d2/18-rail-freight-volumes-hit-a-two-year-high"/>
+    <id>urn:example:fx-tech:20</id>
+    <published>2026-10-15T23:34:00Z</published>
+    <summary>fictional industry data show carloads up 6% from a year ago.</summary>
+  </entry>
+  <entry>
+    <title>Paper Moons tops the weekend box office</title>
+    <link rel="alternate" href="https://example.com/fx/d2/20-paper-moons-tops-the-weekend-box-office"/>
+    <id>urn:example:fx-tech:21</id>
+    <published>2026-10-15T23:58:00Z</published>
+    <summary>the fictional animated film earned $48 million in its debut.</summary>
+  </entry>
+  <entry>
+    <title>Ten Pacific states agree on joint fishing patrols</title>
+    <link rel="alternate" href="https://example.com/fx/d2/22-ten-pacific-states-agree-on-joint-fishin"/>
+    <id>urn:example:fx-tech:22</id>
+    <published>2026-10-16T00:22:00Z</published>
+    <summary>the fictional pact shares patrol boats and satellite data against illegal fishing.</summary>
+  </entry>
+  <entry>
+    <title>Deep-sea survey finds 30 new species off Tovu</title>
+    <link rel="alternate" href="https://example.com/fx/d2/24-deep-sea-survey-finds-30-new-species-off"/>
+    <id>urn:example:fx-tech:23</id>
+    <published>2026-10-16T00:46:00Z</published>
+    <summary>a fictional expedition logged fish, corals and sponges never described before.</summary>
+  </entry>
+</feed>

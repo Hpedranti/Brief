@@ -1,18 +1,22 @@
 #!/usr/bin/env node
-// Brief — scheduled data job. Node 24, zero dependencies (built-ins only).
+// Brief v2 — scheduled data job (one "drop"). Node 24, zero dependencies (built-ins only).
 //
 //   node job/build-brief.mjs             real run (needs ANTHROPIC_API_KEY)
-//   node job/build-brief.mjs --fixture   offline: job/fixtures/** in, docs/data out
+//   node job/build-brief.mjs --fixture   offline: job/fixtures/** in, two canned drops, docs/data out
 //   node job/build-brief.mjs --dry-run   live fetch of feeds + econ, print payload, no Claude call, no writes
-//   node job/build-brief.mjs --validate  validate docs/data/*.json, exit 1 on failure
+//   node job/build-brief.mjs --validate  validate docs/data/*.json against the v2 shape, exit 1 on failure
 //
-// Env: ANTHROPIC_API_KEY, BRIEF_MODEL (default claude-opus-5),
+// Env: ANTHROPIC_API_KEY, BRIEF_MODEL (default claude-opus-5-5), BRIEF_EFFORT (default medium),
 //      BRIEF_NOW (ISO timestamp override, mostly for tests),
-//      BRIEF_FIXTURE_RESPONSE (path to an alternate canned model response in --fixture mode).
+//      BRIEF_FIXTURE_RESPONSE (path to an alternate canned model response; --fixture then runs ONE drop).
+//
+// Writes (only after everything validates): docs/data/feed.json (rolling 72 h pool, ≤ 250 cards),
+// economy.json, storylines.json, topics.json (copy of job/topics.json), history/<dropId>.json (14 days).
+// Deletes the retired docs/data/brief.json.
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const JOB_DIR = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(JOB_DIR, '..');
@@ -20,24 +24,41 @@ const DATA_DIR = path.join(ROOT, 'docs', 'data');
 const HISTORY_DIR = path.join(DATA_DIR, 'history');
 const FIX_DIR = path.join(JOB_DIR, 'fixtures');
 const SCHEMA = JSON.parse(fs.readFileSync(path.join(JOB_DIR, 'brief.schema.json'), 'utf8'));
+const TOPICS = JSON.parse(fs.readFileSync(path.join(JOB_DIR, 'topics.json'), 'utf8'));
+const TOPIC_SLUGS = TOPICS.map(t => t.slug);
+SCHEMA.$defs.topic = { type: 'string', enum: TOPIC_SLUGS };
 
 const ARGS = new Set(process.argv.slice(2));
 const MODE = ARGS.has('--validate') ? 'validate' : ARGS.has('--fixture') ? 'fixture' : ARGS.has('--dry-run') ? 'dry-run' : 'real';
 
-const MODEL = process.env.BRIEF_MODEL || 'claude-opus-5';
-const USER_AGENT = 'BriefBot/1.0 (+personal news reader)';
+const MODEL = process.env.BRIEF_MODEL || 'claude-opus-5-5';
+const EFFORT = process.env.BRIEF_EFFORT || 'medium';
+const MAX_TOKENS = 32000;
+const USER_AGENT = 'BriefBot/2.0 (+personal news reader)';
 const FEED_TIMEOUT_MS = 10_000;
 const KALSHI_TIMEOUT_MS = 5_000;
-const WINDOW_HOURS = 36;
-const MAX_ARTICLES = 120;
-const HISTORY_DAYS = 30;
+const WINDOW_MAX_HOURS = 36;      // feed window cap
+const WINDOW_OVERLAP_HOURS = 2;   // window starts at previous drop minus this
+const MAX_ARTICLES = 300;
+const SUMMARY_MAX = 300;
+const POOL_HOURS = 72;
+const POOL_MAX = 250;
+const MIN_CARDS = 20;
+const MAX_CARDS = 50;
+const HISTORY_DAYS = 14;
 const MAX_ACTIVE_STORYLINES = 12;
 const DORMANT_AFTER_DAYS = 14;
-const FIXTURE_NOW = '2026-09-27T13:00:00Z';
+// --fixture runs these two drops in order: the second merges into the pool the first wrote.
+const FIXTURE_DROPS = [
+  { now: '2026-10-15T19:04:00Z', response: 'model-response-1.json' },
+  { now: '2026-10-16T01:04:00Z', response: 'model-response-2.json' },
+];
 
-// USD per million tokens [input, output]. Unknown models log tokens only.
+// USD per million tokens [input, output]. Unknown models log tokens only (cost "unknown").
 const PRICES = {
+  'claude-opus-5-5': [4, 20],
   'claude-opus-5': [5, 25],
+  'claude-sonnet-5-5': [2, 10],
   'claude-sonnet-5': [2, 10],
 };
 
@@ -63,11 +84,14 @@ const FRED_SERIES = [
 const log = (...a) => console.log(...a);
 const warn = (...a) => console.warn('WARN', ...a);
 
-function nowDate() {
+function nowDate(fallback) {
   if (process.env.BRIEF_NOW) return new Date(process.env.BRIEF_NOW);
-  if (MODE === 'fixture') return new Date(FIXTURE_NOW);
+  if (fallback) return new Date(fallback);
   return new Date();
 }
+const isoSec = d => new Date(d).toISOString().replace(/\.\d{3}Z$/, 'Z');
+export const dropIdFor = d => new Date(d).toISOString().slice(0, 13); // "YYYY-MM-DDTHH" (UTC hour)
+const dropMs = id => Date.parse(`${String(id).slice(0, 13)}:00:00Z`);
 function laDate(d) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Los_Angeles', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
 }
@@ -231,7 +255,7 @@ function jaccard(a, b) {
   return n / (a.size + b.size - n);
 }
 
-async function gatherArticles(now) {
+async function gatherArticles(now, cutoff) {
   const feeds = loadFeedList();
   const results = await Promise.all(feeds.map(async f => {
     const t0 = Date.now();
@@ -242,7 +266,7 @@ async function gatherArticles(now) {
       return { feed: f, ok: false, entries: [], error: e.name === 'TimeoutError' ? 'timeout' : (e.message || String(e)), ms: Date.now() - t0 };
     }
   }));
-  const cutoff = now.getTime() - WINDOW_HOURS * 3600_000;
+  const windowHours = Math.round((now.getTime() - cutoff) / 360_000) / 10;
   const status = [];
   let all = [];
   for (const r of results) {
@@ -274,9 +298,9 @@ async function gatherArticles(now) {
   capped.sort((a, b) => Date.parse(b.published) - Date.parse(a.published));
   const articles = capped.map(a => ({
     outlet: a.outlet, kind: a.kind, title: a.title.slice(0, 300), url: a.url, published: a.published,
-    summary: a.summary.length > 400 ? a.summary.slice(0, 399).trimEnd() + '…' : a.summary,
+    summary: a.summary.length > SUMMARY_MAX ? a.summary.slice(0, SUMMARY_MAX - 1).trimEnd() + '…' : a.summary,
   }));
-  log(`articles: ${raw} in ${WINDOW_HOURS}h window → ${kept.length} after dedupe → ${articles.length} after cap`);
+  log(`articles: ${raw} in ${windowHours}h window (since ${isoSec(cutoff)}) → ${kept.length} after dedupe → ${articles.length} after cap`);
   return { articles, status };
 }
 
@@ -447,65 +471,78 @@ function nextFomc(list, today) {
 function readJson(p) {
   try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return null; }
 }
-function compactBrief(b) {
-  if (!b) return null;
-  const it = x => ({ headline: x.headline, storyline_id: x.storyline_id ?? null, region: x.region });
-  return {
-    date: b.date,
-    today: (b.today || []).map(it),
-    economy_items: (b.economy?.items || []).map(it),
-    washington: (b.washington || []).map(it),
-    economy_read: b.economy?.read ?? null,
-  };
+function emptyPool() { return { version: 2, updated_at: null, drops: [], cards: [] }; }
+
+// Reads the previous pool + storylines. Committed design sample data (`"sample": true`) is never merged
+// into a real pool: the first real run starts fresh.
+function loadPrevious(dir) {
+  let feed = readJson(path.join(dir, 'feed.json'));
+  let storylines = readJson(path.join(dir, 'storylines.json'));
+  if (feed && feed.sample) {
+    log('previous feed.json is sample data; starting a fresh pool and fresh storylines');
+    feed = null; storylines = null;
+  }
+  if (feed && (feed.version !== 2 || !Array.isArray(feed.cards) || !Array.isArray(feed.drops))) {
+    warn('previous feed.json is not a v2 pool; starting fresh');
+    feed = null;
+  }
+  return { pool: feed || emptyPool(), storylines };
 }
 
 // ───────────────────────────── prompt ─────────────────────────────
 
-const SYSTEM_PROMPT = `You are the editor of "Brief", a two-minute morning news reader for one American reader who wants the world first, seen through a US lens. Each run you receive a dated payload (articles from the last 36 hours, yesterday's brief, the current storylines, economic data, prediction-market odds) and return one JSON object matching the provided schema.
+const SYSTEM_PROMPT = `You are the editor of "Brief", a phone news feed for one American reader. Three times a day (a "drop") you turn a batch of fresh articles into short full-screen cards, update the running storylines, and refresh the Economy tab. You return one JSON object matching the provided schema. The reader's phone ranks cards by their own likes and dislikes; your job is to pick the stories, write good cards and tag them accurately, not to guess the reader's taste.
 
 SELECTION
-- "today": 3–5 items, the most consequential stories in the world today. Lead with international events (wars, elections, diplomacy, disasters, markets abroad) and include a US domestic story only if it clearly outranks the rest. Rank by consequence, not by volume of coverage or novelty.
-- Every item must have a real US angle (security, trade, prices, alliances, citizens abroad, policy). If you cannot state one honestly, pick a different story.
-- "washington": 0–3 items on concrete federal action: votes, bills, executive actions, rules, court rulings, confirmations. No horse-race politics or punditry.
-- "economy.items": 0–3 US-relevant economic news items. Do not repeat a story already in "today".
-- Prefer stories reported by 2+ outlets. Cite 1–3 sources per item, copying outlet, title and url exactly from the article list. Never invent or alter a URL.
+- Write 35–50 cards when the news allows it (fewer only if the article list is thin; never pad). One card = one story: merge articles about the same story into one card with up to 3 sources.
+- Cover the whole range: world, US politics and courts, economy and markets, tech, AI, robotics, chips, science, space, health, defense, energy and climate, culture. Variety rule: no more than 6 cards in this drop share the same primary (first) topic, and at least 8 different primary topics appear when the news allows it.
+- Do not repeat a story listed under RECENT CARDS. If there is a real new development on one of them, write a new card about what changed and set "follows" to that card's id, copied exactly. Otherwise "follows" is null. Never invent an id.
+- Skip live blogs, opinion columns, quizzes, promotions, and routine sports results or celebrity items with no wider significance.
+- Cite 1–3 sources per card, copying outlet, title and url exactly from the article list. Never invent or alter a URL: a card whose URL is not in the list is discarded.
 
-HARD TEXT LIMITS (the whole Today tab must read in under 60 seconds)
-- headline ≤ 80 characters, plain and factual, no clickbait, no questions.
-- what_happened: 1–2 short sentences. us_angle: 1–2 short sentences. whats_new: 1 sentence saying what changed since yesterday's brief, or exactly "New today."
-- economy.read ≤ 60 words. indicator note ≤ 12 words. fed.note ≤ 20 words. week_ahead why_it_matters ≤ 15 words.
-- storyline title ≤ 50 characters, summary ≤ 40 words, event text ≤ 25 words, storyline_updates update: 1 sentence.
+WRITE FOR A US READER
+- why_it_matters says plainly why an American should care: prices, jobs, security, alliances, trade, technology they use, rights, citizens abroad, or the human stakes. If there is no honest US angle, say why it matters to the world. Never stretch for one.
+
+FIELDS AND TEXT BUDGETS
+- headline ≤ 80 characters: plain and factual. No clickbait, no questions.
+- summary ≤ 45 words: what happened. why_it_matters ≤ 30 words.
+- topics: 1–3 slugs from TOPICS below, most specific first. The first one is the card's primary topic.
+- entities: 0–4 proper nouns the story is about (people, companies, countries, agencies), in canonical spelling and the same spelling every time ("Federal Reserve", not "the Fed"; "Nvidia", not "NVIDIA Corp.").
+- importance 1–5 for a general reader: 5 = a major event most people will hear about, 4 = significant, 3 = notable, 2 = niche but interesting, 1 = light. Use the whole range; 5s are rare.
+- region is where the story happens: Europe, Middle East, Asia, Americas, Africa, US, or Global.
+- storyline_id: the id of the storyline the card belongs to (existing or one you create in "storylines"), else null.
 - Plain prose. No markdown, no emoji, no exclamation marks.
 
 ACCURACY
 - Use only facts present in the provided articles and data. Never invent numbers, quotes, dates, names or outcomes.
-- If sources conflict or a detail is unconfirmed, say so briefly (e.g. "reports conflict on casualties"); if unsure what changed, say so in whats_new.
-- region is where the story happens: Europe, Middle East, Asia, Americas, Africa, US, or Global.
-- item ids: use "t1".."t5", "e1".."e3", "w1".."w3" (the job rewrites them).
+- If sources conflict or a detail is unconfirmed, say so briefly (for example "reports conflict on casualties").
 
-ECONOMY
-- economy.indicators: one entry per provided indicator, in the order given. Copy value, unit and as_of verbatim. Never compute, round or restate a number differently. change: compare value with previous ("up 0.2", "down 0.1", "unch") using the two provided numbers, or "" if there is no previous. Omit nothing that was provided; add nothing that was not.
-- economy.fed.next_meeting: copy the provided next FOMC decision date (or null). odds: copy the provided odds labels and probabilities verbatim (shorten a label only to fit 40 chars); [] if none were provided. Do not make up odds.
-- week_ahead: 0–5 scheduled US data releases or events in the next 7 days, only if named in the articles or implied by the provided FOMC date. Otherwise [].
-- economy.read: the state of the US economy this morning, grounded in the indicators and articles.
+ECONOMY (the Economy tab)
+- economy.indicators: one entry per provided indicator, in the order given. Copy value, unit and as_of verbatim. Never compute, round or restate a number differently. change: compare value with previous ("up 0.2", "down 0.1", "unch") using the two provided numbers, or "" if there is no previous. note ≤ 12 words. Omit nothing that was provided; add nothing that was not.
+- economy.fed.next_meeting: copy the provided next FOMC decision date (or null). odds: copy the provided labels and probabilities verbatim (shorten a label only to fit 40 characters); [] if none were provided. fed.note ≤ 20 words.
+- economy.week_ahead: 0–5 scheduled US data releases or events in the next 7 days, only if named in the articles or implied by the provided FOMC date; why_it_matters ≤ 15 words.
+- economy.read ≤ 60 words: the state of the US economy right now, grounded in the indicators and articles.
 
 STORYLINES (continuity matters more than novelty)
-- Return the FULL updated storylines list in "storylines": every previous storyline plus any new ones.
-- Reuse existing ids exactly. Only create a new storyline (id "sl-" + short kebab-case slug, stable forever) for a story likely to run for weeks; tie today's items to storylines via storyline_id (or null).
-- When a storyline moves today: add an event dated today (with a source url from the article list), rewrite its summary to describe where things stand now, set last_updated to today, status "active". Keep events newest-first, at most 20 (drop the oldest). Never edit or re-date past events.
-- A storyline with no event in the last 14 days is "dormant". A dormant storyline becomes active again when it gets a new event.
-- At most 12 active storylines; if more, mark the least recently updated dormant.
-- storyline_updates: one entry per storyline that got a new event today, and only those.`;
+- Return the FULL updated storylines list: every current storyline plus any new ones.
+- Reuse existing ids exactly. Create a new storyline (id "sl-" + short kebab-case slug, stable forever) only for a story likely to run for weeks.
+- When a storyline moves in this drop: add an event dated TODAY (with a source url from the article list), rewrite its summary to say where things stand now, set last_updated to TODAY, status "active". Keep events newest-first, at most 20. Never edit or re-date past events. Several events can share a date.
+- A storyline with no event in the last 14 days is "dormant"; it becomes active again when it gets a new event. At most 12 active storylines.
+- Text limits: title ≤ 50 characters, summary ≤ 40 words, event text ≤ 25 words.
 
-function buildUserPayload({ today, prevBrief, prevStorylines, indicators, odds, nextMeeting, articles }) {
+TOPICS (slug: label)
+${TOPICS.map(t => `${t.slug}: ${t.label}`).join('\n')}`;
+
+function buildUserPayload({ now, dropId, today, pool, storylines, indicators, odds, nextMeeting, articles }) {
   const parts = [];
-  parts.push(`TODAY: ${today} (America/Los_Angeles). This is the date for new storyline events and last_updated.`);
-  parts.push(`\nYESTERDAY'S BRIEF (compact):\n${prevBrief ? JSON.stringify(compactBrief(prevBrief)) : 'none (first run)'}`);
-  parts.push(`\nCURRENT STORYLINES:\n${JSON.stringify(prevStorylines?.storylines ?? [])}`);
-  parts.push(`\nECONOMIC INDICATORS (FRED; copy values verbatim; previous = prior observation):\n${indicators.length ? JSON.stringify(indicators) : 'none fetched today — return economy.indicators as []'}`);
+  parts.push(`DROP: ${dropId} (run at ${isoSec(now)}). TODAY: ${today} (America/Los_Angeles); use this date for new storyline events and last_updated.`);
+  const recent = [...pool.cards].sort((a, b) => String(b.id).localeCompare(String(a.id)));
+  parts.push(`\nRECENT CARDS (last ${POOL_HOURS} h, ${recent.length}; do not repeat these; use an id in "follows" only for a real new development; format id | headline | storyline_id):\n${recent.length ? recent.map(c => `${c.id} | ${c.headline} | ${c.storyline_id ?? '-'}`).join('\n') : 'none (first drop)'}`);
+  parts.push(`\nCURRENT STORYLINES:\n${JSON.stringify(storylines?.storylines ?? [])}`);
+  parts.push(`\nECONOMIC INDICATORS (FRED; copy values verbatim; previous = prior observation):\n${indicators.length ? JSON.stringify(indicators) : 'none fetched this run — return economy.indicators as []'}`);
   parts.push(`\nNEXT FOMC DECISION DATE: ${nextMeeting ?? 'unknown — use null'}`);
-  parts.push(`\nFED DECISION ODDS (Kalshi, next meeting; prob 0–1):\n${odds.length ? JSON.stringify(odds.map(o => ({ label: o.label, prob: o.prob }))) : 'none fetched today — return fed.odds as []'}`);
-  parts.push(`\nARTICLES (${articles.length}, newest first; one JSON object per line):\n${articles.map(a => JSON.stringify({ outlet: a.outlet, title: a.title, url: a.url, published: a.published, summary: a.summary })).join('\n')}`);
+  parts.push(`\nFED DECISION ODDS (Kalshi, next meeting; prob 0–1):\n${odds.length ? JSON.stringify(odds.map(o => ({ label: o.label, prob: o.prob }))) : 'none fetched this run — return fed.odds as []'}`);
+  parts.push(`\nARTICLES (${articles.length}, newest first; one JSON object per line):\n${articles.map(a => JSON.stringify({ outlet: a.outlet, kind: a.kind, title: a.title, url: a.url, published: a.published, summary: a.summary })).join('\n')}`);
   return parts.join('\n');
 }
 
@@ -533,7 +570,8 @@ function typeOf(v) {
   return typeof v;
 }
 // Returns { errors, warnings }. Supports: type, enum, const, required, properties, additionalProperties:false,
-// items, minItems, maxItems, maxLength, minLength, minimum, maximum, anyOf, $ref (#/...), format (date, date-time, uri), x-maxWords (warning).
+// items, minItems, maxItems, maxLength, minLength, minimum, maximum, pattern, anyOf, $ref (#/...),
+// format (date, date-time, uri), x-maxWords (warning).
 export function validate(value, schema, root = schema, at = '$', acc = { errors: [], warnings: [] }) {
   if (schema.$ref) {
     const target = schema.$ref.replace(/^#\//, '').split('/').reduce((o, k) => o?.[k], root);
@@ -552,11 +590,12 @@ export function validate(value, schema, root = schema, at = '$', acc = { errors:
     const match = types.includes(t) || (t === 'integer' && types.includes('number'));
     if (!match) { acc.errors.push(`${at}: expected ${types.join('|')}, got ${t}`); return acc; }
   }
-  if (schema.enum && !schema.enum.includes(value)) acc.errors.push(`${at}: ${JSON.stringify(value)} not in enum ${JSON.stringify(schema.enum)}`);
+  if (schema.enum && !schema.enum.includes(value)) acc.errors.push(`${at}: ${JSON.stringify(value)} not in enum`);
   if ('const' in schema && value !== schema.const) acc.errors.push(`${at}: expected const ${JSON.stringify(schema.const)}`);
   if (t === 'string') {
     if (schema.maxLength != null && [...value].length > schema.maxLength) acc.errors.push(`${at}: length ${[...value].length} > maxLength ${schema.maxLength}`);
     if (schema.minLength != null && [...value].length < schema.minLength) acc.errors.push(`${at}: shorter than minLength ${schema.minLength}`);
+    if (schema.pattern && !new RegExp(schema.pattern).test(value)) acc.errors.push(`${at}: ${JSON.stringify(value)} does not match ${schema.pattern}`);
     if (schema.format === 'date' && !(/^\d{4}-\d{2}-\d{2}$/.test(value) && !isNaN(Date.parse(value)))) acc.errors.push(`${at}: not a date (YYYY-MM-DD): ${JSON.stringify(value)}`);
     if (schema.format === 'date-time' && isNaN(Date.parse(value))) acc.errors.push(`${at}: not a date-time`);
     if (schema.format === 'uri' && !/^https?:\/\/[^\s]+$/.test(value)) acc.errors.push(`${at}: not an http(s) URL: ${JSON.stringify(value)}`);
@@ -585,36 +624,87 @@ export function validate(value, schema, root = schema, at = '$', acc = { errors:
   return acc;
 }
 
-// Schemas for the files on disk, derived from the model-output schema.
-function briefFileSchema() {
-  const props = { ...SCHEMA.properties };
-  delete props.storylines;
+// ── schemas for the files on disk, derived from the model-output schema ──
+const DROP_ID_RE = '^\\d{4}-\\d{2}-\\d{2}T\\d{2}$';
+const CARD_ID_RE = '^\\d{4}-\\d{2}-\\d{2}T\\d{2}-c\\d{2,3}$';
+function cardFileSchema() {
+  const c = SCHEMA.$defs.card;
   return {
-    type: 'object', additionalProperties: false,
-    required: ['version', 'generated_at', 'date', 'model', ...SCHEMA.required.filter(k => k !== 'storylines')],
+    ...c,
+    required: ['id', 'drop', ...c.required, 'published_at'],
     properties: {
-      version: { type: 'integer', const: 1 },
-      generated_at: { type: 'string', format: 'date-time' },
-      date: { type: 'string', format: 'date' },
-      model: { type: 'string', maxLength: 80 },
-      ...props,
+      id: { type: 'string', pattern: CARD_ID_RE },
+      drop: { type: 'string', pattern: DROP_ID_RE },
+      ...c.properties,
+      published_at: { type: 'string', format: 'date-time' },
     },
-    $defs: SCHEMA.$defs,
+  };
+}
+const dropSchema = {
+  type: 'object', additionalProperties: false, required: ['id', 'at', 'model', 'count'],
+  properties: { id: { type: 'string', pattern: DROP_ID_RE }, at: { type: 'string', format: 'date-time' }, model: { type: 'string', maxLength: 80 }, count: { type: 'integer', minimum: 0, maximum: MAX_CARDS } },
+};
+function feedFileSchema() {
+  return {
+    type: 'object', additionalProperties: false, required: ['version', 'updated_at', 'drops', 'cards'],
+    properties: {
+      version: { type: 'integer', const: 2 },
+      sample: { type: 'boolean' },
+      updated_at: { type: 'string', format: 'date-time' },
+      drops: { type: 'array', items: dropSchema },
+      cards: { type: 'array', maxItems: POOL_MAX, items: { $ref: '#/$defs/card' } },
+    },
+    $defs: { ...SCHEMA.$defs, card: cardFileSchema() },
+  };
+}
+function historyFileSchema() {
+  return {
+    type: 'object', additionalProperties: false, required: ['version', 'drop', 'cards'],
+    properties: { version: { type: 'integer', const: 2 }, drop: dropSchema, cards: { type: 'array', maxItems: MAX_CARDS, items: { $ref: '#/$defs/card' } } },
+    $defs: { ...SCHEMA.$defs, card: cardFileSchema() },
+  };
+}
+function economyFileSchema() {
+  const e = SCHEMA.properties.economy;
+  return {
+    ...e,
+    required: ['version', 'updated_at', ...e.required],
+    properties: { version: { type: 'integer', const: 2 }, sample: { type: 'boolean' }, updated_at: { type: 'string', format: 'date-time' }, ...e.properties },
   };
 }
 function storylinesFileSchema() {
   return {
-    type: 'object', additionalProperties: false,
-    required: ['version', 'updated_at', 'storylines'],
-    properties: {
-      version: { type: 'integer', const: 1 },
-      updated_at: { type: 'string', format: 'date-time' },
-      storylines: SCHEMA.properties.storylines,
-    },
+    type: 'object', additionalProperties: false, required: ['version', 'updated_at', 'storylines'],
+    properties: { version: { type: 'integer', enum: [1, 2] }, updated_at: { type: 'string', format: 'date-time' }, storylines: SCHEMA.properties.storylines },
   };
 }
-// Cross-field checks that JSON Schema can't express.
-function semanticErrors(brief, storylines) {
+
+// Cross-field checks JSON Schema can't express. Returns { errors, warnings }.
+function poolChecks(feed, storylines) {
+  const errors = [], warnings = [];
+  const dropIds = new Set();
+  for (const d of feed.drops || []) { if (dropIds.has(d.id)) errors.push(`drops: duplicate id ${d.id}`); dropIds.add(d.id); }
+  const ids = new Set();
+  const slIds = storylines ? new Set(storylines.map(s => s.id)) : null;
+  for (const c of feed.cards || []) {
+    if (ids.has(c.id)) errors.push(`card ${c.id}: duplicate id`);
+    ids.add(c.id);
+    if (!dropIds.has(c.drop)) errors.push(`card ${c.id}: drop ${c.drop} not in drops[]`);
+    if (typeof c.id === 'string' && !c.id.startsWith(c.drop + '-')) errors.push(`card ${c.id}: id does not start with its drop ${c.drop}`);
+    for (const t of c.topics || []) if (!TOPIC_SLUGS.includes(t)) errors.push(`card ${c.id}: topic ${t} not in topics.json`);
+    if (new Set(c.topics).size !== (c.topics || []).length) errors.push(`card ${c.id}: duplicate topics`);
+  }
+  for (const c of feed.cards || []) {
+    if (c.follows != null && !ids.has(c.follows)) warnings.push(`card ${c.id}: follows ${c.follows} (no longer in the pool)`);
+    if (c.follows === c.id) errors.push(`card ${c.id}: follows itself`);
+    if (slIds && c.storyline_id != null && !slIds.has(c.storyline_id)) warnings.push(`card ${c.id}: storyline ${c.storyline_id} not in storylines.json`);
+  }
+  for (const d of feed.drops || []) {
+    if (!(feed.cards || []).some(c => c.drop === d.id)) warnings.push(`drop ${d.id}: no cards in pool`);
+  }
+  return { errors, warnings };
+}
+function storylineChecks(storylines) {
   const errs = [];
   const ids = new Set(storylines.map(s => s.id));
   if (ids.size !== storylines.length) errs.push('storylines: duplicate ids');
@@ -623,25 +713,15 @@ function semanticErrors(brief, storylines) {
   for (const s of storylines) {
     for (let i = 1; i < s.events.length; i++) if (s.events[i - 1].date < s.events[i].date) { errs.push(`storyline ${s.id}: events not newest-first`); break; }
   }
-  const items = [...(brief.today || []), ...(brief.economy?.items || []), ...(brief.washington || [])];
-  const itemIds = new Set();
-  for (const it of items) {
-    if (itemIds.has(it.id)) errs.push(`duplicate item id ${it.id}`);
-    itemIds.add(it.id);
-    if (it.storyline_id != null && !ids.has(it.storyline_id)) errs.push(`item ${it.id}: unknown storyline_id ${it.storyline_id}`);
-  }
-  for (const u of brief.storyline_updates || []) if (!ids.has(u.storyline_id)) errs.push(`storyline_updates: unknown storyline_id ${u.storyline_id}`);
   return errs;
 }
 
 // ───────────────────────────── normalize model output ─────────────────────────────
 
-// Deterministic, non-creative fixes the job owns: stable item ids, carry forward storylines the
-// model dropped, events newest-first ≤20, dormancy after 14 days, ≤12 active. Never invents content.
-function normalize(out, today, prevStorylines) {
-  const renumber = (arr, p) => (arr || []).forEach((it, i) => { it.id = `${today}-${p}${i + 1}`; });
-  renumber(out.today, 't'); renumber(out.economy?.items, 'e'); renumber(out.washington, 'w');
-  const list = Array.isArray(out.storylines) ? out.storylines : [];
+// Deterministic storyline fixes the job owns (unchanged from v1): carry forward storylines the model
+// dropped, events newest-first ≤ 20, dormancy after 14 days, ≤ 12 active. Never invents content.
+function normalizeStorylines(list, today, prevStorylines) {
+  list = Array.isArray(list) ? list : [];
   const ids = new Set(list.map(s => s?.id));
   for (const prev of prevStorylines?.storylines ?? []) {
     if (!ids.has(prev.id)) { warn(`model dropped storyline ${prev.id}; carrying it forward unchanged`); list.push(structuredClone(prev)); ids.add(prev.id); }
@@ -655,11 +735,81 @@ function normalize(out, today, prevStorylines) {
   }
   const active = list.filter(s => s?.status === 'active').sort((a, b) => String(b.last_updated).localeCompare(String(a.last_updated)));
   for (const s of active.slice(MAX_ACTIVE_STORYLINES)) { warn(`>${MAX_ACTIVE_STORYLINES} active storylines; marking ${s.id} dormant`); s.status = 'dormant'; }
-  out.storylines = list;
-  const allItems = [...(out.today || []), ...(out.economy?.items || []), ...(out.washington || [])];
-  for (const it of allItems) if (it && it.storyline_id != null && !ids.has(it.storyline_id)) { warn(`item ${it.id} references unknown storyline ${it.storyline_id}; set to null`); it.storyline_id = null; }
-  if (Array.isArray(out.storyline_updates)) out.storyline_updates = out.storyline_updates.filter(u => ids.has(u?.storyline_id));
-  return out;
+  return list;
+}
+
+// Per-card checks. Returns { cards, dropped }; kept cards get id/drop/published_at and canonical sources
+// (outlet/title/url copied from the input article). A bad card is dropped with a log line.
+export function checkCards(rawCards, { dropId, articles, pool, storylineIds }) {
+  const byUrl = new Map();
+  for (const a of articles) { byUrl.set(a.url, a); byUrl.set(normUrl(a.url), a); }
+  const poolIds = new Set(pool.cards.map(c => c.id));
+  const poolTitles = pool.cards.map(c => ({ id: c.id, tk: titleTokens(c.headline) }));
+  const cardSchema = SCHEMA.$defs.card;
+  const kept = [];
+  const dropped = [];
+  const drop = (i, c, why) => { dropped.push({ index: i, headline: c?.headline ?? null, why }); log(`card dropped #${i + 1} "${String(c?.headline ?? '').slice(0, 60)}": ${why}`); };
+  (Array.isArray(rawCards) ? rawCards : []).forEach((c, i) => {
+    if (kept.length >= MAX_CARDS) return drop(i, c, `over the ${MAX_CARDS}-card limit`);
+    const r = validate(c, cardSchema, SCHEMA);
+    for (const w of r.warnings) warn(`card #${i + 1} budget ${w}`);
+    if (r.errors.length) return drop(i, c, r.errors.slice(0, 3).join('; '));
+    const sources = [];
+    for (const s of c.sources) {
+      const a = byUrl.get(s.url) || byUrl.get(normUrl(s.url));
+      if (!a) return drop(i, c, `source url not in input: ${s.url}`);
+      if (!sources.some(x => x.url === a.url)) sources.push({ outlet: a.outlet, title: a.title.slice(0, 300), url: a.url });
+    }
+    if (c.follows != null && !poolIds.has(c.follows)) return drop(i, c, `follows ${c.follows}, which is not a card in the pool`);
+    if (c.follows == null) {
+      const tk = titleTokens(c.headline);
+      const rep = poolTitles.find(p => jaccard(p.tk, tk) >= 0.8);
+      if (rep) return drop(i, c, `repeats ${rep.id} without "follows"`);
+    }
+    const card = {
+      id: `${dropId}-c${String(kept.length + 1).padStart(2, '0')}`,
+      drop: dropId,
+      headline: c.headline.trim(),
+      summary: c.summary.trim(),
+      why_it_matters: c.why_it_matters.trim(),
+      region: c.region,
+      topics: [...new Set(c.topics)],
+      entities: [...new Set(c.entities.map(e => e.trim()).filter(Boolean))],
+      importance: c.importance,
+      follows: c.follows ?? null,
+      storyline_id: c.storyline_id ?? null,
+      published_at: sources.map(s => byUrl.get(s.url).published).filter(Boolean).sort()[0],
+      sources,
+    };
+    if (card.storyline_id != null && !storylineIds.has(card.storyline_id)) {
+      warn(`card ${card.id}: unknown storyline ${card.storyline_id}; set to null`);
+      card.storyline_id = null;
+    }
+    kept.push(card);
+  });
+  return { cards: kept, dropped };
+}
+
+// Merge a new drop into the rolling pool: drops older than 72 h fall out, then the oldest drops go
+// until ≤ 250 cards. Drops and cards are kept oldest drop first (cards in id order within a drop).
+export function mergePool(prev, drop, newCards, nowMs) {
+  const cutoff = nowMs - POOL_HOURS * 3600_000;
+  const dropAt = d => { const t = Date.parse(d.at); return Number.isFinite(t) ? t : dropMs(d.id); };
+  let drops = [...(prev?.drops || []).filter(d => d.id !== drop?.id), ...(drop ? [drop] : [])]
+    .filter(d => dropAt(d) >= cutoff)
+    .sort((a, b) => dropAt(a) - dropAt(b) || a.id.localeCompare(b.id));
+  const keep = new Set(drops.map(d => d.id));
+  let cards = [...(prev?.cards || []).filter(c => keep.has(c.drop) && c.drop !== drop?.id), ...newCards];
+  const rolled = (prev?.drops || []).filter(d => !keep.has(d.id)).map(d => d.id);
+  while (cards.length > POOL_MAX && drops.length > 1) {
+    const old = drops.shift();
+    rolled.push(old.id);
+    cards = cards.filter(c => c.drop !== old.id);
+  }
+  const order = new Map(drops.map((d, i) => [d.id, i]));
+  cards.sort((a, b) => order.get(a.drop) - order.get(b.drop) || a.id.localeCompare(b.id));
+  drops = drops.filter(d => cards.some(c => c.drop === d.id));
+  return { drops, cards, rolled };
 }
 
 // ───────────────────────────── Claude call ─────────────────────────────
@@ -670,9 +820,9 @@ async function callClaude(system, userContent) {
   if (!key) throw new Error('ANTHROPIC_API_KEY is not set');
   const body = JSON.stringify({
     model: MODEL,
-    max_tokens: 16000,
+    max_tokens: MAX_TOKENS,
     fallbacks: 'default',
-    output_config: { format: { type: 'json_schema', schema: apiSchema(SCHEMA) } },
+    output_config: { effort: EFFORT, format: { type: 'json_schema', schema: apiSchema(SCHEMA) } },
     system,
     messages: [{ role: 'user', content: userContent }],
   });
@@ -688,10 +838,11 @@ async function callClaude(system, userContent) {
           'content-type': 'application/json',
         },
         body,
-        signal: AbortSignal.timeout(10 * 60_000),
+        signal: AbortSignal.timeout(20 * 60_000),
       });
     } catch (e) {
-      if (attempt < 3) { const d = 2000 * 2 ** attempt; warn(`Claude network error (${e.message}); retry in ${d}ms`); await sleep(d); continue; }
+      // A timeout is not retried: the request may have been billed, and a retry would likely time out too.
+      if (e.name !== 'TimeoutError' && attempt < 3) { const d = 2000 * 2 ** attempt; warn(`Claude network error (${e.message}); retry in ${d}ms`); await sleep(d); continue; }
       throw e;
     }
     if (res.ok) return res.json();
@@ -712,7 +863,7 @@ function logUsage(resp) {
   const price = PRICES[model] || PRICES[MODEL];
   const inTok = (u.input_tokens || 0) + (u.cache_creation_input_tokens || 0) + (u.cache_read_input_tokens || 0);
   const outTok = u.output_tokens || 0;
-  const cost = price ? `$${((inTok * price[0] + outTok * price[1]) / 1e6).toFixed(4)}` : 'n/a (no price for model)';
+  const cost = price ? `$${((inTok * price[0] + outTok * price[1]) / 1e6).toFixed(4)}` : 'unknown (no price for model)';
   log(`claude model=${model} stop=${resp.stop_reason} input_tokens=${inTok} output_tokens=${outTok} est_cost=${cost}`);
   log('claude usage ' + JSON.stringify(u));
 }
@@ -722,15 +873,17 @@ function logUsage(resp) {
 function writeAtomic(p, obj) {
   fs.mkdirSync(path.dirname(p), { recursive: true });
   const tmp = p + '.tmp';
-  fs.writeFileSync(tmp, JSON.stringify(obj, null, 2) + '\n');
+  fs.writeFileSync(tmp, typeof obj === 'string' ? obj : JSON.stringify(obj, null, 2) + '\n');
   fs.renameSync(tmp, p);
 }
-function pruneHistory(today) {
+function pruneHistory(nowMs) {
   if (!fs.existsSync(HISTORY_DIR)) return;
-  const cutoff = addDays(today, -HISTORY_DAYS);
+  const cutoff = nowMs - HISTORY_DAYS * 86400_000;
   for (const f of fs.readdirSync(HISTORY_DIR)) {
-    const m = f.match(/^(\d{4}-\d{2}-\d{2})\.json$/);
-    if (m && m[1] < cutoff) { fs.unlinkSync(path.join(HISTORY_DIR, f)); log(`history pruned ${f}`); }
+    const m = f.match(/^(\d{4}-\d{2}-\d{2})(T\d{2})?\.json$/); // v2 drop files and retired v1 daily files
+    if (!m) continue;
+    const t = Date.parse(m[1] + (m[2] ? `${m[2]}:00:00Z` : 'T00:00:00Z'));
+    if (t < cutoff) { fs.unlinkSync(path.join(HISTORY_DIR, f)); log(`history pruned ${f}`); }
   }
 }
 
@@ -743,97 +896,156 @@ function runValidate() {
     if (r.errors.length) { bad++; console.error(`INVALID ${name}:\n  ` + r.errors.slice(0, 40).join('\n  ')); }
     else log(`valid ${name}`);
   };
-  const brief = readJson(path.join(DATA_DIR, 'brief.json'));
+  const feed = readJson(path.join(DATA_DIR, 'feed.json'));
+  const econ = readJson(path.join(DATA_DIR, 'economy.json'));
   const sl = readJson(path.join(DATA_DIR, 'storylines.json'));
-  if (!brief) { console.error('INVALID brief.json: missing or not JSON'); bad++; }
-  else report('brief.json', validate(brief, briefFileSchema()));
-  if (!sl) { console.error('INVALID storylines.json: missing or not JSON'); bad++; }
-  else report('storylines.json', validate(sl, storylinesFileSchema()));
-  if (brief && sl?.storylines) {
-    const errs = semanticErrors(brief, sl.storylines);
-    if (errs.length) { bad++; console.error('INVALID cross-file:\n  ' + errs.join('\n  ')); }
+  if (!feed) { console.error('INVALID feed.json: missing or not JSON'); bad++; }
+  else {
+    report('feed.json', validate(feed, feedFileSchema()));
+    if (Array.isArray(feed.cards) && Array.isArray(feed.drops)) report('feed.json (cross-checks)', poolChecks(feed, Array.isArray(sl?.storylines) ? sl.storylines : null));
   }
+  if (!econ) { console.error('INVALID economy.json: missing or not JSON'); bad++; }
+  else report('economy.json', validate(econ, economyFileSchema()));
+  if (!sl) { console.error('INVALID storylines.json: missing or not JSON'); bad++; }
+  else {
+    const r = validate(sl, storylinesFileSchema());
+    if (!r.errors.length) r.errors.push(...storylineChecks(sl.storylines));
+    report('storylines.json', r);
+  }
+  const topicsCopy = readJson(path.join(DATA_DIR, 'topics.json'));
+  if (!topicsCopy) warn('docs/data/topics.json missing (the job writes it each run)');
+  else if (JSON.stringify(topicsCopy) !== JSON.stringify(TOPICS)) warn('docs/data/topics.json differs from job/topics.json (the next run refreshes it)');
   if (fs.existsSync(HISTORY_DIR)) {
-    for (const f of fs.readdirSync(HISTORY_DIR).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))) {
+    for (const f of fs.readdirSync(HISTORY_DIR).filter(f => /^\d{4}-\d{2}-\d{2}T\d{2}\.json$/.test(f))) {
       const h = readJson(path.join(HISTORY_DIR, f));
       if (!h) { console.error(`INVALID history/${f}: not JSON`); bad++; continue; }
-      report(`history/${f}`, validate(h, briefFileSchema()));
+      const r = validate(h, historyFileSchema());
+      if (!r.errors.length && h.drop.id + '.json' !== f) r.errors.push(`drop id ${h.drop.id} does not match file name`);
+      report(`history/${f}`, r);
     }
   }
   if (bad) { console.error(`${bad} file(s) failed validation`); process.exit(1); }
   log('all docs/data files valid');
 }
 
-async function main() {
-  if (MODE === 'validate') return runValidate();
-  const now = nowDate();
+// One drop. Any failure exits 1 before writing anything.
+async function runDrop({ now, prevDir, responsePath }) {
+  const fail = msg => { console.error(msg); process.exit(1); };
+  const nowMs = now.getTime();
+  const dropId = dropIdFor(now);
   const today = laDate(now);
-  log(`brief job mode=${MODE} model=${MODEL} now=${now.toISOString()} date=${today}`);
+  log(`\nbrief drop ${dropId} mode=${MODE} model=${MODEL} effort=${EFFORT} now=${now.toISOString()} date=${today}`);
+
+  const { pool: prevPool, storylines: prevStorylines } = loadPrevious(prevDir);
+  if (prevPool.drops.some(d => d.id === dropId)) {
+    log(`drop ${dropId} is already in the pool (a run already happened this UTC hour); nothing to do, no Claude call`);
+    return;
+  }
+  // Live pool as of now (72 h), so the model only sees live ids and `follows` can only point at them.
+  const live = mergePool(prevPool, null, [], nowMs);
+  const pool = { drops: live.drops, cards: live.cards };
+  const lastDropAt = Math.max(-Infinity, ...prevPool.drops.map(d => Date.parse(d.at)).filter(Number.isFinite));
+  const cutoff = Math.max(nowMs - WINDOW_MAX_HOURS * 3600_000, lastDropAt - WINDOW_OVERLAP_HOURS * 3600_000);
 
   const fomcAndOdds = fomcSchedule().then(async fomc => {
     const nextMeeting = nextFomc(fomc.list, today);
     return { fomc, nextMeeting, odds: await gatherKalshi(nextMeeting) };
   });
-  const [{ articles, status }, indicators, { fomc, nextMeeting, odds }] = await Promise.all([gatherArticles(now), gatherFred(now), fomcAndOdds]);
+  const [{ articles, status }, indicators, { fomc, nextMeeting, odds }] = await Promise.all([gatherArticles(now, cutoff), gatherFred(now), fomcAndOdds]);
   log(`next FOMC decision: ${nextMeeting ?? 'none on schedule'} (${fomc.source})`);
-  if (!articles.length) { console.error('no articles survived; aborting without writes'); process.exit(1); }
+  log(`pool: ${pool.cards.length} live cards in ${pool.drops.length} drops${live.rolled.length ? `; rolling off ${live.rolled.join(', ')}` : ''}`);
 
-  // Fixture mode reads "yesterday" from job/fixtures/previous so it never depends on whatever is in docs/data.
-  const prevDir = MODE === 'fixture' ? path.join(FIX_DIR, 'previous') : DATA_DIR;
-  const prevBrief = readJson(path.join(prevDir, 'brief.json'));
-  const prevStorylines = readJson(path.join(prevDir, 'storylines.json'));
-  const payload = buildUserPayload({ today, prevBrief, prevStorylines, indicators, odds, nextMeeting, articles });
-
+  const payload = buildUserPayload({ now, dropId, today, pool, storylines: prevStorylines, indicators, odds, nextMeeting, articles });
   if (MODE === 'dry-run') {
     const okFeeds = status.filter(s => s.ok).length;
     log(`\nfeeds ok ${okFeeds}/${status.length}; articles ${articles.length}; indicators ${indicators.length}; kalshi odds ${odds.length}`);
-    log(`payload ${payload.length} chars (~${Math.round(payload.length / 4)} tokens), system prompt ${SYSTEM_PROMPT.length} chars`);
-    log('\n──── payload that would be sent ────\n' + payload);
+    log(`payload ${payload.length} chars (~${Math.round(payload.length / 4)} tokens), system prompt ${SYSTEM_PROMPT.length} chars (~${Math.round(SYSTEM_PROMPT.length / 4)} tokens)`);
+    const dead = status.filter(s => !s.ok || s.fresh === 0);
+    if (dead.length) log('feeds failing or with no entries in the window:\n  ' + dead.map(s => `${s.outlet} ${s.url} ${s.ok ? 'ok but 0 fresh' : 'FAIL ' + s.error}`).join('\n  '));
+    if (ARGS.has('--print')) log('\n──── payload that would be sent ────\n' + payload);
+    else log('(add --print to see the full payload)');
     return;
   }
+  if (!articles.length) fail('no articles in the window; aborting without writes');
 
   let resp;
   if (MODE === 'fixture') {
-    const p = process.env.BRIEF_FIXTURE_RESPONSE ? path.resolve(process.env.BRIEF_FIXTURE_RESPONSE) : path.join(FIX_DIR, 'model-response.json');
-    log(`fixture: canned model response ${path.relative(ROOT, p)} (payload ${payload.length} chars built, not sent)`);
-    resp = { model: MODEL, stop_reason: 'end_turn', usage: { input_tokens: 0, output_tokens: 0 }, content: [{ type: 'text', text: fs.readFileSync(p, 'utf8') }] };
+    log(`fixture: canned model response ${path.relative(ROOT, responsePath)} (payload ${payload.length} chars built, not sent)`);
+    resp = { model: MODEL, stop_reason: 'end_turn', usage: { input_tokens: 0, output_tokens: 0 }, content: [{ type: 'text', text: fs.readFileSync(responsePath, 'utf8') }] };
   } else {
     resp = await callClaude(SYSTEM_PROMPT, payload);
   }
   logUsage(resp);
   if (resp.stop_reason !== 'end_turn') {
     const detail = resp.stop_details ? ' ' + JSON.stringify(resp.stop_details) : '';
-    console.error(`model stop_reason=${resp.stop_reason}${detail}; not writing`);
-    process.exit(1);
+    fail(`model stop_reason=${resp.stop_reason}${detail}; not writing`);
   }
   const textBlock = (resp.content || []).find(b => b.type === 'text');
-  if (!textBlock) { console.error('no text block in model response; not writing'); process.exit(1); }
+  if (!textBlock) fail('no text block in model response; not writing');
   let out;
-  try { out = JSON.parse(textBlock.text); } catch (e) { console.error('model output is not JSON: ' + e.message); process.exit(1); }
-  if (!out || typeof out !== 'object' || Array.isArray(out)) { console.error('model output is not an object; not writing'); process.exit(1); }
+  try { out = JSON.parse(textBlock.text); } catch (e) { fail('model output is not JSON: ' + e.message); }
+  if (!out || typeof out !== 'object' || Array.isArray(out)) fail('model output is not an object; not writing');
 
-  // Validate raw model output first (catches unknown keys / enum / missing fields), then normalize, then re-validate.
-  const raw = validate(out, SCHEMA);
-  for (const w of raw.warnings) warn('budget ' + w);
-  if (raw.errors.length) { console.error('model output failed schema validation; not writing:\n  ' + raw.errors.slice(0, 40).join('\n  ')); process.exit(1); }
-  out = normalize(out, today, prevStorylines);
+  // Top level + economy + storylines must validate as a whole; cards are checked one by one.
+  const top = validate({ ...out, cards: [] }, { ...SCHEMA, properties: { ...SCHEMA.properties, cards: { type: 'array' } } });
+  for (const w of top.warnings) warn('budget ' + w);
+  if (top.errors.length) fail('model output failed schema validation; not writing:\n  ' + top.errors.slice(0, 40).join('\n  '));
+  if (!Array.isArray(out.cards)) fail('model output has no cards array; not writing');
 
-  const generated_at = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
-  const { storylines, ...rest } = out;
-  const brief = { version: 1, generated_at, date: today, model: resp.model || MODEL, ...rest };
-  const slFile = { version: 1, updated_at: generated_at, storylines };
+  const storylines = normalizeStorylines(out.storylines, today, prevStorylines);
+  const { cards, dropped } = checkCards(out.cards, { dropId, articles, pool, storylineIds: new Set(storylines.map(s => s.id)) });
+  log(`cards: ${out.cards.length} from model → ${cards.length} kept, ${dropped.length} dropped`);
+  if (cards.length < MIN_CARDS) fail(`only ${cards.length} cards survived (< ${MIN_CARDS}); not writing`);
+  const primaries = {};
+  for (const c of cards) primaries[c.topics[0]] = (primaries[c.topics[0]] || 0) + 1;
+  const over = Object.entries(primaries).filter(([, n]) => n > 6);
+  log(`variety: ${Object.keys(primaries).length} primary topics${over.length ? `; over 6: ${over.map(([t, n]) => `${t}=${n}`).join(', ')}` : ''}`);
+
+  const at = isoSec(now);
+  const drop = { id: dropId, at, model: resp.model || MODEL, count: cards.length };
+  const merged = mergePool(prevPool, drop, cards, nowMs);
+  const feed = { version: 2, updated_at: at, drops: merged.drops, cards: merged.cards };
+  const economy = { version: 2, updated_at: at, ...out.economy };
+  const slFile = { version: 1, updated_at: at, storylines };
+  const history = { version: 2, drop, cards };
+
   const errs = [
-    ...validate(brief, briefFileSchema()).errors,
+    ...validate(feed, feedFileSchema()).errors,
+    ...poolChecks(feed, storylines).errors,
+    ...validate(economy, economyFileSchema()).errors,
     ...validate(slFile, storylinesFileSchema()).errors,
-    ...semanticErrors(brief, storylines),
+    ...storylineChecks(storylines),
+    ...validate(history, historyFileSchema()).errors,
   ];
-  if (errs.length) { console.error('final output failed validation; not writing:\n  ' + errs.slice(0, 40).join('\n  ')); process.exit(1); }
+  if (errs.length) fail('final output failed validation; not writing:\n  ' + errs.slice(0, 40).join('\n  '));
 
-  writeAtomic(path.join(DATA_DIR, 'brief.json'), brief);
+  writeAtomic(path.join(DATA_DIR, 'feed.json'), feed);
+  writeAtomic(path.join(DATA_DIR, 'economy.json'), economy);
   writeAtomic(path.join(DATA_DIR, 'storylines.json'), slFile);
-  writeAtomic(path.join(HISTORY_DIR, `${today}.json`), brief);
-  pruneHistory(today);
-  log(`wrote docs/data/brief.json (${brief.today.length} today, ${brief.economy.items.length} econ, ${brief.washington.length} dc), storylines.json (${storylines.length}, ${storylines.filter(s => s.status === 'active').length} active), history/${today}.json`);
+  writeAtomic(path.join(DATA_DIR, 'topics.json'), JSON.stringify(TOPICS, null, 2) + '\n');
+  writeAtomic(path.join(HISTORY_DIR, `${dropId}.json`), history);
+  pruneHistory(nowMs);
+  const retired = path.join(DATA_DIR, 'brief.json');
+  if (fs.existsSync(retired)) { fs.unlinkSync(retired); log('deleted retired docs/data/brief.json'); }
+  log(`wrote feed.json (${feed.cards.length} cards in ${feed.drops.length} drops: ${feed.drops.map(d => `${d.id}=${d.count}`).join(', ')}${merged.rolled.length ? `; rolled off ${merged.rolled.join(', ')}` : ''}), economy.json, storylines.json (${storylines.length}, ${storylines.filter(s => s.status === 'active').length} active), topics.json, history/${dropId}.json`);
 }
 
-main().catch(e => { console.error('FATAL ' + (e.stack || e)); process.exit(1); });
+async function main() {
+  if (MODE === 'validate') return runValidate();
+  if (MODE === 'fixture') {
+    // Drop 1 reads the canned previous pool; drop 2 merges into what drop 1 wrote (pool rollover).
+    const drops = process.env.BRIEF_FIXTURE_RESPONSE
+      ? [{ now: FIXTURE_DROPS[0].now, responsePath: path.resolve(process.env.BRIEF_FIXTURE_RESPONSE) }]
+      : FIXTURE_DROPS.map(d => ({ now: d.now, responsePath: path.join(FIX_DIR, d.response) }));
+    for (const [i, d] of drops.entries()) {
+      await runDrop({ now: nowDate(d.now), prevDir: i === 0 ? path.join(FIX_DIR, 'previous') : DATA_DIR, responsePath: d.responsePath });
+    }
+    return;
+  }
+  await runDrop({ now: nowDate(), prevDir: DATA_DIR });
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
+  main().catch(e => { console.error('FATAL ' + (e.stack || e)); process.exit(1); });
+}
+

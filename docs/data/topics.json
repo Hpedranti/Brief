@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "geopolitics",
+    "label": "Geopolitics"
+  },
+  {
+    "slug": "war-conflict",
+    "label": "War & Conflict"
+  },
+  {
+    "slug": "europe",
+    "label": "Europe"
+  },
+  {
+    "slug": "china",
+    "label": "China"
+  },
+  {
+    "slug": "middle-east",
+    "label": "Middle East"
+  },
+  {
+    "slug": "asia",
+    "label": "Asia"
+  },
+  {
+    "slug": "latin-america",
+    "label": "Latin America"
+  },
+  {
+    "slug": "africa",
+    "label": "Africa"
+  },
+  {
+    "slug": "us-politics",
+    "label": "US Politics"
+  },
+  {
+    "slug": "courts",
+    "label": "Courts"
+  },
+  {
+    "slug": "elections",
+    "label": "Elections"
+  },
+  {
+    "slug": "policy-regulation",
+    "label": "Policy"
+  },
+  {
+    "slug": "economy",
+    "label": "Economy"
+  },
+  {
+    "slug": "fed-rates",
+    "label": "Fed & Rates"
+  },
+  {
+    "slug": "markets",
+    "label": "Markets"
+  },
+  {
+    "slug": "jobs-labor",
+    "label": "Jobs"
+  },
+  {
+    "slug": "trade",
+    "label": "Trade"
+  },
+  {
+    "slug": "energy",
+    "label": "Energy"
+  },
+  {
+    "slug": "climate",
+    "label": "Climate"
+  },
+  {
+    "slug": "ai",
+    "label": "AI"
+  },
+  {
+    "slug": "robotics",
+    "label": "Robotics"
+  },
+  {
+    "slug": "chips",
+    "label": "Chips"
+  },
+  {
+    "slug": "big-tech",
+    "label": "Big Tech"
+  },
+  {
+    "slug": "startups-vc",
+    "label": "Startups"
+  },
+  {
+    "slug": "cybersecurity",
+    "label": "Cyber"
+  },
+  {
+    "slug": "space",
+    "label": "Space"
+  },
+  {
+    "slug": "science",
+    "label": "Science"
+  },
+  {
+    "slug": "health",
+    "label": "Health"
+  },
+  {
+    "slug": "defense",
+    "label": "Defense"
+  },
+  {
+    "slug": "autos-transport",
+    "label": "Transport"
+  },
+  {
+    "slug": "crime-justice",
+    "label": "Justice"
+  },
+  {
+    "slug": "culture-sports",
+    "label": "Culture & Sports"
+  }
+]
