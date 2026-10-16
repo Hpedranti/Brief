@@ -32,6 +32,7 @@ docs/                         # the PWA, served as-is by GitHub Pages (main, /do
   data/economy.json           # Economy tab — written by the job
   data/storylines.json        # Threads tab — written by the job
   data/history/YYYY-MM-DDTHH.json   # copy of each drop's new cards (kept 14 days)
+  data/articles/YYYY-MM-DDTHH.json  # tap-to-read articles for one drop (rolled off with the pool)
 job/
   build-brief.mjs             # Node 24, ZERO dependencies
   brief.schema.json           # model output schema (also used by --validate)
@@ -116,6 +117,70 @@ defense, autos-transport, crime-justice, culture-sports
   story. A real development on an old story becomes a new card with `follows` set.
 - Variety rule in the prompt: no more than 6 cards in one drop share a primary topic; at least 8
   topics represented per drop when the news allows it.
+
+## Articles: tap a card to read more (added 2026-10-16)
+
+Harrison picked the **Posters** design (variant C) and asked that tapping a card open a more detailed
+article. The facts come from the **source pages themselves** (his choice over web search or
+teaser + background), so Claude writes from real text and never pads.
+
+**Data.** Articles live outside feed.json so the feed stays small and loads fast:
+
+```jsonc
+// feed.json card: one new field
+"has_article": true                      // false/absent → the reader shows the short version only
+
+// docs/data/articles/<drop id>.json   (one file per drop, lazy-loaded on first tap, rolled off with the pool)
+{
+  "version": 1,
+  "drop": "2026-10-16T13",
+  "articles": {
+    "2026-10-16T13-c07": {
+      "paragraphs": ["…", "…", "…"],      // 3–6 paragraphs, 180–320 words total, plain text, no URLs/markdown
+      "based_on": ["https://…"]           // the source URLs whose page text Claude actually read (⊆ card.sources)
+    }
+  }
+}
+```
+
+**Job (pass 2, after the cards are picked and validated).**
+- For each new card, fetch up to **2** of its source URLs (only URLs already in the card's sources).
+  Built-in `fetch`, 10 s timeout, 2 MB cap, ≤ 6 in flight, `User-Agent: BriefBot/2 (+https://hpedranti.github.io/Brief/)`.
+  No new dependencies.
+- Extract readable text with zero-dep string handling: prefer `<article>`/`<main>`, drop
+  script/style/nav/header/footer/aside/form, keep `<p>`/`<h2>`/`<li>` text, decode entities, collapse
+  whitespace, cap **6,000 chars** per page. A page under **600 chars** of text counts as unusable
+  (paywall/teaser/JS-only) and is skipped.
+- Cards with no usable page text get `has_article: false`. That is normal for paywalled outlets
+  (FT, Bloomberg) and never fails the run.
+- Article call(s): batches of ~10 cards, structured output `{ "articles": [{ "card_id", "paragraphs" }] }`.
+  Prompt rules: use **only** facts in the supplied page text; no invented quotes, numbers, names or
+  dates; attribute claims ("according to Reuters…"); first paragraph says what happened, later ones give
+  the context and what to watch; neutral, plain English, no headline restating.
+- Model: `BRIEF_ARTICLE_MODEL`, default **`claude-sonnet-5-5`** (faithful summarizing of given text,
+  cheaper than Opus at ~45 articles/drop). Same raw-HTTPS rules, `stop_reason` check, usage + cost logged
+  separately from pass 1.
+- Validation per article: paragraph count + word range, no URLs, `card_id` belongs to this drop. A bad
+  article or a failed batch → those cards get `has_article: false`, logged, run continues.
+- Pool rollover deletes `articles/<drop>.json` for drops that left the pool.
+- `BRIEF_DATA_DIR` env overrides the output dir (default `docs/data`) so tests never touch real data.
+- `--fixture` uses canned page HTML (`job/fixtures/pages/`) + a canned article response; no network.
+
+**Reader UI (Posters).**
+- **Single tap** on a card body (not the rail, links or chips) opens the reader. Taps wait ~280 ms so a
+  **double-tap is still 👍** and never also opens the reader.
+- Reader = full-screen sheet that slides up with a spring: poster-color header with region · topic ·
+  age and the headline, then the article paragraphs in comfortable body type (≈ 18 px, 1.5 line height,
+  max ~34 em), then the "Why it matters" block, then sources (outlet + title, open in a new tab) and the
+  storyline link if any. 👍/👎 available at the bottom so you can vote after reading.
+- Close: ✕ button, swipe down from the top of the sheet, or browser/iOS back (the reader pushes a
+  history entry).
+- `has_article` false or the fetch fails → the reader still opens with summary + why it matters +
+  sources and a quiet line "Full story at the source."
+- Article files are fetched on first tap per drop, cached in memory, and stored by the service worker's
+  data cache so they work offline after first read.
+- A small "Tap to read" hint sits on the first card only, until the first time the reader is opened.
+- Opening the reader does **not** change taste weights (votes only).
 
 ## docs/data/economy.json
 
