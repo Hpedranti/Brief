@@ -1211,23 +1211,20 @@ function renderThreads() {
 
 const TABS = ['feed', 'economy', 'threads'];
 const TAB_LABEL = { feed: 'Feed', economy: 'Economy', threads: 'Threads' };
+const stripEl = () => $('#strip');
 
 function setPagerPos(p) {
   $('#tabs').style.setProperty('--pos', String(p));
 }
 
-function setTab(tab, { initial = false } = {}) {
+// Sections live side by side in #strip, a native horizontal scroll-snap container: the phone's own
+// scrolling does the swipe (direction lock, momentum, rubber-band). setTab commits the section state and,
+// unless the strip already got there by itself, scrolls it into place.
+function setTab(tab, { initial = false, scroll = true } = {}) {
   if (!TABS.includes(tab)) tab = 'feed';
   const changed = document.body.dataset.tab !== tab;
   document.body.dataset.tab = tab;
-  for (const id of TABS) {
-    const el = document.getElementById(id);
-    el.hidden = id !== tab;
-    el.style.transform = '';
-    el.classList.remove('tab-snap');
-  }
   $$('#tabs [data-tab]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === tab)));
-  setPagerPos(TABS.indexOf(tab));
   const label = $('#pager-label');
   if (label.textContent !== TAB_LABEL[tab]) {
     label.textContent = TAB_LABEL[tab];
@@ -1237,9 +1234,15 @@ function setTab(tab, { initial = false } = {}) {
       label.classList.add('swap');
     }
   }
+  if (scroll) {
+    const st = stripEl();
+    const left = TABS.indexOf(tab) * st.clientWidth;
+    if (Math.abs(st.scrollLeft - left) > 1) st.scrollTo({ left, behavior: initial || reduced() ? 'auto' : 'smooth' });
+    setPagerPos(TABS.indexOf(tab));
+  }
   showChrome();
   syncInk();
-  if (tab === 'economy') {
+  if (tab === 'economy' && changed) {
     requestAnimationFrame(() =>
       requestAnimationFrame(() => $$('#economy .bar-fill').forEach((b) => (b.style.transform = `scaleX(${b.dataset.p})`)))
     );
@@ -1251,89 +1254,36 @@ function setTab(tab, { initial = false } = {}) {
   }
 }
 
-// Swipe left/right anywhere to change section. The browser keeps vertical panning (touch-action: pan-y on
-// the feed and pages); once a drag is clearly sideways (≥ 12 px, mostly horizontal) the current section and
-// its neighbour follow the finger, and the release commits past 25% of the width or on a quick flick.
-// Off the ends it rubber-bands. Never while the reader or a sheet is open.
-function initTabSwipe() {
-  let g = null; // { x, y, t, mode: 'maybe' | 'x', from, to, w, lastX, lastT, vel }
-  const pageOf = (i) => document.getElementById(TABS[i]);
-  const reset = () => {
+// While the strip moves: the dot thumb tracks it exactly and the header colors follow whichever section
+// covers more of the screen. When it settles on a section, that section becomes the current tab.
+function initStrip() {
+  const st = stripEl();
+  let settle = 0;
+  const settled = () => {
+    clearTimeout(settle);
+    const p = st.scrollLeft / Math.max(1, st.clientWidth);
+    // Only settle once the strip rests on a section; a finger held still mid-swipe is not "settled".
+    if (Math.abs(p - Math.round(p)) > 0.02) return;
     document.body.classList.remove('swiping');
-    g = null;
+    const tab = TABS[clamp(Math.round(p), 0, TABS.length - 1)];
+    if (tab !== document.body.dataset.tab) setTab(tab, { scroll: false });
+    setPagerPos(TABS.indexOf(tab));
   };
-  window.addEventListener('pointerdown', (e) => {
-    if (!e.isPrimary || (e.pointerType === 'mouse' && e.button !== 0)) return;
-    if (reader.open || sheetOpen || g) return;
-    if (e.target.closest('#chrome, #sheet, #reader, #new-pill, input, select, textarea')) return;
-    g = { x: e.clientX, y: e.clientY, t: performance.now(), mode: 'maybe', from: TABS.indexOf(document.body.dataset.tab), to: -1, w: window.innerWidth, lastX: e.clientX, lastT: performance.now(), vel: 0, dx: 0 };
+  st.addEventListener('scroll', () => {
+    const p = clamp(st.scrollLeft / Math.max(1, st.clientWidth), 0, TABS.length - 1);
+    document.body.classList.add('swiping');
+    setPagerPos(p);
+    document.body.dataset.ink = inkFor(TABS[Math.round(p)]);
+    cancelPendingTap();
+    clearTimeout(settle);
+    settle = setTimeout(settled, 140); // fallback where 'scrollend' isn't supported
+  }, { passive: true });
+  st.addEventListener('scrollend', settled);
+  // Keep the current section aligned when the viewport changes size (rotation, toolbar).
+  window.addEventListener('resize', () => {
+    st.scrollLeft = TABS.indexOf(document.body.dataset.tab) * st.clientWidth;
   });
-  window.addEventListener('pointermove', (e) => {
-    if (!g || !e.isPrimary) return;
-    const dx = e.clientX - g.x;
-    const dy = e.clientY - g.y;
-    if (g.mode === 'maybe') {
-      if (Math.abs(dy) > 12 && Math.abs(dy) > Math.abs(dx)) return reset(); // vertical: browser's
-      if (Math.abs(dx) < 12 || Math.abs(dx) < Math.abs(dy) * 1.4) return;
-      g.mode = 'x';
-      document.body.classList.add('swiping');
-      cancelPendingTap();
-      down = null; // not a tap on the card underneath
-      showChrome();
-    }
-    const t = performance.now();
-    g.vel = (e.clientX - g.lastX) / Math.max(1, t - g.lastT);
-    g.lastX = e.clientX;
-    g.lastT = t;
-    const to = dx < 0 ? g.from + 1 : g.from - 1;
-    const edge = to < 0 || to >= TABS.length;
-    const x = edge ? dx * 0.28 : dx;
-    if (to !== g.to) {
-      if (g.to >= 0 && g.to < TABS.length && g.to !== g.from) {
-        pageOf(g.to).hidden = true;
-        pageOf(g.to).style.transform = '';
-      }
-      g.to = to;
-      if (!edge) pageOf(to).hidden = false;
-    }
-    g.dx = x;
-    pageOf(g.from).style.transform = `translate3d(${x}px,0,0)`;
-    if (!edge) pageOf(to).style.transform = `translate3d(${x + (dx < 0 ? g.w : -g.w)}px,0,0)`;
-    setPagerPos(clamp(g.from - x / g.w, 0, TABS.length - 1));
-    // Header colors follow whichever section covers more of the screen.
-    document.body.dataset.ink = inkFor(!edge && Math.abs(x) > g.w / 2 ? TABS[to] : TABS[g.from]);
-  });
-  const end = (e, cancelled) => {
-    if (!g || (e && !e.isPrimary)) return;
-    const s = g;
-    reset();
-    if (s.mode !== 'x') return;
-    const edge = s.to < 0 || s.to >= TABS.length;
-    const commit = !cancelled && !edge && (Math.abs(s.dx) > s.w * 0.25 || (Math.abs(s.vel) > 0.45 && Math.sign(s.vel) === Math.sign(s.dx)));
-    const cur = pageOf(s.from);
-    const nxt = edge ? null : pageOf(s.to);
-    if (reduced()) {
-      if (commit) setTab(TABS[s.to]);
-      else setTab(TABS[s.from]);
-      return;
-    }
-    const dir = s.dx < 0 ? -1 : 1;
-    [cur, nxt].forEach((el) => el && el.classList.add('tab-snap'));
-    void cur.offsetWidth;
-    if (commit) {
-      cur.style.transform = `translate3d(${dir * s.w}px,0,0)`;
-      nxt.style.transform = 'translate3d(0,0,0)';
-      setPagerPos(s.to);
-    } else {
-      cur.style.transform = 'translate3d(0,0,0)';
-      if (nxt) nxt.style.transform = `translate3d(${-dir * s.w}px,0,0)`;
-      setPagerPos(s.from);
-    }
-    setTimeout(() => setTab(TABS[commit ? s.to : s.from]), 340);
-  };
-  window.addEventListener('pointerup', (e) => end(e, false));
-  window.addEventListener('pointercancel', (e) => end(e, true));
-  // Desktop: arrow keys switch sections when nothing else has focus.
+  // Desktop: arrow keys switch sections.
   document.addEventListener('keydown', (e) => {
     if (reader.open || sheetOpen || e.altKey || e.metaKey || e.ctrlKey) return;
     if (e.target.closest && e.target.closest('input, textarea, select')) return;
@@ -1359,7 +1309,7 @@ function restart() {
 async function boot() {
   initSheetDrag();
   initReader();
-  initTabSwipe();
+  initStrip();
   $('#new-pill').addEventListener('click', applyPending);
   $('#tabs').addEventListener('click', (e) => {
     const b = e.target.closest('[data-tab]');
