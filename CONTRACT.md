@@ -308,7 +308,7 @@ Same raw-HTTPS rules as v1 (no SDK, structured outputs via `output_config.format
 `stop_reason`, log `usage` + estimated cost every run). Changes:
 
 - Default model `claude-opus-5-5` (`BRIEF_MODEL` var still overrides).
-- `max_tokens` 32000 (a drop's JSON is ~15–20K tokens).
+- `max_tokens` 64000 (a drop's JSON is ~15–25K tokens plus up to ~20K of thinking at medium effort; 32000 truncated the first real drop).
 - Model output = `{ cards[], economy{}, storylines[] }`. The job assigns `id`, `drop`, and checks:
   every topic ∈ topics.json, every source URL was in the input, `follows` points at a real card.
   Bad cards are dropped with a log line (not the whole run) unless fewer than 20 survive → fail.

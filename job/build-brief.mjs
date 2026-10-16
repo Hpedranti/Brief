@@ -37,7 +37,7 @@ const MODE = ARGS.has('--validate') ? 'validate' : ARGS.has('--fixture') ? 'fixt
 
 const MODEL = process.env.BRIEF_MODEL || 'claude-opus-5-5';
 const EFFORT = process.env.BRIEF_EFFORT || 'medium';
-const MAX_TOKENS = 32000;
+const MAX_TOKENS = 64000;   // first real drop: 18K thinking + ~14K of JSON hit 32000 mid-card
 const USER_AGENT = 'BriefBot/2.0 (+personal news reader)';
 const FEED_TIMEOUT_MS = 10_000;
 const KALSHI_TIMEOUT_MS = 5_000;
