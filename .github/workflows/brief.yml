@@ -7,12 +7,27 @@ on:
     - cron: "0 19 * * *"
     - cron: "0 1 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "publish = commit the drop; compare = build only, save output as an artifact"
+        type: choice
+        options: [publish, compare]
+        default: publish
+      model:
+        description: "Pass-1 model override (blank = vars.BRIEF_MODEL / job default)"
+        type: string
+        default: ""
+      effort:
+        description: "Pass-1 effort override (blank = vars.BRIEF_EFFORT / job default)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
 
+# Publishing runs queue behind each other; compare runs each get their own group and run in parallel.
 concurrency:
-  group: brief-job
+  group: ${{ inputs.mode == 'compare' && format('brief-compare-{0}', github.run_id) || 'brief-job' }}
   cancel-in-progress: false
 
 jobs:
@@ -27,18 +42,30 @@ jobs:
           node-version: 24
 
       - name: Build this drop
+        shell: bash
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          BRIEF_MODEL: ${{ vars.BRIEF_MODEL }}
-          BRIEF_EFFORT: ${{ vars.BRIEF_EFFORT }}
+          BRIEF_MODEL: ${{ inputs.model || vars.BRIEF_MODEL }}
+          BRIEF_EFFORT: ${{ inputs.effort || vars.BRIEF_EFFORT }}
           BRIEF_ARTICLE_MODEL: ${{ vars.BRIEF_ARTICLE_MODEL }}
           BRIEF_ARTICLE_EFFORT: ${{ vars.BRIEF_ARTICLE_EFFORT }}
-        run: node job/build-brief.mjs
+        run: node job/build-brief.mjs 2>&1 | tee build.log
 
       - name: Validate
         run: node job/build-brief.mjs --validate
 
+      - name: Save compare output
+        if: always() && inputs.mode == 'compare'
+        uses: actions/upload-artifact@v4
+        with:
+          name: brief-${{ inputs.model || 'default' }}-${{ inputs.effort || 'default' }}-${{ github.run_id }}
+          path: |
+            build.log
+            docs/data
+          retention-days: 30
+
       - name: Commit data
+        if: inputs.mode != 'compare'
         run: |
           git config user.name "brief-bot"
           git config user.email "brief-bot@users.noreply.github.com"
