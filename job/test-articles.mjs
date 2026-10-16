@@ -7,7 +7,7 @@ import os from 'node:os';
 import path from 'node:path';
 import {
   extractReadableText, checkParagraphs, checkArticles, articlesFileChecks, pruneArticles, mergePool,
-  PAGE_TEXT_CAP, PAGE_TEXT_MIN, ARTICLE_LIMITS, countWords, isContested, pagesFor, balanceReport,
+  PAGE_TEXT_CAP, PAGE_TEXT_MIN, ARTICLE_LIMITS, countWords, isContested, pagesFor, balanceReport, readMessageStream,
 } from './build-brief.mjs';
 
 const para = (n, word = 'news') => `<p>${Array.from({ length: n }, (_, i) => `${word}${i}`).join(' ')}.</p>`;
@@ -323,4 +323,63 @@ test('balanceReport counts distinct outlets on contested cards only', () => {
     { id: 'c', topics: ['space'], sources: src('NASA') },
   ]);
   assert.deepEqual(r, { contested: 2, multiOutlet: 1, single: ['b'] });
+});
+
+// ---------- streaming: SSE → message object (the job streams because a drop takes > 5 min) ----------
+
+const sse = (...events) => events.map(e => `event: ${e.type}\ndata: ${JSON.stringify(e)}\n\n`).join('');
+async function* chunks(str, size) { const b = new TextEncoder().encode(str); for (let i = 0; i < b.length; i += size) yield b.slice(i, i + size); }
+const START = { type: 'message_start', message: { model: 'claude-opus-5-5', usage: { input_tokens: 100, output_tokens: 1 } } };
+const text = (index, t) => [
+  { type: 'content_block_start', index, content_block: { type: 'text', text: '' } },
+  { type: 'content_block_delta', index, delta: { type: 'text_delta', text: t.slice(0, 5) } },
+  { type: 'content_block_delta', index, delta: { type: 'text_delta', text: t.slice(5) } },
+  { type: 'content_block_stop', index },
+];
+const END = (stop = 'end_turn') => [{ type: 'message_delta', delta: { stop_reason: stop }, usage: { output_tokens: 42 } }, { type: 'message_stop' }];
+
+test('stream: rebuilds text, model, stop_reason and usage even when split mid-event (any chunk size)', async () => {
+  const body = sse(START,
+    { type: 'content_block_start', index: 0, content_block: { type: 'thinking', thinking: '' } },
+    { type: 'content_block_delta', index: 0, delta: { type: 'thinking_delta', thinking: '' } },
+    { type: 'content_block_stop', index: 0 },
+    { type: 'ping' },
+    ...text(1, '{"cards":[{"headline":"Ünïcode ✓"}]}'), ...END());
+  for (const size of [1, 7, 64, 100000]) {
+    const m = await readMessageStream(chunks(body, size));
+    assert.equal(m.model, 'claude-opus-5-5');
+    assert.equal(m.stop_reason, 'end_turn');
+    assert.deepEqual(m.usage, { input_tokens: 100, output_tokens: 42 });
+    assert.deepEqual(JSON.parse(m.content.find(b => b.type === 'text').text), { cards: [{ headline: 'Ünïcode ✓' }] });
+  }
+});
+
+test('stream: CRLF line endings parse the same', async () => {
+  const m = await readMessageStream(chunks(sse(START, ...text(0, '{"a":1}'), ...END()).replace(/\n/g, '\r\n'), 13));
+  assert.equal(m.content[0].text, '{"a":1}');
+});
+
+test('stream: after a mid-stream fallback only blocks after the last fallback block are kept', async () => {
+  const m = await readMessageStream(chunks(sse(START, ...text(0, '{"partial'),
+    { type: 'content_block_start', index: 1, content_block: { type: 'fallback', model: 'claude-opus-5' } },
+    { type: 'content_block_stop', index: 1 },
+    ...text(2, '{"done":true}'), ...END()), 32));
+  assert.deepEqual(m.content.map(b => b.type), ['text']);
+  assert.equal(m.content[0].text, '{"done":true}');
+});
+
+test('stream: max_tokens and refusal stop reasons pass through for the caller to check', async () => {
+  const m = await readMessageStream(chunks(sse(START, ...text(0, '{"cut'), ...END('max_tokens')), 50));
+  assert.equal(m.stop_reason, 'max_tokens');
+});
+
+test('stream: error event throws, retryable only for transient types', async () => {
+  await assert.rejects(readMessageStream(chunks(sse(START, { type: 'error', error: { type: 'overloaded_error', message: 'Overloaded' } }), 20)),
+    e => e.retryable === true && /overloaded_error/.test(e.message));
+  await assert.rejects(readMessageStream(chunks(sse(START, { type: 'error', error: { type: 'invalid_request_error', message: 'bad' } }), 20)),
+    e => e.retryable === false);
+});
+
+test('stream: a stream that ends with no stop_reason is a retryable error', async () => {
+  await assert.rejects(readMessageStream(chunks(sse(START, ...text(0, '{"half')), 9)), e => e.retryable === true && /without a stop_reason/.test(e.message));
 });

@@ -1153,6 +1153,7 @@ async function callClaude(system, userContent, { model = MODEL, maxTokens = MAX_
   const body = JSON.stringify({
     model,
     max_tokens: maxTokens,
+    stream: true,   // a drop takes > 5 min; non-streaming hits fetch's 300 s headers timeout (run 38875879950)
     fallbacks: 'default',
     output_config: { effort, format: { type: 'json_schema', schema: apiSchema(schema) } },
     system,
@@ -1177,7 +1178,14 @@ async function callClaude(system, userContent, { model = MODEL, maxTokens = MAX_
       if (e.name !== 'TimeoutError' && attempt < 3) { const d = 2000 * 2 ** attempt; warn(`Claude network error (${e.message}); retry in ${d}ms`); await sleep(d); continue; }
       throw e;
     }
-    if (res.ok) return res.json();
+    if (res.ok) {
+      try { return await readMessageStream(res.body); }
+      catch (e) {
+        if (e.name === 'TimeoutError') throw e;
+        if (e.retryable && attempt < 3) { const d = 2000 * 2 ** attempt; warn(`Claude stream error (${e.message}); retry in ${d}ms`); await sleep(d); continue; }
+        throw e;
+      }
+    }
     const text = await res.text();
     if ((res.status === 429 || res.status >= 500) && attempt < 3) {
       const ra = Number(res.headers.get('retry-after'));
@@ -1189,6 +1197,71 @@ async function callClaude(system, userContent, { model = MODEL, maxTokens = MAX_
     throw new Error(`Claude HTTP ${res.status}: ${text.slice(0, 500)}`);
   }
 }
+// Rebuilds a non-streaming-shaped message ({ model, stop_reason, stop_details, usage, content }) from the SSE
+// stream so callers are unchanged. After a mid-stream server-side fallback, only blocks after the last
+// `fallback` block are kept (the same as a non-streaming response, which omits the declined partial).
+// Consecutive text deltas are joined; thinking blocks are kept only as markers (their text is never read).
+export async function readMessageStream(body) {
+  const msg = { model: null, stop_reason: null, stop_details: null, usage: {}, content: [] };
+  const blocks = [];
+  const handle = ev => {
+    switch (ev.type) {
+      case 'message_start':
+        msg.model = ev.message?.model ?? null;
+        Object.assign(msg.usage, ev.message?.usage || {});
+        break;
+      case 'content_block_start':
+        blocks[ev.index] = { ...ev.content_block, ...(ev.content_block?.type === 'text' ? { text: ev.content_block.text || '' } : {}) };
+        break;
+      case 'content_block_delta':
+        if (ev.delta?.type === 'text_delta' && blocks[ev.index]) blocks[ev.index].text += ev.delta.text;
+        break;
+      case 'message_delta':
+        if (ev.delta?.stop_reason !== undefined) msg.stop_reason = ev.delta.stop_reason;
+        if (ev.delta?.stop_details !== undefined) msg.stop_details = ev.delta.stop_details;
+        Object.assign(msg.usage, ev.usage || {});
+        break;
+      case 'error': {
+        const err = new Error(`${ev.error?.type || 'error'}: ${ev.error?.message || ''}`.trim());
+        err.retryable = ['overloaded_error', 'api_error', 'rate_limit_error'].includes(ev.error?.type);
+        throw err;
+      }
+    }
+  };
+  const decoder = new TextDecoder();
+  let buf = '';
+  const flush = chunk => {
+    const data = chunk.split(/\r?\n/).filter(l => l.startsWith('data:')).map(l => l.slice(5).trimStart()).join('\n');
+    if (data) handle(JSON.parse(data));
+  };
+  try {
+    for await (const part of body) {
+      buf += decoder.decode(part, { stream: true });
+      let i;
+      while ((i = buf.search(/\r?\n\r?\n/)) !== -1) {
+        const m = buf.slice(i).match(/^\r?\n\r?\n/)[0];
+        flush(buf.slice(0, i));
+        buf = buf.slice(i + m.length);
+      }
+    }
+  } catch (e) {
+    if (e.name === 'TimeoutError' || e.retryable !== undefined) throw e;
+    e.retryable = true;   // connection dropped mid-stream
+    throw e;
+  }
+  buf += decoder.decode();
+  if (buf.trim()) flush(buf);
+  if (msg.stop_reason == null) { const e = new Error('stream ended without a stop_reason'); e.retryable = true; throw e; }
+  const lastFallback = blocks.map(b => b?.type).lastIndexOf('fallback');
+  for (const b of blocks.slice(lastFallback + 1)) {
+    if (!b) continue;
+    const prev = msg.content[msg.content.length - 1];
+    if (b.type === 'text' && prev?.type === 'text') prev.text += b.text;
+    else msg.content.push(b);
+  }
+  return msg;
+}
+
 // Logs usage + estimated cost. Returns { inTok, outTok, cost } (cost null when the model has no price).
 function logUsage(resp, { label = 'claude', requested = MODEL } = {}) {
   const u = resp.usage || {};
