@@ -31,6 +31,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BRIEF_MODEL: ${{ vars.BRIEF_MODEL }}
           BRIEF_EFFORT: ${{ vars.BRIEF_EFFORT }}
+          BRIEF_ARTICLE_MODEL: ${{ vars.BRIEF_ARTICLE_MODEL }}
+          BRIEF_ARTICLE_EFFORT: ${{ vars.BRIEF_ARTICLE_EFFORT }}
         run: node job/build-brief.mjs
 
       - name: Validate

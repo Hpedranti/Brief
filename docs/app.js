@@ -1,19 +1,27 @@
-// Brief v2 — "Poster" variant. Vanilla ES module, zero dependencies, no external requests.
+// Brief v2 — "Poster" design. Vanilla ES module, zero dependencies, no external requests.
+// Ranking + taste updates come from rank.js (pure); persistence from taste.js (localStorage).
 // Every data string goes through esc(); every URL through safeUrl().
 //
 // Debug URL params: ?card=N (1-based, start on the Nth card) · ?caughtup=1 · ?sheet=detail|settings
 //                   ?tab=feed|economy|threads · ?theme=light|dark · ?seed=1 (demo votes/seen, not saved)
+// Dev-only QA hash hooks (inert unless the hash starts with #qa=):
+//   #qa=reader:<card id> · #qa=detail:<card id> · #qa=pill · #qa=hint (show the tap hint even if dismissed)
 
-const KEY = 'brief.taste.v2';
+import { applyVote, applyDwell, markSeen, explain, orderFeed, nextDropAt } from './rank.js';
+import { loadTaste, saveTaste, pruneTaste, emptyTaste, exportTaste, importTaste } from './taste.js';
+
 const DATA = {
   feed: './data/feed.json',
   economy: './data/economy.json',
   storylines: './data/storylines.json',
   topics: './data/topics.json',
 };
-const DROP_HOURS_UTC = [1, 13, 19];
+const TAP_WAIT = 280; // ms a single tap waits so a double-tap stays 👍 and never opens the reader
+const POLL_MS = 5 * 60e3; // check for a new drop while the app is open
+const HINT_KEY = 'brief.hint.read'; // "1" once the reader has been opened
 
 const params = new URLSearchParams(location.search);
+const QA = (/^#qa=(.+)$/.exec(location.hash) || [])[1] ? decodeURIComponent(location.hash.slice(4)) : '';
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
 const reduced = () => window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -54,17 +62,6 @@ function ago(iso, now) {
   const h = Math.round(m / 60);
   return h < 48 ? `${h}h` : `${Math.round(h / 24)}d`;
 }
-function nextDrop(now) {
-  const d = new Date(now);
-  for (let add = 0; add < 2; add++) {
-    for (const h of DROP_HOURS_UTC) {
-      const t = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + add, h, 4);
-      if (t > now) return new Date(t);
-    }
-  }
-  return null;
-}
-
 // ------------------------------------------------------------------ icons (SF Symbols-ish)
 
 const ICON = {
@@ -76,6 +73,8 @@ const ICON = {
   check: `<svg viewBox="0 0 76 76" aria-hidden="true"><circle cx="38" cy="38" r="38" fill="currentColor"/><path d="M23 39.5l10 10 20-22" fill="none" stroke="#fff" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
   chevDown: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9.5l6 6 6-6"/></svg>`,
   chev: `<svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5.5l6.5 6.5L9 18.5"/></svg>`,
+  read: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6.5c-1.8-1.3-4.3-2-7.5-2v13c3.2 0 5.7.7 7.5 2 1.8-1.3 4.3-2 7.5-2v-13c-3.2 0-5.7.7-7.5 2zM12 6.5v13"/></svg>`,
+  arrowUp: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5.5M6 11l6-6 6 6"/></svg>`,
   share: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5v11M8 7.5l4-4 4 4M7 11H6a1.5 1.5 0 0 0-1.5 1.5v6.5A1.5 1.5 0 0 0 6 20.5h12a1.5 1.5 0 0 0 1.5-1.5v-6.5A1.5 1.5 0 0 0 18 11h-1"/></svg>`,
 };
 
@@ -103,64 +102,22 @@ const FAM_HEX = {
 let topicLabels = {};
 const topicLabel = (slug) => topicLabels[slug] || String(slug || '').replace(/-/g, ' ');
 
-// ------------------------------------------------------------------ taste state
+// ------------------------------------------------------------------ taste state (taste.js + rank.js)
 
-function blankState() {
-  return { votes: {}, weights: { topic: {}, entity: {} }, seen: {}, dwell: {}, last_open: null, tab: 'feed' };
-}
-function normalize(s) {
-  const b = blankState();
-  if (!s || typeof s !== 'object') return b;
-  const obj = (v) => (v && typeof v === 'object' && !Array.isArray(v) ? v : {});
-  b.votes = obj(s.votes);
-  b.weights.topic = obj(s.weights && s.weights.topic);
-  b.weights.entity = obj(s.weights && s.weights.entity);
-  b.seen = obj(s.seen);
-  b.dwell = obj(s.dwell);
-  b.last_open = typeof s.last_open === 'string' ? s.last_open : null;
-  b.tab = ['feed', 'economy', 'threads'].includes(s.tab) ? s.tab : 'feed';
-  return b;
-}
-function loadState() {
-  try {
-    localStorage.removeItem('brief.state.v1');
-  } catch {}
-  try {
-    return normalize(JSON.parse(localStorage.getItem(KEY) || 'null'));
-  } catch {
-    return blankState();
-  }
-}
 let persist = !params.has('seed');
+let state = loadTaste();
 let saveTimer = 0;
+function saveNow() {
+  clearTimeout(saveTimer);
+  if (persist) saveTaste(state);
+}
 function save() {
   if (!persist) return;
   clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    try {
-      localStorage.setItem(KEY, JSON.stringify(state));
-    } catch {}
-  }, 150);
-}
-
-let state = loadState();
-
-function bump(kind, key, delta) {
-  const w = state.weights[kind];
-  w[key] = clamp(num(w[key]) + delta, -6, 6);
-  if (Math.abs(w[key]) < 1e-9) delete w[key];
-}
-function applyVote(card, sign) {
-  for (const t of arr(card.topics)) bump('topic', t, 1.0 * sign);
-  for (const e of arr(card.entities)) bump('entity', e, 0.6 * sign);
+  saveTimer = setTimeout(saveNow, 150);
 }
 function setVote(card, v) {
-  const prev = num(state.votes[card.id]);
-  if (prev) applyVote(card, -prev);
-  if (v) {
-    state.votes[card.id] = v;
-    applyVote(card, v);
-  } else delete state.votes[card.id];
+  state = applyVote(state, card, v, Date.now());
   save();
 }
 
@@ -171,71 +128,63 @@ let economy = null;
 let storylines = null;
 let byId = new Map();
 let order = []; // rendered sequence: card objects and {caught:true}
+let seenIds = new Set(); // cards placed after the caught-up card (dimmed)
+let exploreIds = new Set(); // cards rank.js put in an exploration slot
+let caughtUp = { newCount: 0, nextDropHint: null };
 let unseenCount = 0;
 let prevOpen = null;
 let NOW = Date.now();
 
-async function getJSON(url) {
-  const res = await fetch(url, { cache: 'no-cache' });
-  if (!res.ok) throw new Error(`${url}: ${res.status}`);
-  return res.json();
-}
-
-// Simple stand-in ranker (the real one lives in rank.js): importance + summed topic weights.
-function score(card) {
-  let s = num(card.importance, 3);
-  for (const t of arr(card.topics)) s += num(state.weights.topic[t]);
-  return s;
+// Every fetch has a 10 s timeout and fails soft (callers catch).
+async function getJSON(url, { cache = 'no-cache' } = {}) {
+  const ctl = typeof AbortController === 'function' ? new AbortController() : null;
+  const t = ctl ? setTimeout(() => ctl.abort(), 10e3) : 0;
+  try {
+    const res = await fetch(url, { cache, signal: ctl ? ctl.signal : undefined });
+    if (!res.ok) throw new Error(`${url}: ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(t);
+  }
 }
 
 function seedDemo(cards) {
-  // ?seed=1: a believable taste so voted / dimmed / hidden states show up in screenshots.
-  state = blankState();
+  // ?seed=1: a believable taste so voted / dimmed / hidden states show up in screenshots. Not saved.
+  state = emptyTaste();
   const find = (pred) => cards.find(pred);
   const like1 = find((c) => arr(c.topics).includes('robotics') && arr(c.topics).includes('ai') && c.importance >= 4) || find((c) => arr(c.topics).includes('robotics'));
   const like2 = find((c) => arr(c.topics)[0] === 'robotics' && c !== like1);
   const hate = find((c) => arr(c.topics).includes('culture-sports'));
   const meh = find((c) => arr(c.topics)[0] === 'elections');
-  if (like1) setVote(like1, 1);
-  if (like2) setVote(like2, 1);
-  if (hate) setVote(hate, -1);
-  if (meh) setVote(meh, -1);
-  const t = Math.floor(NOW / 1000) - 3600;
+  for (const [c, v] of [[like1, 1], [like2, 1], [hate, -1], [meh, -1]]) if (c) state = applyVote(state, c, v, NOW);
+  const t = NOW - 3600e3;
   cards
     .filter((c) => c.drop === arr(feed.drops)[0]?.id)
     .slice(-7)
     .forEach((c, i) => {
-      state.seen[c.id] = t - i * 60;
-      state.dwell[c.id] = 3 + i;
+      state = markSeen(state, c, t - i * 60e3);
+      state = applyDwell(state, c, 3 + i);
     });
   state.last_open = new Date(Date.parse(arr(feed.drops)[0]?.at || NOW) + 3 * 3600e3).toISOString();
 }
 
+const usable = (c) => c && c.id && c.headline;
+
 function buildOrder() {
-  const cards = arr(feed.cards).filter((c) => c && c.id && c.headline);
+  const cards = arr(feed.cards).filter(usable);
   byId = new Map(cards.map((c) => [c.id, c]));
   if (params.get('seed') === '1') seedDemo(cards);
-
-  // prune seen/dwell for cards that left the pool; votes older than 30 days
-  for (const k of ['seen', 'dwell']) for (const id of Object.keys(state[k])) if (!byId.has(id)) delete state[k][id];
-  const cutoff = NOW - 30 * 864e5;
-  for (const id of Object.keys(state.votes)) {
-    if (byId.has(id)) continue;
-    const m = /^(\d{4}-\d{2}-\d{2})T(\d{2})/.exec(id);
-    if (m && Date.parse(`${m[1]}T${m[2]}:00:00Z`) < cutoff) delete state.votes[id];
-  }
-
-  const visible = cards.filter((c) => state.votes[c.id] !== -1);
-  const unseen = visible.filter((c) => !state.seen[c.id]);
-  const seen = visible.filter((c) => state.seen[c.id]);
-  unseen.sort((a, b) => score(b) - score(a) || Date.parse(b.published_at) - Date.parse(a.published_at));
-  seen.sort((a, b) => Date.parse(b.published_at || 0) - Date.parse(a.published_at || 0));
-  unseenCount = unseen.length;
-  order = [...unseen, { caught: true }, ...seen.map((c) => Object.assign(c, { _seen: true }))];
+  state = pruneTaste(state, cards, NOW);
+  const r = orderFeed(cards, state, NOW, { drops: arr(feed.drops) });
+  seenIds = new Set(r.seen.map((c) => c.id));
+  exploreIds = new Set(r.exploration);
+  caughtUp = r.caughtUp;
+  unseenCount = r.unseen.length;
+  order = [...r.unseen, { caught: true }, ...r.seen];
 }
 
 function isNew(card) {
-  if (card._seen) return false;
+  if (seenIds.has(card.id)) return false;
   if (!prevOpen) return true;
   const drop = arr(feed.drops).find((d) => d.id === card.drop);
   const t = Date.parse((drop && drop.at) || card.published_at);
@@ -244,8 +193,9 @@ function isNew(card) {
 
 // ------------------------------------------------------------------ feed rendering
 
-function cardHTML(c, i) {
+function cardHTML(c, i, hint) {
   const fam = famOf(c);
+  const seen = seenIds.has(c.id);
   const imp = clamp(Math.round(num(c.importance, 3)), 1, 5);
   const v = num(state.votes[c.id]);
   const src = arr(c.sources);
@@ -257,19 +207,19 @@ function cardHTML(c, i) {
     [c.region, ...topics].filter(Boolean).map(esc).join('<span class="sep">·</span>') +
     (age ? `<span class="sep">·</span><span class="age">${esc(age)}</span>` : '');
   return `
-  <article class="card f-${fam}${imp === 5 ? ' imp5' : ''}${c._seen ? ' seen' : ''}" data-ink="${DARK_INK.has(fam) ? 'dark' : 'light'}" data-i="${i}" data-id="${esc(c.id)}" aria-label="${esc(c.headline)}">
+  <article class="card f-${fam}${imp === 5 ? ' imp5' : ''}${seen ? ' seen' : ''}" data-ink="${DARK_INK.has(fam) ? 'dark' : 'light'}" data-i="${i}" data-id="${esc(c.id)}" aria-label="${esc(c.headline)}">
     <div class="poster">
       <div class="head">
       <div class="eyebrow${imp === 5 ? ' stack' : ''}">${imp === 5 ? `<span class="top-badge">${ICON.star}Top story</span>` : ''}<div class="meta"><span>${eyebrow}</span>${
         isNew(c) ? '<span class="new">New</span>' : ''
-      }${c._seen ? '<span class="sep">·</span><span class="seen-tag">Seen</span>' : ''}</div></div>
+      }${seen ? '<span class="sep">·</span><span class="seen-tag">Seen</span>' : ''}</div></div>
       <div class="hl"><h2 class="hl-t">${esc(c.headline)}</h2></div>
       </div>
       <div class="lower">
         <div class="body">
           ${c.summary ? `<p class="summary">${esc(c.summary)}</p>` : ''}
           ${c.why_it_matters ? `<div class="why"><b>Why it matters</b><span>${esc(c.why_it_matters)}</span></div>` : ''}
-          ${outlets.length ? `<div class="outlets">${outlets.map(esc).join(' · ')}</div>` : ''}
+          ${outlets.length || hint ? `<div class="outlets-row">${outlets.length ? `<div class="outlets">${outlets.map(esc).join(' · ')}</div>` : ''}${hint ? `<span class="tap-hint">${ICON.read}Tap to read</span>` : ''}</div>` : ''}
         </div>
         <div class="rail">
           <button class="rb" type="button" data-act="up" aria-label="More like this" aria-pressed="${v === 1}">${ICON.up}</button>
@@ -283,8 +233,8 @@ function cardHTML(c, i) {
 }
 
 function caughtHTML(i) {
-  const newCount = arr(feed.cards).filter((c) => byId.has(c.id) && state.votes[c.id] !== -1 && !state.seen[c.id] && isNew(c)).length;
-  const nd = nextDrop(NOW);
+  const newCount = num(caughtUp.newCount);
+  const nd = caughtUp.nextDropHint ? new Date(caughtUp.nextDropHint) : null;
   let ndText = '—';
   if (nd) {
     const parts = nd.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' }).split(/\s+/);
@@ -319,7 +269,8 @@ function renderFeed() {
     el.innerHTML = `<article class="card f-silver empty-card" data-ink="dark"><div class="poster"><div class="hl"><h2 class="hl-t">Nothing here yet.</h2></div><div class="lower"><div class="body"><p class="summary">The next drop lands soon. Pull down later.</p></div></div></div></article>`;
     return;
   }
-  el.innerHTML = order.map((c, i) => (c.caught ? caughtHTML(i) : cardHTML(c, i))).join('');
+  const hintAt = showHint() ? order.findIndex((c) => !c.caught) : -1;
+  el.innerHTML = order.map((c, i) => (c.caught ? caughtHTML(i) : cardHTML(c, i, i === hintAt))).join('');
   fitAll();
   observe();
 }
@@ -396,7 +347,7 @@ function setActive(i) {
   clearTimeout(seenTimer);
   if (c && !c.caught && !state.seen[c.id]) {
     seenTimer = setTimeout(() => {
-      state.seen[c.id] = Math.floor(Date.now() / 1000);
+      state = markSeen(state, c, Date.now());
       save();
     }, 1000);
   }
@@ -404,14 +355,9 @@ function setActive(i) {
 function leaveActive() {
   const c = order[activeIdx];
   if (!c || c.caught || !activeSince) return;
-  const secs = Math.round(((performance.now() - activeSince) / 1000) * 10) / 10;
-  const first = state.dwell[c.id] == null;
-  state.dwell[c.id] = secs;
-  if (first && persist) {
-    // implicit signal, once per card
-    if (secs >= 8) for (const t of arr(c.topics)) bump('topic', t, 0.25);
-    else if (secs < 1.2) for (const t of arr(c.topics)) bump('topic', t, -0.1);
-  }
+  // reading time in the reader counts as time on the card
+  const secs = (performance.now() - activeSince) / 1000;
+  state = applyDwell(state, c, secs); // implicit nudge is applied once per card inside rank.js
   save();
 }
 function cardAt(i) {
@@ -438,7 +384,10 @@ function updateProgress() {
 // Chrome fades while scrolling, returns on pause or tap.
 let scrollTimer = 0;
 let quietUntil = 0;
+let lastScrollAt = 0;
 function onScroll() {
+  lastScrollAt = performance.now();
+  cancelPendingTap();
   if (performance.now() < quietUntil) return;
   document.body.classList.add('scrolling');
   clearTimeout(scrollTimer);
@@ -462,22 +411,29 @@ function haptic() {
   } catch {}
 }
 
-function vote(cardEl, v, opts = {}) {
-  const c = order[+cardEl.dataset.i];
-  if (!c || c.caught) return;
+// Vote on a card from the feed (cardEl) or the reader. Returns the new vote value.
+function voteCard(c, v, opts = {}) {
+  if (!c || c.caught) return 0;
   const cur = num(state.votes[c.id]);
   const next = opts.force ? v : cur === v ? 0 : v;
-  if (next === cur) return;
+  if (next === cur) return cur;
   setVote(c, next);
   haptic();
-  const up = $('[data-act="up"]', cardEl);
-  up.setAttribute('aria-pressed', String(next === 1));
-  if (next === 1) {
-    up.classList.remove('pop');
-    void up.offsetWidth;
-    up.classList.add('pop');
+  const cardEl = feedEl().querySelector(`.card[data-id="${CSS.escape(c.id)}"]`);
+  const up = cardEl && $('[data-act="up"]', cardEl);
+  if (up) {
+    up.setAttribute('aria-pressed', String(next === 1));
+    if (next === 1 && !opts.quiet) {
+      up.classList.remove('pop');
+      void up.offsetWidth;
+      up.classList.add('pop');
+    }
   }
-  if (next === -1) dismiss(cardEl);
+  if (next === -1 && cardEl && !opts.deferDismiss) dismiss(cardEl);
+  return next;
+}
+function vote(cardEl, v, opts = {}) {
+  return voteCard(order[+cardEl.dataset.i], v, opts);
 }
 
 function dismiss(cardEl) {
@@ -521,22 +477,46 @@ function burst(cardEl, x, y) {
   setTimeout(() => b.remove(), 1000);
 }
 
+// Tap vs double-tap. A tap = pointerdown→pointerup with < 10 px of travel, < 500 ms, and no scroll in
+// flight. The first tap arms a TAP_WAIT timer that opens the reader; a second tap near the first within
+// TAP_WAIT cancels the timer and counts as 👍 instead, so a double-tap never also opens the reader.
+// Any scroll cancels the pending open. Rail buttons, links and chips never take part.
 let lastTap = { t: 0, x: 0, y: 0 };
+let down = null;
+let tapTimer = 0;
+function cancelPendingTap() {
+  if (tapTimer) clearTimeout(tapTimer);
+  tapTimer = 0;
+}
+function onFeedPointerDown(e) {
+  down = e.isPrimary ? { x: e.clientX, y: e.clientY, t: performance.now(), scrolling: performance.now() - lastScrollAt < 120 } : null;
+}
 function onFeedPointerUp(e) {
   if (e.pointerType === 'mouse' && e.button !== 0) return;
+  const d = down;
+  down = null;
   const cardEl = e.target.closest('.card');
-  if (!cardEl || e.target.closest('.rb, a, button')) return;
+  if (!cardEl || e.target.closest('.rb, a, button, .chip')) return;
+  if (!d || d.scrolling || Math.hypot(e.clientX - d.x, e.clientY - d.y) > 10 || performance.now() - d.t > 500) return;
   const now = performance.now();
   const near = Math.hypot(e.clientX - lastTap.x, e.clientY - lastTap.y) < 40;
-  if (now - lastTap.t < 320 && near) {
+  if (now - lastTap.t < TAP_WAIT && near) {
     lastTap.t = 0;
-    if (cardEl.dataset.caught) return;
+    cancelPendingTap();
+    if (cardEl.dataset.caught || !cardEl.dataset.id) return;
     burst(cardEl, e.clientX, e.clientY);
     vote(cardEl, 1, { force: true });
     return;
   }
   lastTap = { t: now, x: e.clientX, y: e.clientY };
   showChrome();
+  cancelPendingTap();
+  if (cardEl.dataset.caught || !cardEl.dataset.id) return;
+  tapTimer = setTimeout(() => {
+    tapTimer = 0;
+    const c = order[+cardEl.dataset.i];
+    if (c && !c.caught && cardEl.isConnected && !cardEl.classList.contains('gone')) openReader(c);
+  }, TAP_WAIT);
 }
 
 function onFeedClick(e) {
@@ -646,33 +626,27 @@ function storylineFor(c) {
 function openDetail(c) {
   if (!c || c.caught) return;
   const fam = famOf(c);
-  const src = arr(c.sources)
-    .map((s) => {
-      const href = safeUrl(s && s.url);
-      const inner = `<div class="row-main"><div class="row-title">${esc(s.outlet || 'Source')}</div>${s.title ? `<div class="row-sub">${esc(s.title)}</div>` : ''}</div>${href ? ICON.chev : ''}`;
-      return href
-        ? `<a class="row" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${inner}</a>`
-        : `<div class="row">${inner}</div>`;
-    })
-    .join('');
+  const src = sourcesHTML(c);
   const sl = storylineFor(c);
-  const tw = state.weights.topic;
-  const ew = state.weights.entity;
-  const tRows = arr(c.topics)
-    .map((t) => {
-      const w = num(tw[t]);
-      return `<div class="row"><span class="row-ico" style="background:${FAM_HEX[FAM_OF[t] || 'silver']}">${esc(topicLabel(t).slice(0, 1))}</span><div class="row-main"><div class="row-title">${esc(topicLabel(t))}</div><div class="row-sub">Topic</div></div><span class="row-val${w > 0 ? ' pos' : w < 0 ? ' neg' : ''}">${w ? fmtW(w) : '0.0'}</span></div>`;
-    })
+  const x = explain(c, state, NOW);
+  const wRow = (w) => `<span class="row-val${w > 0 ? ' pos' : w < 0 ? ' neg' : ''}">${w ? fmtW(w) : '0.0'}</span>`;
+  const tRows = x.topics
+    .map(({ slug, weight }) => `<div class="row"><span class="row-ico" style="background:${FAM_HEX[FAM_OF[slug] || 'silver']}">${esc(topicLabel(slug).slice(0, 1))}</span><div class="row-main"><div class="row-title">${esc(topicLabel(slug))}</div><div class="row-sub">Topic</div></div>${wRow(weight)}</div>`)
     .join('');
-  const eRows = arr(c.entities)
-    .map((n) => {
-      const w = num(ew[n]);
-      return `<div class="row"><span class="row-ico" style="background:#8e8e93">${esc(String(n).slice(0, 1))}</span><div class="row-main"><div class="row-title">${esc(n)}</div><div class="row-sub">Name in the story</div></div><span class="row-val${w > 0 ? ' pos' : w < 0 ? ' neg' : ''}">${w ? fmtW(w) : '0.0'}</span></div>`;
-    })
+  const eRows = x.entities
+    .map(({ name, weight }) => `<div class="row"><span class="row-ico" style="background:#8e8e93">${esc(String(name).slice(0, 1))}</span><div class="row-main"><div class="row-title">${esc(name)}</div><div class="row-sub">Name in the story</div></div>${wRow(weight)}</div>`)
     .join('');
-  const imp = num(c.importance, 3);
-  const tsum = arr(c.topics).reduce((a, t) => a + num(tw[t]), 0);
+  const p = x.parts;
+  const term = (label, v) => `${v < 0 ? '−' : '+'} ${label} <b>${Math.abs(v).toFixed(1)}</b>`;
+  const terms = [`Importance <b>${p.importance.toFixed(0)}</b>`, term('your topic taste', p.topics)];
+  if (x.entities.length) terms.push(term('names', p.entity));
+  terms.push(term(`freshness (${x.age_hours}h old)`, p.freshness));
+  if (p.follows) terms.push(term('follows a story you liked', p.follows));
   const v = num(state.votes[c.id]);
+  const notes = [];
+  if (exploreIds.has(c.id)) notes.push('Picked outside your usual topics so the feed doesn’t turn into a bubble.');
+  if (seenIds.has(c.id)) notes.push('You’ve already seen this one, so it sits after the caught-up card.');
+  if (v === 1) notes.push('You liked this.');
   const html = `
     <div class="f-${fam}" style="--field:var(--p-${fam})">
       <div class="sh-eyebrow"><span class="sh-dot"></span>${esc([c.region, ...arr(c.topics).map(topicLabel)].filter(Boolean).join(' · '))}</div>
@@ -684,7 +658,7 @@ function openDetail(c) {
     <div class="sh-h">Why am I seeing this?</div>
     <div class="group">
       ${tRows}${eRows}
-      <div class="score-line">Ranked by importance <b>${imp}</b> ${tsum >= 0 ? '+' : '−'} your topic taste <b>${Math.abs(tsum).toFixed(1)}</b> = <b>${(imp + tsum).toFixed(1)}</b>${v === 1 ? ' · you liked this' : ''}</div>
+      <div class="score-line">${terms.join(' ')} = score <b>${x.score.toFixed(1)}</b>${notes.length ? `<br>${notes.map(esc).join(' ')}` : ''}</div>
     </div>
     <p class="note">Votes teach the feed on this phone only. Nothing leaves your device.</p>`;
   openSheet(html, 'Story details');
@@ -744,7 +718,7 @@ function onSheetClick(e) {
   const act = b.dataset.set;
   if (act === 'export') {
     try {
-      const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
+      const blob = new Blob([exportTaste(state)], { type: 'application/json' });
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
       a.download = `brief-taste-${new Date().toISOString().slice(0, 10)}.json`;
@@ -763,11 +737,11 @@ function onSheetClick(e) {
   } else if (act === 'reset') {
     if (!confirm('Reset your taste? Votes, learned weights and seen history are cleared.')) return;
     const tab = state.tab;
-    state = blankState();
+    state = emptyTaste();
     state.tab = tab;
     state.last_open = new Date().toISOString();
     persist = true;
-    save();
+    saveNow();
     toast('Taste reset');
     restart();
     openSettings();
@@ -779,17 +753,16 @@ function onImport(e) {
   const r = new FileReader();
   r.onload = () => {
     try {
-      const parsed = JSON.parse(String(r.result));
-      if (!parsed || typeof parsed !== 'object' || !parsed.weights) throw new Error('shape');
-      state = normalize(parsed);
+      state = importTaste(String(r.result));
       persist = true;
-      save();
+      saveNow();
       toast('Taste imported');
       restart();
       openSettings();
-    } catch {
-      toast('That file is not a Brief taste export');
+    } catch (err) {
+      toast(`Couldn’t import: ${err && err.message ? err.message : 'not a Brief taste export'}`);
     }
+    e.target.value = '';
   };
   r.readAsText(f);
 }
@@ -801,6 +774,336 @@ function toast(msg) {
   t.classList.add('show');
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => t.classList.remove('show'), 1800);
+}
+
+// ------------------------------------------------------------------ reader (tap to read)
+
+function sourcesHTML(c) {
+  return arr(c.sources)
+    .map((s) => {
+      const href = safeUrl(s && s.url);
+      const inner = `<div class="row-main"><div class="row-title">${esc((s && s.outlet) || 'Source')}</div>${s && s.title ? `<div class="row-sub">${esc(s.title)}</div>` : ''}</div>${href ? ICON.chev : ''}`;
+      return href
+        ? `<a class="row" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${inner}</a>`
+        : `<div class="row">${inner}</div>`;
+    })
+    .join('');
+}
+
+// Hint flag: its own small localStorage key, so the taste export stays exactly the contract shape.
+let hintDone = false;
+try {
+  hintDone = localStorage.getItem(HINT_KEY) === '1';
+} catch {}
+function showHint() {
+  return QA === 'hint' || !hintDone;
+}
+function markHintDone() {
+  if (hintDone && QA !== 'hint') return;
+  hintDone = true;
+  try {
+    localStorage.setItem(HINT_KEY, '1');
+  } catch {}
+  for (const h of $$('.tap-hint', feedEl())) {
+    h.classList.add('bye');
+    setTimeout(() => h.remove(), 400);
+  }
+}
+
+// Articles: one file per drop, fetched on first tap, kept in memory. Failures are not cached (retry next tap).
+const DROP_RE = /^\d{4}-\d{2}-\d{2}T\d{2}$/;
+const articleFiles = new Map(); // drop → parsed file
+const articleLoads = new Map(); // drop → in-flight promise
+function loadArticles(drop) {
+  if (!DROP_RE.test(String(drop || ''))) return Promise.resolve(null);
+  if (articleFiles.has(drop)) return Promise.resolve(articleFiles.get(drop));
+  if (!articleLoads.has(drop)) {
+    const p = getJSON(`./data/articles/${drop}.json`, { cache: 'default' })
+      .then((j) => (j && typeof j === 'object' && j.articles && typeof j.articles === 'object' ? j : null))
+      .catch(() => null)
+      .then((j) => {
+        articleLoads.delete(drop);
+        if (j) articleFiles.set(drop, j);
+        return j;
+      });
+    articleLoads.set(drop, p);
+  }
+  return articleLoads.get(drop);
+}
+function paragraphsFrom(file, c) {
+  const a = file && file.articles && file.articles[c.id];
+  const ps = a && arr(a.paragraphs).filter((p) => typeof p === 'string' && p.trim());
+  return ps && ps.length ? ps : null;
+}
+
+const reader = { open: false, card: null, token: 0 };
+let skipPop = false;
+
+function articleHTML(c, ps) {
+  if (ps) return ps.map((p) => `<p>${esc(p)}</p>`).join('');
+  return `${c.summary ? `<p>${esc(c.summary)}</p>` : ''}<p class="r-fallback">Full story at the source.</p>`;
+}
+const SKELETON = `<div class="r-skel" aria-hidden="true"><i></i><i></i><i></i><i></i><i style="width:62%"></i></div><span class="sr-only">Loading the article…</span>`;
+
+function readerVotesHTML(c) {
+  const v = num(state.votes[c.id]);
+  return `<button class="r-vote" type="button" data-rv="up" aria-pressed="${v === 1}">${ICON.up}<span>More like this</span></button>
+    <button class="r-vote" type="button" data-rv="down" aria-pressed="false">${ICON.down}<span>Less like this</span></button>`;
+}
+
+function readerHTML(c, body) {
+  const topic = arr(c.topics).slice(0, 1).map(topicLabel)[0];
+  const age = ago(c.published_at, NOW);
+  const eyebrow =
+    [c.region, topic].filter(Boolean).map(esc).join('<span class="sep">·</span>') +
+    (age ? `<span class="sep">·</span><span class="age">${esc(age)}</span>` : '');
+  const sl = storylineFor(c);
+  return `
+    <header class="r-head">
+      <div class="r-grab" aria-hidden="true"><span></span></div>
+      <div class="r-eyebrow">${eyebrow}</div>
+      <h1 class="r-title" id="r-title">${esc(c.headline)}</h1>
+    </header>
+    <div class="r-body">
+      <div class="r-article" id="r-article" aria-live="polite">${body}</div>
+      ${c.why_it_matters ? `<section class="r-why"><b>Why it matters</b><p>${esc(c.why_it_matters)}</p></section>` : ''}
+      <div class="sh-h">Sources</div>
+      <div class="group">${sourcesHTML(c) || '<div class="row"><div class="row-main row-sub">No sources listed.</div></div>'}</div>
+      ${sl ? `<div class="sh-h">Storyline</div><div class="group"><button class="row" type="button" data-goto="threads" style="width:100%;text-align:left"><div class="row-main"><div class="row-title">${esc(sl.title)}</div>${sl.summary ? `<div class="row-sub">${esc(sl.summary)}</div>` : ''}</div>${ICON.chev}</button></div>` : ''}
+      <div class="r-votes">${readerVotesHTML(c)}</div>
+    </div>`;
+}
+
+function openReader(c) {
+  if (!c || c.caught || reader.open) return;
+  cancelPendingTap();
+  if (sheetOpen) closeSheet();
+  reader.open = true;
+  reader.card = c;
+  const token = ++reader.token;
+  markHintDone();
+
+  const fam = famOf(c);
+  const el = $('#reader');
+  const sc = $('#r-scroll');
+  el.className = `reader f-${fam}`;
+  el.dataset.ink = DARK_INK.has(fam) ? 'dark' : 'light';
+  const want = !!c.has_article;
+  const cached = articleFiles.get(c.drop);
+  const body = !want ? articleHTML(c, null) : cached ? articleHTML(c, paragraphsFrom(cached, c)) : SKELETON;
+  sc.innerHTML = readerHTML(c, body);
+  $('#r-bar-title').textContent = c.headline;
+  sc.scrollTop = 0;
+  el.style.transform = '';
+  el.hidden = false;
+  void el.offsetWidth;
+  el.classList.add('open');
+  document.body.classList.add('reading');
+  feedEl().inert = true;
+  $('#chrome').inert = true;
+  showChrome();
+  try {
+    history.pushState({ briefReader: c.id }, '');
+  } catch {}
+  try {
+    $('#r-close').focus({ preventScroll: true });
+  } catch {}
+
+  if (want && !cached) {
+    loadArticles(c.drop).then((file) => {
+      if (token !== reader.token) return;
+      const art = $('#r-article');
+      if (!art) return;
+      art.innerHTML = articleHTML(c, paragraphsFrom(file, c));
+      art.classList.add('in');
+    });
+  }
+}
+
+function closeReader(fromPop = false) {
+  if (!reader.open) return;
+  reader.open = false;
+  reader.token++;
+  const el = $('#reader');
+  el.classList.remove('dragging', 'open');
+  el.style.transform = '';
+  document.body.classList.remove('reading');
+  feedEl().inert = false;
+  $('#chrome').inert = false;
+  setTimeout(() => {
+    if (!reader.open) {
+      el.hidden = true;
+      el.classList.remove('scrolled');
+    }
+  }, reduced() ? 0 : 460);
+  if (!fromPop && history.state && history.state.briefReader) {
+    skipPop = true;
+    history.back();
+  }
+}
+
+function onReaderClick(e) {
+  if (e.target.closest('#r-close')) return closeReader();
+  const goto = e.target.closest('[data-goto]');
+  if (goto) {
+    closeReader();
+    setTab(goto.dataset.goto);
+    return;
+  }
+  const b = e.target.closest('[data-rv]');
+  if (!b || !reader.card) return;
+  const c = reader.card;
+  if (b.dataset.rv === 'up') {
+    const next = voteCard(c, 1);
+    b.setAttribute('aria-pressed', String(next === 1));
+    if (next === 1) {
+      b.classList.remove('pop');
+      void b.offsetWidth;
+      b.classList.add('pop');
+    }
+  } else {
+    voteCard(c, -1, { deferDismiss: true });
+    closeReader();
+    const cardEl = feedEl().querySelector(`.card[data-id="${CSS.escape(c.id)}"]`);
+    if (cardEl) setTimeout(() => dismiss(cardEl), reduced() ? 0 : 380);
+  }
+}
+
+function initReader() {
+  const el = $('#reader');
+  const sc = $('#r-scroll');
+  el.addEventListener('click', onReaderClick);
+  window.addEventListener('popstate', () => {
+    if (skipPop) {
+      skipPop = false;
+      return;
+    }
+    if (reader.open) closeReader(true);
+  });
+  document.addEventListener('keydown', (e) => e.key === 'Escape' && reader.open && closeReader());
+
+  // The top bar becomes a translucent material once the poster header has scrolled away.
+  let ticking = false;
+  sc.addEventListener(
+    'scroll',
+    () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        ticking = false;
+        const head = $('.r-head', sc);
+        el.classList.toggle('scrolled', !!head && sc.scrollTop > head.offsetHeight - 60);
+      });
+    },
+    { passive: true }
+  );
+
+  // Swipe down from the top closes (touch), only when the article is scrolled to the very top.
+  let y0 = 0, dy = 0, lastY = 0, lastT = 0, vel = 0, active = false, decided = false;
+  el.addEventListener(
+    'touchstart',
+    (e) => {
+      if (e.touches.length !== 1 || e.target.closest('.r-votes')) {
+        active = false;
+        return;
+      }
+      y0 = lastY = e.touches[0].clientY;
+      lastT = performance.now();
+      dy = vel = 0;
+      decided = false;
+      active = sc.scrollTop <= 0 || !!e.target.closest('.r-bar');
+    },
+    { passive: true }
+  );
+  el.addEventListener(
+    'touchmove',
+    (e) => {
+      if (!active) return;
+      const y = e.touches[0].clientY;
+      const d = y - y0;
+      if (!decided) {
+        if (Math.abs(d) < 6) return;
+        decided = true;
+        if (d < 0) {
+          active = false;
+          return;
+        }
+        el.classList.add('dragging');
+      }
+      e.preventDefault();
+      dy = Math.max(0, d);
+      const t = performance.now();
+      vel = (y - lastY) / Math.max(1, t - lastT);
+      lastY = y;
+      lastT = t;
+      el.style.transform = `translateY(${dy}px)`;
+    },
+    { passive: false }
+  );
+  const end = () => {
+    if (!active || !decided) {
+      active = false;
+      return;
+    }
+    active = false;
+    el.classList.remove('dragging');
+    if (dy > 120 || vel > 0.5) closeReader();
+    else el.style.transform = '';
+  };
+  el.addEventListener('touchend', end);
+  el.addEventListener('touchcancel', end);
+}
+
+// ------------------------------------------------------------------ "N new stories ↑" pill
+
+let pendingFeed = null;
+async function checkForDrop() {
+  if (!feed || document.visibilityState !== 'visible') return;
+  let next;
+  try {
+    next = await getJSON(DATA.feed);
+  } catch {
+    return;
+  }
+  const known = new Set(arr(feed.drops).map((d) => d && d.id));
+  const fresh = arr(next && next.cards).filter((c) => usable(c) && !known.has(c.drop) && !byId.has(c.id) && state.votes[c.id] !== -1);
+  if (!fresh.length) return;
+  pendingFeed = next;
+  showPill(fresh.length);
+}
+function showPill(n) {
+  const b = $('#new-pill');
+  b.innerHTML = `<span>${n} new ${n === 1 ? 'story' : 'stories'}</span>${ICON.arrowUp}`;
+  b.hidden = false;
+  void b.offsetWidth;
+  b.classList.add('show');
+}
+function hidePill() {
+  const b = $('#new-pill');
+  b.classList.remove('show');
+  setTimeout(() => {
+    if (!b.classList.contains('show')) b.hidden = true;
+  }, reduced() ? 0 : 400);
+}
+async function applyPending() {
+  hidePill();
+  if (reader.open) closeReader();
+  if (pendingFeed) {
+    feed = pendingFeed;
+    pendingFeed = null;
+  }
+  leaveActive();
+  NOW = Math.max(Date.now(), Date.parse(feed.updated_at) + 75 * 60e3 || 0);
+  prevOpen = state.last_open;
+  restart();
+  state.last_open = new Date(NOW).toISOString();
+  save();
+  // Economy + Threads are refreshed with each drop too.
+  const [ec, sl] = await Promise.allSettled([getJSON(DATA.economy), getJSON(DATA.storylines)]);
+  if (ec.status === 'fulfilled') economy = ec.value;
+  if (sl.status === 'fulfilled') storylines = sl.value;
+  renderEconomy();
+  renderThreads();
 }
 
 // ------------------------------------------------------------------ Economy + Threads
@@ -938,6 +1241,8 @@ function restart() {
 
 async function boot() {
   initSheetDrag();
+  initReader();
+  $('#new-pill').addEventListener('click', applyPending);
   $('#tabs').addEventListener('click', (e) => {
     const b = e.target.closest('[data-tab]');
     if (b) setTab(b.dataset.tab);
@@ -947,7 +1252,9 @@ async function boot() {
   $('#sheet-body').addEventListener('change', (e) => e.target.id === 'import-file' && onImport(e));
   const f = feedEl();
   f.addEventListener('scroll', onScroll, { passive: true });
+  f.addEventListener('pointerdown', onFeedPointerDown);
   f.addEventListener('pointerup', onFeedPointerUp);
+  f.addEventListener('pointercancel', () => (down = null));
   f.addEventListener('click', onFeedClick);
   $('#chrome').addEventListener('pointerdown', showChrome);
   let rt = 0;
@@ -964,9 +1271,9 @@ async function boot() {
     if (document.visibilityState === 'hidden') {
       leaveActive();
       activeSince = performance.now();
-      try {
-        if (persist) localStorage.setItem(KEY, JSON.stringify(state));
-      } catch {}
+      saveNow();
+    } else {
+      checkForDrop();
     }
   });
 
@@ -1007,6 +1314,27 @@ async function boot() {
   const sheet = params.get('sheet');
   if (sheet === 'detail') openDetail(order[start].caught ? order[0] : order[start]);
   else if (sheet === 'settings') openSettings();
+
+  setInterval(checkForDrop, POLL_MS);
+  if (QA) runQA(QA);
+}
+
+// Dev-only QA hooks for screenshots; only reachable through a #qa=… hash.
+function runQA(qa) {
+  document.documentElement.classList.add('qa');
+  const what = qa.split(':')[0];
+  const id = qa.includes(':') ? qa.slice(qa.indexOf(':') + 1) : '';
+  const card = byId.get(id) || order.find((c) => !c.caught);
+  const i = order.indexOf(card);
+  if ((what === 'reader' || what === 'detail') && i >= 0) {
+    jumpTo(i);
+    setActive(i);
+    const el = cardAt(i);
+    if (el) el.classList.add('in');
+  }
+  if (what === 'reader') openReader(card);
+  else if (what === 'detail') openDetail(card);
+  else if (what === 'pill') showPill(12);
 }
 
 boot();

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "drop": "2026-10-13T01",
+  "articles": {
+    "2026-10-13T01-c01": {
+      "paragraphs": [
+        "Fixture article for a card from an earlier drop. an earlier fictional story in the rolling pool. This text only exists so the pool carries an article file forward and then rolls it off.",
+        "The second paragraph gives background from the fictional source page, which described the story in more detail than the card does. It quoted officials who said more information would come later in the week, and it noted that the earlier coverage had focused on the same questions.",
+        "The third paragraph explains what to watch. According to the fixture outlet, the next step depends on decisions that have not been made yet, and the people involved said they would announce any change publicly. Until then, readers should treat the early numbers as provisional.",
+        "A final paragraph closes the article with the remaining context from the page. It notes that the story is fictional, that every name in it is invented for tests, and that the Brief job should carry this file forward until the drop that owns it leaves the rolling pool. Nothing in it should ever reach the real data directory."
+      ],
+      "based_on": [
+        "https://example.com/fx/prev/2026-10-13T01-1"
+      ]
+    }
+  }
+}

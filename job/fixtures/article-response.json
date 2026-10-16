@@ -1,0 +1,161 @@
+{
+  "_comment": "Canned pass-2 article model output for --fixture. Each batch gets the articles for its cards. Deliberately bad: 2026-10-15T19-c07 (URL, 2 paragraphs), 2026-10-15T19-c99 (not a card of the drop), 2026-10-16T01-c04 (too few words), 2026-10-16T01-c06 (markdown); 2026-10-15T19-c08 has page text but no article (model left it out). fail_batches simulates a truncated (max_tokens) response for that batch index.",
+  "fail_batches": {
+    "2026-10-16T01": [
+      1
+    ]
+  },
+  "articles": [
+    {
+      "card_id": "2026-10-15T19-c01",
+      "paragraphs": [
+        "Northland and Southmark will meet next week in the neutral city of Arlen to discuss turning the 30-day Vell Valley ceasefire into a longer agreement, according to statements from both foreign ministries.",
+        "The truce began on September 20 and has largely held, though monitors reported sporadic small-arms fire near the river crossings. Northland's foreign ministry said the talks would cover a withdrawal line for heavy weapons and the reopening of two road crossings closed since the spring.",
+        "Southmark's deputy foreign minister, Ilse Varga, said her government wants international observers to stay in the valley, a demand Northland has resisted. Northland officials said they would bring proposals on prisoner exchanges and on the return of about 12,000 displaced residents, without saying whether they would accept observers.",
+        "Shipping firms that use the Vell estuary are watching closely. Traffic there fell by roughly a third during the summer fighting, according to the regional port authority, and insurers raised premiums for ships calling at nearby ports.",
+        "The ceasefire expires on October 20. Diplomats said a short extension could be agreed at the start of the three-day meeting to give negotiators more time, but neither side has committed to one."
+      ]
+    },
+    {
+      "card_id": "2026-10-15T19-c02",
+      "paragraphs": [
+        "Federal Reserve Governor Ana Hale said cooling inflation leaves room for one more quarter-point rate cut before the end of the year, speaking to a business group in Cleveland on Thursday.",
+        "Hale pointed to three straight months of slower price growth for services and described the labor market as cooling but not cracking, with no sign of a sharp rise in layoffs. Analysts quoted by Fixture Markets called her remarks the clearest signal yet from a board member that a December cut is likely. Hale joined the Fed board in 2024 and is seen by investors as a centrist.",
+        "Not every official agrees. Two regional bank presidents said last week that they want more months of data before cutting again, and minutes from the September meeting showed several participants worried inflation could stall above the 2 percent target.",
+        "Two-year Treasury yields fell about five basis points after the speech and futures markets priced a higher chance of a December cut, while mortgage rates, which track longer-term yields, were little changed on the day. The next policy meeting is October 27 to 28, and Hale did not say whether she would support a move then."
+      ]
+    },
+    {
+      "card_id": "2026-10-15T19-c03",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. The fictional startup says the plant will build 200 humanoid robots a year and hire 300 people. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-15T19-c07",
+      "paragraphs": [
+        "Too short, and it links out: see https://example.com/fx for more.",
+        "Only two paragraphs."
+      ]
+    },
+    {
+      "card_id": "2026-10-15T19-c99",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. Negotiators from the two fictional states said they will meet next week to discuss turning the 30-day ceasefire into a longer deal. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c01",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. Monitors confirmed artillery moved 20 km from the line as talks began in a neutral city. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c02",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. The fictional company showed robots working a full shift in a parcel hub with no human teleoperation. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c03",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. Agencies must test AI screening tools for bias and tell applicants when they are used. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c04",
+      "paragraphs": [
+        "Retail sales rose in September, a fictional survey shows.",
+        "The report gave no other details.",
+        "Economists said more data is due next month."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c05",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. The fictional states agreed to split river flows and build two desalination plants. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c06",
+      "paragraphs": [
+        "## This is a fixture article written for offline tests of the Brief job. The fictional island nation's parliament chose a former finance minister. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c07",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. The fictional port can now take the largest container ships, cutting transit times by two days. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c08",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. The fictional probe passed 800 km from the comet and found jets of water vapor. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c09",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. A fictional 2,000-patient trial tested a generic blood pressure drug. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c10",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. The fictional court ordered a new map before next year's local elections. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c11",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. The fictional company urged users to update after spyware exploited the bug. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    },
+    {
+      "card_id": "2026-10-16T01-c12",
+      "paragraphs": [
+        "This is a fixture article written for offline tests of the Brief job. The fictional state signed a contract worth $3 billion, its largest arms deal. The report did not give a timeline beyond that, according to the fictional wire service that published it.",
+        "The source page describes the background in some detail. Officials quoted in the story said the decision followed several months of discussion, and that more details would be released once the remaining questions were settled. None of the people named in the report gave figures beyond the ones already published.",
+        "Analysts quoted by the fixture outlet said the development was in line with what they had expected, although two of them cautioned that the early numbers could still be revised. One said the reaction from customers and competitors over the next few weeks would show how much it really changes.",
+        "What to watch next is whether the people involved follow through on the plans they described. The page says a further update is expected later this month, and that any change to the schedule would be announced publicly. Until then, the story is likely to stay a regional one."
+      ]
+    }
+  ]
+}

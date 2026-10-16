@@ -37,7 +37,8 @@
           "title": "Old fixture story about a fictional telescope",
           "url": "https://example.com/fx/prev/2026-10-13T01-1"
         }
-      ]
+      ],
+      "has_article": true
     },
     {
       "id": "2026-10-13T01-c02",
@@ -60,7 +61,8 @@
           "title": "Old fixture story about fictional bond auctions",
           "url": "https://example.com/fx/prev/2026-10-13T01-2"
         }
-      ]
+      ],
+      "has_article": false
     },
     {
       "id": "2026-10-13T01-c03",
@@ -83,7 +85,8 @@
           "title": "Old fixture story about a fictional flu season",
           "url": "https://example.com/fx/prev/2026-10-13T01-3"
         }
-      ]
+      ],
+      "has_article": false
     },
     {
       "id": "2026-10-15T13-c01",
@@ -110,7 +113,8 @@
           "title": "Northland and Southmark ceasefire holds for a second day",
           "url": "https://example.com/fx/prev/2026-10-15T13-1"
         }
-      ]
+      ],
+      "has_article": true
     },
     {
       "id": "2026-10-15T13-c02",
@@ -136,7 +140,8 @@
           "title": "Pinecone shows a fictional AI assistant for spreadsheets",
           "url": "https://example.com/fx/prev/2026-10-15T13-2"
         }
-      ]
+      ],
+      "has_article": false
     },
     {
       "id": "2026-10-15T13-c03",
@@ -161,7 +166,8 @@
           "title": "Fictional Fed minutes show split over pace of cuts",
           "url": "https://example.com/fx/prev/2026-10-15T13-3"
         }
-      ]
+      ],
+      "has_article": false
     },
     {
       "id": "2026-10-15T13-c04",
@@ -184,7 +190,8 @@
           "title": "Fictional marathon sets a course record",
           "url": "https://example.com/fx/prev/2026-10-15T13-4"
         }
-      ]
+      ],
+      "has_article": false
     }
   ]
 }

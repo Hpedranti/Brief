@@ -1,0 +1,5 @@
+%PDF-1.4
+% Fixture: a source URL that serves a PDF, not HTML. The job must skip it without reading it as text.
+1 0 obj << /Type /Catalog >> endobj
+trailer << /Root 1 0 R >>
+%%EOF

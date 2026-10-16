@@ -1,0 +1,29 @@
+{
+  "_comment": "--fixture page map: source URL -> page file (text/html), {file,type}, or {error}. Unmapped URLs fail as \"no fixture page\" (has_article false).",
+  "https://example.com/fx/d1/01-northland-and-southmark-agree-to-talks-o": "article-normal.html",
+  "https://example.com/fx/d1/02-fed-governor-ana-hale-backs-one-more-rat": "article-noise.html",
+  "https://example.com/fx/d1/03-kestrel-robotics-opens-its-first-humanoi": "article-normal.html",
+  "https://example.com/fx/d1/03b-kestrel-ohio-plant-subscriber-analysis": "paywall-teaser.html",
+  "https://example.com/fx/d1/04-lumen-labs-releases-an-open-ai-model-tha": "paywall-teaser.html",
+  "https://example.com/fx/d1/05-tessera-semiconductor-delays-its-2-nm-ch": {
+    "file": "document.pdf",
+    "type": "application/pdf"
+  },
+  "https://example.com/fx/d1/06-orbita-launches-40-broadband-satellites-": {
+    "error": "HTTP 403"
+  },
+  "https://example.com/fx/d1/07-drought-hardy-wheat-holds-yields-through": "article-normal.html",
+  "https://example.com/fx/d1/08-pell-county-reports-its-largest-measles-": "article-noise.html",
+  "https://example.com/fx/d2/01-vell-valley-talks-open-as-both-sides-pul": "article-normal.html",
+  "https://example.com/fx/d2/02-kestrel-humanoids-sort-parcels-without-r": "article-noise.html",
+  "https://example.com/fx/d2/03-white-house-issues-guidance-on-ai-tools-": "article-normal.html",
+  "https://example.com/fx/d2/04-retail-sales-rose-0-4-in-september-ficti": "article-noise.html",
+  "https://example.com/fx/d2/05-qaldar-and-neighbors-sign-a-water-sharin": "article-normal.html",
+  "https://example.com/fx/d2/06-tovu-elects-its-first-woman-prime-minist": "article-noise.html",
+  "https://example.com/fx/d2/07-port-of-sanmar-opens-a-new-deepwater-ber": "article-normal.html",
+  "https://example.com/fx/d2/08-lantern-2-probe-sends-first-close-images": "article-noise.html",
+  "https://example.com/fx/d2/09-trial-finds-a-cheap-pill-cuts-migraine-d": "article-normal.html",
+  "https://example.com/fx/d2/10-state-high-court-strikes-down-pell-count": "article-noise.html",
+  "https://example.com/fx/d2/11-pinecone-patches-a-browser-flaw-used-in-": "article-normal.html",
+  "https://example.com/fx/d2/12-northland-orders-12-air-defense-batterie": "article-noise.html"
+}
