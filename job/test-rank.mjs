@@ -1,5 +1,5 @@
 // node --test job/test-rank.mjs — checks docs/rank.js, docs/taste.js and the job's pool merge.
-// Built-ins only. Uses the committed sample docs/data/feed.json as a realistic fixture.
+// Built-ins only. Uses job/fixtures/sample-feed.json (the old sample docs/data/feed.json; docs/data is live now).
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -10,7 +10,7 @@ import { emptyTaste, loadTaste, saveTaste, pruneTaste, exportTaste, importTaste,
 import { mergePool, checkCards } from './build-brief.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const FEED = JSON.parse(fs.readFileSync(path.join(ROOT, 'docs', 'data', 'feed.json'), 'utf8'));
+const FEED = JSON.parse(fs.readFileSync(path.join(ROOT, 'job', 'fixtures', 'sample-feed.json'), 'utf8'));
 const CARDS = FEED.cards;
 const NOW = '2026-10-16T14:00:00Z';
 const byId = id => CARDS.find(c => c.id === id);

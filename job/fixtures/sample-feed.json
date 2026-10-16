@@ -1,0 +1,1193 @@
+{
+  "version": 2,
+  "sample": true,
+  "updated_at": "2026-10-16T13:04:00Z",
+  "drops": [
+    {
+      "id": "2026-10-16T01",
+      "at": "2026-10-16T01:04:00Z",
+      "model": "sample",
+      "count": 24
+    },
+    {
+      "id": "2026-10-16T13",
+      "at": "2026-10-16T13:04:00Z",
+      "model": "sample",
+      "count": 20
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-10-16T01-c01",
+      "drop": "2026-10-16T01",
+      "headline": "Fed holds rates steady, signals one more cut is likely before year end",
+      "summary": "Policymakers left the benchmark rate unchanged after a two-day meeting. The statement noted cooling inflation and a softer job market.",
+      "why_it_matters": "Mortgage and car-loan rates track these moves. Markets now price a December cut as likely.",
+      "region": "US",
+      "topics": [
+        "fed-rates",
+        "economy"
+      ],
+      "entities": [
+        "Federal Reserve"
+      ],
+      "importance": 5,
+      "follows": null,
+      "storyline_id": "sl-fed-path",
+      "published_at": "2026-10-16T00:27:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Fed holds rates steady, signals one more cut is likely before year end",
+          "url": "https://example.com/sample/2026-10-16T01/1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c02",
+      "drop": "2026-10-16T01",
+      "headline": "Humanoid robot startup Kestrel raises $400M to build a factory fleet",
+      "summary": "The fictional Austin company says the round funds 1,000 general-purpose robots for warehouse and auto plants by 2028.",
+      "why_it_matters": "The biggest robotics round this year, and another sign investors expect humanoids in real factories soon.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "startups-vc"
+      ],
+      "entities": [
+        "Kestrel Robotics"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T23:50:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Humanoid robot startup Kestrel raises $400M to build a factory fleet",
+          "url": "https://example.com/sample/2026-10-16T01/2"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c03",
+      "drop": "2026-10-16T01",
+      "headline": "Northland and Southmark agree 30-day ceasefire in Vell Valley",
+      "summary": "Negotiators signed a pause after two days of talks, the first halt in fighting since spring.",
+      "why_it_matters": "A pause could ease pressure on shipping lanes that carry US-bound goods.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Northland",
+        "Southmark"
+      ],
+      "importance": 5,
+      "follows": null,
+      "storyline_id": "sl-vell",
+      "published_at": "2026-10-15T23:13:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Northland and Southmark agree 30-day ceasefire in Vell Valley",
+          "url": "https://example.com/sample/2026-10-16T01/3"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c04",
+      "drop": "2026-10-16T01",
+      "headline": "Chipmaker Arcfield opens first 2-nanometer line in Arizona",
+      "summary": "The fictional firm began volume production at its Phoenix plant, two quarters behind its original schedule.",
+      "why_it_matters": "The most advanced chips made on US soil to date, a milestone for supply-chain security.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "trade"
+      ],
+      "entities": [
+        "Arcfield"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T22:36:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Chipmaker Arcfield opens first 2-nanometer line in Arizona",
+          "url": "https://example.com/sample/2026-10-16T01/4"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c05",
+      "drop": "2026-10-16T01",
+      "headline": "Port of Calloway strike enters third week as freight rates climb",
+      "summary": "Dock workers extended their walkout. Spot container rates on the route rose 4 percent this week.",
+      "why_it_matters": "Longer delays could raise costs for US importers ahead of the holidays.",
+      "region": "Asia",
+      "topics": [
+        "trade",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Port of Calloway"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-calloway",
+      "published_at": "2026-10-15T21:59:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Port of Calloway strike enters third week as freight rates climb",
+          "url": "https://example.com/sample/2026-10-16T01/5"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c06",
+      "drop": "2026-10-16T01",
+      "headline": "Lander touches down near the lunar south pole",
+      "summary": "A fictional commercial lander set down upright and sent its first images within an hour.",
+      "why_it_matters": "It carries NASA instruments hunting for water ice, a key resource for future crewed bases.",
+      "region": "Global",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "Selene Aerospace",
+        "NASA"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T21:22:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Lander touches down near the lunar south pole",
+          "url": "https://example.com/sample/2026-10-16T01/6"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c07",
+      "drop": "2026-10-16T01",
+      "headline": "Senate passes stopgap bill, averting a shutdown until January",
+      "summary": "The vote was 71 to 27. The House is expected to take it up on Thursday.",
+      "why_it_matters": "Federal paychecks, parks and agency services continue without interruption for now.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "US Senate"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T20:45:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Senate passes stopgap bill, averting a shutdown until January",
+          "url": "https://example.com/sample/2026-10-16T01/7"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c08",
+      "drop": "2026-10-16T01",
+      "headline": "New open-weights AI model rivals top closed systems on coding tests",
+      "summary": "A fictional lab released the weights for free use. Independent testers confirmed most of its benchmark claims.",
+      "why_it_matters": "Cheaper capable models put pressure on paid AI services and change what startups can build.",
+      "region": "Global",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Lumen Labs"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T00:27:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "New open-weights AI model rivals top closed systems on coding tests",
+          "url": "https://example.com/sample/2026-10-16T01/8"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c09",
+      "drop": "2026-10-16T01",
+      "headline": "Oil slips below $70 as producers signal higher output",
+      "summary": "Benchmark crude fell 3 percent after a producer group hinted at easing supply cuts next quarter.",
+      "why_it_matters": "Cheaper oil feeds into lower gas prices within a few weeks.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "markets"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T23:50:00Z",
+      "has_article": false,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Oil slips below $70 as producers signal higher output",
+          "url": "https://example.com/sample/2026-10-16T01/9"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c10",
+      "drop": "2026-10-16T01",
+      "headline": "Supreme Court agrees to hear major case on social media age checks",
+      "summary": "The justices will decide whether states can require platforms to verify user ages.",
+      "why_it_matters": "The ruling could change how millions of teenagers sign up for apps nationwide.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "big-tech"
+      ],
+      "entities": [
+        "Supreme Court"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T23:13:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Supreme Court agrees to hear major case on social media age checks",
+          "url": "https://example.com/sample/2026-10-16T01/10"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c11",
+      "drop": "2026-10-16T01",
+      "headline": "Ransomware attack halts operations at a regional hospital chain",
+      "summary": "The fictional Meridian Health diverted ambulances from four hospitals while systems were restored.",
+      "why_it_matters": "Hospitals remain a top ransomware target. Federal agencies issued a new alert to providers.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "health"
+      ],
+      "entities": [
+        "Meridian Health"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T22:36:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Ransomware attack halts operations at a regional hospital chain",
+          "url": "https://example.com/sample/2026-10-16T01/11"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c12",
+      "drop": "2026-10-16T01",
+      "headline": "Jobless claims fall to lowest level in two months",
+      "summary": "Weekly first-time claims dropped to 212,000, below economists' expectations.",
+      "why_it_matters": "A sturdier job market makes the Fed less likely to cut quickly.",
+      "region": "US",
+      "topics": [
+        "jobs-labor",
+        "economy"
+      ],
+      "entities": [
+        "Labor Department"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-fed-path",
+      "published_at": "2026-10-15T21:59:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Jobless claims fall to lowest level in two months",
+          "url": "https://example.com/sample/2026-10-16T01/12"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c13",
+      "drop": "2026-10-16T01",
+      "headline": "Record heat closes schools across southern Europe",
+      "summary": "Temperatures topped 44°C in parts of three countries, the latest October reading on record.",
+      "why_it_matters": "Extreme heat is moving into new seasons, with knock-on effects for tourism and crops.",
+      "region": "Europe",
+      "topics": [
+        "climate",
+        "europe"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T21:22:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Record heat closes schools across southern Europe",
+          "url": "https://example.com/sample/2026-10-16T01/13"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c14",
+      "drop": "2026-10-16T01",
+      "headline": "Electric truck maker Volt Haul cuts 20% of staff",
+      "summary": "The fictional company blamed slower orders and said it would focus on one model.",
+      "why_it_matters": "EV trucking is consolidating as subsidies shrink and fleets wait for cheaper batteries.",
+      "region": "US",
+      "topics": [
+        "autos-transport",
+        "startups-vc"
+      ],
+      "entities": [
+        "Volt Haul"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T20:45:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Electric truck maker Volt Haul cuts 20% of staff",
+          "url": "https://example.com/sample/2026-10-16T01/14"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c15",
+      "drop": "2026-10-16T01",
+      "headline": "China announces new export limits on rare-earth magnets",
+      "summary": "Exporters will need licenses for high-grade magnets starting next month.",
+      "why_it_matters": "Those magnets go into US motors, drones and wind turbines, and alternatives take years to build.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "trade"
+      ],
+      "entities": [
+        "China Commerce Ministry"
+      ],
+      "importance": 5,
+      "follows": null,
+      "storyline_id": "sl-rare-earths",
+      "published_at": "2026-10-16T00:27:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "China announces new export limits on rare-earth magnets",
+          "url": "https://example.com/sample/2026-10-16T01/15"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c16",
+      "drop": "2026-10-16T01",
+      "headline": "Warehouse robots now handle half of orders at fictional retailer Brightcart",
+      "summary": "The company said robotic picking cut fulfillment time by a third across 40 sites.",
+      "why_it_matters": "A concrete sign of automation spreading from pilots to most of a major retailer's network.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Brightcart"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T23:50:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Warehouse robots now handle half of orders at fictional retailer Brightcart",
+          "url": "https://example.com/sample/2026-10-16T01/16"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c17",
+      "drop": "2026-10-16T01",
+      "headline": "Stocks hit record high led by AI chip shares",
+      "summary": "The broad index rose 1.2 percent. Chip stocks gained more than 4 percent on strong demand forecasts.",
+      "why_it_matters": "Retirement accounts are up sharply this year, but the gains are concentrated in a few companies.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "chips"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T23:13:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Stocks hit record high led by AI chip shares",
+          "url": "https://example.com/sample/2026-10-16T01/17"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c18",
+      "drop": "2026-10-16T01",
+      "headline": "Drone defense system shoots down swarm in Army field test",
+      "summary": "A fictional laser-plus-interceptor system knocked out 40 small drones in under two minutes.",
+      "why_it_matters": "Cheap drones are reshaping warfare. The Pentagon wants low-cost ways to stop them at scale.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "war-conflict"
+      ],
+      "entities": [
+        "US Army"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T22:36:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Drone defense system shoots down swarm in Army field test",
+          "url": "https://example.com/sample/2026-10-16T01/18"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c19",
+      "drop": "2026-10-16T01",
+      "headline": "Election officials certify results after record mail-in turnout in Velmora",
+      "summary": "The fictional country's election saw 78 percent turnout. The opposition conceded peacefully.",
+      "why_it_matters": "A smooth handover in a key trading partner reassures investors and diplomats.",
+      "region": "Americas",
+      "topics": [
+        "elections",
+        "latin-america"
+      ],
+      "entities": [
+        "Velmora"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T21:59:00Z",
+      "has_article": false,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Election officials certify results after record mail-in turnout in Velmora",
+          "url": "https://example.com/sample/2026-10-16T01/19"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c20",
+      "drop": "2026-10-16T01",
+      "headline": "Gene therapy restores partial sight in early trial",
+      "summary": "Eight of twelve patients with an inherited eye disease could read large print after one treatment.",
+      "why_it_matters": "One more step toward one-time cures for diseases that now need lifelong care.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T21:22:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Gene therapy restores partial sight in early trial",
+          "url": "https://example.com/sample/2026-10-16T01/20"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c21",
+      "drop": "2026-10-16T01",
+      "headline": "EU fines fictional platform Chirp €1.2 billion over data transfers",
+      "summary": "Regulators said user data moved to US servers without adequate protections.",
+      "why_it_matters": "US tech companies face growing legal costs in Europe, and transatlantic data rules are still unsettled.",
+      "region": "Europe",
+      "topics": [
+        "policy-regulation",
+        "big-tech",
+        "europe"
+      ],
+      "entities": [
+        "European Commission",
+        "Chirp"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T20:45:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "EU fines fictional platform Chirp €1.2 billion over data transfers",
+          "url": "https://example.com/sample/2026-10-16T01/21"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c22",
+      "drop": "2026-10-16T01",
+      "headline": "Middle East talks resume on Red Sea shipping security",
+      "summary": "Envoys met for the first time in two months to discuss naval escorts and insurance rules.",
+      "why_it_matters": "About 12 percent of world trade passes through the Red Sea. Disruptions lift prices everywhere.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "trade"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T00:27:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Middle East talks resume on Red Sea shipping security",
+          "url": "https://example.com/sample/2026-10-16T01/22"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c23",
+      "drop": "2026-10-16T01",
+      "headline": "Self-driving taxis expand to three more US cities",
+      "summary": "A fictional operator added Denver, Nashville and Miami, bringing its service to nine metros.",
+      "why_it_matters": "Driverless rides are moving from novelty to a normal option in more American cities.",
+      "region": "US",
+      "topics": [
+        "autos-transport",
+        "ai"
+      ],
+      "entities": [
+        "Waylight"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T23:50:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Self-driving taxis expand to three more US cities",
+          "url": "https://example.com/sample/2026-10-16T01/23"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T01-c24",
+      "drop": "2026-10-16T01",
+      "headline": "Startup builds a robot hand that can thread a needle",
+      "summary": "The fictional lab's 22-joint hand learned the task from 40 hours of human demos.",
+      "why_it_matters": "Dexterous hands are the hardest part of useful humanoids. This is a notable jump.",
+      "region": "Global",
+      "topics": [
+        "robotics",
+        "ai"
+      ],
+      "entities": [
+        "Tactile Labs"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-15T23:13:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Startup builds a robot hand that can thread a needle",
+          "url": "https://example.com/sample/2026-10-16T01/24"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c01",
+      "drop": "2026-10-16T13",
+      "headline": "Inflation cools to 2.6%, the lowest in 18 months",
+      "summary": "Consumer prices rose less than expected last month as rent and used-car prices eased.",
+      "why_it_matters": "Cooler inflation gives the Fed room to keep cutting, which would lower borrowing costs.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "fed-rates"
+      ],
+      "entities": [
+        "Bureau of Labor Statistics"
+      ],
+      "importance": 5,
+      "follows": null,
+      "storyline_id": "sl-fed-path",
+      "published_at": "2026-10-16T12:27:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Inflation cools to 2.6%, the lowest in 18 months",
+          "url": "https://example.com/sample/2026-10-16T13/1"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c02",
+      "drop": "2026-10-16T13",
+      "headline": "Ceasefire largely holds on first full day, monitors say",
+      "summary": "International observers reported only minor violations along the Vell Valley line.",
+      "why_it_matters": "A lasting pause would steady energy prices and let aid reach civilians.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "europe"
+      ],
+      "entities": [
+        "Northland",
+        "Southmark"
+      ],
+      "importance": 4,
+      "follows": "2026-10-16T01-c03",
+      "storyline_id": "sl-vell",
+      "published_at": "2026-10-16T11:50:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Ceasefire largely holds on first full day, monitors say",
+          "url": "https://example.com/sample/2026-10-16T13/2"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c03",
+      "drop": "2026-10-16T13",
+      "headline": "Rocket startup Halcyon nails first booster landing",
+      "summary": "The fictional company recovered its booster on a barge on its third attempt.",
+      "why_it_matters": "More reusable rockets mean cheaper launches and more competition for satellite contracts.",
+      "region": "US",
+      "topics": [
+        "space",
+        "startups-vc"
+      ],
+      "entities": [
+        "Halcyon"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T11:13:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Rocket startup Halcyon nails first booster landing",
+          "url": "https://example.com/sample/2026-10-16T13/3"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c04",
+      "drop": "2026-10-16T13",
+      "headline": "House committee advances bill to set national AI safety rules",
+      "summary": "The bill would require testing and incident reports for the largest models. It passed committee 30 to 19.",
+      "why_it_matters": "It would be the first federal AI law, and it could override a patchwork of state rules.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "policy-regulation",
+        "us-politics"
+      ],
+      "entities": [
+        "House Commerce Committee"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T10:36:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "House committee advances bill to set national AI safety rules",
+          "url": "https://example.com/sample/2026-10-16T13/4"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c05",
+      "drop": "2026-10-16T13",
+      "headline": "Automakers scramble for magnets after China's export limits",
+      "summary": "Two fictional carmakers warned of production slowdowns if licenses take more than a month.",
+      "why_it_matters": "Shortages could slow EV and hybrid production and lift car prices.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "autos-transport",
+        "trade"
+      ],
+      "entities": [
+        "China Commerce Ministry"
+      ],
+      "importance": 4,
+      "follows": "2026-10-16T01-c15",
+      "storyline_id": "sl-rare-earths",
+      "published_at": "2026-10-16T09:59:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Automakers scramble for magnets after China's export limits",
+          "url": "https://example.com/sample/2026-10-16T13/5"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c06",
+      "drop": "2026-10-16T13",
+      "headline": "Robot lawnmower recall covers 300,000 units",
+      "summary": "The fictional maker said a sensor fault could fail to stop the blades when lifted.",
+      "why_it_matters": "Check your model number. Owners can get a free repair.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "crime-justice"
+      ],
+      "entities": [
+        "GreenBot"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T09:22:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Robot lawnmower recall covers 300,000 units",
+          "url": "https://example.com/sample/2026-10-16T13/6"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c07",
+      "drop": "2026-10-16T13",
+      "headline": "Bond yields fall as traders bet on faster Fed cuts",
+      "summary": "The 10-year yield dropped to its lowest level since spring after the inflation report.",
+      "why_it_matters": "Lower yields usually pull mortgage rates down within days.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "fed-rates"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-fed-path",
+      "published_at": "2026-10-16T08:45:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Bond yields fall as traders bet on faster Fed cuts",
+          "url": "https://example.com/sample/2026-10-16T13/7"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c08",
+      "drop": "2026-10-16T13",
+      "headline": "Wildfire smoke blankets three western states",
+      "summary": "Air quality alerts covered 20 million people as fires burned in dry, windy conditions.",
+      "why_it_matters": "Smoke season is getting longer. Health officials urge masks and filters for sensitive groups.",
+      "region": "US",
+      "topics": [
+        "climate",
+        "health"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T12:27:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Wildfire smoke blankets three western states",
+          "url": "https://example.com/sample/2026-10-16T13/8"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c09",
+      "drop": "2026-10-16T13",
+      "headline": "Port of Calloway strike ends with 9% wage deal",
+      "summary": "Workers ratified a three-year contract. Ships began unloading within hours.",
+      "why_it_matters": "Shipping backlogs should clear in two to three weeks, in time for holiday inventory.",
+      "region": "Asia",
+      "topics": [
+        "trade",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Port of Calloway"
+      ],
+      "importance": 3,
+      "follows": "2026-10-16T01-c05",
+      "storyline_id": "sl-calloway",
+      "published_at": "2026-10-16T11:50:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Port of Calloway strike ends with 9% wage deal",
+          "url": "https://example.com/sample/2026-10-16T13/9"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c10",
+      "drop": "2026-10-16T13",
+      "headline": "Quantum computing firm claims error-correction milestone",
+      "summary": "The fictional Qubitron showed logical qubits that held data 10 times longer than physical ones.",
+      "why_it_matters": "Error correction is the main hurdle before quantum computers can do useful work.",
+      "region": "Global",
+      "topics": [
+        "science",
+        "big-tech"
+      ],
+      "entities": [
+        "Qubitron"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T11:13:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Quantum computing firm claims error-correction milestone",
+          "url": "https://example.com/sample/2026-10-16T13/10"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c11",
+      "drop": "2026-10-16T13",
+      "headline": "Teacher strike closes schools in fictional Ridgeport district",
+      "summary": "Teachers walked out after talks over class sizes and pay collapsed overnight.",
+      "why_it_matters": "It's the third big-city teacher strike this year, as districts face tight budgets.",
+      "region": "US",
+      "topics": [
+        "jobs-labor"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T10:36:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Teacher strike closes schools in fictional Ridgeport district",
+          "url": "https://example.com/sample/2026-10-16T13/11"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c12",
+      "drop": "2026-10-16T13",
+      "headline": "Navy unveils autonomous submarine prototype",
+      "summary": "The 50-foot uncrewed vessel can patrol for months without surfacing, the Navy said.",
+      "why_it_matters": "Robot submarines could change how the US watches contested waters in the Pacific.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "robotics"
+      ],
+      "entities": [
+        "US Navy"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T09:59:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Navy unveils autonomous submarine prototype",
+          "url": "https://example.com/sample/2026-10-16T13/12"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c13",
+      "drop": "2026-10-16T13",
+      "headline": "African Union backs plan for a continental payments system",
+      "summary": "Leaders endorsed a fictional system to settle trade in local currencies.",
+      "why_it_matters": "Cheaper cross-border payments could speed up trade with one of the fastest-growing regions.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "trade"
+      ],
+      "entities": [
+        "African Union"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T09:22:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "African Union backs plan for a continental payments system",
+          "url": "https://example.com/sample/2026-10-16T13/13"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c14",
+      "drop": "2026-10-16T13",
+      "headline": "Championship series opens with a 14-inning thriller",
+      "summary": "The fictional Harbor City Gulls won game one on a walk-off double after midnight.",
+      "why_it_matters": "Ratings are up as the shorter, pitch-clock game wins back younger viewers.",
+      "region": "US",
+      "topics": [
+        "culture-sports"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T08:45:00Z",
+      "has_article": false,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Championship series opens with a 14-inning thriller",
+          "url": "https://example.com/sample/2026-10-16T13/14"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c15",
+      "drop": "2026-10-16T13",
+      "headline": "Fictional chat app Huddle leaks data on 4 million users",
+      "summary": "A misconfigured server exposed emails and phone numbers for about a week.",
+      "why_it_matters": "Change your password and watch for phishing messages if you have an account.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "big-tech"
+      ],
+      "entities": [
+        "Huddle"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T12:27:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Fictional chat app Huddle leaks data on 4 million users",
+          "url": "https://example.com/sample/2026-10-16T13/15"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c16",
+      "drop": "2026-10-16T13",
+      "headline": "Japan and South Korea sign chip supply pact",
+      "summary": "The deal pools materials stockpiles and shares supply alerts.",
+      "why_it_matters": "Allied chip supply chains matter as US firms rely on both countries for key parts.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "chips",
+        "trade"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T11:50:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Japan and South Korea sign chip supply pact",
+          "url": "https://example.com/sample/2026-10-16T13/16"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c17",
+      "drop": "2026-10-16T13",
+      "headline": "Grid operators warn of tight winter power supply in Texas",
+      "summary": "A fictional reliability report flagged risk during long cold snaps.",
+      "why_it_matters": "Power demand from data centers is rising faster than new generation.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "ai"
+      ],
+      "entities": [
+        "ERCOT"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T11:13:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Grid operators warn of tight winter power supply in Texas",
+          "url": "https://example.com/sample/2026-10-16T13/17"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c18",
+      "drop": "2026-10-16T13",
+      "headline": "Appeals court blocks new rule on overtime pay",
+      "summary": "The court said the agency overstepped its authority under labor law.",
+      "why_it_matters": "About 4 million salaried workers who would have gained overtime won't for now.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "jobs-labor"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T10:36:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Demo Daily",
+          "title": "Appeals court blocks new rule on overtime pay",
+          "url": "https://example.com/sample/2026-10-16T13/18"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c19",
+      "drop": "2026-10-16T13",
+      "headline": "Robotics foundation model learns tasks from YouTube videos",
+      "summary": "Researchers at a fictional lab trained a robot policy on 100,000 hours of online video.",
+      "why_it_matters": "Training on video instead of costly robot demos could speed up general-purpose robots.",
+      "region": "Global",
+      "topics": [
+        "robotics",
+        "ai",
+        "science"
+      ],
+      "entities": [
+        "Meridian AI"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T09:59:00Z",
+      "has_article": true,
+      "sources": [
+        {
+          "outlet": "Sample Wire",
+          "title": "Robotics foundation model learns tasks from YouTube videos",
+          "url": "https://example.com/sample/2026-10-16T13/19"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-16T13-c20",
+      "drop": "2026-10-16T13",
+      "headline": "Cocoa prices hit record as West African harvest falls short",
+      "summary": "Futures jumped 8 percent after export estimates were cut again.",
+      "why_it_matters": "Expect pricier chocolate by the holidays.",
+      "region": "Africa",
+      "topics": [
+        "markets",
+        "africa",
+        "climate"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-16T09:22:00Z",
+      "has_article": false,
+      "sources": [
+        {
+          "outlet": "Example Times",
+          "title": "Cocoa prices hit record as West African harvest falls short",
+          "url": "https://example.com/sample/2026-10-16T13/20"
+        }
+      ]
+    }
+  ]
+}

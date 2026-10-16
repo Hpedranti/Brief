@@ -159,7 +159,7 @@ test('the noisy fixture page yields the article body only', () => {
 
 // ───────────── article validation ─────────────
 
-test('checkParagraphs accepts 3–6 paragraphs and 180–320 words, inclusive', () => {
+test('checkParagraphs accepts 3–6 paragraphs and 180–360 words, inclusive', () => {
   const L = ARTICLE_LIMITS;
   assert.ok(checkParagraphs(paras(3, L.minWords)).ok);
   assert.ok(checkParagraphs(paras(6, L.maxWords)).ok);
@@ -173,7 +173,7 @@ test('checkParagraphs rejects wrong paragraph counts and word totals', () => {
   assert.match(checkParagraphs(paras(2, 250)).why, /2 paragraphs/);
   assert.match(checkParagraphs(paras(7, 250)).why, /7 paragraphs/);
   assert.match(checkParagraphs(paras(4, ARTICLE_LIMITS.minWords - 1)).why, /179 words/);
-  assert.match(checkParagraphs(paras(4, ARTICLE_LIMITS.maxWords + 1)).why, /321 words/);
+  assert.match(checkParagraphs(paras(4, ARTICLE_LIMITS.maxWords + 1)).why, /361 words/);
   assert.match(checkParagraphs([words(100), '   ', words(100)]).why, /empty paragraph/);
   assert.match(checkParagraphs('not an array').why, /not an array/);
   assert.match(checkParagraphs([words(100), 5, words(100)]).why, /not an array of strings/);
@@ -253,7 +253,7 @@ test('articlesFileChecks: entries only for pool cards, based_on ⊆ sources, lim
   const { errors } = articlesFileChecks(f, sampleFeed(), '2026-10-16T13.json');
   assert.deepEqual(errors.sort(), [
     '2026-10-16T13-c01: based_on https://evil.example/not-a-source is not one of the card\'s sources',
-    '2026-10-16T13-c03: 400 words (want 180–320)',
+    '2026-10-16T13-c03: 400 words (want 180–360)',
     '2026-10-16T13-c03: unknown key "extra"',
     '2026-10-16T13-c09: not a card of drop 2026-10-16T13 in the pool',
   ]);

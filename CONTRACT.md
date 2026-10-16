@@ -106,7 +106,7 @@ defense, autos-transport, crime-justice, culture-sports
     {
       "id": "2026-10-16T13-c07",            // `<drop id>-c<nn>`, stable forever
       "drop": "2026-10-16T13",
-      "headline": "≤ 80 chars, plain, no clickbait",
+      "headline": "≤ 80 chars (prompt asks ≤ 70), plain, no clickbait",
       "summary": "≤ 45 words. What happened.",
       "why_it_matters": "≤ 30 words. Why a US reader should care.",
       "region": "Europe | Middle East | Asia | Americas | Africa | US | Global",
@@ -146,7 +146,7 @@ teaser + background), so Claude writes from real text and never pads.
   "drop": "2026-10-16T13",
   "articles": {
     "2026-10-16T13-c07": {
-      "paragraphs": ["…", "…", "…"],      // 3–6 paragraphs, 180–320 words total, plain text, no URLs/markdown
+      "paragraphs": ["…", "…", "…"],      // 3–6 paragraphs, 180–360 words total (prompt asks 200–280), plain text, no URLs/markdown
       "based_on": ["https://…"]           // the source URLs whose page text Claude actually read (⊆ card.sources)
     }
   }
