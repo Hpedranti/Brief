@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>Brief</title>
-    <meta name="description" content="A two-minute read: world news through a US lens, the economy, and running threads." />
+    <meta name="description" content="A news feed you can doomscroll: bold cards, three drops a day, ranked on your phone by your votes." />
 
     <!-- iOS home-screen web app -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -16,23 +16,17 @@
     <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
     <link rel="manifest" href="./manifest.webmanifest" />
 
-    <meta name="theme-color" content="#F5F5F2" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#0B0B0D" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
 
-    <!-- Archivo (variable 400–900) everywhere -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400..900&display=swap"
-    />
-
-    <!-- Debug override (?theme=light|dark) applied before first paint. -->
+    <!-- Debug override (?theme=light|dark) + motion flag, applied before first paint. -->
     <script>
       (function () {
         try {
           var t = new URLSearchParams(location.search).get('theme');
           if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+          var rm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          if (!rm) document.documentElement.classList.add('motion');
         } catch (e) {}
       })();
     </script>
@@ -40,32 +34,37 @@
     <link rel="stylesheet" href="./styles.css" />
     <script type="module" src="./app.js"></script>
   </head>
-  <body>
-    <header class="top">
-      <div class="top-inner">
-        <div class="wordmark"><span class="wordmark-bar" aria-hidden="true"></span>Brief</div>
-        <div class="stamp" id="stamp" aria-live="polite">
-          <span class="stamp-date" id="stamp-date"></span>
-          <span class="stamp-updated" id="stamp-updated"></span>
-        </div>
+  <body data-tab="feed" data-ink="light">
+    <header class="chrome" id="chrome">
+      <div class="chrome-row">
+        <div class="wordmark">Brief</div>
+        <nav class="seg" role="tablist" id="tabs" aria-label="Sections">
+          <button role="tab" type="button" data-tab="feed">Feed</button>
+          <button role="tab" type="button" data-tab="economy">Economy</button>
+          <button role="tab" type="button" data-tab="threads">Threads</button>
+        </nav>
+        <button class="gear" type="button" id="gear" aria-label="Settings">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h8.5M17.5 7.5H20M4 16.5h2.5M11.5 16.5H20"/><circle cx="15" cy="7.5" r="2.5"/><circle cx="9" cy="16.5" r="2.5"/></svg>
+        </button>
       </div>
     </header>
 
-    <main id="main" class="column" tabindex="-1">
-      <div id="banner"></div>
-      <div id="view" role="tabpanel" aria-live="polite">
-        <div class="skeleton" aria-label="Loading">
-          <div class="sk-card"></div>
-          <div class="sk-card"></div>
-          <div class="sk-card"></div>
-        </div>
-      </div>
+    <div class="progress" id="progress" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+
+    <main id="feed" class="feed" aria-label="Feed" tabindex="-1">
+      <article class="card loading" aria-label="Loading"><div class="poster"><div class="hl"><div class="hl-t">Brief</div></div></div></article>
     </main>
+    <section id="economy" class="page" aria-label="Economy" hidden></section>
+    <section id="threads" class="page" aria-label="Threads" hidden></section>
 
-    <nav class="tabbar" aria-label="Sections">
-      <div class="tabbar-inner" role="tablist" id="tablist"></div>
-    </nav>
+    <div class="scrim" id="scrim" hidden></div>
+    <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Details" hidden>
+      <div class="sheet-grab" id="sheet-grab"><span></span></div>
+      <div class="sheet-body" id="sheet-body"></div>
+    </div>
 
-    <noscript><p class="column">Brief needs JavaScript to load today's items.</p></noscript>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <noscript><p style="padding:96px 20px">Brief needs JavaScript to load the feed.</p></noscript>
   </body>
 </html>

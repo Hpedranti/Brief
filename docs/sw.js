@@ -2,7 +2,7 @@
 // Shell: cache-first. ./data/*.json: network-first, falling back to the last copy.
 // To bust every client's cache after a shell change, bump CACHE_VERSION.
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2-poster-1';
 const SHELL_CACHE = `brief-shell-${CACHE_VERSION}`;
 const DATA_CACHE = 'brief-data'; // unversioned: keep the last good data across shell bumps
 
