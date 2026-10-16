@@ -63,6 +63,20 @@ const PAGE_TIMEOUT_MS = 10_000;
 const PAGE_MAX_BYTES = 2 * 1024 * 1024;
 const PAGE_CONCURRENCY = 6;
 const PAGES_PER_CARD = 2;
+// Contested stories get one extra page read so the article can draw on more than one side.
+export const CONTESTED_TOPICS = ['us-politics', 'elections', 'courts', 'policy-regulation'];
+export const isContested = card => (card.topics || []).some(t => CONTESTED_TOPICS.includes(t));
+export const pagesFor = card => (isContested(card) ? 3 : PAGES_PER_CARD);
+// Logged every run (not enforced: a single-outlet scoop is still news). Watch it to see if the 2+ outlet rule holds.
+export function balanceReport(cards) {
+  const contested = cards.filter(isContested);
+  const outlets = c => new Set(c.sources.map(s => s.outlet)).size;
+  return {
+    contested: contested.length,
+    multiOutlet: contested.filter(c => outlets(c) >= 2).length,
+    single: contested.filter(c => outlets(c) < 2).map(c => c.id),
+  };
+}
 export const PAGE_TEXT_CAP = 6000;
 export const PAGE_TEXT_MIN = 600;
 // The prompt asks for 200–300 words so the strict 180–320 contract range has margin; no slack is applied.
@@ -736,6 +750,13 @@ ACCURACY
 - Use only facts present in the provided articles and data. Never invent numbers, quotes, dates, names or outcomes.
 - If sources conflict or a detail is unconfirmed, say so briefly (for example "reports conflict on casualties").
 
+BALANCE (the reader wants it unbiased)
+- The article list mixes outlets from across the spectrum on purpose. Pick stories by significance, not by which side they embarrass or flatter; do not let one outlet's framing set the agenda.
+- Contested stories (US politics, elections, courts, policy, and any partisan or culture-war fight): cite 2–3 sources from different outlets, from different sides when the list has them, and list them in that order.
+- Attribute every contested claim to whoever made it ("the White House said", "Democrats argue"). Give each side's position in its own terms, and keep what happened apart from what people claim about it.
+- No loaded or emotive words (slammed, blasted, radical, extremist, controversial, so-called, sparked outrage) unless quoted and attributed. Describe actions, not motives.
+- headline, summary and why_it_matters stay neutral: a reader on either side should find the card fair.
+
 ECONOMY (the Economy tab)
 - economy.indicators: one entry per provided indicator, in the order given. Copy value, unit and as_of verbatim. Never compute, round or restate a number differently. change: compare value with previous ("up 0.2", "down 0.1", "unch") using the two provided numbers, or "" if there is no previous. note ≤ 12 words. Omit nothing that was provided; add nothing that was not.
 - economy.fed.next_meeting: copy the provided next FOMC decision date (or null). odds: copy the provided labels and probabilities verbatim (shorten a label only to fit 40 characters); [] if none were provided. fed.note ≤ 20 words.
@@ -1096,7 +1117,9 @@ export function checkCards(rawCards, { dropId, articles, pool, storylineIds }) {
     }
     kept.push(card);
   });
-  return { cards: kept, dropped };
+  const balance = balanceReport(kept);
+  if (balance.contested) log(`balance: ${balance.contested} contested card(s), ${balance.multiOutlet} cite 2+ outlets${balance.single.length ? `; single-outlet: ${balance.single.join(', ')}` : ''}`);
+  return { cards: kept, dropped, balance };
 }
 
 // Merge a new drop into the rolling pool: drops older than 72 h fall out, then the oldest drops go
@@ -1188,6 +1211,7 @@ RULES
 - Attribute claims to whoever made them ("according to Reuters…", "the ministry said…").
 - First paragraph: what happened. Later paragraphs: the context and what to watch next, only as far as the page text supports it.
 - Neutral, plain English. Do not restate the headline.
+- Balance on contested stories (politics, courts, policy, partisan fights): when pages from different outlets disagree in framing or facts, say where they differ and attribute each version. Give each side's stated position in its own terms; if only one side's view is in the page text, say the other side's response was not reported rather than inventing it. Describe actions, not motives. No loaded or emotive words (slammed, blasted, radical, extremist, so-called) unless quoted and attributed. Keep what happened apart from what people claim about it.
 - 3–6 paragraphs, 200–300 words in total. Plain text only: no markdown, bullet points, headings, URLs or emoji.
 - If a card's page text is too thin, off-topic or unrelated to the headline to support a faithful article of at least 200 words, leave that card out rather than pad it.
 - card_id: copy it exactly from the input. At most one article per card.
@@ -1227,7 +1251,7 @@ async function buildArticles(cards, dropId) {
   const result = { articles: {}, cost: 0, inTok: 0, outTok: 0, costKnown: true };
   try {
     // 1. Fetch ≤ 2 source pages per card (deduped by URL), ≤ 6 in flight.
-    const urls = [...new Set(cards.flatMap(c => c.sources.slice(0, PAGES_PER_CARD).map(s => s.url)))];
+    const urls = [...new Set(cards.flatMap(c => c.sources.slice(0, pagesFor(c)).map(s => s.url)))];
     const pages = new Map();
     await mapLimit(urls, PAGE_CONCURRENCY, async url => {
       const t = Date.now();
@@ -1243,7 +1267,7 @@ async function buildArticles(cards, dropId) {
     });
     const ready = [];
     for (const card of cards) {
-      const ps = card.sources.slice(0, PAGES_PER_CARD).map(source => ({ source, ...pages.get(source.url) })).filter(p => p.usable);
+      const ps = card.sources.slice(0, pagesFor(card)).map(source => ({ source, ...pages.get(source.url) })).filter(p => p.usable);
       if (ps.length) ready.push({ card, pages: ps });
       else log(`article skip ${card.id}: no usable source page text`);
     }

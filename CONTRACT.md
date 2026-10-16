@@ -72,6 +72,16 @@ new values `tech`, `science`, `business`, `defense`.
 Window per drop: entries published since the previous drop minus 2 h (overlap), max 36 h. Dedupe by
 URL + near-identical title. Cap **300** entries sent to the model, summary ≤ 300 chars each.
 
+**Balance (2026-10-16, Harrison: "somewhat unbiased while also providing accurate info").** The
+original mix leaned center to center-left on US politics, so the feeds add The Hill, Christian Science
+Monitor (USA), Fox News (politics) and Washington Examiner (news). The Examiner's pages give only
+~700 chars of text, so it mostly feeds headlines, not articles. Prompt rules (pass 1 and pass 2) for
+contested topics (`us-politics`, `elections`, `courts`, `policy-regulation`): 2–3 sources from
+different outlets/sides, attribute every claim, each side's position in its own terms, no loaded
+words, facts apart from claims. Contested cards read **3** source pages in pass 2 instead of 2. Each
+run logs a `balance:` line (contested cards with 2+ outlets vs single-outlet). That line is logged,
+not enforced, because a single-outlet scoop is still news.
+
 ## Topics (`job/topics.json`)
 
 A fixed vocabulary of ~30 slugs, so votes on Monday still mean something on Friday. Starting list

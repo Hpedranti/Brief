@@ -37,5 +37,9 @@
   { "outlet": "Defense One", "url": "https://www.defenseone.com/rss/all/", "kind": "defense" },
   { "outlet": "Breaking Defense", "url": "https://breakingdefense.com/feed/", "kind": "defense" },
   { "outlet": "Defense News", "url": "https://www.defensenews.com/arc/outboundfeeds/rss/", "kind": "defense" },
-  { "outlet": "War on the Rocks", "url": "https://warontherocks.com/feed/", "kind": "defense" }
+  { "outlet": "War on the Rocks", "url": "https://warontherocks.com/feed/", "kind": "defense" },
+  { "outlet": "The Hill", "url": "https://thehill.com/news/feed/", "kind": "dc" },
+  { "outlet": "Christian Science Monitor", "url": "https://rss.csmonitor.com/feeds/usa", "kind": "us" },
+  { "outlet": "Fox News", "url": "https://moxie.foxnews.com/google-publisher/politics.xml", "kind": "dc" },
+  { "outlet": "Washington Examiner", "url": "https://www.washingtonexaminer.com/section/news/feed/", "kind": "dc" }
 ]

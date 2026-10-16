@@ -7,7 +7,7 @@ import os from 'node:os';
 import path from 'node:path';
 import {
   extractReadableText, checkParagraphs, checkArticles, articlesFileChecks, pruneArticles, mergePool,
-  PAGE_TEXT_CAP, PAGE_TEXT_MIN, ARTICLE_LIMITS, countWords,
+  PAGE_TEXT_CAP, PAGE_TEXT_MIN, ARTICLE_LIMITS, countWords, isContested, pagesFor, balanceReport,
 } from './build-brief.mjs';
 
 const para = (n, word = 'news') => `<p>${Array.from({ length: n }, (_, i) => `${word}${i}`).join(' ')}.</p>`;
@@ -303,4 +303,24 @@ test('pool rollover deletes articles files for drops that left the pool and keep
 test('countWords counts whitespace-separated tokens', () => {
   assert.equal(countWords('  a b\n c\t d  '), 4);
   assert.equal(countWords(''), 0);
+});
+
+// ---------- balance: contested stories read more pages and are reported by outlet count ----------
+
+test('contested topics read 3 pages, others 2', () => {
+  assert.equal(isContested({ topics: ['elections', 'us-politics'] }), true);
+  assert.equal(isContested({ topics: ['ai', 'policy-regulation'] }), true);
+  assert.equal(isContested({ topics: ['robotics'] }), false);
+  assert.equal(pagesFor({ topics: ['courts'] }), 3);
+  assert.equal(pagesFor({ topics: ['space'] }), 2);
+});
+
+test('balanceReport counts distinct outlets on contested cards only', () => {
+  const src = (...o) => o.map((outlet, i) => ({ outlet, url: `https://x/${outlet}/${i}` }));
+  const r = balanceReport([
+    { id: 'a', topics: ['us-politics'], sources: src('Fox News', 'NPR') },
+    { id: 'b', topics: ['courts'], sources: src('The Hill', 'The Hill') },
+    { id: 'c', topics: ['space'], sources: src('NASA') },
+  ]);
+  assert.deepEqual(r, { contested: 2, multiOutlet: 1, single: ['b'] });
 });
