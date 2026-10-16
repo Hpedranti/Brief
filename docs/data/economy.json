@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "sample": true,
+  "updated_at": "2026-10-16T13:04:00Z",
+  "read": "Fixture text: inflation is running near 2.7% with unemployment at 4.3%. The Fed cut its target range at its September meeting, and markets lean toward a hold in October. Long-term yields and mortgage rates eased slightly this week.",
+  "indicators": [
+    {
+      "key": "fedfunds",
+      "label": "Fed funds target",
+      "value": "3.75–4.00",
+      "unit": "%",
+      "as_of": "2026-09-18",
+      "change": "down 0.25",
+      "note": "Cut at the September meeting"
+    },
+    {
+      "key": "fedfunds_effective",
+      "label": "Fed funds (effective)",
+      "value": "4.08",
+      "unit": "%",
+      "as_of": "2026-08-01",
+      "change": "down 0.25",
+      "note": "Monthly average"
+    },
+    {
+      "key": "cpi_yoy",
+      "label": "CPI inflation (YoY)",
+      "value": "2.7",
+      "unit": "%",
+      "as_of": "2026-08-01",
+      "change": "unch",
+      "note": "Fixture data"
+    },
+    {
+      "key": "unrate",
+      "label": "Unemployment",
+      "value": "4.30",
+      "unit": "%",
+      "as_of": "2026-08-01",
+      "change": "unch",
+      "note": "Fixture data"
+    },
+    {
+      "key": "dgs10",
+      "label": "10-yr Treasury",
+      "value": "4.09",
+      "unit": "%",
+      "as_of": "2026-09-25",
+      "change": "down 0.06",
+      "note": "Fixture data"
+    },
+    {
+      "key": "dgs2",
+      "label": "2-yr Treasury",
+      "value": "3.55",
+      "unit": "%",
+      "as_of": "2026-09-25",
+      "change": "down 0.03",
+      "note": "Fixture data"
+    },
+    {
+      "key": "mortgage30",
+      "label": "30-yr mortgage",
+      "value": "6.09",
+      "unit": "%",
+      "as_of": "2026-09-25",
+      "change": "down 0.05",
+      "note": "Fixture data"
+    }
+  ],
+  "fed": {
+    "next_meeting": "2026-10-28",
+    "odds": [
+      {
+        "label": "Hold",
+        "prob": 0.57
+      },
+      {
+        "label": "Cut 25bps",
+        "prob": 0.4
+      },
+      {
+        "label": "Cut >25bps",
+        "prob": 0.02
+      }
+    ],
+    "note": "Fixture text: markets lean toward a hold after September's cut."
+  },
+  "week_ahead": [
+    {
+      "date": "2026-10-02",
+      "event": "Fictional jobs report (Sep)",
+      "why_it_matters": "Fixture text: first labor read after the rate cut."
+    }
+  ]
+}
