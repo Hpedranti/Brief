@@ -1,96 +1,82 @@
 {
   "version": 2,
-  "sample": true,
-  "updated_at": "2026-10-16T13:04:00Z",
-  "read": "Fixture text: inflation is running near 2.7% with unemployment at 4.3%. The Fed cut its target range at its September meeting, and markets lean toward a hold in October. Long-term yields and mortgage rates eased slightly this week.",
+  "updated_at": "2026-10-16T17:33:54Z",
+  "read": "Inflation is re-accelerating, with CPI at 3.7% year over year, while unemployment edged up to 4.20%. The Fed raised rates in September and is expected to hold Oct. 28. Long yields are above 5% and mortgages at 7.40%, while bank and chip stocks are sliding.",
   "indicators": [
     {
       "key": "fedfunds",
       "label": "Fed funds target",
       "value": "3.75–4.00",
       "unit": "%",
-      "as_of": "2026-09-18",
-      "change": "down 0.25",
-      "note": "Cut at the September meeting"
+      "as_of": "2026-10-16",
+      "change": "up 0.25",
+      "note": "Raised from 3.50–3.75"
     },
     {
       "key": "fedfunds_effective",
       "label": "Fed funds (effective)",
-      "value": "4.08",
+      "value": "3.75",
       "unit": "%",
-      "as_of": "2026-08-01",
-      "change": "down 0.25",
+      "as_of": "2026-09-01",
+      "change": "up 0.12",
       "note": "Monthly average"
     },
     {
       "key": "cpi_yoy",
       "label": "CPI inflation (YoY)",
-      "value": "2.7",
+      "value": "3.7",
       "unit": "%",
-      "as_of": "2026-08-01",
-      "change": "unch",
-      "note": "Fixture data"
+      "as_of": "2026-09-01",
+      "change": "up 0.3",
+      "note": "Inflation heating up"
     },
     {
       "key": "unrate",
       "label": "Unemployment",
-      "value": "4.30",
+      "value": "4.20",
       "unit": "%",
-      "as_of": "2026-08-01",
-      "change": "unch",
-      "note": "Fixture data"
+      "as_of": "2026-09-01",
+      "change": "up 0.10",
+      "note": "Slight rise"
     },
     {
       "key": "dgs10",
       "label": "10-yr Treasury",
-      "value": "4.09",
+      "value": "5.19",
       "unit": "%",
-      "as_of": "2026-09-25",
-      "change": "down 0.06",
-      "note": "Fixture data"
+      "as_of": "2026-10-14",
+      "change": "down 0.02",
+      "note": "Long yields above 5%"
     },
     {
       "key": "dgs2",
       "label": "2-yr Treasury",
-      "value": "3.55",
+      "value": "4.82",
       "unit": "%",
-      "as_of": "2026-09-25",
-      "change": "down 0.03",
-      "note": "Fixture data"
+      "as_of": "2026-10-14",
+      "change": "up 0.03",
+      "note": "Short yields edge higher"
     },
     {
       "key": "mortgage30",
       "label": "30-yr mortgage",
-      "value": "6.09",
+      "value": "7.40",
       "unit": "%",
-      "as_of": "2026-09-25",
-      "change": "down 0.05",
-      "note": "Fixture data"
+      "as_of": "2026-10-15",
+      "change": "unch",
+      "note": "Unchanged week over week"
     }
   ],
   "fed": {
     "next_meeting": "2026-10-28",
-    "odds": [
-      {
-        "label": "Hold",
-        "prob": 0.57
-      },
-      {
-        "label": "Cut 25bps",
-        "prob": 0.4
-      },
-      {
-        "label": "Cut >25bps",
-        "prob": 0.02
-      }
-    ],
-    "note": "Fixture text: markets lean toward a hold after September's cut."
+    "odds": [],
+    "note": "Markets expect a hold, per CNBC, but Warsh's communication style leaves the outcome uncertain."
   },
   "week_ahead": [
     {
-      "date": "2026-10-02",
-      "event": "Fictional jobs report (Sep)",
-      "why_it_matters": "Fixture text: first labor read after the rate cut."
+      "date": "2026-10-28",
+      "event": "FOMC rate decision",
+      "why_it_matters": "Sets borrowing costs after September's hike."
     }
   ]
 }

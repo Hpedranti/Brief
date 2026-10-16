@@ -1,79 +1,74 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27T13:00:00Z",
+  "updated_at": "2026-10-16T17:33:54Z",
   "storylines": [
     {
-      "id": "sl-vell-valley-conflict",
-      "title": "Vell Valley conflict (fictional)",
-      "summary": "Fixture text: Northland and Southmark agreed a 30-day ceasefire after months of fighting; monitors are due to deploy next week.",
+      "id": "sl-ukraine-us-rift",
+      "title": "US-Ukraine rift over Starlink and strikes",
+      "summary": "US limits on Starshield access and Trump's criticism of Ukraine's refinery strikes have strained ties; EU leaders backed Zelenskyy and Russia keeps hitting energy targets.",
       "status": "active",
-      "first_seen": "2026-09-01",
-      "last_updated": "2026-09-27",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
       "events": [
         {
-          "date": "2026-09-27",
-          "text": "Both sides sign a 30-day ceasefire.",
-          "url": "https://example.com/world/vell-ceasefire"
+          "date": "2026-10-16",
+          "text": "Zelenskyy says Starlink access not fully restored; reports say the White House ordered the limit; EU leaders rally behind Kyiv.",
+          "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy"
         },
         {
-          "date": "2026-09-20",
-          "text": "Talks open under a neutral mediator.",
-          "url": "https://example.com/world/vell-talks-open"
-        },
-        {
-          "date": "2026-09-01",
-          "text": "Fighting escalates along the valley border.",
-          "url": "https://example.com/world/vell-escalation"
+          "date": "2026-10-16",
+          "text": "Trump calls Ukraine's latest strikes a 'disgrace' and says Zelenskyy is harder to work with than Putin.",
+          "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
-      "id": "sl-calloway-port-strike",
-      "title": "Calloway port strike (fictional)",
-      "summary": "Fixture text: dock workers are in the third week of a strike; freight rates are rising.",
+      "id": "sl-ai-debt-selloff",
+      "title": "AI debt worries and market selloff",
+      "summary": "Chip stocks, banks and AI-linked borrowers such as CoreWeave are sliding this week as credit markets question the AI debt buildup.",
       "status": "active",
-      "first_seen": "2026-09-12",
-      "last_updated": "2026-09-27",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
       "events": [
         {
-          "date": "2026-09-27",
-          "text": "Strike enters third week; freight rates up 4%.",
-          "url": "https://example.com/world/calloway-strike"
+          "date": "2026-10-16",
+          "text": "Chip stocks near longest losing run since 2008; big bank shares on worst weekly streak since 2008.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/big-us-bank-shares-set-for-worst-weekly-losing-streak-since-2008"
+        }
+      ]
+    },
+    {
+      "id": "sl-fed-warsh",
+      "title": "Fed under Warsh weighs further hikes",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28, though inflation and his communication changes leave uncertainty.",
+      "status": "active",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "text": "Warsh says the economy has performed largely as expected since the September hike; markets expect a hold.",
+          "url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates"
+        }
+      ]
+    },
+    {
+      "id": "sl-midterms-2026",
+      "title": "2026 midterm elections",
+      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue ahead of Nov. 3.",
+      "status": "active",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "text": "Cook Political Report moves 11 House races toward Democrats; Talarico's haul tops Senate GOP rivals.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768639/seats-shift-democrats-three-red-areas-major-projection-shows/"
         },
         {
-          "date": "2026-09-12",
-          "text": "Dock workers walk out over pay.",
-          "url": "https://example.com/world/calloway-walkout"
-        }
-      ]
-    },
-    {
-      "id": "sl-orrin-drought",
-      "title": "Orrin basin drought (fictional)",
-      "summary": "Fixture text: water rationing continues across the basin with no new measures announced.",
-      "status": "dormant",
-      "first_seen": "2026-08-02",
-      "last_updated": "2026-08-30",
-      "events": [
-        {
-          "date": "2026-08-30",
-          "text": "Rationing extended through October.",
-          "url": "https://example.com/world/orrin-rationing"
-        }
-      ]
-    },
-    {
-      "id": "sl-kest-tariffs",
-      "title": "Kest tariff dispute (fictional)",
-      "summary": "Fixture text: the model omits this one, so the job carries it forward and marks it dormant.",
-      "status": "dormant",
-      "first_seen": "2026-08-20",
-      "last_updated": "2026-09-05",
-      "events": [
-        {
-          "date": "2026-09-05",
-          "text": "Kest announces retaliatory tariffs.",
-          "url": null
+          "date": "2026-10-16",
+          "text": "Musk gave a record $158 million to the Senate Leadership Fund.",
+          "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html"
         }
       ]
     }
