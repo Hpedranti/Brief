@@ -307,15 +307,17 @@ This replaces v1's Dartfrog look.
 Same raw-HTTPS rules as v1 (no SDK, structured outputs via `output_config.format`, check
 `stop_reason`, log `usage` + estimated cost every run). Changes:
 
-- Default model `claude-opus-5-5` (`BRIEF_MODEL` var still overrides).
+- Default model `claude-sonnet-5-5` (`BRIEF_MODEL` var still overrides). Chosen 2026-10-16 after a
+  same-input bake-off: Opus 5.5 medium $1.52/drop, Opus low $1.08, Sonnet 5.5 medium $0.80, with little
+  visible difference in the cards (Opus started more threads).
 - `max_tokens` 64000 (a drop's JSON is ~15–25K tokens plus up to ~20K of thinking at medium effort; 32000 truncated the first real drop).
 - Model output = `{ cards[], economy{}, storylines[] }`. The job assigns `id`, `drop`, and checks:
   every topic ∈ topics.json, every source URL was in the input, `follows` points at a real card.
   Bad cards are dropped with a log line (not the whole run) unless fewer than 20 survive → fail.
 - Card ids are assigned by the job, not the model.
 
-**Cost:** expected ~$0.50–1.00 per drop on Opus, so roughly $45–90 a month at 3 drops a day,
-within the $200 credit. The first runs' logged usage replaces this estimate. Harrison sets a monthly
+**Cost:** measured ~$0.80 per drop on Sonnet 5.5 (cards ~$0.35 + articles ~$0.45), so roughly
+$70 a month at 3 drops a day. Harrison sets a monthly
 spend limit in the Anthropic console as a backstop.
 
 ## Modes (unchanged names)

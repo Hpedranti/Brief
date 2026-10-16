@@ -6,7 +6,7 @@
 //   node job/build-brief.mjs --dry-run   live fetch of feeds + econ, print payload, no Claude call, no writes
 //   node job/build-brief.mjs --validate  validate docs/data/*.json against the v2 shape, exit 1 on failure
 //
-// Env: ANTHROPIC_API_KEY, BRIEF_MODEL (default claude-opus-5-5), BRIEF_EFFORT (default medium),
+// Env: ANTHROPIC_API_KEY, BRIEF_MODEL (default claude-sonnet-5-5), BRIEF_EFFORT (default medium),
 //      BRIEF_ARTICLE_MODEL (pass 2, default claude-sonnet-5-5), BRIEF_ARTICLE_EFFORT (default medium),
 //      BRIEF_DATA_DIR (output dir, default docs/data; tests point this at a temp dir),
 //      BRIEF_NOW (ISO timestamp override, mostly for tests),
@@ -35,7 +35,7 @@ SCHEMA.$defs.topic = { type: 'string', enum: TOPIC_SLUGS };
 const ARGS = new Set(process.argv.slice(2));
 const MODE = ARGS.has('--validate') ? 'validate' : ARGS.has('--fixture') ? 'fixture' : ARGS.has('--dry-run') ? 'dry-run' : 'real';
 
-const MODEL = process.env.BRIEF_MODEL || 'claude-opus-5-5';
+const MODEL = process.env.BRIEF_MODEL || 'claude-sonnet-5-5';   // 2026-10-16 bake-off: ~Opus quality at half the cost
 const EFFORT = process.env.BRIEF_EFFORT || 'medium';
 const MAX_TOKENS = 64000;   // first real drop: 18K thinking + ~14K of JSON hit 32000 mid-card
 const USER_AGENT = 'BriefBot/2.0 (+personal news reader)';

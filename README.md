@@ -14,7 +14,7 @@ the browser's localStorage (`docs/taste.js`). Use Settings → Export to back it
 
 1. Create the GitHub repo **Hpedranti/Brief** (public) and push this folder to `main`.
 2. Repo **Settings → Secrets and variables → Actions → New repository secret**: `ANTHROPIC_API_KEY`.
-   Optional *variables*: `BRIEF_MODEL` (default `claude-opus-5-5`) and `BRIEF_EFFORT` (default `medium`).
+   Optional *variables*: `BRIEF_MODEL` (default `claude-sonnet-5-5`) and `BRIEF_EFFORT` (default `medium`).
 3. **Settings → Pages**: deploy from branch `main`, folder `/docs`.
 
 The committed `docs/data/feed.json` is sample data (`"sample": true`). The first real drop ignores it
@@ -66,11 +66,11 @@ because they had not updated since January 2025. Reuters and AP have no public R
 
 ## Cost
 
-Each drop makes one Claude call: about 35K input tokens (300 articles plus recent headlines) and
-15–25K output tokens, including thinking. On `claude-opus-5-5` ($4/M input, $20/M output) that is
-roughly $0.45–0.65 a drop, or about $40–60 a month at three drops a day. Each run logs its token usage
-and estimated cost. The first real runs' logs replace this estimate. Set a monthly spend limit in the
-Anthropic console as a backstop.
+Each drop makes one Claude call for the cards (about 63K input and 21K output tokens) and a few
+calls for the tap-to-read articles. Measured on 2026-10-16 with `claude-sonnet-5-5` ($2/M input,
+$10/M output) for both: about $0.80 a drop ($0.35 cards + $0.45 articles), or about $70 a month at
+three drops a day. Opus 5.5 at medium effort cost $1.52 a drop on the same input. Each run logs its
+token usage and estimated cost. Set a monthly spend limit in the Anthropic console as a backstop.
 
 ## Yearly check: FOMC dates
 
