@@ -1,15 +1,30 @@
 {
   "version": 1,
-  "updated_at": "2026-10-16T21:56:40Z",
+  "updated_at": "2026-10-17T05:21:48Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump denies ordering Starshield limits that hurt Ukraine's defenses, though sources say the order came from the White House. He criticizes Kyiv's refinery strikes, EU leaders back Zelenskyy, and Ukraine advances in Donetsk.",
+      "summary": "Trump waived new Russia sanctions after a diesel deal with Moscow, while denying he ordered Starshield limits that hurt Ukraine. Bipartisan senators press the Pentagon, and European allies criticize US policy.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-16",
       "events": [
+        {
+          "date": "2026-10-16",
+          "text": "Trump signs an order waiving Russia sanctions and tariffs mandated by a new law, a week after a diesel deal with Putin.",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-10-16",
+          "text": "Italy's defense minister tells the BBC the US is wrong to restrict Ukraine support.",
+          "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-10-16",
+          "text": "Four Republican senators join Democrats pressing the Pentagon on whether it ordered Ukraine Starlink restrictions.",
+          "url": "https://thehill.com/newsletters/technology/6155378-gop-senators-press-pentagon-starlink-newsletter/"
+        },
         {
           "date": "2026-10-16",
           "text": "Trump says neither he nor Musk caused the Starlink slowdown and he doesn't know who ordered the Starshield throttle.",
@@ -35,11 +50,21 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. CoreWeave fell 25% this week, and oil at $110 adds inflation worries.",
+      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Software and chips fell together Friday, Anthropic faces double-digit financing costs, and Chinese stocks have been hit hard.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-16",
       "events": [
+        {
+          "date": "2026-10-16",
+          "text": "Software and semiconductor stocks fall together Friday on AI and interest-rate fears.",
+          "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories"
+        },
+        {
+          "date": "2026-10-16",
+          "text": "Anthropic offers Blackstone a double-digit yield on chip financing, complicating its investment-grade goal.",
+          "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-10-16",
           "text": "Big Tech posts its biggest weekly drop since 'liberation day'; CoreWeave falls 25% for the week as investors buy Treasuries.",
@@ -70,11 +95,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Trump is campaigning heavily, and early voting is under way ahead of Nov. 3.",
+      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Trump vows penalties for California officials, and lawmakers report suspicious mailings as early voting proceeds.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-16",
       "events": [
+        {
+          "date": "2026-10-16",
+          "text": "Trump says California election officials who count noncitizen ballots will go to jail; DOJ already sued the state.",
+          "url": "https://www.washingtonexaminer.com/news/justice/4769569/trump-vows-jail-california-election-officials-counting-ballots-noncitizens/"
+        },
+        {
+          "date": "2026-10-16",
+          "text": "More lawmakers report suspicious mailings after earlier letters with unknown substances reached election offices.",
+          "url": "https://thehill.com/homenews/house/6155515-lawmakers-report-suspicious-mailings/"
+        },
+        {
+          "date": "2026-10-16",
+          "text": "At a Georgia rally Trump repeats a claim Ossoff's election was illegitimate; the Guardian calls it false.",
+          "url": "https://www.theguardian.com/us-news/2026/oct/16/trump-georgia-rally-jon-ossoff"
+        },
         {
           "date": "2026-10-16",
           "text": "Ocasio-Cortez gives $1 million to Abdul El-Sayed's Michigan Senate bid; Trump rallies in Georgia for Mike Collins.",
@@ -95,11 +135,21 @@
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent crude has reached $110, its highest since May, on reports of missiles aimed at Gulf energy hubs. CENTCOM says Iran-backed militias are sending money to the cash-strapped IRGC.",
+      "summary": "After nine months of war, Brent crude has reached $110. The IRGC says a supertanker hit a mine in Hormuz, while CENTCOM says the blockade has cost Iran $25 billion and militias are sending money to the IRGC.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-16",
       "events": [
+        {
+          "date": "2026-10-16",
+          "text": "IRGC says an oil supertanker hit a naval mine and caught fire in the Strait of Hormuz.",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-16",
+          "text": "CENTCOM commander says the US naval blockade has cost Iran about $25 billion in oil revenue.",
+          "url": "https://thehill.com/newsletters/defense-national-security/6155474-centcom-commander-says-naval-blockade-cost-iran-25b-in-oil-revenue/"
+        },
         {
           "date": "2026-10-16",
           "text": "Brent crude hits $110 for the first time since May amid reports Saudi-led forces intercepted missiles aimed at energy hubs.",
