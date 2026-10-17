@@ -1,15 +1,25 @@
 {
   "version": 1,
-  "updated_at": "2026-10-17T16:10:11Z",
+  "updated_at": "2026-10-17T21:17:58Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump waived new Russia sanctions, which Zelenskyy calls a reward for Putin, and GOP lawmakers criticized the move. Zelenskyy says Starlink limits persist as Russia hits Ukraine's energy sector; senators press the Pentagon.",
+      "summary": "Trump waived new Russia sanctions, drawing bipartisan criticism; Zelenskyy calls it a reward for Putin but says Ukraine is ready to negotiate. Starlink and Starshield limits persist as Russia hits Ukraine's energy sector.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "Republicans and Democrats criticize Trump's sanctions waiver; Schumer calls it a gift to Putin, while Massie praises it.",
+          "url": "https://www.axios.com/2026/10/17/trump-russia-waiver-putin-republicans-democrats"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "Zelenskyy says Ukraine is ready to negotiate and the American negotiating track will continue.",
+          "url": "https://thehill.com/policy/international/6156034-zelensky-open-us-negotiations/"
+        },
         {
           "date": "2026-10-17",
           "text": "Zelenskyy calls the sanctions waiver a 'reward' for Putin; Sen. Tillis calls it 'beyond irresponsible.'",
@@ -125,11 +135,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Lawmakers report threatening letters as early voting nears, and Trump's travel favors red states.",
+      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Early voting is underway, inflation is a GOP worry, and Trump begins a seven-stop tour.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "Trump rallies in Kentucky for Ed Gallrein before a seven-day, seven-stop campaign tour including Michigan on Oct. 25.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769857/watch-live-trump-kentucky-midterm-rally-highland-heights/"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "The Hill says September CPI inflation of 3.7 percent adds pressure on Republicans as early voting begins.",
+          "url": "https://thehill.com/business/6155023-inflation-midterm-elections-republicans/"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "Graham Platner's campaign spent about $2.3 million since leaving the Maine Senate race, with none going to Troy Jackson, the Washington Examiner reports.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/4769871/where-did-graham-platner-campaign-money-go/"
+        },
         {
           "date": "2026-10-17",
           "text": "Rep. Hillary Scholten says she got a threatening letter claiming to be from DSA, joining other lawmakers.",
@@ -175,11 +200,16 @@
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent crude reached $110. Two vessels have hit mines in Hormuz this week and both the US and Iran claim control. Vance has hinted at disagreement with Trump over the war.",
+      "summary": "After nine months of war, Brent crude reached $110. Two vessels have hit mines in Hormuz this week and both the US and Iran claim control. Iranian TV aired tanker explosion footage. Vance has hinted at disagreement with Trump.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "Iranian state TV airs video it says shows an oil tanker exploding after hitting a naval mine in Hormuz.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss"
+        },
         {
           "date": "2026-10-17",
           "text": "US and Iran both claim control of Hormuz as two vessels are struck by naval mines this week.",

@@ -1,0 +1,770 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-10-17T21",
+    "at": "2026-10-17T21:17:58Z",
+    "model": "claude-sonnet-5-5",
+    "count": 25
+  },
+  "cards": [
+    {
+      "id": "2026-10-17T21-c01",
+      "drop": "2026-10-17T21",
+      "headline": "Violent clashes and 400-plus arrests as France protests spread",
+      "summary": "More than half a million people joined cost-of-living and student protests in France on Saturday. Police fired teargas in Paris, protesters stormed a town hall in Marseille, and officials blamed the violence on the 'ultra-left'. Similar rallies were held in Belgium, Italy and Portugal.",
+      "why_it_matters": "Unrest over living costs and a deepening fiscal crisis in a major US ally shows the strain on European governments and may affect markets.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "economy"
+      ],
+      "entities": [
+        "France",
+        "Belgium",
+        "Italy",
+        "Portugal"
+      ],
+      "importance": 4,
+      "follows": "2026-10-17T16-c05",
+      "storyline_id": null,
+      "published_at": "2026-10-17T15:57:40.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "More than 400 arrested as police clash with protesters across France",
+          "url": "https://www.theguardian.com/world/2026/oct/17/protests-france-high-prices-social-security-gilets-jaunes"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Violent clashes, looting and buildings ablaze as hundreds arrested after France protests",
+          "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Scuffles and fires break out as protesters rally across France, joining students",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c02",
+      "drop": "2026-10-17T21",
+      "headline": "Albanian police fire rubber bullets as Tirana protests escalate",
+      "summary": "Five days of clashes in Tirana continued Saturday as students joined a wider movement demanding Prime Minister Edi Rama's resignation. Police fired rubber bullets, and protesters allege police brutality outside the Education Ministry.",
+      "why_it_matters": "Albania is a NATO member and EU candidate; prolonged unrest could test stability in the Western Balkans.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "geopolitics"
+      ],
+      "entities": [
+        "Albania",
+        "Edi Rama"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T05-c30",
+      "storyline_id": null,
+      "published_at": "2026-10-17T19:26:13.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Albanian police fire rubber bullets as protests against Rama escalate",
+          "url": "https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate?traffic_source=rss"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Anti-government protesters battle with police in Albania",
+          "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c03",
+      "drop": "2026-10-17T21",
+      "headline": "Trump's Russia sanctions waiver draws bipartisan criticism",
+      "summary": "President Trump waived new Russia sanctions late Friday, saying it served the national interest. Republicans and Democrats criticized the move, with Schumer calling it a gift to Putin. Rep. Thomas Massie praised it. Zelenskyy said Ukraine remains ready to negotiate.",
+      "why_it_matters": "The waiver shifts US pressure on Moscow and sets up a possible clash with Congress over Ukraine policy and sanctions authority.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "geopolitics",
+        "war-conflict"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Vladimir Putin",
+        "Volodymyr Zelenskyy",
+        "Chuck Schumer"
+      ],
+      "importance": 4,
+      "follows": "2026-10-17T05-c01",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-17T18:32:46.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump's Russia waiver draws instant bipartisan backlash",
+          "url": "https://www.axios.com/2026/10/17/trump-russia-waiver-putin-republicans-democrats"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Massie offers rare praise for Trump on waiving Lindsey Graham’s Russia sanctions",
+          "url": "https://www.washingtonexaminer.com/news/house/4769896/massie-praise-trump-waive-russia-sanction/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Zelensky says Ukraine is 'ready to negotiate'",
+          "url": "https://thehill.com/policy/international/6156034-zelensky-open-us-negotiations/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c04",
+      "drop": "2026-10-17T21",
+      "headline": "Settlers attack European diplomats, French archbishop in West Bank",
+      "summary": "Masked Israeli settlers attacked European diplomats, a French mayor and the archbishop of Cambrai in Taybeh, injuring three people. The Israeli military condemned the violence, while the prime minister's office called it part of a smear campaign. Belgium urged more EU sanctions.",
+      "why_it_matters": "Attacks on Western diplomats raise diplomatic pressure on Israel and affect US-allied European governments' stance on the West Bank.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Israel",
+        "Belgium",
+        "West Bank"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T16-c14",
+      "storyline_id": null,
+      "published_at": "2026-10-17T17:02:14.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "European diplomats attacked by Israeli settlers in West Bank",
+          "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Masked settlers attack European diplomats in occupied West Bank",
+          "url": "https://www.theguardian.com/world/2026/oct/17/masked-settlers-attack-european-diplomats-occupied-west-bank"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c05",
+      "drop": "2026-10-17T21",
+      "headline": "At least 17 killed in crush at Hindu festival in Kolkata",
+      "summary": "At least 17 people died and many more were injured in a stampede at a religious gathering in north Kolkata, West Bengal, police said. Large crowds and rain were cited.",
+      "why_it_matters": "A mass-casualty crowd disaster in the world's most populous country; it raises crowd-safety questions at large festivals.",
+      "region": "Asia",
+      "topics": [
+        "asia"
+      ],
+      "entities": [
+        "Kolkata",
+        "West Bengal"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T19:19:16.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "At least 17 dead in crush at Hindu festival event in India",
+          "url": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "At least 17 killed in stampede at religious gathering in India",
+          "url": "https://www.aljazeera.com/news/2026/10/17/at-least-17-killed-in-stampede-at-religious-gathering-in-india?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c06",
+      "drop": "2026-10-17T21",
+      "headline": "Ten killed in fire at Bangladesh beach resort",
+      "summary": "Ten people, including six members of one family, died in a fire at a beach resort in Cox's Bazar, Bangladesh. The cause was not stated in the report.",
+      "why_it_matters": "A deadly tourist-site fire; it highlights building-safety concerns, with no direct US impact reported.",
+      "region": "Asia",
+      "topics": [
+        "asia"
+      ],
+      "entities": [
+        "Bangladesh"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T20:50:01.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ten killed in fire at beach resort in Bangladesh",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-sv-coxsbazaar-hotel-blaze-_-bd?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c07",
+      "drop": "2026-10-17T21",
+      "headline": "Kenya confirms four more Ebola cases, total now seven",
+      "summary": "Kenya confirmed four additional Ebola cases, including three health workers who treated the country's first patient, bringing the total to seven.",
+      "why_it_matters": "Infections among health workers suggest ongoing spread; travel and public-health responses may follow.",
+      "region": "Africa",
+      "topics": [
+        "health",
+        "africa"
+      ],
+      "entities": [
+        "Kenya"
+      ],
+      "importance": 3,
+      "follows": "2026-10-16T21-c12",
+      "storyline_id": null,
+      "published_at": "2026-10-17T16:48:46.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Kenya confirms four more Ebola cases, bringing total to seven",
+          "url": "https://www.aljazeera.com/news/2026/10/17/kenya-confirms-four-more-ebola-cases-bringing-total-to-seven?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c08",
+      "drop": "2026-10-17T21",
+      "headline": "Norte Fire burns six homes; 6,000 homes under evacuation",
+      "summary": "The fast-moving Norte Fire, fanned by Santa Ana winds, burned at least six homes and injured two firefighters. About 6,000 homes were under evacuation in San Clemente and San Juan Capistrano. It is one of 13 fires burning in California.",
+      "why_it_matters": "Tens of thousands of Southern California residents face displacement and dangerous fire weather.",
+      "region": "US",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "California",
+        "San Clemente",
+        "San Juan Capistrano"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T05-c07",
+      "storyline_id": null,
+      "published_at": "2026-10-17T18:10:26.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Six homes burned and two firefighters injured in fast-moving California wildfire",
+          "url": "https://www.theguardian.com/us-news/2026/oct/17/southern-california-wildfires"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Fast-moving California wildfire burns homes as people are ordered to leave",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgjnk8nw2wo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c09",
+      "drop": "2026-10-17T21",
+      "headline": "ICE officer who hit Houston man was chasing someone apparently dead",
+      "summary": "An ICE officer hit a Houston construction worker with a vehicle, breaking his leg, while pursuing a man whom an immigrant advocacy group and the dead man's family say died years ago. Federal officials' response was not included in the reports.",
+      "why_it_matters": "The case raises questions about the accuracy of immigration enforcement targeting and oversight of use of force.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "crime-justice"
+      ],
+      "entities": [
+        "Immigration and Customs Enforcement",
+        "Houston"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T17:12:49.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "ICE agent who crashed into man in Texas was targeting suspect who died years ago, family says",
+          "url": "https://www.theguardian.com/us-news/2026/oct/17/ice-crash-houston"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Immigrant ICE searched for in Texas when agent hit man with car has been dead for years: Report",
+          "url": "https://thehill.com/homenews/administration/6155919-ice-houston-immigrant-investigation/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c10",
+      "drop": "2026-10-17T21",
+      "headline": "TikTok bans account promoting Musk documentary",
+      "summary": "TikTok permanently banned the advertising account for Alex Gibney's four-hour Musk documentary, the distributor Bleecker Street was told Friday, ahead of the film's wider release. TikTok did not immediately comment.",
+      "why_it_matters": "It shows how platform ad rules can shape what reaches viewers, here involving one of the world's best-known executives.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "culture-sports"
+      ],
+      "entities": [
+        "TikTok",
+        "Elon Musk",
+        "Bleecker Street"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T19:32:23.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "TikTok bans Musk documentary account",
+          "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "TikTok permanently bans ‘Musk’ documentary advertising account",
+          "url": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c11",
+      "drop": "2026-10-17T21",
+      "headline": "Hundreds rally in Kyiv demanding Mayor Klitschko resign",
+      "summary": "Hundreds of protesters gathered outside the office of Kyiv Mayor Vitali Klitschko on Saturday, demanding that he step down. The report did not give their specific grievances.",
+      "why_it_matters": "Domestic political friction in wartime Ukraine comes as Kyiv faces power-plant strikes and uncertain US support.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "europe"
+      ],
+      "entities": [
+        "Vitali Klitschko",
+        "Kyiv"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T19:04:00.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/hundreds-rally-in-kyiv-to-demand-the-resignation-of-mayor-vitali-klitschko?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c12",
+      "drop": "2026-10-17T21",
+      "headline": "Israeli drone strikes kill six in Gaza despite ceasefire",
+      "summary": "Israeli drone attacks killed six Palestinians across Gaza on Saturday, Al Jazeera reported. UNICEF says more than 340 children have been killed since the ceasefire began a year ago.",
+      "why_it_matters": "The year-old ceasefire remains fragile, affecting regional diplomacy and humanitarian conditions.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Gaza",
+        "Israel",
+        "UNICEF"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T18:26:59.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israeli drone attacks kill six Palestinians across Gaza despite ‘ceasefire’",
+          "url": "https://www.aljazeera.com/news/2026/10/17/israeli-drone-attacks-kill-six-palestinians-across-gaza-despite-ceasefire?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c13",
+      "drop": "2026-10-17T21",
+      "headline": "Reform UK candidate filmed urging 'concentration camps' for asylum seekers",
+      "summary": "An ITV undercover investigation recorded a would-be Reform UK MP saying Muslims could not be British and asylum seekers should be put in 'concentration camps', the Guardian reports. Reform's response was not included in the summary.",
+      "why_it_matters": "It bears on UK politics, where immigration is a central issue and a close US ally's politics are shifting.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "elections"
+      ],
+      "entities": [
+        "Reform UK",
+        "ITV"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T19:00:41.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Reform candidate filmed saying asylum seekers should be put in ‘concentration camps’",
+          "url": "https://www.theguardian.com/politics/2026/oct/17/reform-candidate-filmed-saying-asylum-seekers-should-be-put-in-concentration-camps"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c14",
+      "drop": "2026-10-17T21",
+      "headline": "Concerning economic data pose midterm risks for GOP, The Hill says",
+      "summary": "The Hill reports that annual CPI inflation rose from 3.4 percent in August to 3.7 percent in September, per the Bureau of Labor Statistics, adding pressure on Republicans as early voting begins.",
+      "why_it_matters": "Rising prices are a top voter concern and may shape turnout and congressional control on Nov. 3.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "elections"
+      ],
+      "entities": [
+        "Bureau of Labor Statistics",
+        "Republican Party"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-17T21:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Concerning economic data pose issues for GOP down midterm stretch",
+          "url": "https://thehill.com/business/6155023-inflation-midterm-elections-republicans/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c15",
+      "drop": "2026-10-17T21",
+      "headline": "Platner's campaign spent $2.3 million after leaving Maine race",
+      "summary": "The Washington Examiner reports Graham Platner's campaign has spent about $2.3 million since July, paying severance to his wife and staff, with no contributions to Troy Jackson, who replaced him, or to Maine Democrats.",
+      "why_it_matters": "It shows how leftover campaign funds are used and may fuel scrutiny in a competitive Maine Senate race.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Graham Platner",
+        "Troy Jackson"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-17T20:44:04.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Payout for his wife, nothing for his party: Where Graham Platner’s $2.3 million went after ending his campaign",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/4769871/where-did-graham-platner-campaign-money-go/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c16",
+      "drop": "2026-10-17T21",
+      "headline": "Newsom backs stock trading ban covering the president",
+      "summary": "Gov. Gavin Newsom told the Washington Examiner in New Hampshire he supports a federal stock trading ban that applies to the president and executive branch. He also said a Justice Department investigation of his wife won't deter a 2028 run.",
+      "why_it_matters": "Stock trading by officials is a bipartisan ethics issue, and Newsom's early New Hampshire trips signal 2028 positioning.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Gavin Newsom",
+        "Justice Department"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T16:11:53.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Gavin Newsom backs presidential stock trading ban ahead of expected 2028 run",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4769957/gavin-newsom-backs-presidential-stock-trading-ban/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Gavin Newsom says Trump DOJ investigation won’t deter 2028 run: ‘Quite the contrary’",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4769820/gavin-newsom-trump-doj-impact-2028/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c17",
+      "drop": "2026-10-17T21",
+      "headline": "Trump rallies in Kentucky ahead of a seven-stop tour",
+      "summary": "Trump spoke at a Highland Heights, Kentucky, rally for House candidate Ed Gallrein and other Republicans. He plans a seven-day, seven-stop campaign tour, including Michigan on Oct. 25, before the Nov. 3 elections.",
+      "why_it_matters": "Where the president campaigns signals which House and Senate races both parties see as competitive.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Ed Gallrein"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-17T16:38:44.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "WATCH LIVE: Trump holds Kentucky midterm rally in Highland Heights",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769857/watch-live-trump-kentucky-midterm-rally-highland-heights/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Live updates: Trump rallies in Kentucky as Russia sanctions waiver backlash mounts",
+          "url": "https://thehill.com/homenews/administration/6155519-live-updates-trump-and-zelensky-relationship-rocky-over-russia-sanctions-starlink-obama-campaigns-in-michigan-ohio/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c18",
+      "drop": "2026-10-17T21",
+      "headline": "Iranian TV airs video said to show tanker exploding in Hormuz",
+      "summary": "Iranian state TV aired footage it said shows an oil tanker exploding after hitting a naval mine in the Strait of Hormuz. The footage was not independently verified in the report.",
+      "why_it_matters": "Shipping risk in Hormuz is a key driver of oil prices and US gasoline costs.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "energy",
+        "war-conflict"
+      ],
+      "entities": [
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T16-c11",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-17T20:02:22.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iranian TV airs video said to show tanker explosion in Hormuz",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c19",
+      "drop": "2026-10-17T21",
+      "headline": "Reporter spends afternoon with $55,000 humanoid housekeepers",
+      "summary": "MarketWatch tested two Tau Robotics humanoids that vacuumed and wiped counters, with some help from humans operating behind the scenes.",
+      "why_it_matters": "It shows how far home humanoid robots are from fully autonomous chores, and what early adopters would pay.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "ai"
+      ],
+      "entities": [
+        "Tau Robotics"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T20:43:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
+          "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c20",
+      "drop": "2026-10-17T21",
+      "headline": "Anthropic says its workforce is less junior, with more meetings",
+      "summary": "Anthropic reported its workforce composition and the kind of work being done have changed significantly over the past year, with employees less junior and spending more time in meetings.",
+      "why_it_matters": "It offers a rare look at how AI firms, and possibly AI-assisted work, reshape staffing and entry-level jobs.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T20:21:19.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c21",
+      "drop": "2026-10-17T21",
+      "headline": "MapQuest adds layer showing Flock license plate cameras",
+      "summary": "MapQuest's mobile app now has an optional 'surveillance layer' that flags known license plate readers along a user's route, the company said Thursday.",
+      "why_it_matters": "License plate readers are spreading across US cities; the feature gives drivers visibility into where they are tracked.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "policy-regulation"
+      ],
+      "entities": [
+        "MapQuest",
+        "Flock"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T19:49:08.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "MapQuest's new 'surveillance layer' feature flags Flock cameras on users' routes",
+          "url": "https://thehill.com/business/6156038-mapquest-adds-surveillance-layer/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c22",
+      "drop": "2026-10-17T21",
+      "headline": "Study: noise-cancelling headphones cut post-surgery vomiting",
+      "summary": "New Scientist reports that wearing noise-cancelling headphones on the operating table reduced the risk of nausea and vomiting after surgery, which may relate to noise exposure even under general anaesthetic.",
+      "why_it_matters": "A cheap, low-risk intervention could ease a common and unpleasant recovery problem for surgical patients.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T18:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "New Scientist",
+          "title": "Noise-cancelling headphones prevent vomiting after surgery",
+          "url": "https://www.newscientist.com/article/2594276-noise-cancelling-headphones-prevent-vomiting-after-surgery/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c23",
+      "drop": "2026-10-17T21",
+      "headline": "Speculation over Alito's future persists despite denials",
+      "summary": "Justice Samuel Alito began his 22nd Supreme Court term, insisting he will stay on the bench, but speculation about a possible retirement has grown, the Washington Examiner reports.",
+      "why_it_matters": "A vacancy would give the president and Senate a chance to reshape the court shortly after the midterms.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Samuel Alito",
+        "Supreme Court"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T18:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Why speculation about Justice Alito’s future continues despite his rejection of retirement",
+          "url": "https://www.washingtonexaminer.com/in_focus/4762793/samuel-alito-retirement-speculation-supreme-court/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T21-c24",
+      "drop": "2026-10-17T21",
+      "headline": "Berkshire backs Bending Spoons, a new software consolidator",
+      "summary": "Less than four months after going public, Bending Spoons received a vote of confidence from Berkshire Hathaway this week, CNBC reports. The company buys and revives older software businesses.",
+      "why_it_matters": "Berkshire's interest in software comes during a tech selloff and signals where some investors see value.",
+      "region": "Global",
+      "topics": [
+        "markets",
+        "startups-vc"
+      ],
+      "entities": [
+        "Bending Spoons",
+        "Berkshire Hathaway"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T15:11:30.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
+          "url": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T21-c25",
+      "drop": "2026-10-17T21",
+      "headline": "Mercedes-AMG unveils 1,150hp electric GT SUV for 2028",
+      "summary": "Mercedes-AMG revealed the 2028 AMG GT SUV, its first ground-up SUV, an electric model with about 1,150 horsepower and ultra-fast charging, The Verge reports.",
+      "why_it_matters": "It shows high-end automakers still investing in performance EVs even as the market shifts.",
+      "region": "Europe",
+      "topics": [
+        "autos-transport"
+      ],
+      "entities": [
+        "Mercedes-AMG"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T17:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast",
+          "url": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}

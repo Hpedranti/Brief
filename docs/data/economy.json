@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-17T16:10:11Z",
-  "read": "Inflation is re-accelerating while the Fed has already hiked once under Warsh. CPI is 3.7% and unemployment edged up to 4.20%. Long Treasury yields above 5% and 7.40% mortgages weigh on housing, while an AI-led stock selloff adds market risk.",
+  "updated_at": "2026-10-17T21:17:58Z",
+  "read": "Inflation is re-accelerating, with CPI at 3.7 percent year over year, and the Fed raised rates in September. Unemployment ticked up to 4.20 percent. Treasury yields above 5 percent and 7.40 percent mortgage rates are squeezing borrowers, while a tech and credit selloff adds market stress.",
   "indicators": [
     {
       "key": "fedfunds",
@@ -19,7 +19,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.12",
-      "note": "Follows the September hike"
+      "note": "Monthly average rate"
     },
     {
       "key": "cpi_yoy",
@@ -28,7 +28,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.3",
-      "note": "Inflation accelerating, above recent readings"
+      "note": "Inflation accelerated from August"
     },
     {
       "key": "unrate",
@@ -36,8 +36,8 @@
       "value": "4.20",
       "unit": "%",
       "as_of": "2026-09-01",
-      "change": "up 0.10",
-      "note": "Slight rise in joblessness"
+      "change": "up 0.1",
+      "note": "Jobless rate edged higher"
     },
     {
       "key": "dgs10",
@@ -46,7 +46,7 @@
       "unit": "%",
       "as_of": "2026-10-15",
       "change": "down 0.09",
-      "note": "Yield eased but stays above 5%"
+      "note": "Yield eased from prior day"
     },
     {
       "key": "dgs2",
@@ -55,7 +55,7 @@
       "unit": "%",
       "as_of": "2026-10-15",
       "change": "down 0.05",
-      "note": "Short-term yields slipped slightly"
+      "note": "Short-term yield slipped"
     },
     {
       "key": "mortgage30",
@@ -64,7 +64,7 @@
       "unit": "%",
       "as_of": "2026-10-15",
       "change": "unch",
-      "note": "Unchanged from last week"
+      "note": "Mortgage rates unchanged on the week"
     }
   ],
   "fed": {
@@ -79,19 +79,19 @@
         "prob": 0.14
       },
       {
+        "label": "Hike >25bps",
+        "prob": 0.01
+      },
+      {
         "label": "Cut 25bps",
         "prob": 0.01
       },
       {
         "label": "Cut >25bps",
         "prob": 0.01
-      },
-      {
-        "label": "Hike >25bps",
-        "prob": 0.01
       }
     ],
-    "note": "Markets expect a hold, though some economists say a hike is a closer call."
+    "note": "Markets expect a hold, though MarketWatch calls the decision closer than priced."
   },
   "week_ahead": []
 }
