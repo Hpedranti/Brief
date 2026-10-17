@@ -1,15 +1,30 @@
 {
   "version": 1,
-  "updated_at": "2026-10-17T05:21:48Z",
+  "updated_at": "2026-10-17T16:10:11Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump waived new Russia sanctions after a diesel deal with Moscow, while denying he ordered Starshield limits that hurt Ukraine. Bipartisan senators press the Pentagon, and European allies criticize US policy.",
+      "summary": "Trump waived new Russia sanctions, which Zelenskyy calls a reward for Putin, and GOP lawmakers criticized the move. Zelenskyy says Starlink limits persist as Russia hits Ukraine's energy sector; senators press the Pentagon.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-16",
+      "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "Zelenskyy calls the sanctions waiver a 'reward' for Putin; Sen. Tillis calls it 'beyond irresponsible.'",
+          "url": "https://www.theguardian.com/world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "Zelenskyy says Starlink limits in Ukraine are a 'planned operation' that hamper drone interception.",
+          "url": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "Russian strikes kill at least eight and injure nearly 60 across Ukraine.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/russian-strikes-kill-civilians-injure-dozens-across-ukraine?traffic_source=rss"
+        },
         {
           "date": "2026-10-16",
           "text": "Trump signs an order waiving Russia sanctions and tariffs mandated by a new law, a week after a diesel deal with Putin.",
@@ -50,11 +65,21 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Software and chips fell together Friday, Anthropic faces double-digit financing costs, and Chinese stocks have been hit hard.",
+      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Tech had its worst week in 18 months, while junk-bond buyers are shunning AI financing after CoreWeave's troubles.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-16",
+      "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "Junk bond buyers freeze out tech startups as CoreWeave's pain raises questions over AI financing.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "S&P 500 tech sector has its worst week in 18 months while the average stock gains.",
+          "url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da?mod=mw_rss_topstories"
+        },
         {
           "date": "2026-10-16",
           "text": "Software and semiconductor stocks fall together Friday on AI and interest-rate fears.",
@@ -80,11 +105,16 @@
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28, though inflation and his communication changes leave uncertainty. The dollar had its worst week in a month.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28, though MarketWatch says it is a closer call than markets think, given inflation and communication changes.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-16",
+      "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "MarketWatch says the October decision is a closer call than markets think, weighing arguments against a hike.",
+          "url": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories"
+        },
         {
           "date": "2026-10-16",
           "text": "Warsh says the economy has performed largely as expected since the September hike; markets expect a hold.",
@@ -95,11 +125,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Trump vows penalties for California officials, and lawmakers report suspicious mailings as early voting proceeds.",
+      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Lawmakers report threatening letters as early voting nears, and Trump's travel favors red states.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-16",
+      "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "Rep. Hillary Scholten says she got a threatening letter claiming to be from DSA, joining other lawmakers.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769756/hillary-scholten-threat-letter-claim-from-dsa/"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "NPR says Trump's midterm travel includes many red states; Politico says some GOP candidates avoid featuring him.",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms"
+        },
         {
           "date": "2026-10-16",
           "text": "Trump says California election officials who count noncitizen ballots will go to jail; DOJ already sued the state.",
@@ -135,11 +175,21 @@
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent crude has reached $110. The IRGC says a supertanker hit a mine in Hormuz, while CENTCOM says the blockade has cost Iran $25 billion and militias are sending money to the IRGC.",
+      "summary": "After nine months of war, Brent crude reached $110. Two vessels have hit mines in Hormuz this week and both the US and Iran claim control. Vance has hinted at disagreement with Trump over the war.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-16",
+      "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "US and Iran both claim control of Hormuz as two vessels are struck by naval mines this week.",
+          "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "Vance publicly hints at disagreement with Trump over the Iran war, per the Washington Examiner.",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4769787/vance-public-hint-disagree-trump-iran-war/"
+        },
         {
           "date": "2026-10-16",
           "text": "IRGC says an oil supertanker hit a naval mine and caught fire in the Strait of Hormuz.",

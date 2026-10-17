@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "updated_at": "2026-10-17T05:21:48Z",
-  "read": "Inflation is re-accelerating, with CPI at 3.7% year over year, while unemployment ticked up to 4.20%. The Fed raised rates in September and is expected to hold Oct. 28. Ten-year yields near 5.1% and 7.40% mortgages squeeze borrowers, as oil at $110 and an AI-led stock selloff add risk.",
+  "updated_at": "2026-10-17T16:10:11Z",
+  "read": "Inflation is re-accelerating while the Fed has already hiked once under Warsh. CPI is 3.7% and unemployment edged up to 4.20%. Long Treasury yields above 5% and 7.40% mortgages weigh on housing, while an AI-led stock selloff adds market risk.",
   "indicators": [
     {
       "key": "fedfunds",
       "label": "Fed funds target",
       "value": "3.75–4.00",
       "unit": "%",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-17",
       "change": "up 0.25",
-      "note": "Raised in September; hold expected Oct. 28"
+      "note": "Raised from 3.50–3.75 in September"
     },
     {
       "key": "fedfunds_effective",
@@ -19,7 +19,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.12",
-      "note": "Tracks the higher target range"
+      "note": "Follows the September hike"
     },
     {
       "key": "cpi_yoy",
@@ -28,7 +28,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.3",
-      "note": "Inflation accelerating again"
+      "note": "Inflation accelerating, above recent readings"
     },
     {
       "key": "unrate",
@@ -36,8 +36,8 @@
       "value": "4.20",
       "unit": "%",
       "as_of": "2026-09-01",
-      "change": "up 0.1",
-      "note": "Labor market softening slightly"
+      "change": "up 0.10",
+      "note": "Slight rise in joblessness"
     },
     {
       "key": "dgs10",
@@ -46,7 +46,7 @@
       "unit": "%",
       "as_of": "2026-10-15",
       "change": "down 0.09",
-      "note": "Yields eased as bond buyers stepped in"
+      "note": "Yield eased but stays above 5%"
     },
     {
       "key": "dgs2",
@@ -55,7 +55,7 @@
       "unit": "%",
       "as_of": "2026-10-15",
       "change": "down 0.05",
-      "note": "Short yields slipped modestly"
+      "note": "Short-term yields slipped slightly"
     },
     {
       "key": "mortgage30",
@@ -64,7 +64,7 @@
       "unit": "%",
       "as_of": "2026-10-15",
       "change": "unch",
-      "note": "Borrowing costs remain elevated"
+      "note": "Unchanged from last week"
     }
   ],
   "fed": {
@@ -79,25 +79,19 @@
         "prob": 0.14
       },
       {
+        "label": "Cut 25bps",
+        "prob": 0.01
+      },
+      {
         "label": "Cut >25bps",
         "prob": 0.01
       },
       {
         "label": "Hike >25bps",
         "prob": 0.01
-      },
-      {
-        "label": "Cut 25bps",
-        "prob": 0.01
       }
     ],
-    "note": "Markets strongly expect a hold after September's hike, with inflation and oil the main risks."
+    "note": "Markets expect a hold, though some economists say a hike is a closer call."
   },
-  "week_ahead": [
-    {
-      "date": "2026-10-28",
-      "event": "FOMC rate decision",
-      "why_it_matters": "Tests whether the Fed holds after September's hike."
-    }
-  ]
+  "week_ahead": []
 }

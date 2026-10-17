@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-17T05:21:48Z",
+  "updated_at": "2026-10-17T16:10:11Z",
   "drops": [
     {
       "id": "2026-10-16T17",
@@ -19,6 +19,12 @@
       "at": "2026-10-17T05:21:48Z",
       "model": "claude-sonnet-5-5",
       "count": 39
+    },
+    {
+      "id": "2026-10-17T16",
+      "at": "2026-10-17T16:10:11Z",
+      "model": "claude-sonnet-5-5",
+      "count": 41
     }
   ],
   "cards": [
@@ -3869,6 +3875,1204 @@
         }
       ],
       "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c01",
+      "drop": "2026-10-17T16",
+      "headline": "Appeals court appears skeptical of Trump's private-records claim",
+      "summary": "A federal appeals court heard arguments on whether the 1978 Presidential Records Act is unconstitutional, as Trump's lawyers contend. Washington Examiner reports the judges pressed hard against that argument. No ruling has been issued.",
+      "why_it_matters": "The case will decide who controls presidential papers, which affects future records access and accountability for any president.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Presidential Records Act"
+      ],
+      "importance": 3,
+      "follows": "2026-10-16T17-c18",
+      "storyline_id": null,
+      "published_at": "2026-10-17T16:04:33.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Appeals court presses hard against Trump’s argument for private ownership of presidential records",
+          "url": "https://www.washingtonexaminer.com/news/justice/4769824/court-press-trump-argument-presidential-record-act/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c02",
+      "drop": "2026-10-17T16",
+      "headline": "Zelenskyy calls Trump's Russia sanctions pause a 'reward' for Putin",
+      "summary": "Zelenskyy said the waiver would embolden Russia as it strikes Ukraine's power plants. Trump told Congress the pause serves the national interest without giving details. Republican Sen. Thom Tillis called the move 'beyond irresponsible.'",
+      "why_it_matters": "US sanctions policy shapes pressure on Moscow and the balance of the war, with bipartisan disagreement in Congress.",
+      "region": "Europe",
+      "topics": [
+        "geopolitics",
+        "war-conflict",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Volodymyr Zelenskyy",
+        "Donald Trump",
+        "Russia",
+        "Thom Tillis"
+      ],
+      "importance": 4,
+      "follows": "2026-10-17T05-c01",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-17T13:23:47.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "GOP lawmakers bash Trump's decision to waive Russia sanctions: 'Beyond irresponsible'",
+          "url": "https://thehill.com/homenews/administration/6155725-trump-waives-russia-sanctions/"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Trump waives new Russia sanctions in the \"national interests\"",
+          "url": "https://www.axios.com/2026/10/17/trump-russia-sanctions"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c03",
+      "drop": "2026-10-17T16",
+      "headline": "Zelenskyy calls Starlink limits in Ukraine a 'planned operation'",
+      "summary": "Zelenskyy said Ukraine's use of the Musk-owned satellite system remains partly restricted despite earlier signs of full restoration. He said the limits apply only in Ukraine and hamper efforts to intercept Russian drone attacks.",
+      "why_it_matters": "A US company's network underpins Ukraine's air defense, and the dispute tests how Washington and allies share responsibility for it.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "defense",
+        "big-tech"
+      ],
+      "entities": [
+        "Volodymyr Zelenskyy",
+        "Starlink",
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "importance": 3,
+      "follows": "2026-10-16T17-c02",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-17T12:53:53.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Zelenskyy says Starlink speed limits in Ukraine are a ‘planned operation’",
+          "url": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Zelensky says Musk-owned satellite system still restricted in Ukraine",
+          "url": "https://www.axios.com/2026/10/17/zelensky-starlink-elon-musk-trump"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c04",
+      "drop": "2026-10-17T16",
+      "headline": "Russian strikes kill at least eight and injure nearly 60 in Ukraine",
+      "summary": "The latest wave of Russian strikes across Ukraine killed at least eight people and injured nearly 60, Al Jazeera reports. Attacks have continued on the country's power plants.",
+      "why_it_matters": "Attacks on energy infrastructure ahead of winter raise humanitarian stakes and pressure on Western support.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-17T11:22:41.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russian strikes kill civilians, injure dozens across Ukraine",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/russian-strikes-kill-civilians-injure-dozens-across-ukraine?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c05",
+      "drop": "2026-10-17T16",
+      "headline": "Protests spread across France as students and unions rally",
+      "summary": "Demonstrators gathered in Paris and other cities over rising living costs, with students, teachers, unions and yellow vest members joining. NPR reports scuffles and fires, and Al Jazeera reports clashes with police, as the fiscal crisis deepens.",
+      "why_it_matters": "Unrest in the euro area's second-largest economy adds to political and fiscal strain in a major US ally and trade partner.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "economy"
+      ],
+      "entities": [
+        "France"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T13:44:42.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Scuffles and fires break out as protesters rally across France, joining students",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Protesters clash with police during nationwide demonstrations in France",
+          "url": "https://www.aljazeera.com/news/2026/10/17/france-wave-of-nationwide-protests?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c06",
+      "drop": "2026-10-17T16",
+      "headline": "Swinney says SNP's second independence campaign 'has already begun'",
+      "summary": "Scotland's First Minister John Swinney told the SNP conference the party will use a six-figure war chest to renew the case for leaving the UK, and described a nationwide campaign effort.",
+      "why_it_matters": "A renewed Scottish independence push could reshape the UK, a key US ally and trading partner.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "elections"
+      ],
+      "entities": [
+        "John Swinney",
+        "Scottish National Party"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T15:45:53.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "SNP says campaign for next referendum on independence ‘has already begun’",
+          "url": "https://www.theguardian.com/politics/2026/oct/17/snp-campaign-second-referendum-independence-john-swinney"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c07",
+      "drop": "2026-10-17T16",
+      "headline": "Pope Leo XIV leaves hospital after lung cancer surgery",
+      "summary": "Pope Leo, 71, left Rome's Gemelli Hospital four days after surgery that removed the lower lobe of his right lung. He is due to give the Angelus blessing Sunday and is scheduled to travel to Latin America in November.",
+      "why_it_matters": "The recovery eases concern about Vatican leadership and clears the way for planned travel by the first American pope.",
+      "region": "Europe",
+      "topics": [
+        "health",
+        "culture-sports"
+      ],
+      "entities": [
+        "Pope Leo XIV",
+        "Vatican"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T05-c37",
+      "storyline_id": null,
+      "published_at": "2026-10-17T13:51:36.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Pope Leo XIV leaves hospital days after lung cancer surgery",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Pope discharged from hospital days after lung cancer surgery",
+          "url": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c08",
+      "drop": "2026-10-17T16",
+      "headline": "Meta removes terms that may have allowed scraping of news sites",
+      "summary": "After backlash, Meta updated its commercial terms to remove language suggesting it could use content from websites, including news sites, to train its AI.",
+      "why_it_matters": "The reversal shows publishers' pushback on AI training with their content, an unsettled issue for copyright and the web.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Meta"
+      ],
+      "importance": 2,
+      "follows": "2026-10-16T17-c37",
+      "storyline_id": null,
+      "published_at": "2026-10-17T15:04:36.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Meta removes language that may have allowed it to scrape news sites",
+          "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c09",
+      "drop": "2026-10-17T16",
+      "headline": "Ilhan Omar's lawyers demand return of items seized in home search",
+      "summary": "Attorneys for the Minnesota Democrat say the federal search of her home was 'neither justified nor lawful' and violated safeguards for members of Congress. They asked the Justice Department to return property and preserve recordings. House Majority Whip Tom Emmer said she should face jail if fraud is proven.",
+      "why_it_matters": "The dispute tests how law enforcement can search a sitting lawmaker's property, with a criminal probe and midterm politics in play.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "us-politics"
+      ],
+      "entities": [
+        "Ilhan Omar",
+        "Justice Department",
+        "Tom Emmer"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T05-c12",
+      "storyline_id": null,
+      "published_at": "2026-10-17T13:00:13.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Ilhan Omar’s attorneys say federal search of her home was ‘neither justified nor lawful’",
+          "url": "https://www.theguardian.com/us-news/2026/oct/17/ilhan-omar-search-seized-items"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Ilhan Omar should be jailed, deported if citizenship fraud proven, Top House Republican says",
+          "url": "https://www.foxnews.com/politics/ilhan-omar-should-jailed-deported-citizenship-fraud-proven-top-house-republican-says"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c10",
+      "drop": "2026-10-17T16",
+      "headline": "Vance hints at disagreement with Trump over Iran war",
+      "summary": "In an interview, Vice President JD Vance publicly hinted at breaking with Trump over the Iran war, according to the Washington Examiner, which described it as a signal of a White House split. The war nears the eight-month mark.",
+      "why_it_matters": "Differences inside the administration could affect US war strategy and the course of talks with Iran.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "JD Vance",
+        "Donald Trump",
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-17T15:02:37.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Vance publicly hints at his disagreement with Trump over Iran war",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4769787/vance-public-hint-disagree-trump-iran-war/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c11",
+      "drop": "2026-10-17T16",
+      "headline": "US and Iran both claim control of Hormuz as mines hit two vessels",
+      "summary": "Two vessels have been struck by naval mines in the Strait of Hormuz this week, and both the US and Iran say they control the waterway, Al Jazeera reports.",
+      "why_it_matters": "Hormuz carries a large share of the world's oil, so attacks there push up fuel prices for Americans.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "energy",
+        "middle-east"
+      ],
+      "entities": [
+        "Iran",
+        "United States",
+        "Strait of Hormuz"
+      ],
+      "importance": 4,
+      "follows": "2026-10-17T05-c05",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-17T12:10:56.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US and Iran both claim control of Strait of Hormuz amid attacks on vessels",
+          "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c12",
+      "drop": "2026-10-17T16",
+      "headline": "Egypt's Sisi seeks authorization to defend Saudi Arabia if asked",
+      "summary": "Egyptian President Abdel Fattah el-Sisi pledged 'any measure' to help defend Saudi Arabia 'if it is requested of us' and sought authorization for defense assistance.",
+      "why_it_matters": "Regional powers lining up behind Riyadh signal a widening Gulf conflict that threatens oil supply.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "defense",
+        "geopolitics"
+      ],
+      "entities": [
+        "Egypt",
+        "Saudi Arabia",
+        "Abdel Fattah el-Sisi"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T14:00:24.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Egypt’s Sisi seeks authorisation for defence assistance to Saudi Arabia",
+          "url": "https://www.aljazeera.com/economy/2026/10/17/egypts-sisi-seeks-authorisation-for-defence-assistance-to-saudi-arabia?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c13",
+      "drop": "2026-10-17T16",
+      "headline": "UAE to re-enter Yemen conflict as Houthis encircle Taiz",
+      "summary": "The UAE reportedly agreed with Saudi Arabia to resume payments to Yemeni forces as Iran-backed Houthi gains alarm Gulf rulers. The Financial Times reports Houthi forces have surrounded the city of Taiz.",
+      "why_it_matters": "Escalation in Yemen adds to Gulf instability and risks to shipping and energy markets.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "Houthis",
+        "Yemen"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T04:00:30.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
+          "url": "https://www.theguardian.com/world/2026/oct/17/uae-yemen-conflict-agreement-saudi-arabia-houthi-gains"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Houthis encircle new target in conflict with Saudi-backed forces",
+          "url": "https://www.ft.com/content/73329157-1277-42f5-802e-fc339415b5ce?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c14",
+      "drop": "2026-10-17T16",
+      "headline": "Settler attacks hit Palestinians after rabbi's olive ruling",
+      "summary": "Al Jazeera reports a child and four women were among Palestinians injured in West Bank attacks following a ruling by a hardline Israeli rabbi permitting seizure of Palestinian olives. Palestinians condemned the ruling.",
+      "why_it_matters": "Rising West Bank violence during the harvest complicates US diplomacy and fuels regional tension.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "West Bank",
+        "Israel"
+      ],
+      "importance": 2,
+      "follows": "2026-10-16T17-c24",
+      "storyline_id": null,
+      "published_at": "2026-10-17T12:27:49.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Child, four women among Palestinians injured in West Bank pogroms",
+          "url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Hardline Israeli rabbi ruling on stolen Palestinian olives prompts uproar",
+          "url": "https://www.aljazeera.com/news/2026/10/17/hardline-israeli-rabbi-ruling-on-stolen-palestinian-olives-sparks-uproar?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c15",
+      "drop": "2026-10-17T16",
+      "headline": "Thousands rally in Tunisia in biggest protest in years against Saied",
+      "summary": "Unions and opposition groups joined to protest poor living conditions and restrictions on political freedoms under President Kais Saied, Al Jazeera reports.",
+      "why_it_matters": "Mass dissent in Tunisia signals strain in North Africa, a region tied to migration and Mediterranean security.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "geopolitics"
+      ],
+      "entities": [
+        "Tunisia",
+        "Kais Saied"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T14:57:24.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
+          "url": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c16",
+      "drop": "2026-10-17T16",
+      "headline": "Sudan's army claims dozens of RSF fighters killed in Nyala attack",
+      "summary": "Sudan's army says it killed dozens of Rapid Support Forces fighters in Nyala. The RSF accuses the army of killing 30 civilians at a busy livestock market. The claims are not independently confirmed.",
+      "why_it_matters": "Sudan's war continues to cause civilian deaths and hunger, with limited international attention.",
+      "region": "Africa",
+      "topics": [
+        "war-conflict",
+        "africa"
+      ],
+      "entities": [
+        "Sudan",
+        "Rapid Support Forces"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T09:44:47.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Sudan’s army claims dozens of RSF fighters killed in Nyala attack",
+          "url": "https://www.aljazeera.com/news/2026/10/17/2550?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c17",
+      "drop": "2026-10-17T16",
+      "headline": "Hurricane Trudy heads toward Mexico's Pacific coast",
+      "summary": "Trudy is threatening heavy rain in Mexico, the latest in successive storms to hit the country's Pacific coast this year, Al Jazeera reports.",
+      "why_it_matters": "Repeated storms threaten coastal communities and tourism popular with Americans.",
+      "region": "Americas",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "Hurricane Trudy",
+        "Mexico"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T14:28:07.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Hurricane Trudy makes its way towards Mexico, threatening heavy rain",
+          "url": "https://www.aljazeera.com/news/2026/10/17/hurricane-trudy-makes-its-way-towards-mexico-threatening-heavy-rain?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c18",
+      "drop": "2026-10-17T16",
+      "headline": "Finance leaders walk out of IMF session as Russia's minister speaks",
+      "summary": "Bank of England Governor Andrew Bailey was among finance leaders who left an IMF session in Bangkok when Russia's finance minister addressed the group, in protest at Russian involvement.",
+      "why_it_matters": "The walkout shows how the Ukraine war still divides global financial institutions, even as US sanctions policy shifts.",
+      "region": "Asia",
+      "topics": [
+        "geopolitics",
+        "economy"
+      ],
+      "entities": [
+        "Andrew Bailey",
+        "International Monetary Fund",
+        "Russia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T12:15:37.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Bank of England governor walks out of IMF summit in protest against Russia",
+          "url": "https://www.theguardian.com/business/2026/oct/17/bank-of-england-governor-andrew-bailey-walks-out-imf-summit-protest-russia"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c19",
+      "drop": "2026-10-17T16",
+      "headline": "Chinese nursery owner jailed for life over poisoned children",
+      "summary": "A nursery owner in China received a life sentence after hundreds of children were poisoned. She and five staff were found to have used inedible paint in meals to make them look more appealing, the BBC reports.",
+      "why_it_matters": "The case highlights food safety enforcement in China, with a harsh sentence aimed at public anger.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "crime-justice"
+      ],
+      "entities": [
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T12:11:58.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Nursery owner in China jailed for life after hundreds of children poisoned",
+          "url": "https://www.bbc.co.uk/news/articles/cqe9lx54g7x9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c20",
+      "drop": "2026-10-17T16",
+      "headline": "Japan's Takaichi says she will attend APEC in China if parliament allows",
+      "summary": "Prime Minister Sanae Takaichi said she plans to attend the APEC leaders summit hosted by China if parliament permits, despite a deep freeze in ties between the two countries.",
+      "why_it_matters": "A Japan-China meeting could ease tension between two big US trading partners in Asia.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "geopolitics",
+        "china"
+      ],
+      "entities": [
+        "Sanae Takaichi",
+        "Japan",
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T05:22:12.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Japan’s Takaichi to Attend APEC in China if Parliament Allows",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/japan-s-takaichi-to-attend-apec-in-china-if-parliament-allows"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c21",
+      "drop": "2026-10-17T16",
+      "headline": "Tech sector has worst week in 18 months as average stock gains",
+      "summary": "The S&P 500's tech sector had its worst week in a year and a half, while an equal-weighted version of the index posted a second straight weekly gain as leadership moved away from tech.",
+      "why_it_matters": "Retirement accounts weighted toward big tech felt the drop, while broader stocks held up.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "big-tech"
+      ],
+      "entities": [
+        "S&P 500"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-17T11:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "It was another great week for the average stock as market leadership shifts away from tech",
+          "url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c22",
+      "drop": "2026-10-17T16",
+      "headline": "CoreWeave troubles risk closing the junk-bond market to AI firms",
+      "summary": "Junk bond buyers are increasingly freezing out tech startups seeking financing as CoreWeave's difficulties raise questions about how AI companies will fund themselves, Bloomberg reports.",
+      "why_it_matters": "Tighter credit for AI builders could slow data center spending that has driven the stock market and parts of the economy.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai",
+        "startups-vc"
+      ],
+      "entities": [
+        "CoreWeave"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-17T14:27:13.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "CoreWeave Woes Risk Shutting Down AI Junk Market: Credit Weekly",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c23",
+      "drop": "2026-10-17T16",
+      "headline": "Fed's October decision may be a closer call than markets think",
+      "summary": "MarketWatch lays out arguments against a Fed rate hike this month and why some economists disagree. Kalshi odds put a hold at 87% and a 25 basis point hike at 14%.",
+      "why_it_matters": "A hike would raise borrowing costs further for mortgages and loans, with 30-year rates already at 7.40%.",
+      "region": "US",
+      "topics": [
+        "fed-rates",
+        "economy"
+      ],
+      "entities": [
+        "Federal Reserve"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-fed-warsh",
+      "published_at": "2026-10-17T11:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Fed interest-rate decision this month is a closer call than markets think",
+          "url": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c24",
+      "drop": "2026-10-17T16",
+      "headline": "Silver's 50% drop from record high may signal slowdown, MarketWatch says",
+      "summary": "Silver has fallen more than 50% from a record high earlier this year. MarketWatch says the commodity can offer hints about the economy's direction and that the drop suggests a slowdown looms.",
+      "why_it_matters": "Commodity moves are one input investors watch for signs of a weakening economy.",
+      "region": "Global",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T12:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
+          "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c25",
+      "drop": "2026-10-17T16",
+      "headline": "Health insurance premiums set to spike next month",
+      "summary": "The Hill reports Americans face significantly higher premiums next month, whether on Affordable Care Act plans or employer coverage. Some premiums could be the highest in decades, and others will pay more through copays or deductibles.",
+      "why_it_matters": "Higher health costs hit household budgets and are emerging as a midterm election issue.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation",
+        "economy"
+      ],
+      "entities": [
+        "Affordable Care Act"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T10:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Health insurance is the sleeper midterms issue: Why premiums are spiking",
+          "url": "https://thehill.com/policy/healthcare/6155375-aca-costs-to-spike-next-month/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c26",
+      "drop": "2026-10-17T16",
+      "headline": "Newsom orders review of AI kill switches and other safeguards",
+      "summary": "California Gov. Gavin Newsom signed an executive order to examine kill switches for AI models and other measures he had earlier vetoed, Al Jazeera reports. The article links the move to his possible 2028 presidential run.",
+      "why_it_matters": "California rules often set the pattern for national AI regulation, affecting the tech industry and consumers.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Gavin Newsom",
+        "California"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T13:56:29.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "California Gov Newsom boosts AI regulation as he eyes 2028 presidential run",
+          "url": "https://www.aljazeera.com/economy/2026/10/17/california-gov-newsom-boosts-ai-regulation-as-he-eyes-2028-presidential-run?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c27",
+      "drop": "2026-10-17T16",
+      "headline": "Websites are increasingly blocking AI agents",
+      "summary": "As OpenAI, Meta, Google and others promote AI agents that shop, book and manage email, many websites are closing their doors to them, The Verge reports.",
+      "why_it_matters": "Blocks could limit what AI assistants can do for users and reshape how the web works.",
+      "region": "Global",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "OpenAI",
+        "Meta",
+        "Google"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T13:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Websites are closing their doors to AI agents",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c28",
+      "drop": "2026-10-17T16",
+      "headline": "SpaceX plans to become a major US wireless carrier",
+      "summary": "SpaceX agreed last week to buy a large block of low-band spectrum to expand Starlink, part of a plan to become a major wireless carrier. An analyst on The Verge podcast calls it ambitious and expensive.",
+      "why_it_matters": "A new national carrier could challenge AT&T, T-Mobile and Verizon on mobile service prices.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "space"
+      ],
+      "entities": [
+        "SpaceX",
+        "Starlink",
+        "AT&T",
+        "Verizon"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T14:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "SpaceX’s ambitious, expensive gamble to replace AT&T, T-Mobile, and Verizon",
+          "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c29",
+      "drop": "2026-10-17T16",
+      "headline": "Musk agrees to settle lawsuits over 2024 election lottery",
+      "summary": "Elon Musk and America PAC said they agreed to settle two proposed class actions alleging he defrauded residents over a promise to give $1 million a day to petition signers. Terms were not given in the summary.",
+      "why_it_matters": "The settlements close a legal fight over campaign giveaways in the 2024 election.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Elon Musk",
+        "America PAC"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T14:42:11.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Elon Musk agrees to settle lawsuits over 2024 election lottery",
+          "url": "https://www.theguardian.com/technology/2026/oct/17/elon-musk-2024-million-dollar-promise-lawsuit"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c30",
+      "drop": "2026-10-17T16",
+      "headline": "More Democrats report threatening letters claiming to be from DSA",
+      "summary": "Rep. Hillary Scholten, a Michigan Democrat, said she received a threatening letter claiming to be from the Democratic Socialists of America, joining other lawmakers and election officials who reported similar letters. She condemned political intimidation.",
+      "why_it_matters": "Threats against officials during early voting raise security concerns for the midterms.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Hillary Scholten",
+        "Democratic Socialists of America"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T05-c10",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-17T13:44:06.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Centrist Democrat Hillary Scholten says she received ‘threatening letter’ claiming to be from DSA",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769756/hillary-scholten-threat-letter-claim-from-dsa/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c31",
+      "drop": "2026-10-17T16",
+      "headline": "Trump's midterm travel favors red states, NPR reports",
+      "summary": "NPR reports Trump promised a swing-district blitz but is visiting several states he won easily two years ago. NPR says that shows a tougher landscape for Republicans. Politico reports some GOP candidates are avoiding Trump in ads.",
+      "why_it_matters": "Where candidates and the president campaign shows which seats each party sees as at risk in the midterms.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Republican Party"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-17T09:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Trump promised a swing district blitz. He's going to a lot of very red states",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms"
+        },
+        {
+          "outlet": "Politico",
+          "title": "Not all Republicans want to show Trump off",
+          "url": "https://www.politico.com/news/2026/10/17/trump-candidates-ads-midterms-01124957"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c32",
+      "drop": "2026-10-17T16",
+      "headline": "Kansas Senate race becomes a Republican worry, Politico reports",
+      "summary": "Politico reports Kansas has become a newly competitive Senate race that is causing headaches for Republicans, and Sen. Roger Marshall is struggling.",
+      "why_it_matters": "A competitive seat in a reliably red state widens the fight for Senate control.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Roger Marshall",
+        "Republican Party"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-17T11:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Politico",
+          "title": "A sleeper Senate battleground has turned into a real Republican liability",
+          "url": "https://www.politico.com/news/2026/10/17/kansas-senate-roger-marshall-struggles-01122060"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c33",
+      "drop": "2026-10-17T16",
+      "headline": "'No Kings' rallies held nationwide as Fox says partisan slogans spread",
+      "summary": "'No Kings' protests took place Saturday. Fox News reports organizers promoted 'Vote Blue' slogans that the coalition's own rulebook prohibits; organizers' response was not in the summary provided.",
+      "why_it_matters": "Large protests days before early voting show how activism is feeding into midterm campaigns.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "No Kings"
+      ],
+      "importance": 3,
+      "follows": "2026-10-16T21-c19",
+      "storyline_id": null,
+      "published_at": "2026-10-17T10:02:40.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "'No Kings' foot soldiers ignore organizers' warning, go all in for Democrats",
+          "url": "https://www.foxnews.com/politics/no-kings-says-dont-partisan-politics-300-groups-protest-network-organizers-say-vote-blue"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c34",
+      "drop": "2026-10-17T16",
+      "headline": "Final Trump arch plans omit previously described military complex",
+      "summary": "Final site plans for Trump's proposed 250-foot triumphal arch, submitted to the National Capital Planning Commission by the Interior Department, do not mention military features he said he would add.",
+      "why_it_matters": "The plans show how a high-profile Washington monument is taking shape and what will go to review.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Interior Department"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T14:45:12.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Final Trump arch plans submitted to city omit proposed military complex",
+          "url": "https://thehill.com/homenews/administration/6155776-trump-arch-plans-omit-military-complex/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c35",
+      "drop": "2026-10-17T16",
+      "headline": "Solar boom in Philippines as Iran war lifts energy costs",
+      "summary": "With Southeast Asia's largest electricity bills rising further, Filipinos are investing in rooftop solar panels, Al Jazeera reports.",
+      "why_it_matters": "The war's energy shock is changing power choices abroad, part of the same price pressure Americans see at the pump.",
+      "region": "Asia",
+      "topics": [
+        "energy",
+        "climate"
+      ],
+      "entities": [
+        "Philippines"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T10:12:01.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Solar power booms in Philippines as war on Iran spikes energy costs",
+          "url": "https://www.aljazeera.com/news/2026/10/17/solar-power-booms-in-philippines-as-war-on-iran-spikes-energy-costs?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c36",
+      "drop": "2026-10-17T16",
+      "headline": "Investors and second-home buyers drive 1 in 5 home purchases",
+      "summary": "Individual investors and second-home buyers made up one in five home purchases in September, the highest share in a little over a year, as mortgage rates sit near 7%, MarketWatch reports.",
+      "why_it_matters": "Cash-rich buyers can crowd out first-time buyers when borrowing costs are high.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "markets"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T13:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
+          "url": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c37",
+      "drop": "2026-10-17T16",
+      "headline": "Dozens of endangered orangutans rescued from Indonesian wildfires",
+      "summary": "Rescuers in Indonesia have saved dozens of critically endangered orangutans during a deadly wildfire season, NPR reports.",
+      "why_it_matters": "Wildfires threaten one of the world's most endangered primates and Southeast Asian forests.",
+      "region": "Asia",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "Indonesia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T11:43:13.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Dozens of critically endangered orangutans rescued from Indonesian wildfires",
+          "url": "https://www.npr.org/2026/10/17/nx-s1-6004881/dozens-of-critically-endangered-orangutans-rescued-from-indonesian-wildfires"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c38",
+      "drop": "2026-10-17T16",
+      "headline": "Study finds microplastics react with water, a concern for biology",
+      "summary": "A new study says tiny plastic pieces, normally considered inert, can react with water, one of the most pervasive molecules in the environment and in the body, Wired reports.",
+      "why_it_matters": "The finding adds to questions about how microplastics affect human health.",
+      "region": "Global",
+      "topics": [
+        "science",
+        "health"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T09:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Wired",
+          "title": "Microplastics React With Water, a New Study Says. That’s a Problem for Biology",
+          "url": "https://www.wired.com/story/microplastics-react-with-water-new-study-says-thats-a-problem-for-biology/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-17T16-c39",
+      "drop": "2026-10-17T16",
+      "headline": "Musk says AI and robots must solve the national debt",
+      "summary": "Elon Musk told biographer Walter Isaacson the DOGE experiment showed there was no way to solve the deficit from within government, and that only AI and robots can address the national debt.",
+      "why_it_matters": "It reflects a view of one of the most influential tech figures on how to handle federal deficits near $2 trillion.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "robotics",
+        "ai"
+      ],
+      "entities": [
+        "Elon Musk",
+        "Walter Isaacson"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T12:23:16.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Exclusive: Musk tells Isaacson \"AI and robots\" will need to fix deficit",
+          "url": "https://www.axios.com/2026/10/17/elon-musk-doge-walter-isaacson-podcast"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c40",
+      "drop": "2026-10-17T16",
+      "headline": "Stellantis plans to hire hundreds more engineers in Europe and US",
+      "summary": "Stellantis' chief engineering officer Ned Curic plans to keep hiring engineers as the automaker rolls out dozens of new models in its turnaround plan, Bloomberg reports.",
+      "why_it_matters": "Hiring by a major automaker with large US operations points to investment in new models.",
+      "region": "Global",
+      "topics": [
+        "autos-transport",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Stellantis",
+        "Ned Curic"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T11:08:37.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Stellantis Plans to Hire Hundreds More Engineers in Europe, US",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/stellantis-plans-to-hire-hundreds-more-engineers-in-europe-us"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-17T16-c41",
+      "drop": "2026-10-17T16",
+      "headline": "Florida man, 71, killed by 12-foot alligator while fishing",
+      "summary": "Steve Hamilton, 71, was fishing at a pond in Winter Garden, Florida, when an almost 12-foot alligator attacked and killed him on Friday, authorities and media reports said. The animal was later killed.",
+      "why_it_matters": "Fatal alligator attacks are rare but a reminder of risks around Florida waters.",
+      "region": "US",
+      "topics": [
+        "science",
+        "culture-sports"
+      ],
+      "entities": [
+        "Steve Hamilton"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T15:23:32.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Florida fisher dragged into water and killed by 12ft alligator",
+          "url": "https://www.theguardian.com/us-news/2026/oct/17/alligator-attack-florida-fisher-killed"
+        }
+      ],
+      "has_article": true
     }
   ]
 }
