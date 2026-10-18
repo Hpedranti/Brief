@@ -1,0 +1,837 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-10-18T16",
+    "at": "2026-10-18T16:24:14Z",
+    "model": "claude-sonnet-5-5",
+    "count": 26
+  },
+  "cards": [
+    {
+      "id": "2026-10-18T16-c01",
+      "drop": "2026-10-18T16",
+      "headline": "Ukraine launches 1,000-plus drones at St Petersburg oil sites",
+      "summary": "Ukraine sent more than 1,000 drones toward Russia overnight, setting an oil export terminal ablaze in St Petersburg. At least one person was killed and a data centre was hit, according to the BBC. Russia continues striking Ukrainian energy sites.",
+      "why_it_matters": "One of the largest Ukrainian strikes of the war comes amid a rift with Washington and could affect global oil and diesel supply.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia",
+        "St Petersburg"
+      ],
+      "importance": 4,
+      "follows": "2026-10-18T05-c02",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T13:06:26.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "St Petersburg endures biggest Ukrainian drone attack",
+          "url": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Blaze at St. Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia",
+          "url": "https://www.washingtonexaminer.com/news/world/4770060/russia-ukraine-war-st-petersburg-drone-attack/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c02",
+      "drop": "2026-10-18T16",
+      "headline": "Zelenskyy speaks with Witkoff and Kushner amid US-Ukraine crisis",
+      "summary": "Zelenskyy spoke Sunday with Trump envoys Steve Witkoff and Jared Kushner about the strained relationship and efforts to resume peace talks, Axios reports. He also told U.S. outlets that U.S. support of Putin would be a 'historic mistake.'",
+      "why_it_matters": "The first senior contact since tensions rose will shape US support for Ukraine and any negotiations with Russia.",
+      "region": "Europe",
+      "topics": [
+        "geopolitics",
+        "war-conflict"
+      ],
+      "entities": [
+        "Volodymyr Zelenskyy",
+        "Steve Witkoff",
+        "Jared Kushner"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T15:05:51.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Zelensky speaks to Witkoff, Kushner amid U.S.-Ukraine crisis",
+          "url": "https://www.axios.com/2026/10/18/zelensky-witkoff-kushner-ukraine-russia-crisis"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Zelensky warns US support of Putin is a 'historic mistake'",
+          "url": "https://thehill.com/policy/defense/6156521-zelensky-warns-trump-russia/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T16-c03",
+      "drop": "2026-10-18T16",
+      "headline": "Pence and Energy Secretary Wright clash over Russia sanctions waiver",
+      "summary": "Former Vice President Pence urged Trump to restore Russia sanctions and scrap the diesel deal with Putin. Energy Secretary Chris Wright defended the waiver, saying it is 'not an economic lifeline' and is an incentive for Russia to reduce the conflict.",
+      "why_it_matters": "The waiver and diesel deal tie sanctions policy to American fuel prices and Ukraine's fate.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "geopolitics",
+        "energy"
+      ],
+      "entities": [
+        "Mike Pence",
+        "Chris Wright",
+        "Donald Trump",
+        "Russia"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T21-c03",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T12:00:13.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Pence calls on Trump to restore sanctions, scrap Russia diesel deal",
+          "url": "https://thehill.com/homenews/administration/6156538-pence-condemns-trump-putin-agreement/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Wright defends waiving sanctions: 'It's not an economic lifeline for Russia'",
+          "url": "https://thehill.com/homenews/administration/6156515-wright-defends-trump-russia-sanctions-waiver/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump tries different approach with Russia to bring Americans relief amid ongoing war with Ukraine",
+          "url": "https://www.foxnews.com/politics/trump-tries-different-approach-russia-bring-americans-relief-amid-ongoing-war-ukraine"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T16-c04",
+      "drop": "2026-10-18T16",
+      "headline": "US ambassador warns Europe of retaliation over Starlink spectrum plans",
+      "summary": "The FT reports US Ambassador Andrew Puzder warned of 'devastating' retaliation if Brussels limits spectrum access for non-EU companies, a move that would affect satellite operators such as Starlink.",
+      "why_it_matters": "A transatlantic fight over satellite spectrum could escalate trade tensions and affect Ukraine's communications.",
+      "region": "Europe",
+      "topics": [
+        "trade",
+        "policy-regulation",
+        "space"
+      ],
+      "entities": [
+        "Andrew Puzder",
+        "European Union",
+        "Starlink"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T16:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "US threatens Europe over Starlink restrictions",
+          "url": "https://www.ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T16-c05",
+      "drop": "2026-10-18T16",
+      "headline": "Trump endorses Netanyahu days before Israel's Oct. 27 election",
+      "summary": "Trump endorsed Israeli Prime Minister Benjamin Netanyahu on Truth Social, calling him a critical ally in the war against Iran and warning that his exit could leave the US shouldering more of the conflict.",
+      "why_it_matters": "A US endorsement could sway Israel's vote, with consequences for the Iran war and regional diplomacy.",
+      "region": "Middle East",
+      "topics": [
+        "elections",
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Benjamin Netanyahu",
+        "Israel"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-18T15:06:20.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump endorses Netanyahu 9 days before Israel election",
+          "url": "https://www.axios.com/2026/10/18/trump-endorses-netanyahu-israel-election-iran"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump backs Netanyahu for reelection, says Israeli PM critical ally against Iran",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4770123/trump-endorses-netanyahu-israel-reelection/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T16-c06",
+      "drop": "2026-10-18T16",
+      "headline": "French government holds crisis talks after worst unrest in years",
+      "summary": "About 1,800 people were arrested after protests over school conditions and living costs turned violent, leaving public buildings burned and shops looted. Ministers met in crisis talks and Macron is expected to address the nation. Trump urged France to close its borders.",
+      "why_it_matters": "Instability in a major US ally and NATO member, with protests spreading to Italy and Portugal, raises European political risk.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "geopolitics"
+      ],
+      "entities": [
+        "France",
+        "Emmanuel Macron",
+        "Donald Trump"
+      ],
+      "importance": 4,
+      "follows": "2026-10-18T05-c06",
+      "storyline_id": null,
+      "published_at": "2026-10-18T12:07:31.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "French government in crisis talks after ‘colossal failure of the state’",
+          "url": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump tells France ‘close your borders’ as police arrest 1,800 in violent protests",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4770091/trump-france-close-borders-protests/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c07",
+      "drop": "2026-10-18T16",
+      "headline": "Housing and cost-of-living protests spread to Lisbon and Milan",
+      "summary": "Protests that have convulsed Spain and France spread to Italy and Portugal. Rioters clashed with police and set property on fire in Milan, while Meloni said an Italian march was exploited by 'hooligans.'",
+      "why_it_matters": "Broad European anger over living costs could reshape politics and affect US allies and markets.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "economy"
+      ],
+      "entities": [
+        "Giorgia Meloni",
+        "Italy",
+        "Portugal"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T11:02:39.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "‘We are suffocating’: protests spread to Lisbon and Milan as housing and living cost tensions intensify",
+          "url": "https://www.theguardian.com/world/2026/oct/18/lisbon-milan-protests-housing-living-costs"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c08",
+      "drop": "2026-10-18T16",
+      "headline": "Obama defends Ilhan Omar as Homan cites 'strong case'",
+      "summary": "Obama condemned the administration's legal pursuit of Rep. Ilhan Omar over alleged citizenship fraud, which she calls 'disgusting lies.' Border czar Tom Homan told Fox News investigators have a 'strong case' after agents raided her home.",
+      "why_it_matters": "The probe of a sitting member of Congress raises questions about immigration enforcement and politics before the midterms.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "crime-justice"
+      ],
+      "entities": [
+        "Ilhan Omar",
+        "Barack Obama",
+        "Tom Homan"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T16-c09",
+      "storyline_id": null,
+      "published_at": "2026-10-18T14:26:13.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump once questioned Obama's citizenship. Now Obama is speaking out for Ilhan Omar.",
+          "url": "https://www.axios.com/2026/10/18/obama-trump-ilhan-omar-citizenship-investigation-copy-package"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Homan says investigators have a 'strong case' against Omar",
+          "url": "https://thehill.com/homenews/administration/6156445-homan-omar-immigration-fraud-probe/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement",
+          "url": "https://www.foxnews.com/politics/obama-backs-ilhan-omar-amid-probe-accuses-trump-admin-appalling-targeting-lengthy-statement"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c09",
+      "drop": "2026-10-18T16",
+      "headline": "Huckabee condemns settler attack on Washington Post photographer",
+      "summary": "US Ambassador Mike Huckabee called the West Bank attack that badly beat photojournalist Heidi Levine 'terror' and urged arrests. The EU condemned a separate settler attack on European diplomats; Israel's prime minister's office called reports a 'smear' campaign.",
+      "why_it_matters": "Violence against an American journalist and European diplomats tests US-Israel ties and Western diplomacy.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Mike Huckabee",
+        "Heidi Levine",
+        "European Union"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T05-c07",
+      "storyline_id": null,
+      "published_at": "2026-10-18T12:16:14.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "US ambassador to Israel calls West Bank settler attack on American photojournalist ‘terror’",
+          "url": "https://www.theguardian.com/world/2026/oct/18/us-ambassador-israel-mike-huckabee-west-bank-settler-attack-photojournalist-heidi-levine"
+        },
+        {
+          "outlet": "BBC",
+          "title": "European diplomats attacked by Israeli settlers in West Bank",
+          "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "EU condemns Israeli settler attack on diplomats in occupied West Bank",
+          "url": "https://www.aljazeera.com/news/2026/10/18/eu-condemns-israeli-settler-attack-on-diplomats-in-occupied-west-bank?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c10",
+      "drop": "2026-10-18T16",
+      "headline": "Gaza families fear food shortages as Israel halts commercial shipments",
+      "summary": "Residents in Gaza report rising prices after Israel halted commercial goods shipments, leaving families unable to afford extra supplies, Al Jazeera reports.",
+      "why_it_matters": "Food access in Gaza remains a humanitarian concern and a test of the ceasefire.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Gaza",
+        "Israel"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T13:16:13.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Gaza families fear food shortages as Israel halts commercial shipments",
+          "url": "https://www.aljazeera.com/news/2026/10/18/gaza-families-fear-food-shortages-as-israel-halts-commercial-shipments?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c11",
+      "drop": "2026-10-18T16",
+      "headline": "Albania's PM refuses to resign on sixth day of violent protests",
+      "summary": "Police used rubber bullets, water cannons and tear gas on hundreds of student-led protesters in Tirana demanding Prime Minister Edi Rama resign. Rama has refused.",
+      "why_it_matters": "Unrest in a NATO member and EU candidate tests Balkan stability.",
+      "region": "Europe",
+      "topics": [
+        "europe"
+      ],
+      "entities": [
+        "Albania",
+        "Edi Rama"
+      ],
+      "importance": 2,
+      "follows": "2026-10-17T21-c02",
+      "storyline_id": null,
+      "published_at": "2026-10-18T15:08:18.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Tirana sees sixth day of violent protests as Albania’s PM refuses to resign",
+          "url": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c12",
+      "drop": "2026-10-18T16",
+      "headline": "Multiple killed in fire at Canadian base in Alberta",
+      "summary": "Canada's defence minister said a blaze at Canadian Forces Base Wainwright killed multiple people and injured others. No cause or death toll has been given, officials said, citing a very active situation.",
+      "why_it_matters": "A major accident at a key Canadian training base involves a close US ally and NATO partner.",
+      "region": "Americas",
+      "topics": [
+        "defense"
+      ],
+      "entities": [
+        "Canadian Forces Base Wainwright",
+        "David McGuinty"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T05-c01",
+      "storyline_id": null,
+      "published_at": "2026-10-18T15:01:16.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Multiple people killed as Canadian authorities tackle active blaze at Alberta military base",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Several dead or injured in major fire at Canada military base",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c13",
+      "drop": "2026-10-18T16",
+      "headline": "Options traders brace for VIX surge as AI jitters jolt market",
+      "summary": "Accelerating inflation and tremors in the AI sector have jolted stocks, and some investors are betting that bigger swings in tech will spread to the broader market, Bloomberg reports.",
+      "why_it_matters": "Market volatility affects retirement accounts and signals investor worry about inflation and AI spending.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Cboe Volatility Index"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-18T13:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Option Traders Brace for VIX Surge as AI Jitters Jolt Market",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/option-traders-brace-for-vix-surge-as-ai-jitters-jolt-market"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+          "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T16-c14",
+      "drop": "2026-10-18T16",
+      "headline": "Microsoft pulls out of Nscale AI datacentre project in Essex",
+      "summary": "Microsoft withdrew as anchor tenant of a large UK AI datacentre being developed by Nscale, citing concerns about power supply, the Guardian reports.",
+      "why_it_matters": "Power constraints are emerging as a limit on AI buildout, relevant to US tech spending.",
+      "region": "Europe",
+      "topics": [
+        "ai",
+        "energy",
+        "big-tech"
+      ],
+      "entities": [
+        "Microsoft",
+        "Nscale"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-18T13:05:14.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Microsoft pulls out of AI datacentre project in Essex over power supply concerns",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c15",
+      "drop": "2026-10-18T16",
+      "headline": "FT: voters link rising energy prices to Trump administration policies",
+      "summary": "A Financial Times analysis argues the administration's effort to make America cheap again has failed, with voters increasingly tying rising energy prices to its policies. Administration officials have defended their energy and Russia diesel steps.",
+      "why_it_matters": "Prices are a central issue for midterm voters and household budgets.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "energy",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-18T12:00:57.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Trump’s bid to make America cheap again has failed",
+          "url": "https://www.ft.com/content/52a5e9df-cd9a-4951-99b5-2364e575bb44?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Trump suspends federal diesel taxes to help farmers, but states issue warnings",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-5996662/trump-suspends-federal-diesel-taxes-to-help-farmers-but-states-issue-warnings"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T16-c16",
+      "drop": "2026-10-18T16",
+      "headline": "Democrats compete in long-Republican territory, Axios reports",
+      "summary": "Axios reports Democrats are running surprisingly competitive midterm races in traditionally Republican states, putting GOP winning streaks dating to the 1930s at risk. The Financial Times notes Republican insiders say Democratic-wave predictions may be overstated.",
+      "why_it_matters": "Control of the Senate and House shapes policy on taxes, spending, immigration and foreign affairs.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Democratic Party",
+        "Republican Party"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T05-c12",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-18T10:00:09.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Decades-old GOP winning streaks are suddenly at risk",
+          "url": "https://www.axios.com/2026/10/18/democrat-2026-republican-winning-streak-kansas"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Could Republicans prove the pollsters wrong in the midterms?",
+          "url": "https://www.ft.com/content/b2299174-fb78-4edf-a358-8cae837f8d7b?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "The nine key races that will decide who controls the Senate, and where they stand",
+          "url": "https://www.foxnews.com/politics/nine-key-races-could-decide-who-controls-senate-where-stand"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c17",
+      "drop": "2026-10-18T16",
+      "headline": "Anduril says it could build Steelfin interceptors in Europe",
+      "summary": "A company executive said Anduril could eventually manufacture its newly unveiled Steelfin interceptor missiles in Europe.",
+      "why_it_matters": "Counter-drone production in Europe could bolster NATO defenses and shape US defense exports.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "startups-vc"
+      ],
+      "entities": [
+        "Anduril"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T15:40:14.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "US arms firm Anduril could make interceptors in Europe, executive says",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/10/18/us-arms-firm-anduril-could-make-interceptors-in-europe-executive-says/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c18",
+      "drop": "2026-10-18T16",
+      "headline": "Scholars say Shakespeare was main author of Edward III",
+      "summary": "A computer analysis concludes 'beyond doubt' that Shakespeare was the main author of the anonymously published 1596 play Edward III, in collaboration with Christopher Marlowe, the Guardian reports.",
+      "why_it_matters": "The finding could add a play to the Shakespeare canon.",
+      "region": "Europe",
+      "topics": [
+        "culture-sports",
+        "science"
+      ],
+      "entities": [
+        "William Shakespeare",
+        "Christopher Marlowe"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T15:00:02.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Scholars conclude ‘beyond doubt’ that Shakespeare was main author of Edward III",
+          "url": "https://www.theguardian.com/culture/2026/oct/18/scholars-conclude-beyond-doubt-that-shakespeare-was-main-author-of-edward-iii"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c19",
+      "drop": "2026-10-18T16",
+      "headline": "Experts call for clearer federal message as measles outbreaks grow",
+      "summary": "Infectious disease veterans say federal health leaders' communication on measles has been lacking and may have hurt more than helped, even as funding flows to state and local departments. US cases have passed 4,000.",
+      "why_it_matters": "Clear public health guidance affects vaccination rates and local outbreak control.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation"
+      ],
+      "entities": [
+        "CDC"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T16:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Infectious disease veterans call for clearer federal message on measles",
+          "url": "https://thehill.com/policy/healthcare/6149649-us-measles-outbreak-messaging-gap/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T16-c20",
+      "drop": "2026-10-18T16",
+      "headline": "Sudan army accused of drone strike on Darfur livestock market",
+      "summary": "Sudan's army says it struck RSF command centres in South Darfur, while the RSF says a crowded livestock market was hit. The accounts conflict.",
+      "why_it_matters": "Civilian harm in Sudan's war deepens one of the world's worst humanitarian crises.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "war-conflict"
+      ],
+      "entities": [
+        "Sudan",
+        "Rapid Support Forces"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T13:37:03.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Sudan army accused of drone strike on livestock market",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/sudan-army-accused-of-drone-strike-on-livestock-market?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T16-c21",
+      "drop": "2026-10-18T16",
+      "headline": "Poland investigates suspected airspace violation overnight",
+      "summary": "Poland's Armed Forces Operational Command said it is investigating a possible violation of Polish airspace overnight.",
+      "why_it_matters": "Incidents on NATO's eastern flank carry escalation risk for the alliance, including the US.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "war-conflict"
+      ],
+      "entities": [
+        "Poland",
+        "NATO"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T06:52:54.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Poland Investigates Suspected Violation of Its Airspace",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/poland-investigates-suspected-violation-of-its-airspace"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T16-c22",
+      "drop": "2026-10-18T16",
+      "headline": "EPA backtracks on claim US phased out two toxic PFAS compounds",
+      "summary": "The Guardian reports the EPA quietly changed website wording after finding that production of PFOA and PFOS has not been fully phased out, with a Texas chemical firm still making plastic containers.",
+      "why_it_matters": "PFAS are linked to health risks and found in drinking water across the US.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "health",
+        "climate"
+      ],
+      "entities": [
+        "Environmental Protection Agency"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T12:00:03.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "EPA quietly backtracks on claims US has phased out toxic Pfas compounds",
+          "url": "https://www.theguardian.com/environment/2026/oct/18/epa-pfas-compounds-toxins"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c23",
+      "drop": "2026-10-18T16",
+      "headline": "New AI wearables test wiretap laws, CNBC reports",
+      "summary": "Always-listening AI devices from Apple, Amazon, Meta and startups are testing privacy rules and raising concerns about covert recording, CNBC reports.",
+      "why_it_matters": "Consumers who wear these devices, and people near them, could face legal and privacy risks.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "policy-regulation",
+        "big-tech"
+      ],
+      "entities": [
+        "Apple",
+        "Amazon",
+        "Meta"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T12:00:01.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy",
+          "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c24",
+      "drop": "2026-10-18T16",
+      "headline": "Some conservative states skip Medicaid hardship exemption",
+      "summary": "The Guardian reports that states such as Missouri and Iowa are not taking up a hardship exemption to the new Medicaid requirements, which experts say may be for political reasons. The states' reasons were not detailed here.",
+      "why_it_matters": "The choice affects whether low-income residents keep health coverage.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Medicaid",
+        "Missouri",
+        "Iowa"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T12:00:02.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Some conservative states aren’t using Medicaid hardship exemption – for political reasons",
+          "url": "https://www.theguardian.com/us-news/2026/oct/18/medicaid-hardship-exemptions-conservative-states"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c25",
+      "drop": "2026-10-18T16",
+      "headline": "Cities push back on robotaxis with new local rules",
+      "summary": "The Verge reports cities are seeking ways to rein in robotaxis, as laws and road rules for autonomous vehicles come under scrutiny.",
+      "why_it_matters": "Local rules will decide where Americans can ride driverless cars.",
+      "region": "US",
+      "topics": [
+        "autos-transport",
+        "policy-regulation",
+        "robotics"
+      ],
+      "entities": [
+        "Waymo"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T12:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Cities want to put the boot on robotaxis",
+          "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T16-c26",
+      "drop": "2026-10-18T16",
+      "headline": "Accenture looks to sell Chinese operations for up to $1.5bn",
+      "summary": "The FT reports Accenture is seeking to sell its Chinese operations for up to $1.5 billion, as its shares fluctuate over questions about AI's impact.",
+      "why_it_matters": "US firms continue to reshape their China exposure amid tensions and AI disruption.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Accenture",
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T10:00:09.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Accenture looks to sell Chinese operations for up to $1.5bn",
+          "url": "https://www.ft.com/content/2dfdd513-26a6-4a10-9cae-5242eb4ee3ed?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    }
+  ]
+}

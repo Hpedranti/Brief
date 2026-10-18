@@ -1,15 +1,35 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T05:29:15Z",
+  "updated_at": "2026-10-18T16:24:14Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump waived new Russia sanctions, drawing bipartisan criticism; Zelenskyy calls it a reward for Putin but says Ukraine is ready to negotiate. Starlink limits persist, Russia hits Ukraine's energy sector, and a Ukrainian drone swarm reportedly hit St Petersburg.",
+      "summary": "Trump waived Russia sanctions, drawing bipartisan criticism including from Pence; Wright defends it. Ukraine launched 1,000-plus drones at St Petersburg. Zelenskyy spoke with Witkoff and Kushner, the first senior call since tensions rose. Starlink limits persist.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-17",
+      "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "US ambassador Puzder warns Europe of retaliation over plans to limit spectrum access for non-EU firms such as Starlink, the FT reports.",
+          "url": "https://www.ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Pence urges Trump to restore Russia sanctions; Energy Secretary Wright defends the waiver as not an economic lifeline.",
+          "url": "https://thehill.com/homenews/administration/6156538-pence-condemns-trump-putin-agreement/"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Zelenskyy speaks with Witkoff and Kushner, the first senior call since tensions began.",
+          "url": "https://www.axios.com/2026/10/18/zelensky-witkoff-kushner-ukraine-russia-crisis"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Ukraine launches more than 1,000 drones at Russia, hitting St Petersburg oil sites and a data centre; at least one killed.",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-10-17",
           "text": "Video shows explosions in St Petersburg after a suspected Ukrainian drone swarm.",
@@ -80,11 +100,21 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Tech had its worst week in 18 months, junk-bond buyers are shunning AI financing, and the FT says the infrastructure boom is fraying.",
+      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Options traders now brace for a VIX surge, Microsoft dropped a UK datacentre over power supply, and the FT says the infrastructure boom is fraying.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-17",
+      "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "Option traders brace for a VIX surge as accelerating inflation and AI jitters jolt stocks.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/option-traders-brace-for-vix-surge-as-ai-jitters-jolt-market"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Microsoft pulls out of Nscale's Essex AI datacentre project over power supply concerns.",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
+        },
         {
           "date": "2026-10-17",
           "text": "FT reports America's $10 trillion AI infrastructure boom is running into the economics of the physical world.",
@@ -145,11 +175,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Early voting is underway, inflation is a GOP worry, polls show some GOP-held House seats at risk, and Trump is on a seven-stop tour.",
+      "summary": "Democrats lead in fundraising and are competitive in traditionally GOP states, while Republicans lean on Musk money and argue polls may overstate a wave. Inflation is a GOP worry, early voting is underway, and Trump is on a seven-stop tour.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-17",
+      "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "Axios reports Democrats are competitive in long-Republican territory; the FT says GOP insiders think wave predictions are overstated.",
+          "url": "https://www.axios.com/2026/10/18/democrat-2026-republican-winning-streak-kansas"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "FT says voters increasingly link rising energy prices to Trump administration policies.",
+          "url": "https://www.ft.com/content/52a5e9df-cd9a-4951-99b5-2364e575bb44?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-10-17",
           "text": "Vance says he will decide on a 2028 run after the midterms, at a CBS town hall in Michigan.",
@@ -220,11 +260,16 @@
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent crude reached $110. Tankers have hit mines in Hormuz, with Iran saying two caught fire, and both the US and Iran claim control. Saudi forces are intercepting drones. Vance has hinted at disagreement with Trump.",
+      "summary": "After nine months of war, Brent crude reached $110. Tankers have hit mines in Hormuz, and both the US and Iran claim control. Saudi forces are intercepting drones. Trump endorsed Netanyahu ahead of Israel's Oct. 27 election, citing the Iran war.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-17",
+      "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "Trump endorses Netanyahu for reelection, calling him a critical ally against Iran, nine days before Israel's Oct. 27 election.",
+          "url": "https://www.axios.com/2026/10/18/trump-endorses-netanyahu-israel-election-iran"
+        },
         {
           "date": "2026-10-17",
           "text": "Iran's IRGC says two tankers, each carrying about two million barrels, caught fire after hitting mines on an unauthorised route.",
