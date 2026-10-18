@@ -1,13 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-18T16:24:14Z",
+  "updated_at": "2026-10-18T21:18:16Z",
   "drops": [
-    {
-      "id": "2026-10-16T17",
-      "at": "2026-10-16T17:33:54Z",
-      "model": "claude-sonnet-5-5",
-      "count": 46
-    },
     {
       "id": "2026-10-16T21",
       "at": "2026-10-16T21:56:40Z",
@@ -43,1463 +37,15 @@
       "at": "2026-10-18T16:24:14Z",
       "model": "claude-sonnet-5-5",
       "count": 26
+    },
+    {
+      "id": "2026-10-18T21",
+      "at": "2026-10-18T21:18:16Z",
+      "model": "claude-sonnet-5-5",
+      "count": 30
     }
   ],
   "cards": [
-    {
-      "id": "2026-10-16T17-c01",
-      "drop": "2026-10-16T17",
-      "headline": "Trump leaves door open to press secretary Zacharia leaving, backs Susie Wiles",
-      "summary": "President Trump said he told new press secretary Katie Zacharia to 'reconsider' her role a week into the job, and said he will keep chief of staff Susie Wiles. Zacharia has faced scrutiny over her legal credentials. One outlet's summary said she was fired; others did not.",
-      "why_it_matters": "Turmoil in the White House communications and staff leadership affects how the administration presents policy to the public. Reports on whether Zacharia has left conflict.",
-      "region": "US",
-      "topics": [
-        "us-politics"
-      ],
-      "entities": [
-        "Donald Trump",
-        "Katie Zacharia",
-        "Susie Wiles"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T16:24:57.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "White House personnel drama puts Trump on defense",
-          "url": "https://thehill.com/newsletters/1230-report/6154099-susie-wiles-katie-zacharia-donald-trump-white-house-drama-ukraine-starlink-gop-midterms/"
-        },
-        {
-          "outlet": "Washington Examiner",
-          "title": "Trump leaves door open for Katie Zacharia to quit a week into press secretary job — but will keep Susie Wiles",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4768888/katie-zacharia-future-press-secretary/"
-        },
-        {
-          "outlet": "The Guardian",
-          "title": "New White House press secretary faces more scrutiny – this time from Trump-friendly Fox News",
-          "url": "https://www.theguardian.com/us-news/2026/oct/16/white-house-press-secretary-katie-zacharia-fox-news"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c02",
-      "drop": "2026-10-16T17",
-      "headline": "Zelenskyy says Starlink access for Ukraine's military not fully restored",
-      "summary": "Zelenskyy called the US limit on Starlink and Starshield access a 'dangerous and unpleasant surprise'. Defense News, citing sources, reports the order came from inside the White House. US senators have called for an investigation.",
-      "why_it_matters": "US-controlled satellite links underpin Ukraine's drone and battlefield operations, and the dispute tests Washington's support for Kyiv and its reliance on private firms.",
-      "region": "Europe",
-      "topics": [
-        "war-conflict",
-        "defense",
-        "geopolitics"
-      ],
-      "entities": [
-        "Ukraine",
-        "SpaceX",
-        "Volodymyr Zelenskyy",
-        "White House"
-      ],
-      "importance": 4,
-      "follows": null,
-      "storyline_id": "sl-ukraine-us-rift",
-      "published_at": "2026-10-16T14:19:50.000Z",
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "title": "Starlink access still not fully restored for Ukraine’s military, says Zelenskyy",
-          "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy"
-        },
-        {
-          "outlet": "Defense News",
-          "title": "Order to limit Starshield for Ukraine came from inside White House, sources say",
-          "url": "https://www.defensenews.com/pentagon/2026/10/16/order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say/"
-        },
-        {
-          "outlet": "BBC",
-          "title": "US senators call for investigation into Ukraine's Starlink restrictions",
-          "url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c03",
-      "drop": "2026-10-16T17",
-      "headline": "EU leaders rally behind Zelenskyy as Trump criticizes Ukraine's strikes",
-      "summary": "At a Brussels summit, EU leaders backed Zelenskyy, who asked for about $79 billion in extra aid for next year. Trump called Ukraine's latest strikes a 'disgrace' and said Zelenskyy is harder to work with than Putin.",
-      "why_it_matters": "A widening gap between Washington and Kyiv, with Europe stepping in, affects NATO cohesion and the course of the war.",
-      "region": "Europe",
-      "topics": [
-        "geopolitics",
-        "war-conflict",
-        "europe"
-      ],
-      "entities": [
-        "Volodymyr Zelenskyy",
-        "Donald Trump",
-        "European Union"
-      ],
-      "importance": 4,
-      "follows": null,
-      "storyline_id": "sl-ukraine-us-rift",
-      "published_at": "2026-10-16T15:59:30.000Z",
-      "sources": [
-        {
-          "outlet": "BBC",
-          "title": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
-          "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "EU rallies in support of Ukraine amid Trump standoff",
-          "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff?traffic_source=rss"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c04",
-      "drop": "2026-10-16T17",
-      "headline": "Russia strikes about a third of Ukraine's regions as energy attacks continue",
-      "summary": "Russia launched airstrikes across roughly a third of Ukraine's regions Friday, as both sides keep hitting energy infrastructure despite Trump's declared energy ceasefire. Russia says Ukraine hit a major refinery southeast of Moscow Thursday.",
-      "why_it_matters": "Attacks on energy infrastructure risk civilian hardship in Ukraine and could affect fuel markets, while the ceasefire push stalls.",
-      "region": "Europe",
-      "topics": [
-        "war-conflict",
-        "energy"
-      ],
-      "entities": [
-        "Russia",
-        "Ukraine"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-ukraine-us-rift",
-      "published_at": "2026-10-16T08:51:17.000Z",
-      "sources": [
-        {
-          "outlet": "Washington Examiner",
-          "title": "Russia launches airstrikes across Ukraine after report claims call to throttle Starshield came directly from White House",
-          "url": "https://www.washingtonexaminer.com/news/world/4768552/russia-airstrikes-ukraine-report-starshield-speeds-white-house/"
-        },
-        {
-          "outlet": "NPR",
-          "title": "Russia's view amid Ukraine's strikes and Zelenskyy's growing rift with the U.S.",
-          "url": "https://www.npr.org/2026/10/16/nx-s1-6004281/russias-view-amid-ukraines-strikes-and-zelenskyys-growing-rift-with-the-u-s"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c05",
-      "drop": "2026-10-16T17",
-      "headline": "Eutelsat shares jump 18% on Starshield limits in Ukraine",
-      "summary": "Shares of Europe's satellite operator Eutelsat rose 18% as investors reacted to limits on Starshield service for Ukraine, which raised concerns about relying on a US provider.",
-      "why_it_matters": "The episode boosts interest in European alternatives to SpaceX for military communications.",
-      "region": "Europe",
-      "topics": [
-        "space",
-        "markets",
-        "defense"
-      ],
-      "entities": [
-        "Eutelsat",
-        "SpaceX"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": "sl-ukraine-us-rift",
-      "published_at": "2026-10-16T15:45:35.000Z",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Europe's answer to SpaceX rises 18% as Ukraine's Starshield limits raise concerns",
-          "url": "https://www.cnbc.com/2026/10/16/eutelsat-starshield-ukraine-spacex.html"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c06",
-      "drop": "2026-10-16T17",
-      "headline": "Big US bank stocks head for worst weekly losing streak since 2008",
-      "summary": "Large US bank shares are on track for their worst weekly losing streak since the 2008 financial crisis, as quarterly earnings did not lift sentiment. The S&P 500 is also set for its worst week in about two months.",
-      "why_it_matters": "Weakness in banks and chip stocks can weigh on retirement accounts and signal stress in credit markets.",
-      "region": "US",
-      "topics": [
-        "markets",
-        "economy"
-      ],
-      "entities": [
-        "Bank of America",
-        "S&P 500"
-      ],
-      "importance": 4,
-      "follows": null,
-      "storyline_id": "sl-ai-debt-selloff",
-      "published_at": "2026-10-16T14:01:24.000Z",
-      "sources": [
-        {
-          "outlet": "Bloomberg",
-          "title": "Big US Bank Stocks Eye Worst Weekly Losing Streak Since 2008",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/big-us-bank-shares-set-for-worst-weekly-losing-streak-since-2008"
-        },
-        {
-          "outlet": "Bloomberg",
-          "title": "S&P 500 Slides as Chipmakers Extend Slump on Growing AI Worries",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c07",
-      "drop": "2026-10-16T17",
-      "headline": "Chip stocks on longest losing run since 2008 as AI worries mount",
-      "summary": "Chip stocks are set for their longest losing run since 2008. CoreWeave shares fell 20% in the first three sessions of the week as its debt dropped to levels that typically indicate distress.",
-      "why_it_matters": "AI-linked stocks make up a large share of major indexes, so a prolonged slide can hit portfolios and tech investment plans.",
-      "region": "US",
-      "topics": [
-        "chips",
-        "markets",
-        "ai"
-      ],
-      "entities": [
-        "CoreWeave",
-        "Nvidia"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-ai-debt-selloff",
-      "published_at": "2026-10-16T15:55:26.000Z",
-      "sources": [
-        {
-          "outlet": "Bloomberg",
-          "title": "Chip Stocks Set for Longest Losing Run Since 2008",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-16/bloomberg-surveillance-10-16-2026-video"
-        },
-        {
-          "outlet": "Bloomberg",
-          "title": "CoreWeave Debt Stress; JB Hunt Falls on Rising Costs | Stock Movers",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-16/coreweave-debt-stress-jb-hunt-falls-on-rising-costs-stock-movers"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c08",
-      "drop": "2026-10-16T17",
-      "headline": "Tech's AI borrowing binge rattles credit markets",
-      "summary": "Credit-default swap costs on tech debt are climbing, a warning sign for investors. Axios reports banks are pulling back as AI debt grows faster than revenue, and Bank of America is braving an unusual Friday bond sale after a turbulent week.",
-      "why_it_matters": "If lenders tighten on AI buildouts, spending, stock prices and related jobs could be affected.",
-      "region": "US",
-      "topics": [
-        "markets",
-        "ai",
-        "economy"
-      ],
-      "entities": [
-        "Bank of America"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-ai-debt-selloff",
-      "published_at": "2026-10-16T09:00:10.000Z",
-      "sources": [
-        {
-          "outlet": "Bloomberg",
-          "title": "Why Tech’s AI Borrowing Binge Is Rattling Markets",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/why-tech-s-ai-borrowing-binge-is-rattling-markets"
-        },
-        {
-          "outlet": "Axios",
-          "title": "Banks are pulling back as AI's massive debt pile disconnects from economic reality",
-          "url": "https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c09",
-      "drop": "2026-10-16T17",
-      "headline": "Warsh signals steady Fed outlook; markets expect a hold in October",
-      "summary": "Fed Chairman Kevin Warsh said the economy has performed largely as expected since September's rate hike. Investors expect a hold on Oct. 28, but CNBC says Warsh's unconventional communication leaves the decision uncertain. The dollar is set for its worst week in over a month.",
-      "why_it_matters": "Fed decisions drive mortgage, car and credit card rates, with the 30-year mortgage at 7.40%.",
-      "region": "US",
-      "topics": [
-        "fed-rates",
-        "economy"
-      ],
-      "entities": [
-        "Federal Reserve",
-        "Kevin Warsh"
-      ],
-      "importance": 4,
-      "follows": null,
-      "storyline_id": "sl-fed-warsh",
-      "published_at": "2026-10-16T10:25:29.000Z",
-      "sources": [
-        {
-          "outlet": "Axios",
-          "title": "Warsh signals steady Fed outlook despite inflation jump",
-          "url": "https://www.axios.com/2026/10/16/warsh-federal-reserve-interest-rates"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
-          "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
-        },
-        {
-          "outlet": "Bloomberg",
-          "title": "Dollar Heads for Worst Week in Over a Month as Warsh Stays Quiet",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/dollar-heads-for-worst-week-in-over-a-month-as-warsh-stays-quiet"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c10",
-      "drop": "2026-10-16T17",
-      "headline": "Axios: today's economy resembles 2000, with a tech boom and Fed hikes",
-      "summary": "Axios compares 2026 with 2000: robust growth powered by a tech boom, low unemployment, elevated inflation and Fed rate hikes to cool things down.",
-      "why_it_matters": "The comparison raises the question of whether an AI-driven boom could end in a sharp correction affecting jobs and savings.",
-      "region": "US",
-      "topics": [
-        "economy",
-        "markets"
-      ],
-      "entities": [
-        "Federal Reserve"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T15:50:18.000Z",
-      "sources": [
-        {
-          "outlet": "Axios",
-          "title": "That Y2K feeling: Why today's economy resembles 2000",
-          "url": "https://www.axios.com/2026/10/16/that-y2k-feeling-why-todays-economy-resembles-2000"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c11",
-      "drop": "2026-10-16T17",
-      "headline": "Tesla unveils Roadster with SpaceX thrusters, fueling merger talk",
-      "summary": "Tesla showed a long-delayed Roadster that used SpaceX cold-gas thrusters to leap and flip over a lineup of Teslas at a Texas demo. The Verge reports the flying stunt is just for show. Analysts say it could push Musk toward a Tesla-SpaceX merger.",
-      "why_it_matters": "Closer ties between Musk's companies could affect Tesla shareholders and the EV market.",
-      "region": "US",
-      "topics": [
-        "autos-transport",
-        "big-tech"
-      ],
-      "entities": [
-        "Tesla",
-        "SpaceX",
-        "Elon Musk"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T14:15:29.000Z",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
-          "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
-        },
-        {
-          "outlet": "The Verge",
-          "title": "The incredible flying Tesla Roadster is just for show",
-          "url": "https://www.theverge.com/transportation/1012783/tesla-roadster-flying-stunt-production-reality-musk"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c12",
-      "drop": "2026-10-16T17",
-      "headline": "Musk gives record $158 million to GOP Senate super PAC",
-      "summary": "Elon Musk gave $158 million to the Senate Leadership Fund, helping it raise a record $273 million as Republicans spend in Texas to defend Ken Paxton. Wired reports he is largely funding the GOP midterm push.",
-      "why_it_matters": "A single donor's money is shaping Senate control, which determines confirmations, spending and oversight.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "us-politics"
-      ],
-      "entities": [
-        "Elon Musk",
-        "Senate Leadership Fund",
-        "Ken Paxton"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-10-16T12:17:29.000Z",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million",
-          "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html"
-        },
-        {
-          "outlet": "Wired",
-          "title": "Elon Musk Is Almost Single-Handedly Funding the Republican Midterms Push",
-          "url": "https://www.wired.com/story/elon-musk-is-almost-single-handedly-funding-the-republicans-midterms-push/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c13",
-      "drop": "2026-10-16T17",
-      "headline": "Texas Senate race tightens; Trump blames Cornyn and Rove for Paxton's struggles",
-      "summary": "Trump said Sen. John Cornyn and Karl Rove are making it hard for his endorsed candidate Ken Paxton against Democrat James Talarico. Talarico raised $64 million last quarter. Republicans question his week-plus absence from the trail; supporters call that a GOP conspiracy theory.",
-      "why_it_matters": "A competitive Texas race signals how contested Senate control may be in November.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "us-politics"
-      ],
-      "entities": [
-        "Ken Paxton",
-        "James Talarico",
-        "Donald Trump",
-        "John Cornyn"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-10-15T22:14:42.000Z",
-      "sources": [
-        {
-          "outlet": "Politico",
-          "title": "Trump lashes out at Republicans as Ken Paxton struggles in Texas",
-          "url": "https://www.politico.com/news/2026/10/15/trump-lashes-out-at-republicans-as-ken-paxtron-struggles-in-texas-01122111"
-        },
-        {
-          "outlet": "Washington Examiner",
-          "title": "Talarico supporters not sweating dust up over his absence from campaign trail",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768636/talarico-supporters-not-sweating-absence-from-campaign-trail/"
-        },
-        {
-          "outlet": "Axios",
-          "title": "Democrats post \"mind-blowing\" numbers ahead of 2026 midterms",
-          "url": "https://www.axios.com/2026/10/16/democrats-midterms-fundraising-senate"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c14",
-      "drop": "2026-10-16T17",
-      "headline": "Cook Political Report shifts 11 House races toward Democrats",
-      "summary": "Cook Political Report moved 11 House races toward Democrats, including three seats rated solid Republican that are now likely Republican. A Bowling Green poll has Democrats Sherrod Brown and Amy Acton each ahead by six points in Ohio.",
-      "why_it_matters": "Forecast shifts suggest control of the House is in play, which would shape oversight and legislation.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "us-politics"
-      ],
-      "entities": [
-        "Cook Political Report",
-        "Sherrod Brown",
-        "Amy Acton"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-10-16T15:20:16.000Z",
-      "sources": [
-        {
-          "outlet": "Washington Examiner",
-          "title": "Eleven more seats shift toward Democrats, including three in previously safe red areas, major projection shows",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768639/seats-shift-democrats-three-red-areas-major-projection-shows/"
-        },
-        {
-          "outlet": "The Hill",
-          "title": "Brown, Acton both up 6 points in Ohio races: poll",
-          "url": "https://thehill.com/homenews/campaign/6154137-ohio-polls-democrat-surge/"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c15",
-      "drop": "2026-10-16T17",
-      "headline": "Collins and Jackson clash in fourth Maine Senate debate",
-      "summary": "Republican Sen. Susan Collins and Democrat Troy Jackson sparred over independence and billionaire donors. Collins said she does not regret voting to confirm Robert F. Kennedy Jr. at HHS and said she tried to block Hegseth.",
-      "why_it_matters": "Maine is one of the Senate contests that could decide majority control.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "us-politics"
-      ],
-      "entities": [
-        "Susan Collins",
-        "Troy Jackson"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-10-16T09:00:48.000Z",
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "title": "Personal jabs, billionaire donors and party loyalty fuel heated Maine Senate debate",
-          "url": "https://www.foxnews.com/politics/personal-jabs-billionaire-donors-party-loyalty-fuel-heated-maine-senate-debate"
-        },
-        {
-          "outlet": "The Hill",
-          "title": "Collins says she doesn't regret RFK Jr. vote, tried to block Hegseth",
-          "url": "https://thehill.com/homenews/campaign/6153981-collins-defends-rfk-jr-confirmation/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c16",
-      "drop": "2026-10-16T17",
-      "headline": "Justice Department sues California over about 20,000 voters' ballots",
-      "summary": "The Trump administration sued California and two election officials, alleging suspected ineligible voters received mail ballots, and asked a court to bar counting about 20,000 ballots. A separate lawsuit accuses DHS of unlawfully collecting voter data from 47 states.",
-      "why_it_matters": "Fights over voter rolls could affect whose ballots count in November.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "courts",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Department of Justice",
-        "California",
-        "Department of Homeland Security"
-      ],
-      "importance": 4,
-      "follows": null,
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-10-15T21:03:46.000Z",
-      "sources": [
-        {
-          "outlet": "Axios",
-          "title": "Trump sues California to prevent counting 20,000 voters' ballots",
-          "url": "https://www.axios.com/2026/10/15/trump-doj-california-voters-ballots-lawsuit"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Trump admin sued over alleged illegal collection of sensitive voter data from 47 states",
-          "url": "https://www.foxnews.com/politics/trump-admin-sued-alleged-illegal-collection-sensitive-voter-data-47-states"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c17",
-      "drop": "2026-10-16T17",
-      "headline": "Judge dismisses Trump administration suit over New York City sanctuary laws",
-      "summary": "US District Judge Ramon Reyes in Brooklyn dismissed the administration's suit against New York City laws limiting cooperation with federal immigration enforcement, saying the government lacked a valid basis to sue. Separately, lawyers say ICE officers did not identify themselves before a Bronx shooting.",
-      "why_it_matters": "The ruling bears on how far Washington can compel local cooperation on immigration enforcement.",
-      "region": "US",
-      "topics": [
-        "courts",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Ramon Reyes",
-        "New York City",
-        "Immigration and Customs Enforcement"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T16:14:58.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "Judge tosses Trump administration lawsuit over New York City 'sanctuary' laws",
-          "url": "https://thehill.com/homenews/administration/6154032-judge-dismisses-nyc-immigration-lawsuit/"
-        },
-        {
-          "outlet": "The Hill",
-          "title": "ICE officers 'did not identify themselves' ahead of Bronx shooting: Lawyers",
-          "url": "https://thehill.com/regulation/court-battles/6154012-oscar-belgal-immigration-customs-enforcement-new-york-shooting/"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c18",
-      "drop": "2026-10-16T17",
-      "headline": "Appeals court to weigh who owns presidential papers",
-      "summary": "An appeals court will consider whether records created in the White House belong to Donald Trump, as the administration says, or to the American public under the Presidential Records Act. The case could reach the Supreme Court.",
-      "why_it_matters": "The outcome decides public access to records of presidential decision-making.",
-      "region": "US",
-      "topics": [
-        "courts",
-        "us-politics"
-      ],
-      "entities": [
-        "Donald Trump"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T09:00:00.000Z",
-      "sources": [
-        {
-          "outlet": "NPR",
-          "title": "Do Americans own the president's papers? Appeals court to weigh in",
-          "url": "https://www.npr.org/2026/10/16/nx-s1-5996836/trump-who-owns-presidential-records-act-appeals-court"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c19",
-      "drop": "2026-10-16T17",
-      "headline": "Teen kills three children and a teacher at Oregon elementary school",
-      "summary": "A 16-year-old broke into Silver Rail Elementary in Bend, Oregon, killing three children and a teacher before an armed bystander intervened. Fox reports the shotgun was purchased by his mother; Democrats are calling for gun control.",
-      "why_it_matters": "The shooting renews the national debate over school safety and firearm access.",
-      "region": "US",
-      "topics": [
-        "crime-justice",
-        "us-politics"
-      ],
-      "entities": [
-        "Bend, Oregon",
-        "Silver Rail Elementary School"
-      ],
-      "importance": 4,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T11:03:57.000Z",
-      "sources": [
-        {
-          "outlet": "NPR",
-          "title": "Teen kills 4 at Oregon school. And, DOJ sues California over alleged noncitizens",
-          "url": "https://www.npr.org/2026/10/16/g-s1-148373/up-first-newsletter-bend-oregon-school-shooting-california-doj-voters-presidential-papers"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Democrats call for gun control after Oregon school shooter reportedly uses shotgun purchased by his mother",
-          "url": "https://www.foxnews.com/politics/democrats-call-gun-control-oregon-school-shooter-shotgun-purchased-mother"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c20",
-      "drop": "2026-10-16T17",
-      "headline": "Trump cancels livestream of Nidal Hasan firing squad execution",
-      "summary": "Trump canceled a planned livestream of the firing squad execution of Fort Hood shooter Nidal Hasan, though victims' families can still witness it. NPR reports public opinion on the death penalty is split when questions vary.",
-      "why_it_matters": "A rare federal execution by firing squad raises questions about capital punishment and transparency.",
-      "region": "US",
-      "topics": [
-        "crime-justice",
-        "us-politics"
-      ],
-      "entities": [
-        "Nidal Hasan",
-        "Donald Trump"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T16:04:34.000Z",
-      "sources": [
-        {
-          "outlet": "NPR",
-          "title": "Amid talk of public execution, public opinion on death penalty is split",
-          "url": "https://www.npr.org/2026/10/16/g-s1-148404/public-opinion-execution-death-penalty"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Americans back Trump's decision against livestreaming Nidal Hasan's firing squad execution",
-          "url": "https://www.foxnews.com/politics/americans-back-trumps-decision-against-livestreaming-nidal-hasans-firing-squad-execution"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c21",
-      "drop": "2026-10-16T17",
-      "headline": "Axios: MAGA allies discuss martial law if midterms seen as rigged",
-      "summary": "Axios reports MAGA activists are urging extraordinary measures, including martial law, if they believe the midterms are rigged. Axios notes some proposals exceed presidential legal authority and there is no evidence the elections will be rigged.",
-      "why_it_matters": "Talk of overriding election results bears on public trust in the vote.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "us-politics"
-      ],
-      "entities": [
-        "Donald Trump"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-10-16T09:00:09.000Z",
-      "sources": [
-        {
-          "outlet": "Axios",
-          "title": "Trump's MAGA allies openly discuss martial law",
-          "url": "https://www.axios.com/2026/10/16/trumps-maga-allies-openly-discuss-martial-law"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c22",
-      "drop": "2026-10-16T17",
-      "headline": "Trump administration advances peptide drug plan favored by RFK Jr.",
-      "summary": "Health officials are moving ahead with a plan to let compounding pharmacies produce certain peptides, a largely unregulated class of injections favored by Health Secretary Robert F. Kennedy Jr.",
-      "why_it_matters": "It could widen access to unapproved injectable drugs, with safety and oversight questions for patients.",
-      "region": "US",
-      "topics": [
-        "health",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Robert F. Kennedy Jr.",
-        "Department of Health and Human Services"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-15T20:46:09.000Z",
-      "sources": [
-        {
-          "outlet": "STAT",
-          "title": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
-          "url": "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c23",
-      "drop": "2026-10-16T17",
-      "headline": "Indian police detain Cockroach Janta Party leader amid Delhi protests",
-      "summary": "Police detained youth movement leader Abhijeet Dipke before a Delhi march, as thousands protested a voter-roll revision. Critics call it politically motivated; the Election Commission and Modi's government deny that.",
-      "why_it_matters": "Unrest over voting rights in the world's largest democracy matters to US partners and investors.",
-      "region": "Asia",
-      "topics": [
-        "asia",
-        "elections"
-      ],
-      "entities": [
-        "Abhijeet Dipke",
-        "India",
-        "Election Commission of India"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T13:26:43.000Z",
-      "sources": [
-        {
-          "outlet": "NPR",
-          "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
-          "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests"
-        },
-        {
-          "outlet": "The Guardian",
-          "title": "India’s Cockroach Janta party leader detained amid crackdown on protests",
-          "url": "https://www.theguardian.com/world/2026/oct/16/india-cockroach-janta-party-leader-detained-amid-crackdown-protests"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c24",
-      "drop": "2026-10-16T17",
-      "headline": "Israeli settlers attack olive harvesters and a Washington Post photographer",
-      "summary": "Masked Israeli settlers attacked Palestinians harvesting olives in the West Bank, injuring several people including Washington Post photographer Heidi Levine, according to NPR, the Guardian and the BBC.",
-      "why_it_matters": "An American journalist was hurt, and rising settler violence complicates US diplomacy in the region.",
-      "region": "Middle East",
-      "topics": [
-        "middle-east",
-        "war-conflict"
-      ],
-      "entities": [
-        "West Bank",
-        "Heidi Levine",
-        "The Washington Post"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T15:57:27.000Z",
-      "sources": [
-        {
-          "outlet": "NPR",
-          "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
-          "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank"
-        },
-        {
-          "outlet": "The Guardian",
-          "title": "Israeli settlers attack olive farmers and Washington Post journalist in West Bank",
-          "url": "https://www.theguardian.com/world/2026/oct/16/israeli-settlers-attack-olive-farmers-west-bank-washington-post-journalist-heidi-levine"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c25",
-      "drop": "2026-10-16T17",
-      "headline": "Rubio urges Lebanon not to return seized explosives to Hezbollah",
-      "summary": "Secretary of State Marco Rubio asked Lebanese President Joseph Aoun not to return to Hezbollah a truckload of explosives seized in Beirut. Hezbollah says they were meant for use against Israel; some Lebanese fear assassinations.",
-      "why_it_matters": "The dispute is a test of Beirut's control over Hezbollah and of US influence in Lebanon.",
-      "region": "Middle East",
-      "topics": [
-        "middle-east",
-        "geopolitics"
-      ],
-      "entities": [
-        "Marco Rubio",
-        "Hezbollah",
-        "Joseph Aoun",
-        "Lebanon"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-15T21:49:38.000Z",
-      "sources": [
-        {
-          "outlet": "Axios",
-          "title": "Rubio urges Lebanon to resist Hezbollah pressure over seized explosives",
-          "url": "https://www.axios.com/2026/10/15/lebanon-hezbollah-explosives-israel-rubio"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "Division in Lebanon over Hezbollah’s confiscated explosives",
-          "url": "https://www.aljazeera.com/news/2026/10/16/division-in-lebanon-over-hezbollahs-confiscated-explosives?traffic_source=rss"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c26",
-      "drop": "2026-10-16T17",
-      "headline": "Gaza Health Ministry says malnutrition at 'catastrophic' levels",
-      "summary": "Gaza's Health Ministry says malnutrition and starvation are at catastrophic levels, with about 67 percent of the population projected to face crisis-level food insecurity or worse through the end of 2026.",
-      "why_it_matters": "The humanitarian toll shapes US aid and diplomatic decisions.",
-      "region": "Middle East",
-      "topics": [
-        "middle-east",
-        "health"
-      ],
-      "entities": [
-        "Gaza",
-        "Gaza Health Ministry"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T15:37:25.000Z",
-      "sources": [
-        {
-          "outlet": "Al Jazeera",
-          "title": "Gaza malnutrition and starvation at ‘catastrophic’ levels: Health Ministry",
-          "url": "https://www.aljazeera.com/news/2026/10/16/gaza-malnutrition-and-starvation-at-catastrophic-levels-health-ministry?traffic_source=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c27",
-      "drop": "2026-10-16T17",
-      "headline": "Sally Rooney's books pulled from UK sale over Palestine Action support",
-      "summary": "Irish author Sally Rooney said her books can no longer be sold in the UK after she pledged royalties to the banned group Palestine Action. UK national security adviser Jonathan Powell faces pressure over his wife's supportive comment.",
-      "why_it_matters": "The case tests how the UK's terrorism-related bans reach cultural and speech issues.",
-      "region": "Europe",
-      "topics": [
-        "europe",
-        "culture-sports"
-      ],
-      "entities": [
-        "Sally Rooney",
-        "Palestine Action",
-        "Jonathan Powell"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T11:30:31.000Z",
-      "sources": [
-        {
-          "outlet": "NPR",
-          "title": "Sally Rooney's books will no longer be sold in U.K. after Palestinian Action support",
-          "url": "https://www.npr.org/2026/10/16/nx-s1-6004838/sally-rooney-books-uk-palestinian-action-support"
-        },
-        {
-          "outlet": "The Guardian",
-          "title": "UK national security adviser under pressure over wife’s comment on supporting Palestine Action",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/16/uk-national-security-adviser-jonathan-powell-sarah-helm-sally-rooney-palestine-action"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c28",
-      "drop": "2026-10-16T17",
-      "headline": "Brazil run-off: Lula backs lowering criminal age to 16 as polls favor Bolsonaro",
-      "summary": "President Lula reversed his position and now supports lowering the age of criminal responsibility to 16 for heinous crimes. Polls show his right-wing rival Bolsonaro with an edge, though experts still call the run-off a toss-up.",
-      "why_it_matters": "Brazil is Latin America's largest economy; the result shapes US trade and regional politics.",
-      "region": "Americas",
-      "topics": [
-        "elections",
-        "latin-america"
-      ],
-      "entities": [
-        "Luiz Inácio Lula da Silva",
-        "Bolsonaro",
-        "Brazil"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T16:34:26.000Z",
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "title": "Brazil’s Lula says he now backs lowering age of criminal responsibility to 16",
-          "url": "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "Latest poll shows Bolsonaro maintaining edge over Lula in Brazil run-off",
-          "url": "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off?traffic_source=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c29",
-      "drop": "2026-10-16T17",
-      "headline": "Canada's Carney urges unity ahead of Monday's Alberta separation vote",
-      "summary": "The Canadian prime minister is in Alberta for two days to make a final push for unity ahead of Monday's separation referendum, warning that the stakes are high.",
-      "why_it_matters": "Alberta's oil and its status matter to US energy supply and the border relationship with a top trading partner.",
-      "region": "Americas",
-      "topics": [
-        "elections",
-        "energy"
-      ],
-      "entities": [
-        "Alberta",
-        "Canada"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T13:31:07.000Z",
-      "sources": [
-        {
-          "outlet": "BBC",
-          "title": "Canada PM warns 'stakes are high' as Alberta separation vote nears",
-          "url": "https://www.bbc.co.uk/news/articles/c9rky2vrr5vzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c30",
-      "drop": "2026-10-16T17",
-      "headline": "Albania's anti-government protests turn violent",
-      "summary": "Months of 'Flamingo' movement protests in Tirana escalated this week to a different scale, with violence, according to the BBC.",
-      "why_it_matters": "Instability in a NATO member in the Balkans bears on European security.",
-      "region": "Europe",
-      "topics": [
-        "europe",
-        "geopolitics"
-      ],
-      "entities": [
-        "Albania"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T14:33:32.000Z",
-      "sources": [
-        {
-          "outlet": "BBC",
-          "title": "Albanian protests turn violent: What we know",
-          "url": "https://www.bbc.co.uk/news/articles/cqdjv90d1jpko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c31",
-      "drop": "2026-10-16T17",
-      "headline": "France and Germany strike emissions deal; EU carmakers welcome relief",
-      "summary": "A France-Germany deal on emissions rules gives European automakers relief from high costs and Chinese competition, and opens the door to the UK, according to Bloomberg.",
-      "why_it_matters": "Looser rules and China's EV push shape competition for US carmakers and consumers.",
-      "region": "Europe",
-      "topics": [
-        "autos-transport",
-        "europe",
-        "trade"
-      ],
-      "entities": [
-        "France",
-        "Germany",
-        "European Union"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T16:57:58.000Z",
-      "sources": [
-        {
-          "outlet": "Bloomberg",
-          "title": "EU Carmakers Hail Deal on Emissions That Opens Door to the UK",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/eu-carmakers-hail-deal-on-emissions-that-opens-door-to-the-uk"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c32",
-      "drop": "2026-10-16T17",
-      "headline": "Pope Leo to appear publicly Sunday after cancer surgery",
-      "summary": "Pope Leo will make his first public appearance since surgery at Rome's Gemelli Hospital. The BBC reports he was diagnosed with lung cancer; doctors say he can carry out normal activities with full independence.",
-      "why_it_matters": "The health of the first American pope matters to the world's 1.4 billion Catholics.",
-      "region": "Europe",
-      "topics": [
-        "health",
-        "culture-sports"
-      ],
-      "entities": [
-        "Pope Leo"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T14:36:39.000Z",
-      "sources": [
-        {
-          "outlet": "Al Jazeera",
-          "title": "Pope Leo to make public appearance Sunday, first since cancer surgery",
-          "url": "https://www.aljazeera.com/news/2026/10/16/pope-leo-to-make-public-appearance-sunday-first-since-cancer-surgery?traffic_source=rss"
-        },
-        {
-          "outlet": "BBC",
-          "title": "Pope pictured for first time since surgery and cancer diagnosis",
-          "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c33",
-      "drop": "2026-10-16T17",
-      "headline": "Waymo to test robotaxis in Toronto",
-      "summary": "Waymo will begin testing its self-driving vehicles on Toronto streets, its first move into Canada.",
-      "why_it_matters": "It signals the pace of robotaxi expansion beyond US cities.",
-      "region": "Americas",
-      "topics": [
-        "autos-transport",
-        "robotics"
-      ],
-      "entities": [
-        "Waymo",
-        "Toronto"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T16:06:38.000Z",
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "title": "Waymo’s robotaxis are headed to Canada",
-          "url": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c34",
-      "drop": "2026-10-16T17",
-      "headline": "DNI Clayton cites OpenAI bugging case as AI leadership threat",
-      "summary": "Director of National Intelligence Jay Clayton said an OpenAI case involving a Saudi national bugging shows threats to US AI leadership and that AI amplifies cybersecurity risks to digital infrastructure.",
-      "why_it_matters": "Espionage aimed at leading AI labs is a national security concern for US tech and infrastructure.",
-      "region": "US",
-      "topics": [
-        "cybersecurity",
-        "ai"
-      ],
-      "entities": [
-        "Jay Clayton",
-        "OpenAI"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T16:27:44.000Z",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
-          "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c35",
-      "drop": "2026-10-16T17",
-      "headline": "Citi restricts AI agents from accessing bank accounts",
-      "summary": "Citi became the latest US bank to restrict AI agents' account access, as lenders fear chatbots could shift billions in deposits to higher-yielding accounts, the Financial Times reports.",
-      "why_it_matters": "It affects how consumers can use AI tools to manage money and chase better savings rates.",
-      "region": "US",
-      "topics": [
-        "ai",
-        "big-tech",
-        "markets"
-      ],
-      "entities": [
-        "Citigroup"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T14:58:54.000Z",
-      "sources": [
-        {
-          "outlet": "Financial Times",
-          "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
-          "url": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c36",
-      "drop": "2026-10-16T17",
-      "headline": "Character.AI files for bankruptcy after Google licensing deal",
-      "summary": "Character.AI is filing for bankruptcy. Google took an unusual route to 'acquiring' it, hiring away its founders and licensing its technology, NPR reports.",
-      "why_it_matters": "It shows how startups can fail even with millions of users, and how big tech structures acqui-hires.",
-      "region": "US",
-      "topics": [
-        "startups-vc",
-        "ai"
-      ],
-      "entities": [
-        "Character.AI",
-        "Google"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T11:00:00.000Z",
-      "sources": [
-        {
-          "outlet": "NPR",
-          "title": "What this bankruptcy says about AI startups",
-          "url": "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c37",
-      "drop": "2026-10-16T17",
-      "headline": "Meta's new terms may let it train AI on news sites for free",
-      "summary": "Meta's commercial terms, effective Oct. 30, appear to let it crawl websites associated with businesses using its platforms, including publishers, according to Nieman Lab and legal experts cited by The Verge and Ars Technica.",
-      "why_it_matters": "It could reduce what AI firms pay publishers, affecting the news you read.",
-      "region": "US",
-      "topics": [
-        "ai",
-        "big-tech",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Meta"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T14:02:40.000Z",
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "title": "Meta’s new terms may allow it to train AI on news sites for free",
-          "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
-        },
-        {
-          "outlet": "Ars Technica",
-          "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
-          "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c38",
-      "drop": "2026-10-16T17",
-      "headline": "Apple opens iPhone Duo preorders; delivery slips to 2027",
-      "summary": "Preorders for Apple's $2,000 foldable iPhone Duo opened Friday, and delivery estimates slid to late January within an hour.",
-      "why_it_matters": "Strong demand at a premium price tests consumer spending on high-end phones.",
-      "region": "US",
-      "topics": [
-        "big-tech"
-      ],
-      "entities": [
-        "Apple"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T13:10:11.000Z",
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "title": "iPhone Duo orders are already delayed into 2027",
-          "url": "https://www.theverge.com/tech/1012805/apple-iphone-duo-preorder-delay"
-        },
-        {
-          "outlet": "MarketWatch",
-          "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
-          "url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-10-16T17-c39",
-      "drop": "2026-10-16T17",
-      "headline": "Japan's MMX mission to Mars's moon Phobos launches Oct. 20",
-      "summary": "Japan's Martian Moons eXploration spacecraft launches Oct. 20 and will bring back samples from Phobos, aiming to settle the moon's origin. NASA is contributing to the mission.",
-      "why_it_matters": "It is the first sample return from a Martian moon, with NASA taking part.",
-      "region": "Asia",
-      "topics": [
-        "space",
-        "science"
-      ],
-      "entities": [
-        "JAXA",
-        "NASA",
-        "Phobos"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-15T19:58:08.000Z",
-      "sources": [
-        {
-          "outlet": "New Scientist",
-          "title": "Japan is launching a mission to Mars’s largest moon Phobos",
-          "url": "https://www.newscientist.com/article/2594332-japan-is-launching-a-mission-to-marss-largest-moon-phobos/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
-        },
-        {
-          "outlet": "NASA",
-          "title": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
-          "url": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c40",
-      "drop": "2026-10-16T17",
-      "headline": "Blue Origin plans $330 million Florida expansion for New Glenn",
-      "summary": "Blue Origin plans a $330 million Florida expansion, targeting multiple New Glenn flights per week by the end of the decade.",
-      "why_it_matters": "More heavy-lift capacity increases competition with SpaceX for US launch contracts.",
-      "region": "US",
-      "topics": [
-        "space"
-      ],
-      "entities": [
-        "Blue Origin"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T14:26:05.000Z",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Blue Origin plans $330 million Florida expansion to ramp New Glenn launches",
-          "url": "https://www.cnbc.com/2026/10/16/blue-origin-new-glenn-florida-expansion.html"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c41",
-      "drop": "2026-10-16T17",
-      "headline": "Scientists vote to abolish leap seconds",
-      "summary": "At a meeting in France this week, scientists voted to abandon the practice of adding leap seconds to the universal clock, which has been done 27 times since 1972.",
-      "why_it_matters": "It simplifies timekeeping for networks, GPS and financial systems that struggle with leap seconds.",
-      "region": "Global",
-      "topics": [
-        "science"
-      ],
-      "entities": [],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T13:59:18.000Z",
-      "sources": [
-        {
-          "outlet": "New Scientist",
-          "title": "Scientists have just voted to abolish leap seconds",
-          "url": "https://www.newscientist.com/article/2594285-scientists-have-just-voted-to-abolish-leap-seconds/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c42",
-      "drop": "2026-10-16T17",
-      "headline": "El Niño drought has killed hundreds of children in Sudan",
-      "summary": "Drought driven by El Niño is causing hunger and disease in Sudan that has already killed hundreds of children, New Scientist reports. NASA says satellites are tracking a historic 2026 El Niño.",
-      "why_it_matters": "Climate shocks compound Sudan's war-driven crisis and may shape humanitarian demands on US and allied aid.",
-      "region": "Africa",
-      "topics": [
-        "climate",
-        "africa",
-        "health"
-      ],
-      "entities": [
-        "Sudan",
-        "NASA"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-15T17:59:22.000Z",
-      "sources": [
-        {
-          "outlet": "New Scientist",
-          "title": "El Niño has killed hundreds of children in Sudan",
-          "url": "https://www.newscientist.com/article/2594324-el-nino-has-killed-hundreds-of-children-in-sudan/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
-        },
-        {
-          "outlet": "NASA",
-          "title": "NASA Satellites Observe Historic 2026 El Niño",
-          "url": "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c43",
-      "drop": "2026-10-16T17",
-      "headline": "Bulgaria asks NATO for combat aircraft and anti-drone systems",
-      "summary": "Bulgaria formally asked NATO to deploy combat aircraft and anti-drone systems to bolster its defenses, its defense minister said.",
-      "why_it_matters": "It reflects drone and airspace worries on NATO's eastern flank, where US allies and forces are stationed.",
-      "region": "Europe",
-      "topics": [
-        "defense",
-        "europe"
-      ],
-      "entities": [
-        "Bulgaria",
-        "NATO"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T14:44:49.000Z",
-      "sources": [
-        {
-          "outlet": "Defense News",
-          "title": "Bulgaria seeks NATO anti-drone systems, defense minister says",
-          "url": "https://www.defensenews.com/global/europe/2026/10/16/bulgaria-seeks-nato-anti-drone-systems-defense-minister-says/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c44",
-      "drop": "2026-10-16T17",
-      "headline": "Russian man linked to London hospitals hack arrested in Germany",
-      "summary": "German police detained a 28-year-old Russian accused of belonging to the gang that hacked blood-test firm Synnovis in 2024, an attack tied to a death.",
-      "why_it_matters": "Ransomware attacks on health systems endanger patients worldwide, including in the US.",
-      "region": "Europe",
-      "topics": [
-        "cybersecurity",
-        "crime-justice"
-      ],
-      "entities": [
-        "Synnovis"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T15:31:33.000Z",
-      "sources": [
-        {
-          "outlet": "BBC",
-          "title": "Russian man linked to deadly London hospitals hack arrested",
-          "url": "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c45",
-      "drop": "2026-10-16T17",
-      "headline": "Stryker invests $400 million in surgical robotics firm CMR Surgical",
-      "summary": "Stryker is investing $400 million in CMR Surgical and will be exclusive US sales agent for its Versius surgical robots.",
-      "why_it_matters": "It signals growing competition in robot-assisted surgery, a market affecting hospital costs.",
-      "region": "US",
-      "topics": [
-        "robotics",
-        "health"
-      ],
-      "entities": [
-        "Stryker",
-        "CMR Surgical"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-15T16:54:14.000Z",
-      "sources": [
-        {
-          "outlet": "The Robot Report",
-          "title": "Stryker invests $400M into CMR Surgical",
-          "url": "https://www.therobotreport.com/stryker-invests-400m-into-cmr-surgical/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-10-16T17-c46",
-      "drop": "2026-10-16T17",
-      "headline": "Trump legal fund Save America PAC reports $1.9 million in debt",
-      "summary": "Trump's main legal fund, Save America PAC, is more than $1.9 million in debt per its latest FEC filing, after spending over $5.4 million in the third quarter.",
-      "why_it_matters": "Legal costs are being funded through political committees, a campaign finance issue.",
-      "region": "US",
-      "topics": [
-        "us-politics",
-        "elections"
-      ],
-      "entities": [
-        "Save America PAC",
-        "Donald Trump"
-      ],
-      "importance": 1,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-10-16T16:51:02.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "Main Trump legal fund $1.9M in debt",
-          "url": "https://thehill.com/regulation/court-battles/6153944-donald-trump-legal-fund-debt/"
-        }
-      ],
-      "has_article": false
-    },
     {
       "id": "2026-10-16T21-c01",
       "drop": "2026-10-16T21",
@@ -7628,6 +6174,963 @@
           "outlet": "Financial Times",
           "title": "Accenture looks to sell Chinese operations for up to $1.5bn",
           "url": "https://www.ft.com/content/2dfdd513-26a6-4a10-9cae-5242eb4ee3ed?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c01",
+      "drop": "2026-10-18T21",
+      "headline": "Four dead, dozens hurt in fire at Canadian base in Alberta",
+      "summary": "Prime Minister Mark Carney said a fast-moving fire at the Wainwright military base in Alberta killed four people and seriously injured dozens. Carney called it one of the worst peacetime tragedies for the forces on Canadian soil. The cause has not been stated.",
+      "why_it_matters": "A close NATO ally and neighbor lost service members and trainees in a major accident; US forces train alongside Canada's.",
+      "region": "Americas",
+      "topics": [
+        "defense"
+      ],
+      "entities": [
+        "Mark Carney",
+        "Canadian Armed Forces",
+        "Alberta"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T16-c12",
+      "storyline_id": null,
+      "published_at": "2026-10-18T17:34:53.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        },
+        {
+          "outlet": "BBC",
+          "title": "What we know so far about deadly fire at Canadian military base",
+          "url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c02",
+      "drop": "2026-10-18T21",
+      "headline": "Macron denounces nationwide rioting; no curfew or emergency declared",
+      "summary": "In a national address, President Macron condemned 'unbridled violence' after riots and looting across France, with about 1,800 to 2,000 arrests reported. He promised more security but did not announce a state of emergency or curfew. Critics cite a failure of the state.",
+      "why_it_matters": "Instability in France, a key ally and large trading partner, affects European politics ahead of a major election and US business interests there.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Emmanuel Macron",
+        "France"
+      ],
+      "importance": 4,
+      "follows": "2026-10-18T16-c06",
+      "storyline_id": null,
+      "published_at": "2026-10-18T18:57:48.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "‘Anger and shame’: Macron denounces France’s nationwide rioting, looting",
+          "url": "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting?traffic_source=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Macron criticises ‘unbridled violence’ after days of unrest and 2,000 arrests across France",
+          "url": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Macron faces political firestorm after riots",
+          "url": "https://www.ft.com/content/19495e50-0f55-44b1-8d19-19244163a4e8?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c03",
+      "drop": "2026-10-18T21",
+      "headline": "Trump tells France to 'close your borders' amid riots",
+      "summary": "President Trump posted on Truth Social that 'France is burning' and urged France to secure its borders against people 'with hatred in their hearts.' Protests in France have centered on living costs and school conditions, according to Al Jazeera.",
+      "why_it_matters": "US presidential comment on an ally's domestic unrest may shape transatlantic relations; the protests' stated causes differ from the immigration framing.",
+      "region": "Europe",
+      "topics": [
+        "us-politics",
+        "europe"
+      ],
+      "entities": [
+        "Donald Trump",
+        "France"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T14:26:11.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump tells France ‘close your borders’ as police arrest 1,800 in violent protests",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4770091/trump-france-close-borders-protests/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "France protests updates: Macron vows rioters will ‘pay for their crimes’",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/france-protests-live-macron-to-address-nation-after-deadly-protests?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c04",
+      "drop": "2026-10-18T21",
+      "headline": "Fire hits Albania's Supreme Court as Tirana protests continue",
+      "summary": "Offices at the Supreme Court in Tirana were set ablaze on the sixth day of student-led protests demanding Prime Minister Edi Rama resign. Police used rubber bullets, water cannons and tear gas. Rama has refused to step down.",
+      "why_it_matters": "Unrest in a NATO member and EU candidate raises stability concerns in the Western Balkans.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Albania",
+        "Edi Rama"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T16-c11",
+      "storyline_id": null,
+      "published_at": "2026-10-18T15:08:18.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fire engulfs Albania’s Supreme Court as protests enter fifth day",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/albania-protests-supreme-court-fire?traffic_source=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Tirana sees sixth day of violent protests as Albania’s PM refuses to resign",
+          "url": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c05",
+      "drop": "2026-10-18T21",
+      "headline": "Trump aides give differing accounts of Russia diesel deal",
+      "summary": "Energy Secretary Wright called the diesel deal a peace incentive, while Secretary of State Rubio said Russia would sell the fuel anyway, Axios reports. Pence urged restoring sanctions, and NPR reports on how Congress is reacting.",
+      "why_it_matters": "Sanctions policy toward Russia affects the war in Ukraine, global fuel prices and US standing with allies.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "geopolitics",
+        "energy"
+      ],
+      "entities": [
+        "Chris Wright",
+        "Marco Rubio",
+        "Mike Pence",
+        "Russia"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T16-c03",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T17:33:38.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Wright calls Trump's diesel deal a peace incentive. Rubio says Russia would sell anyway.",
+          "url": "https://www.axios.com/2026/10/18/trump-russia-diesel-deal-rubio-wright-sanctions"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Congress reacts to executive order exempting Russia from economic sanctions",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6007363/congress-reacts-to-executive-order-exempting-russia-from-economic-sanctions"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c06",
+      "drop": "2026-10-18T21",
+      "headline": "Zelenskyy says Ukraine trusts US, hopes Trump changes decisions",
+      "summary": "On NBC, Zelenskyy said Ukraine trusts America and hopes Trump will change his decisions on the diesel deal. He thanked the administration for resumed intelligence sharing but maintained the US throttled Starlink. Bessent called the Starlink claim reckless; the administration denies it.",
+      "why_it_matters": "Battlefield communications and US-Ukraine trust shape the war's course and Washington's alliances.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Volodymyr Zelenskyy",
+        "Scott Bessent",
+        "Starlink"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T16-c02",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T16:37:52.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Zelensky says 'of course' Ukraine trusts the US, hopes Trump will 'change his decisions'",
+          "url": "https://thehill.com/policy/international/6156570-zelensky-hopes-trump-changes-decision/"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Zelenskyy thanks Trump for resumed intelligence sharing after US Starlink ‘message’",
+          "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Bessent: Zelensky 'should be careful' with 'reckless' comments that US slowed down Starlink",
+          "url": "https://thehill.com/policy/defense/6156614-bessent-warns-zelensky-starlink/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c07",
+      "drop": "2026-10-18T21",
+      "headline": "St Petersburg suffers biggest Ukrainian drone attack",
+      "summary": "FT reports St Petersburg endured its largest Ukrainian drone attack, with strikes hitting tech infrastructure after Russia targeted electricity substations in Ukraine. BBC says at least one person died and a data centre was hit.",
+      "why_it_matters": "Escalating strikes on energy and infrastructure on both sides raise risks for fuel markets and prolong the war.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia",
+        "St Petersburg"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T16-c01",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T15:46:10.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "St Petersburg endures biggest Ukrainian drone attack",
+          "url": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c08",
+      "drop": "2026-10-18T21",
+      "headline": "Trump says Netanyahu must win or US must 'finish the job' on Iran",
+      "summary": "Trump told Axios and posted on Truth Social that Netanyahu is a critical ally against Iran, and said that without him the US could face shouldering more of the conflict. Israel votes Oct. 27.",
+      "why_it_matters": "A US president weighing in on a foreign election could affect Iran war strategy and relations with Israel.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Benjamin Netanyahu",
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T16-c05",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-18T16:42:02.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump tells Axios why he endorsed Netanyahu's reelection",
+          "url": "https://www.axios.com/2026/10/18/trump-endorses-netanyahu-israel-election-iran"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump says Netanyahu needs to be re-elected, or else US will have to 'finish the job’ against Iran alone",
+          "url": "https://www.foxnews.com/politics/trump-says-netanyahu-needs-reelected-else-us-finish-job-against-iran-alone"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c09",
+      "drop": "2026-10-18T21",
+      "headline": "Bessent says oil price drop depends on Iran war; Wright defends gas record",
+      "summary": "Treasury Secretary Bessent said oil prices could fall before year-end but it will depend on the Iran conflict. Energy Secretary Wright said the administration has not broken its promise to lower gas prices, as the war enters its eighth month.",
+      "why_it_matters": "Fuel prices feed directly into household budgets and inflation, which is a key issue ahead of the midterms.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "economy",
+        "us-politics"
+      ],
+      "entities": [
+        "Scott Bessent",
+        "Chris Wright",
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-18T17:18:52.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Bessent: Dropping oil prices before 2026 ends 'will depend' on Iran conflict",
+          "url": "https://thehill.com/policy/energy-environment/6156572-bessent-oil-prices-iran-conflict/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Wright says Trump administration has not broken promise to lower gas prices amid Iran war",
+          "url": "https://thehill.com/policy/energy-environment/6156548-wright-defends-gas-prices/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c10",
+      "drop": "2026-10-18T21",
+      "headline": "Obama says Omar investigation should concern all Americans",
+      "summary": "Former President Obama said the federal probe into Rep. Ilhan Omar's citizenship is appalling and targets political opponents. Border czar Tom Homan said she could 'of course' be denaturalized. Omar calls the allegations lies; officials allege violations in obtaining citizenship.",
+      "why_it_matters": "The case tests limits of denaturalization and the use of federal investigations against elected officials.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "crime-justice"
+      ],
+      "entities": [
+        "Barack Obama",
+        "Ilhan Omar",
+        "Tom Homan"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T16-c08",
+      "storyline_id": null,
+      "published_at": "2026-10-18T14:38:26.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Obama: Omar investigation should ‘outrage all Americans’",
+          "url": "https://thehill.com/homenews/administration/6156602-obama-trump-targets-omar-probe/"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Trump ‘border czar’ says Ilhan Omar could be ‘of course’ denaturalized and deported",
+          "url": "https://www.theguardian.com/us-news/2026/oct/18/tom-homan-trump-ilhan-omar-citizenship-deportation"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement",
+          "url": "https://www.foxnews.com/politics/obama-backs-ilhan-omar-amid-probe-accuses-trump-admin-appalling-targeting-lengthy-statement"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c11",
+      "drop": "2026-10-18T21",
+      "headline": "Polls show Trump approval at new lows; Democrats lead by 8 to 10",
+      "summary": "Axios reports three national polls put Trump's approval at new lows, with Democrats leading Republicans by 8 to 10 points on the midterm ballot. About 95 percent of MAGA Republicans approve of him, versus 47 percent of non-MAGA Republicans.",
+      "why_it_matters": "Presidential approval and party turnout will shape control of Congress after November 3.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Republican Party",
+        "Democratic Party"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-18T19:53:17.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "95% of MAGA Republicans approve of Trump. For non-MAGA Republicans, it's 47%.",
+          "url": "https://www.axios.com/2026/10/18/trump-approval-polls-maga-gop-midterms-2026"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c12",
+      "drop": "2026-10-18T21",
+      "headline": "Senate candidates trade barbs on Sunday shows over rhetoric",
+      "summary": "Maine's Troy Jackson said he won't apologize for telling Sen. Susan Collins to 'shut up' in a debate. Florida's Angie Nixon defended calling for her GOP opponent, Sen. Ashley Moody, to be jailed over Hope Florida allegations.",
+      "why_it_matters": "Tone and accusations in competitive Senate races may influence turnout in the final weeks.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Troy Jackson",
+        "Susan Collins",
+        "Angie Nixon",
+        "Ashley Moody"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-18T17:42:26.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Troy Jackson ‘not going to apologize’ for telling Susan Collins to ‘shut up’ at debate",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4770138/troy-jackson-susan-collins-shut-up-maine-debate/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Nixon defends call to put opponent Moody in jail",
+          "url": "https://thehill.com/homenews/campaign/6156794-nixon-defends-moody-jail-call/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c13",
+      "drop": "2026-10-18T21",
+      "headline": "Michigan Senate nominee El-Sayed draws scrutiny over debate answer",
+      "summary": "Fox reports a pro-Israel group leader criticized Democratic nominee Abdul El-Sayed for declining to call Iran a bigger threat than Israel. The Guardian reports CBS's Jan Crawford apologized for praising a heckler who asked him about the Muslim Brotherhood.",
+      "why_it_matters": "The exchanges show how Middle East issues are playing in a competitive Michigan Senate race.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Abdul El-Sayed",
+        "Jan Crawford",
+        "CBS"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-18T17:49:22.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Pro-Israel leader warns Democrats failing to condemn ‘vicious Jew haters’ in Congress",
+          "url": "https://www.foxnews.com/politics/pro-israel-leader-warns-democrats-failing-condemn-vicious-jew-haters-congress"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "CBS reporter apologizes and deletes post praising Abdul El-Sayed heckler",
+          "url": "https://www.theguardian.com/media/2026/oct/18/cbs-reporter-apologizes-abdul-el-sayed-post"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c14",
+      "drop": "2026-10-18T21",
+      "headline": "Trump announces new East Potomac golf course plan in Washington",
+      "summary": "Trump announced the Interior Department and architect Tom Fazio have a plan for a new golf course at East Potomac Park. The FT reports work will begin despite a court order, part of Trump's effort to remodel Washington.",
+      "why_it_matters": "Changes to public land in the capital and compliance with court orders raise questions about executive authority.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "courts"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Doug Burgum",
+        "Tom Fazio"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T17:58:45.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump announces plan for new East Potomac Links golf course",
+          "url": "https://thehill.com/policy/energy-environment/6156714-trump-plans-east-potomac-golf/"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Trump to begin transforming historic golf course despite court order",
+          "url": "https://www.ft.com/content/39a1f29b-1248-4785-8aa3-0e7c29b5bf35?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c15",
+      "drop": "2026-10-18T21",
+      "headline": "Mulvaney expects Susie Wiles to leave after midterms",
+      "summary": "Former chief of staff Mick Mulvaney said he expects Susie Wiles to leave her post after the midterms, on her own terms, after reports suggested she may have lost Trump's confidence. He described her as in a powerful place now.",
+      "why_it_matters": "The White House chief of staff shapes how the administration operates through the end of Trump's term.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Susie Wiles",
+        "Mick Mulvaney",
+        "Donald Trump"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T19:49:47.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Mulvaney predicts Wiles is in a 'powerful place' in the White House but will leave after midterms",
+          "url": "https://thehill.com/homenews/administration/6156830-mulvaney-expects-wiles-departure/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c16",
+      "drop": "2026-10-18T21",
+      "headline": "Voters in Alberta decide Monday on independence referendum",
+      "summary": "Alberta residents vote Oct. 19 in a referendum that could start the oil-rich province on a path to independence. The vote would not immediately make Alberta independent but could reshape Canada's politics and its relationship with the US.",
+      "why_it_matters": "Alberta is a major oil supplier to the US; a separation push would affect energy trade and North American stability.",
+      "region": "Americas",
+      "topics": [
+        "elections",
+        "energy"
+      ],
+      "entities": [
+        "Alberta",
+        "Canada"
+      ],
+      "importance": 3,
+      "follows": "2026-10-16T17-c29",
+      "storyline_id": null,
+      "published_at": "2026-10-18T19:47:02.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "What to know about the Alberta referendum on leaving Canada",
+          "url": "https://www.washingtonexaminer.com/news/world/4770169/what-to-know-alberta-referendum-canada/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c17",
+      "drop": "2026-10-18T21",
+      "headline": "EU condemns settler attack on diplomats; footage emerges",
+      "summary": "The EU demanded accountability after Israeli settlers attacked European diplomats and a French mayor in the West Bank. A Guardian reporter filmed masked men beforehand. The Guardian says Netanyahu questioned the account; US ambassador Huckabee called a separate attack on a photographer 'terror'.",
+      "why_it_matters": "Settler violence is straining Israel's ties with Europe and prompting public criticism from US officials.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "European Union",
+        "Benjamin Netanyahu",
+        "Mike Huckabee"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T21-c04",
+      "storyline_id": null,
+      "published_at": "2026-10-18T15:10:05.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "EU condemns Israeli settler attack on diplomats in occupied West Bank",
+          "url": "https://www.aljazeera.com/news/2026/10/18/eu-condemns-israeli-settler-attack-on-diplomats-in-occupied-west-bank?traffic_source=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Guardian reporter filmed masked militants seconds before West Bank attack on French mayor",
+          "url": "https://www.theguardian.com/world/2026/oct/18/guardian-reporter-filmed-masked-militants-seconds-before-west-bank-attack-on-french-mayor"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "US ambassador to Israel calls West Bank settler attack on American photojournalist ‘terror’",
+          "url": "https://www.theguardian.com/world/2026/oct/18/us-ambassador-israel-mike-huckabee-west-bank-settler-attack-photojournalist-heidi-levine"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c18",
+      "drop": "2026-10-18T21",
+      "headline": "WFP: 1.4 million in Gaza face acute food shortages",
+      "summary": "The UN World Food Programme says 1.4 million people in Gaza face acute food shortages, and funding gaps are forcing aid cutbacks despite the US-brokered ceasefire between Hamas and Israel.",
+      "why_it_matters": "The ceasefire has not ended hunger, a test of the US-backed truce and of humanitarian funding.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "health"
+      ],
+      "entities": [
+        "World Food Programme",
+        "Gaza"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T16-c10",
+      "storyline_id": null,
+      "published_at": "2026-10-18T21:00:08.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "'Life is absolutely brutal in Gaza,' says World Food Programme head",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6001709/life-is-absolutely-brutal-in-gaza-says-world-food-programme-head"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c19",
+      "drop": "2026-10-18T21",
+      "headline": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting grows",
+      "summary": "Gulf ministers urged action against the Houthis after attacks on Saudi Arabia. Fighting has displaced more than 233,000 people across Yemen, according to Al Jazeera.",
+      "why_it_matters": "Wider Gulf conflict threatens oil infrastructure and shipping that influence global fuel prices.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Gulf Cooperation Council",
+        "Houthis",
+        "Saudi Arabia"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T05-c04",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-18T18:44:30.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
+          "url": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c20",
+      "drop": "2026-10-18T21",
+      "headline": "Taiwan drives away 16 Chinese ships in 'hybrid warfare' push",
+      "summary": "Taiwan said it drove away 16 Chinese ships accused of maritime harassment, describing a pattern of increased Chinese presence designed to alter the status quo. The US Army chief in Asia separately called for enhanced military deterrence.",
+      "why_it_matters": "Pressure around Taiwan risks confrontation involving US forces and affects global chip supply chains.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "geopolitics",
+        "defense"
+      ],
+      "entities": [
+        "Taiwan",
+        "China",
+        "Ronald Clark"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T16:25:52.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "‘Hybrid warfare’: Taiwan drives away 16 Chinese ships",
+          "url": "https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment?traffic_source=rss"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "US army chief in Asia calls for show of enhanced military muscle",
+          "url": "https://www.ft.com/content/4ed89331-df18-4f2d-817b-9a7b304fd4e4?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c21",
+      "drop": "2026-10-18T21",
+      "headline": "Treasuries show haven signs, threatening big short bets as AI trade wobbles",
+      "summary": "Bloomberg reports US Treasuries are tentatively reclaiming their haven role, which could wrong-foot investors heavily positioned for the bond slump to deepen. Options traders are also bracing for a VIX surge.",
+      "why_it_matters": "Bond yields drive mortgage rates and borrowing costs; a reversal would ease pressure on households and the government.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "US Treasury"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-18T19:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Bond Market’s Big Short Bet Gets Wakeup Call as AI Trade Wobbles",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c22",
+      "drop": "2026-10-18T21",
+      "headline": "Anthropic commits 5% of its shares to a public benefit fund",
+      "summary": "Anthropic said it will commit 5 percent of its shares to a public benefit fund. Separately, Ars Technica reports it gave an outside AI watchdog employee-like access, with freedom to publish findings without approval.",
+      "why_it_matters": "How a leading AI lab shares ownership and accepts oversight could set norms as it approaches an IPO.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "startups-vc"
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T16:25:19.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+        },
+        {
+          "outlet": "Ars Technica",
+          "title": "Anthropic gives outside AI watchdog “employee-like” access",
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c23",
+      "drop": "2026-10-18T21",
+      "headline": "Disney agrees to hire most of Character.AI's workforce",
+      "summary": "A bankruptcy filing says Disney agreed to hire the majority of Character.AI's workforce, and that the vast majority of employees offered jobs accepted. It is a stalking horse bid, so another company could still offer more.",
+      "why_it_matters": "It shows how AI startups are being absorbed by large media and tech companies when funding runs short.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "startups-vc"
+      ],
+      "entities": [
+        "Disney",
+        "Character.AI"
+      ],
+      "importance": 2,
+      "follows": "2026-10-16T17-c36",
+      "storyline_id": null,
+      "published_at": "2026-10-18T16:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c24",
+      "drop": "2026-10-18T21",
+      "headline": "Meta suspends No Kings Instagram account during protests",
+      "summary": "The No Kings coalition's Instagram account went dark for several hours during nationwide protests. Organizers said Meta owes an explanation and fear censorship. The Guardian's report did not include a Meta explanation.",
+      "why_it_matters": "Platform moderation of political groups affects how Americans organize and speak ahead of an election.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Meta",
+        "No Kings"
+      ],
+      "importance": 2,
+      "follows": "2026-10-17T16-c33",
+      "storyline_id": null,
+      "published_at": "2026-10-18T19:00:02.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+          "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c25",
+      "drop": "2026-10-18T21",
+      "headline": "Wichita driver released without charges pending toxicology results",
+      "summary": "A 34-year-old woman arrested after driving a truck through a youth soccer game in Wichita, killing a boy and a man, was released without charges. Police await toxicology results and a mechanical exam of the truck.",
+      "why_it_matters": "The release shows investigators have not determined whether the crash was criminal, a medical event or mechanical failure.",
+      "region": "US",
+      "topics": [
+        "crime-justice"
+      ],
+      "entities": [
+        "Wichita Police"
+      ],
+      "importance": 2,
+      "follows": "2026-10-18T05-c16",
+      "storyline_id": null,
+      "published_at": "2026-10-18T19:30:58.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Kansas driver who allegedly killed two and hurt 10 at soccer game is released from custody",
+          "url": "https://www.theguardian.com/us-news/2026/oct/18/wichita-kansas-soccer-field-game-truck-deaths"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c26",
+      "drop": "2026-10-18T21",
+      "headline": "Flydubai captain recounts co-pilot axe attack on flight FZ1073",
+      "summary": "Capt Smit Machchhar said he blocked axe blows to his head and screamed for help after a co-pilot who intended to crash the plane attacked him on flight FZ1073.",
+      "why_it_matters": "The account raises aviation security and pilot mental-health screening questions for airlines worldwide.",
+      "region": "Middle East",
+      "topics": [
+        "autos-transport",
+        "crime-justice"
+      ],
+      "entities": [
+        "flydubai"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T17:27:17.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Flydubai captain describes blocking axe blows as co-pilot attacked him",
+          "url": "https://www.theguardian.com/world/2026/oct/18/flydubai-captain-smit-machchhar-blocking-axe-blows-flight-fz1073"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c27",
+      "drop": "2026-10-18T21",
+      "headline": "Congress member proposes game ownership bill; Philly robot arrest",
+      "summary": "Rep. Ritchie Torres introduced the Power To The Players Act, which would direct the FTC to guarantee buyers own games rather than license them. Separately, a Philadelphia woman was arrested for blocking an Uber delivery robot.",
+      "why_it_matters": "Digital ownership rules and sidewalk robots are early tests of consumer rights and public space in the automation era.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "robotics"
+      ],
+      "entities": [
+        "Ritchie Torres",
+        "Federal Trade Commission",
+        "Uber"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T16:27:51.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Video game ownership bill introduced in Congress",
+          "url": "https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act"
+        },
+        {
+          "outlet": "The Verge",
+          "title": "A woman was arrested in Philly for blocking a delivery robot",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T21-c28",
+      "drop": "2026-10-18T21",
+      "headline": "Scientists seek a time standard for the Moon",
+      "summary": "NPR spoke with James Olthoff of the International Bureau of Weights and Measures about why accurately measuring time on the Moon matters.",
+      "why_it_matters": "A shared lunar clock is needed for navigation and communications as the US and others plan more Moon missions.",
+      "region": "Global",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "International Bureau of Weights and Measures"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T21:00:09.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "What time is it on the moon?",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-6003578/what-time-is-it-on-the-moon"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c29",
+      "drop": "2026-10-18T21",
+      "headline": "US holds secret talks with Myanmar's military ruler, Al Jazeera says",
+      "summary": "Al Jazeera asks why the Trump administration is holding secret talks with Myanmar's military ruler, whom it describes as accused of genocide. The report did not detail the talks' content.",
+      "why_it_matters": "US engagement with Myanmar's junta touches human rights policy and competition with China for influence in Southeast Asia.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "geopolitics"
+      ],
+      "entities": [
+        "Myanmar",
+        "Trump administration"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T18:22:11.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why the US is holding secret talks with Myanmar’s military ruler",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/why-the-us-is-holding-secret-talks-with-myanmars-military-ruler?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T21-c30",
+      "drop": "2026-10-18T21",
+      "headline": "Copper bulls grow wary as tariffs on the metal fail to materialize",
+      "summary": "Bloomberg reports copper surged on shifting global inventories tied to the risk of US tariffs, but bulls fear prices could crash if Trump does not impose them as he nears the halfway point of his term.",
+      "why_it_matters": "Copper prices feed into construction, electronics and EV costs.",
+      "region": "Global",
+      "topics": [
+        "trade",
+        "markets"
+      ],
+      "entities": [
+        "Donald Trump"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T20:00:04.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Traders Grow Wary of Copper Bull Market With No Sign of Tariffs",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/traders-grow-wary-of-copper-bull-market-with-no-sign-of-tariffs"
         }
       ],
       "has_article": false

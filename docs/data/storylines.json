@@ -1,15 +1,30 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T16:24:14Z",
+  "updated_at": "2026-10-18T21:18:16Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump waived Russia sanctions, drawing bipartisan criticism including from Pence; Wright defends it. Ukraine launched 1,000-plus drones at St Petersburg. Zelenskyy spoke with Witkoff and Kushner, the first senior call since tensions rose. Starlink limits persist.",
+      "summary": "Trump waived Russia sanctions and signed a diesel deal; aides offer differing rationales amid bipartisan criticism. Zelenskyy thanks the US for resumed intelligence sharing but says Starlink was throttled; the administration denies it. St Petersburg suffered Ukraine's biggest drone attack.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "Zelenskyy says Ukraine trusts the US and hopes Trump changes his decisions; Bessent calls his Starlink claims reckless.",
+          "url": "https://thehill.com/policy/international/6156570-zelensky-hopes-trump-changes-decision/"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Wright calls the diesel deal a peace incentive while Rubio says Russia would sell the fuel anyway.",
+          "url": "https://www.axios.com/2026/10/18/trump-russia-diesel-deal-rubio-wright-sanctions"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "FT reports St Petersburg endured its biggest Ukrainian drone attack, hitting tech infrastructure.",
+          "url": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-10-18",
           "text": "US ambassador Puzder warns Europe of retaliation over plans to limit spectrum access for non-EU firms such as Starlink, the FT reports.",
@@ -89,22 +104,22 @@
           "date": "2026-10-16",
           "text": "Zelenskyy says Starlink access not fully restored; reports say the White House ordered the limit; EU leaders rally behind Kyiv.",
           "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Trump calls Ukraine's latest strikes a 'disgrace' and says Zelenskyy is harder to work with than Putin.",
-          "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Options traders now brace for a VIX surge, Microsoft dropped a UK datacentre over power supply, and the FT says the infrastructure boom is fraying.",
+      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Options traders brace for a VIX surge, while Treasuries show tentative haven demand that could hurt heavy bond short positions.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "Bloomberg says Treasuries show tentative haven signs, threatening big short bets as the AI trade wobbles.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles"
+        },
         {
           "date": "2026-10-18",
           "text": "Option traders brace for a VIX surge as accelerating inflation and AI jitters jolt stocks.",
@@ -175,11 +190,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats lead in fundraising and are competitive in traditionally GOP states, while Republicans lean on Musk money and argue polls may overstate a wave. Inflation is a GOP worry, early voting is underway, and Trump is on a seven-stop tour.",
+      "summary": "Polls show Trump approval at new lows and Democrats leading the generic ballot by 8 to 10 points, per Axios. Inflation worries Republicans, early voting is underway, and Trump is on a seven-stop tour. Senate candidates trade sharp rhetoric.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "Axios reports three polls show Trump approval at new lows and Democrats leading by 8 to 10 points.",
+          "url": "https://www.axios.com/2026/10/18/trump-approval-polls-maga-gop-midterms-2026"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Troy Jackson says he won't apologize for telling Collins to 'shut up'; Angie Nixon defends calling for Moody's jailing.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4770138/troy-jackson-susan-collins-shut-up-maine-debate/"
+        },
         {
           "date": "2026-10-18",
           "text": "Axios reports Democrats are competitive in long-Republican territory; the FT says GOP insiders think wave predictions are overstated.",
@@ -260,11 +285,26 @@
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent crude reached $110. Tankers have hit mines in Hormuz, and both the US and Iran claim control. Saudi forces are intercepting drones. Trump endorsed Netanyahu ahead of Israel's Oct. 27 election, citing the Iran war.",
+      "summary": "After nine months of war, Brent crude reached $110. Tankers have hit mines in Hormuz, and both sides claim control. Trump endorsed Netanyahu, saying the US may have to finish the job alone if he loses; Bessent says falling oil depends on the war.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "GCC ministers condemn Houthi attacks on Saudi Arabia as Yemen fighting displaces more than 233,000 people.",
+          "url": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Bessent says oil prices falling before year-end will depend on the Iran conflict; Wright defends gas price record.",
+          "url": "https://thehill.com/policy/energy-environment/6156572-bessent-oil-prices-iran-conflict/"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Trump says Netanyahu needs re-election or the US will have to 'finish the job' against Iran alone, per Fox News.",
+          "url": "https://www.foxnews.com/politics/trump-says-netanyahu-needs-reelected-else-us-finish-job-against-iran-alone"
+        },
         {
           "date": "2026-10-18",
           "text": "Trump endorses Netanyahu for reelection, calling him a critical ally against Iran, nine days before Israel's Oct. 27 election.",
