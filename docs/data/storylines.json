@@ -1,15 +1,20 @@
 {
   "version": 1,
-  "updated_at": "2026-10-17T21:17:58Z",
+  "updated_at": "2026-10-18T05:29:15Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump waived new Russia sanctions, drawing bipartisan criticism; Zelenskyy calls it a reward for Putin but says Ukraine is ready to negotiate. Starlink and Starshield limits persist as Russia hits Ukraine's energy sector.",
+      "summary": "Trump waived new Russia sanctions, drawing bipartisan criticism; Zelenskyy calls it a reward for Putin but says Ukraine is ready to negotiate. Starlink limits persist, Russia hits Ukraine's energy sector, and a Ukrainian drone swarm reportedly hit St Petersburg.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "Video shows explosions in St Petersburg after a suspected Ukrainian drone swarm.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss"
+        },
         {
           "date": "2026-10-17",
           "text": "Republicans and Democrats criticize Trump's sanctions waiver; Schumer calls it a gift to Putin, while Massie praises it.",
@@ -75,11 +80,16 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Tech had its worst week in 18 months, while junk-bond buyers are shunning AI financing after CoreWeave's troubles.",
+      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Tech had its worst week in 18 months, junk-bond buyers are shunning AI financing, and the FT says the infrastructure boom is fraying.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "FT reports America's $10 trillion AI infrastructure boom is running into the economics of the physical world.",
+          "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-10-17",
           "text": "Junk bond buyers freeze out tech startups as CoreWeave's pain raises questions over AI financing.",
@@ -135,11 +145,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Early voting is underway, inflation is a GOP worry, and Trump begins a seven-stop tour.",
+      "summary": "Democrats lead in fundraising and forecast shifts, Republicans lean on Musk money, and legal fights over voter rolls continue. Early voting is underway, inflation is a GOP worry, polls show some GOP-held House seats at risk, and Trump is on a seven-stop tour.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "Vance says he will decide on a 2028 run after the midterms, at a CBS town hall in Michigan.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4770032/vance-says-decision-2028-presidential-after-midterm/"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "Susquehanna poll shows Rep. Scott Perry trailing Democrat Janelle Stelson 49 percent to 46 in Pennsylvania.",
+          "url": "https://thehill.com/homenews/campaign/6156134-stelson-leads-perry-poll-pennsylvania-house/"
+        },
         {
           "date": "2026-10-17",
           "text": "Trump rallies in Kentucky for Ed Gallrein before a seven-day, seven-stop campaign tour including Michigan on Oct. 25.",
@@ -200,11 +220,21 @@
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent crude reached $110. Two vessels have hit mines in Hormuz this week and both the US and Iran claim control. Iranian TV aired tanker explosion footage. Vance has hinted at disagreement with Trump.",
+      "summary": "After nine months of war, Brent crude reached $110. Tankers have hit mines in Hormuz, with Iran saying two caught fire, and both the US and Iran claim control. Saudi forces are intercepting drones. Vance has hinted at disagreement with Trump.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-17",
       "events": [
+        {
+          "date": "2026-10-17",
+          "text": "Iran's IRGC says two tankers, each carrying about two million barrels, caught fire after hitting mines on an unauthorised route.",
+          "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "Saudi-led coalition intercepts four drones over Riyadh and other areas as Egypt weighs sending help.",
+          "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss"
+        },
         {
           "date": "2026-10-17",
           "text": "Iranian state TV airs video it says shows an oil tanker exploding after hitting a naval mine in Hormuz.",

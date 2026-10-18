@@ -1,0 +1,966 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-10-18T05",
+    "at": "2026-10-18T05:29:15Z",
+    "model": "claude-sonnet-5-5",
+    "count": 32
+  },
+  "cards": [
+    {
+      "id": "2026-10-18T05-c01",
+      "drop": "2026-10-18T05",
+      "headline": "Deaths and injuries after fire at Canadian base in Alberta",
+      "summary": "Canada's defence minister said people were killed and injured in a large fire at CFB Wainwright in Alberta. He gave no casualty figures or cause. A local doctor said the town's hospital was overwhelmed and patients were sent to Edmonton.",
+      "why_it_matters": "A close US ally and NORAD partner has suffered a deadly accident at a major military training base. The cause and toll are still unknown.",
+      "region": "Americas",
+      "topics": [
+        "defense",
+        "crime-justice"
+      ],
+      "entities": [
+        "Canada",
+        "David McGuinty",
+        "CFB Wainwright"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T02:50:29.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Deaths confirmed in major fire at Canada military base",
+          "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+          "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c02",
+      "drop": "2026-10-18T05",
+      "headline": "Ukrainian drone swarm reported over St Petersburg",
+      "summary": "Video posted on social media shows multiple explosions in St Petersburg after a suspected Ukrainian drone swarm. Al Jazeera did not report damage or casualty details, and the footage has not been independently verified in the article.",
+      "why_it_matters": "Strikes deep inside Russia show Ukraine can hit far from the front, even as US-Ukraine relations strain.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia",
+        "St Petersburg"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T04:51:01.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "St Petersburg under attack from Ukrainian drone swarm",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c03",
+      "drop": "2026-10-18T05",
+      "headline": "Iran says two tankers caught fire after hitting Hormuz mines",
+      "summary": "Iran's IRGC said two tankers, each carrying about two million barrels of crude, caught fire after hitting mines in the Strait of Hormuz. It said they used an unauthorised route. Al Jazeera's live blog reported fires on three tankers.",
+      "why_it_matters": "Attacks on tankers in Hormuz threaten global oil supply and keep fuel prices high for American drivers.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "war-conflict"
+      ],
+      "entities": [
+        "IRGC",
+        "Strait of Hormuz",
+        "Iran"
+      ],
+      "importance": 4,
+      "follows": "2026-10-17T21-c18",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-18T01:54:18.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
+          "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c04",
+      "drop": "2026-10-18T05",
+      "headline": "Saudi-led forces down drones as Egypt weighs sending help",
+      "summary": "The Saudi-led coalition said it intercepted four drones over Riyadh, the Eastern Province and the south. Separately, coalition forces struck positions around Yemen's Taiz to try to break a Houthi siege.",
+      "why_it_matters": "Attacks on Saudi Arabia, a key oil exporter and US partner, widen the regional war and add risk to energy markets.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "Saudi Arabia",
+        "Egypt",
+        "Houthis"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T16-c12",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-17T23:21:57.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
+          "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/saudi-led-forces-try-to-break-houthi-siege-of-taiz-with-airstrikes?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c05",
+      "drop": "2026-10-18T05",
+      "headline": "Kolkata festival stampede toll rises to at least 19",
+      "summary": "At least 19 people, including a seven-year-old girl, died in a stampede at a Hindu festival in Kolkata. Police said heavy crowds and rain were factors. Earlier reports counted 17 dead, and many more were injured.",
+      "why_it_matters": "The toll rose from earlier reports, and crowd safety at mass religious gatherings is a recurring concern in India.",
+      "region": "Asia",
+      "topics": [
+        "asia"
+      ],
+      "entities": [
+        "Kolkata",
+        "West Bengal"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T21-c05",
+      "storyline_id": null,
+      "published_at": "2026-10-17T19:19:16.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "At least 19 dead in stampede at Kolkata Hindu festival",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/at-least-19-dead-in-stampede-at-kolkata-hindu-festival?traffic_source=rss"
+        },
+        {
+          "outlet": "BBC",
+          "title": "At least 17 dead in crush at Hindu festival event in India",
+          "url": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c06",
+      "drop": "2026-10-18T05",
+      "headline": "France protests turn riotous; more than 1,200 arrested",
+      "summary": "Police arrested more than 1,200 people as cost-of-living and student protests turned violent. Limoges town hall was left largely lost to fire; officials blamed the ultra-left. Macron said rioters would be prosecuted. Protests also took place in Belgium, Italy and Portugal.",
+      "why_it_matters": "Unrest in a major US ally and the euro area shows how living costs are pressuring European governments.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "policy-regulation"
+      ],
+      "entities": [
+        "France",
+        "Emmanuel Macron",
+        "Limoges"
+      ],
+      "importance": 4,
+      "follows": "2026-10-17T21-c01",
+      "storyline_id": null,
+      "published_at": "2026-10-17T21:02:26.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Buildings set ablaze and more than 1,200 arrested as police clash with protesters across France",
+          "url": "https://www.theguardian.com/world/2026/oct/17/protests-france-high-prices-social-security-gilets-jaunes"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Macron says violent rioters will be ‘prosecuted and punished’ as buildings burn in France",
+          "url": "https://www.washingtonexaminer.com/news/world/4769935/macron-violent-rioters-prosecuted-punished/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Cost of living protests hit Belgium, Italy, Portugal and France",
+          "url": "https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c07",
+      "drop": "2026-10-18T05",
+      "headline": "Rubio and Huckabee urge Israel to act on settler attacks",
+      "summary": "Secretary of State Rubio urged Israel to crack down on settler violence after an attack on a Washington Post photographer. Ambassador Mike Huckabee called it vicious and asked for a full investigation. Israel's prime minister's office called reports on diplomat attacks a smear.",
+      "why_it_matters": "The attack on an American journalist draws a rare public US call for Israel to prosecute settlers.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Marco Rubio",
+        "Mike Huckabee",
+        "Israel",
+        "Washington Post"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T21-c04",
+      "storyline_id": null,
+      "published_at": "2026-10-17T22:35:02.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US ambassador urges Israel to prosecute attackers of American journalist",
+          "url": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Huckabee condemns Israeli settlers' attack on Washington Post photojournalist",
+          "url": "https://thehill.com/homenews/administration/6156177-huckabee-condemns-israel-photographer-attack/"
+        },
+        {
+          "outlet": "BBC",
+          "title": "European diplomats attacked by Israeli settlers in West Bank",
+          "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c08",
+      "drop": "2026-10-18T05",
+      "headline": "Former DRC president Kabila joins rebellion, raising peace fears",
+      "summary": "Joseph Kabila, Congo's former president, has joined the rebellion in the east of the country, Al Jazeera reports. Analysts quoted say the move raises new questions about the war and prospects for peace.",
+      "why_it_matters": "It could prolong a conflict in a mineral-rich region whose cobalt and other resources feed global technology supply chains.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "war-conflict"
+      ],
+      "entities": [
+        "Joseph Kabila",
+        "Democratic Republic of Congo"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T02:21:48.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fears grow in DRC as former President Joseph Kabila joins rebellion",
+          "url": "https://www.aljazeera.com/news/2026/10/18/fears-grow-in-drc-as-former-president-joseph-kabila-joins-rebellion?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c09",
+      "drop": "2026-10-18T05",
+      "headline": "Vance says he will decide on a 2028 run after the midterms",
+      "summary": "In a CBS town hall in Michigan, Vice President JD Vance said he will have to make a decision on a 2028 presidential run after the midterm elections. He also defended administration policies on gas prices and Iran.",
+      "why_it_matters": "The vice president's plans shape the Republican field and how the party approaches the midterms.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "JD Vance",
+        "CBS News"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-18T02:32:15.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Vance says he’ll ‘have to make a decision’ on 2028 presidential run after midterm elections",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4770032/vance-says-decision-2028-presidential-after-midterm/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Top takeaways from JD Vance town hall: Costly gas, DC corruption, immigration hot takes and the war",
+          "url": "https://www.foxnews.com/politics/top-takeaways-from-jd-vance-town-hall-costly-gas-dc-corruption-immigration-hot-takes-war"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c10",
+      "drop": "2026-10-18T05",
+      "headline": "Shapiro launches New Path PAC as 2028 talk grows",
+      "summary": "Pennsylvania Gov. Josh Shapiro, a Democrat, is launching New Path PAC, which says it is dedicated to electing candidates who will oppose President Trump. The move adds to speculation that he may run for president in 2028.",
+      "why_it_matters": "Early moves by Democratic governors signal how the party's 2028 field is forming.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Josh Shapiro",
+        "New Path PAC"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T02:38:31.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Shapiro launches super PAC as presidential speculation mounts",
+          "url": "https://thehill.com/homenews/campaign/6156280-shapiro-launches-super-pac/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c11",
+      "drop": "2026-10-18T05",
+      "headline": "Newsom says US military aid to Israel must be conditioned",
+      "summary": "California Gov. Gavin Newsom told the Washington Examiner in New Hampshire that aid to Israel has to be conditioned. He said that is quickly becoming the consensus position of the Democratic Party. Republicans have not responded in the article.",
+      "why_it_matters": "US aid to Israel is a central foreign-policy debate within the Democratic Party ahead of 2028.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "middle-east"
+      ],
+      "entities": [
+        "Gavin Newsom",
+        "Israel",
+        "Democratic Party"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T00:00:58.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Gavin Newsom says military aid to Israel ‘has to be conditioned’",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4770013/gavin-newsom-military-aid-israel-conditioned/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c12",
+      "drop": "2026-10-18T05",
+      "headline": "Polls and retiring GOP lawmaker flag risk in two House seats",
+      "summary": "A Susquehanna poll has Pennsylvania Republican Rep. Scott Perry trailing Democrat Janelle Stelson 49 percent to 46. Retiring Nevada Republican Rep. Mark Amodei said his once-safe seat may be at risk in November.",
+      "why_it_matters": "Competitive races in formerly safe districts will help decide control of the House.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Scott Perry",
+        "Janelle Stelson",
+        "Mark Amodei"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-17T21:46:48.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "GOP Rep. Scott Perry narrowly behind in Pennsylvania reelection bid: Poll",
+          "url": "https://thehill.com/homenews/campaign/6156134-stelson-leads-perry-poll-pennsylvania-house/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Seat Trump won by double digits now ‘at risk,’ retiring GOP lawmaker says",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769989/once-safe-red-nevada-seat-at-risk/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c13",
+      "drop": "2026-10-18T05",
+      "headline": "Arizona joins Nevada in fight over Colorado River cuts",
+      "summary": "Arizona has joined Nevada's legal challenge to Trump administration proposals that could cut their shares of the shrinking Colorado River. The Interior Department announced the restrictions earlier.",
+      "why_it_matters": "Water supplies for millions of Southwestern residents and farms depend on how the river's shortage is divided.",
+      "region": "US",
+      "topics": [
+        "climate",
+        "policy-regulation",
+        "courts"
+      ],
+      "entities": [
+        "Arizona",
+        "Nevada",
+        "Colorado River",
+        "Interior Department"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T23:40:11.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Arizona joins Nevada to fight proposed cuts to their shares of Colorado River",
+          "url": "https://www.theguardian.com/us-news/2026/oct/17/arizona-nevada-water-rights-colorado-river"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c14",
+      "drop": "2026-10-18T05",
+      "headline": "CDC sends disease expert to Pennsylvania measles outbreak",
+      "summary": "The CDC is sending a disease expert to help Pennsylvania respond to an ongoing measles outbreak. The agency said it will keep working closely with state health officials.",
+      "why_it_matters": "US measles cases have passed 4,400, and local outbreaks test vaccination rates and public health capacity.",
+      "region": "US",
+      "topics": [
+        "health"
+      ],
+      "entities": [
+        "CDC",
+        "Pennsylvania"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T01:46:05.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "CDC sends a 'disease detective' to Pennsylvania amid measles outbreak",
+          "url": "https://thehill.com/policy/healthcare/6156261-cdc-assists-pennsylvania-measles-outbreak/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c15",
+      "drop": "2026-10-18T05",
+      "headline": "Hurricane Trudy strengthens to Category 2 near Mexico",
+      "summary": "Trudy became a Category 2 hurricane heading toward Mexico's southwestern Pacific coast. The US National Hurricane Center issued a hurricane warning from Manzanillo to Cabo Corrientes.",
+      "why_it_matters": "Coastal Mexican communities and US travelers in the region face wind, surge and flooding risks.",
+      "region": "Americas",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "Hurricane Trudy",
+        "National Hurricane Center",
+        "Mexico"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T16-c17",
+      "storyline_id": null,
+      "published_at": "2026-10-17T23:24:40.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Hurricane Trudy strengthens to category 2 as it heads toward Mexico",
+          "url": "https://www.theguardian.com/world/2026/oct/17/hurricane-trudy-mexico"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c16",
+      "drop": "2026-10-18T05",
+      "headline": "Two killed when driver plows through Wichita soccer game",
+      "summary": "Two people, including a child, died when a vehicle was driven through a field at the Stryker soccer complex in Wichita, Kansas. Police said the driver is in custody and two juveniles were in the vehicle.",
+      "why_it_matters": "The attack on a youth sports setting is a local tragedy; police have not yet given a motive.",
+      "region": "US",
+      "topics": [
+        "crime-justice"
+      ],
+      "entities": [
+        "Wichita Police Department",
+        "Wichita"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T23:22:06.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Two people, including child, killed after person drives through soccer game in Kansas",
+          "url": "https://www.theguardian.com/us-news/2026/oct/17/kansas-soccer-game-killings"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c17",
+      "drop": "2026-10-18T05",
+      "headline": "FT: America's $10 trillion AI infrastructure boom is fraying",
+      "summary": "The Financial Times reports that the vast AI infrastructure bet is running into the unforgiving economics of the physical world. It comes as credit markets question AI borrowing and tech stocks have their worst week in 18 months.",
+      "why_it_matters": "AI spending has propped up US growth and stock indexes, so strain there could reach investors' retirement accounts and jobs.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "Financial Times"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-18T04:00:18.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "America’s $10tn AI infrastructure boom is starting to fray",
+          "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c18",
+      "drop": "2026-10-18T05",
+      "headline": "FT survey of economists sees AI-driven global growth surge",
+      "summary": "A Financial Times poll of 94 economists points to an AI-driven surge in the global economy, with benefits reaching well beyond the US and China.",
+      "why_it_matters": "The forecast contrasts with market worries over AI debt and shows how much growth hopes rest on the technology.",
+      "region": "Global",
+      "topics": [
+        "economy",
+        "ai"
+      ],
+      "entities": [
+        "Financial Times"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T04:00:09.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Global economy set for AI-driven surge, FT survey suggests",
+          "url": "https://www.ft.com/content/c6aeb3a1-1874-4947-8ffc-4d993301244a?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c19",
+      "drop": "2026-10-18T05",
+      "headline": "Anthropic turns to lawyers to help AI agents strike deals",
+      "summary": "The Financial Times reports Anthropic is working with lawyers on rules for negotiation when AI agents act on humans' behalf. Tech companies are being forced to confront how contracts apply when machines act for people.",
+      "why_it_matters": "As AI agents begin to buy and negotiate, questions of liability will affect consumers and businesses.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T04:00:09.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Anthropic turns to lawyers to help AI agents strike deals",
+          "url": "https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c20",
+      "drop": "2026-10-18T05",
+      "headline": "Russian shadow fleet tankers fake locations to appear twice",
+      "summary": "The Financial Times reports Russian shadow-fleet tankers are faking their locations to appear in two places at once. The method appears coordinated, suggesting Moscow is tightening its control over the vessels.",
+      "why_it_matters": "It complicates enforcement of oil sanctions on Russia, at a time when sanctions policy is contested in Washington.",
+      "region": "Europe",
+      "topics": [
+        "geopolitics",
+        "energy",
+        "trade"
+      ],
+      "entities": [
+        "Russia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T04:00:18.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Russian ‘shadow fleet’ fakes locations to appear in two places at once",
+          "url": "https://www.ft.com/content/f9dd0c26-3de3-4ecc-8a08-7d08f0946d08?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c21",
+      "drop": "2026-10-18T05",
+      "headline": "Latvia calls for EU visa ban on Russians",
+      "summary": "Latvian Prime Minister Andris Kulbergs called for a visa ban on Russians, linking travellers to escalating hybrid threats from Moscow, the Financial Times reports.",
+      "why_it_matters": "Frontline NATO members are pushing for tougher measures against Russia as US sanctions policy shifts.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "geopolitics"
+      ],
+      "entities": [
+        "Latvia",
+        "Andris Kulbergs",
+        "Russia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T04:00:18.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Latvia calls for visa ban on Russians",
+          "url": "https://www.ft.com/content/75a42e7d-1497-4760-bd75-1cbd083fc9a4?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c22",
+      "drop": "2026-10-18T05",
+      "headline": "Argentina's economic pressure on Falklands oil industry grows",
+      "summary": "The Guardian reports Argentina's president, facing a slump in the polls, is making economic attacks on the Falkland Islands' oil industry and suggesting the key fisheries could be next. Islanders say they are minding their own business.",
+      "why_it_matters": "A renewed dispute involving a US ally, the UK, and a major Latin American economy could draw in Washington.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "geopolitics",
+        "energy"
+      ],
+      "entities": [
+        "Argentina",
+        "Falkland Islands",
+        "United Kingdom"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T04:00:49.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
+          "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c23",
+      "drop": "2026-10-18T05",
+      "headline": "Venezuela expects nearly $76 billion in oil investment",
+      "summary": "Acting President Delcy Rodriguez said Venezuela expects almost $76 billion of investment in oil and gas over five years, as the country seeks private capital to boost production.",
+      "why_it_matters": "More Venezuelan output could ease oil supply pressure and affect US refiners and energy companies.",
+      "region": "Americas",
+      "topics": [
+        "energy",
+        "latin-america"
+      ],
+      "entities": [
+        "Venezuela",
+        "Delcy Rodriguez"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T00:48:28.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Venezuela Sees Nearly $76 Billion Oil Investment Over Five Years",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/venezuela-sees-nearly-76-billion-oil-investment-over-five-years"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c24",
+      "drop": "2026-10-18T05",
+      "headline": "Niger bans diesel and petrol exports to protect supply",
+      "summary": "Niger banned exports of diesel and premium petrol to address fuel supply problems of recent days, its trade and industry ministry said on Facebook.",
+      "why_it_matters": "Fuel shortages in the Sahel add to global energy strain driven by the Iran war.",
+      "region": "Africa",
+      "topics": [
+        "energy",
+        "africa"
+      ],
+      "entities": [
+        "Niger"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T21:44:20.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Niger Halts Diesel, Petrol Exports to Protect Domestic Supply",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/niger-halts-diesel-petrol-exports-to-protect-domestic-supply"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c25",
+      "drop": "2026-10-18T05",
+      "headline": "GCash owner set for Southeast Asia's biggest IPO this year",
+      "summary": "The owner of digital wallet GCash is set to begin trading in a roughly $1 billion IPO, the region's biggest debut this year, the Financial Times reports. It suggests listings in Southeast Asia are gaining momentum.",
+      "why_it_matters": "A strong debut would signal investor appetite for emerging-market fintech despite global market jitters.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "startups-vc"
+      ],
+      "entities": [
+        "GCash"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T01:00:06.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Listings in south-east Asia gain momentum with $1bn IPO",
+          "url": "https://www.ft.com/content/a2b83aa7-49e0-4735-b115-d406fcb24de8?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c26",
+      "drop": "2026-10-18T05",
+      "headline": "Austrian MEP speaks out on nude deepfakes, urges EU action",
+      "summary": "Austrian Green MEP Lena Schilling said she was stripped naked online without consent and called it digital violence against women. A report found one in six female MEPs have been targeted, and she urged EU action.",
+      "why_it_matters": "Deepfake abuse is a growing problem for women in public life, including in the US, and a test for regulators.",
+      "region": "Europe",
+      "topics": [
+        "ai",
+        "policy-regulation",
+        "europe"
+      ],
+      "entities": [
+        "Lena Schilling",
+        "European Parliament"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T04:00:50.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "‘I felt disgusted’: MEP speaks out over nude deepfakes and urges EU action",
+          "url": "https://www.theguardian.com/society/2026/oct/18/mep-lena-schilling-nude-deepfakes-eu-action"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c27",
+      "drop": "2026-10-18T05",
+      "headline": "BBC: Homemade synthetic drugs sweep US and deepen crisis",
+      "summary": "A BBC report, drawing on users, dealers, prison and recovery workers, describes a wave of homemade synthetic drugs deepening the US drug epidemic.",
+      "why_it_matters": "New synthetic drugs are hard to track and treat, raising overdose risks in American communities.",
+      "region": "US",
+      "topics": [
+        "health",
+        "crime-justice"
+      ],
+      "entities": [
+        "BBC"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T05:04:31.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
+          "url": "https://www.bbc.co.uk/news/articles/cmx2wvyv5j17o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c28",
+      "drop": "2026-10-18T05",
+      "headline": "UK police will not investigate Palestine Action post by PM adviser's wife",
+      "summary": "London's Met Police said an X post by Sarah Helm, wife of national security adviser Jonathan Powell, does not meet the criminal threshold. It was seen as endorsing Palestine Action, which is banned in the UK.",
+      "why_it_matters": "It shows how UK police are applying the ban on Palestine Action, which has also led to books being pulled.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "crime-justice"
+      ],
+      "entities": [
+        "Sarah Helm",
+        "Jonathan Powell",
+        "Metropolitan Police",
+        "Palestine Action"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T19:47:45.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "No action to be taken against wife of PM’s aide over Palestine Action post",
+          "url": "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "UK police rule out probe into Palestine Action post by PM adviser’s wife",
+          "url": "https://www.aljazeera.com/news/2026/10/18/uk-police-rule-out-probe-into-palestine-action-post-by-pm-advisers-wife?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c29",
+      "drop": "2026-10-18T05",
+      "headline": "Indigenous woman shackled in labour in Queensland hospital",
+      "summary": "An incarcerated Indigenous woman was shackled to a hospital bed in Queensland while in labour. The birth took place days before Labor and the Coalition blocked a bill to ban shackling incarcerated women during childbirth.",
+      "why_it_matters": "The case raises human-rights questions about treatment of pregnant prisoners, a practice also debated in parts of the US.",
+      "region": "Asia",
+      "topics": [
+        "crime-justice",
+        "health"
+      ],
+      "entities": [
+        "Queensland"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T03:59:02.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Indigenous woman shackled to hospital bed while in labour in Queensland",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/18/indigenous-woman-shackled-during-labour-childbirth-queensland-ntwnfb"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c30",
+      "drop": "2026-10-18T05",
+      "headline": "Avalanche kills three climbers near Chile's Portillo resort",
+      "summary": "An avalanche killed three climbers and injured four others Saturday afternoon near the Portillo ski resort in the Chilean Andes, northeast of Santiago, after a rare snowy spring.",
+      "why_it_matters": "The deaths show the hazards of unusual snow conditions for mountain travelers and ski tourists.",
+      "region": "Americas",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "Chile",
+        "Portillo"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T22:09:20.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Avalanche in Chile Kills Three Climbers Amid Rare Snowy Spring",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/avalanche-in-chile-kills-three-climbers-amid-rare-snowy-spring"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-18T05-c31",
+      "drop": "2026-10-18T05",
+      "headline": "Photos show luxury boat near Kim Jong Un's summer retreat",
+      "summary": "Satellite images show a luxury boat with a 50-meter pool and water slides near Kim Jong Un's summer retreat, the BBC reports. It offers clues to how Kim spends his holidays.",
+      "why_it_matters": "It highlights the contrast between the North Korean leader's lifestyle and the hardship of most North Koreans.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "geopolitics"
+      ],
+      "entities": [
+        "Kim Jong Un",
+        "North Korea"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-17T22:09:50.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
+          "url": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-18T05-c32",
+      "drop": "2026-10-18T05",
+      "headline": "Sardinian village may become world's sixth blue zone",
+      "summary": "Bolotana, a mountain village in central Sardinia, is in line to be the world's sixth blue zone because of its many female centenarians. Residents interviewed credit close ties among women.",
+      "why_it_matters": "Longevity research into social ties may offer lessons for aging Americans, though the cause remains unproven.",
+      "region": "Europe",
+      "topics": [
+        "science",
+        "health"
+      ],
+      "entities": [
+        "Bolotana",
+        "Sardinia"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T04:00:49.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Is sisterhood the secret to a long life? The Sardinian village that could hold key to women’s longevity",
+          "url": "https://www.theguardian.com/world/2026/oct/18/bolotana-sardinian-village-women-centenarians-longevity-long-life"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}
