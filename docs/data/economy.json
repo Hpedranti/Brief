@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-19T19:06:33Z",
-  "read": "The economy is growing but inflation is reaccelerating: CPI reached 3.7% in September and unemployment rose to 4.2%. The Fed hiked in September, the 10-year yield sits above 5%, and mortgages hold at 7.40%. An AI-driven stock selloff and war-related energy costs add uncertainty.",
+  "updated_at": "2026-10-19T22:49:19Z",
+  "read": "Inflation is re-accelerating, with CPI at 3.7 percent, and unemployment ticked up to 4.20 percent. The Fed hiked in September and is expected to hold Oct. 28. Treasury yields sit near 5 percent and mortgages at 7.40 percent, while an AI-debt selloff and oil prices add uncertainty.",
   "indicators": [
     {
       "key": "fedfunds",
@@ -9,8 +9,8 @@
       "value": "3.75–4.00",
       "unit": "%",
       "as_of": "2026-10-19",
-      "change": "up 0.25",
-      "note": "Raised from 3.50–3.75 in September"
+      "change": "up from 3.50–3.75",
+      "note": "Raised at the September meeting"
     },
     {
       "key": "fedfunds_effective",
@@ -19,7 +19,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.12",
-      "note": "Tracks the higher target range"
+      "note": "Monthly average rate"
     },
     {
       "key": "cpi_yoy",
@@ -42,20 +42,20 @@
     {
       "key": "dgs10",
       "label": "10-yr Treasury",
-      "value": "5.10",
+      "value": "5.09",
       "unit": "%",
-      "as_of": "2026-10-15",
-      "change": "down 0.09",
-      "note": "Eased slightly from prior day"
+      "as_of": "2026-10-16",
+      "change": "down 0.01",
+      "note": "Yield above 5 percent"
     },
     {
       "key": "dgs2",
       "label": "2-yr Treasury",
-      "value": "4.77",
+      "value": "4.74",
       "unit": "%",
-      "as_of": "2026-10-15",
-      "change": "down 0.05",
-      "note": "Short yields dipped on haven buying"
+      "as_of": "2026-10-16",
+      "change": "down 0.03",
+      "note": "Short-term yield eased slightly"
     },
     {
       "key": "mortgage30",
@@ -64,7 +64,7 @@
       "unit": "%",
       "as_of": "2026-10-15",
       "change": "unch",
-      "note": "Unchanged from prior week"
+      "note": "Borrowing costs remain high"
     }
   ],
   "fed": {
@@ -91,13 +91,13 @@
         "prob": 0.01
       }
     ],
-    "note": "Markets strongly expect a hold after September's hike; MarketWatch calls it closer than priced."
+    "note": "Markets strongly favor a hold; MarketWatch calls the decision closer than it looks."
   },
   "week_ahead": [
     {
       "date": "2026-10-28",
       "event": "FOMC rate decision",
-      "why_it_matters": "First meeting since September hike; hold widely expected."
+      "why_it_matters": "Sets borrowing costs after September's hike."
     }
   ]
 }

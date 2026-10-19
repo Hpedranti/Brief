@@ -1,0 +1,1532 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-10-19T22",
+    "at": "2026-10-19T22:49:19Z",
+    "model": "claude-sonnet-5-5",
+    "count": 50
+  },
+  "cards": [
+    {
+      "id": "2026-10-19T22-c01",
+      "drop": "2026-10-19T22",
+      "headline": "Trump says 'somebody else' should negotiate for Ukraine",
+      "summary": "Leaving the White House for a Kansas rally, Trump said Zelenskyy should nominate someone else to negotiate with Russia. The comment came as Trump faces criticism over his Russia sanctions waiver, which he has defended as keeping Moscow at the table.",
+      "why_it_matters": "US leadership of peace efforts affects the war's course, European security and US commitments to Ukraine.",
+      "region": "Europe",
+      "topics": [
+        "geopolitics",
+        "war-conflict",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Volodymyr Zelenskyy",
+        "Russia"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-19T20:48:47.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump calls on ‘somebody else’ to negotiate for Ukraine with Russia",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4771238/trump-negotiations-ukraine-russia-zelensky/"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Trump slams Zelenskyy amid Russia sanctions rift and says ‘somebody else’ should negotiate for Ukraine - live",
+          "url": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c02",
+      "drop": "2026-10-19T22",
+      "headline": "Hegseth makes unannounced Israel visit, meets Netanyahu",
+      "summary": "Defense Secretary Pete Hegseth met Netanyahu in Israel on Monday, two sources told Axios. The visit comes eight days before Israel's election and amid US-Israeli talks about possibly resuming major combat operations against Iran.",
+      "why_it_matters": "Renewed US combat against Iran would affect American troops, oil prices and the wider Middle East.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "defense",
+        "geopolitics"
+      ],
+      "entities": [
+        "Pete Hegseth",
+        "Benjamin Netanyahu",
+        "Israel",
+        "Iran"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T22:32:27.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Scoop: Pete Hegseth meets with Netanyahu in Israel ahead of elections",
+          "url": "https://www.axios.com/2026/10/19/pete-hegseth-israel-visit-netanyahu-meeting"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c03",
+      "drop": "2026-10-19T22",
+      "headline": "Trump open to summit with Xi and Putin on denuclearization",
+      "summary": "Trump wants a trilateral summit with Xi Jinping and Vladimir Putin in China next month to discuss denuclearization, though not necessarily Ukraine, Axios reports. Such a meeting of the three leaders would be unprecedented.",
+      "why_it_matters": "Talks among the three nuclear powers could reshape arms control and great-power relations.",
+      "region": "Global",
+      "topics": [
+        "geopolitics",
+        "china",
+        "defense"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Xi Jinping",
+        "Vladimir Putin"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T20:04:17.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump open to summit with Xi and Putin — to discuss denuclearization",
+          "url": "https://www.axios.com/2026/10/19/trump-summit-xi-putin-denuclearization-ukraine"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c04",
+      "drop": "2026-10-19T22",
+      "headline": "Trump says SpaceX shares for children will go into Trump Accounts",
+      "summary": "Trump announced that Elon Musk's planned gift of one SpaceX share to every US child next year will be delivered through Trump Accounts, The Verge reports. Musk had thanked Trump Account booster Brad Gerstner earlier in the day.",
+      "why_it_matters": "It links a major private stock giveaway to a federal children's savings program families may use.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "policy-regulation",
+        "space"
+      ],
+      "entities": [
+        "Elon Musk",
+        "SpaceX",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T19-c29",
+      "storyline_id": null,
+      "published_at": "2026-10-19T22:30:42.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Elon Musk’s proposed SpaceX stock giveaway would go into ‘Trump Accounts’",
+          "url": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c05",
+      "drop": "2026-10-19T22",
+      "headline": "Trump rallies in Kansas as GOP defends Sen. Roger Marshall",
+      "summary": "Trump headlined a rally for Sen. Roger Marshall, who faces Democrat Adam Hamilton on Nov. 3 in a race Republicans did not expect to be competitive. The Hill reports Trump's Senate-focused travel includes red states that may be turning competitive.",
+      "why_it_matters": "Senate control could decide judicial confirmations and the legislative agenda for the next two years.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Roger Marshall",
+        "Adam Hamilton"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T21:48:39.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "The Senate map driving Trump’s late-stage travel blitz",
+          "url": "https://thehill.com/homenews/administration/6159184-trump-senate-midterm-travel/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "WATCH LIVE: Trump rallies for Roger Marshall in Kansas",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4771134/watch-live-trump-rally-kansas-senate-race-roger-marshall/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c06",
+      "drop": "2026-10-19T22",
+      "headline": "Trump approval falls to 31% in Reuters/Ipsos poll",
+      "summary": "A Reuters/Ipsos poll puts Trump's approval at a record-low 31 percent, with Democrats leading the generic congressional ballot by 12 points. A Washington Post-ABC poll reportedly shows approval at 33 percent, its own low.",
+      "why_it_matters": "Polling shapes expectations for control of Congress two weeks before the midterms.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Reuters",
+        "Ipsos"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T21-c11",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T20:59:05.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump approval hits record-low 31 percent, polls show Republican struggles",
+          "url": "https://www.aljazeera.com/news/2026/10/19/trump-approval-hits-record-low-31-percent-polls-show-republican-struggles?traffic_source=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Trump slams Zelenskyy amid Russia sanctions rift and says ‘somebody else’ should negotiate for Ukraine - live",
+          "url": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c07",
+      "drop": "2026-10-19T22",
+      "headline": "Vance campaigns in North Carolina, announces $858 million in storm aid",
+      "summary": "Vice President JD Vance rallied for Michael Whatley and other North Carolina Republicans and announced about $858 million in Transportation Department disaster funds for areas still rebuilding after Hurricane Helene in 2024.",
+      "why_it_matters": "It shows how federal aid and campaigning overlap in a key battleground, and money for communities still recovering.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "JD Vance",
+        "Michael Whatley",
+        "North Carolina"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T20:26:16.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Vance announces additional $858 million in disaster funding during campaign stop in North Carolina",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4771248/jd-vance-additional-disaster-funds-hurricane-helene-rally-north-carolina/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c08",
+      "drop": "2026-10-19T22",
+      "headline": "Trump to hold Waco rally one week before Election Day",
+      "summary": "The RNC announced Trump will campaign in Waco, Texas, on Oct. 27, his third Texas visit. It underscores how competitive the state's races have become, The Hill reports.",
+      "why_it_matters": "A Texas Senate race in play would signal a wider shift in the electoral map.",
+      "region": "US",
+      "topics": [
+        "elections"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Texas"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T21:47:58.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump set to return to Texas for midterm rally",
+          "url": "https://thehill.com/homenews/campaign/6159173-trump-waco-texas-rally/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c09",
+      "drop": "2026-10-19T22",
+      "headline": "Slotkin accuses Trump ally Mike Davis of mobilizing death threats",
+      "summary": "Sen. Elissa Slotkin said on social media that Mike Davis, a close legal ally of the president, has been mobilizing death threats against her and her staff. The Hill's summary did not include a response from Davis.",
+      "why_it_matters": "Threats against officials affect public servants' safety and political discourse before the election.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "crime-justice"
+      ],
+      "entities": [
+        "Elissa Slotkin",
+        "Mike Davis"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T21:00:04.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Slotkin accuses Trump ally of 'mobilizing death threats' against her, staff",
+          "url": "https://thehill.com/homenews/senate/6159035-slotkin-accuses-mike-davis-threats/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c10",
+      "drop": "2026-10-19T22",
+      "headline": "Senate Democrats float Hegseth's ouster after the midterms",
+      "summary": "Senate Democrats are quietly discussing removing Defense Secretary Pete Hegseth after the midterms as a lame-duck defense fight looms, The Hill reports.",
+      "why_it_matters": "Pentagon leadership matters during a war with Iran and the Ukraine crisis.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "us-politics"
+      ],
+      "entities": [
+        "Pete Hegseth",
+        "Senate Democrats"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T21:55:55.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Dems float Hegseth’s ouster in lame-duck defense battle",
+          "url": "https://thehill.com/homenews/6159150-dems-float-hegseths-ouster-lame-duck-defense-battle/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c11",
+      "drop": "2026-10-19T22",
+      "headline": "Trump urges New Mexico to rename itself 'New America'",
+      "summary": "Trump said New Mexico should immediately change its name to New America, saying 'We are not Mexico.' Fox News reports he claimed the change would raise home values and incomes. It follows his renaming of the Gulf of Mexico.",
+      "why_it_matters": "The demand has no legal force on its own, but it adds to a charged state-federal and naming dispute.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Donald Trump",
+        "New Mexico"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T20:16:02.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump calls on New Mexico to change its name to 'New America'",
+          "url": "https://thehill.com/homenews/administration/6159125-trump-calls-new-mexico-new-america/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump renews push to rename New Mexico ‘New America,’ touts higher home values and incomes",
+          "url": "https://www.foxnews.com/politics/trump-renews-push-rename-new-mexico-new-america-touts-higher-home-values-incomes"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c12",
+      "drop": "2026-10-19T22",
+      "headline": "Judge presses administration on East Potomac golf plan",
+      "summary": "A federal judge questioned government lawyers on plans to close and renovate East Potomac Park next month despite an earlier order barring work while a lawsuit proceeds. The judge rejected a recusal request as baseless.",
+      "why_it_matters": "The case tests whether the administration can alter public parkland while litigation is pending.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Interior Department"
+      ],
+      "importance": 2,
+      "follows": "2026-10-19T19-c04",
+      "storyline_id": null,
+      "published_at": "2026-10-19T21:33:59.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Judge weighs challenge to Trump's East Potomac Golf takeover after rejecting 'baseless' request for recusal",
+          "url": "https://thehill.com/regulation/court-battles/6158276-judge-questions-trump-east-potomac-park/"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Judge hears latest arguments on White House renovation of Washington golf course",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-6007746/judge-hears-latest-arguments-on-white-house-renovation-of-washington-golf-course"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c13",
+      "drop": "2026-10-19T22",
+      "headline": "Supreme Court to hear Maryland magnet school admissions case",
+      "summary": "The Supreme Court will review a racial discrimination challenge to admissions at magnet middle schools in Montgomery County, Maryland. Separately, it could not act on a copyright petition because four justices recused, leaving no quorum.",
+      "why_it_matters": "The ruling could shape how school districts design admissions policies nationwide.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Supreme Court",
+        "Montgomery County"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:56:06.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Supreme Court to review racial discrimination case over Maryland school admissions policy",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4770514/supreme-court-racial-discrimination-maryland-school-admissions-policy/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Supreme Court unable to consider copyright case after four justices recuse",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4771034/supreme-court-copyright-case-four-justices-recuse/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c14",
+      "drop": "2026-10-19T22",
+      "headline": "Trump says Paris will become 'Muslim city' unless France closes borders",
+      "summary": "Trump said Paris will soon be a 'Muslim city' if France does not close its borders to immigrants, and that he warned Macron about civil unrest. France has imposed partial curfews after its worst unrest in years.",
+      "why_it_matters": "Trump's remarks add a diplomatic strain with a NATO ally in crisis.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "us-politics",
+        "geopolitics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Emmanuel Macron",
+        "France"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T21-c03",
+      "storyline_id": null,
+      "published_at": "2026-10-19T20:46:23.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump warns Paris will become ‘Muslim city’ unless France closes borders",
+          "url": "https://www.washingtonexaminer.com/news/world/4771323/trump-paris-muslim-city-france-borders-protests-macron/"
+        },
+        {
+          "outlet": "Foreign Policy",
+          "title": "France Orders Curfews Amid Widespread Rioting",
+          "url": "https://foreignpolicy.com/2026/10/19/france-protests-violence-riots-curfew-paris-lecornu-macron-melenchon/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c15",
+      "drop": "2026-10-19T22",
+      "headline": "French bond selloff intensifies after riots and looting",
+      "summary": "French government bonds extended their selloff after riots and looting, the FT reports. Authorities introduced curfews and admitted police botched oversight of the protests. Fox News reports intelligence chiefs offered to resign.",
+      "why_it_matters": "Instability in France could pressure European markets and the euro, affecting US investors.",
+      "region": "Europe",
+      "topics": [
+        "markets",
+        "europe"
+      ],
+      "entities": [
+        "France",
+        "Emmanuel Macron"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T19-c01",
+      "storyline_id": null,
+      "published_at": "2026-10-19T18:31:54.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "French bond sell-off intensifies after riots and looting",
+          "url": "https://www.ft.com/content/cc7e577a-db7a-4e12-9a42-443696b98ec5?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "France's massive intel failure sparks resignation offers amid days of rioting",
+          "url": "https://www.foxnews.com/politics/frances-massive-intel-failure-sparks-resignation-offers-amid-days-rioting"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c16",
+      "drop": "2026-10-19T22",
+      "headline": "Egypt's parliament delays vote on military support for Saudi Arabia",
+      "summary": "Egyptian lawmakers adjourned a session without voting on military support for Saudi Arabia after an opposition party told members to abstain over an unclear commitment, Al Jazeera reports.",
+      "why_it_matters": "Regional allies' involvement could widen the Houthi-Saudi fighting and affect oil flows.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Egypt",
+        "Saudi Arabia",
+        "Houthis"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T21:46:00.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Egyptian parliament delays vote on military support for Saudi Arabia",
+          "url": "https://www.aljazeera.com/news/2026/10/19/egyptian-parliament-delays-vote-on-military-support-for-saudi-arabia?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c17",
+      "drop": "2026-10-19T22",
+      "headline": "Oil wavers as traders weigh Hormuz escalation against steady flows",
+      "summary": "Oil moved in both directions as traders weighed the prospect of escalating Iranian hostilities in the Strait of Hormuz against robust crude flows from the Persian Gulf. Citgo raised its 2026 profit outlook by $2 billion on fuel margins.",
+      "why_it_matters": "Fuel prices feed directly into US inflation and household budgets.",
+      "region": "Global",
+      "topics": [
+        "energy",
+        "markets"
+      ],
+      "entities": [
+        "Citgo",
+        "Strait of Hormuz"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T20:14:41.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Latest Oil Market News and Analysis for Oct. 20",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/latest-oil-market-news-and-analysis-for-oct-20"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Citgo Raises Profit Outlook by $2 Billion as Fuel Margins Surge",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/citgo-raises-profit-outlook-by-2-billion-as-fuel-margins-surge"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c18",
+      "drop": "2026-10-19T22",
+      "headline": "Stock futures edge up after chipmaker rally lifts Nasdaq 100",
+      "summary": "US stock futures edged higher after a chipmaker-led rebound helped the Nasdaq 100 recover from its worst week since April 2025. Amazon rallied on a Morgan Stanley AI call; Jim Cramer likened the AI selloff to 1987.",
+      "why_it_matters": "Tech-heavy index funds dominate many retirement accounts, so these swings reach household savings.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Nasdaq 100",
+        "Amazon",
+        "Morgan Stanley"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T19-c32",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-19T22:09:31.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "US Stock Futures Edge Higher After Chipmaker Rally: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Jim Cramer says the recent AI stock sell-off echoes a crucial lesson from the 1987 market crash",
+          "url": "https://www.cnbc.com/2026/10/19/cramer-recent-ai-sell-off-echoes-lesson-1987-crash.html"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c19",
+      "drop": "2026-10-19T22",
+      "headline": "CoreWeave's distressed debt becomes a wider AI industry worry",
+      "summary": "CoreWeave's bonds slipped into distressed territory, with yields about 1,000 basis points over Treasuries. MarketWatch says the riskiest junk bonds are sending a warning in credit markets that are giving mixed signals.",
+      "why_it_matters": "Trouble financing AI buildouts could slow investment that has been propping up growth and stocks.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai",
+        "startups-vc"
+      ],
+      "entities": [
+        "CoreWeave"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-19T21:28:20.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+          "url": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c20",
+      "drop": "2026-10-19T22",
+      "headline": "DHS order removing DeepSeek from federal systems is published",
+      "summary": "The Department of Homeland Security order to remove Chinese AI startup DeepSeek from federal IT systems and bar it from contracting was published in the Federal Register Monday. It initially went out in July.",
+      "why_it_matters": "It formalizes limits on Chinese AI tools in government amid US-China tech tension.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "policy-regulation",
+        "china"
+      ],
+      "entities": [
+        "Department of Homeland Security",
+        "DeepSeek"
+      ],
+      "importance": 2,
+      "follows": "2026-10-19T19-c27",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-19T21:43:09.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "DHS orders removal of DeepSeek from government agency IT systems",
+          "url": "https://thehill.com/policy/technology/6159116-dhs-bans-chinese-deepseek-ai/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c21",
+      "drop": "2026-10-19T22",
+      "headline": "Judge denies bail to ex-OpenAI engineer, citing Saudi 'blank check'",
+      "summary": "A judge ordered Abdulrahman Alfozan held in custody, likening Saudi government support for his release to a 'blank check.' The FBI says he had a folder labeled 'Saudi Gov Docs.' Saudi Arabia has not responded to requests for comment.",
+      "why_it_matters": "The case raises foreign-state espionage concerns at a leading US AI company.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "ai",
+        "crime-justice"
+      ],
+      "entities": [
+        "OpenAI",
+        "Abdulrahman Alfozan",
+        "Saudi Arabia"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T19-c28",
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:49:17.000Z",
+      "sources": [
+        {
+          "outlet": "Wired",
+          "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+          "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/"
+        },
+        {
+          "outlet": "Ars Technica",
+          "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+          "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+          "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c22",
+      "drop": "2026-10-19T22",
+      "headline": "Russian satellite approached US-flagged ICEYE craft used by Ukraine",
+      "summary": "Cosmos 2612 came within 500 meters of the ICEYE-X36 satellite, believed to support Ukraine, according to LeoLabs. Ars Technica reports it closed from hundreds of kilometers to extreme proximity.",
+      "why_it_matters": "Close maneuvers by military satellites raise collision and escalation risks for space assets the US relies on.",
+      "region": "Global",
+      "topics": [
+        "space",
+        "defense",
+        "war-conflict"
+      ],
+      "entities": [
+        "Russia",
+        "ICEYE",
+        "LeoLabs"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T20:54:17.000Z",
+      "sources": [
+        {
+          "outlet": "Breaking Defense",
+          "title": "Russian satellite stalked ICEYE spacecraft in potentially dangerous on-orbit maneuvers",
+          "url": "https://breakingdefense.com/2026/10/russian-satellite-stalked-iceye-spacecraft-in-potentially-dangerous-on-orbit-maneuvers/"
+        },
+        {
+          "outlet": "Ars Technica",
+          "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+          "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c23",
+      "drop": "2026-10-19T22",
+      "headline": "Ukraine says it carried out first drone airlift of wounded soldier",
+      "summary": "Ukraine's military says it evacuated a wounded soldier from the front by drone for the first time. He was surrounded by landmines and enemy drones, so a ground rescue was not possible.",
+      "why_it_matters": "It shows how drone warfare is changing battlefield medicine and tactics Western militaries study.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "defense"
+      ],
+      "entities": [
+        "Ukraine"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T20:00:43.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Ukraine says it carried out first drone airlift of wounded soldier from front line",
+          "url": "https://www.bbc.co.uk/news/videos/c3vgx05p149wo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Injured Ukrainian soldier rescued in first-ever drone evacuation mission",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/aje-onl-nf_ukrainian-soldier-rescued-in-drone-evacuation-191026?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c24",
+      "drop": "2026-10-19T22",
+      "headline": "Finland seeks one million land mines as it eyes Russian threat",
+      "summary": "Finland is seeking one million land mines after joining regional peers in withdrawing from the UN treaty banning such munitions, Al Jazeera reports, citing its eastern border with Russia.",
+      "why_it_matters": "It shows how NATO's newest members are hardening borders against Russia.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "europe",
+        "geopolitics"
+      ],
+      "entities": [
+        "Finland",
+        "Russia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:57:10.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Finland seeking one million land mines as it eyes Russian threat",
+          "url": "https://www.aljazeera.com/news/2026/10/19/finland-seeking-one-million-land-mines-as-it-eyes-russian-threat?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c25",
+      "drop": "2026-10-19T22",
+      "headline": "Alberta votes on whether to begin a path toward leaving Canada",
+      "summary": "Alberta voters decided in a referendum that could start a path toward separation, while Prime Minister Mark Carney warned of threats to Canadian unity.",
+      "why_it_matters": "Alberta's oil sector is closely tied to US energy supply, so a breakup push matters to North American markets.",
+      "region": "Americas",
+      "topics": [
+        "geopolitics",
+        "energy",
+        "elections"
+      ],
+      "entities": [
+        "Alberta",
+        "Mark Carney",
+        "Canada"
+      ],
+      "importance": 4,
+      "follows": "2026-10-19T19-c24",
+      "storyline_id": null,
+      "published_at": "2026-10-19T22:29:57.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Alberta voters decide whether to take a step toward separating from Canada",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c26",
+      "drop": "2026-10-19T22",
+      "headline": "Australian MP Helen Haines critically injured; counter-terror taskforce probes",
+      "summary": "Independent MP Helen Haines is in critical condition after being struck by a car in Wangaratta. A joint counter-terrorism taskforce is investigating, and Anthony Albanese said it 'wasn't an accident.'",
+      "why_it_matters": "An apparent attack on a lawmaker in a close US ally highlights rising political threats worldwide.",
+      "region": "Asia",
+      "topics": [
+        "crime-justice",
+        "geopolitics"
+      ],
+      "entities": [
+        "Helen Haines",
+        "Anthony Albanese",
+        "Australia"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T19-c25",
+      "storyline_id": null,
+      "published_at": "2026-10-19T22:29:24.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Helen Haines: independent MP in critical condition in Melbourne’s Alfred hospital after being struck by car in Wangaratta – follow updates",
+          "url": "https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack-wangaratta-melbourne-hospital-ntwnfb"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c27",
+      "drop": "2026-10-19T22",
+      "headline": "Reported drone attacks kill 160 across Sudan",
+      "summary": "At least 160 people were reported killed in escalating drone attacks across Sudan, Al Jazeera reports. Rights groups warn the unmanned aircraft are increasingly targeting civilians and infrastructure.",
+      "why_it_matters": "The world's worst humanitarian crisis is deepening as drone warfare spreads.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "war-conflict"
+      ],
+      "entities": [
+        "Sudan"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T19-c22",
+      "storyline_id": null,
+      "published_at": "2026-10-19T21:38:46.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "160 people reported killed in escalating drone attacks across Sudan",
+          "url": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c28",
+      "drop": "2026-10-19T22",
+      "headline": "Ebola response in Congo lags outbreak, IRC director says",
+      "summary": "The International Rescue Committee's Congo director says the Ebola response is far outpaced by the crisis. Health workers face lack of data, budget cuts and fearful communities.",
+      "why_it_matters": "A widening outbreak that has reached Kenya raises travel and funding concerns, including US aid cuts.",
+      "region": "Africa",
+      "topics": [
+        "health",
+        "africa"
+      ],
+      "entities": [
+        "International Rescue Committee",
+        "Congo"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T19-c23",
+      "storyline_id": null,
+      "published_at": "2026-10-19T22:38:29.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "The Ebola crisis is far outpacing the response, Congo's IRC director says",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-6005499/the-ebola-crisis-is-far-outpacing-the-response-congos-irc-director-says"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c29",
+      "drop": "2026-10-19T22",
+      "headline": "Florida issues arrest warrant for Cuban leader Raul Castro",
+      "summary": "Florida issued an arrest warrant for Raul Castro, mirroring a federal indictment from May as the US steps up pressure on the Cuban government, Al Jazeera reports.",
+      "why_it_matters": "It signals escalating US pressure on Havana, with possible effects on migration and regional policy.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "crime-justice",
+        "geopolitics"
+      ],
+      "entities": [
+        "Raul Castro",
+        "Cuba",
+        "Florida"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:48:53.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Florida issues arrest warrant for Cuban leader Raul Castro",
+          "url": "https://www.aljazeera.com/news/2026/10/19/florida-issues-arrest-warrant-for-cuban-leader-raul-castro?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c30",
+      "drop": "2026-10-19T22",
+      "headline": "Spain's deadly flooding forces military rooftop rescues",
+      "summary": "Spain's military is hoisting residents from the rooftops of flooded homes amid deadly flooding, Al Jazeera reports.",
+      "why_it_matters": "It shows the toll of extreme weather in a major European country.",
+      "region": "Europe",
+      "topics": [
+        "climate",
+        "europe"
+      ],
+      "entities": [
+        "Spain"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:38:40.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Residents hoisted from rooftops amid Spain’s deadly flooding",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/residents-hoisted-from-rooftops-amid-spains-deadly-flooding?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c31",
+      "drop": "2026-10-19T22",
+      "headline": "Orbiter launches to retrieve dust from Mars's moon Phobos",
+      "summary": "A spacecraft is set to launch on a mission to bring 10 grams of dust from Mars's moon Phobos back to Earth. JAXA leads the international effort, which could shed light on the solar system's history.",
+      "why_it_matters": "Samples could clarify how Mars and its moons formed and inform future crewed missions.",
+      "region": "Asia",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "JAXA",
+        "Phobos",
+        "Mars"
+      ],
+      "importance": 2,
+      "follows": "2026-10-19T19-c43",
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:45:46.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Mission blasts off for Mars to grab a piece of its moon",
+          "url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c32",
+      "drop": "2026-10-19T22",
+      "headline": "Amazon unveils TorchNeuron tool to challenge Nvidia's PyTorch hold",
+      "summary": "Amazon launched TorchNeuron, a developer tool meant to let more PyTorch users run AI apps on alternative chips such as its own, aiming to weaken Nvidia's software advantage.",
+      "why_it_matters": "Cheaper non-Nvidia options could lower AI costs and shift power in the chip market.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Amazon",
+        "Nvidia",
+        "PyTorch"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T20:09:24.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+          "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c33",
+      "drop": "2026-10-19T22",
+      "headline": "Microsoft says AI agents resemble insider threats",
+      "summary": "Microsoft says frontier models can't be trusted and urges enterprises to closely monitor agents employees use with systems not controlled by labs like OpenAI and Anthropic, TechCrunch reports.",
+      "why_it_matters": "As workplaces adopt AI agents, security risks to company and customer data grow.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Microsoft",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T22:04:28.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+          "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c34",
+      "drop": "2026-10-19T22",
+      "headline": "Hackers hit AI coding tool OpenCode, run up charges on users",
+      "summary": "Hackers breached part of OpenCode's online platform and stole some users' API keys, running up charges on their AI accounts. The AI tools the team consulted kept refusing to examine the malicious code, TechCrunch reports.",
+      "why_it_matters": "Stolen API keys can lead to unexpected bills for developers using AI services.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "ai"
+      ],
+      "entities": [
+        "OpenCode"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:28:34.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c35",
+      "drop": "2026-10-19T22",
+      "headline": "AI startup Town hits unicorn valuation with $108 million round",
+      "summary": "AI assistant startup Town announced a $108 million Series B co-led by Forerunner Ventures and Menlo Ventures, reaching a unicorn valuation four months after launch. AI companion app Tolan raised $30 million.",
+      "why_it_matters": "Investors keep funding consumer AI apps even as financing for AI infrastructure tightens.",
+      "region": "US",
+      "topics": [
+        "startups-vc",
+        "ai"
+      ],
+      "entities": [
+        "Town",
+        "Forerunner Ventures",
+        "Menlo Ventures",
+        "Tolan"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T18:00:39.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "AI assistant startup Town nabs unicorn valuation 4 months after launch",
+          "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+          "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c36",
+      "drop": "2026-10-19T22",
+      "headline": "US building most fossil fuel infrastructure in a decade, report finds",
+      "summary": "A new report shows the US is building more fossil fuel infrastructure than in a decade while renewable growth slows. Electricity demand is rising at its fastest pace in more than a decade as data centers, factories and EVs plug in.",
+      "why_it_matters": "Power supply choices affect electricity bills and emissions as demand from AI grows.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "climate"
+      ],
+      "entities": [
+        "United States"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T21:48:01.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "The fossil fuel comeback is here",
+          "url": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c37",
+      "drop": "2026-10-19T22",
+      "headline": "Energy Department backs Constitution Pipeline with up to $42 million",
+      "summary": "The Energy Department said it will give up to $42 million in Defense Production Act funds to the contentious Constitution Pipeline, which would carry natural gas from Pennsylvania to New York.",
+      "why_it_matters": "It could affect Northeast gas supply and prices and revives a long-disputed project.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Energy Department",
+        "Constitution Pipeline"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T21:29:41.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump gives contentious New York pipeline a Defense Production Act boost",
+          "url": "https://thehill.com/policy/energy-environment/6159109-trump-boosts-constitution-pipeline/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c38",
+      "drop": "2026-10-19T22",
+      "headline": "Interior to hold first offshore deep-sea mining lease sale",
+      "summary": "The Trump administration is moving ahead with leasing ocean tracts off American Samoa for deep-sea mining, with Interior to hold the first offshore mining lease sale, The Hill reports.",
+      "why_it_matters": "It could expand US access to critical minerals but raises environmental questions.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "energy",
+        "climate"
+      ],
+      "entities": [
+        "Interior Department",
+        "American Samoa"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T21:51:09.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Interior will hold first offshore mining lease sale",
+          "url": "https://thehill.com/newsletters/energy-environment/6159155-interior-will-hold-first-offshore-mining-lease-sale/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c39",
+      "drop": "2026-10-19T22",
+      "headline": "Trump signs order creating women's health offices at NIH",
+      "summary": "Trump signed an executive order creating new offices and a task force to boost women's health research, crediting Melania Trump. She called it a 'transformative moment' for US women's health.",
+      "why_it_matters": "It could shift federal research funding priorities in women's health.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Melania Trump",
+        "National Institutes of Health"
+      ],
+      "importance": 2,
+      "follows": "2026-10-19T19-c36",
+      "storyline_id": null,
+      "published_at": "2026-10-19T17:42:45.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "Trump orders creation of NIH division, task force on women’s health",
+          "url": "https://www.statnews.com/2026/10/19/executive-order-melania-trump-nih-division-on-womens-health/?utm_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump signs order launching women’s health division at NIH, White House",
+          "url": "https://www.aljazeera.com/news/2026/10/19/trump-signs-order-launching-womens-health-division-at-nih-white-house?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c40",
+      "drop": "2026-10-19T22",
+      "headline": "Senate Republicans force vote on data center ratepayer bill",
+      "summary": "Senate Republicans forced a vote on the Ratepayer Protection Act to curb data center utility costs. Democrats called it a toothless political ploy, Fox News reports.",
+      "why_it_matters": "Data centers are raising power demand, and who pays for grid costs affects household bills.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "energy",
+        "us-politics"
+      ],
+      "entities": [
+        "Senate Republicans",
+        "Senate Democrats"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:07:35.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Reporter’s Notebook: Senate sneaks in one last political play before voters have their say",
+          "url": "https://www.foxnews.com/politics/reporters-notebook-senate-sneaks-one-last-political-play-before-voters-have-their-say"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c41",
+      "drop": "2026-10-19T22",
+      "headline": "Klobuchar and Demuth clash over Minnesota fraud in debate",
+      "summary": "In their first governor's debate, Democrat Amy Klobuchar and Republican Lisa Demuth argued over the state's fraud scandal during Tim Walz's tenure, with Demuth pressing Klobuchar on what she did about it.",
+      "why_it_matters": "The race to succeed Walz centers on how voters weigh the state's fraud scandal.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Amy Klobuchar",
+        "Lisa Demuth",
+        "Tim Walz"
+      ],
+      "importance": 2,
+      "follows": "2026-10-19T19-c08",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T18:29:19.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Walz-era fraud scandal takes center stage as Klobuchar, GOP rival clash in debate: 'Why didn't you do more?'",
+          "url": "https://www.foxnews.com/politics/walz-era-fraud-scandal-takes-center-stage-klobuchar-gop-rival-clash-debate-why-didnt-you-do-more"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c42",
+      "drop": "2026-10-19T22",
+      "headline": "Man charged with threatening Trump ahead of Kansas visit",
+      "summary": "A Kansas man, Jaden John Read, was charged with threatening to kill Trump after allegedly posting online comments about shooting him and mapping rooftops near the Wichita visit, the Washington Examiner reports.",
+      "why_it_matters": "Threats against officials are a security concern during campaign season.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "us-politics"
+      ],
+      "entities": [
+        "Jaden John Read",
+        "Donald Trump"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T20:10:57.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Man charged in threat to ‘shoot Trump’ ahead of Kansas rally",
+          "url": "https://www.washingtonexaminer.com/news/crime/4771289/man-charged-threat-shoot-trump-kansas-rally/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c43",
+      "drop": "2026-10-19T22",
+      "headline": "Mississippi AG rules police shooting of one-year-old justified",
+      "summary": "Mississippi Attorney General Lynn Fitch's office ruled justified the police shooting of one-year-old Kohen Wiley, killed in his mother's lap in a vehicle after officers responded to an alleged shoplifting call.",
+      "why_it_matters": "The decision raises questions about police use of force and accountability.",
+      "region": "US",
+      "topics": [
+        "crime-justice"
+      ],
+      "entities": [
+        "Lynn Fitch",
+        "Kohen Wiley",
+        "Mississippi"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T20:58:26.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Mississippi attorney general rules fatal police shooting of one-year-old as ‘justified’",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/mississippi-attorney-general-kohen-wiley-killing-justified"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c44",
+      "drop": "2026-10-19T22",
+      "headline": "Kenya cult leader Mackenzie convicted of 191 murders",
+      "summary": "Self-proclaimed pastor Paul Mackenzie was found guilty of 191 murders, all but one of them children, for instructing followers to starve themselves and their children to reach heaven.",
+      "why_it_matters": "One of the deadliest cult cases on record reaches a verdict.",
+      "region": "Africa",
+      "topics": [
+        "crime-justice",
+        "africa"
+      ],
+      "entities": [
+        "Paul Mackenzie",
+        "Kenya"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T19-c21",
+      "storyline_id": null,
+      "published_at": "2026-10-19T17:18:04.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
+          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c45",
+      "drop": "2026-10-19T22",
+      "headline": "Israeli police detain 10 over West Bank settler violence",
+      "summary": "Israeli police said they arrested 10 suspects after a weekend of settler violence in the West Bank that included attacks on a US photojournalist and European diplomats.",
+      "why_it_matters": "An attack on a US journalist drew US officials' criticism and tests Israeli enforcement.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "crime-justice"
+      ],
+      "entities": [
+        "Israel",
+        "West Bank"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T19-c19",
+      "storyline_id": null,
+      "published_at": "2026-10-19T18:05:14.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Israeli police detain 10 people in rare raid against West Bank settlers",
+          "url": "https://www.theguardian.com/world/2026/oct/19/israeli-police-detain-10-people-in-rare-raid-against-west-bank-settlers"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c46",
+      "drop": "2026-10-19T22",
+      "headline": "Saudi Arabia postpones investment conference until 2027",
+      "summary": "Saudi Arabia postponed its Future Investment Initiative, known as 'Davos in the Desert,' to next year after deadly Houthi attacks earlier this month.",
+      "why_it_matters": "The delay shows the conflict's cost to Gulf investment and deal-making.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "economy"
+      ],
+      "entities": [
+        "Saudi Arabia",
+        "Houthis"
+      ],
+      "importance": 2,
+      "follows": "2026-10-19T19-c14",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T22:23:07.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Saudis postpone investment conference until 2027 amid fighting with Houthis",
+          "url": "https://thehill.com/policy/international/6159092-saudi-arabia-postpones-investment-conference/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c47",
+      "drop": "2026-10-19T22",
+      "headline": "Cboe launches pre-market trading for single-stock options",
+      "summary": "Cboe Global Markets launched an early session for single-stock options, extending pre-market trading to options such as those on ETFs tracking major indexes.",
+      "why_it_matters": "Options traders can now react to overnight news before the opening bell.",
+      "region": "US",
+      "topics": [
+        "markets"
+      ],
+      "entities": [
+        "Cboe Global Markets"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T20:57:09.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Cboe’s Early Session for Single-Stock Options Makes Debut",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/cboe-s-early-session-for-single-stock-options-makes-debut"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c48",
+      "drop": "2026-10-19T22",
+      "headline": "Bank of Canada hike bets grow as New Zealand inflation seen rising",
+      "summary": "More economists and traders expect the Bank of Canada to raise rates next week after surveys showed rising inflation expectations. In New Zealand, a weaker currency and oil prices point to more hikes.",
+      "why_it_matters": "Oil-driven inflation is pushing allied central banks toward tightening, as at the Fed.",
+      "region": "Global",
+      "topics": [
+        "economy",
+        "fed-rates"
+      ],
+      "entities": [
+        "Bank of Canada",
+        "New Zealand"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:23:07.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Traders, Economists Boost Bets on Canada Rate Hike Next Week",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/bank-of-canada-hike-bets-grow-among-economists-traders"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "New Zealand’s Year-End Inflation Surge Points to More Rate Hikes",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/new-zealand-s-year-end-inflation-surge-points-to-more-rate-hikes"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T22-c49",
+      "drop": "2026-10-19T22",
+      "headline": "Colorado wildlife overpass cuts vehicle-animal collisions by 91%",
+      "summary": "A new report says a Colorado wildlife overpass connecting 39,000 acres of habitat cut vehicle-animal collisions by 91 percent. Elk, bears, pronghorn and frogs have used it.",
+      "why_it_matters": "The results support wildlife crossings as a way to reduce crashes and protect animals.",
+      "region": "US",
+      "topics": [
+        "science",
+        "autos-transport",
+        "climate"
+      ],
+      "entities": [
+        "Colorado"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T21:39:09.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Colorado wildlife overpass cut vehicle-animal collisions by 91%, report finds",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/colorado-wildlife-overpass-vehicle-animal-collisions-results"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T22-c50",
+      "drop": "2026-10-19T22",
+      "headline": "California gets $6 million from 23andMe bankruptcy over data breach",
+      "summary": "California Attorney General Rob Bonta said the state will receive a $6 million payment in 23andMe's bankruptcy, resolving claims over a 2023 breach that exposed genetic and personal data of more than 855,000 Californians.",
+      "why_it_matters": "It shows the consequences of exposed genetic data, which cannot be changed like a password.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "policy-regulation"
+      ],
+      "entities": [
+        "23andMe",
+        "Rob Bonta",
+        "California"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T21:34:30.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "California to recieve $6m settlement after 23andMe data breach",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/california-settlement-23andme-data-breach"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}

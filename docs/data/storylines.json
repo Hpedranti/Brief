@@ -1,15 +1,20 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T19:06:33Z",
+  "updated_at": "2026-10-19T22:49:19Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump defends the Russia sanctions waiver; critics in both parties object. A Zelenskyy adviser says US intelligence limits cost lives, which the White House denies. European leaders consider talking to Putin and Europe weighs Starlink rivals.",
+      "summary": "Trump defends the Russia sanctions waiver and now says 'somebody else' should negotiate for Ukraine. Critics in both parties object. A Zelenskyy adviser says US intelligence limits cost lives; the White House denies it. Europe weighs Starlink rivals.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-19",
       "events": [
+        {
+          "date": "2026-10-19",
+          "text": "Trump says Zelenskyy should nominate 'somebody else' to negotiate with Russia.",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4771238/trump-negotiations-ukraine-russia-zelensky/"
+        },
         {
           "date": "2026-10-19",
           "text": "Deutsche Telekom, Orange, Telefonica and Vodafone sign a letter of intent weighing a joint satellite spectrum bid to rival Starlink.",
@@ -99,22 +104,32 @@
           "date": "2026-10-17",
           "text": "Russian strikes kill at least eight and injure nearly 60 across Ukraine.",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/russian-strikes-kill-civilians-injure-dozens-across-ukraine?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Trump signs an order waiving Russia sanctions and tariffs mandated by a new law, a week after a diesel deal with Putin.",
-          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks slid as credit markets questioned the AI debt buildup. Chip stocks like Micron rebounded Monday, though investors remain wary. JPMorgan says CoreWeave's business is sound. The US banned DeepSeek from government use.",
+      "summary": "Big Tech, chip and bank stocks slid as credit markets questioned the AI debt buildup. Chip stocks rebounded Monday and futures edged higher, though CoreWeave's distressed debt keeps investors wary. DHS formalized a DeepSeek ban.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-19",
       "events": [
+        {
+          "date": "2026-10-19",
+          "text": "Futures edge higher after a chipmaker rally helps the Nasdaq 100 recover from its worst week since April 2025.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "CoreWeave bonds slip into distressed territory, becoming a wider AI industry problem, The Verge reports.",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "DHS order removing DeepSeek from federal systems is published in the Federal Register.",
+          "url": "https://thehill.com/policy/technology/6159116-dhs-bans-chinese-deepseek-ai/"
+        },
         {
           "date": "2026-10-19",
           "text": "US bans DeepSeek AI from government use as tech tension with China continues.",
@@ -205,11 +220,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Polls show Trump approval at new lows and Democrats ahead on the generic ballot. DOJ charged 28 green card holders in California over alleged illegal voting, and suspicious letters reached election offices in 32 states. Early voting is underway.",
+      "summary": "Reuters/Ipsos puts Trump approval at a record-low 31 percent with Democrats up 12 on the generic ballot. Trump is rallying in Kansas and plans Waco on Oct. 27. DOJ charged 28 green card holders; suspicious letters reached election offices in 32 states.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-19",
       "events": [
+        {
+          "date": "2026-10-19",
+          "text": "Trump rallies in Kansas for Sen. Roger Marshall as Republicans defend an unexpectedly competitive Senate race.",
+          "url": "https://thehill.com/homenews/administration/6159184-trump-senate-midterm-travel/"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Reuters/Ipsos poll puts Trump approval at a record-low 31 percent; Democrats lead the generic ballot by 12 points.",
+          "url": "https://www.aljazeera.com/news/2026/10/19/trump-approval-hits-record-low-31-percent-polls-show-republican-struggles?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Vance announces about $858 million in disaster funds while campaigning for Whatley in North Carolina.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4771248/jd-vance-additional-disaster-funds-hurricane-helene-rally-north-carolina/"
+        },
         {
           "date": "2026-10-19",
           "text": "DOJ charges 28 green card holders in California over alleged illegal voting, after suing the state and warning election officials.",
@@ -289,37 +319,32 @@
           "date": "2026-10-17",
           "text": "Rep. Hillary Scholten says she got a threatening letter claiming to be from DSA, joining other lawmakers.",
           "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769756/hillary-scholten-threat-letter-claim-from-dsa/"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "NPR says Trump's midterm travel includes many red states; Politico says some GOP candidates avoid featuring him.",
-          "url": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Trump says California election officials who count noncitizen ballots will go to jail; DOJ already sued the state.",
-          "url": "https://www.washingtonexaminer.com/news/justice/4769569/trump-vows-jail-california-election-officials-counting-ballots-noncitizens/"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "More lawmakers report suspicious mailings after earlier letters with unknown substances reached election offices.",
-          "url": "https://thehill.com/homenews/house/6155515-lawmakers-report-suspicious-mailings/"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "At a Georgia rally Trump repeats a claim Ossoff's election was illegitimate; the Guardian calls it false.",
-          "url": "https://www.theguardian.com/us-news/2026/oct/16/trump-georgia-rally-jon-ossoff"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent hit $110 before easing. Iran has hit container ships in Hormuz, a Houthi strike killed at least 50 in Yemen, and Saudi Arabia postponed its investment forum. Trump endorsed Netanyahu; Gantz quit Israel's race.",
+      "summary": "After nine months of war, Brent hit $110 before easing. Hegseth met Netanyahu in Israel amid talks of resuming combat ops. Iran hit container ships in Hormuz, Houthi strikes escalate and Egypt delayed a vote on aiding Saudi Arabia.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-19",
       "events": [
+        {
+          "date": "2026-10-19",
+          "text": "Hegseth meets Netanyahu in Israel, Axios reports, amid US-Israeli talks on possibly resuming major combat operations.",
+          "url": "https://www.axios.com/2026/10/19/pete-hegseth-israel-visit-netanyahu-meeting"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Egypt's parliament delays a vote on military support for Saudi Arabia.",
+          "url": "https://www.aljazeera.com/news/2026/10/19/egyptian-parliament-delays-vote-on-military-support-for-saudi-arabia?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Oil wavers as traders weigh Iranian escalation risk in Hormuz against steady Gulf flows.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/latest-oil-market-news-and-analysis-for-oct-20"
+        },
         {
           "date": "2026-10-19",
           "text": "Houthi missile strike on a Yemeni training camp kills at least 50, the deadliest single attack since fighting reignited.",
@@ -328,7 +353,7 @@
         {
           "date": "2026-10-19",
           "text": "Saudi Arabia postpones its Future Investment Initiative conference to next year over Houthi attacks.",
-          "url": "https://www.ft.com/content/75a2ee4e-ead9-4d37-b1ea-6fd759c4691d?syn-25a6b1a6=1"
+          "url": "https://thehill.com/policy/international/6159092-saudi-arabia-postpones-investment-conference/"
         },
         {
           "date": "2026-10-19",
@@ -399,16 +424,6 @@
           "date": "2026-10-16",
           "text": "CENTCOM commander says the US naval blockade has cost Iran about $25 billion in oil revenue.",
           "url": "https://thehill.com/newsletters/defense-national-security/6155474-centcom-commander-says-naval-blockade-cost-iran-25b-in-oil-revenue/"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Brent crude hits $110 for the first time since May amid reports Saudi-led forces intercepted missiles aimed at energy hubs.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "CENTCOM's Adm. Brad Cooper says Iran-backed militias are sending money to the IRGC after nine months of war.",
-          "url": "https://www.axios.com/2026/10/16/iran-backed-militias-sending-money-irgc-centcom"
         }
       ]
     }
