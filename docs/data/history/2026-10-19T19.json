@@ -1,0 +1,1476 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-10-19T19",
+    "at": "2026-10-19T19:06:33Z",
+    "model": "claude-sonnet-5-5",
+    "count": 47
+  },
+  "cards": [
+    {
+      "id": "2026-10-19T19-c01",
+      "drop": "2026-10-19T19",
+      "headline": "France imposes partial curfews as interior minister says police lost control",
+      "summary": "After weekend riots and about 2,400 arrests, Prime Minister Lecornu asked prefects to set partial curfews in parts of Paris, Nice and Lyon. The interior minister conceded police lost control. Lecornu blamed the ultra-left for exploiting the protests.",
+      "why_it_matters": "Instability in a major US ally and euro-area economy is unsettling markets and Europe's politics.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "policy-regulation"
+      ],
+      "entities": [
+        "France",
+        "Emmanuel Macron",
+        "Sébastien Lecornu"
+      ],
+      "importance": 4,
+      "follows": "2026-10-19T05-c19",
+      "storyline_id": null,
+      "published_at": "2026-10-19T18:16:45.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "France imposes partial curfews in several cities, including parts of Paris",
+          "url": "https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "French bond sell-off intensifies after violent protests",
+          "url": "https://www.ft.com/content/cc7e577a-db7a-4e12-9a42-443696b98ec5?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "France's massive intel failure sparks resignation offers amid days of rioting",
+          "url": "https://www.foxnews.com/politics/frances-massive-intel-failure-sparks-resignation-offers-amid-days-rioting"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c02",
+      "drop": "2026-10-19T19",
+      "headline": "DOJ charges 28 green card holders in California over alleged illegal voting",
+      "summary": "The Justice Department filed criminal charges against 28 green card holders accused of fraudulently registering and voting. It follows a DOJ lawsuit and warning to California election officials about counting ballots from suspected noncitizens. The charges are allegations.",
+      "why_it_matters": "The fight over noncitizen voting and federal-state election authority is intensifying weeks before the midterms.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Department of Justice",
+        "California"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T18:34:58.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "DoJ charges 28 green card holders in California over alleged voter fraud",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/california-illegal-voting-charges-doj"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Federal voter fraud arrests intensify in California days after DOJ warning",
+          "url": "https://www.washingtonexaminer.com/news/justice/4770658/federal-voter-fraud-arrests-intensify-california-clash-days-after-doj-warned-election-officials/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c03",
+      "drop": "2026-10-19T19",
+      "headline": "Election offices in at least 32 states received suspicious letters",
+      "summary": "Wired contacted officials in all 50 states and found election offices in at least 32 states received suspicious letters in the past week. Separately, Rep. Suhas Subramanyam reported a suspicious white powder envelope at his Virginia office.",
+      "why_it_matters": "Harassment of election workers and lawmakers raises security concerns as voting is underway.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "cybersecurity",
+        "us-politics"
+      ],
+      "entities": [
+        "Suhas Subramanyam"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T05-c10",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T17:19:31.000Z",
+      "sources": [
+        {
+          "outlet": "Wired",
+          "title": "Election Offices in at Least 32 States Have Received Suspicious Letters",
+          "url": "https://www.wired.com/story/election-offices-in-at-least-32-states-have-received-suspicious-letters-in-the-last-week/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Virginia Democrat becomes latest lawmaker to receive suspicious white powder",
+          "url": "https://thehill.com/homenews/house/6158277-lawmakers-targeted-suspicious-white-powder/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c04",
+      "drop": "2026-10-19T19",
+      "headline": "Judge presses Interior over Trump plan to close East Potomac golf course",
+      "summary": "A federal judge questioned Interior lawyers about plans to shut and renovate East Potomac Park next month despite an earlier court order barring work while a lawsuit proceeds. Trump posted about the case minutes before the hearing.",
+      "why_it_matters": "The case tests whether the administration must comply with court orders on federal land projects.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Department of the Interior"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T21-c14",
+      "storyline_id": null,
+      "published_at": "2026-10-19T17:16:14.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Judge presses federal government on East Potomac takeover despite Trump attacks",
+          "url": "https://thehill.com/regulation/court-battles/6158276-judge-questions-trump-east-potomac-park/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c05",
+      "drop": "2026-10-19T19",
+      "headline": "Supreme Court denies 9/11 defendant's bid to reinstate plea deals",
+      "summary": "The Court denied Khalid Sheikh Mohammed's request to reinstate plea agreements that would have spared him and two co-defendants the death penalty, keeping capital punishment possible.",
+      "why_it_matters": "The ruling keeps the long-stalled 9/11 prosecution at Guantanamo on a path that could end in death sentences.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "crime-justice"
+      ],
+      "entities": [
+        "Supreme Court",
+        "Khalid Sheikh Mohammed"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T14:49:07.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Supreme Court won't revive accused 9/11 mastermind's plea deal",
+          "url": "https://www.axios.com/2026/10/19/supreme-court-khalid-sheikh-mohammed-911-plea-deal"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c06",
+      "drop": "2026-10-19T19",
+      "headline": "Supreme Court to hear challenge to ban on home distilling",
+      "summary": "The Court agreed to hear a challenge to the Reconstruction-era federal ban on distilling spirits at home. Americans can legally brew beer and make wine at home, but making spirits can bring federal charges.",
+      "why_it_matters": "The case could change a 160-year-old federal rule affecting hobbyists and alcohol regulation.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Supreme Court"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T15:56:01.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Could you soon make your own moonshine? SCOTUS takes up 160-year-old ban",
+          "url": "https://www.axios.com/2026/10/19/supreme-court-home-distilling-moonshine-ban"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c07",
+      "drop": "2026-10-19T19",
+      "headline": "Axios: text message alleges Grenell offered access to Trump for money",
+      "summary": "Axios reviewed a text in which Trump adviser Ric Grenell allegedly offered a Turkish billionaire access to the president and VIP events in return for money. The White House counsel is investigating. Grenell's response was not in the summary.",
+      "why_it_matters": "Allegations of pay-for-access touch on ethics rules and public trust in the administration.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Ric Grenell",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T15:05:24.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Exclusive: Secret pay-for-play text rocks Trump White House",
+          "url": "https://www.axios.com/2026/10/19/kennedy-center-text-trump-grenell-habba"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c08",
+      "drop": "2026-10-19T19",
+      "headline": "Klobuchar and Demuth clash over Minnesota fraud scandal in governor debate",
+      "summary": "In their first debate, Democratic Sen. Amy Klobuchar and Republican Lisa Demuth argued over the budget, businesses, costs and the state's fraud scandal under outgoing Gov. Tim Walz. Demuth pressed Klobuchar on what she did about it.",
+      "why_it_matters": "A competitive governor's race in a Democratic-leaning state tests voter views on state oversight and costs.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Amy Klobuchar",
+        "Lisa Demuth",
+        "Tim Walz"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T17:33:25.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Klobuchar, Demuth face off in first Minnesota governor's debate",
+          "url": "https://thehill.com/homenews/campaign/6158330-klobuchar-demuth-minnesota-governor-debate/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Walz-era fraud scandal takes center stage as Klobuchar, GOP rival clash in debate: 'Why didn't you do more?'",
+          "url": "https://www.foxnews.com/politics/walz-era-fraud-scandal-takes-center-stage-klobuchar-gop-rival-clash-debate-why-didnt-you-do-more"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c09",
+      "drop": "2026-10-19T19",
+      "headline": "Schumer urges FCC to reject petition easing AI robocall limits",
+      "summary": "Senate Minority Leader Chuck Schumer asked the FCC to reject a conservative group's petition to ease restrictions on AI-generated political robocalls before the midterms, saying campaigns could use the change for unsolicited calls.",
+      "why_it_matters": "The decision affects how many automated political calls Americans get in the final weeks of the campaign.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "elections",
+        "ai"
+      ],
+      "entities": [
+        "Chuck Schumer",
+        "Federal Communications Commission"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T18:25:19.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Schumer urges FCC to reject GOP group’s request to allow unsolicited political robocalls",
+          "url": "https://thehill.com/homenews/senate/6158536-schumer-opposes-ai-robocall-petition/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c10",
+      "drop": "2026-10-19T19",
+      "headline": "Zelenskyy adviser says Ukrainians dying as US limits intelligence sharing",
+      "summary": "Adviser Serhii Beskrestnov told the BBC there is too little time to warn people about incoming missiles because of US restrictions. The White House said there had been no changes to intelligence sharing.",
+      "why_it_matters": "Disputed US support for Ukraine affects the war's course and strains transatlantic ties.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Ukraine",
+        "Serhii Beskrestnov",
+        "White House"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-19T12:40:07.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Axios",
+          "title": "The fallout from Trump's Russia energy moves",
+          "url": "https://www.axios.com/2026/10/19/fallout-trump-russia-energy"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c11",
+      "drop": "2026-10-19T19",
+      "headline": "Merz warns Putin aims to destabilize Europe, not only defeat Ukraine",
+      "summary": "German Chancellor Friedrich Merz said Putin seeks to undermine democracy and European integration, citing the underestimated Russian influence on European societies. The FT says European leaders are preparing to talk directly to Putin.",
+      "why_it_matters": "European security shifts affect NATO commitments and US strategy toward Russia.",
+      "region": "Europe",
+      "topics": [
+        "geopolitics",
+        "europe"
+      ],
+      "entities": [
+        "Friedrich Merz",
+        "Vladimir Putin",
+        "Russia"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-19T11:21:25.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Merz Warns Russia Aims to Destabilize European Continent",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-19/merz-warns-russia-aims-to-destabilize-european-continent-video"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Zelenskyy, Europe and the end of Trump whispering",
+          "url": "https://www.ft.com/content/92f271fd-f96c-4723-91f2-48363b98127f?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c12",
+      "drop": "2026-10-19T19",
+      "headline": "European carriers weigh joint satellite bid to rival Starlink",
+      "summary": "Deutsche Telekom, Orange, Telefonica and Vodafone signed a letter of intent to consider a joint spectrum bid for direct-to-device satellite service in competition with SpaceX's Starlink.",
+      "why_it_matters": "It links to US threats of retaliation over Europe's spectrum plans and the broader tech-sovereignty dispute.",
+      "region": "Europe",
+      "topics": [
+        "big-tech",
+        "policy-regulation",
+        "space"
+      ],
+      "entities": [
+        "Starlink",
+        "Deutsche Telekom",
+        "Orange",
+        "Vodafone"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T16-c04",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-19T14:24:42.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Major European mobile carriers are teaming up for a ‘direct’ satellite program without Starlink",
+          "url": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c13",
+      "drop": "2026-10-19T19",
+      "headline": "Houthi missile strike on Yemeni camp kills at least 50",
+      "summary": "A Houthi ballistic missile attack on a training camp for government security forces in Shabwa province killed 50 to 53 people, according to BBC and Guardian reports, with more than 200 injured. It is the deadliest single attack since the war reignited.",
+      "why_it_matters": "Escalation in Yemen is spilling into Saudi Arabia, threatening Gulf energy security.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "Houthis",
+        "Yemen",
+        "Saudi Arabia"
+      ],
+      "importance": 4,
+      "follows": "2026-10-18T21-c19",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T16:20:51.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
+          "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+          "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c14",
+      "drop": "2026-10-19T19",
+      "headline": "Saudi Arabia postpones 'Davos in the Desert' after Houthi attacks",
+      "summary": "Saudi Arabia postponed its Future Investment Initiative conference, due to start next week in Riyadh, until next year over security concerns following continued Houthi attacks.",
+      "why_it_matters": "The delay shows the war's reach into Gulf investment and business confidence.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "economy"
+      ],
+      "entities": [
+        "Saudi Arabia",
+        "Houthis"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T15:40:33.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Saudi Arabia to postpone ‘Davos in the desert’ after Houthi attacks",
+          "url": "https://www.ft.com/content/75a2ee4e-ead9-4d37-b1ea-6fd759c4691d?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Saudi Arabia postpones ‘Davos in the Desert’ investment conference over Houthi attacks",
+          "url": "https://www.washingtonexaminer.com/news/world/4770785/saudi-arabia-postpones-investment-conference-houthi-attacks/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c15",
+      "drop": "2026-10-19T19",
+      "headline": "Iran has hit at least 15 container ships in Hormuz in 10 days",
+      "summary": "The Guardian reports Iran attacked at least 15 container ships in the strait over the past 10 days, with people scouring the waters for spilt cargo. Earlier reports described mines hitting tankers.",
+      "why_it_matters": "Attacks on shipping in a key oil and trade chokepoint can raise fuel and goods prices.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "energy",
+        "trade"
+      ],
+      "entities": [
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T14:48:56.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
+          "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c16",
+      "drop": "2026-10-19T19",
+      "headline": "Wright: diesel is a 'three-alarm fire'; US to legitimize some dark fleet ships",
+      "summary": "Energy Secretary Chris Wright said Europe should release more diesel from reserves and that the US will turn some dark-fleet tankers into legitimate ships carrying non-sanctioned oil, speaking at a Citadel Securities event.",
+      "why_it_matters": "Fuel supply and sanctions policy affect diesel prices for US truckers and consumers.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Chris Wright",
+        "Europe"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T18:16:39.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Europe Should Release More Diesel Fuel, Wright Says",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-19/europe-should-release-more-diesel-fuel-wright-says-video"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "US to Make Some Dark Fleet Ships Legitimate, Wright Says",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-19/us-to-make-some-dark-fleet-ships-legitimate-wright-says-video"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c17",
+      "drop": "2026-10-19T19",
+      "headline": "Widower presses Vance over Iranian drone strike that killed soldier",
+      "summary": "At a CBS town hall, Joey Amor, whose wife Sgt. 1st Class Nicole Amor died in an Iranian drone strike in March, asked Vice President Vance about what he called fundamental failures before her death.",
+      "why_it_matters": "The human cost of the Iran war is shaping public opinion ahead of the midterms.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "war-conflict"
+      ],
+      "entities": [
+        "JD Vance",
+        "Joey Amor"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T18:20:43.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Husband of soldier killed in Iranian drone strike grills Vance on ‘fundamental failures’",
+          "url": "https://thehill.com/homenews/administration/6158464-husband-of-soldier-killed-in-iranian-drone-strike-grills-vance-on-fundamental-failures/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c18",
+      "drop": "2026-10-19T19",
+      "headline": "Benny Gantz drops out of Israel's election race",
+      "summary": "Gantz withdrew after polls showed his Blue and White party below the 3.25 percent threshold for the Knesset. Israel votes Oct. 27.",
+      "why_it_matters": "The shift affects the election Trump has endorsed Netanyahu in, with implications for US-Israel policy on Iran.",
+      "region": "Middle East",
+      "topics": [
+        "elections",
+        "middle-east"
+      ],
+      "entities": [
+        "Benny Gantz",
+        "Benjamin Netanyahu",
+        "Israel"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T17:16:22.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Benny Gantz drops out of Israel’s election race",
+          "url": "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race?traffic_source=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump backs Netanyahu: Is the US planning a new Iran attack with Israel?",
+          "url": "https://www.aljazeera.com/news/2026/10/19/trump-backs-netanyahu-is-the-us-planning-a-new-iran-attack-with-israel?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c19",
+      "drop": "2026-10-19T19",
+      "headline": "Israeli police detain 10 in rare raid against West Bank settlers",
+      "summary": "Police detained 10 people after a weekend of violence in the West Bank that included attacks on a US photojournalist and European diplomats.",
+      "why_it_matters": "US officials had urged Israel to act on settler violence, which affects American citizens and regional stability.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "crime-justice"
+      ],
+      "entities": [
+        "Israel",
+        "West Bank"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T05-c07",
+      "storyline_id": null,
+      "published_at": "2026-10-19T18:05:14.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Israeli police detain 10 people in rare raid against West Bank settlers",
+          "url": "https://www.theguardian.com/world/2026/oct/19/israeli-police-detain-10-people-in-rare-raid-against-west-bank-settlers"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c20",
+      "drop": "2026-10-19T19",
+      "headline": "WFP to end food support for half a million people in Gaza",
+      "summary": "Funding cuts will force the World Food Programme to stop monthly assistance to more than 500,000 Palestinians in Gaza. The Guardian says 200,000 people face famine danger; aid shipment limits continue.",
+      "why_it_matters": "A deepening humanitarian crisis tests US and international aid commitments in Gaza.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "health"
+      ],
+      "entities": [
+        "World Food Programme",
+        "Gaza"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T21-c18",
+      "storyline_id": null,
+      "published_at": "2026-10-19T09:54:33.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Cuts force World Food Programme to end support for half a million Palestinians in Gaza",
+          "url": "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Famine fears as aid cuts and shipment restrictions coincide in Gaza",
+          "url": "https://www.aljazeera.com/news/2026/10/19/famine-fears-as-aid-cuts-and-shipment-restrictions-coincide-in-gaza?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c21",
+      "drop": "2026-10-19T19",
+      "headline": "Kenyan cult leader Paul Mackenzie guilty of 191 murders",
+      "summary": "A Kenyan court found Mackenzie and about 30 others guilty over the deaths of 190 children and one adult in a starvation cult. He had denied ordering followers to starve to meet Jesus.",
+      "why_it_matters": "One of the world's worst cult-related mass killings reaches a verdict.",
+      "region": "Africa",
+      "topics": [
+        "crime-justice",
+        "africa"
+      ],
+      "entities": [
+        "Paul Mackenzie",
+        "Kenya"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T05-c33",
+      "storyline_id": null,
+      "published_at": "2026-10-19T16:08:14.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Kenya cult leader who told parents to starve children guilty of 191 murders",
+          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
+          "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c22",
+      "drop": "2026-10-19T19",
+      "headline": "Drone strike near Sudan market kills 80",
+      "summary": "A drone struck twice near a transport hub in al-Dibab, West Kordofan, on Sunday evening, killing 80 people, mostly commuters, a witness said. It is among the deadliest single attacks of the war.",
+      "why_it_matters": "Sudan's war continues to cause mass civilian casualties and a large humanitarian emergency.",
+      "region": "Africa",
+      "topics": [
+        "war-conflict",
+        "africa"
+      ],
+      "entities": [
+        "Sudan"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T14:45:53.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Drone attack near market kills 80 in Sudan",
+          "url": "https://www.theguardian.com/world/2026/oct/19/drone-attack-market-al-dibab-west-kordofan-sudan"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c23",
+      "drop": "2026-10-19T19",
+      "headline": "Ebola cases in Kenya expose US cuts, Guardian reports",
+      "summary": "An eighth person in Kenya tested positive for the Bundibugyo strain in the country's first cluster. The Guardian says opposition to a US-led quarantine center follows US funding cuts and withdrawal from WHO.",
+      "why_it_matters": "The second-largest Ebola outbreak on record is a global health security concern.",
+      "region": "Africa",
+      "topics": [
+        "health",
+        "africa"
+      ],
+      "entities": [
+        "Kenya",
+        "World Health Organization"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T05-c11",
+      "storyline_id": null,
+      "published_at": "2026-10-19T14:11:08.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Ebola cases in Kenya highlight US failures amid Trump cuts to key services",
+          "url": "https://www.theguardian.com/world/2026/oct/19/ebola-cases-kenya-us-quarantine"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c24",
+      "drop": "2026-10-19T19",
+      "headline": "Alberta votes on whether to pursue an independence referendum",
+      "summary": "Albertans are voting on whether to hold a second, binding independence vote. Polling suggests most favor staying in Canada, though the debate has divided the province, including separatists.",
+      "why_it_matters": "The result affects Canada's unity and the stability of a major US oil supplier and trading partner.",
+      "region": "Americas",
+      "topics": [
+        "elections",
+        "geopolitics"
+      ],
+      "entities": [
+        "Alberta",
+        "Canada"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T21-c16",
+      "storyline_id": null,
+      "published_at": "2026-10-19T05:00:22.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Alberta heads to polls to decide whether to hold vote on separation from Canada",
+          "url": "https://www.bbc.co.uk/news/articles/cxvgd0ymgzgyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "‘This is not poker’: Alberta goes to polls in referendum that has exposed divisions, not least among separatists",
+          "url": "https://www.theguardian.com/world/2026/oct/19/alberta-goes-to-polls-in-referendum-divisions-separatists-canada"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c25",
+      "drop": "2026-10-19T19",
+      "headline": "Australian MP Helen Haines critically injured in apparent deliberate attack",
+      "summary": "Independent MP Helen Haines was critically injured when hit by a car in Victoria. Prime Minister Anthony Albanese said it was no accident; the driver was arrested.",
+      "why_it_matters": "An apparent attack on a democratic legislator raises concern over political violence in an allied country.",
+      "region": "Asia",
+      "topics": [
+        "crime-justice",
+        "geopolitics"
+      ],
+      "entities": [
+        "Helen Haines",
+        "Anthony Albanese"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T11:38:43.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Australian prime minister says lawmaker critically injured by car is 'no accident'",
+          "url": "https://www.npr.org/2026/10/19/g-s1-148737/australia-lawmaker-critically-injured"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Australian MP critically injured after being hit by car in apparent attack",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c26",
+      "drop": "2026-10-19T19",
+      "headline": "China's Q3 GDP grows 4.5% as AI boom lifts exports",
+      "summary": "China's economy grew 4.5% year on year in the third quarter, faster than forecast, with factory output driven by electronics demand and exports outpacing consumer spending.",
+      "why_it_matters": "China's export-led growth ties to the global AI hardware trade and US-China tech tensions.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "economy",
+        "trade"
+      ],
+      "entities": [
+        "China"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T09:27:04.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "China’s economy grows faster than forecast after AI boom boosts exports",
+          "url": "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c27",
+      "drop": "2026-10-19T19",
+      "headline": "US bans DeepSeek AI from government use",
+      "summary": "The US barred use of China's DeepSeek model in government as tech tension with China continues. DeepSeek's latest model also weighed on Asian chip stocks this week.",
+      "why_it_matters": "It shows Washington restricting Chinese AI tools over security concerns.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "china",
+        "policy-regulation"
+      ],
+      "entities": [
+        "DeepSeek",
+        "United States"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-19T18:21:54.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "US bans DeepSeek AI from government use as tech tension with China continues",
+          "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c28",
+      "drop": "2026-10-19T19",
+      "headline": "Prosecutors say ex-OpenAI engineer accused of bugging had Saudi royal backing",
+      "summary": "US prosecutors argue Abdulrahman Alfozan should stay detained, citing considerable foreign government support and frequent contact with a member of the Saudi royal family. The Saudi government did not immediately comment.",
+      "why_it_matters": "The case raises corporate espionage concerns at a leading US AI company.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "ai",
+        "crime-justice"
+      ],
+      "entities": [
+        "OpenAI",
+        "Abdulrahman Alfozan",
+        "Saudi Arabia"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T16:11:15.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
+          "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "US prosecutors allege Saudi royal links in OpenAI bugging case",
+          "url": "https://www.ft.com/content/9e10eaa4-ed5e-417b-85c5-b5003b064017?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "How a foreign government helped accused Saudi spy's family flee US after OpenAI bug scandal",
+          "url": "https://www.foxnews.com/politics/foreign-government-helped-accused-saudi-spy-family-flee-us-openai-bug-scandal"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c29",
+      "drop": "2026-10-19T19",
+      "headline": "Musk pledges one SpaceX share to every US child next year",
+      "summary": "Elon Musk said he will give one SpaceX share to each child in the US starting next year, roughly $10.5 billion to $11 billion by media estimates. He did not say how it would work. Anthropic earlier pledged 5% of its shares to a public fund.",
+      "why_it_matters": "Large pledges by tech billionaires could reshape philanthropy and children's savings, such as Trump Accounts.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "space",
+        "economy"
+      ],
+      "entities": [
+        "Elon Musk",
+        "SpaceX",
+        "Anthropic"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T09:38:25.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Elon Musk says he'll give a SpaceX share to every child in America next year",
+          "url": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Musk pledges 1 SpaceX share for every child in America",
+          "url": "https://www.axios.com/2026/10/19/elon-musk-spacex-shares-kids"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Musk and Anthropic pledge public share giveaways",
+          "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c30",
+      "drop": "2026-10-19T19",
+      "headline": "Amazon to fund 12 small nuclear reactors at former Indiana coal plant",
+      "summary": "Amazon, X-energy and AEP will build a nuclear facility replacing the defunct Breed coal plant in Sullivan County, Indiana, providing up to about 960 megawatts of power.",
+      "why_it_matters": "Tech's power demand is driving new nuclear generation that could affect grid supply and prices.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "big-tech",
+        "climate"
+      ],
+      "entities": [
+        "Amazon",
+        "X-energy",
+        "American Electric Power"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T15:44:20.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Amazon to fund 12 small nuclear reactors at former Indiana coal plant",
+          "url": "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/"
+        },
+        {
+          "outlet": "The Verge",
+          "title": "Amazon is funding a new nuclear plant in Indiana",
+          "url": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c31",
+      "drop": "2026-10-19T19",
+      "headline": "Tenstorrent raises $1.5 billion at $6.2 billion valuation",
+      "summary": "The Nvidia challenger raised $1.5 billion to stay independent after drawing acquisition interest earlier this year, and plans to scale open-weight AI chips.",
+      "why_it_matters": "Investment in Nvidia rivals shows capital still flowing to AI chips despite the selloff.",
+      "region": "Global",
+      "topics": [
+        "chips",
+        "startups-vc",
+        "ai"
+      ],
+      "entities": [
+        "Tenstorrent",
+        "Nvidia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T18:37:27.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+          "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c32",
+      "drop": "2026-10-19T19",
+      "headline": "Chip stocks rebound after selloff as Nvidia and Meta events loom",
+      "summary": "Micron and other chip stocks rose Monday after a bruising selloff. Investors are buying, though CNBC notes fear the AI trade's worst case is not over. JPMorgan said CoreWeave's debt fears look overdone.",
+      "why_it_matters": "The AI trade drives large parts of US stock indexes and retirement accounts.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "chips",
+        "ai"
+      ],
+      "entities": [
+        "Micron",
+        "CoreWeave",
+        "JPMorgan Chase"
+      ],
+      "importance": 3,
+      "follows": "2026-10-19T05-c05",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-19T12:00:15.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Micron and other chip stocks spring back to life after bruising selloff",
+          "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Investors are buying on Monday despite fear the AI trade nightmare scenario is far from over",
+          "url": "https://www.cnbc.com/2026/10/19/stocks-buying-opportunity-ai-selloff.html"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "CoreWeave’s Business Is Sound Despite Debt Fears, JPMorgan Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/coreweave-s-business-is-sound-despite-debt-fears-jpmorgan-says"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c33",
+      "drop": "2026-10-19T19",
+      "headline": "Dimon calls US economy 'booming' but flags inflationary risks",
+      "summary": "JPMorgan CEO Jamie Dimon told the WSJ Leadership Institute the economy is performing well but must fend off inflationary events. Wells Fargo said the earnings season is off to a weak start.",
+      "why_it_matters": "Bank leaders' views inform expectations on rates, inflation and corporate profits.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "markets"
+      ],
+      "entities": [
+        "Jamie Dimon",
+        "JPMorgan Chase",
+        "Wells Fargo"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T17:44:50.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Dimon says US economy 'booming,' but warns about 'inflationary' events",
+          "url": "https://thehill.com/business/6158409-jamie-dimon-economy-warning/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Wells Fargo Says Earnings Off to Weak Start as Most Fall Short",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/wells-fargo-says-earnings-off-to-weak-start-as-most-fall-short"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c34",
+      "drop": "2026-10-19T19",
+      "headline": "US defense stocks fall as investors bet on Democratic election gains",
+      "summary": "The FT reports defense shares tumbled as investors weigh a Democratic midterm sweep, putting Trump's proposed $500 billion military spending increase at risk as bipartisan support for a higher budget frays.",
+      "why_it_matters": "Election outcomes could reshape Pentagon budgets and contractors' prospects.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "defense",
+        "elections"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Pentagon"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T13:04:40.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "US defence stocks tumble as investors bet on Democratic election sweep",
+          "url": "https://www.ft.com/content/e73d0106-486b-4382-8ecc-5c96ac44fdff?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c35",
+      "drop": "2026-10-19T19",
+      "headline": "Pentagon and BAE sign deal for up to 25,000 APKWS kits a year",
+      "summary": "The Pentagon and BAE Systems signed a framework agreement for up to 25,000 Advanced Precision Kill Weapon System guidance kits annually.",
+      "why_it_matters": "Cheap precision munitions are central to countering drones and replenishing stockpiles.",
+      "region": "US",
+      "topics": [
+        "defense"
+      ],
+      "entities": [
+        "Pentagon",
+        "BAE Systems"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T18:50:11.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "Pentagon, BAE sign deal for up to 25,000 precision-guided munition kits a year",
+          "url": "https://www.defensenews.com/pentagon/2026/10/19/pentagon-bae-sign-deal-for-up-to-25000-precision-guided-munition-kits-a-year/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c36",
+      "drop": "2026-10-19T19",
+      "headline": "Trump orders NIH women's health division and task force",
+      "summary": "An executive order creates a new NIH division and task force on women's health. Melania Trump said the initiative will set a new standard for women's health.",
+      "why_it_matters": "It directs federal research funding toward women's health conditions.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation"
+      ],
+      "entities": [
+        "National Institutes of Health",
+        "Melania Trump",
+        "Donald Trump"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T17:42:45.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "Trump orders creation of NIH division, task force on women’s health",
+          "url": "https://www.statnews.com/2026/10/19/executive-order-melania-trump-nih-division-on-womens-health/?utm_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c37",
+      "drop": "2026-10-19T19",
+      "headline": "Europe's wild bee species mostly in decline, study finds",
+      "summary": "Records since 1921 show more bee species declining than increasing across Europe except the Alps, and about half of hover fly species have declined, as the UN biodiversity summit opens in Armenia.",
+      "why_it_matters": "Pollinator loss threatens crops and food supply; the findings feed global biodiversity talks.",
+      "region": "Europe",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "Cop17"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:00:04.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "‘Crucial opportunity to act’ as study finds most of Europe’s wild bee species in decline",
+          "url": "https://www.theguardian.com/environment/2026/oct/19/study-europe-wild-bee-species-decline-"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c38",
+      "drop": "2026-10-19T19",
+      "headline": "El Nino raises West Coast sea levels via Kelvin wave",
+      "summary": "NPR reports a large underwater Kelvin wave driven by El Nino raised sea levels along the West Coast and more are expected. New Scientist says levels in parts of the eastern Pacific are up 40 centimetres.",
+      "why_it_matters": "Higher sea levels raise coastal flooding risk from Alaska to Chile, including US shorelines.",
+      "region": "US",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "El Nino"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T09:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "A Kelvin wave raised sea levels on the West Coast. More are coming",
+          "url": "https://www.npr.org/2026/10/19/nx-s1-6001744/el-nino-kelvin-wave-west-coast"
+        },
+        {
+          "outlet": "New Scientist",
+          "title": "El Niño is dramatically increasing sea levels – how bad could it get?",
+          "url": "https://www.newscientist.com/article/2594376-el-nino-is-dramatically-increasing-sea-levels-how-bad-could-it-get/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c39",
+      "drop": "2026-10-19T19",
+      "headline": "Apple sets Oct. 28 event, expected to show touchscreen MacBook Pro",
+      "summary": "Apple sent invitations for an Oct. 28 event in Los Angeles. Bloomberg reports new Macs and a refreshed iPad Mini; analysts expect a MacBook Pro with an OLED touchscreen.",
+      "why_it_matters": "Apple's lineup changes affect what consumers buy and Apple's sales outlook.",
+      "region": "US",
+      "topics": [
+        "big-tech"
+      ],
+      "entities": [
+        "Apple"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T16:04:29.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop",
+          "url": "https://www.cnbc.com/2026/10/19/apple-product-launch-event-oct-28-analysts-expect-touchscreen-laptop.html"
+        },
+        {
+          "outlet": "The Verge",
+          "title": "Apple teases MacBook Pro event next week",
+          "url": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c40",
+      "drop": "2026-10-19T19",
+      "headline": "Quantum computers set error-correction record",
+      "summary": "Researchers broke the record for the reliability of logical qubits, the building blocks useful quantum computers will need, according to New Scientist.",
+      "why_it_matters": "Error correction is the main hurdle to practical quantum computing, which could affect security and science.",
+      "region": "Global",
+      "topics": [
+        "science"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T12:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "New Scientist",
+          "title": "Error-correction record pushes quantum computers closer to usefulness",
+          "url": "https://www.newscientist.com/article/2594366-error-correction-record-pushes-quantum-computers-closer-to-usefulness/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c41",
+      "drop": "2026-10-19T19",
+      "headline": "Hacker used AI agents to breach more than 100 websites",
+      "summary": "Security firm Norforge found a hacker broke into over 100 sites using AI agents that mostly operated autonomously. Reuters reports victims included John Deere, SharkNinja and Cummins.",
+      "why_it_matters": "Autonomous AI hacking lowers the cost of attacks on companies whose systems hold customer data.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "ai"
+      ],
+      "entities": [
+        "Norforge",
+        "John Deere",
+        "SharkNinja",
+        "Cummins"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T13:58:41.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c42",
+      "drop": "2026-10-19T19",
+      "headline": "Florida DMV data breach affects current and former residents",
+      "summary": "Florida issued alerts after a statewide DMV data breach linked to the ShinyHunters group.",
+      "why_it_matters": "Driver records can enable identity theft, so affected Americans should watch for fraud.",
+      "region": "US",
+      "topics": [
+        "cybersecurity"
+      ],
+      "entities": [
+        "ShinyHunters",
+        "Florida"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T16:38:13.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Huge DMV data breach impacted current and former Florida residents",
+          "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c43",
+      "drop": "2026-10-19T19",
+      "headline": "Japan's MMX mission aims to return Phobos samples",
+      "summary": "JAXA is leading an international mission to reach Mars' moon Phobos and bring soil to Earth, which could offer clues to the solar system's history.",
+      "why_it_matters": "Sample returns advance planetary science and the global space race.",
+      "region": "Asia",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "JAXA",
+        "Phobos"
+      ],
+      "importance": 2,
+      "follows": "2026-10-19T05-c23",
+      "storyline_id": null,
+      "published_at": "2026-10-19T18:45:06.000Z",
+      "sources": [
+        {
+          "outlet": "Wired",
+          "title": "Japan’s MMX Mission Wants to Bring Martian Moon Samples Back to Earth",
+          "url": "https://www.wired.com/story/japan-audacious-mmx-mission-sample-martian-moon/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c44",
+      "drop": "2026-10-19T19",
+      "headline": "Experiment in China poised to measure neutrino mass",
+      "summary": "A gigantic experiment in China is poised to answer how much neutrinos weigh, which New Scientist says could transform particle physics.",
+      "why_it_matters": "The result could reshape the Standard Model of physics.",
+      "region": "Asia",
+      "topics": [
+        "science",
+        "china"
+      ],
+      "entities": [
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T19:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "New Scientist",
+          "title": "Are we about to solve the greatest mystery of the neutrino?",
+          "url": "https://www.newscientist.com/article/2592541-are-we-about-to-solve-the-greatest-mystery-of-the-neutrino/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T19-c45",
+      "drop": "2026-10-19T19",
+      "headline": "Disney's Character.AI deal structured to avoid its lawsuits",
+      "summary": "Ars Technica and Wired report Disney is structuring its Character.AI deal to avoid the startup's liabilities, including claims that bots encouraged minors to self-harm. Dozens of states have made allegations.",
+      "why_it_matters": "It shows how AI child-safety legal risk shapes corporate deals.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "big-tech",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Disney",
+        "Character.AI"
+      ],
+      "importance": 2,
+      "follows": "2026-10-18T21-c23",
+      "storyline_id": null,
+      "published_at": "2026-10-19T09:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+          "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/"
+        },
+        {
+          "outlet": "Wired",
+          "title": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card",
+          "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c46",
+      "drop": "2026-10-19T19",
+      "headline": "Christiane Amanpour to leave CNN in June 2027 after 43 years",
+      "summary": "CNN's chief international anchor said she will separate from the network in June 2027 after 43 years.",
+      "why_it_matters": "A prominent war correspondent's exit marks a shift at a major US news network.",
+      "region": "US",
+      "topics": [
+        "culture-sports"
+      ],
+      "entities": [
+        "Christiane Amanpour",
+        "CNN"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T16:48:36.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "CNN anchor Christiane Amanpour to leave network after 43 years",
+          "url": "https://www.bbc.co.uk/news/articles/c83vqzkrr9zeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Amanpour announces CNN departure after 43 years",
+          "url": "https://thehill.com/media/6158178-amanpour-to-leave-cnn-june-2027/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T19-c47",
+      "drop": "2026-10-19T19",
+      "headline": "Roche reviews German investments over health cost-cutting policies",
+      "summary": "Roche is reviewing all future investments in Germany over health care cost-cutting policies, with a top executive citing a loss of trust, STAT reports.",
+      "why_it_matters": "Drug pricing policy abroad can affect where pharma invests and how new medicines launch.",
+      "region": "Europe",
+      "topics": [
+        "health",
+        "economy"
+      ],
+      "entities": [
+        "Roche",
+        "Germany"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T13:23:58.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "STAT+: Pharmalittle: We’re reading about Roche investments in Germany, a Gilead bowel disease drug, and more",
+          "url": "https://www.statnews.com/pharmalot/2026/10/19/roche-investments-in-germany-gilead-bowel-disease-drug/?utm_campaign=rss"
+        }
+      ],
+      "has_article": false
+    }
+  ]
+}

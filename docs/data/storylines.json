@@ -1,15 +1,30 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T05:48:39Z",
+  "updated_at": "2026-10-19T19:06:33Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump defended waiving Russia sanctions, saying it keeps Moscow at the table, and said Zelenskyy does not want peace. Critics in both parties object; Zelenskyy spoke with US envoys. Starlink limits spur calls for investigation. Ukraine struck St Petersburg with over 1,000 drones.",
+      "summary": "Trump defends the Russia sanctions waiver; critics in both parties object. A Zelenskyy adviser says US intelligence limits cost lives, which the White House denies. European leaders consider talking to Putin and Europe weighs Starlink rivals.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-18",
+      "last_updated": "2026-10-19",
       "events": [
+        {
+          "date": "2026-10-19",
+          "text": "Deutsche Telekom, Orange, Telefonica and Vodafone sign a letter of intent weighing a joint satellite spectrum bid to rival Starlink.",
+          "url": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Merz says Putin seeks to destabilize Europe, not just defeat Ukraine.",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-19/merz-warns-russia-aims-to-destabilize-european-continent-video"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Zelenskyy adviser says Ukrainians are dying because of US intelligence limits; White House says nothing changed.",
+          "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-10-18",
           "text": "Rep. Mike Turner calls for an investigation into Ukraine's temporary loss of military Starlink access.",
@@ -89,37 +104,27 @@
           "date": "2026-10-16",
           "text": "Trump signs an order waiving Russia sanctions and tariffs mandated by a new law, a week after a diesel deal with Putin.",
           "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Italy's defense minister tells the BBC the US is wrong to restrict Ukraine support.",
-          "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Four Republican senators join Democrats pressing the Pentagon on whether it ordered Ukraine Starlink restrictions.",
-          "url": "https://thehill.com/newsletters/technology/6155378-gop-senators-press-pentagon-starlink-newsletter/"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Trump says neither he nor Musk caused the Starlink slowdown and he doesn't know who ordered the Starshield throttle.",
-          "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Ukraine's Operation Vivaldi retakes more territory in Donetsk, with Starlink playing a key role, the BBC reports.",
-          "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Asian chip stocks fell again Monday on funding worries and a DeepSeek model, while US futures rebounded. Options traders brace for a VIX surge.",
+      "summary": "Big Tech, chip and bank stocks slid as credit markets questioned the AI debt buildup. Chip stocks like Micron rebounded Monday, though investors remain wary. JPMorgan says CoreWeave's business is sound. The US banned DeepSeek from government use.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-18",
+      "last_updated": "2026-10-19",
       "events": [
+        {
+          "date": "2026-10-19",
+          "text": "US bans DeepSeek AI from government use as tech tension with China continues.",
+          "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Micron and other chip stocks rebound after a bruising selloff; JPMorgan says CoreWeave debt fears are overdone.",
+          "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories"
+        },
         {
           "date": "2026-10-18",
           "text": "Asian chip stocks fall again as DeepSeek's latest model and AI financing worries hit demand expectations.",
@@ -200,11 +205,31 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Polls show Trump approval at new lows and Democrats leading the generic ballot by 8 to 10 points, per Axios. Inflation worries Republicans, early voting is underway, and the Texas Senate race draws attention as the Chamber endorses Paxton.",
+      "summary": "Polls show Trump approval at new lows and Democrats ahead on the generic ballot. DOJ charged 28 green card holders in California over alleged illegal voting, and suspicious letters reached election offices in 32 states. Early voting is underway.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-18",
+      "last_updated": "2026-10-19",
       "events": [
+        {
+          "date": "2026-10-19",
+          "text": "DOJ charges 28 green card holders in California over alleged illegal voting, after suing the state and warning election officials.",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/california-illegal-voting-charges-doj"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Wired finds election offices in at least 32 states received suspicious letters in the past week.",
+          "url": "https://www.wired.com/story/election-offices-in-at-least-32-states-have-received-suspicious-letters-in-the-last-week/"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Poll finds 66% think Trump is using the presidency to enrich himself as his approval hits a new low, the Guardian reports.",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/trump-presidency-rich-poll"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Klobuchar and Demuth clash over Minnesota's fraud scandal in their first governor's debate.",
+          "url": "https://thehill.com/homenews/campaign/6158330-klobuchar-demuth-minnesota-governor-debate/"
+        },
         {
           "date": "2026-10-18",
           "text": "US Chamber of Commerce endorses Ken Paxton over James Talarico as both hold rallies before Texas early voting begins Monday.",
@@ -284,32 +309,37 @@
           "date": "2026-10-16",
           "text": "At a Georgia rally Trump repeats a claim Ossoff's election was illegitimate; the Guardian calls it false.",
           "url": "https://www.theguardian.com/us-news/2026/oct/16/trump-georgia-rally-jon-ossoff"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Ocasio-Cortez gives $1 million to Abdul El-Sayed's Michigan Senate bid; Trump rallies in Georgia for Mike Collins.",
-          "url": "https://thehill.com/homenews/campaign/6154747-ocasio-cortez-abdul-el-sayed-michigan-senate-race/"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Cook Political Report moves 11 House races toward Democrats; Talarico's haul tops Senate GOP rivals.",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4768639/seats-shift-democrats-three-red-areas-major-projection-shows/"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Musk gave a record $158 million to the Senate Leadership Fund.",
-          "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent hit $110 before easing from a five-month high. Tankers have hit mines in Hormuz and Houthi attacks on Saudi Arabia intensify. Trump endorsed Netanyahu; Iran's foreign minister warns Tehran has 'unfinished jobs' too.",
+      "summary": "After nine months of war, Brent hit $110 before easing. Iran has hit container ships in Hormuz, a Houthi strike killed at least 50 in Yemen, and Saudi Arabia postponed its investment forum. Trump endorsed Netanyahu; Gantz quit Israel's race.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-18",
+      "last_updated": "2026-10-19",
       "events": [
+        {
+          "date": "2026-10-19",
+          "text": "Houthi missile strike on a Yemeni training camp kills at least 50, the deadliest single attack since fighting reignited.",
+          "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Saudi Arabia postpones its Future Investment Initiative conference to next year over Houthi attacks.",
+          "url": "https://www.ft.com/content/75a2ee4e-ead9-4d37-b1ea-6fd759c4691d?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Guardian reports Iran has attacked at least 15 container ships in Hormuz in 10 days.",
+          "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships"
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Benny Gantz drops out of Israel's election race ahead of the Oct. 27 vote.",
+          "url": "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race?traffic_source=rss"
+        },
         {
           "date": "2026-10-18",
           "text": "Iran's Araghchi warns the US against renewed attack, saying Tehran has 'unfinished jobs' too.",
