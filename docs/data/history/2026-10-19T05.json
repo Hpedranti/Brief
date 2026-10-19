@@ -1,0 +1,1025 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-10-19T05",
+    "at": "2026-10-19T05:48:39Z",
+    "model": "claude-sonnet-5-5",
+    "count": 34
+  },
+  "cards": [
+    {
+      "id": "2026-10-19T05-c01",
+      "drop": "2026-10-19T05",
+      "headline": "China state funds step in as stocks post record 10-week losing run",
+      "summary": "Bloomberg reports signs that state-backed funds are increasing their presence in Chinese equities after the benchmark index logged a record 10 straight weekly declines.",
+      "why_it_matters": "Chinese stock weakness reflects global AI-trade jitters and can ripple into US portfolios with China exposure.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "china"
+      ],
+      "entities": [
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T03:10:33.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "China State Funds Active as Stocks Post Record Weekly Losing Run",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/china-state-funds-active-as-stocks-post-record-weekly-losing-run"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c02",
+      "drop": "2026-10-19T05",
+      "headline": "Indonesian markets slide after MSCI warns of a two-step downgrade",
+      "summary": "Indonesian stocks, bonds and the rupiah fell further after MSCI warned the country could be reclassified as a standalone market. Officials said they were blindsided and plan to meet MSCI executives Monday.",
+      "why_it_matters": "An index downgrade can force global funds to sell, showing how fragile emerging-market flows are amid broader market stress.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "asia"
+      ],
+      "entities": [
+        "Indonesia",
+        "MSCI"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T02:07:39.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Indonesia’s Selloff Deepens With Officials Set for MSCI Meeting",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/indonesian-stocks-tumble-to-lowest-since-2020-after-msci-warning"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Indonesia Said to Meet Monday With MSCI Over Shock Index Threat",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/indonesia-said-to-meet-monday-with-msci-over-shock-index-threat"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c03",
+      "drop": "2026-10-19T05",
+      "headline": "Asian chip stocks fall again on funding worries and DeepSeek model",
+      "summary": "Asian semiconductor shares dropped again Monday. Bloomberg says DeepSeek's latest model raised concerns about chip demand, adding to market worries over how AI buildouts are financed.",
+      "why_it_matters": "Chip weakness has driven the recent tech selloff and could weigh on US retirement accounts and index funds heavy in tech.",
+      "region": "Asia",
+      "topics": [
+        "chips",
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "DeepSeek"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-19T00:17:50.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Asian Chip Stocks Extend Losses on Funding Worry, DeepSeek Model",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/korean-stocks-fall-as-deepseek-model-funding-worry-rattle-chips"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Asian Chip Stocks Extend Losses",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-19/the-asia-trade-10-19-2026-video"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c04",
+      "drop": "2026-10-19T05",
+      "headline": "China memory chipmaker CXMT falls 6% despite profit turnaround",
+      "summary": "Shares of China's CXMT dropped more than 6% Monday after the company released a nine-month earnings forecast, as investors looked past its profit turnaround.",
+      "why_it_matters": "Chinese memory chip makers are a gauge of AI-related chip demand and of China's push to rival US suppliers.",
+      "region": "Asia",
+      "topics": [
+        "chips",
+        "china"
+      ],
+      "entities": [
+        "CXMT"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T01:56:34.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
+          "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c05",
+      "drop": "2026-10-19T05",
+      "headline": "US stock futures rebound from chip rout as oil dips",
+      "summary": "US equity futures rose after last week's chip-led selloff, offering some respite ahead of key earnings that may set the market's direction. Oil fell.",
+      "why_it_matters": "The AI trade is under pressure, and this week's earnings could shape the direction of stocks held in many US retirement accounts.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "chips"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-18T22:07:25.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Nasdaq Futures Rebound From Tech Selloff, Oil Dips: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c06",
+      "drop": "2026-10-19T05",
+      "headline": "Oil slips from five-month high as Gulf supply holds near pre-war levels",
+      "summary": "Oil retreated from a five-month high as traders weighed signs that Middle East supply is holding near pre-war levels against flareups in fighting, including intensifying Houthi attacks on Saudi Arabia.",
+      "why_it_matters": "Oil prices feed directly into US gasoline and inflation, a central issue ahead of the midterms.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "markets"
+      ],
+      "entities": [
+        "Saudi Arabia",
+        "Houthis"
+      ],
+      "importance": 3,
+      "follows": "2026-10-16T21-c02",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-18T22:02:51.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Latest Oil Market News and Analysis for Oct. 19",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/latest-oil-market-news-and-analysis-for-oct-19"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Mullman: Houthi Attacks Impose Near-Term Costs on Saudi",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-19/mullman-houthi-attacks-impose-near-term-costs-on-saudi-video"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c07",
+      "drop": "2026-10-19T05",
+      "headline": "Trump defends Russia sanctions waiver, says Zelenskyy does not want peace",
+      "summary": "Trump wrote that waiving the sanctions keeps Moscow at the negotiating table and said Zelenskyy does not want to end the war. Critics from both parties oppose the waiver. Zelenskyy has spoken with US envoys.",
+      "why_it_matters": "The waiver and the dispute with Kyiv shape US policy on Russia and Ukraine and strain relations with European allies.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "geopolitics",
+        "war-conflict"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Volodymyr Zelenskyy",
+        "Russia"
+      ],
+      "importance": 4,
+      "follows": "2026-10-18T21-c05",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T23:20:15.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Trump defends waiving Russia sanctions, says it keeps Moscow at negotiating table",
+          "url": "https://thehill.com/homenews/administration/6157113-donald-trump-defends-russia-sanctions-waiver/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump says Zelensky ‘doesn’t want to end this war’ and defends Russia strategy",
+          "url": "https://www.washingtonexaminer.com/news/world/4770252/trump-zelensky-russia-doesnt-want-end-war/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c08",
+      "drop": "2026-10-19T05",
+      "headline": "Rep. Turner calls for investigation into Ukraine's Starlink outage",
+      "summary": "Republican Rep. Mike Turner of Ohio said on CBS that Congress should investigate Ukraine's temporary loss of military Starlink access, questioning Secretary of State Marco Rubio's remark that the outage 'sort of happened.'",
+      "why_it_matters": "Republican calls for scrutiny show the Starlink dispute is drawing oversight attention over who controls battlefield communications for Ukraine.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "defense"
+      ],
+      "entities": [
+        "Mike Turner",
+        "Marco Rubio",
+        "Starlink"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-18T22:38:01.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Mike Turner calls for investigation into Ukraine’s loss of Starlink access",
+          "url": "https://thehill.com/homenews/house/6157079-turner-demands-starlink-investigation/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c09",
+      "drop": "2026-10-19T05",
+      "headline": "Wheat rises as Russia-Ukraine strikes dim hopes of restarting exports",
+      "summary": "Wheat futures rose after weekend strikes between Russia and Ukraine made any deal to restart exports from the two major producers look increasingly unlikely, Bloomberg reports.",
+      "why_it_matters": "Wheat supply from the Black Sea region affects global food prices, including bread and grain costs in the US.",
+      "region": "Global",
+      "topics": [
+        "markets",
+        "war-conflict"
+      ],
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T04:48:16.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Wheat Futures Rise as Ukraine-Russia Strikes Stoke Supply Fears",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/wheat-futures-rise-as-ukraine-russia-strikes-stoke-supply-fears"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c10",
+      "drop": "2026-10-19T05",
+      "headline": "Iran warns US against renewed attack, says it has 'unfinished jobs'",
+      "summary": "Foreign Minister Abbas Araghchi said Iran emerged stronger last time the US wanted to 'finish the job' and warned Tehran has 'unfinished jobs' too, responding to Trump's remarks about Netanyahu and Iran.",
+      "why_it_matters": "The exchange signals little prospect of de-escalation in a war that is keeping oil prices high and US forces at risk.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Abbas Araghchi",
+        "Iran",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T21-c08",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-19T02:07:12.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Iran warns US against renewed attack, says it has ‘unfinished jobs’ too",
+          "url": "https://thehill.com/policy/international/6157194-iran-minister-warns-us-attacks/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c11",
+      "drop": "2026-10-19T05",
+      "headline": "Kenya confirms eighth Ebola case as regional outbreak widens",
+      "summary": "Kenyan health authorities confirmed an eighth Ebola case, a patient likely exposed to the country's first case. Al Jazeera describes a widening regional outbreak.",
+      "why_it_matters": "Ebola spread across borders raises travel and public-health concerns, including for US health agencies monitoring the outbreak.",
+      "region": "Africa",
+      "topics": [
+        "health",
+        "africa"
+      ],
+      "entities": [
+        "Kenya"
+      ],
+      "importance": 3,
+      "follows": "2026-10-17T21-c07",
+      "storyline_id": null,
+      "published_at": "2026-10-19T01:07:52.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Kenya confirms eighth Ebola case amid widening regional outbreak",
+          "url": "https://www.aljazeera.com/news/2026/10/19/kenya-confirms-eighth-ebola-case-amid-widening-regional-outbreak?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c12",
+      "drop": "2026-10-19T05",
+      "headline": "Pope Leo greets crowds in first major appearance since surgery",
+      "summary": "Pope Leo addressed the faithful in St Peter's Square and pledged a gradual return to his duties, in his first major public appearance since lung cancer surgery.",
+      "why_it_matters": "The health of the first American pope matters to the world's 1.4 billion Catholics and to Catholics in the US.",
+      "region": "Europe",
+      "topics": [
+        "health",
+        "culture-sports"
+      ],
+      "entities": [
+        "Pope Leo XIV",
+        "Vatican"
+      ],
+      "importance": 2,
+      "follows": "2026-10-17T16-c07",
+      "storyline_id": null,
+      "published_at": "2026-10-19T04:42:13.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Pope greeted by crowds in first major appearance since lung cancer surgery",
+          "url": "https://www.aljazeera.com/news/2026/10/19/pope-greeted-by-crowds-in-first-major-appearance-since-lung-cancer-surgery?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c13",
+      "drop": "2026-10-19T05",
+      "headline": "Lula and Bolsonaro trade attacks in Brazil's first runoff debate",
+      "summary": "Brazil's president Lula and his opponent exchanged a barrage of attacks in the first presidential runoff debate, a week before the October 25 vote, Al Jazeera reports.",
+      "why_it_matters": "Brazil is Latin America's largest economy; the outcome will influence trade, Amazon policy and relations with Washington.",
+      "region": "Americas",
+      "topics": [
+        "elections",
+        "latin-america"
+      ],
+      "entities": [
+        "Lula",
+        "Bolsonaro",
+        "Brazil"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T04:27:00.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Lula and Bolsonaro spar in Brazil’s fiery first presidential run-off debate",
+          "url": "https://www.aljazeera.com/news/2026/10/19/lula-and-bolsonaro-spar-in-brazils-fiery-first-presidential-run-off-debate?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c14",
+      "drop": "2026-10-19T05",
+      "headline": "Massachusetts GOP lieutenant governor candidate suspends campaign after arrest",
+      "summary": "Shawn Oliver, running mate of Republican gubernatorial candidate Mike Minogue, suspended his campaign after a rollover crash in New Bedford and an arrest on a charge of operating under the influence, among other charges.",
+      "why_it_matters": "The arrest disrupts the Massachusetts Republican ticket weeks before the November 3 election.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Shawn Oliver",
+        "Mike Minogue"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T22:31:23.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Mass. GOP candidate for lieutenant governor suspends campaign after arrest, OUI charge",
+          "url": "https://thehill.com/homenews/state-watch/6156929-shawn-oliver-suspends-campaign-after-arrest/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Massachusetts GOP ticket rocked by alleged drunken crash as candidate abruptly halts campaign",
+          "url": "https://www.foxnews.com/politics/massachusetts-gop-ticket-rocked-alleged-drunken-crash-candidate-abruptly-halts-campaign"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c15",
+      "drop": "2026-10-19T05",
+      "headline": "US Chamber of Commerce endorses Paxton as Texas early voting nears",
+      "summary": "The US Chamber of Commerce endorsed Republican Ken Paxton over Democrat James Talarico in Texas's Senate race. Both candidates held rallies Sunday before early voting begins Monday. The Hill reports Republicans are assigning blame over Paxton's struggles.",
+      "why_it_matters": "The Texas Senate race could help decide control of the chamber, and the Chamber's backing signals business-sector support.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Ken Paxton",
+        "James Talarico",
+        "US Chamber of Commerce"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-18T21:15:58.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "US Chamber of Commerce endorses Paxton over Talarico",
+          "url": "https://thehill.com/homenews/campaign/6156921-chamber-endorses-paxton-texas-senate/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Chamber of Commerce endorses Paxton as he and Talarico host rallies ahead of Texas early voting",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4770262/paxton-endorsement-talarico-rallies-texas-early-voting/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c16",
+      "drop": "2026-10-19T05",
+      "headline": "FT focus group in Pennsylvania finds anxiety ahead of midterms",
+      "summary": "The Financial Times convened a focus group in Bethlehem, Pennsylvania, a battleground area, and reports it revealed anxiety about the country ahead of the midterm elections.",
+      "why_it_matters": "Voter mood in swing areas like Pennsylvania will help decide control of Congress.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Pennsylvania"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-19T04:00:06.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Americans are unhappy. How will they vote in the midterms?",
+          "url": "https://www.ft.com/content/d375cde1-ec37-4c5e-87ab-a3a655e879d8?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c17",
+      "drop": "2026-10-19T05",
+      "headline": "Rivals criticize Beshear over resistance to Texas funding push",
+      "summary": "Axios reports Kentucky Gov. Andy Beshear, who heads the Democratic Governors Association, is in a dispute with Latino lawmakers who want heavy investment in Gina Hinojosa's Texas governor campaign, and potential 2028 rivals are using it.",
+      "why_it_matters": "The dispute shows intra-party tension over where Democrats spend in Texas and shapes early 2028 positioning.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Andy Beshear",
+        "Gina Hinojosa",
+        "Democratic Governors Association"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-18T21:45:07.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Rivals pile on Beshear over his resistance to Latinos' push for Texas funds",
+          "url": "https://www.axios.com/2026/10/18/beshear-rivals-latinos-texas-funding"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c18",
+      "drop": "2026-10-19T05",
+      "headline": "Fast-moving grass fire caused deadly Canadian base blaze",
+      "summary": "A fast-moving grass fire caused the blaze at a military base in Alberta that killed at least four people and injured dozens, officials said. Prime Minister Mark Carney called it one of the worst peacetime tragedies for Canada's forces.",
+      "why_it_matters": "The Canadian military is a close US ally, and the deaths affect NORAD and NATO partners.",
+      "region": "Americas",
+      "topics": [
+        "defense",
+        "climate"
+      ],
+      "entities": [
+        "Mark Carney",
+        "Canadian Armed Forces",
+        "Alberta"
+      ],
+      "importance": 3,
+      "follows": "2026-10-18T21-c01",
+      "storyline_id": null,
+      "published_at": "2026-10-19T00:49:14.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Fast-moving grass fire caused Canada’s military base tragedy",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/fast-moving-grass-fire-caused-canadas-military-base-tragedy?traffic_source=rss"
+        },
+        {
+          "outlet": "BBC",
+          "title": "What we know so far about deadly fire at Canadian military base",
+          "url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c19",
+      "drop": "2026-10-19T05",
+      "headline": "Macron calls for 'calm and order' after nationwide riots",
+      "summary": "President Macron gave a national address after widespread disorder, with some looting continuing in Paris. A historic town hall in Limoges was set alight. Political pressure on his government is growing, the BBC reports.",
+      "why_it_matters": "Unrest in France, a key US ally, is a political test six months before a closely watched election.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "us-politics"
+      ],
+      "entities": [
+        "Emmanuel Macron",
+        "France",
+        "Limoges"
+      ],
+      "importance": 4,
+      "follows": "2026-10-18T21-c02",
+      "storyline_id": null,
+      "published_at": "2026-10-18T19:55:48.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Macron calls for 'calm and order' after riots across France",
+          "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "BBC",
+          "title": "France's government under pressure after weekend of widespread violence",
+          "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Macron faces political firestorm after riots",
+          "url": "https://www.ft.com/content/19495e50-0f55-44b1-8d19-19244163a4e8?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c20",
+      "drop": "2026-10-19T05",
+      "headline": "French violence raises alert across Europe as euro slips",
+      "summary": "Bloomberg says the French unrest is raising alert levels in Europe, where at least half a dozen countries hold elections next year. The euro fell as the riots deepened worries about France's fiscal health and Russia tensions.",
+      "why_it_matters": "European instability can affect the euro, US exports and transatlantic markets.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "markets"
+      ],
+      "entities": [
+        "France",
+        "Euro"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T23:17:52.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "French Violence Raises Alert as Protests Flare Across Europe",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/french-violence-raises-alert-as-protests-flare-across-europe"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Euro Falls as Russia Risk, France Protests Dent Trader Sentiment",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/euro-falls-as-russia-risk-france-protests-dent-trader-sentiment"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c21",
+      "drop": "2026-10-19T05",
+      "headline": "Israel-to-Austria flight lands in Bulgaria after bomb threat",
+      "summary": "An Austrian Airlines flight from Israel made an emergency landing in Sofia after a bomb threat. Officials said the jet landed safely and all passengers and crew were unharmed.",
+      "why_it_matters": "Threats against Israel-linked flights add to regional tension and travel risk for Americans flying in the region.",
+      "region": "Europe",
+      "topics": [
+        "autos-transport",
+        "crime-justice"
+      ],
+      "entities": [
+        "Austrian Airlines",
+        "Bulgaria",
+        "Israel"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T23:58:05.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Bomb threat forces Israel to Austria flight into emergency landing",
+          "url": "https://www.bbc.co.uk/news/articles/c680zdmn100lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Flight from Israel makes emergency landing in Bulgaria after bomb threat",
+          "url": "https://www.aljazeera.com/news/2026/10/18/flight-from-israel-makes-emergency-landing-in-bulgaria-after-bomb-threat?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c22",
+      "drop": "2026-10-19T05",
+      "headline": "Arctic thaw releases heavy metals, ending safe tap water in Longyearbyen",
+      "summary": "Residents of Longyearbyen in Norway's Svalbard have been told to stop drinking tap water because climate-related thawing is releasing heavy metals, the Guardian reports, warning other Arctic communities.",
+      "why_it_matters": "It is a concrete example of warming damaging basic infrastructure, a risk for Arctic communities including Alaska.",
+      "region": "Europe",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "Longyearbyen",
+        "Svalbard",
+        "Norway"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T05:00:20.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Tap water no longer drinkable in Norwegian town as climate-related thawing releases heavy metals",
+          "url": "https://www.theguardian.com/environment/2026/oct/19/tap-water-no-longer-drinkable-norwegian-town-climate-related-thawing-heavy-metals-arctic-longyearbyen-svalbard"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c23",
+      "drop": "2026-10-19T05",
+      "headline": "Spacecraft set to launch to bring back dust from a Martian moon",
+      "summary": "A spacecraft is set to launch on an ambitious mission to return 10 grams of material from a Martian moon to Earth, the BBC reports.",
+      "why_it_matters": "Samples from Mars's moons could clarify how Mars and its moons formed and inform future human missions.",
+      "region": "Global",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "Mars"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T23:00:48.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Mission set to blast off for Mars to grab a piece of its moon",
+          "url": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c24",
+      "drop": "2026-10-19T05",
+      "headline": "UK profit warnings hit two-year high as Iran war lifts costs",
+      "summary": "UK-listed companies issued 65 profit warnings in the three months to September, the most in two years, as the Middle East war drives up business costs ahead of the budget, a consultancy found.",
+      "why_it_matters": "It shows how the Iran war's energy shock is spreading into corporate earnings abroad, with possible knock-on effects for US firms.",
+      "region": "Europe",
+      "topics": [
+        "economy",
+        "energy",
+        "markets"
+      ],
+      "entities": [
+        "United Kingdom"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T05:00:19.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Profit warnings from UK-listed firms at highest level in two years as Iran war drives up costs",
+          "url": "https://www.theguardian.com/business/2026/oct/19/profit-warnings-from-uk-listed-firms-at-highest-level-in-two-years-as-iran-war-drives-up-costs"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c25",
+      "drop": "2026-10-19T05",
+      "headline": "Bank of England scrutinizes Barclays over private credit exposure claim",
+      "summary": "The Bank of England is examining a complaint that Barclays traders understated the risk of derivatives used to finance private credit loans, the Financial Times reports.",
+      "why_it_matters": "Private credit risk is a growing worry for global banks and could spill into US lenders and funds.",
+      "region": "Europe",
+      "topics": [
+        "policy-regulation",
+        "markets"
+      ],
+      "entities": [
+        "Bank of England",
+        "Barclays"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T04:00:15.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "BoE scrutinises Barclays over claim traders misrepresented private credit exposure",
+          "url": "https://www.ft.com/content/f3127b4f-d33a-4431-acff-021829f3aa72?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c26",
+      "drop": "2026-10-19T05",
+      "headline": "Rising rates derail property recovery as buyers recut deals",
+      "summary": "The Financial Times reports a 'dire' mood in real estate as surging bond yields threaten deals agreed only months ago and buyers renegotiate terms.",
+      "why_it_matters": "With US Treasury yields above 5%, higher borrowing costs weigh on property values and commercial real estate lenders.",
+      "region": "Global",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T04:00:06.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Rising interest rates derail property recovery as buyers recut deals",
+          "url": "https://www.ft.com/content/aef890f1-e3f5-4add-b1fc-6187e2658106?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c27",
+      "drop": "2026-10-19T05",
+      "headline": "Venezuela's opposition renews backing for Maria Corina Machado",
+      "summary": "Venezuela's opposition renewed its support for exiled Nobel laureate Maria Corina Machado as leader. She has petitioned for new elections and for permission to return to the country.",
+      "why_it_matters": "Venezuela's political future affects migration, oil supply and US policy in Latin America.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "elections"
+      ],
+      "entities": [
+        "Maria Corina Machado",
+        "Venezuela"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T22:41:49.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Venezuela opposition renews support for Maria Corina Machado as leader",
+          "url": "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c28",
+      "drop": "2026-10-19T05",
+      "headline": "Savannah officer fired after sharing Flock login with ICE agent husband",
+      "summary": "Savannah police fired officer Amber Harpe in August after an investigation found she shared her Flock license-plate camera login with her husband, an ICE agent. The department says it does not share Flock data with ICE.",
+      "why_it_matters": "It highlights how license-plate camera data can be accessed outside official sharing rules, a privacy concern for US drivers.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "crime-justice"
+      ],
+      "entities": [
+        "Flock",
+        "Savannah Police Department",
+        "ICE"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T22:20:53.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
+          "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c29",
+      "drop": "2026-10-19T05",
+      "headline": "NSW plans law to expand Mount Pleasant coal output after court ruling",
+      "summary": "The New South Wales government will introduce special legislation allowing the Mount Pleasant coal mine to raise production by 32%. Critics say it bypasses a landmark High Court decision and call it 'legislative overreach.'",
+      "why_it_matters": "The fight over fossil fuel approvals in a major coal exporter bears on global emissions and energy supply.",
+      "region": "Asia",
+      "topics": [
+        "climate",
+        "energy",
+        "courts"
+      ],
+      "entities": [
+        "Chris Minns",
+        "New South Wales"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T04:21:15.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Minns accused of bypassing high court ruling with laws to allow NSW mine to increase coal production by 32%",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/19/chris-minns-bill-expansion-mount-pleasant-coalmine-high-court-decision"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c30",
+      "drop": "2026-10-19T05",
+      "headline": "Up to 20 maternity units in England may have to shut, NHS leader warns",
+      "summary": "An NHS Alliance director told the Guardian that centralizing services is inevitable, with up to 20 maternity units in England likely to close because of doctor shortages and rising costs, to ensure safe care.",
+      "why_it_matters": "It shows strains on a national health system, a case study for debates on staffing and care access.",
+      "region": "Europe",
+      "topics": [
+        "health",
+        "europe"
+      ],
+      "entities": [
+        "NHS"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T05:00:19.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Up to 20 maternity units in England may have to shut, NHS leader warns",
+          "url": "https://www.theguardian.com/society/2026/oct/19/up-to-20-maternity-units-england-shut-nhs-warning-matthew-hopkins"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c31",
+      "drop": "2026-10-19T05",
+      "headline": "EU steel tariffs aimed at China are hitting Ukraine, steel boss says",
+      "summary": "The head of one of Ukraine's biggest steel companies told the BBC that Ukraine has been 'bundled together' with measures meant to curb cheap imports, harming its exporters.",
+      "why_it_matters": "Trade barriers on a war-affected economy add strain on Ukraine's finances, which Western allies are helping to sustain.",
+      "region": "Europe",
+      "topics": [
+        "trade",
+        "europe"
+      ],
+      "entities": [
+        "European Union",
+        "Ukraine"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-18T23:28:45.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+          "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c32",
+      "drop": "2026-10-19T05",
+      "headline": "Toxic wildfire haze chokes millions in Indonesia's Kalimantan",
+      "summary": "The BBC visited a wildfire front in central Kalimantan, where a toxic haze fueled by fires is affecting millions of residents.",
+      "why_it_matters": "Smoke from Southeast Asian fires harms health across the region and releases large amounts of carbon.",
+      "region": "Asia",
+      "topics": [
+        "climate",
+        "health"
+      ],
+      "entities": [
+        "Indonesia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T01:57:02.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "BBC visits wildfire front in haze-choked Indonesia",
+          "url": "https://www.bbc.co.uk/news/videos/cm9wzye55j4xo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-19T05-c33",
+      "drop": "2026-10-19T05",
+      "headline": "Verdict due for Kenyan pastor accused of ordering children starved",
+      "summary": "Paul Mackenzie, a Kenyan pastor, faces a verdict. Prosecutors say he lured the latest victims to their deaths by writing notes from his prison cell.",
+      "why_it_matters": "The case is one of Kenya's worst cult-linked mass-death prosecutions and tests the country's oversight of religious groups.",
+      "region": "Africa",
+      "topics": [
+        "crime-justice",
+        "africa"
+      ],
+      "entities": [
+        "Paul Mackenzie",
+        "Kenya"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T03:44:02.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Kenya pastor accused of ordering parents to starve their children to death faces verdict",
+          "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-19T05-c34",
+      "drop": "2026-10-19T05",
+      "headline": "Amelia Earhart expedition finds 'plane debris' was a clump of trees",
+      "summary": "A US expedition to Nikumaroro in Kiribati left empty-handed after an object spotted as a metallic glint, suspected to be Earhart plane debris, turned out to be a clump of trees.",
+      "why_it_matters": "The disappearance of Amelia Earhart in 1937 remains one of aviation's best-known unsolved mysteries.",
+      "region": "Global",
+      "topics": [
+        "science",
+        "culture-sports"
+      ],
+      "entities": [
+        "Amelia Earhart",
+        "Purdue University",
+        "Kiribati"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-19T04:43:41.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Amelia Earhart researchers leave remote atoll empty-handed after ‘plane debris’ found to be a clump of trees",
+          "url": "https://www.theguardian.com/us-news/2026/oct/19/amelia-earhart-purdue-expedition-clump-of-trees-nikumaroro-kiribati"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}

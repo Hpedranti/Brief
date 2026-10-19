@@ -1,15 +1,25 @@
 {
   "version": 1,
-  "updated_at": "2026-10-18T21:18:16Z",
+  "updated_at": "2026-10-19T05:48:39Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump waived Russia sanctions and signed a diesel deal; aides offer differing rationales amid bipartisan criticism. Zelenskyy thanks the US for resumed intelligence sharing but says Starlink was throttled; the administration denies it. St Petersburg suffered Ukraine's biggest drone attack.",
+      "summary": "Trump defended waiving Russia sanctions, saying it keeps Moscow at the table, and said Zelenskyy does not want peace. Critics in both parties object; Zelenskyy spoke with US envoys. Starlink limits spur calls for investigation. Ukraine struck St Petersburg with over 1,000 drones.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "Rep. Mike Turner calls for an investigation into Ukraine's temporary loss of military Starlink access.",
+          "url": "https://thehill.com/homenews/house/6157079-turner-demands-starlink-investigation/"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Trump defends waiving Russia sanctions as keeping Moscow at the table and says Zelenskyy 'doesn't want to end this war.'",
+          "url": "https://thehill.com/homenews/administration/6157113-donald-trump-defends-russia-sanctions-waiver/"
+        },
         {
           "date": "2026-10-18",
           "text": "Zelenskyy says Ukraine trusts the US and hopes Trump changes his decisions; Bessent calls his Starlink claims reckless.",
@@ -99,22 +109,22 @@
           "date": "2026-10-16",
           "text": "Ukraine's Operation Vivaldi retakes more territory in Donetsk, with Starlink playing a key role, the BBC reports.",
           "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Zelenskyy says Starlink access not fully restored; reports say the White House ordered the limit; EU leaders rally behind Kyiv.",
-          "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Options traders brace for a VIX surge, while Treasuries show tentative haven demand that could hurt heavy bond short positions.",
+      "summary": "Big Tech, chip and bank stocks are sliding as credit markets question the AI debt buildup. Asian chip stocks fell again Monday on funding worries and a DeepSeek model, while US futures rebounded. Options traders brace for a VIX surge.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "Asian chip stocks fall again as DeepSeek's latest model and AI financing worries hit demand expectations.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-19/korean-stocks-fall-as-deepseek-model-funding-worry-rattle-chips"
+        },
         {
           "date": "2026-10-18",
           "text": "Bloomberg says Treasuries show tentative haven signs, threatening big short bets as the AI trade wobbles.",
@@ -190,11 +200,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Polls show Trump approval at new lows and Democrats leading the generic ballot by 8 to 10 points, per Axios. Inflation worries Republicans, early voting is underway, and Trump is on a seven-stop tour. Senate candidates trade sharp rhetoric.",
+      "summary": "Polls show Trump approval at new lows and Democrats leading the generic ballot by 8 to 10 points, per Axios. Inflation worries Republicans, early voting is underway, and the Texas Senate race draws attention as the Chamber endorses Paxton.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "US Chamber of Commerce endorses Ken Paxton over James Talarico as both hold rallies before Texas early voting begins Monday.",
+          "url": "https://thehill.com/homenews/campaign/6156921-chamber-endorses-paxton-texas-senate/"
+        },
+        {
+          "date": "2026-10-18",
+          "text": "Axios reports Beshear faces criticism from Latino lawmakers and potential 2028 rivals over Texas funding.",
+          "url": "https://www.axios.com/2026/10/18/beshear-rivals-latinos-texas-funding"
+        },
         {
           "date": "2026-10-18",
           "text": "Axios reports three polls show Trump approval at new lows and Democrats leading by 8 to 10 points.",
@@ -285,11 +305,16 @@
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent crude reached $110. Tankers have hit mines in Hormuz, and both sides claim control. Trump endorsed Netanyahu, saying the US may have to finish the job alone if he loses; Bessent says falling oil depends on the war.",
+      "summary": "After nine months of war, Brent hit $110 before easing from a five-month high. Tankers have hit mines in Hormuz and Houthi attacks on Saudi Arabia intensify. Trump endorsed Netanyahu; Iran's foreign minister warns Tehran has 'unfinished jobs' too.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-18",
       "events": [
+        {
+          "date": "2026-10-18",
+          "text": "Iran's Araghchi warns the US against renewed attack, saying Tehran has 'unfinished jobs' too.",
+          "url": "https://thehill.com/policy/international/6157194-iran-minister-warns-us-attacks/"
+        },
         {
           "date": "2026-10-18",
           "text": "GCC ministers condemn Houthi attacks on Saudi Arabia as Yemen fighting displaces more than 233,000 people.",
