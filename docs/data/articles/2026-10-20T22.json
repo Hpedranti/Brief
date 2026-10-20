@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "drop": "2026-10-20T22",
+  "articles": {
+    "2026-10-20T22-c20": {
+      "paragraphs": [
+        "Housing data worsened in September, according to separate reports released Tuesday, adding to the Federal Reserve's difficulties as it considers its next interest rate move, CNBC reported. The National Association of Realtors said pending home sales hit an all-time low in records going back to 2001. The index fell 7.3% for the month and 11.3% from a year earlier. Wall Street had expected a decline of just 0.4%.",
+        "Commerce Department data showed privately owned housing starts fell at a seasonally adjusted annualized rate of 5.2%, against an expected drop of 0.4%. Building permits fell 0.2%, while economists had forecast a 2% gain. Single-family permits totaled 845,000, down 4% from August and the lowest since 2023. NAR chief economist Lawrence Yun attributed the weakness to fast-rising mortgage rates. According to Mortgage News Daily, the 30-year rate ended September around 7.6%.",
+        "The Fed faces a bind. Lower rates could ease housing weakness, but CNBC noted that inflation readings last week offered little relief. Wholesale final demand goods prices rose 2.6%, the fastest pace in a BLS series going back to December 2009. Fed officials have said they are watching the inflationary effects of heavy artificial intelligence investment, though they believe its benefits could offset weaker sectors such as housing.",
+        "Goldman Sachs economist Ronnie Walker wrote that affordability headwinds should increasingly dominate in 2027. Goldman forecasts residential investment declines over the next three quarters. Markets expect the Fed to hold rates steady at its meeting next week. According to the CME Group's FedWatch tool, futures imply a strong chance of a quarter-point hike in December and another in March 2027.",
+        "Yun offered a more hopeful view. Because mortgage rates have already risen much more than the Fed's short-term rates, he said, they could be topping out, and buyers and sellers may be waiting for more favorable rates."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+      ]
+    },
+    "2026-10-20T22-c22": {
+      "paragraphs": [
+        "Google announced Tuesday that TorchTPU, its version of the PyTorch AI toolkit, is available as an open-source project, TechCrunch reported. It lets AI applications run on Google's Tensor Processing Units, or TPUs. Developers can move existing PyTorch apps to TPUs, and therefore to Google Cloud, with a configuration change and no rewriting, according to the report.",
+        "The release follows a similar move by Amazon on Monday. Amazon released TorchNeuron, which ports AI apps to its Trainium chip and to AWS without rewriting. Amazon also said it is submitting code to the main PyTorch project that decouples various features from Nvidia's chips, which would make the project more open to any hardware by default.",
+        "The context is Nvidia's position. PyTorch is used by some accounts in 85% of AI apps. Meta developed it in 2016, when Nvidia's GPUs were already the standard hardware for AI research, so many of its features were built to work with them. Meta turned the project over to the Linux Foundation in 2022.",
+        "TechCrunch said Google may be going further than Amazon in some respects. Google says it worked directly with Meta, Hugging Face, Inferact (maker of vLLM), RadixArk (maker of SGLang) and others so TorchTPU works well with popular AI development tools. It also launched a TPU agent suite to help developers move apps to its chips and cloud and fix errors, and it updated LiteRT, which runs AI on phones, laptops and embedded devices, to work better with PyTorch apps.",
+        "TechCrunch cautioned that developers will not necessarily leave Nvidia hardware en masse simply because moving is now easier. It said Amazon and Google are clearly working to end Nvidia's advantage."
+      ],
+      "based_on": [
+        "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
+      ]
+    },
+    "2026-10-20T22-c24": {
+      "paragraphs": [
+        "Security teams worldwide went on high alert Tuesday after eight TLS certificates were found to have private keys so weak that anyone could use them to create trusted browser and app credentials for any website, Ars Technica reported. The eight intermediate certificates belong to eMudhra Limited, an India-based certificate authority. By late morning, browser makers and some major apps and programming languages had blocked all eight.",
+        "Ars said there were no reports of certificate transparency logs showing the keys being used maliciously. An advisory posted on a website carrying the eMudhra name was signed with the private key of one of the certificates, which showed the reporting party controlled it. eMudhra representatives were not immediately available for comment.",
+        "The keys were extraordinarily weak. A normal P-384 key has roughly 384 bits of entropy, but the compromised keys ranged from 3 to 8 bits. Cryptography engineer Filippo Valsorda told Ars it was in the category of things that should not be possible. Ben Cartwright-Cox of BGP.tools guessed example code may have leaked into production, but said that was hard to know.",
+        "The threat is not over. Valsorda said the cleanup would be bigger than Heartbleed, with a very long tail including Internet of Things devices, Docker containers, forgotten Linux machines and tools that ship their own copy of root certificates. Some Linux distributions are still rolling out updates.",
+        "According to Ars, Edge on Windows 10 appeared to be the exception among browsers, still connecting to 12 vulnerable hosts when the article was published. A Microsoft representative said the company would be in touch if it had anything to share. Apps that do not rely on TLS for confidentiality, such as Signal, WhatsApp and WireGuard, are not affected. Ars said exploitation requires an active adversary-in-the-middle attack, which is easier for someone controlling a local network."
+      ],
+      "based_on": [
+        "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/"
+      ]
+    },
+    "2026-10-20T22-c25": {
+      "paragraphs": [
+        "Nigeria confirmed an Ebola case in its capital, Abuja, on Tuesday after a woman who arrived from Uganda tested positive, the Health Ministry said, according to NPR and Al Jazeera. She began showing symptoms on Oct. 7 and was admitted to a private hospital in Abuja on Oct. 11, where she was diagnosed.",
+        "Health Minister Muhammad Pate said authorities had begun tracing 44 people identified as her contacts. He said officials were doing everything possible to contain the case. Uganda had previously reported Ebola cases but later declared itself free of the virus.",
+        "The case comes as the Bundibugyo outbreak spreads. NPR reported that it has infected more than 9,000 people and killed more than 4,300, mostly in Congo, and the WHO has said it is the fastest-spreading Ebola outbreak on record. Jean Kaseya, director general of the Africa Centers for Disease Control, said it has become the most geographically extensive in history, with a fatality rate of nearly 50%. Al Jazeera said no licensed vaccine or specific treatment exists for the strain.",
+        "Kenya, meanwhile, confirmed a ninth case Tuesday, a 24-year-old man who was already in quarantine. He was a close relative of the country's first patient, who died in Nairobi on Oct. 5 after traveling from Congo through Uganda. Patrick Amoth, Kenya's director general for health, said all nine cases belong to one cluster with no evidence of transmission outside it. He said eight patients are stable and 134 of 135 contacts have been traced and quarantined. Most could go home from Oct. 25 after the 21-day monitoring period. Kenya has not imposed travel, trade or gathering restrictions.",
+        "Nigeria set up an Ebola task force in June, and its disease control agency said it stepped up surveillance after Kenya's case. During West Africa's 2014 to 2016 outbreak, Nigeria recorded 20 cases."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+        "https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case?traffic_source=rss"
+      ]
+    },
+    "2026-10-20T22-c27": {
+      "paragraphs": [
+        "Judicial police in Guinea-Bissau raided the offices of the Bandim Health Project on Monday and seized doses of hepatitis B vaccine, officials said on Facebook, according to The Guardian. The post, translated from Portuguese, described investigative procedures to clarify circumstances around a batch of vaccines. It said the seizure did not point to irregularities in the vaccines' quality, safety or effectiveness.",
+        "Bandim's researchers are at the center of a dispute over a study on African newborns. It is backed by $1.6 million from the US Centers for Disease Control and Prevention, matched by the Pershing Square Foundation and the Bluebell Foundation, for $3.2 million in total. Health Secretary Robert F. Kennedy Jr. has praised the group, calling its researchers deities of vaccine research at a recent conference.",
+        "The redesigned study would still withhold hepatitis B vaccine from 7,000 newborns in their first six weeks, in a country where about one in five adults has the virus. The Guardian reported that the disease kills 15% to 25% of people with chronic infections, and that vaccination within 24 hours of birth is safe and highly effective. A World Health Organization spokesperson, Tarik Jašarević, said any study denying the vaccine is unethical and exposes newborns to serious harm.",
+        "The study's status is contested. Bandim posted an approval letter from the national ethics committee dated July 14, and a Danish ethics committee approved it earlier this month. Health Minister Quinhin Nantote disputed reports that the trial would proceed, saying that was not even remotely true. Peter Aaby, Christine Stabell Benn and lead researcher Frederik Schaltz-Buchholzer did not respond to the Guardian's questions.",
+        "Colette Delawalla of Stand Up for Science said her group's investigator found significant distrust of Bandim, and she described Guinea-Bissau as fragile after a coup less than a year ago."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/20/rfk-jr-vaccine-researchers-offices-raided-guinea-bissau"
+      ]
+    },
+    "2026-10-20T22-c30": {
+      "paragraphs": [
+        "A senior US defense official said the Pentagon is weighing possible changes to its force posture against the cost of rebuilding bases in the Middle East, according to Breaking Defense. Speaking to reporters at a Defense Writers Group breakfast, the official said the department is meeting with US Central Command on assessments of installations. \"Part of this is what will the global posture be in the future, and what does that require us to have?\" the official said.",
+        "The report says Tehran and its proxies began targeting US bases in the region after the United States and Israel attacked Iran in February. Strikes at Al Udeid Air Base in Qatar reportedly left the Pentagon's Combined Air Operations Center inoperable, and installations in Saudi Arabia and Jordan were also hit. Acting Navy Secretary Hung Cao told The Epoch Times that \"they blew the hell out of Bahrain,\" where the Fifth Fleet was headquartered. Chief of Naval Operations Adm. Daryl Caudle separately said the Navy would not use Naval Support Activity Bahrain \"anytime soon.\"",
+        "Pentagon leaders have given lawmakers cost estimates for the Iran war, but those figures have not fully covered base repairs. Members of the Senate Armed Services Committee asked earlier this week for the department to publicly disclose the total cost, including damage to installations. The official said no estimate was readily available, but that the department is taking a strategic approach to repairs.",
+        "The official also pointed to drones and cruise missiles as a changing threat, saying the Pentagon must consider how to protect bases overseas and on the US mainland. \"The installation is the weapon system,\" the official said. The department is also working with the Golden Dome team to decide which locations to protect first, the official said."
+      ],
+      "based_on": [
+        "https://breakingdefense.com/2026/10/pentagon-weighs-force-posture-costs-of-rebuilding-middle-east-bases/"
+      ]
+    },
+    "2026-10-20T22-c31": {
+      "paragraphs": [
+        "Italy's government is sending 500 soldiers to Milan and has promised a \"firm response from the state\" after protests over the cost of living turned into clashes with police, vandalism and looting, The Guardian reported. Further demonstrations are planned for Saturday. Police in Milan detained 271 young people over the weekend, after hooded youths set bins on fire and smashed windows on the fringes of an initially peaceful protest. Of those detained, 32 were arrested, including 23 minors and 13 foreign nationals, police said.",
+        "Italian media reported that Prime Minister Giorgia Meloni's government plans to approve tougher security measures quickly. They include longer preventive detention for minors, a crackdown on youth gangs and bans on gatherings by people deemed a threat to public order. Foreign Minister Antonio Tajani said the government would respond firmly, including with measures to curb violence by minors. Opposition politicians often accuse the government of using security as a propaganda tool, arguing it does little about education, housing and living conditions in marginalised areas.",
+        "In France, Interior Minister Laurent Nuñez said some military forces would be deployed during Saturday's protests, mostly to free police and gendarmes for maintaining order. Prime Minister Sébastien Lecornu said the police presence would be \"massive\" and that he wanted an \"immediate return to order\" after last weekend's riots. Nearly 2,400 people were arrested in the unrest. Partial curfews were announced in several cities, including Paris, Bordeaux, Lille and Nice.",
+        "A new movement called 17 October has said on social media that it will hold demonstrations in Milan and other Italian cities each Saturday afternoon. Thousands also rallied in Lisbon and other Portuguese cities over housing costs on Tuesday, after police dismantled protest camps and arrested 55 people."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe"
+      ]
+    },
+    "2026-10-20T22-c32": {
+      "paragraphs": [
+        "Voters in Alberta have rejected a proposal to begin a legal process toward a binding referendum on leaving Canada, according to preliminary results cited by the BBC. Elections Alberta figures indicate more than two-thirds chose to remain. Prime Minister Mark Carney said he was \"thrilled that Albertans have chosen unity\" and called it a \"great result\" for the country. He said he had spoken to Premier Danielle Smith about cooperative federalism, including on immigration.",
+        "Smith, who herself opposed the separatist push, said Albertans voted for \"a stronger Alberta in a united Canada.\" She called the vote after a grassroots group gathered about 300,000 signatures on a petition. A judge had blocked that petition, saying it failed to consult First Nations, but Smith went ahead with the ballot. Another group collected more than 400,000 signatures opposing separation. Smith had said that if voters chose to remain, no binding referendum would be held while she was in power.",
+        "Separatists argued that Alberta's economic growth had been held back by Ottawa's environmental policies. Opponents, including Carney, called for a united front amid a trade war with the United States. Separatist leader Jeffrey Rath said the movement \"isn't stopping,\" called the vote a \"first step,\" and said he saw nothing wrong with holding further votes. The BBC reported that separatist leaders plan to try to push Smith out within her United Conservative Party.",
+        "Saskatchewan Premier Scott Moe said there is \"still work to be done on improving how Western Canada is treated by Ottawa.\" Conservative leader Pierre Poilievre said the focus should now be on results in people's lives. The ballot also had nine non-binding questions, five on immigration and four on the constitution, and early results suggest most will pass."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-10-20T22-c33": {
+      "paragraphs": [
+        "The UK government is due to approve the Jackdaw gas field in the North Sea on Wednesday, according to the Guardian and the BBC, both citing sources. The Guardian reports that Energy Secretary Miatta Fahnbulleh and Chancellor John Healey will make the announcement in Aberdeen. The BBC says Fahnbulleh is expected to address MPs in the afternoon. The decision follows more than a year of deliberation over whether approval would breach the UK's climate commitments.",
+        "The Guardian says sources told it Fahnbulleh has decided not to block the field, allowing the North Sea Transition Authority to give the go-ahead. Ministers will say that environmental approval does not break Labour's manifesto pledge because it is not a new licence. The BBC notes the 2024 manifesto promised no new licences but to honour existing ones such as Jackdaw. Prime Minister Andy Burnham has promised a \"pragmatic approach\" to oil and gas.",
+        "The fields' approvals were found unlawful last year after a court ruled that the climate impact of burning the extracted oil and gas had not been considered. Shell and Equinor, which operate Jackdaw, resubmitted their application last September. Industry bodies argue production would provide jobs and improve energy security.",
+        "Environmental campaigners disagree. Tessa Khan of Uplift said Jackdaw would supply about 2% of UK gas demand for roughly a decade and that \"no new oil and gasfields are compatible with safe climate limits.\" A Savanta poll for E3G, seen by the Guardian, found nearly a third of voters would be less likely to vote Labour if more drilling were approved. A decision on the larger Rosebank oil field is not expected yet, with the Guardian saying one is due later this year."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/environment/2026/oct/20/jackdaw-north-sea-gas-field-to-get-go-ahead-in-blow-to-climate-campaigners",
+        "https://www.bbc.co.uk/news/articles/cvze4wx3elj1o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-10-20T22-c34": {
+      "paragraphs": [
+        "The Pentagon is spending the winter evaluating options for expanding US basing in Greenland, with the aim of breaking ground on new facilities next year, a senior defense official said, according to Defense One. The official, speaking on background at an event hosted by the Project on Media and National Security, said the department is in a planning cycle because the weather window for construction is closing.",
+        "The Trump administration announced in September that military outposts at Mestersvig and Narsarsuaq would become US bases, while the existing US footprint at Pituffik Space Base would grow. Defense One reports that in January, President Trump threatened to invade the island and to impose tariffs on Denmark and other NATO allies in an effort to force a sale. It says he instead settled for expanding a 1951 treaty that lets the US base forces in Greenland.",
+        "The official said Mestersvig has a 6,000-foot gravel runway and has mainly hosted special operations forces. Planners are asking what capabilities are needed on Greenland's eastern side. At Narsarsuaq in the south, they are looking at what runway upgrades would be needed for modern aircraft. \"If it's capable of putting in C-130s, great. If I needed to put fighter aircraft in there for some reason... what would that take?\" the official said.",
+        "The official stressed that the discussion is at an early stage. The Pentagon is looking first at what is possible, including lodging, food and energy for troops, rather than deciding what to station at each site. \"That's not where we're at in that conversation,\" the official said."
+      ],
+      "based_on": [
+        "https://www.defenseone.com/policy/2026/10/pentagon-expand-greenland-bases/416706/"
+      ]
+    },
+    "2026-10-20T22-c35": {
+      "paragraphs": [
+        "Defense Secretary Pete Hegseth has appointed Medal of Honor recipient and Marine Corps reservist Dakota Meyer as his senior advisor to the Pentagon's Barracks Task Force, Defense News reported. Hegseth announced the move Monday in a social media video. The task force is meant to address what the department calls \"unacceptable\" living conditions in military barracks. Meyer will travel to installations, look at barracks, meet service members and identify what is blocking fixes.",
+        "His first stops are in California: Camp Pendleton on Tuesday and Wednesday, Twentynine Palms on Thursday and Miramar on Friday. A map shown in the video indicated he will have visited 21 bases by the end of December, most on the East Coast. Hegseth said Meyer will be holding town halls and \"providing real solutions.\" Meyer said that if the problem is not fixed, \"there's only one person to blame. Me.\"",
+        "Hegseth formed the task force in October 2025, led by the assistant secretary of defense for energy, installations and environment. It is meant to identify investment opportunities and create department-wide barracks standards. The July 2025 reconciliation law gave the Defense Department $1.2 billion for barracks improvement, including $230 million for the Marine Corps Barracks 2030 initiative. It also provided $1 billion for military housing restoration and modernization.",
+        "An August Government Accountability Office report found the department does not request enough funding to meet installation maintenance needs, leaving an estimated $285 billion backlog in fiscal 2025. Earlier GAO reports found some barracks were \"chronically neglected.\" Meyer received the Medal of Honor in 2011 for actions in Afghanistan in 2009. He left the Marine Corps in 2010 and re-enlisted in the reserves in April 2025."
+      ],
+      "based_on": [
+        "https://www.defensenews.com/news/pentagon-congress/2026/10/20/medal-of-honor-recipient-dakota-meyer-tapped-as-barracks-task-force-senior-advisor/"
+      ]
+    },
+    "2026-10-20T22-c36": {
+      "paragraphs": [
+        "Quantinuum announced Monday that its current hardware can scale well beyond the breakeven point in quantum error correction, according to Ars Technica. Each step up in the size of its logical qubits improved some measures of performance by a factor of more than 10. A logical qubit links a group of hardware qubits so errors can be detected and corrected.",
+        "Ars Technica explains why this matters. Adding hardware qubits can help find errors, but each added qubit can also introduce errors. Several companies have shown logical qubits past breakeven, where more qubits improve performance, but the gains have been modest. Most demonstrations have cut the error rate by a factor closer to two than 10 at each step in code distance, a rough measure of how many errors a logical qubit can tolerate. At that rate, the article says, running complex algorithms might require many thousands of hardware qubits per logical qubit.",
+        "Quantinuum builds trapped-ion computers, and its latest machine is called Helios. It moves ions around a ring and into two arms where lasers perform operations, so any ion can be entangled with any other. That lets Helios host essentially any error code. Earlier machines lacked enough qubits to raise the distance much. Helios could run versions of a color code at distances of three, five and seven, though it has enough hardware qubits for only one distance-seven logical qubit at a time.",
+        "The company also changed how it handles leakage, where a qubit ends up in an energy state not used for calculation. Laser light returns those qubits to the computing states, which Quantinuum says suppresses leakage errors by a factor of 6.5. Software can also swap leaked data qubits for measurement qubits, which are then reset and reused."
+      ],
+      "based_on": [
+        "https://arstechnica.com/science/2026/10/quantum-error-correction-goes-well-beyond-breakeven/"
+      ]
+    },
+    "2026-10-20T22-c37": {
+      "paragraphs": [
+        "NASA says work is advancing on the nuclear power module for SR-1 Freedom, a mission it describes as the first fission-powered spacecraft to travel beyond Earth orbit. The agency said the spacecraft, announced at its \"Ignition\" event, will demonstrate nuclear electric propulsion in deep space. NASA and its partners have agreed to key contract actions meant to speed development.",
+        "Steve Sinacore, the program director, said the actions \"reduce technical risk and help us maintain momentum toward our 2028 launch.\" Sierra Lobo Inc. will supply the module's closed Brayton cycle power conversion system, which turns heat from the fission reactor into electricity for the propulsion demonstration. That work falls under the Space Flight Systems Development and Operations Contract III, awarded in 2024, and supports hardware work at NASA's Glenn Research Center in Cleveland.",
+        "The conversion system will be integrated with the reactor, which the Department of Energy's Idaho National Laboratory is designing and developing, to complete the module. NASA said it and the Energy Department build in safety standards, including interagency reviews, continuous oversight by a NASA chief safety officer, regulatory compliance and a design process focused on hazards and failure tolerance. NASA also said the reactor will remain inactive until the spacecraft leaves Earth orbit.",
+        "SR-1 Freedom is scheduled to launch in late 2028. It will carry the SkyFall science mission, three Mars helicopters evolved from the Ingenuity design, to gather data, demonstrate exploration zones and identify potential water sources. NASA said the mission will pave the way for next-generation fission-powered systems intended to keep its Moon Base operating through periods of darkness and where solar power alone is not enough."
+      ],
+      "based_on": [
+        "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/"
+      ]
+    },
+    "2026-10-20T22-c39": {
+      "paragraphs": [
+        "Sudan's army has been accused of drone strikes that reportedly killed more than 300 people, including dozens travelling to a funeral, the BBC reported. The Sudan War Observatory, which tracks the conflict, said sources put the toll at 150 from strikes in two areas of West Kordofan state on Sunday evening. In Abyei, a disputed border area, the region's information minister said 153 people died when drones hit a market on Monday. He told the Associated Press and Reuters the toll had risen from 73.",
+        "A military source told the BBC the army carried out the Abyei attack, saying the market supplied fuel to the paramilitary Rapid Support Forces. The army has not responded to the allegation about the other strikes, but said it does not attack civilians even if it believes RSF fighters are among them. The Observatory said a truck carrying around 200 mourners was hit in Al-Dabab, killing 145, and a funeral tent was also struck, killing five. It said 150 more were injured.",
+        "BBC Verify studied satellite images showing extensive burnt buildings at Amiet Market and verified footage of smoke and fires near it. Doctors Without Borders said it received more than 20 patients at a hospital in Abyei town, including burn cases. A trader noted that the area is a weapons-free zone under UN protection, with more than 2,800 uniformed UN personnel deployed.",
+        "South Sudan summoned Sudan's ambassador to lodge a formal protest, and there are fears of spillover across the border. Both countries claim Abyei. A UN spokesperson said the organization is alarmed by drone strikes killing civilians. The war, which began in 2023, has forced more than 14 million people from their homes, and 20 million face acute hunger."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-10-20T22-c01": {
+      "paragraphs": [
+        "Elon Musk said Tuesday that Tesla and SpaceX have formed special committees to discuss a possible merger, according to The Verge. He made the remarks during SpaceX's third-quarter earnings call. Musk, who is CEO of both companies, said the committees were formed at shareholders' request and consist of independent directors, though he did not name them. He said he is not a member of either committee and is not involved in the discussions.",
+        "The two sides have not agreed on terms, and Musk said there is no guarantee they will. \"At the end of the day, the shareholders have to be supportive of this,\" he said. On the Tesla side, he said, a deal would need approval from 50 percent of all shares, not just those voting, which he called \"quite a high hurdle.\" Even so, he called the idea \"a good idea,\" pointing to possible cooperation on superintelligence software, chip design, robotics and connectivity.",
+        "The Verge reported that a combined company would be valued at upwards of $3.6 trillion. It said Tesla would have to create millions of new shares to buy SpaceX, which would shrink existing owners' stakes, and that SpaceX's launch goals require tens of billions of dollars a year. According to the outlet, most Wall Street analysts and legal experts expect SpaceX to acquire Tesla, or absorb it through a stock swap, because SpaceX has held a higher valuation since its IPO. The Verge said some Tesla shareholders may object to such a structure.",
+        "Musk said the committees must first come up with a proposal, which would then go to a shareholder vote. The Verge noted that Barclays published a client note earlier this month suggesting a combination could be announced before Tesla's annual shareholder meeting, scheduled for December 3, 2026."
+      ],
+      "based_on": [
+        "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees"
+      ]
+    },
+    "2026-10-20T22-c02": {
+      "paragraphs": [
+        "SpaceX reported third-quarter revenue of $14.6 billion on Tuesday, which it said was up 161 percent from a year earlier. The company credited its Super Intelligence segment and faster growth in Connectivity, according to The Verge. It is SpaceX's second earnings report since its June IPO.",
+        "The Verge said the Super Intelligence segment brought in $7.6 billion, up 830 percent, driven by new cloud services agreements, the acquisition of Cursor and wider Grok adoption. TechCrunch put that figure at $7.5 billion. Connectivity revenue was $5.2 billion, with 13.6 million Starlink consumer subscribers. The Space division had revenue of $1.8 billion, up six percent, and a $7 million operating loss. Connectivity posted $2.4 billion in operating income and the AI segment $431 million.",
+        "TechCrunch reported net income of $4.4 billion, compared with a $1 billion loss in the same quarter last year. Over the first nine months of the year, it said, SpaceX still had a net loss of $413 million. It also said about $1 billion of the quarter's income was tied to the recovery of Bitcoin prices and unspecified related-party income.",
+        "Capital spending was $19.6 billion, TechCrunch reported, and CFO Bret Johnsen said the company would spend $35 billion to $40 billion on new capital investments in the fourth quarter. He forecast first-quarter 2027 revenue of $33 billion to $37 billion.",
+        "On the call, Musk predicted annual recurring revenue from the AI business of \"somewhere between $500 billion and $1 trillion\" by the end of 2027. He also said Starship's next flight, expected in November, would try to recover both stages, and that Tesla and SpaceX are discussing a possible merger."
+      ],
+      "based_on": [
+        "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
+        "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
+      ]
+    },
+    "2026-10-20T22-c03": {
+      "paragraphs": [
+        "SpaceX CEO Elon Musk said the company will attempt next month to catch both Starship and its booster, with the aim of recovering the whole orbital launch system for the first time, according to The Verge. If it works, Musk said, it would be the first time an orbital launch vehicle has been fully recovered. He spoke during the company's third-quarter earnings report on Tuesday.",
+        "Musk called the attempt \"a profound technology milestone in the history of civilization consciousness,\" but acknowledged it could fail. \"Success is not guaranteed on these first flights, but I'd say it's more likely than not that this succeeds next flight,\" he said. If it does not, he said, SpaceX has \"a steady stream of Starship flight attempts through the end of this year and then accelerating next year.\"",
+        "The Verge described Starship as a two-stage system made up of the Super Heavy booster and the Starship spacecraft. It stands about 120 meters, or roughly 400 feet, tall with a 9-meter diameter and is powered by Raptor engines burning liquid methane and liquid oxygen. The vehicle was designed to return to its launch site, where launch towers with mechanical \"chopstick\" arms catch it in mid-air.",
+        "The outlet also recapped last month's launch. It sent the spacecraft into Earth orbit and, for the first time, placed a few dozen of SpaceX's larger V3 satellites into the Starlink constellation. One Raptor engine shut down early during ascent, and mission control completed the climb on the remaining engines. Because of the problem, SpaceX cut the planned 10-hour, six-orbit mission to about three hours and two orbits. The booster splashed down in the Gulf of Mexico and the upper stage in the Pacific north of Hawaii. Neither was recovered."
+      ],
+      "based_on": [
+        "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says"
+      ]
+    },
+    "2026-10-20T22-c04": {
+      "paragraphs": [
+        "Ukrainian President Volodymyr Zelenskyy said Tuesday that US intelligence sharing on Russian missile strikes has resumed after he met US envoy Steve Witkoff in Oslo. \"Now it works. It's great,\" he said, adding that advance warnings of ballistic missile attacks would save lives. The Guardian reported that the warnings had seemingly been suspended last week.",
+        "The talks followed accusations from Kyiv that Washington was withholding intelligence, which US Secretary of State Marco Rubio rejected as \"scandalous,\" the BBC reported. Speaking in India, Rubio said \"there has not been some deliberate political directive to go out and harm Ukraine,\" and said Patriot interceptors were in short supply and needed elsewhere. The Guardian said US officials had not convincingly explained why satellite services were curtailed or intelligence sharing briefly cut off.",
+        "Finnish President Alexander Stubb said \"genuine progress\" had been made on peace proposals but gave no details. A US official described the talks as \"very productive and constructive.\" Zelenskyy said security guarantees and energy ceasefire proposals were discussed, and that he had raised restrictions on Starlink and Starshield service. He said he opposed a possible summit of Vladimir Putin, Donald Trump and Xi Jinping that would exclude Ukraine.",
+        "Trump again said he wanted Zelenskyy to \"make a deal\" and that it was \"time for Ukraine to end this war.\" The Guardian described the relationship as at its worst point since the full-scale invasion, while the BBC noted that Trump has said Ukraine should get a new president.",
+        "Witkoff is due to meet Putin in Russia on Wednesday, with Jared Kushner joining virtually. Zelenskyy and European allies said it is now up to Russia to respond. Foreign Minister Sergei Lavrov said the Kremlin would listen but ruled out \"any political concessions.\" Putin had not commented publicly."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/world/2026/oct/20/us-has-resumed-sharing-intelligence-with-ukraine-about-russian-strikes-says-zelenskyy"
+      ]
+    },
+    "2026-10-20T22-c07": {
+      "paragraphs": [
+        "Nato said it will send additional military assets to the Black Sea after a deadly rise in Russian attacks on merchant shipping, according to The Guardian. The announcement came as five more vessels were attacked Tuesday. Russia's military said it struck three cargo vessels in Ukraine's port of Reni and two others heading to Odesa.",
+        "Nato spokesperson Allison Hart said ambassadors met in the North Atlantic Council to discuss Black Sea security and that the alliance would send extra support for \"surveillance, reconnaissance, and forensics.\" The Guardian said the deployment will include maritime patrol aircraft, radar systems, drones and intelligence personnel. Bulgaria has asked Nato for combat aircraft and anti-drone systems, and France sent a maritime reconnaissance aircraft to Romania on October 18.",
+        "The attacks have moved closer to Nato territory. At least five other cargo ships have been hit near the Romanian and Bulgarian coasts in the past two weeks, with 23 sailors reported dead or missing, most outside Nato territorial waters. Last week two chemical tankers were hit by drones near Romania's coast. Romania's defence minister, Radu Miruță, said jets shot down two suspected Russian drones over its territory over the weekend, probably Geran-4 models. Romania has recorded 35 unauthorised drone incursions this year, against nine in 2025.",
+        "The London insurance market now applies a high-risk designation to nearly the whole Black Sea except the territorial waters of Romania, Bulgaria and Turkey. Analyst Tomas Alexa of the risk firm Ambrey said attacks have risen in number and geographic reach since July, with Russian forces estimated responsible for 80 percent. Ambrey said it sees no end in sight to the threat."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships"
+      ]
+    },
+    "2026-10-20T22-c08": {
+      "paragraphs": [
+        "President Donald Trump said he plans to spend more than $400 million to help Republican candidates in the November 3 midterm elections, according to Al Jazeera. In a Truth Social post on Tuesday, Trump wrote that much of that total has already been spent on campaign outreach.",
+        "\"More than 300 Million Dollars has already been spent on Advertising, Direct and Indirect Voter Contact, Rallies, Rally Arenas, Telerallies, Get Out the Vote Programs, Election Integrity, and more,\" he wrote. He called the vote \"the Most Important Midterm Elections in our Country's History.\" He gave no detailed breakdown, including how much would go to individual races.",
+        "Al Jazeera said the pledge comes as Republicans face headwinds, including pushback over the economy and the US-Israeli war against Iran. It cited a Reuters/Ipsos poll this week in which 31 percent of Americans approved of Trump's job performance. Republicans hold slim majorities in both chambers, and Democrats are seeking to flip the Senate and House.",
+        "The outlet said it is unclear whether the money would come from MAGA Inc, the super PAC, which entered September with $415.8 million in cash according to its latest federal filing. Super PAC spending must legally remain independent of campaigns. Last month the Campaign Legal Center accused Trump of violating those rules by claiming control of its spending, citing his September 4 remark that \"This is money from MAGA Inc. This is my money that I control.\" The White House's response to that complaint was not included in the report.",
+        "Al Jazeera also reported that Elon Musk has reportedly spent $366 million since last year on Republican and conservative groups, and that Trump is on a 32-day campaign tour with stops planned in South Carolina and Iowa."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
+        "https://www.aljazeera.com/news/2026/10/20/trump-commits-more-than-400m-ahead-of-high-stakes-midterm-elections?traffic_source=rss"
+      ]
+    },
+    "2026-10-20T22-c12": {
+      "paragraphs": [
+        "President Donald Trump on Tuesday announced a federal program to reward people who report fraud, and suggested he would personally settle disputes over who deserves payment. He spoke in the Oval Office alongside Vice President JD Vance, who leads the White House task force on eliminating fraud, according to The Guardian and the Washington Examiner.",
+        "Trump said people could report cases at fraud.gov. The Washington Examiner quoted him saying whoever reports a case would get \"a commission to that person of 1%,\" whether the fraud found is a billion dollars or hundreds of billions. He added that he would be the arbitrator, determining \"whether or not the person is deserving,\" and said \"I will be very generous.\" The Guardian said the room laughed and that it was unclear whether he was serious.",
+        "The accounts differ from the program's published terms. The Guardian reported that the Department of Justice website describes rewards of up to $30,000 for tips at the charging stage of a criminal case, and says the department has \"sole discretion\" over awards. The Guardian said it had asked the Justice Department and White House for comment. Vance said the program goes beyond the False Claims Act, which already pays whistleblowers 15 to 25 percent of penalties in some cases, because over 99 percent of federal fraud is not covered by that law.",
+        "Trump gave conservative YouTuber Nick Shirley the first reward, $10,000, the Examiner reported. Shirley reported on alleged fraud in Minnesota childcare programs; the Examiner said his reporting prompted federal investigations, frozen payments and a wire fraud guilty plea, though he was criticized for amplifying unsubstantiated claims. Trump also said reporters could take part if their outlets allow it."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/oct/20/trump-doj-anti-fraud-tip",
+        "https://www.washingtonexaminer.com/news/white-house/4772790/trump-fraud-whistleblower-program-nick-shirley/"
+      ]
+    },
+    "2026-10-20T22-c13": {
+      "paragraphs": [
+        "President Donald Trump said Tuesday that Rep. Ilhan Omar, a Minnesota Democrat, could face jail as well as deportation, Fox News reported. He was answering a question in the Oval Office about whether a problem with her age could lead to deportation. \"Well, she could be. She could also go to jail,\" he said, calling her \"a disgrace to our country.\" Fox said he named no specific criminal charge and presented no new evidence, and he described his comments as \"just my opinion.\" He also said he hoped \"they treat her fairly.\"",
+        "According to Fox, the federal investigation centers on allegations that Omar or her father misstated her birth year on immigration paperwork. The question is whether she was a minor when her father became a US citizen in 2000, which would have let her qualify through him, or was already 18 and had to apply separately. Federal agents searched her Washington, D.C., home on October 12 and seized her cellphone and other items.",
+        "Border czar Tom Homan said that if investigators prove immigration fraud, she could be stripped of naturalization and deported. He said he had been told investigators \"have a strong case\" but would not get ahead of the FBI or Homeland Security Investigations. Omar has not been charged in the report.",
+        "Omar has denied wrongdoing. She and other Democrats, including House Minority Leader Hakeem Jeffries, have called the investigation political persecution of a prominent Trump critic ahead of the midterms. Fox said it asked Omar's office for comment on Tuesday's remarks. Homan said the outcome depends on what the evidence shows."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/trump-says-ilhan-omar-could-go-jail-deported-calls-her-a-disgrace-our-country"
+      ]
+    },
+    "2026-10-20T22-c15": {
+      "paragraphs": [
+        "A US food importer sued President Donald Trump on Tuesday over his 50 percent tariffs on Canadian goods, arguing he lacks the authority to impose them without congressional approval. Gellert Global Group, a New Jersey company that imports Canadian cheese, filed the suit in the US Court of International Trade in New York, according to Al Jazeera and the BBC. The Liberty Justice Center, a nonprofit legal group, filed it on the company's behalf.",
+        "The tariffs rest on Section 338 of the Smoot-Hawley Tariff Act of 1930, which lets a president impose tariffs of up to 50 percent on countries found to discriminate against American businesses. Al Jazeera said the provision had never been used before this year. Trump imposed the tariffs in the summer, accusing Canada of discriminating against American cars, alcohol and dairy, and expanded them in September. The BBC said they cover about $20 billion of goods.",
+        "The complaint argues the law does not fit the Canadian policies cited, since two arose in response to Trump's own tariffs and the third involves dairy policy governed by the USMCA. It also argues later laws such as Section 301 of the Trade Act of 1974, with its investigation and public comment requirements, override Section 338. It says that even if Section 338 applies, the administration collected tariffs on cheese after seven days rather than the required 30. Gellert said it paid more than $520,000 in duties between September 16 and October 11.",
+        "Gellert asks the court to declare the tariffs illegal, halt collection and order refunds with interest. The BBC said the group also filed for a preliminary injunction. The White House did not immediately comment. Al Jazeera called it the fourth major legal challenge to Trump's tariffs; the Supreme Court struck down most of his 2025 tariffs in February."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/economy/2026/10/20/us-food-importer-sues-trump-over-50-percent-tariffs-on-canadian-goods?traffic_source=rss",
+        "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss"
+      ]
+    }
+  }
+}

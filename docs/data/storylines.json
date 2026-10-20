@@ -1,15 +1,30 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T17:49:11Z",
+  "updated_at": "2026-10-20T22:09:18Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Witkoff met Zelenskyy in Oslo and is expected to travel to Russia. Republicans are pushing back on Trump's Russia stance after the diesel deal and sanctions pause; Rubio told Zelenskyy no order to harm Ukraine was issued.",
+      "summary": "Zelenskyy says US missile-strike intelligence 'works now' after Oslo talks with Witkoff, who goes on to Russia. WSJ reports Musk ordered a Starshield slowdown. Republicans push back on Trump's Russia stance; Hegseth says posture is unchanged.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "WSJ reports Musk ordered a Starshield slowdown that Ukraine said hampered its response to Russian attacks.",
+          "url": "https://thehill.com/policy/international/6161243-musk-ordered-starshield-slowdown/"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Hegseth says US posture toward Ukraine is unchanged but US forces also need Patriot interceptors.",
+          "url": "https://thehill.com/policy/defense/6161092-us-posture-ukraine-unchanged/"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Zelenskyy says US intelligence on missile strikes 'works now' after Oslo talks with Witkoff.",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-10-20",
           "text": "Witkoff meets Zelenskyy before travelling to Russia, the FT reports; Zelenskyy says missile-strike intelligence 'works now'.",
@@ -94,32 +109,22 @@
           "date": "2026-10-18",
           "text": "Ukraine launches more than 1,000 drones at Russia, hitting St Petersburg oil sites and a data centre; at least one killed.",
           "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Video shows explosions in St Petersburg after a suspected Ukrainian drone swarm.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Republicans and Democrats criticize Trump's sanctions waiver; Schumer calls it a gift to Putin, while Massie praises it.",
-          "url": "https://www.axios.com/2026/10/17/trump-russia-waiver-putin-republicans-democrats"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Zelenskyy says Ukraine is ready to negotiate and the American negotiating track will continue.",
-          "url": "https://thehill.com/policy/international/6156034-zelensky-open-us-negotiations/"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks slid as credit markets questioned AI debt. Chips rebounded Monday, but default-swap trading has surged, SoftBank risk hit a four-year high, and a Korean data centre IPO fell 32%. China is defending DeepSeek after the US ban.",
+      "summary": "Credit-risk gauges for major tech firms hit fresh highs Tuesday as investors fear a wave of post-earnings bond sales. Chips rebounded Monday, but SoftBank risk is at a four-year high and a Korean data centre IPO fell 32%.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "Credit-risk gauges for major tech companies hit fresh highs as investors brace for post-earnings bond sales.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/tech-credit-risk-hits-fresh-highs-on-fears-of-debt-wave-to-come"
+        },
         {
           "date": "2026-10-20",
           "text": "China defends DeepSeek and warns of possible retaliation after the DHS order removing it from federal systems.",
@@ -220,11 +225,16 @@
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28, though MarketWatch says it is a closer call than markets think, given inflation and communication changes.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28. Housing data is weakening and CNBC says the Fed weighs more hikes.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-17",
+      "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "CNBC reports housing data worsened in September as the Fed weighs more rate hikes; Axios says homebuilder sentiment is at a 14-year low.",
+          "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+        },
         {
           "date": "2026-10-17",
           "text": "MarketWatch says the October decision is a closer call than markets think, weighing arguments against a hike.",
@@ -240,11 +250,31 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Trump approval is at record lows in several polls, with Democrats leading the generic ballot. The RNC is putting over $50 million into final races, DOJ has charged 28 California green card holders, and New Hampshire asks the Supreme Court to reinstate a student ID voting ban.",
+      "summary": "Trump approval is at record lows in several polls, with Democrats leading the generic ballot. Trump says he will have spent over $400 million for Republicans, Musk endorsed Paxton, and suspicious letters have reached lawmakers and election offices in at least 32 states.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "Trump says he has committed more than $400 million to support Republicans in the midterms.",
+          "url": "https://www.aljazeera.com/news/2026/10/20/trump-commits-more-than-400m-ahead-of-high-stakes-midterm-elections?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Musk formally endorses Ken Paxton after funding a PAC backing him.",
+          "url": "https://thehill.com/homenews/campaign/6161202-musk-endorses-paxton-in-texas-senate-race/"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Ocasio-Cortez and Garcia report suspicious letters as election offices in at least 32 states are targeted.",
+          "url": "https://www.axios.com/2026/10/20/white-powder-letters-congress-election-offices"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "A federal judge lets North Carolina keep strict mail-ballot rules through the midterms.",
+          "url": "https://thehill.com/homenews/state-watch/6161350-judge-upholds-nc-mailballot-rules/"
+        },
         {
           "date": "2026-10-20",
           "text": "RNC transfers over $50 million into groups defending House and Senate majorities, the New York Times first reported.",
@@ -324,37 +354,27 @@
           "date": "2026-10-18",
           "text": "Axios reports Democrats are competitive in long-Republican territory; the FT says GOP insiders think wave predictions are overstated.",
           "url": "https://www.axios.com/2026/10/18/democrat-2026-republican-winning-streak-kansas"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "FT says voters increasingly link rising energy prices to Trump administration policies.",
-          "url": "https://www.ft.com/content/52a5e9df-cd9a-4951-99b5-2364e575bb44?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Vance says he will decide on a 2028 run after the midterms, at a CBS town hall in Michigan.",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4770032/vance-says-decision-2028-presidential-after-midterm/"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Susquehanna poll shows Rep. Scott Perry trailing Democrat Janelle Stelson 49 percent to 46 in Pennsylvania.",
-          "url": "https://thehill.com/homenews/campaign/6156134-stelson-leads-perry-poll-pennsylvania-house/"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Trump rallies in Kentucky for Ed Gallrein before a seven-day, seven-stop campaign tour including Michigan on Oct. 25.",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769857/watch-live-trump-kentucky-midterm-rally-highland-heights/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent hit $110 before easing. Hegseth met Netanyahu amid talks of resuming combat ops, Iran hit container ships in Hormuz, Houthi strikes escalate, and the UK will send Typhoons to defend Saudi Arabia.",
+      "summary": "After nine months of war, Brent hit $110 before easing. Netanyahu says he discussed toppling Iran's regime with Trump, Hegseth met Netanyahu, Iran hit container ships in Hormuz, Houthi strikes escalate, and the UK will send Typhoons to Saudi Arabia.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "Netanyahu says he discussed eliminating Iran's regime with Trump; Sen. Rick Scott backs renewed bombing if it speeds regime change.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/netanyahu-says-he-discussed-eliminating-irans-regime-with-trump?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Pentagon weighs force posture and the cost of rebuilding Middle East bases, a senior defense official says.",
+          "url": "https://breakingdefense.com/2026/10/pentagon-weighs-force-posture-costs-of-rebuilding-middle-east-bases/"
+        },
         {
           "date": "2026-10-20",
           "text": "UK to deploy RAF Typhoons on defensive missions over Saudi Arabia against Houthi attacks.",
@@ -439,16 +459,6 @@
           "date": "2026-10-17",
           "text": "Iranian state TV airs video it says shows an oil tanker exploding after hitting a naval mine in Hormuz.",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "US and Iran both claim control of Hormuz as two vessels are struck by naval mines this week.",
-          "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Vance publicly hints at disagreement with Trump over the Iran war, per the Washington Examiner.",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4769787/vance-public-hint-disagree-trump-iran-war/"
         }
       ]
     }
