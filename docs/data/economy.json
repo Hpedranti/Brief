@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "updated_at": "2026-10-20T05:42:37Z",
-  "read": "Inflation is re-accelerating and the Fed has already hiked once under Warsh. CPI is 3.7 percent, unemployment ticked up to 4.20 percent, and the 10-year yield sits above 5 percent. Mortgage rates at 7.40 percent keep housing tight while AI debt worries rattle markets.",
+  "updated_at": "2026-10-20T17:49:11Z",
+  "read": "Inflation is re-accelerating, with CPI at 3.7 percent, and the Fed raised rates in September. Unemployment ticked up to 4.20 percent, Treasury yields sit above 5 percent on the 10-year, and mortgage rates of 7.40 percent are hitting housing, with pending sales at a record low.",
   "indicators": [
     {
       "key": "fedfunds",
       "label": "Fed funds target",
       "value": "3.75–4.00",
       "unit": "%",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-20",
       "change": "up 0.25",
-      "note": "Raised from 3.50–3.75 in September"
+      "note": "Raised in September"
     },
     {
       "key": "fedfunds_effective",
@@ -19,7 +19,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.12",
-      "note": "Monthly average after the hike"
+      "note": "Tracks the higher target range"
     },
     {
       "key": "cpi_yoy",
@@ -28,7 +28,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.3",
-      "note": "Inflation accelerating on energy costs"
+      "note": "Gas prices drove September increase"
     },
     {
       "key": "unrate",
@@ -36,8 +36,8 @@
       "value": "4.20",
       "unit": "%",
       "as_of": "2026-09-01",
-      "change": "up 0.1",
-      "note": "Jobless rate edged higher"
+      "change": "up 0.10",
+      "note": "Slight rise from August"
     },
     {
       "key": "dgs10",
@@ -46,7 +46,7 @@
       "unit": "%",
       "as_of": "2026-10-16",
       "change": "down 0.01",
-      "note": "Yield holding above 5 percent"
+      "note": "Little changed above 5 percent"
     },
     {
       "key": "dgs2",
@@ -55,7 +55,7 @@
       "unit": "%",
       "as_of": "2026-10-16",
       "change": "down 0.03",
-      "note": "Short yields slipped slightly"
+      "note": "Eased slightly on the day"
     },
     {
       "key": "mortgage30",
@@ -64,7 +64,7 @@
       "unit": "%",
       "as_of": "2026-10-15",
       "change": "unch",
-      "note": "Unchanged week over week"
+      "note": "Pressuring housing demand"
     }
   ],
   "fed": {
@@ -72,11 +72,15 @@
     "odds": [
       {
         "label": "Fed maintains rate",
-        "prob": 0.87
+        "prob": 0.88
       },
       {
         "label": "Hike 25bps",
-        "prob": 0.14
+        "prob": 0.13
+      },
+      {
+        "label": "Cut 25bps",
+        "prob": 0.01
       },
       {
         "label": "Cut >25bps",
@@ -85,19 +89,15 @@
       {
         "label": "Hike >25bps",
         "prob": 0.01
-      },
-      {
-        "label": "Cut 25bps",
-        "prob": 0.01
       }
     ],
-    "note": "Markets expect a hold, though inflation keeps a further hike possible."
+    "note": "Markets expect a hold after September's hike; inflation keeps a further hike possible."
   },
   "week_ahead": [
     {
       "date": "2026-10-28",
       "event": "FOMC rate decision",
-      "why_it_matters": "Sets borrowing costs after September's hike."
+      "why_it_matters": "Sets borrowing costs for mortgages, loans and savings."
     }
   ]
 }

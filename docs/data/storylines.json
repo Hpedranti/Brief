@@ -1,15 +1,25 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T05:42:37Z",
+  "updated_at": "2026-10-20T17:49:11Z",
   "storylines": [
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Witkoff and Kushner head to Oslo to meet Zelenskyy and European leaders on a peace proposal. Zelenskyy is lobbying senators over alleged intelligence and Starshield limits, and critics in both parties object to the Russia sanctions waiver.",
+      "summary": "Witkoff met Zelenskyy in Oslo and is expected to travel to Russia. Republicans are pushing back on Trump's Russia stance after the diesel deal and sanctions pause; Rubio told Zelenskyy no order to harm Ukraine was issued.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-19",
+      "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "Witkoff meets Zelenskyy before travelling to Russia, the FT reports; Zelenskyy says missile-strike intelligence 'works now'.",
+          "url": "https://www.ft.com/content/a068036c-a752-4267-9a2f-a95190ef619f?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Republicans push back on Trump's softer Russia stance; Rubio tells Zelenskyy Trump issued no order to harm Ukraine.",
+          "url": "https://www.theguardian.com/us-news/2026/oct/20/republicans-push-back-trump-ukraine-russia"
+        },
         {
           "date": "2026-10-19",
           "text": "Witkoff is traveling to Oslo for Tuesday talks with Zelenskyy and European leaders on a peace proposal, a US official says.",
@@ -99,27 +109,27 @@
           "date": "2026-10-17",
           "text": "Zelenskyy says Ukraine is ready to negotiate and the American negotiating track will continue.",
           "url": "https://thehill.com/policy/international/6156034-zelensky-open-us-negotiations/"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Zelenskyy calls the sanctions waiver a 'reward' for Putin; Sen. Tillis calls it 'beyond irresponsible.'",
-          "url": "https://www.theguardian.com/world/2026/oct/17/volodymyr-zelenskyy-donald-trump-lift-sanctions-russia-intensify-war-ukraine"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Zelenskyy says Starlink limits in Ukraine are a 'planned operation' that hamper drone interception.",
-          "url": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Big Tech, chip and bank stocks slid as credit markets questioned the AI debt buildup. Chip stocks rebounded Monday, but default-swap trading on tech names has surged and SoftBank's credit risk hit a four-year high. DHS formalized a DeepSeek ban.",
+      "summary": "Big Tech, chip and bank stocks slid as credit markets questioned AI debt. Chips rebounded Monday, but default-swap trading has surged, SoftBank risk hit a four-year high, and a Korean data centre IPO fell 32%. China is defending DeepSeek after the US ban.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-19",
+      "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "China defends DeepSeek and warns of possible retaliation after the DHS order removing it from federal systems.",
+          "url": "https://thehill.com/policy/technology/6160255-china-retaliation-deepseek-ban/"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "South Korean data centre builder Elice tumbles 32% on its trading debut, adding to AI valuation concerns.",
+          "url": "https://www.ft.com/content/cddafc0a-1ae6-467b-84b8-34c172002b6a?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-10-19",
           "text": "SoftBank's credit default swaps hit their highest in nearly four years on AI funding strain; FT reports surging default-swap trading on Big Tech.",
@@ -230,11 +240,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Trump approval is at record lows in several polls, with Democrats leading the generic ballot. Trump rallied in Kansas and announced $8 billion in farm fuel relief. DOJ charged 28 California green card holders and asked a court to halt processing of flagged ballots.",
+      "summary": "Trump approval is at record lows in several polls, with Democrats leading the generic ballot. The RNC is putting over $50 million into final races, DOJ has charged 28 California green card holders, and New Hampshire asks the Supreme Court to reinstate a student ID voting ban.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-19",
+      "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "RNC transfers over $50 million into groups defending House and Senate majorities, the New York Times first reported.",
+          "url": "https://thehill.com/homenews/campaign/6160592-rnc-spends-millions-house-senate/"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "New Hampshire asks the Supreme Court to reinstate its ban on student IDs as voter identification.",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4772040/new-hampshire-urges-supreme-court-to-reinstate-student-id-voting-ban-ahead-of-midterm-elections/"
+        },
         {
           "date": "2026-10-19",
           "text": "Trump announces an $8 billion Harvest Fuel Relief Program for farmers at his Kansas rally.",
@@ -324,22 +344,22 @@
           "date": "2026-10-17",
           "text": "Trump rallies in Kentucky for Ed Gallrein before a seven-day, seven-stop campaign tour including Michigan on Oct. 25.",
           "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4769857/watch-live-trump-kentucky-midterm-rally-highland-heights/"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "The Hill says September CPI inflation of 3.7 percent adds pressure on Republicans as early voting begins.",
-          "url": "https://thehill.com/business/6155023-inflation-midterm-elections-republicans/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent hit $110 before easing. Hegseth met Netanyahu in Israel amid talks of resuming combat ops, while Vance declined to endorse Netanyahu. Iran hit container ships in Hormuz, Houthi strikes escalate and Egypt delayed a vote on aiding Saudi Arabia.",
+      "summary": "After nine months of war, Brent hit $110 before easing. Hegseth met Netanyahu amid talks of resuming combat ops, Iran hit container ships in Hormuz, Houthi strikes escalate, and the UK will send Typhoons to defend Saudi Arabia.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-19",
+      "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "UK to deploy RAF Typhoons on defensive missions over Saudi Arabia against Houthi attacks.",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks"
+        },
         {
           "date": "2026-10-19",
           "text": "Vance says he is 'not getting involved' when asked whether he endorses Netanyahu, a day after Trump's endorsement.",
@@ -429,11 +449,6 @@
           "date": "2026-10-17",
           "text": "Vance publicly hints at disagreement with Trump over the Iran war, per the Washington Examiner.",
           "url": "https://www.washingtonexaminer.com/news/white-house/4769787/vance-public-hint-disagree-trump-iran-war/"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "IRGC says an oil supertanker hit a naval mine and caught fire in the Strait of Hormuz.",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss"
         }
       ]
     }
