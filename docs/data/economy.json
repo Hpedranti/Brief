@@ -1,22 +1,18 @@
 {
   "version": 2,
-  "updated_at": "2026-10-21T17:55:51Z",
-  "read": "Inflation pressure from the Gulf war remains the main theme: oil is expected to stay high longer, airlines cite jet fuel costs, and housing data is weakening under higher mortgage rates. Markets rebounded on tech earnings, but AI credit worries persist. Traders expect the Fed to hold next week.",
+  "updated_at": "2026-10-21T22:09:50Z",
+  "read": "Growth signals are mixed. Pending home sales hit a record low as mortgage rates rose, the federal deficit reached $2 trillion, and gas prices remain elevated from the Iran war. Tech earnings are steadying stocks, though AI credit worries linger. Markets expect the Fed to hold next week.",
   "indicators": [],
   "fed": {
     "next_meeting": "2026-10-28",
     "odds": [
       {
         "label": "Fed maintains rate",
-        "prob": 0.88
+        "prob": 0.89
       },
       {
         "label": "Hike 25bps",
-        "prob": 0.13
-      },
-      {
-        "label": "Hike >25bps",
-        "prob": 0.01
+        "prob": 0.12
       },
       {
         "label": "Cut 25bps",
@@ -25,15 +21,19 @@
       {
         "label": "Cut >25bps",
         "prob": 0.01
+      },
+      {
+        "label": "Hike >25bps",
+        "prob": 0.01
       }
     ],
-    "note": "Markets expect a hold on Oct. 28 after September's hike, with housing weakness in focus."
+    "note": "Markets strongly expect a hold, with a small chance of another quarter-point hike."
   },
   "week_ahead": [
     {
       "date": "2026-10-28",
       "event": "FOMC rate decision",
-      "why_it_matters": "Sets borrowing costs; markets price a hold."
+      "why_it_matters": "Sets borrowing costs after September's hike."
     }
   ]
 }

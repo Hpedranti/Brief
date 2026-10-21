@@ -1,0 +1,1109 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-10-21T22",
+    "at": "2026-10-21T22:09:50Z",
+    "model": "claude-sonnet-5-5",
+    "count": 35
+  },
+  "cards": [
+    {
+      "id": "2026-10-21T22-c01",
+      "drop": "2026-10-21T22",
+      "headline": "US orders nonemergency staff to leave Saudi Arabia over Houthi attacks",
+      "summary": "The State Department ordered nonemergency government employees and their families out of Saudi Arabia as Houthi attacks continue. The FT reports two people died in a drone attack on Aramco's Shaybah oilfield. Fox News says Trump is weighing direct strikes on the Houthis.",
+      "why_it_matters": "Americans in the kingdom face rising risk, and attacks on Saudi energy sites could push oil and fuel prices higher.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "State Department",
+        "Saudi Arabia",
+        "Houthis",
+        "Saudi Aramco"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-21T20:08:04.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "US Orders Some Diplomats Out of Saudi Arabia Amid Houthi Attacks",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-orders-some-diplomats-out-of-saudi-arabia-amid-houthi-attacks"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "US orders some personnel to leave Saudi Arabia after Houthi attacks",
+          "url": "https://www.ft.com/content/f39aa4d2-e290-451f-ae91-b19138b6172f?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "US pulls personnel from Saudi Arabia as kingdom comes under Houthi fire",
+          "url": "https://www.foxnews.com/politics/us-pulls-personnel-saudi-arabia-kingdom-comes-under-houthi-fire"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c02",
+      "drop": "2026-10-21T22",
+      "headline": "Missiles hit Kyiv after Russia agrees in principle to resume talks",
+      "summary": "Missiles struck Kyiv after Russia said it is ready in principle to resume peace talks. Trump said the world is closest to ending the war, and tied his Russia sanctions waiver to the release of jailed American Stephen Hubbard.",
+      "why_it_matters": "The diplomacy involves US sanctions policy and a freed US citizen, while analysts say Putin feels little pressure to end the war.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Vladimir Putin",
+        "Donald Trump"
+      ],
+      "importance": 4,
+      "follows": "2026-10-21T17-c01",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-21T19:58:06.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Trump links Russia sanctions waiver to release of jailed American",
+          "url": "https://thehill.com/homenews/6163898-trump-waives-russian-sanctions-hubbard/"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+          "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c03",
+      "drop": "2026-10-21T22",
+      "headline": "Tesla profit falls 43% on flat revenue as Optimus production starts",
+      "summary": "Tesla reported $1.7 billion in net income on $28.0 billion in revenue, flat from a year ago, though results beat expectations. It began Optimus robot production in California while auto revenue declined.",
+      "why_it_matters": "Tesla's earnings and robot push shape a major US automaker's outlook, and merger talk with SpaceX adds uncertainty for shareholders.",
+      "region": "US",
+      "topics": [
+        "autos-transport",
+        "robotics",
+        "markets"
+      ],
+      "entities": [
+        "Tesla",
+        "Elon Musk",
+        "SpaceX"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T20:22:31.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Tesla beats on earnings and sales even as auto revenue declines",
+          "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Tesla starts Optimus robot production in California as profit falls 43%",
+          "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/"
+        },
+        {
+          "outlet": "The Verge",
+          "title": "Flying Roadsters can’t lift Tesla’s flat Q3 revenues",
+          "url": "https://www.theverge.com/transportation/1015790/tesla-q3-2026-earnings-revenue-profit-roadster-spacex-merger"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c04",
+      "drop": "2026-10-21T22",
+      "headline": "Meta to create non-voting share class to fund AI push",
+      "summary": "With its third-quarter results, Meta said it will issue a new class of non-voting stock, trading from 2027, to fund AI, acquisitions and pay. The FT reports it lets Zuckerberg sell stock without diluting control.",
+      "why_it_matters": "It shows how expensive the AI buildout has become, even for the richest tech companies, and what it means for investors.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "ai",
+        "markets"
+      ],
+      "entities": [
+        "Meta",
+        "Mark Zuckerberg"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-21T21:30:02.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Meta to create a new class of shares to fund AI push",
+          "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal",
+          "url": "https://www.ft.com/content/b34502b6-38dc-4a46-a8e7-d9131726cd31?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c05",
+      "drop": "2026-10-21T22",
+      "headline": "IBM beats estimates as CEO touts AI traction",
+      "summary": "IBM beat Wall Street estimates on revenue and profit in its third quarter. CEO Arvind Krishna said the company is helping clients adopt artificial intelligence.",
+      "why_it_matters": "IBM is a read on whether corporate customers are paying for AI, a key question for tech stocks.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "IBM",
+        "Arvind Krishna"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T22:03:37.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction",
+          "url": "https://www.cnbc.com/2026/10/21/ibm-q3-earnings-report-2026.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c06",
+      "drop": "2026-10-21T22",
+      "headline": "White House gives Politico 48 hours to retract stories",
+      "summary": "The White House counsel's office told Politico in a Monday letter it has 48 hours to retract or correct stories about alleged staff drama or face unspecified consequences, Axios reports. The deadline expires Thursday.",
+      "why_it_matters": "The demand raises questions about the relationship between the government and the press.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "White House",
+        "Politico"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T22:04:48.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "White House to Politico: Retract stories or face \"consequences\"",
+          "url": "https://www.axios.com/2026/10/21/white-house-politico-retract-stories-or-face-consequences"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c07",
+      "drop": "2026-10-21T22",
+      "headline": "Democratic groups sue over Trump election prosecution threats",
+      "summary": "Democratic groups sued the administration, arguing it uses unfounded voter fraud claims to pressure states and election officials. Top Democrats on the intelligence committees say they expect Trump to allege foreign meddling. The administration has cited concerns over noncitizen voting.",
+      "why_it_matters": "The dispute over federal and state roles in running elections arrives two weeks before Election Day.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Democratic National Committee"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-21T19:47:18.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Democrats accuse Trump of using prosecution threats to pressure election officials",
+          "url": "https://www.axios.com/2026/10/21/trump-election-interference-lawsuit-democrats"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6011170/democrats-election-interference-preparations-president-trump"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "House Republicans subpoena New Jersey secretary of state over noncitizen voter registration",
+          "url": "https://www.washingtonexaminer.com/news/house/4774575/house-republican-subpoena-new-jersey-noncitizen-voter-registration/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c08",
+      "drop": "2026-10-21T22",
+      "headline": "Trump rallies in South Carolina as GOP eyes Mississippi, Kansas",
+      "summary": "Trump headed to South Carolina to back Sen. Darline Graham, who is favored but faces a strong challenge from Democrat Annie Andrews. Axios reports Senate Republicans are weighing more money for South Carolina, Kansas and Mississippi.",
+      "why_it_matters": "Races once seen as safe are tightening, widening the fight for Senate control.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Darline Graham",
+        "Annie Andrews",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-21T20:14:37.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump heads to South Carolina to boost Senator Darline Graham in race",
+          "url": "https://www.aljazeera.com/news/2026/10/21/trump-heads-to-south-carolina-to-boost-senator-darline-graham-in-race?traffic_source=rss"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Scoop: Senate Republicans fear Mississippi is in play",
+          "url": "https://www.axios.com/2026/10/21/mississippi-senate-competitive-hyde-smith-colom"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Cook Political Report polls find Democrats leading three critical Senate races",
+          "url": "https://thehill.com/homenews/campaign/6163761-cook-poll-democrats-lead-senate/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c09",
+      "drop": "2026-10-21T22",
+      "headline": "Poll shows record support for Democrats; GOP holds spending edge",
+      "summary": "An NPR poll found record support for Democratic congressional candidates, with voters wanting Congress to check Trump. The FT reports Republicans and affiliated groups hold a large spending advantage, per filings.",
+      "why_it_matters": "Money and polling point in different directions with two weeks left before the midterms.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Democratic Party",
+        "Republican Party"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-21T20:26:09.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Poll: Voters want Congress to be a check on Trump, trust Democrats more on issues",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6011179/poll-democrats-republicans-trump-approval"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Republicans head into midterms with huge spending advantage",
+          "url": "https://www.ft.com/content/637bb10e-b5b4-4db2-ac7c-b42348595c4c?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c10",
+      "drop": "2026-10-21T22",
+      "headline": "AIPAC ends endorsements and direct PAC contributions",
+      "summary": "The American Israel Public Affairs Committee's PAC is reportedly no longer endorsing candidates or making direct contributions after three cycles, saying endorsements, direct contributions and earmarking will not be part of its approach, in favor of what it calls new tools.",
+      "why_it_matters": "It changes how a major pro-Israel lobby influences US campaigns during the Iran war.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "AIPAC"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T21:26:03.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "AIPAC ends endorsements and PAC contributions in favor of ‘new tools’",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/4774823/aipac-ends-endorsements-pac-contributions/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c11",
+      "drop": "2026-10-21T22",
+      "headline": "Administration asks Supreme Court to allow Big Bend wall work",
+      "summary": "Solicitor General D. John Sauer filed an emergency petition asking justices to lift a lower court injunction halting border wall construction in Texas's Big Bend region, calling the block baseless.",
+      "why_it_matters": "The ruling will affect border policy and how courts can restrain federal construction projects.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Supreme Court",
+        "D. John Sauer",
+        "Trump administration"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T21:01:39.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump administration asks Supreme Court to allow Big Bend border wall construction",
+          "url": "https://thehill.com/regulation/court-battles/6164069-trump-asks-scotus-big-bend-wall/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump administration asks Supreme Court to lift block on Big Bend border wall construction",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4774775/trump-administration-asks-supreme-court-to-lift-block-big-bend-border-wall-construction/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c12",
+      "drop": "2026-10-21T22",
+      "headline": "Judge rejects EPA bid to dismiss data center pollution suit",
+      "summary": "A court ruled the EPA cannot unilaterally dismiss a pollution lawsuit over a SpaceXAI data center, rejecting the administration's claim, Ars Technica reports.",
+      "why_it_matters": "It bears on how much power federal agencies have over environmental suits as data centers draw voter scrutiny.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "energy",
+        "policy-regulation"
+      ],
+      "entities": [
+        "EPA",
+        "SpaceXAI"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T18:20:40.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+          "url": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c13",
+      "drop": "2026-10-21T22",
+      "headline": "Iran says it will keep uranium as odds of renewed war rise",
+      "summary": "Tehran said it had nothing new to tell Washington after mediators reportedly offered new nuclear proposals, and is determined to keep its uranium, Al Jazeera reports, amid a flurry of diplomatic meetings.",
+      "why_it_matters": "The nuclear dispute is central to whether US-Iran fighting resumes, with consequences for oil prices.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Iran",
+        "United States"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-21T18:58:29.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran determined to keep uranium amid increased war odds, flurry of meetings",
+          "url": "https://www.aljazeera.com/news/2026/10/21/iran-determined-to-keep-uranium-amid-increased-war-odds-flurry-of-meetings?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c14",
+      "drop": "2026-10-21T22",
+      "headline": "Persian Gulf oil flows near pre-war levels, but prices may stay high",
+      "summary": "October oil exports from the Persian Gulf nearly returned to levels seen before the Iran war, MarketWatch reports, though traders remain wary of a fragile recovery and prices may not fall soon.",
+      "why_it_matters": "Gasoline and diesel prices depend on whether Gulf supply holds.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "markets"
+      ],
+      "entities": [
+        "Persian Gulf",
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T21:14:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+          "url": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c15",
+      "drop": "2026-10-21T22",
+      "headline": "Mexico charges ex-prosecutor with treason over US-joined drug raid",
+      "summary": "Mexican authorities charged former prosecutor Cesar Jauregui Moreno with treason, accusing him of allowing US agents to join an April raid on a suspected drug lab. Questions remain over whether Mexican law was followed.",
+      "why_it_matters": "It exposes friction over US agents operating in Mexico as the two countries cooperate on drug enforcement.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "crime-justice"
+      ],
+      "entities": [
+        "Mexico",
+        "Cesar Jauregui Moreno"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T20:19:51.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Ex-prosecutor charged with treason in Mexico over US drug raid",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qpw4rjd7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Mexico charges prosecutor with treason over US involvement in drug raid",
+          "url": "https://www.aljazeera.com/news/2026/10/21/mexico-charges-prosecutor-with-treason-over-us-involvement-in-drug-raid?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c16",
+      "drop": "2026-10-21T22",
+      "headline": "Colombia seizes 7.6 tonnes of cocaine in decade's biggest haul",
+      "summary": "Colombian authorities seized 7.6 tonnes of cocaine at the Caribbean port of Cartagena, the largest haul in a decade, Al Jazeera reports.",
+      "why_it_matters": "Cocaine supply from Colombia feeds US drug markets and shapes Washington's relationship with Bogota.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "crime-justice"
+      ],
+      "entities": [
+        "Colombia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T20:51:23.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Colombia seizes 7.6 tonnes of cocaine in biggest haul in a decade",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/colombia-seizes-7-6-tonnes-of-cocaine-in-biggest-haul-in-a-decade?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c17",
+      "drop": "2026-10-21T22",
+      "headline": "Cuba says US is threatening countries before UN embargo vote",
+      "summary": "Havana accused Washington of threatening countries with retaliation if they refuse to vote against condemning the US embargo at the UN. The US position was not given in the report.",
+      "why_it_matters": "The vote tests US diplomatic standing on Cuba policy.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "geopolitics"
+      ],
+      "entities": [
+        "Cuba",
+        "United States"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T19:51:29.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Cuba accuses US of threatening countries ahead of UN embargo vote",
+          "url": "https://www.aljazeera.com/news/2026/10/21/cuba-accuses-us-of-threatening-countries-ahead-of-un-embargo-vote?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c18",
+      "drop": "2026-10-21T22",
+      "headline": "Bolsonaro adviser says Petrobras would get freedom without privatization",
+      "summary": "An energy adviser to Flavio Bolsonaro told Bloomberg that if he wins Brazil's Oct. 25 runoff, Petrobras would get broad freedom to reshape its portfolio and attract private investment, with no privatization.",
+      "why_it_matters": "Brazil is a major oil producer, and the runoff outcome could influence energy markets and investment.",
+      "region": "Americas",
+      "topics": [
+        "elections",
+        "energy",
+        "latin-america"
+      ],
+      "entities": [
+        "Flavio Bolsonaro",
+        "Petrobras",
+        "Brazil"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T21:17:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Bolsonaro to Unleash Petrobras Without Privatizing, Adviser Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/bolsonaro-adviser-backs-freer-petrobras-rules-out-privatization"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c19",
+      "drop": "2026-10-21T22",
+      "headline": "Pope needs no further treatment after lung cancer surgery",
+      "summary": "Test results confirmed the pope's diagnosis as a localised lung adenocarcinoma, and he does not need further treatment after surgery, the BBC reports.",
+      "why_it_matters": "The health of the head of the Catholic Church is closely watched by more than a billion followers worldwide.",
+      "region": "Europe",
+      "topics": [
+        "health",
+        "culture-sports"
+      ],
+      "entities": [
+        "Pope Leo XIV"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T20:09:10.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Pope does not need further treatment after lung cancer surgery",
+          "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c20",
+      "drop": "2026-10-21T22",
+      "headline": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
+      "summary": "Officials say the wife of a diplomat based in Abuja, Nigeria's first confirmed Ebola case, traveled to Kampala for a vacation, adding to regional spread questions.",
+      "why_it_matters": "Cross-border travel links in the outbreak complicate containment efforts.",
+      "region": "Africa",
+      "topics": [
+        "health",
+        "africa"
+      ],
+      "entities": [
+        "Nigeria",
+        "Uganda"
+      ],
+      "importance": 3,
+      "follows": "2026-10-21T17-c27",
+      "storyline_id": null,
+      "published_at": "2026-10-21T19:29:40.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Nigeria's first Ebola patient holidayed in Uganda, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/c62kepvg2x9lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c21",
+      "drop": "2026-10-21T22",
+      "headline": "Moderna to release Phase 3 data on cancer vaccine this weekend",
+      "summary": "Moderna will reveal full Phase 3 trial results for its custom cancer vaccine this weekend. MarketWatch says the stock is among the year's strongest because of the treatment and a lot rides on the data.",
+      "why_it_matters": "Personalized cancer vaccines could change treatment if the trial results hold up.",
+      "region": "US",
+      "topics": [
+        "health",
+        "science",
+        "markets"
+      ],
+      "entities": [
+        "Moderna"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T20:18:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Moderna is about to release the trial results for its cancer vaccine. A lot is riding on this data.",
+          "url": "https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c22",
+      "drop": "2026-10-21T22",
+      "headline": "EQT agrees €9.6 billion deal for Qiagen",
+      "summary": "Private equity firm EQT agreed to acquire molecular testing company Qiagen for about €9.6 billion ($10.8 billion), ending years of takeover speculation, Bloomberg reports.",
+      "why_it_matters": "The deal shows private equity appetite for diagnostics companies that supply US labs and hospitals.",
+      "region": "Europe",
+      "topics": [
+        "markets",
+        "health"
+      ],
+      "entities": [
+        "EQT",
+        "Qiagen"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T19:38:02.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "EQT Reaches €9.6 Billion Deal for Molecular Testing Firm Qiagen",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/eqt-nears-9-6-billion-deal-for-molecular-testing-firm-qiagen"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c23",
+      "drop": "2026-10-21T22",
+      "headline": "Flapping Airplanes raises $1 billion at $6 billion valuation",
+      "summary": "A year-old AI lab, Flapping Airplanes, raised a $1 billion Series A nine months after a $180 million seed round. Legal AI startup Legora separately raised $550 million at an $8.8 billion valuation.",
+      "why_it_matters": "Venture money keeps flowing to AI startups even as credit markets question AI infrastructure debt.",
+      "region": "US",
+      "topics": [
+        "startups-vc",
+        "ai"
+      ],
+      "entities": [
+        "Flapping Airplanes",
+        "Legora"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T18:51:56.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+          "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
+          "url": "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c24",
+      "drop": "2026-10-21T22",
+      "headline": "Anthropic launches Claude Duet agent; Meta's Muse passes 10 million users",
+      "summary": "Anthropic released Claude Duet, an AI agent for professionals and small businesses, as a research preview. Meta said its Muse AI app has over 10 million users, with shopping a top activity.",
+      "why_it_matters": "AI agents that act on users' behalf are becoming mainstream consumer products.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Anthropic",
+        "Meta",
+        "OpenAI"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T19:53:20.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Meta says Muse has over 10M users, with shopping a top activity",
+          "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c25",
+      "drop": "2026-10-21T22",
+      "headline": "Walmart to let AI agents shop on its site for customers",
+      "summary": "Walmart will let customers use an AI agent on its website next month, with approval, review and spending limit controls. Amazon, by contrast, blocks AI agents from shopping on its site.",
+      "why_it_matters": "Retailers are choosing opposite approaches to automated shopping, which could change how Americans buy.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Walmart",
+        "Amazon"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T19:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Walmart is inviting AI agents to shop for you",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+          "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c26",
+      "drop": "2026-10-21T22",
+      "headline": "Recursive releases Flint, a laptop coding model built largely by AI",
+      "summary": "Startup Recursive released Flint, a free, laptop-sized coding model it says was built largely by its own AI research system, as an early test of AI that improves itself.",
+      "why_it_matters": "Self-improving AI is a central safety and competitiveness question for the industry.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "startups-vc"
+      ],
+      "entities": [
+        "Recursive"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T16:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+          "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+        },
+        {
+          "outlet": "Wired",
+          "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
+          "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c27",
+      "drop": "2026-10-21T22",
+      "headline": "GM plans fully self-driving private cars by 2028",
+      "summary": "GM's product chief Sterling Anderson told the FT the automaker plans fully self-driving private vehicles by 2028. A new central computer debuts in the 2028 Cadillac Escalade IQ, and OnStar gets an AI overhaul.",
+      "why_it_matters": "It shows Detroit trying to match Tesla and Chinese rivals on autonomy and software.",
+      "region": "US",
+      "topics": [
+        "autos-transport",
+        "ai"
+      ],
+      "entities": [
+        "General Motors",
+        "Sterling Anderson",
+        "Cadillac"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T19:52:20.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "GM aims to leapfrog rivals with new generation of autonomous cars",
+          "url": "https://www.ft.com/content/5eb997eb-6031-40c4-b2f3-e2a09f4d64f1?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "GM is betting compute and AI will help it compete with Chinese automakers",
+          "url": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c28",
+      "drop": "2026-10-21T22",
+      "headline": "Air Force says it needs 1,509 combat-coded fighters by 2035",
+      "summary": "A new Air Force report calls for 1,509 combat-coded fighters by 2035, with F-35s about 40% of the fleet and F-47s replacing F-22s. An official said a new-build F-16 is under consideration but not urgent.",
+      "why_it_matters": "The plan frames how much Congress may be asked to spend on air power.",
+      "region": "US",
+      "topics": [
+        "defense"
+      ],
+      "entities": [
+        "US Air Force",
+        "F-35",
+        "F-47"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T19:01:44.000Z",
+      "sources": [
+        {
+          "outlet": "Breaking Defense",
+          "title": "Air Force needs 1,509 combat-ready jets by 2035, service tells Congress",
+          "url": "https://breakingdefense.com/2026/10/air-force-needs-1509-combat-ready-jets-by-2035-service-tells-congress/"
+        },
+        {
+          "outlet": "Defense News",
+          "title": "US Air Force outlines the fighter fleet it needs by 2035",
+          "url": "https://www.defensenews.com/news/your-military/2026/10/21/us-air-force-outlines-the-fighter-fleet-it-needs-by-2035/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c29",
+      "drop": "2026-10-21T22",
+      "headline": "New Mexico sues Epstein's attorney and accountant",
+      "summary": "New Mexico's attorney general filed a civil lawsuit against Jeffrey Epstein's longtime attorney Darren Indyke and accountant Richard Kahn, alleging they facilitated and concealed his crimes in exchange for generous salaries.",
+      "why_it_matters": "The suit targets Epstein's financial and legal enablers, not just Epstein himself.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "courts"
+      ],
+      "entities": [
+        "Jeffrey Epstein",
+        "Darren Indyke",
+        "New Mexico"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T18:40:35.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Epstein’s attorney and accountant accused of ‘facilitating and concealing’ his crimes in lawsuit",
+          "url": "https://www.theguardian.com/us-news/2026/oct/21/epstein-attorney-accountant-lawsuit"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c30",
+      "drop": "2026-10-21T22",
+      "headline": "Thousands of California state workers strike for a day",
+      "summary": "Thousands of California state employees, including nurses and teachers represented by SEIU Local 1000, began a one-day strike seeking higher wages, telework and affordable healthcare after a contract lapse.",
+      "why_it_matters": "The walkout affects state services and tests labor relations in the nation's largest state workforce.",
+      "region": "US",
+      "topics": [
+        "jobs-labor"
+      ],
+      "entities": [
+        "SEIU Local 1000",
+        "California"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T18:37:24.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Thousands of California public employees begin strike over contract",
+          "url": "https://www.theguardian.com/us-news/2026/oct/21/california-nurses-teachers-strike"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c31",
+      "drop": "2026-10-21T22",
+      "headline": "Toledo chemical tank explosion forces mass evacuation",
+      "summary": "A tank explosion in Toledo, Ohio, released an airborne irritant that can burn the eyes, nose, mouth and skin, prompting a mass evacuation. One first responder was injured, officials said.",
+      "why_it_matters": "Residents near the site face health risks while the cause is investigated.",
+      "region": "US",
+      "topics": [
+        "health",
+        "crime-justice"
+      ],
+      "entities": [
+        "Toledo",
+        "Ohio"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T17:52:50.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Chemical tank explosion in Toledo, Ohio, prompts mass evacuation",
+          "url": "https://www.theguardian.com/us-news/2026/oct/21/toledo-ohio-tank-explosion-mass-evacuation"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c32",
+      "drop": "2026-10-21T22",
+      "headline": "Taiwan charges five men over plot to run down comedian",
+      "summary": "Taiwanese prosecutors charged five men over a plot to ram a car into comedian Huang Yi-hao, who mocks Xi Jinping. They say a person from China identified as K paid the defendants.",
+      "why_it_matters": "Taiwan has repeatedly accused China of transnational repression, a growing flashpoint in cross-strait tension.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "china",
+        "crime-justice"
+      ],
+      "entities": [
+        "Taiwan",
+        "China",
+        "Huang Yi-hao"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T16:13:53.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Taiwan charges five men over plot to run over comedian for his Xi Jinping jokes",
+          "url": "https://www.theguardian.com/world/2026/oct/21/taiwan-five-men-plot-run-over-comedian-huang-yi-hao-xi-jinping-jokes"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c33",
+      "drop": "2026-10-21T22",
+      "headline": "Tunisia jails US-Tunisian opposition politician for four years",
+      "summary": "Olfa Hamdi, a US-Tunisian national, was convicted of plotting and inciting the military to disobey orders over social media posts and sentenced to four years in prison.",
+      "why_it_matters": "A US citizen is jailed over speech, raising concerns about political repression in Tunisia.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "crime-justice"
+      ],
+      "entities": [
+        "Olfa Hamdi",
+        "Tunisia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T19:14:49.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Tunisia jails opposition politician for four years over social media posts",
+          "url": "https://www.aljazeera.com/news/2026/10/21/tunisia-jails-opposition-politician-for-four-years-over-social-media-posts?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-21T22-c34",
+      "drop": "2026-10-21T22",
+      "headline": "Indonesia faces its worst wildfire season in a decade",
+      "summary": "Indonesia is dealing with its worst wildfire season in a decade, with peat fires burning in central Kalimantan, the BBC reports.",
+      "why_it_matters": "Peat fires release large amounts of carbon and haze that can harm health across the region.",
+      "region": "Asia",
+      "topics": [
+        "climate",
+        "asia"
+      ],
+      "entities": [
+        "Indonesia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T22:02:18.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Why is a peat fire so bad? BBC is in Indonesia to find out",
+          "url": "https://www.bbc.co.uk/news/videos/cmx2302xe931o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-21T22-c35",
+      "drop": "2026-10-21T22",
+      "headline": "Airbnb bans hosts from requiring guest chores",
+      "summary": "Airbnb's updated house rules policy, for reservations booked on or after Nov. 20, bars hosts from asking guests to do time-consuming chores such as dishes or trash. Some hosts are threatening to strike.",
+      "why_it_matters": "It changes what travelers can be asked to do on one of the largest US rental platforms.",
+      "region": "US",
+      "topics": [
+        "culture-sports",
+        "big-tech"
+      ],
+      "entities": [
+        "Airbnb"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T19:54:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Airbnb bans making guests do dishes and take out the trash",
+          "url": "https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update"
+        },
+        {
+          "outlet": "Wired",
+          "title": "Airbnb Hosts Are Furious They Can No Longer Make Guests Do Their Chores",
+          "url": "https://www.wired.com/story/airbnb-hosts-are-furious-they-can-no-longer-make-guests-do-their-chores/"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}

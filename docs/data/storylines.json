@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T17:55:51Z",
+  "updated_at": "2026-10-21T22:09:50Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -40,11 +40,21 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "After meeting Witkoff in St Petersburg, Putin agreed in principle to resume trilateral talks and Russia freed American Stephen Hubbard. Zelenskyy says missile-strike intelligence works again. Russia is sending its first diesel tanker to the US.",
+      "summary": "Putin told Witkoff he is ready in principle to resume trilateral talks and Russia freed American Stephen Hubbard, but missiles hit Kyiv. Trump tied his sanctions waiver to the release. Russia sends its first diesel tanker to the US Thursday.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Missiles hit Kyiv after Russia agrees in principle to resume peace talks; Trump says the world is 'the closest we've been' to ending the war.",
+          "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Trump links his Russia sanctions waiver to the release of jailed American Stephen Hubbard.",
+          "url": "https://thehill.com/homenews/6163898-trump-waives-russian-sanctions-hubbard/"
+        },
         {
           "date": "2026-10-21",
           "text": "Russia to send its first diesel tanker to the US on Thursday under the Trump deal.",
@@ -134,27 +144,22 @@
           "date": "2026-10-18",
           "text": "Zelenskyy says Ukraine trusts the US and hopes Trump changes his decisions; Bessent calls his Starlink claims reckless.",
           "url": "https://thehill.com/policy/international/6156570-zelensky-hopes-trump-changes-decision/"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Wright calls the diesel deal a peace incentive while Rubio says Russia would sell the fuel anyway.",
-          "url": "https://www.axios.com/2026/10/18/trump-russia-diesel-deal-rubio-wright-sanctions"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "FT reports St Petersburg endured its biggest Ukrainian drone attack, hitting tech infrastructure.",
-          "url": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Stocks rebounded as tech earnings eased AI fears, but credit-risk gauges for tech hit highs. SpaceX jumped on earnings and Tesla merger talk while its bonds weakened; neocloud economics and Nvidia's European push are in focus.",
+      "summary": "Stocks rebounded as tech earnings eased AI fears, but credit-risk gauges for tech hit highs. SpaceX jumped on earnings and Tesla merger talk; Meta plans a non-voting share class to fund AI; neocloud economics are in focus.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Meta says it will issue a new class of non-voting shares, trading from 2027, to fund AI initiatives, acquisitions and pay.",
+          "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+        },
         {
           "date": "2026-10-21",
           "text": "SpaceX shares jump about 10% on earnings and Tesla merger talk, while its bonds weaken on debt fears.",
@@ -249,11 +254,6 @@
           "date": "2026-10-17",
           "text": "Junk bond buyers freeze out tech startups as CoreWeave's pain raises questions over AI financing.",
           "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "S&P 500 tech sector has its worst week in 18 months while the average stock gains.",
-          "url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da?mod=mw_rss_topstories"
         }
       ]
     },
@@ -290,11 +290,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Trump approval is at record lows and Democrats lead the generic ballot, including by 11 points among likely voters in a new poll. Vance defended Ramaswamy's ad; a pollster admitted fabricating data; GOP groups shift money among Senate races.",
+      "summary": "Trump approval is at record lows and Democrats lead the generic ballot. Democratic groups sued over administration election threats; Trump rallies in South Carolina as Republicans weigh money for Mississippi, Kansas and South Carolina; Republicans hold a spending edge.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Democratic groups sue the Trump administration, alleging it uses unfounded fraud claims and prosecution threats to pressure election officials.",
+          "url": "https://www.axios.com/2026/10/21/trump-election-interference-lawsuit-democrats"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Trump heads to South Carolina for Sen. Darline Graham; Axios reports Senate Republicans weigh more money for Mississippi, South Carolina and Kansas.",
+          "url": "https://www.axios.com/2026/10/21/mississippi-senate-competitive-hyde-smith-colom"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "NPR poll shows record support for Democratic congressional candidates; FT reports a large Republican spending advantage.",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6011179/poll-democrats-republicans-trump-approval"
+        },
         {
           "date": "2026-10-21",
           "text": "Vance says he is disgusted by Republicans criticizing Ramaswamy's ad featuring Amy Acton's estranged mother.",
@@ -379,32 +394,27 @@
           "date": "2026-10-19",
           "text": "Vance announces about $858 million in disaster funds while campaigning for Whatley in North Carolina.",
           "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4771248/jd-vance-additional-disaster-funds-hurricane-helene-rally-north-carolina/"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "DOJ charges 28 green card holders in California over alleged illegal voting, after suing the state and warning election officials.",
-          "url": "https://www.theguardian.com/us-news/2026/oct/19/california-illegal-voting-charges-doj"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Wired finds election offices in at least 32 states received suspicious letters in the past week.",
-          "url": "https://www.wired.com/story/election-offices-in-at-least-32-states-have-received-suspicious-letters-in-the-last-week/"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Poll finds 66% think Trump is using the presidency to enrich himself as his approval hits a new low, the Guardian reports.",
-          "url": "https://www.theguardian.com/us-news/2026/oct/19/trump-presidency-rich-poll"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent hit $110 before easing. Netanyahu is pushing to resume strikes while Trump rules out an attack before the midterms. Israeli jets flew to Iran's border; Houthi strikes escalate and fuel costs hit airlines.",
+      "summary": "After nine months of war, Brent hit $110 before easing. The US ordered nonemergency staff out of Saudi Arabia as Houthi attacks escalate; Iran says it will keep its uranium. Netanyahu pushes to resume strikes; Israeli jets flew to Iran's border.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "State Department orders nonemergency personnel and families to leave Saudi Arabia as Houthi attacks continue; Fox reports Trump weighs strikes on Houthis.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-orders-some-diplomats-out-of-saudi-arabia-amid-houthi-attacks"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Iran says it is determined to keep its uranium and had nothing new for Washington after reported mediator proposals.",
+          "url": "https://www.aljazeera.com/news/2026/10/21/iran-determined-to-keep-uranium-amid-increased-war-odds-flurry-of-meetings?traffic_source=rss"
+        },
         {
           "date": "2026-10-21",
           "text": "Dozens of Israeli fighter jets fly a sortie to the Iranian border, per Israeli and US officials, Axios reports.",
@@ -494,16 +504,6 @@
           "date": "2026-10-18",
           "text": "Bessent says oil prices falling before year-end will depend on the Iran conflict; Wright defends gas price record.",
           "url": "https://thehill.com/policy/energy-environment/6156572-bessent-oil-prices-iran-conflict/"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Trump says Netanyahu needs re-election or the US will have to 'finish the job' against Iran alone, per Fox News.",
-          "url": "https://www.foxnews.com/politics/trump-says-netanyahu-needs-reelected-else-us-finish-job-against-iran-alone"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Trump endorses Netanyahu for reelection, calling him a critical ally against Iran, nine days before Israel's Oct. 27 election.",
-          "url": "https://www.axios.com/2026/10/18/trump-endorses-netanyahu-israel-election-iran"
         }
       ]
     }
