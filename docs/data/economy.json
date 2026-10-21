@@ -1,72 +1,8 @@
 {
   "version": 2,
-  "updated_at": "2026-10-21T05:46:18Z",
-  "read": "Inflation is re-accelerating at 3.7 percent and unemployment ticked up to 4.20 percent. The Fed raised its target range in September and markets price a hold on Oct. 28. Ten-year yields at 5.15 percent and 7.40 percent mortgage rates are weighing on housing, while oil and AI-debt worries add pressure.",
-  "indicators": [
-    {
-      "key": "fedfunds",
-      "label": "Fed funds target",
-      "value": "3.75–4.00",
-      "unit": "%",
-      "as_of": "2026-10-20",
-      "change": "up 0.25",
-      "note": "Range raised from 3.50–3.75 in September"
-    },
-    {
-      "key": "fedfunds_effective",
-      "label": "Fed funds (effective)",
-      "value": "3.75",
-      "unit": "%",
-      "as_of": "2026-09-01",
-      "change": "up 0.12",
-      "note": "Tracks the higher target range"
-    },
-    {
-      "key": "cpi_yoy",
-      "label": "CPI inflation (YoY)",
-      "value": "3.7",
-      "unit": "%",
-      "as_of": "2026-09-01",
-      "change": "up 0.3",
-      "note": "Inflation accelerating again"
-    },
-    {
-      "key": "unrate",
-      "label": "Unemployment",
-      "value": "4.20",
-      "unit": "%",
-      "as_of": "2026-09-01",
-      "change": "up 0.1",
-      "note": "Slight rise in joblessness"
-    },
-    {
-      "key": "dgs10",
-      "label": "10-yr Treasury",
-      "value": "5.15",
-      "unit": "%",
-      "as_of": "2026-10-19",
-      "change": "up 0.06",
-      "note": "Yields rising, pressuring stocks"
-    },
-    {
-      "key": "dgs2",
-      "label": "2-yr Treasury",
-      "value": "4.77",
-      "unit": "%",
-      "as_of": "2026-10-19",
-      "change": "up 0.03",
-      "note": "Short rates edging higher"
-    },
-    {
-      "key": "mortgage30",
-      "label": "30-yr mortgage",
-      "value": "7.40",
-      "unit": "%",
-      "as_of": "2026-10-15",
-      "change": "unch",
-      "note": "Housing demand remains weak"
-    }
-  ],
+  "updated_at": "2026-10-21T17:55:51Z",
+  "read": "Inflation pressure from the Gulf war remains the main theme: oil is expected to stay high longer, airlines cite jet fuel costs, and housing data is weakening under higher mortgage rates. Markets rebounded on tech earnings, but AI credit worries persist. Traders expect the Fed to hold next week.",
+  "indicators": [],
   "fed": {
     "next_meeting": "2026-10-28",
     "odds": [
@@ -76,7 +12,7 @@
       },
       {
         "label": "Hike 25bps",
-        "prob": 0.12
+        "prob": 0.13
       },
       {
         "label": "Hike >25bps",
@@ -91,13 +27,13 @@
         "prob": 0.01
       }
     ],
-    "note": "Markets strongly expect a hold after September's hike; inflation and housing data are in focus."
+    "note": "Markets expect a hold on Oct. 28 after September's hike, with housing weakness in focus."
   },
   "week_ahead": [
     {
       "date": "2026-10-28",
       "event": "FOMC rate decision",
-      "why_it_matters": "Sets rate path as inflation rises and housing weakens."
+      "why_it_matters": "Sets borrowing costs; markets price a hold."
     }
   ]
 }

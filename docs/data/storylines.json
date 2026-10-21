@@ -1,15 +1,25 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T05:46:18Z",
+  "updated_at": "2026-10-21T17:55:51Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
       "title": "France riots and European unrest",
-      "summary": "France has imposed nightly curfews in Paris, Lyon and other cities after its most destructive rioting in years. Italy is sending 500 troops to Milan, and the EU is probing disinformation around the violence.",
+      "summary": "France has imposed nightly curfews in Paris and Lyon after its most destructive rioting in years. Italy is sending troops to Milan. Macron accused foreign leaders including Trump of stupid comments; French 10-year yields hit 5%.",
       "status": "active",
       "first_seen": "2026-10-20",
-      "last_updated": "2026-10-20",
+      "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "France's 10-year borrowing costs reach 5% for the first time since 2002, the FT reports.",
+          "url": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Macron accuses Trump and other foreign leaders of 'stupid comments' about the unrest as France readies for more protests this weekend.",
+          "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest"
+        },
         {
           "date": "2026-10-20",
           "text": "France announces nightly curfews in Paris, Lyon and other cities for as long as necessary after the first quiet night.",
@@ -30,11 +40,21 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Witkoff will present Putin an updated peace proposal Wednesday after Oslo talks with Zelenskyy, who says missile-strike intelligence 'works now'. Trump says he doesn't care how a deal is done. WSJ reports Musk ordered a Starshield slowdown.",
+      "summary": "After meeting Witkoff in St Petersburg, Putin agreed in principle to resume trilateral talks and Russia freed American Stephen Hubbard. Zelenskyy says missile-strike intelligence works again. Russia is sending its first diesel tanker to the US.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-20",
+      "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Russia to send its first diesel tanker to the US on Thursday under the Trump deal.",
+          "url": "https://www.aljazeera.com/economy/2026/10/21/russia-to-send-first-diesel-tanker-to-the-us-amid-trump-deal?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Putin tells Witkoff he agrees in principle to resume trilateral talks; Russia releases American Stephen Hubbard.",
+          "url": "https://www.axios.com/2026/10/21/russia-ukraine-putin-witkoff-peace"
+        },
         {
           "date": "2026-10-20",
           "text": "Witkoff to present Putin an updated proposal in St. Petersburg Wednesday, a US official says; Kushner to join virtually.",
@@ -124,27 +144,27 @@
           "date": "2026-10-18",
           "text": "FT reports St Petersburg endured its biggest Ukrainian drone attack, hitting tech infrastructure.",
           "url": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "US ambassador Puzder warns Europe of retaliation over plans to limit spectrum access for non-EU firms such as Starlink, the FT reports.",
-          "url": "https://www.ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Pence urges Trump to restore Russia sanctions; Energy Secretary Wright defends the waiver as not an economic lifeline.",
-          "url": "https://thehill.com/homenews/administration/6156538-pence-condemns-trump-putin-agreement/"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Stocks rebounded Tuesday as tech earnings eased AI-trade fears, but credit-risk gauges for major tech firms hit new highs, SoftBank risk is at a four-year high, and Australia's NextDC plunged about 40% on a profit warning.",
+      "summary": "Stocks rebounded as tech earnings eased AI fears, but credit-risk gauges for tech hit highs. SpaceX jumped on earnings and Tesla merger talk while its bonds weakened; neocloud economics and Nvidia's European push are in focus.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-20",
+      "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "SpaceX shares jump about 10% on earnings and Tesla merger talk, while its bonds weaken on debt fears.",
+          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Nebius says AI computing prices are rising as investors question neocloud debt and economics.",
+          "url": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html"
+        },
         {
           "date": "2026-10-20",
           "text": "Stocks rise as strong tech earnings revive the AI trade after last week's selloff; oil gains.",
@@ -234,27 +254,22 @@
           "date": "2026-10-17",
           "text": "S&P 500 tech sector has its worst week in 18 months while the average stock gains.",
           "url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da?mod=mw_rss_topstories"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Software and semiconductor stocks fall together Friday on AI and interest-rate fears.",
-          "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Anthropic offers Blackstone a double-digit yield on chip financing, complicating its investment-grade goal.",
-          "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1"
         }
       ]
     },
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28. Housing data is weakening and CNBC says the Fed weighs more hikes.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28. Housing data is weakening and traders expect oil to stay elevated longer, prolonging inflation pressure.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-20",
+      "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Axios: traders bet oil prices stay elevated longer, threatening to prolong inflation pressure.",
+          "url": "https://www.axios.com/2026/10/21/oil-prices-inflation-central-banking"
+        },
         {
           "date": "2026-10-20",
           "text": "CNBC reports housing data worsened in September as the Fed weighs more rate hikes; Axios says homebuilder sentiment is at a 14-year low.",
@@ -275,11 +290,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Trump approval is at record lows in several polls, with Democrats leading the generic ballot. Trump says he will have spent over $400 million for Republicans. LA officials call DOJ's noncitizen voter list unreliable; Ramaswamy's ad on Acton's mother draws criticism.",
+      "summary": "Trump approval is at record lows and Democrats lead the generic ballot, including by 11 points among likely voters in a new poll. Vance defended Ramaswamy's ad; a pollster admitted fabricating data; GOP groups shift money among Senate races.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-20",
+      "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Vance says he is disgusted by Republicans criticizing Ramaswamy's ad featuring Amy Acton's estranged mother.",
+          "url": "https://thehill.com/homenews/campaign/6163244-vance-criticizes-gop-ramaswamy-ad/"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Wedgewood Polls admits fabricating survey data; FCC chair Carr warns broadcasters about false polls.",
+          "url": "https://www.theguardian.com/us-news/2026/oct/21/polling-fabricated-data-social-experiment"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Elon University poll has Cooper leading Whatley 52 to 39 in North Carolina Senate race.",
+          "url": "https://thehill.com/homenews/campaign/6163192-north-carolina-senate-polling-data/"
+        },
         {
           "date": "2026-10-20",
           "text": "Ramaswamy confirms his campaign made an ad featuring Amy Acton's estranged mother, and Axios reports a $4 million buy despite backlash.",
@@ -364,32 +394,32 @@
           "date": "2026-10-19",
           "text": "Poll finds 66% think Trump is using the presidency to enrich himself as his approval hits a new low, the Guardian reports.",
           "url": "https://www.theguardian.com/us-news/2026/oct/19/trump-presidency-rich-poll"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Klobuchar and Demuth clash over Minnesota's fraud scandal in their first governor's debate.",
-          "url": "https://thehill.com/homenews/campaign/6158330-klobuchar-demuth-minnesota-governor-debate/"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "US Chamber of Commerce endorses Ken Paxton over James Talarico as both hold rallies before Texas early voting begins Monday.",
-          "url": "https://thehill.com/homenews/campaign/6156921-chamber-endorses-paxton-texas-senate/"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Axios reports Beshear faces criticism from Latino lawmakers and potential 2028 rivals over Texas funding.",
-          "url": "https://www.axios.com/2026/10/18/beshear-rivals-latinos-texas-funding"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent hit $110 before easing. The FT reports Netanyahu is pushing to resume strikes while Trump rules out an attack before the midterms. Iran hit container ships in Hormuz, Houthi strikes escalate.",
+      "summary": "After nine months of war, Brent hit $110 before easing. Netanyahu is pushing to resume strikes while Trump rules out an attack before the midterms. Israeli jets flew to Iran's border; Houthi strikes escalate and fuel costs hit airlines.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-20",
+      "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Dozens of Israeli fighter jets fly a sortie to the Iranian border, per Israeli and US officials, Axios reports.",
+          "url": "https://www.axios.com/2026/10/21/israel-military-training-sortie-iran-border"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Macron makes a surprise visit to Riyadh as France secures extra diesel supplies.",
+          "url": "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "United Airlines forecasts weak Q4 earnings as jet fuel costs surge.",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-21/united-misses-estimates-squeezed-by-jet-fuel-costs-video"
+        },
         {
           "date": "2026-10-20",
           "text": "FT reports Netanyahu is pushing to resume strikes on Iran; Israel held off earlier plans as Trump rules out an attack before the midterms.",
@@ -474,16 +504,6 @@
           "date": "2026-10-18",
           "text": "Trump endorses Netanyahu for reelection, calling him a critical ally against Iran, nine days before Israel's Oct. 27 election.",
           "url": "https://www.axios.com/2026/10/18/trump-endorses-netanyahu-israel-election-iran"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Iran's IRGC says two tankers, each carrying about two million barrels, caught fire after hitting mines on an unauthorised route.",
-          "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Saudi-led coalition intercepts four drones over Riyadh and other areas as Egypt weighs sending help.",
-          "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss"
         }
       ]
     }
