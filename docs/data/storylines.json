@@ -1,15 +1,50 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20T22:09:18Z",
+  "updated_at": "2026-10-21T05:46:18Z",
   "storylines": [
+    {
+      "id": "sl-france-unrest",
+      "title": "France riots and European unrest",
+      "summary": "France has imposed nightly curfews in Paris, Lyon and other cities after its most destructive rioting in years. Italy is sending 500 troops to Milan, and the EU is probing disinformation around the violence.",
+      "status": "active",
+      "first_seen": "2026-10-20",
+      "last_updated": "2026-10-20",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "text": "France announces nightly curfews in Paris, Lyon and other cities for as long as necessary after the first quiet night.",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "EU regulators probe pro-Kremlin disinformation and the role of social platforms around the French riots, the FT reports.",
+          "url": "https://www.ft.com/content/d95609cd-1bb9-4995-937b-875277de3a42?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Italy approves sending 500 troops to Milan after clashes and protests.",
+          "url": "https://www.aljazeera.com/news/2026/10/21/italy-approves-sweeping-security-measures-in-response-to-protests?traffic_source=rss"
+        }
+      ]
+    },
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Zelenskyy says US missile-strike intelligence 'works now' after Oslo talks with Witkoff, who goes on to Russia. WSJ reports Musk ordered a Starshield slowdown. Republicans push back on Trump's Russia stance; Hegseth says posture is unchanged.",
+      "summary": "Witkoff will present Putin an updated peace proposal Wednesday after Oslo talks with Zelenskyy, who says missile-strike intelligence 'works now'. Trump says he doesn't care how a deal is done. WSJ reports Musk ordered a Starshield slowdown.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "Witkoff to present Putin an updated proposal in St. Petersburg Wednesday, a US official says; Kushner to join virtually.",
+          "url": "https://www.axios.com/2026/10/20/putin-witkoff-russia-ukraine-war"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Trump says 'I don't care how it's done' as he presses Ukraine to cut a peace deal.",
+          "url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal?traffic_source=rss"
+        },
         {
           "date": "2026-10-20",
           "text": "WSJ reports Musk ordered a Starshield slowdown that Ukraine said hampered its response to Russian attacks.",
@@ -99,27 +134,27 @@
           "date": "2026-10-18",
           "text": "Pence urges Trump to restore Russia sanctions; Energy Secretary Wright defends the waiver as not an economic lifeline.",
           "url": "https://thehill.com/homenews/administration/6156538-pence-condemns-trump-putin-agreement/"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Zelenskyy speaks with Witkoff and Kushner, the first senior call since tensions began.",
-          "url": "https://www.axios.com/2026/10/18/zelensky-witkoff-kushner-ukraine-russia-crisis"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Ukraine launches more than 1,000 drones at Russia, hitting St Petersburg oil sites and a data centre; at least one killed.",
-          "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Credit-risk gauges for major tech firms hit fresh highs Tuesday as investors fear a wave of post-earnings bond sales. Chips rebounded Monday, but SoftBank risk is at a four-year high and a Korean data centre IPO fell 32%.",
+      "summary": "Stocks rebounded Tuesday as tech earnings eased AI-trade fears, but credit-risk gauges for major tech firms hit new highs, SoftBank risk is at a four-year high, and Australia's NextDC plunged about 40% on a profit warning.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "Stocks rise as strong tech earnings revive the AI trade after last week's selloff; oil gains.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Australian data center operator NextDC plunges about 40% after cutting its earnings forecast over power delays.",
+          "url": "https://www.cnbc.com/2026/10/21/australia-data-center-operator-nexdc-datacenter.html"
+        },
         {
           "date": "2026-10-20",
           "text": "Credit-risk gauges for major tech companies hit fresh highs as investors brace for post-earnings bond sales.",
@@ -209,16 +244,6 @@
           "date": "2026-10-16",
           "text": "Anthropic offers Blackstone a double-digit yield on chip financing, complicating its investment-grade goal.",
           "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Big Tech posts its biggest weekly drop since 'liberation day'; CoreWeave falls 25% for the week as investors buy Treasuries.",
-          "url": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-10-16",
-          "text": "Chip stocks near longest losing run since 2008; big bank shares on worst weekly streak since 2008.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-16/big-us-bank-shares-set-for-worst-weekly-losing-streak-since-2008"
         }
       ]
     },
@@ -250,11 +275,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Trump approval is at record lows in several polls, with Democrats leading the generic ballot. Trump says he will have spent over $400 million for Republicans, Musk endorsed Paxton, and suspicious letters have reached lawmakers and election offices in at least 32 states.",
+      "summary": "Trump approval is at record lows in several polls, with Democrats leading the generic ballot. Trump says he will have spent over $400 million for Republicans. LA officials call DOJ's noncitizen voter list unreliable; Ramaswamy's ad on Acton's mother draws criticism.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "Ramaswamy confirms his campaign made an ad featuring Amy Acton's estranged mother, and Axios reports a $4 million buy despite backlash.",
+          "url": "https://thehill.com/homenews/campaign/6161654-ramaswamy-attack-ad-amy-acton/"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Los Angeles County officials say the DOJ's list of 20,000 likely noncitizen voters is unreliable, with some apparently US-born, NPR reports.",
+          "url": "https://www.npr.org/2026/10/20/nx-s1-6009873/california-doj-voter-rolls-noncitizens"
+        },
+        {
+          "date": "2026-10-20",
+          "text": "At a North Carolina rally for Michael Whatley, Trump announces $1.5 billion in Pentagon investment in chip production.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4772412/trump-rally-michael-whatley-north-carolina/"
+        },
         {
           "date": "2026-10-20",
           "text": "Trump says he has committed more than $400 million to support Republicans in the midterms.",
@@ -339,32 +379,22 @@
           "date": "2026-10-18",
           "text": "Axios reports Beshear faces criticism from Latino lawmakers and potential 2028 rivals over Texas funding.",
           "url": "https://www.axios.com/2026/10/18/beshear-rivals-latinos-texas-funding"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Axios reports three polls show Trump approval at new lows and Democrats leading by 8 to 10 points.",
-          "url": "https://www.axios.com/2026/10/18/trump-approval-polls-maga-gop-midterms-2026"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Troy Jackson says he won't apologize for telling Collins to 'shut up'; Angie Nixon defends calling for Moody's jailing.",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4770138/troy-jackson-susan-collins-shut-up-maine-debate/"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Axios reports Democrats are competitive in long-Republican territory; the FT says GOP insiders think wave predictions are overstated.",
-          "url": "https://www.axios.com/2026/10/18/democrat-2026-republican-winning-streak-kansas"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent hit $110 before easing. Netanyahu says he discussed toppling Iran's regime with Trump, Hegseth met Netanyahu, Iran hit container ships in Hormuz, Houthi strikes escalate, and the UK will send Typhoons to Saudi Arabia.",
+      "summary": "After nine months of war, Brent hit $110 before easing. The FT reports Netanyahu is pushing to resume strikes while Trump rules out an attack before the midterms. Iran hit container ships in Hormuz, Houthi strikes escalate.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-20",
       "events": [
+        {
+          "date": "2026-10-20",
+          "text": "FT reports Netanyahu is pushing to resume strikes on Iran; Israel held off earlier plans as Trump rules out an attack before the midterms.",
+          "url": "https://www.ft.com/content/eb4d1101-45ed-4d03-9beb-42f7c87a58ea"
+        },
         {
           "date": "2026-10-20",
           "text": "Netanyahu says he discussed eliminating Iran's regime with Trump; Sen. Rick Scott backs renewed bombing if it speeds regime change.",
@@ -454,11 +484,6 @@
           "date": "2026-10-17",
           "text": "Saudi-led coalition intercepts four drones over Riyadh and other areas as Egypt weighs sending help.",
           "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Iranian state TV airs video it says shows an oil tanker exploding after hitting a naval mine in Hormuz.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/iranian-tv-airs-video-said-to-show-tanker-explosion-in-hormuz?traffic_source=rss"
         }
       ]
     }
