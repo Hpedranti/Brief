@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "drop": "2026-10-22T17",
+  "articles": {
+    "2026-10-22T17-c23": {
+      "paragraphs": [
+        "Amazon Threat Intelligence says attackers tried to exploit two critical flaws in PHP, a programming language used across much of the web, days before a patch was released. In a report, Amazon chief information security officer CJ Moses wrote that the company's security team found a PHP2Shell exploit attempt on October 17 through a monitoring system designed to bait hackers. It found several more attempts on October 21, in the hours before the patch came out.",
+        "The flaws, tracked as CVE-2026-109618 and CVE-2026-109619, could allow remote execution of malicious code. Websites rushed to apply the fix on Wednesday. The Financial Times, in a piece carried by Ars Technica, reported that Amazon said the flaws were now being \"broadly exploited in the wild.\" Elizabeth Barron, executive director of the PHP Foundation, told The Verge that to the foundation's knowledge there had been no successful remote code execution, but that updating was \"imperative.\"",
+        "Moses wrote that it remains unclear how the attacker obtained exploit information while the bug was under embargo. The PHP Foundation said details began appearing on forums and social media as it prepared the fix, and some security firms published information before the official release. It said it first theorized the bug in 2024, but a fix was delayed by compatibility breaks and the difficulty of coordinating changes to third-party extensions. It said it is changing processes so leadership sees such cases sooner.",
+        "The NSA told organizations using PHP to update immediately or take systems offline if that is not feasible. The UK's National Cyber Security Centre said the flaws could let a hacker take control of a website's server without login credentials. The White House said federal agencies were assessing the impact on government systems and critical infrastructure. Researchers at Calif and Wiz found the flaws, and Wiz estimated PHP powers about 70 percent of websites. OpenAI said it helped verify them and develop patches."
+      ],
+      "based_on": [
+        "https://www.theverge.com/tech/1016798/php-vulnerabilities-exploit-patch",
+        "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
+      ]
+    },
+    "2026-10-22T17-c26": {
+      "paragraphs": [
+        "Two nonprofit AI evaluators, METR and Redwood Research, said on Thursday that they found vulnerabilities in an internal OpenAI monitoring system during a pilot review. The exercise was meant to test what it would look like to give outside researchers \"a deep level of access\" to OpenAI's internal infrastructure, according to CNBC.",
+        "From July 21 to Aug. 11, one employee from each organization could see OpenAI's internal codebase and documentation and speak with some technical staff. They were chaperoned on-site and used OpenAI-issued devices that \"never left the premises,\" according to a release. The evaluators stress-tested the company's internal misalignment monitoring system as it existed on and before July 21, and noted that OpenAI was expanding it during the exercise.",
+        "They reported several \"novel vulnerabilities,\" including an exploit that would let agents keep \"hundreds\" of recent actions from being monitored. OpenAI told them it has patched the vulnerabilities affecting its production safeguards. METR and Redwood said they would publish only a high-level post, because the pilot was not designed to provide robust public transparency, and gave OpenAI a 61-page internal report. They expect to share more about future exercises. An OpenAI spokesperson said the company is using what it learned to strengthen safeguards and shape future collaborations.",
+        "The pilot follows a September pledge by OpenAI CEO Sam Altman to give independent evaluators \"employee-like access,\" after Anthropic CEO Dario Amodei proposed the idea. OpenAI said earlier this month it is finalizing contracts with third-party safety assessors. President Donald Trump has also encouraged AI companies to partner with an independent external auditor or evaluator as part of a voluntary accord. CNBC reported that experts still have questions about how such groups will be funded and how their reporting structures will work."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html"
+      ]
+    },
+    "2026-10-22T17-c27": {
+      "paragraphs": [
+        "Chinese AI lab DeepSeek has reportedly raised about $15 billion, roughly 100 billion yuan, in one of the largest funding rounds in China, according to Bloomberg as relayed by TechCrunch. The report came two days after the U.S. ordered federal civilian agencies to remove DeepSeek's AI technology from their systems over security concerns. Potential investors include battery maker CATL and Tencent, the company behind WeChat, among others.",
+        "The round follows one in June in which DeepSeek raised more than $7 billion at a $50 billion valuation. The company was also reportedly seeking another $1.5 billion at a valuation of around $71 billion in July, with a possible IPO in China as early as next year. Bloomberg reported that the Hangzhou-based startup is increasing spending on AI infrastructure and open models for domestic and international markets despite its U.S. restrictions, and that its growth could intensify competition among Chinese rivals. DeepSeek did not immediately respond to TechCrunch's request for comment.",
+        "TechCrunch placed the round within a broader wave of investment in AI companies worldwide. Moonshot AI, developer of Kimi, secured $2 billion at a $20 billion valuation in May, and Manus AI raised more than $500 million earlier this month. Zhipu AI and MiniMax, which both listed in Hong Kong in January, have market capitalizations of roughly $29 billion and $7.2 billion.",
+        "DeepSeek was founded in 2023 by Liang Wenfeng, who previously co-founded the hedge fund High-Flyer, which helped finance its early work. It drew global attention in early 2025 with a free, open-weight reasoning model. Corporate ownership data analyzed by WireScreen indicates Liang holds an estimated 81.6 percent of its Chinese operating entity following the earlier round."
+      ],
+      "based_on": [
+        "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+      ]
+    },
+    "2026-10-22T17-c30": {
+      "paragraphs": [
+        "Barclays said it is cutting around 5,000 jobs as it brings more artificial intelligence into its work, the BBC reported. The bank said 1,000 posts have already closed and it expects a further 4,000 reductions to be complete by the end of this year, about 5 percent of its global workforce. The cost reductions are focused on its UK retail bank, though some UK back-office functions are done in India, where a significant share of the cuts is expected to fall. Barclays said around 60 percent of the cuts will be in support functions, including developers.",
+        "Chief executive CS Venkatakrishnan said the cuts stem from significant investment in technology to simplify the business. \"We will employ the AI at scale,\" he said, but called AI \"the icing on the cake not the cake,\" because infrastructure must be built first. The BBC noted that not all of the cuts are due to AI. Barclays is finishing a three-year cost-cutting programme, and said efficiency measures should deliver a further £1.1bn of savings in 2027.",
+        "Reaction was mixed. Sharon Graham, general secretary of the Unite union, said Barclays was \"using AI as an excuse to discard its loyal and long-suffering workforce\" and urged employers to focus on upgrading skills. Analyst Russ Mould of AJ Bell said banks had not yet made big moves toward widespread AI and would weigh security and customer service, and that Barclays had failed to match expectations in its results despite \"reaching for the AI lever.\" Quilter Cheviot analyst Will Howlett said the cuts show how AI and automation could reshape banking.",
+        "Barclays reported £2.3bn profit for the three months to September, higher than a year earlier but slightly below forecasts. HSBC, Standard Chartered and Danske Bank have also flagged AI-related job cuts this year, and Mould said other banks' results in coming weeks will be worth watching."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-10-22T17-c33": {
+      "paragraphs": [
+        "Workers with employer health coverage are paying more for it. According to the nonprofit KFF's 2026 Employer Health Benefits Survey, reported by STAT, the amount workers pay toward family plan premiums rose 9 percent this year to an average of $7,471. That exceeds the 6 percent and 7 percent increases KFF recorded in recent years, and workers at small businesses faced larger increases.",
+        "NPR, which also covered the survey of nearly 2,000 employers, reported that total family premiums rose 5 percent, roughly in line with wages and inflation. KFF's Matthew Rae said the average premium for a family of four is now $28,000, with workers paying about $7,000 and employers the rest. He called the slower overall growth a glimmer of positivity but said \"a 5% increase on a big number is still a lot of money.\" He added that if the 9 percent worker increase marks the start of a shift of costs onto workers, \"that would be a big deal in terms of affordability.\" STAT noted that employers have so far absorbed most of the rise in overall costs.",
+        "Deductibles add to the strain. Joseph Babbitt, a Missouri financial controller whose employer pays his premiums, told NPR his deductible is now $5,000, compared with $250 or $500 in the 1990s.",
+        "A separate Thursday report, the Commonwealth Fund's \"The State of Health Insurance Coverage in 2026,\" found the overall uninsured rate rose over the last two years. Lead author Sara Collins attributed that partly to expired extra federal subsidies for Affordable Care Act plans and Medicaid losses after the pandemic emergency ended. She said about 43 percent of insured workers skipped care because of cost in the past year and 31 percent reported medical debt. NPR reported that Medicaid work requirements take effect next year, and projections show millions more could lose coverage."
+      ],
+      "based_on": [
+        "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss",
+        "https://www.npr.org/2026/10/22/nx-s1-6008153/health-insurance-costs-kff-commonwealth"
+      ]
+    },
+    "2026-10-22T17-c35": {
+      "paragraphs": [
+        "The U.S. Centers for Disease Control and Prevention has declined a request from California and Washington to validate a new way to test for measles, according to The Guardian. The two states asked in May. After two months, the CDC denied the request, citing \"other competing priorities,\" according to a letter from the West Coast Health Alliance to CDC director Erica Schwartz.",
+        "The letter, signed by health officials in California, Hawaii, Oregon and Washington, asks Schwartz to reconsider and validate a rapid, high-volume measles test in preparation for major outbreaks. It also asks the CDC to create protocols for other high-priority pathogens. The officials said such a test would \"dramatically strengthen\" laboratories' ability to respond quickly to outbreaks.",
+        "Labs currently rely on lower-volume tests for measles, such as individual PCR tests. During the Covid pandemic, most public health labs bought high-volume equipment such as the Hologic Panther Fusion, which can process up to 500 tests in eight hours. But no high-throughput measles test has been published or validated by the CDC. Texas state laboratories developed one during last year's outbreak in west Texas but have not distributed or published the protocol. The officials said the CDC has reportedly completed studies on the Texas test and another from ARUP Laboratories, but \"they were not full validations or a comprehensive comparison.\"",
+        "The alliance asked the CDC to develop and publish an assay for the Panther Fusion so any lab can run it. Without high-throughput capacity, the letter said, scaling up testing in a large regional outbreak would be harder.",
+        "HHS spokesperson Emily Hilliard said the CDC is ensuring state and local health departments have the support they need and is \"prioritizing emerging technologies\" in its measles response. She did not say whether the agency plans to validate a high-throughput measles assay."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/oct/22/cdc-measles-test-denied"
+      ]
+    },
+    "2026-10-22T17-c37": {
+      "paragraphs": [
+        "French authorities say a patient who died in early October is the first known human case of Shamonda virus, or Shav, a pathogen previously found only in animals. French health and agriculture ministries said on Thursday that the man was treated for a serious illness at a Lyon hospital and developed neurological complications that initial findings suggest were \"very likely linked\" to the virus. The World Health Organization confirmed it as the first documented human case.",
+        "Officials called it an \"exceptional case in a severely immunocompromised patient\" and said there was currently no risk to the public. The European Centre for Disease Prevention and Control noted he was already seriously ill, so it is unclear whether the virus played a role in his death. Investigations into whether it caused or contributed to the death, and how he was infected, are continuing. The ministries said he is thought to have been bitten by a midge in eastern France, where animal cases were first identified in the spring.",
+        "Shav is a bunyavirus spread by midges. It affects cattle, sheep, goats, alpacas and horses. In animals it can cause fever, diarrhoea and reduced milk yield, according to the Austrian Agency for Health and Food Safety, and abortions and congenital abnormalities in young animals. It was first detected in European livestock in late July and has since been found in Ireland, Germany, Italy, Spain and Jersey.",
+        "The WHO said it has not yet made a formal risk assessment, but that the case appears isolated and unlikely to lead to wider spread, adding that transmission of midge-borne viruses generally declines in cooler months. Prof Tom Solomon of the University of Liverpool said the public risk appears very low but that it is unknown whether healthy people can be infected without symptoms. Dr Ben Brennan of the University of Glasgow said there is no evidence of sustained human-to-human transmission."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/22/shamonda-virus-detected-in-human-first-time-france",
+        "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-10-22T17-c01": {
+      "paragraphs": [
+        "Calley Means, a top Make America Healthy Again adviser to the Trump administration, has resigned less than two weeks before the midterm elections, STAT reported. Means confirmed his departure to STAT, and the Wall Street Journal reported it first. He joined the administration as a close adviser to Health Secretary Robert F. Kennedy Jr. and later moved to the White House.",
+        "In a statement shared with STAT, Means said he leaves with \"tremendous respect for President Trump and RFK.\" He said the movement is \"in the first inning and just getting started.\" He did not say why he was leaving.",
+        "STAT reported that the departure leaves the MAHA movement on shakier ground before an election that may serve as a referendum on it. According to the outlet, the movement has struggled to find a financial or messaging foothold, with mixed messaging and some candidates lagging in the polls. Means had pushed back on characterizations that the movement was faltering.",
+        "Means and his sister Casey Means gained fame in conservative circles with their 2024 book \"Good Energy.\" He later advised Kennedy's presidential campaign. Casey Means was nominated for surgeon general, but the nomination was pulled after senators raised concerns about her lack of medical experience.",
+        "STAT described Calley Means as a driving force behind the MAHA agenda. That included a chronic disease report that contained AI-driven errors and a White House-led effort to expand access to psychedelics. He also supported state efforts to limit junk food for SNAP recipients and the remaking of the food pyramid. Before joining the administration, he founded Truemed, which lets tax-advantaged accounts such as FSAs and HSAs be used for health and wellness products."
+      ],
+      "based_on": [
+        "https://www.statnews.com/2026/10/22/calley-means-resigns-white-house-adviser-maha-movement/?utm_campaign=rss"
+      ]
+    },
+    "2026-10-22T17-c02": {
+      "paragraphs": [
+        "Meta shares fell roughly 6% on Thursday, CNBC reported, after the company's third-quarter results showed negative free cash flow and a higher floor for full-year capital expenditures.",
+        "Free cash flow came in at negative $2.12 billion for the quarter. Meta said it expects full-year capital spending of $135 billion to $145 billion, raising the bottom of the range from a previous $130 billion. The spread on the company's five-year credit default swaps reached all-time highs on Thursday. CNBC described that as a signal of growing credit concerns among investors as Meta leans deeper into its artificial intelligence spending plans.",
+        "Other results were stronger. Revenue rose 26% from a year earlier to $64.60 billion, above the $63.37 billion analysts expected. Earnings per share were $3.83, though CNBC said it was not clear whether that figure was directly comparable with the $5.75 per share Wall Street was looking for.",
+        "In its earnings release on Wednesday, Meta also said it would create a new class of nonvoting Class C common stock. The company said the move is meant to maintain its \"founder-led structure\" and \"provide Meta the ability to finance its growth.\"",
+        "An SEC filing added that CEO Mark Zuckerberg could leave California if the \"California Wealth Tax\" were to pass. The filing said he \"could become liable for a significant, multi-billion-dollar tax payment based on his ownership of stock in the Company.\" It noted that Zuckerberg was convinced to stay in California by the company's new stock plan."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+      ]
+    },
+    "2026-10-22T17-c03": {
+      "paragraphs": [
+        "A federal judge in California has ordered the Department of Homeland Security to halt certain field investigations into suspected illegal voting by U.S. citizens in nine states: California, Connecticut, Georgia, Missouri, Nevada, New York, Pennsylvania, Washington and Wisconsin. U.S. District Judge Araceli Martínez-Olguín issued the ruling Wednesday, according to Fox News.",
+        "The judge found that the activist groups suing DHS had shown they are likely to succeed on a claim under the Voting Rights Act's prohibition of intimidating voter assistance and mobilization. Fox reported she wrote that the public's interest in safe elections free from intimidation far exceeds the government's \"purported interest\" in combating unlawful voting by noncitizens.",
+        "She did not find investigating noncitizen voting unlawful in itself. Instead, according to Fox, she concluded that DHS's methods likely violate the law because it used unreliable source data and sent armed agents to homes for interviews, which could constitute intimidation. Government lawyers conceded that some U.S. citizens may have been looked at, but said in-person interviews were \"expressly designed to resolve the discrepancies.\"",
+        "The Trump administration maintains that noncitizen voting in federal elections is a crime and that DHS has statutory authority to investigate. A DHS spokesperson told Fox the department is focused on identifying, prosecuting and removing noncitizens who vote, and has \"no plans to question or investigate people we believe to be U.S. citizens.\"",
+        "Fox noted that noncitizen voting is rare but that cases have been documented, and that the administration has not yet produced evidence of widespread noncitizen voting. The judge delayed enforcement until Friday, giving the administration time to appeal. The restrictions are set to expire on Election Day unless otherwise ordered."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/live/2026/oct/22/vivek-ramaswamy-ohio-trump-vance-us-midterm-elections-latest-news-updates",
+        "https://www.foxnews.com/politics/biden-appointed-judge-blocks-voter-fraud-probes-battleground-states-days-before-midterms"
+      ]
+    },
+    "2026-10-22T17-c04": {
+      "paragraphs": [
+        "Bill Essayli, the first assistant U.S. attorney for California's Central District, said federal investigators have determined that all 20,000 people they flagged on California's voter rolls as \"likely noncitizens\" are not U.S. citizens, according to Fox News. He said investigators have evidence the 20,000 received mail ballots this month, and called that number \"the floor.\"",
+        "His office sued California on Oct. 15 seeking a court order to sequester any ballots those individuals return. The Justice Department asked the judge on Wednesday to rule on its emergency request by noon Thursday. Essayli said every name was individually reviewed by a federal employee at U.S. Citizenship and Immigration Services and Homeland Security Investigations, and he expects thousands more names in coming days.",
+        "California election officials have pushed back in court filings. They argue county offices lack the authority and access to federal records needed to verify citizenship. They also say sequestering is impossible for ballots already processed, because once a signature is verified the ballot is separated from its identifying envelope. Essayli said that is why the DOJ wants an emergency order.",
+        "Monica Flores of the Los Angeles County registrar's office said in a court declaration that, in a 200-record sample from the list tied to county addresses, 112 matched canceled or inactive registrations, meaning no ballot was mailed. Where birthplace was meaningfully reported, she said 38.9% indicated a U.S. birth. Essayli disputed both points, noting the information was self-reported and saying some registrations may have been canceled after the federal list was provided.",
+        "Separately, a district court in January dismissed a DOJ suit seeking California's full voter database, calling the request \"unprecedented and illegal.\" The DOJ appealed."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/doj-verified-20000-noncitizens-california-voter-rolls-federal-prosecutor-says"
+      ]
+    },
+    "2026-10-22T17-c06": {
+      "paragraphs": [
+        "Amy Acton, the Democratic candidate for Ohio governor, has called an attack ad from Republican opponent Vivek Ramaswamy \"despicable,\" the BBC reported. The ad features Acton's estranged mother, Donna Arthur, who says Acton \"lied her entire life.\" It does not mention that Arthur's husband was charged with raping Acton as a child and that Acton and her brother were then removed from Arthur's custody.",
+        "Acton's campaign told the BBC that her stepfather fled town before standing trial, was never prosecuted and died in 2004. Acton said she has never attacked Ramaswamy's family. Her brother, in an ad she released, criticized Ramaswamy for using sexual assault as \"a political talking point.\"",
+        "Ramaswamy claimed responsibility for the ad the day after it launched and said his campaign would spend $4 million to air it statewide. Ohio Secretary of State Frank LaRose said his office was reviewing complaints that it may have first aired without a legally required disclaimer.",
+        "Republican reaction has been divided. Gov. Mike DeWine, who endorsed Ramaswamy, is urging him to pull the ad, according to the Washington Examiner and the BBC. The Examiner also reported that Sen. Jon Husted said he would not have run it, and former Republican Congressman Jim Renacci warned that Republicans who fail to distance themselves from it risk harm.",
+        "Others defended it. President Trump said, \"I don't think that has anything to do with Vivek.\" Vice President JD Vance said he wanted Republicans to stop \"whining\" about the ad. A VoteHub poll taken before the ad showed Acton ahead by 1%, within the margin of error."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/c6z981l59wnwo?at_medium=RSS&at_campaign=rss",
+        "https://www.washingtonexaminer.com/news/campaigns/state/4775716/mike-dewine-vivek-ramaswamy-take-down-amy-acton-mother-ad/"
+      ]
+    },
+    "2026-10-22T17-c07": {
+      "paragraphs": [
+        "Virginia state Sen. Lillie Louise Lucas was indicted Thursday on five charges, including drug trafficking, money laundering, fraud and firearms counts, according to the Justice Department. Prosecutors accuse her of running a marijuana distribution enterprise. The charges are allegations, and Lucas has not been convicted.",
+        "Lucas is one of seven people charged in the racketeering case, which Attorney General Todd Blanche said includes her daughters Lisa Lucas-Burke and Theresa Lucas-Lamb and her grandson Ryan Eichelberger. Prince Albert William Hudson III, Carlton Upton Jr. and Tameka Johnson are also charged. Lucas, 82, has served in the state Senate since 1991 and chairs its Finance and Appropriations Committee.",
+        "The DOJ said the group ran \"the Lucas Enterprise,\" using her committee position to insulate it from scrutiny and to influence legislation to benefit themselves. It alleged involvement in acquiring and distributing 100 kilograms or more of marijuana and laundering the proceeds. The indictment says she opened two cannabis-related shops, one in 2019, before Virginia legalized recreational marijuana in 2021. It quotes her telling an unindicted co-conspirator, \"This is our last chance at generational wealth.\"",
+        "Lucas responded on X that the federal government had been \"wielded against an 82-year-old great-grandmother.\" She wrote, \"I will not be intimidated. I will not be bullied.\" Fox News noted that she has long been a critic of President Trump and Virginia Republicans, and that the FBI raided her office and businesses in May.",
+        "She appeared in federal court in Norfolk on Thursday. The government did not seek detention, and she was released on her own recognizance. Her arraignment is set for Nov. 16 in Newport News."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/virginia-state-senator-indicted-accused-leading-marijuana-distribution-enterprise"
+      ]
+    },
+    "2026-10-22T17-c08": {
+      "paragraphs": [
+        "A federal magistrate judge has ordered President Donald Trump to sit for a deposition by Dec. 11 in his $10 billion defamation lawsuit against the BBC, according to the BBC and the Washington Examiner. The order from U.S. Magistrate Judge Enjoliqué Lett follows a request by BBC lawyers that a Florida court compel his testimony. The deadline stands unless the discovery period is extended.",
+        "Trump is suing over an episode of the BBC program Panorama that edited together two sections of his speech before the Jan. 6, 2021, Capitol riot. His suit accuses the BBC of \"intentionally, maliciously, and deceptively doctoring\" the speech. The BBC apologized for the error and said the broadcast gave \"the mistaken impression that President Trump made a direct call for violent action.\"",
+        "BBC attorney Charles Tobin told the court, \"we still haven't been able to depose the plaintiff\" with two months of discovery left. Discovery closes Dec. 18, and the BBC argued the lack of a new date hindered its defense. Trump cancelled a deposition set for Oct. 16, citing \"matters of national importance\"; he attended a campaign rally in Georgia and a fundraiser at Mar-a-Lago that day.",
+        "In a separate filing Wednesday, Trump's lawyers said he could appear between Jan. 11 and 22 and called the BBC \"wrong to claim that President Trump is avoiding his deposition.\"",
+        "The BBC has asked the court to dismiss the case, arguing the program does not meet the legal criteria for defamation and was not available in the U.S. In July, Trump's lawyers conceded they had no evidence it was available there on BritBox or other services. Trump dropped his claim against BBC Studios."
+      ],
+      "based_on": [
+        "https://www.washingtonexaminer.com/news/justice/4775928/judge-order-trump-sit-bbc-defamation-hearing/",
+        "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-10-22T17-c09": {
+      "paragraphs": [
+        "The Trump administration has told the Organization for Security and Co-operation in Europe that its observers are not welcome at the November midterm elections, the Christian Science Monitor reported. It is the first time since 2002 that the group will not monitor a U.S. election. The OSCE called the decision \"regrettable.\"",
+        "According to the Monitor, a White House official told the fact-checker Snopes: \"American elections will be administered, participated in, and observed by American citizens.\"",
+        "Observers had previously described the 2020 election as \"highly competitive and well managed\" and said U.S. institutions showed \"resilience\" in 2024. Experts quoted by the Monitor said observers do not directly affect how elections are run, but their presence can be steadying and their reports help voters understand what went right and what could improve.",
+        "Jonathan Stonestreet of the Carter Center, a former OSCE election adviser, said the message is, \"Maybe now we don't need to invite observers. We can do what we want,\" which he called a step backward. He said U.S. elections are of \"very high quality.\" MIT's Charles Stewart said the decision fits the president's aversion to postwar international institutions. He does not expect it to influence other countries, but worries the rhetoric could influence local polling officials, some of whom have voiced concerns about foreign interference.",
+        "The Monitor noted a contentious backdrop. Republicans and Democrats have redrawn congressional maps, and the Justice Department sought voter data from all 50 states. The Democratic Party this week sued the president and the DOJ over demands that states segregate mail ballots until citizenship is verified."
+      ],
+      "based_on": [
+        "https://www.csmonitor.com/USA/Politics/2026/1022/us-election-security-international-observers?icid=rss"
+      ]
+    },
+    "2026-10-22T17-c11": {
+      "paragraphs": [
+        "Initial claims for unemployment insurance slipped to a seasonally adjusted 194,000 for the week ended Oct. 17, the Labor Department reported Thursday. CNBC said that is near the lowest level in records stretching back nearly six decades, as employers hold onto workers even while hiring remains weak.",
+        "The total is just above the 189,000 reported for the week of July 18, the lowest since September 1969. Claims have averaged 212,000 over the past year, and the four-week moving average is 197,750.",
+        "The broader labor market is less clear. Nonfarm payrolls rose by just 29,000 in September and have averaged 69,000 a month in 2026. The unemployment rate rose to 4.2%, which CNBC said was largely due to a sharp spike in labor force participation. Layoffs fell by 61,000 in August, and the layoff rate as a share of the workforce fell to 1% over the prior 12 months. Job openings were relatively flat.",
+        "Thomas Simons, chief U.S. economist at Jefferies, said that despite pessimistic consumer confidence surveys, headlines about job cuts and fears about AI, the claims data suggests labor market conditions are \"stable.\"",
+        "Next week, Federal Reserve officials meet to decide on interest rates. CNBC reported that policymakers have recently described the labor market as a source of strength and focused more on inflation that remains well above the central bank's 2% target. Markets expect no rate hike in October but a quarter-point increase in December. The October jobs report is due Nov. 6."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html"
+      ]
+    },
+    "2026-10-22T17-c12": {
+      "paragraphs": [
+        "Americans have grown gloomier about the economy, and President Donald Trump's economic approval rating has reached an all-time low, according to the latest CNBC All-America Economic Survey. It was released Thursday, less than two weeks before the Nov. 3 congressional elections.",
+        "Eight in 10 Americans rate the economy as fair or poor, the highest share since December 2023. Trump's economic approval fell to 34% from 38% in July, while disapproval rose to 65% from 60%. His net economic approval of -31 is the lowest of either of his terms. His overall approval is 40%, with 59% disapproving, a net -19 compared with -8 a year ago.",
+        "The survey found rising pessimism among Republicans. Some 35% of Republicans are pessimistic about the economy, up 6 points from July and the highest of either Trump term. Micah Roberts, the Republican pollster for the survey, said the shift came \"because Republicans have\" become more sour, not because independents or Democrats did.",
+        "The poll of 1,000 registered voters, with a margin of error of plus or minus 3.1%, found 52% preferring Democratic control of Congress and 45% preferring Republican control, a 3-point gain for Democrats since July. Of Democrats, 72% are highly interested in the election, compared with 62% of Republicans. Independents prefer Democratic control 49% to 33%. Jay Campbell, the Democratic pollster, said the trends would make him \"very nervous\" if he were leading Republican campaigns.",
+        "Government corruption was the top concern for 36% of respondents, with Democrats holding a 4-point edge on the issue. On food and grocery costs, the Democratic lead grew to 16 points from 7. Republicans keep an advantage on border security and immigration, though their immigration lead fell to 9 points from 15.",
+        "On the Iran war, 46% said the military action was worth it to disrupt Iran's nuclear capabilities, down from 53% in April. Also, 93% said elected officials should not be allowed to own or trade individual stocks in companies with federal contracts."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html"
+      ]
+    },
+    "2026-10-22T17-c13": {
+      "paragraphs": [
+        "Russia bombarded Kyiv with ballistic missiles overnight into Thursday, hours after Vladimir Putin said he had agreed to resume three-way talks following a meeting with US envoy Steve Witkoff, according to The Guardian. The attack killed at least two people and wounded 22, including four children.",
+        "Targets included a southern bridge over the Dnipro River, houses, energy infrastructure, an ambulance station, office buildings and a clinic. Ukrainian President Volodymyr Zelenskyy said three missiles carried cluster warheads and one struck the Pecherskyi district, damaging historic structures including a monastery. He said the choice of weapon and target was deliberate and showed Russia was not serious about peace. Russia's position on the strikes was not given in the page text, though Moscow has said it intercepted hundreds of Ukrainian drones overnight.",
+        "In St Petersburg on Wednesday, Witkoff told Putin, \"You are a humanitarian also, sir, and I salute that,\" according to a Russian state media clip. Zelenskyy replied that Russian \"humanitarians\" had launched three waves of missiles, 21 in all, at Kyiv. Downing Street said it did not recognise the description, saying Putin had killed thousands of Ukrainians and his own soldiers. Ukraine's foreign minister, Andrii Sybiha, said appeasement and flattery would not stop Russian aggression.",
+        "Kremlin adviser Yuri Ushakov said Putin agreed \"in principle\" to resume talks with the US and Ukraine after Nov. 10. Trump has suggested the sides are \"maybe now the closest we've been\" to ending the war. Officials in Kyiv believe Russia aims to destroy energy infrastructure before winter.",
+        "The Guardian also reported that the White House has not reversed a slowdown of Starshield, which Ukrainian commanders say hinders drone interceptions. The Trump administration denies deliberately helping Russia."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
+        "https://www.theguardian.com/world/2026/oct/22/downing-street-us-envoy-witkoff-putin-humanitarian"
+      ]
+    },
+    "2026-10-22T17-c14": {
+      "paragraphs": [
+        "A dispute over restrictions on SpaceX's Starshield service in Ukraine is prompting governments and companies to look for alternatives to Starlink, CNBC reports, though few comparable options exist.",
+        "On Oct. 14, Ukrainian officials accused SpaceX of undermining their defense after speed limits were imposed on Starshield without warning. The changes cut connectivity in drones and aircraft moving faster than 100 mph. A Ukrainian senior commander told The New York Times the restrictions cost his unit more than $1 million and delayed missions by three days.",
+        "The Wall Street Journal reported Tuesday that Elon Musk personally ordered the changes and discussed them with President Donald Trump beforehand. Trump said Wednesday he \"was not involved.\" A bipartisan group of US lawmakers has called for an investigation. Sen. John Cornyn, R-Texas, said he did not believe Musk acted \"without at least the acquiescence of the White House.\" Rep. Pramila Jayapal, D-Wash., said no billionaire should be able to shut down communications during a war. SpaceX did not address the issue on its earnings call.",
+        "Rivals trail far behind. SpaceX has more than 11,000 Starlink satellites in orbit and service in 174 countries. Amazon's Leo has 390 satellites and is not fully online. France's Eutelsat has more than 600, and its stock rose 23% on Oct. 14. Blue Origin's TeraWave targets first deployments in late 2027, and the EU's IRIS² is not expected to launch until 2029.",
+        "Satellite consultant Christian Freiherr von der Ropp said most planned systems are unlikely to come close to Starlink in capacity, coverage, resilience or cost, and that Eutelsat's terminals are unsuited to the battlefield. He said the episode is creating mistrust and accelerating demand for alternatives."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html"
+      ]
+    },
+    "2026-10-22T17-c15": {
+      "paragraphs": [
+        "Oil prices rose to a five-month high Thursday after attacks in Saudi Arabia and strikes on vessels near the strait of Hormuz raised fears about crude supply, The Guardian reports. Brent crude rose 3% to $112 a barrel, its highest since May 18.",
+        "Houthis aligned with Iran hit several targets in Saudi Arabia on Wednesday. Two people were killed and eight wounded at a civilian airport in Dammam, and two more died in a drone attack on an oilfield. Separately, Iran's Islamic Revolutionary Guard Corps said it hit four vessels in the northern Gulf that it said were involved in \"illegal\" oil transfers, and that three more vessels struck mines west of Hormuz. It warned the US that continued provocations could bring a wider response against American regional bases.",
+        "According to Reuters, the US has ordered some diplomats and family members to leave Saudi Arabia, and Saudi Aramco told staff to evacuate its headquarters in Dhahran and work remotely.",
+        "The Guardian said concern is growing that the conflict could escalate almost eight months after Tehran's effective block on Hormuz. Oil peaked at $126 a barrel in April, fell to $71 at the start of July amid ceasefire hopes, and began climbing again after a US-Iran memorandum of understanding fell apart. Kpler data shows Persian Gulf oil exports are now above prewar levels, partly because more crude moves by pipeline to the Red Sea and Gulf of Oman.",
+        "Stocks fell on expectations of higher inflation and borrowing costs. Japan's Nikkei dropped 2.7% and the Kospi 3.5%. American Airlines shares fell almost 4% in pre-market trading after it dropped its profit forecast, citing \"historic fuel cost pressure.\""
+      ],
+      "based_on": [
+        "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply"
+      ]
+    },
+    "2026-10-22T17-c16": {
+      "paragraphs": [
+        "The US and Israel are preparing plans for a possible attack on Iran in early November, after the US midterm elections, a person briefed on the war planning told NPR on Thursday. NPR said the person spoke anonymously to discuss the preparations. Iran said it is prepared.",
+        "According to that person, Israel had first planned to strike in mid-October, about two weeks before its Oct. 27 elections, but President Trump objected. The US is now building up forces in the region to be ready by early November, though the person said the buildup could also be part of a campaign to pressure Iran into a diplomatic deal.",
+        "Iran's foreign minister, Abbas Araghchi, told state media, \"We are just as prepared for diplomacy as we are for war,\" adding that an attack was conceivable. A security source quoted by state media said Iran would target US interests and the assets of countries taking part if its officials or civilian infrastructure were hit. The Revolutionary Guard has threatened data centers and undersea internet cables in the Gulf.",
+        "The Guardian reported that The New York Times said the US and Israel developed plans for a \"short but intensive operation,\" and that Trump has publicly said he does not intend to restart the war before the Nov. 3 elections. The State Department ordered some diplomats and families to leave Saudi Arabia amid Houthi attacks. It called reports of further withdrawals elsewhere \"inaccurate.\"",
+        "The war began Feb. 28, and a ceasefire has not held. Iran has blocked the Strait of Hormuz and the US has blockaded Iranian ports. The IMF said that if the war and supply disruptions persist, oil would average $130 a barrel in 2027."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war",
+        "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks"
+      ]
+    },
+    "2026-10-22T17-c17": {
+      "paragraphs": [
+        "France will impose a total ban on protests in Marseille and Lyon this weekend, President Emmanuel Macron said Thursday, after riots and looting overshadowed large cost-of-living demonstrations last Saturday. The Louvre, Orsay and Picasso museums in Paris will close Saturday, according to the BBC.",
+        "Macron said union-organized protests elsewhere would be allowed, possibly on alternative routes proposed by prefects, while those not run by unions would be banned wherever possible. He said the rules were \"commonsense\" and that the priority was a return to calm. He blamed some of the unrest on rioters who came to loot, and the worst violence on \"political and seditious acts by ultra far-left groups who aimed to bring down the republic.\" The page text did not include a response from those groups.",
+        "Interior Minister Jean-Didier Berger said police deployments will rise 20% from last weekend. Justice Minister Gérald Darmanin said about 2,500 to 2,700 people have been arrested, with more than 900 to 1,000 prosecuted or in court. The BBC reported 217 people jailed after fast-track trials, while The Guardian reported 174 remanded in custody; the outlets gave different figures. Marseille's public transport will be suspended Saturday, and a curfew is being extended to the whole population there overnight.",
+        "About 550,000 people marched on Oct. 17 against fuel prices and living costs, backed by unions, gilets jaunes and student groups. Most marches were peaceful, but damage included Lyon's tourist office and Limoges city hall. Two suspects have been arrested over the Limoges fire.",
+        "Macron will chair a defence council meeting Friday to decide next steps. The unrest comes months before presidential elections on April 18 and May 1."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest",
+        "https://www.washingtonexaminer.com/news/world/4775722/macron-paris-quash-riots-france/"
+      ]
+    },
+    "2026-10-22T17-c19": {
+      "paragraphs": [
+        "Germany has arrested a Ukrainian national on suspicion of spying for Russia, federal prosecutors said Thursday. Chancellor Friedrich Merz said Germany is the target of \"intensive\" espionage.",
+        "Prosecutors identified the suspect as Vadym Y., as German privacy law requires. He was arrested in Brandenburg, 85 km west of Berlin. They said he had been in contact with a Russian intelligence service through an intermediary since at least July 2025 and had gathered information on the production of armoured vehicles, ammunition and explosives. Al Jazeera reported he also collected intelligence on military personnel and defence installations at sites meant to secure NATO's eastern flank. He is due before an investigating judge Friday.",
+        "Merz, speaking at a summit in Montenegro, called the case a \"success\" but warned that Russian intelligence activity in Germany remains at a consistently high level. He said more such cases were likely in coming months and years. Moscow has denied involvement in sabotage or hybrid attacks on European nations.",
+        "The BBC noted several arrests this year, including a woman held in Berlin in January and a Romanian woman and Ukrainian man accused of spying on a supplier of drones to Ukraine. Former spy chief August Hanning was arrested this month on suspicion of espionage and treason; investigators have not said which foreign powers were involved.",
+        "Separately, Germany's armed forces on Wednesday raised the threat level of Russian sabotage to \"significant,\" German media reported, after a drone carrying explosives crashed near the Wunstorf airbase in September. BND head Martin Jaeger told lawmakers that Russia's undeclared \"shadow war\" has taken on a \"more dangerous character.\""
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/10/22/germany-arrests-ukrainian-man-accused-of-spying-for-russia?traffic_source=rss"
+      ]
+    },
+    "2026-10-22T17-c20": {
+      "paragraphs": [
+        "The Pentagon and Lockheed Martin announced a 10-year framework that the Pentagon says guarantees at least 850 F-35 fighters for the US military, pending congressional approval and funding.",
+        "The framework covers 10 production lots with initial spares, plus 10 years of modification kits and sustainment. Lockheed said production would continue at 156 aircraft a year, including foreign orders. Lockheed will self-fund at least $7 billion in initiatives. Neither side gave a total value or per-jet price, and the performance-based incentives were not described. Lockheed said terms, pricing and schedules would be set in a formal contract if Congress approves a multiyear buy and provides money. Breaking Defense noted that, unlike other recent Pentagon frameworks, this one does not raise the manufacturing rate.",
+        "Lockheed CEO Jim Taiclet said the certainty would let the company and suppliers invest in capacity and a more resilient supply chain. Pentagon acquisition chief Michael Duffey said the deal aligns financial incentives with performance. Lockheed pitched it as a readiness fix, though a June Government Accountability Office report found the F-35 mission-capable rate fell from 67% in fiscal 2021 to 44% in fiscal 2025.",
+        "Hurdles remain. Both House and Senate defense policy bills would allow multiyear F-35 contracts, but the Senate bill has been put off until after the midterms and both must be merged into one law. The House version requires certification that spares are included and at least 5% cost savings. Neither bill explicitly authorizes multiyear sustainment. A stopgap funding law through Dec. 11 generally bars new multiyear buys. Lockheed executives said an agreement for the next production lot is not expected until next year."
+      ],
+      "based_on": [
+        "https://www.defensenews.com/news/pentagon-congress/2026/10/22/pentagon-lockheed-agree-to-10-year-deal-for-850-f-35-jets/",
+        "https://breakingdefense.com/2026/10/pentagon-lockheed-agree-to-decade-long-f-35-framework-deal-for-hundreds-of-jets/"
+      ]
+    },
+    "2026-10-22T17-c22": {
+      "paragraphs": [
+        "Defense Secretary Pete Hegseth reportedly signed a memo last month allowing the Department of Homeland Security to test the Pentagon's Active Denial System, a non-lethal \"heat ray,\" for possible use at the US southern border. The memo was first obtained by CNN, and The Guardian reported on it.",
+        "According to the memo, the Pentagon authorized a \"temporary loan\" of the system to DHS for seven months starting in September, and DHS can request more time. DHS will be solely responsible for its use and for developing tactics and procedures, and no Defense Department personnel will operate it. It is unclear exactly what DHS plans to use it for. A Customs and Border Protection spokesperson said the agency is \"continually evaluating new technology,\" including technology that can \"save lives while simultaneously enhancing national security effectiveness.\" The Pentagon referred questions to DHS.",
+        "The system fires an invisible 95-gigahertz beam that penetrates about 1/64th of an inch into the skin, causing what a National Defense University case study described as \"a sensation of intense heat\" that prompts people to duck or run. Pentagon officials have compared it to the blast of heat from opening a hot oven, with the feeling lasting 10 to 15 minutes, according to CNN. Forbes noted it is technically not a heat ray because it uses millimeter waves. In 2012 the Marine Corps announced it complied with US international legal obligations.",
+        "The system was taken to Afghanistan nearly 20 years ago but returned unused, The Washington Post reported. During the first Trump administration, officials sought to use it against migrants in 2018 and for protests in Washington in 2020, according to the Times and the Post. It was never deployed."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/oct/22/heat-ray-mexico-border-dhs"
+      ]
+    },
+    "2026-10-22T17-c38": {
+      "paragraphs": [
+        "An assessment coordinated by the International Union for Conservation of Nature, which advises the United Nations, found that almost every shallow-water coral reef faces a high risk of ecosystem collapse before 2075 because of global heating, according to The Guardian and New Scientist. New Scientist reported that the findings were presented at the UN biodiversity summit now under way in Armenia.",
+        "The assessment said about 24% of reefs across more than 80 countries are already critically endangered. When the expected effects of heating were added, that share rose to 96%. It examined 127 reef regions and assumed a middle-of-the-road emissions path, with about 2.7C of warming by the end of the century. Four regions lacked enough data, and the reefs of the western Galápagos had already collapsed. In Australia, four of 17 reef regions are critically endangered now, but all 17, including the Great Barrier Reef, reach that level once climate effects are counted.",
+        "Reefs cover about 1% of the ocean but support about 25% of marine species, New Scientist reported, and up to 1 billion people rely on them for fishing, tourism and protection from storms and erosion.",
+        "Scientists said the outcome is not fixed. Mishal Gudka, the assessment's scientific lead, called the results \"alarming, but certainly not hopeless\". IUCN director general Grethel Aguilar said it is not too late but that decisive action on climate change is needed. James Guest of Newcastle University said his research in Palau suggests corals there are gaining about 0.1C of heat tolerance per decade, though a severe heatwave could outstrip that. Ben Fitzpatrick, who led the Australian assessment, said rising heat \"overwhelmed everything\" even after accounting for adaptation.",
+        "The assessment did not fully account for the global mass bleaching event that ran from early 2023 to mid-2025. New Scientist reported that experts fear the current El Niño could bring another, and the IUCN's Marcos Valderrábano said reefs have little time to recover if hit by more than three bleaching events within five years."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/australia-news/2026/oct/22/shallow-water-coral-reef-ecosystem-collapse-by-2075-un-advisors-say",
+        "https://www.newscientist.com/article/2595378-all-tropical-coral-reefs-could-collapse-within-50-years/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+      ]
+    },
+    "2026-10-22T17-c42": {
+      "paragraphs": [
+        "Police in South Africa say a foreign national was beaten to death by a crowd of about 50 people in Durban. According to police, the unidentified man, believed to be in his late 30s or early 40s, was standing by a road in the city's central business district when two men approached him and a larger group then assaulted him. He was pronounced dead at the scene, police said.",
+        "Police have opened a murder investigation. Provincial police spokesperson Robert Netshiunda told the BBC that officers cannot speculate on a motive and that more information would be released once verified. Al Jazeera reported that police did not disclose the man's nationality or details of the march, and were still trying to identify suspects.",
+        "The killing follows months of protests against immigrants. Demonstrations began in June, and some turned violent. The BBC reported that shops and cars were set on fire in Durban and Soweto earlier this month. One group behind the protests, March and March, had set a 30 June deadline for undocumented migrants to leave. One of its leaders, Jacinta Ngobese-Zuma, denied being xenophobic.",
+        "Several countries, including Zimbabwe, Nigeria and Ghana, moved to repatriate citizens. Nigeria and Ghana reported deaths of their citizens, and Nigeria blamed South African authorities for two of them. South Africa said the scale of violence had been exaggerated, and Al Jazeera reported that authorities said some deaths were linked to criminal activity.",
+        "President Cyril Ramaphosa has denounced the violence but acknowledged weak border controls. The government says tens of thousands of foreign nationals have been deported or repatriated this year. Government figures cited by Al Jazeera put the foreign population at about 2.4 million out of 62 million people."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/10/22/foreign-national-beaten-to-death-by-a-mob-in-south-africa?traffic_source=rss"
+      ]
+    },
+    "2026-10-22T17-c43": {
+      "paragraphs": [
+        "Kim Aris, the son of Myanmar's detained former leader Aung San Suu Kyi, says he has spoken to her for the first time in more than five years. In a Facebook post on Thursday, he wrote that hearing her voice again \"means more than words can express\". Images with the post appeared to show him outside the Myanmar embassy in London, according to The Guardian. Aris lives in the UK.",
+        "Aris also said his mother is 81 and \"remains unjustly detained\", adding that one conversation is not regular family access. He thanked supporters and said he believed their voices helped make the call possible.",
+        "Myanmar's military has held the Nobel peace prize laureate in almost total seclusion since the February 2021 coup, which ended a tentative decade of democratic experiment. Myanmar authorities say she is under house arrest in the capital, Naypyidaw. They say she was moved from a prison there to house arrest in April, and in August they published images of her meeting the national Red Cross representative.",
+        "In recent months, authorities have increasingly publicized a loosening of her detention and released photographs of her taking private meetings, as supporters demanded proof of life. On Monday, authorities said she received a package from Britain's King Charles that included two books about soil and a sealed diplomatic communication. Buckingham Palace did not comment on its contents.",
+        "Min Aung Hlaing, who ruled as military chief after the coup, was installed as civilian president this year. Analysts described the election that put him in office as a charade and said he could be easing restrictions on her to seek international legitimacy."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/22/aung-san-suu-kyi-son-speaks-former-myanmar-leader"
+      ]
+    }
+  }
+}

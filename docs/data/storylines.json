@@ -1,15 +1,20 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22T05:48:29Z",
+  "updated_at": "2026-10-22T17:52:56Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
       "title": "France riots and European unrest",
-      "summary": "France has imposed nightly curfews in Paris and Lyon after its most destructive rioting in years. Italy is sending troops to Milan. Macron accused foreign leaders including Trump of stupid comments; French 10-year yields hit 5%.",
+      "summary": "France has imposed nightly curfews and now bans 'illegitimate' protests in Marseille and Lyon, closing top museums Saturday. Italy is sending troops to Milan. French yields hit 5% and spreads are at 15-year highs.",
       "status": "active",
       "first_seen": "2026-10-20",
-      "last_updated": "2026-10-21",
+      "last_updated": "2026-10-22",
       "events": [
+        {
+          "date": "2026-10-22",
+          "text": "Macron bans 'illegitimate' protests; total ban in Marseille and Lyon, union-organised marches only elsewhere, museums closed Saturday.",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-10-21",
           "text": "France's 10-year borrowing costs reach 5% for the first time since 2002, the FT reports.",
@@ -40,11 +45,21 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Putin told Witkoff he is ready in principle to resume trilateral talks and Russia freed American Stephen Hubbard, but missiles hit Kyiv. Trump tied his sanctions waiver to the release. Russia sends its first diesel tanker to the US Thursday.",
+      "summary": "Russia agreed in principle to resume talks and freed American Stephen Hubbard, but fired ballistic missiles at Kyiv. Witkoff's 'humanitarian' description of Putin drew rebukes from Downing Street and Zelenskyy. Demand for Starlink alternatives grows.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-21",
+      "last_updated": "2026-10-22",
       "events": [
+        {
+          "date": "2026-10-22",
+          "text": "Russia fires three waves of ballistic missiles at Kyiv; Downing Street and Zelenskyy rebuke Witkoff for calling Putin a 'humanitarian'.",
+          "url": "https://www.theguardian.com/world/2026/oct/22/downing-street-us-envoy-witkoff-putin-humanitarian"
+        },
+        {
+          "date": "2026-10-22",
+          "text": "CNBC: Musk's clash with Ukraine accelerates demand for Starlink alternatives, but few exist.",
+          "url": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html"
+        },
         {
           "date": "2026-10-21",
           "text": "Missiles hit Kyiv after Russia agrees in principle to resume peace talks; Trump says the world is 'the closest we've been' to ending the war.",
@@ -134,27 +149,32 @@
           "date": "2026-10-18",
           "text": "Rep. Mike Turner calls for an investigation into Ukraine's temporary loss of military Starlink access.",
           "url": "https://thehill.com/homenews/house/6157079-turner-demands-starlink-investigation/"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Trump defends waiving Russia sanctions as keeping Moscow at the table and says Zelenskyy 'doesn't want to end this war.'",
-          "url": "https://thehill.com/homenews/administration/6157113-donald-trump-defends-russia-sanctions-waiver/"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Zelenskyy says Ukraine trusts the US and hopes Trump changes his decisions; Bessent calls his Starlink claims reckless.",
-          "url": "https://thehill.com/policy/international/6156570-zelensky-hopes-trump-changes-decision/"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Stocks fell again Wednesday as megacap earnings failed to calm AI fears; Treasuries and the yen rallied as havens. Credit-risk gauges for tech are at highs. Meta plans a non-voting share class; neocloud economics are in focus.",
+      "summary": "Stocks fell again Thursday as Meta sank 6% on negative free cash flow and record credit-default-swap prices; Treasury yields dipped below 5% on haven buying. Tech credit risk is at highs; chip stocks weak.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-21",
+      "last_updated": "2026-10-22",
       "events": [
+        {
+          "date": "2026-10-22",
+          "text": "Meta falls 6% as AI spending pushes free cash flow negative and its credit default swaps hit records; tech stocks slide.",
+          "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+        },
+        {
+          "date": "2026-10-22",
+          "text": "Treasury yields sink below 5% as investors seek safety from AI fallout, MarketWatch reports.",
+          "url": "https://www.marketwatch.com/story/ai-is-on-trial-bond-yields-sink-below-5-as-investors-look-for-safety-dbc86ee9?mod=mw_rss_topstories"
+        },
+        {
+          "date": "2026-10-22",
+          "text": "DeepSeek reportedly raises $15 billion days after US federal restrictions.",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+        },
         {
           "date": "2026-10-21",
           "text": "Stocks fall as megacap earnings fail to reassure on AI; Treasuries and yen rally as havens and Chinese equities near a bear market.",
@@ -239,21 +259,6 @@
           "date": "2026-10-18",
           "text": "Bloomberg says Treasuries show tentative haven signs, threatening big short bets as the AI trade wobbles.",
           "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Option traders brace for a VIX surge as accelerating inflation and AI jitters jolt stocks.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-18/option-traders-brace-for-vix-surge-as-ai-jitters-jolt-market"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Microsoft pulls out of Nscale's Essex AI datacentre project over power supply concerns.",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "FT reports America's $10 trillion AI infrastructure boom is running into the economics of the physical world.",
-          "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c?syn-25a6b1a6=1"
         }
       ]
     },
@@ -290,11 +295,31 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Trump approval is at record lows and Democrats lead the generic ballot. Trump rallied in South Carolina and heads to Mississippi as Republicans weigh more money for competitive Senate races; DOJ is notifying counties of election monitors; Democratic groups sued over election threats.",
+      "summary": "A judge ordered a halt to DHS noncitizen-voting probes in nine states; DOJ says it verified 20,000 noncitizens on California rolls and is sending monitors to Utah. Trump's economic approval is at a record low in CNBC's poll; Ohio ad row continues.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-21",
+      "last_updated": "2026-10-22",
       "events": [
+        {
+          "date": "2026-10-22",
+          "text": "Federal judge orders halt to noncitizen voting investigation in nine states, citing error-filled data and intimidation of voter assistance groups.",
+          "url": "https://www.theguardian.com/us-news/live/2026/oct/22/vivek-ramaswamy-ohio-trump-vance-us-midterm-elections-latest-news-updates"
+        },
+        {
+          "date": "2026-10-22",
+          "text": "US Attorney Bill Essayli says DOJ verified all 20,000 flagged California voter entries as noncitizens who received mail ballots.",
+          "url": "https://www.foxnews.com/politics/doj-verified-20000-noncitizens-california-voter-rolls-federal-prosecutor-says"
+        },
+        {
+          "date": "2026-10-22",
+          "text": "Amy Acton calls Ramaswamy's ad despicable; Gov. DeWine urges Ramaswamy to take it down.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4775716/mike-dewine-vivek-ramaswamy-take-down-amy-acton-mother-ad/"
+        },
+        {
+          "date": "2026-10-22",
+          "text": "Utah says DOJ is sending election monitors for the Nov. 3 midterms.",
+          "url": "https://www.washingtonexaminer.com/news/justice/4775838/utah-doj-send-election-monitor/"
+        },
         {
           "date": "2026-10-21",
           "text": "Trump rallies in Clemson for Sen. Darline Graham; the Guardian reports he praised a supporter who allegedly punched a protester.",
@@ -359,52 +384,27 @@
           "date": "2026-10-20",
           "text": "Musk formally endorses Ken Paxton after funding a PAC backing him.",
           "url": "https://thehill.com/homenews/campaign/6161202-musk-endorses-paxton-in-texas-senate-race/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Ocasio-Cortez and Garcia report suspicious letters as election offices in at least 32 states are targeted.",
-          "url": "https://www.axios.com/2026/10/20/white-powder-letters-congress-election-offices"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "A federal judge lets North Carolina keep strict mail-ballot rules through the midterms.",
-          "url": "https://thehill.com/homenews/state-watch/6161350-judge-upholds-nc-mailballot-rules/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "RNC transfers over $50 million into groups defending House and Senate majorities, the New York Times first reported.",
-          "url": "https://thehill.com/homenews/campaign/6160592-rnc-spends-millions-house-senate/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "New Hampshire asks the Supreme Court to reinstate its ban on student IDs as voter identification.",
-          "url": "https://www.washingtonexaminer.com/news/supreme-court/4772040/new-hampshire-urges-supreme-court-to-reinstate-student-id-voting-ban-ahead-of-midterm-elections/"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Trump announces an $8 billion Harvest Fuel Relief Program for farmers at his Kansas rally.",
-          "url": "https://thehill.com/homenews/administration/6159427-trump-announces-8-billion-harvest-relief/"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "DOJ files an emergency request to stop California processing ballots from voters it calls likely noncitizens, NPR reports.",
-          "url": "https://www.npr.org/2026/10/19/nx-s1-6007908/election-tensions-escalate-in-california-as-doj-charges-28-people-with-voting-crimes"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Trump rallies in Kansas for Sen. Roger Marshall as Republicans defend an unexpectedly competitive Senate race.",
-          "url": "https://thehill.com/homenews/administration/6159184-trump-senate-midterm-travel/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent hit $110 before easing. Houthi strikes on Saudi Arabia killed several people and the US ordered nonemergency staff out; Iran says it will keep its uranium. Netanyahu pushes to resume strikes on Iran.",
+      "summary": "Oil hit a five-month high after Houthi strikes on Saudi Arabia and Iranian attacks on Gulf ships. NPR reports the US and Israel are planning a possible attack on Iran in early November, after the midterms. Iran says it will keep its uranium.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-21",
+      "last_updated": "2026-10-22",
       "events": [
+        {
+          "date": "2026-10-22",
+          "text": "Oil jumps to a five-month high as Iran's IRGC says it hit four vessels in the northern Gulf and three ships struck mines near Hormuz.",
+          "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply"
+        },
+        {
+          "date": "2026-10-22",
+          "text": "NPR source says the US and Israel are planning a possible attack on Iran in early November, after the midterms; Iran says it is prepared.",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war"
+        },
         {
           "date": "2026-10-21",
           "text": "Houthi attack on King Fahd airport kills one and wounds eight; a drone attack on Aramco's Shaybah oilfield reportedly kills two; oil rises.",
@@ -494,16 +494,6 @@
           "date": "2026-10-19",
           "text": "Benny Gantz drops out of Israel's election race ahead of the Oct. 27 vote.",
           "url": "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Iran's Araghchi warns the US against renewed attack, saying Tehran has 'unfinished jobs' too.",
-          "url": "https://thehill.com/policy/international/6157194-iran-minister-warns-us-attacks/"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "GCC ministers condemn Houthi attacks on Saudi Arabia as Yemen fighting displaces more than 233,000 people.",
-          "url": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies?traffic_source=rss"
         }
       ]
     }

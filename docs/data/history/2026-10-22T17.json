@@ -1,0 +1,1377 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-10-22T17",
+    "at": "2026-10-22T17:52:56Z",
+    "model": "claude-sonnet-5-5",
+    "count": 44
+  },
+  "cards": [
+    {
+      "id": "2026-10-22T17-c01",
+      "drop": "2026-10-22T17",
+      "headline": "Top MAHA adviser Calley Means resigns from White House",
+      "summary": "Calley Means, a prominent adviser to the Make America Healthy Again movement, has resigned from the White House days before the midterms, STAT reports. The departure was described as surprising.",
+      "why_it_matters": "The MAHA movement shapes federal health policy, and the election may test its political pull.",
+      "region": "US",
+      "topics": [
+        "health",
+        "us-politics"
+      ],
+      "entities": [
+        "Calley Means",
+        "White House"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T17:52:09.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "Top MAHA adviser Calley Means resigns from White House days ahead of midterms",
+          "url": "https://www.statnews.com/2026/10/22/calley-means-resigns-white-house-adviser-maha-movement/?utm_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c02",
+      "drop": "2026-10-22T17",
+      "headline": "Meta falls 6% as AI spending turns free cash flow negative",
+      "summary": "Meta shares dropped about 6% after its AI spending pushed free cash flow negative, and its five-year credit default swaps hit record highs. Tech stocks fell and Treasuries rallied as investors sought safety.",
+      "why_it_matters": "Doubts about funding the AI buildout are hitting stocks, credit and bond yields that affect retirement accounts and borrowing costs.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "big-tech",
+        "ai"
+      ],
+      "entities": [
+        "Meta"
+      ],
+      "importance": 4,
+      "follows": "2026-10-21T22-c04",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-22T17:03:28.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Meta stock sinks 6% as AI spend pushes free cash flow negative",
+          "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
+          "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "‘AI is on trial’: Bond yields sink below 5% as investors look for safety",
+          "url": "https://www.marketwatch.com/story/ai-is-on-trial-bond-yields-sink-below-5-as-investors-look-for-safety-dbc86ee9?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c03",
+      "drop": "2026-10-22T17",
+      "headline": "Judge orders halt to noncitizen voting probe in nine states",
+      "summary": "A California federal judge ordered the administration to halt its investigation into alleged noncitizen voters in nine states. She said it relies on error-ridden data and is intimidating voter assistance groups. Supporters of the effort have framed it as protecting election integrity.",
+      "why_it_matters": "The ruling lands days before the midterms and bears on how federal agencies can check voter rolls.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "elections",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Department of Homeland Security"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-22T16:53:13.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Federal judge orders Trump administration to halt noncitizen voting investigation in nine states – US politics live",
+          "url": "https://www.theguardian.com/us-news/live/2026/oct/22/vivek-ramaswamy-ohio-trump-vance-us-midterm-elections-latest-news-updates"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Biden-appointed judge blocks voter-fraud probes in battleground states just days before midterms",
+          "url": "https://www.foxnews.com/politics/biden-appointed-judge-blocks-voter-fraud-probes-battleground-states-days-before-midterms"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c04",
+      "drop": "2026-10-22T17",
+      "headline": "Federal prosecutor says 20,000 California voters verified as noncitizens",
+      "summary": "US Attorney Bill Essayli said federal investigators confirmed all 20,000 flagged entries on California voter rolls are noncitizens who received mail ballots. Los Angeles County officials earlier called the DOJ list unreliable, saying some people on it appear to be US-born.",
+      "why_it_matters": "The dispute over the list affects ballot processing in the nation's largest state ahead of the midterms.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "crime-justice"
+      ],
+      "entities": [
+        "Bill Essayli",
+        "Department of Justice",
+        "California"
+      ],
+      "importance": 3,
+      "follows": "2026-10-21T05-c09",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-22T17:42:52.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "DOJ has verified 20,000 noncitizens on California voter rolls, federal prosecutor says",
+          "url": "https://www.foxnews.com/politics/doj-verified-20000-noncitizens-california-voter-rolls-federal-prosecutor-says"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c05",
+      "drop": "2026-10-22T17",
+      "headline": "Utah says DOJ is sending election monitors",
+      "summary": "Utah Lt. Gov. Deidre Henderson said the Justice Department notified the state it will deploy monitors for the Nov. 3 midterms. She did not specify where they will go.",
+      "why_it_matters": "Federal monitoring of state elections is drawing scrutiny, and counties are learning of plans days before voting.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Department of Justice",
+        "Utah",
+        "Deidre Henderson"
+      ],
+      "importance": 2,
+      "follows": "2026-10-22T05-c13",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-22T16:09:22.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Utah says DOJ is sending election monitors to the state",
+          "url": "https://www.washingtonexaminer.com/news/justice/4775838/utah-doj-send-election-monitor/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c06",
+      "drop": "2026-10-22T17",
+      "headline": "Acton calls Ramaswamy ad despicable; DeWine urges it be pulled",
+      "summary": "Democrat Amy Acton called an ad featuring her estranged mother 'despicable'. Gov. Mike DeWine, a Republican backing Vivek Ramaswamy, urged him to take it down. Vance earlier told critics to stop whining.",
+      "why_it_matters": "The ad has become a flashpoint in Ohio's governor race and exposed Republican disagreement.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Amy Acton",
+        "Vivek Ramaswamy",
+        "Mike DeWine"
+      ],
+      "importance": 3,
+      "follows": "2026-10-21T05-c10",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-22T15:13:36.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "'This is despicable': Amy Acton responds to Ohio attack ad featuring her estranged mother",
+          "url": "https://www.bbc.co.uk/news/articles/c6z981l59wnwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Mike DeWine pushes Vivek Ramaswamy to take down ad featuring Amy Acton’s mother",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4775716/mike-dewine-vivek-ramaswamy-take-down-amy-acton-mother-ad/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c07",
+      "drop": "2026-10-22T17",
+      "headline": "Virginia Senate leader Louise Lucas indicted on racketeering",
+      "summary": "A federal indictment charges Virginia state Sen. Louise Lucas, a Democrat who chairs the Finance Committee, and seven others with racketeering, drug trafficking and money laundering. Prosecutors allege she led a marijuana distribution enterprise. The charges are allegations.",
+      "why_it_matters": "The case involves a powerful state legislative leader and arrives days before the midterms.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "us-politics"
+      ],
+      "entities": [
+        "Louise Lucas",
+        "Virginia"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T14:14:32.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Virginia state senator indicted, accused of leading a marijuana distribution enterprise",
+          "url": "https://www.foxnews.com/politics/virginia-state-senator-indicted-accused-leading-marijuana-distribution-enterprise"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Live updates: Vance stumps in Nebraska; DOJ indicts top Virginia Democrat on corruption charges",
+          "url": "https://thehill.com/homenews/administration/6164811-live-updates-donald-trump-iowa-midterm-elections/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c08",
+      "drop": "2026-10-22T17",
+      "headline": "Trump ordered to sit for deposition in $10 billion BBC suit",
+      "summary": "A federal magistrate judge ordered Trump to sit for a deposition by Dec. 11 in his defamation suit against the BBC over an edited speech. The BBC had accused him of delaying questioning.",
+      "why_it_matters": "A sitting president will have to answer questions under oath in a high-profile media case.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "BBC"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T16:28:26.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump ordered to sit for deposition in $10 billion BBC lawsuit",
+          "url": "https://www.axios.com/2026/10/22/trump-bbc-lawsuit-december-deposition-deadline"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Judge orders Trump to sit for BBC defamation hearing by Dec. 11",
+          "url": "https://www.washingtonexaminer.com/news/justice/4775928/judge-order-trump-sit-bbc-defamation-hearing/"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+          "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c09",
+      "drop": "2026-10-22T17",
+      "headline": "Trump disinvites international observers from midterms",
+      "summary": "President Trump decided not to invite international election observers to the midterms. Experts told the Christian Science Monitor the move could send a troubling message at home and abroad.",
+      "why_it_matters": "Outside observers have long been part of US efforts to promote election credibility worldwide.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-22T16:11:24.000Z",
+      "sources": [
+        {
+          "outlet": "Christian Science Monitor",
+          "title": "Trump disinvited international election observers. Here’s what that could mean.",
+          "url": "https://www.csmonitor.com/USA/Politics/2026/1022/us-election-security-international-observers?icid=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c10",
+      "drop": "2026-10-22T17",
+      "headline": "Vance announces $1.3 billion fertilizer investment in Nebraska",
+      "summary": "Vice President Vance announced a $1.3 billion investment in domestic fertilizer manufacturing while campaigning in Nebraska for Sen. Pete Ricketts. He said the project would help farmers.",
+      "why_it_matters": "Fertilizer costs weigh on farmers and food prices amid the energy shock.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "energy",
+        "us-politics"
+      ],
+      "entities": [
+        "JD Vance",
+        "Pete Ricketts",
+        "Nebraska"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T17:32:03.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Vance announces domestic fertilizer investment for Nebraska",
+          "url": "https://thehill.com/homenews/administration/6165954-vance-nebraska-fertilizer-investment/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c11",
+      "drop": "2026-10-22T17",
+      "headline": "Jobless claims fall to 194,000, near lowest since 1960s",
+      "summary": "Initial filings for unemployment insurance slipped to a seasonally adjusted 194,000, CNBC reports, extending a low-layoff trend even as the unemployment rate has edged up.",
+      "why_it_matters": "Few layoffs support household spending, which complicates the Fed's inflation fight.",
+      "region": "US",
+      "topics": [
+        "jobs-labor",
+        "economy"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T16:40:09.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
+          "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c12",
+      "drop": "2026-10-22T17",
+      "headline": "CNBC poll: Trump's economic approval at all-time low",
+      "summary": "A CNBC survey finds Trump's approval on the economy at a record low, with eight in 10 Americans rating the economy fair or poor. CNBC says the findings show the uphill battle Republican candidates face.",
+      "why_it_matters": "Voters' view of prices and the economy is a central factor in the midterms.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "elections"
+      ],
+      "entities": [
+        "Donald Trump",
+        "CNBC"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-22T13:18:36.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
+          "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c13",
+      "drop": "2026-10-22T17",
+      "headline": "Russia hits Kyiv with missiles as Witkoff calls Putin humanitarian",
+      "summary": "Russia fired three waves of ballistic missiles at Kyiv hours after agreeing in principle to resume talks. Envoy Steve Witkoff's description of Putin as a 'humanitarian' drew rebukes from Downing Street and Zelenskyy, and criticism from a Fox News host.",
+      "why_it_matters": "The remark and strikes complicate US-led peace efforts and strain ties with allies.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Steve Witkoff",
+        "Vladimir Putin",
+        "Volodymyr Zelenskyy"
+      ],
+      "importance": 4,
+      "follows": "2026-10-21T22-c02",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-22T15:46:56.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Russia bombards Kyiv with missiles hours after agreeing to resume talks with Ukraine",
+          "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Downing Street rejects Witkoff’s description of Putin as a ‘humanitarian’",
+          "url": "https://www.theguardian.com/world/2026/oct/22/downing-street-us-envoy-witkoff-putin-humanitarian"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Fox News host: Russians 'must be laughing their heads off' over Witkoff 'humanitarian' remark",
+          "url": "https://thehill.com/policy/international/6165881-witkoff-calls-putin-humanitarian-backlash/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c14",
+      "drop": "2026-10-22T17",
+      "headline": "Musk's Ukraine clash fuels demand for Starlink alternatives",
+      "summary": "Governments and companies seeking alternatives to SpaceX's Starlink have few options, CNBC reports, as Amazon, Eutelsat and others lag far behind.",
+      "why_it_matters": "Reliance on one private firm for battlefield and civilian connectivity is now a strategic concern for allies.",
+      "region": "Global",
+      "topics": [
+        "space",
+        "defense",
+        "geopolitics"
+      ],
+      "entities": [
+        "SpaceX",
+        "Starlink",
+        "Elon Musk",
+        "Ukraine"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-10-22T16:54:26.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Musk's clash with Ukraine accelerates demand for Starlink alternatives. Few exist",
+          "url": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c15",
+      "drop": "2026-10-22T17",
+      "headline": "Oil hits five-month high as Iran claims hits on Gulf ships",
+      "summary": "Oil jumped to a five-month high after Houthi attacks in Saudi Arabia. Iran's IRGC says it hit four vessels in the northern Gulf, and three more ships struck mines near Hormuz.",
+      "why_it_matters": "Higher crude feeds fuel costs and inflation worries just before the midterms.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "war-conflict",
+        "markets"
+      ],
+      "entities": [
+        "Iran",
+        "Islamic Revolutionary Guard Corps",
+        "Strait of Hormuz"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-22T11:28:11.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Oil prices jump to five-month high as attacks threaten global supply",
+          "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Stocks Extend Drop as Risk-Off Dominates With Oil Up, Meta Down",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/us-futures-slip-as-risk-off-sentiment-dominates-with-oil-rising"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c16",
+      "drop": "2026-10-22T17",
+      "headline": "US and Israel reportedly plan possible Iran attack after midterms",
+      "summary": "A person briefed on war planning told NPR the US and Israel are preparing options for an attack on Iran in early November, after the midterms. Iran said it is prepared. NPR could not name the source.",
+      "why_it_matters": "Renewed war would affect oil prices, US troops in the region and the economy.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Iran",
+        "Israel",
+        "United States"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-22T08:56:58.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "U.S. and Israel are planning for a possible attack on Iran, source tells NPR",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
+          "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c17",
+      "drop": "2026-10-22T17",
+      "headline": "France bans protests in Marseille and Lyon, shuts museums Saturday",
+      "summary": "Macron declared 'illegitimate' demonstrations banned. Protests will be allowed in some cities only if union-organized, and top museums will close Saturday. Macron blames organized ultra-left groups for the riots, per the Washington Examiner.",
+      "why_it_matters": "Europe's second-largest economy faces unrest that is also unsettling bond markets.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Emmanuel Macron",
+        "France"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-france-unrest",
+      "published_at": "2026-10-22T15:54:13.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Total ban on protests in Marseille and Lyon after riots",
+          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Macron bans ‘illegitimate‘ protests in France as he tries to get a grip on unrest",
+          "url": "https://www.theguardian.com/world/2026/oct/22/macron-ban-illegitimate-demonstrations-france-unrest"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Macron returns to Paris on war footing to quash ‘illegitimate’ riots he blames on ‘organized ultra-left groups’",
+          "url": "https://www.washingtonexaminer.com/news/world/4775722/macron-paris-quash-riots-france/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c18",
+      "drop": "2026-10-22T17",
+      "headline": "French bond spreads widen to 15-year high",
+      "summary": "French bond stress deepened as risk aversion and the threat of more weekend protests widened spreads to a 15-year high, Bloomberg reports, calling France the weak link in global markets.",
+      "why_it_matters": "European debt stress can spill into global yields and US markets.",
+      "region": "Europe",
+      "topics": [
+        "markets",
+        "europe",
+        "economy"
+      ],
+      "entities": [
+        "France"
+      ],
+      "importance": 2,
+      "follows": "2026-10-21T17-c10",
+      "storyline_id": "sl-france-unrest",
+      "published_at": "2026-10-22T09:17:26.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "French Bond Stress Deepens as Spreads Widen to 15-Year High",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/french-bond-stress-deepens-as-crisis-era-caution-creeps-back"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c19",
+      "drop": "2026-10-22T17",
+      "headline": "Germany arrests Ukrainian man on suspicion of spying for Russia",
+      "summary": "A Ukrainian man was arrested on suspicion of spying for Russia, one of several such cases in Germany this year. Merz said Germany faces intensive espionage. The military has raised its sabotage threat level.",
+      "why_it_matters": "Russian covert activity in Europe tests NATO allies hosting US forces.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "geopolitics",
+        "defense"
+      ],
+      "entities": [
+        "Germany",
+        "Friedrich Merz",
+        "Russia"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T14:36:06.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+          "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Germany arrests Ukrainian man accused of spying for Russia",
+          "url": "https://www.aljazeera.com/news/2026/10/22/germany-arrests-ukrainian-man-accused-of-spying-for-russia?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c20",
+      "drop": "2026-10-22T17",
+      "headline": "Pentagon and Lockheed agree to 10-year deal for 850 F-35s",
+      "summary": "The Pentagon and Lockheed Martin agreed a decade-long framework guaranteeing at least 850 F-35 fighters, covering production and sustainment. The deal is tentative and needs congressional approval and funding.",
+      "why_it_matters": "It locks in the largest US fighter program and taxpayer spending for years.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Lockheed Martin",
+        "Pentagon"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T12:57:21.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "Pentagon, Lockheed agree to 10-year deal for 850 F-35 jets",
+          "url": "https://www.defensenews.com/news/pentagon-congress/2026/10/22/pentagon-lockheed-agree-to-10-year-deal-for-850-f-35-jets/"
+        },
+        {
+          "outlet": "Breaking Defense",
+          "title": "Pentagon, Lockheed agree to decade-long F-35 framework deal for hundreds of jets",
+          "url": "https://breakingdefense.com/2026/10/pentagon-lockheed-agree-to-decade-long-f-35-framework-deal-for-hundreds-of-jets/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c21",
+      "drop": "2026-10-22T17",
+      "headline": "Denmark commits to long-range missile purchases",
+      "summary": "Copenhagen said it will buy Joint Strike Missiles for its F-35s and a new ground-launched munition from an American firm, citing the need for an ability to strike back.",
+      "why_it_matters": "European NATO members are buying US weapons as Russia threats grow.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "europe"
+      ],
+      "entities": [
+        "Denmark"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T17:18:00.000Z",
+      "sources": [
+        {
+          "outlet": "Breaking Defense",
+          "title": "‘Ability to strike back’: Denmark commits to long-range missile orders",
+          "url": "https://breakingdefense.com/2026/10/ability-to-strike-back-denmark-commits-to-long-range-missile-orders/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c22",
+      "drop": "2026-10-22T17",
+      "headline": "Hegseth reportedly lets DHS test 'heat ray' at Mexico border",
+      "summary": "Defense Secretary Pete Hegseth reportedly signed a memo last month allowing DHS to test the Pentagon's non-lethal Active Denial System, which causes intense skin heat, for possible use at the US-Mexico border.",
+      "why_it_matters": "It would put military-developed crowd-control technology into domestic border enforcement.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Pete Hegseth",
+        "Department of Homeland Security"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T15:40:41.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Pete Hegseth reportedly authorizes DHS to test ‘heat ray’ at US-Mexico border",
+          "url": "https://www.theguardian.com/us-news/2026/oct/22/heat-ray-mexico-border-dhs"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c23",
+      "drop": "2026-10-22T17",
+      "headline": "PHP flaws were exploited days before patch, Amazon says",
+      "summary": "Amazon Threat Intelligence found exploit attempts against the critical PHP flaws days before patches were released. UK officials say 32 government services are offline and report no indications of hacked government systems.",
+      "why_it_matters": "More than two-thirds of websites run PHP, so fixes matter to banks, retailers and agencies.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity"
+      ],
+      "entities": [
+        "PHP",
+        "Amazon"
+      ],
+      "importance": 4,
+      "follows": "2026-10-22T05-c01",
+      "storyline_id": null,
+      "published_at": "2026-10-22T11:15:58.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "The disastrous PHP vulnerabilities were exploited days before the patch",
+          "url": "https://www.theverge.com/tech/1016798/php-vulnerabilities-exploit-patch"
+        },
+        {
+          "outlet": "Ars Technica",
+          "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+          "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/"
+        },
+        {
+          "outlet": "BBC",
+          "title": "What is PHP and why did it spark a global cyber-security scramble?",
+          "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c24",
+      "drop": "2026-10-22T17",
+      "headline": "Microsoft blames China-aligned hacker for ConnectWise breach",
+      "summary": "Microsoft attributes the ConnectWise breach to a China-aligned hacker that used AI agents to rapidly break into thousands of the IT firm's customers, TechCrunch reports.",
+      "why_it_matters": "AI-assisted intrusions into IT suppliers can expose many businesses at once.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "china",
+        "ai"
+      ],
+      "entities": [
+        "ConnectWise",
+        "Microsoft",
+        "China"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T16:47:17.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c25",
+      "drop": "2026-10-22T17",
+      "headline": "Unvetted AI agents are accessing US bank accounts, Axios reports",
+      "summary": "Major US banks are detecting unauthorized third-party AI agents operating inside customer accounts, Axios reports, citing sources. Some agents appear to act independently of user instructions.",
+      "why_it_matters": "Consumers' accounts could be exposed to automated activity they never approved.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "cybersecurity",
+        "economy"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T09:00:06.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Scoop: Unvetted AI agents are accessing U.S. bank accounts",
+          "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c26",
+      "drop": "2026-10-22T17",
+      "headline": "Evaluators find flaws in OpenAI monitoring system during test",
+      "summary": "Third-party evaluators METR and Redwood Research found vulnerabilities in an OpenAI monitoring system in a pilot. CEO Sam Altman pledged to give independent evaluators employee-like access.",
+      "why_it_matters": "Outside testing is one check on whether advanced AI agents can be kept within limits.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "cybersecurity"
+      ],
+      "entities": [
+        "OpenAI",
+        "Sam Altman",
+        "METR",
+        "Redwood Research"
+      ],
+      "importance": 3,
+      "follows": "2026-10-21T17-c24",
+      "storyline_id": null,
+      "published_at": "2026-10-22T17:37:47.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Third-party evaluators found vulnerabilities in OpenAI monitoring system during test pilot",
+          "url": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c27",
+      "drop": "2026-10-22T17",
+      "headline": "DeepSeek reportedly raises $15 billion after US restrictions",
+      "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, days after the US ordered federal agencies to remove its technology over national security concerns.",
+      "why_it_matters": "It suggests US curbs have not choked funding for a leading Chinese AI rival.",
+      "region": "Asia",
+      "topics": [
+        "ai",
+        "china",
+        "startups-vc"
+      ],
+      "entities": [
+        "DeepSeek",
+        "China"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-22T13:11:13.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "DeepSeek reportedly raises $15B days after US restrictions",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c28",
+      "drop": "2026-10-22T17",
+      "headline": "Chip stocks fall on Tesla spending cut and weak Lam forecast",
+      "summary": "Micron and other chip stocks fell Thursday after Tesla cut its near-term spending target and Lam Research issued a weaker-than-expected forecast, MarketWatch reports.",
+      "why_it_matters": "Chip weakness feeds the broader worry that AI spending may slow.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "markets"
+      ],
+      "entities": [
+        "Micron",
+        "Lam Research",
+        "Tesla"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-22T15:33:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Two big reasons Micron and other chip stocks are falling on Thursday",
+          "url": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c29",
+      "drop": "2026-10-22T17",
+      "headline": "Commerce to take $175 million stake in fusion startup Helion",
+      "summary": "The Commerce Department will take a $175 million equity stake in fusion startup Helion, which is financed by the brother of the president's son-in-law, the FT reports. Helion separately raised $225 million.",
+      "why_it_matters": "Public money going to a firm with ties to the president's family raises oversight questions.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "policy-regulation",
+        "startups-vc"
+      ],
+      "entities": [
+        "Helion",
+        "Commerce Department"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T14:59:28.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "US to fund speculative energy venture backed by investors with ties to Trump",
+          "url": "https://www.ft.com/content/d774c15e-22e4-4873-9a1d-92d6561290f9?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
+          "url": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c30",
+      "drop": "2026-10-22T17",
+      "headline": "Barclays to cut 5,000 jobs as it leans on AI",
+      "summary": "Barclays is cutting about 5,000 jobs, roughly 5% of its workforce, as it increases its use of artificial intelligence, the BBC reports.",
+      "why_it_matters": "Large banks are among the first major employers to tie headcount cuts to AI.",
+      "region": "Europe",
+      "topics": [
+        "jobs-labor",
+        "ai"
+      ],
+      "entities": [
+        "Barclays"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T14:28:59.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
+          "url": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c31",
+      "drop": "2026-10-22T17",
+      "headline": "Blackstone cuts property valuations as higher rates bite",
+      "summary": "Blackstone has marked down property valuations as higher rates hit returns. President Jonathan Gray said market volatility stalled a quick return of cash to investors through IPOs.",
+      "why_it_matters": "Commercial real estate stress can spread to lenders, pensions and private funds.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "Blackstone",
+        "Jonathan Gray"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T11:03:21.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Blackstone cuts property valuations as higher rates hit returns",
+          "url": "https://www.ft.com/content/df7c95d7-72d1-4cec-87f6-9f7968ac3e5e?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c32",
+      "drop": "2026-10-22T17",
+      "headline": "Turkey fund crisis hits Norway's wealth fund; Zorlu seeks delay",
+      "summary": "Norway's sovereign wealth fund says it is among investors hurt by Turkey's fund crisis and is reviewing its holdings. Separately, Turkish power firm Zorlu Enerji seeks a six-month delay on a coupon for a $1.1 billion bond.",
+      "why_it_matters": "Emerging-market credit strain adds to global risk aversion.",
+      "region": "Europe",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "Norway's sovereign wealth fund",
+        "Zorlu Enerji",
+        "Turkey"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T14:19:47.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Norway Wealth Fund Says It’s a Victim of Turkey’s Funds Crisis",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/norway-wealth-fund-says-it-s-a-victim-of-turkey-s-funds-crisis"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Zorlu Enerji Seeks Six-Month Delay to Coupon Due This Week",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/turkey-s-zorlu-enerji-to-miss-coupon-on-1-1-billion-bond"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c33",
+      "drop": "2026-10-22T17",
+      "headline": "Health insurance costs rise: family premiums up 9%",
+      "summary": "A KFF survey finds workers are paying 9% more for family coverage this year, a bigger jump than recently. STAT reports the number of uninsured working-age adults rose in 2026.",
+      "why_it_matters": "Health costs are squeezing paychecks and are a top concern for voters.",
+      "region": "US",
+      "topics": [
+        "health",
+        "economy"
+      ],
+      "entities": [
+        "KFF"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T09:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "STAT+: Workers are paying 9% more for family health coverage this year, a higher jump than in the recent past",
+          "url": "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss"
+        },
+        {
+          "outlet": "NPR",
+          "title": "High health costs squeeze workers, even if you have good insurance through a job",
+          "url": "https://www.npr.org/2026/10/22/nx-s1-6008153/health-insurance-costs-kff-commonwealth"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c34",
+      "drop": "2026-10-22T17",
+      "headline": "UnitedHealthcare and Humana plan cancellations hit 1 million",
+      "summary": "UnitedHealthcare and Humana are discontinuing Medicare Advantage plans, mainly PPOs with flexible networks, affecting about 1 million people, The Hill reports.",
+      "why_it_matters": "Seniors affected will need to pick new coverage during open enrollment.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation"
+      ],
+      "entities": [
+        "UnitedHealthcare",
+        "Humana"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T16:46:26.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "UnitedHealthcare, Humana Medicare Advantage cancellations to affect 1 million",
+          "url": "https://thehill.com/policy/healthcare/6165587-unitedhealthcare-humana-medicare-advantage-cancellations-to-affect-1-million/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c35",
+      "drop": "2026-10-22T17",
+      "headline": "CDC denies approval for high-volume measles test",
+      "summary": "The CDC denied validation of a new high-volume measles test sought by California and Washington, citing other priorities. Health officials in four western states asked it to reconsider. The US recorded a third measles death this year.",
+      "why_it_matters": "Faster testing helps contain outbreaks during a measles resurgence.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation"
+      ],
+      "entities": [
+        "CDC",
+        "California",
+        "Washington"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T16:49:21.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "CDC denies approval for high-volume measles test, citing ‘other priorities’",
+          "url": "https://www.theguardian.com/us-news/2026/oct/22/cdc-measles-test-denied"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c36",
+      "drop": "2026-10-22T17",
+      "headline": "US weighs limits on investment in Chinese biotech",
+      "summary": "STAT reports rumors that the Treasury Department could this week propose a rule adding scrutiny to US investment in, and outbound licensing deals with, Chinese biotech firms. It is unconfirmed.",
+      "why_it_matters": "US drugmakers increasingly license Chinese drugs, so new limits could affect deals and future medicines.",
+      "region": "US",
+      "topics": [
+        "health",
+        "china",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Treasury Department",
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T16:17:03.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "STAT+: Will the Treasury restrict U.S. investment in the Chinese biotech sector?",
+          "url": "https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/?utm_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c37",
+      "drop": "2026-10-22T17",
+      "headline": "First human Shamonda virus case detected in France",
+      "summary": "A man in France who died in early October is the first known human infected with Shamonda virus, normally found in livestock. Investigators are examining whether it contributed to his death.",
+      "why_it_matters": "It is a reminder of animal viruses crossing to humans, though the risk is unclear.",
+      "region": "Europe",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "France",
+        "Shamonda virus"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T13:53:32.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Shamonda virus detected in human for first time in France",
+          "url": "https://www.theguardian.com/world/2026/oct/22/shamonda-virus-detected-in-human-first-time-france"
+        },
+        {
+          "outlet": "BBC",
+          "title": "First human case of Shamonda virus detected in France, officials say",
+          "url": "https://www.bbc.co.uk/news/articles/c6reyx1d9ge9o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c38",
+      "drop": "2026-10-22T17",
+      "headline": "IUCN warns nearly all shallow tropical reefs could collapse by 2075",
+      "summary": "UN advisers at a biodiversity conference said global heating endangers 96% of coral reefs across 80 countries, with almost all shallow-water reefs at risk of collapse by 2075.",
+      "why_it_matters": "Reef loss would hit fisheries, coastal protection and tourism worldwide.",
+      "region": "Global",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "IUCN"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T12:00:45.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Almost every shallow-water coral reef on the planet faces ecosystem collapse by 2075, UN advisors say",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/22/shallow-water-coral-reef-ecosystem-collapse-by-2075-un-advisors-say"
+        },
+        {
+          "outlet": "New Scientist",
+          "title": "All tropical coral reefs could collapse within 50 years",
+          "url": "https://www.newscientist.com/article/2595378-all-tropical-coral-reefs-could-collapse-within-50-years/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c39",
+      "drop": "2026-10-22T17",
+      "headline": "Forecasters warn of 'behemoth' El Niño",
+      "summary": "Forecasters say a developing El Niño could be 'off the charts', stronger than the monitoring scales used for the past four decades. Scientists link heavy rain in South America to it.",
+      "why_it_matters": "A strong El Niño can shift weather, harvests and energy demand worldwide, including in the US.",
+      "region": "Global",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "El Niño"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T13:50:55.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "'Behemoth' El Niño could be 'off the charts,' forecasters warn",
+          "url": "https://thehill.com/policy/energy-environment/6165658-behemoth-el-nino-could-be-off-the-charts-forecasters-warn/"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Greetings from the Brazil-Argentina border, where waterfalls are flowing at near-record rates",
+          "url": "https://www.npr.org/2026/10/22/g-s1-148553/argentina-brazil-iguazu-falls-waterfalls-super-el-nino"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c40",
+      "drop": "2026-10-22T17",
+      "headline": "Magnitude-7.0 earthquake strikes Tibetan Plateau",
+      "summary": "A strong magnitude-7.0 earthquake struck the Tibetan Plateau in China on Thursday, Bloomberg reports. Details on damage and casualties were not available.",
+      "why_it_matters": "Large quakes in the region can cause casualties and disrupt infrastructure.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "science"
+      ],
+      "entities": [
+        "China",
+        "Tibet"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T16:49:05.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "China’s Tibet Region Struck by Magnitude-7.0 Earthquake",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/china-s-tibet-region-struck-by-powerful-magnitude-7-0-earthquake"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c41",
+      "drop": "2026-10-22T17",
+      "headline": "International Criminal Court wins EU human rights award",
+      "summary": "The EU awarded the International Criminal Court its top human rights prize. The court is under US sanctions.",
+      "why_it_matters": "The award highlights the split between Washington and European allies over the ICC.",
+      "region": "Europe",
+      "topics": [
+        "geopolitics",
+        "europe"
+      ],
+      "entities": [
+        "International Criminal Court",
+        "European Union"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T17:46:03.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US-sanctioned ICC wins top EU human rights award",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/us-sanctioned-icc-wins-top-eu-human-rights-award?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T17-c42",
+      "drop": "2026-10-22T17",
+      "headline": "Mob of 50 beats foreign national to death in South Africa",
+      "summary": "Police say a mob of about 50 people killed a man in Durban amid a wave of anti-migrant marches this year. The victim has not been identified.",
+      "why_it_matters": "Rising xenophobic violence threatens migrants and regional stability.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "crime-justice"
+      ],
+      "entities": [
+        "South Africa",
+        "Durban"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T16:15:25.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Crowd of 50 beats foreigner to death in South Africa",
+          "url": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Foreign national beaten to death by a mob in South Africa",
+          "url": "https://www.aljazeera.com/news/2026/10/22/foreign-national-beaten-to-death-by-a-mob-in-south-africa?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c43",
+      "drop": "2026-10-22T17",
+      "headline": "Aung San Suu Kyi's son speaks to her for first time in five years",
+      "summary": "Kim Aris said he was allowed to speak to the detained former Myanmar leader for the first time in more than five years, amid a loosening of detention restrictions.",
+      "why_it_matters": "It is a rare sign of change in the treatment of Myanmar's best-known political prisoner.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "geopolitics"
+      ],
+      "entities": [
+        "Aung San Suu Kyi",
+        "Kim Aris",
+        "Myanmar"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T10:38:10.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Aung San Suu Kyi’s son speaks to detained former Myanmar leader for first time in five years",
+          "url": "https://www.theguardian.com/world/2026/oct/22/aung-san-suu-kyi-son-speaks-former-myanmar-leader"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T17-c44",
+      "drop": "2026-10-22T17",
+      "headline": "Elon Musk reportedly invests $1 billion in Skydance",
+      "summary": "Elon Musk made a $1 billion investment in Skydance, a report says, giving the media company a financial boost as it seeks to cut costs and lift its stock price.",
+      "why_it_matters": "It extends Musk's reach into entertainment media.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "startups-vc"
+      ],
+      "entities": [
+        "Elon Musk",
+        "Skydance"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T17:36:38.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Elon Musk made a $1 billion investment in Skydance, report says",
+          "url": "https://techcrunch.com/2026/10/22/elon-musk-made-a-1-billion-investment-in-skydance-report-says/"
+        }
+      ],
+      "has_article": false
+    }
+  ]
+}
