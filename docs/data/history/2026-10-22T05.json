@@ -1,0 +1,1006 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-10-22T05",
+    "at": "2026-10-22T05:48:29Z",
+    "model": "claude-sonnet-5-5",
+    "count": 32
+  },
+  "cards": [
+    {
+      "id": "2026-10-22T05-c01",
+      "drop": "2026-10-22T05",
+      "headline": "Governments scramble to assess exposure to PHP flaws",
+      "summary": "Governments and companies are checking their exposure to two critical PHP flaws found partly with AI. Amazon says it saw attacks before the warning went public, and Wired reports the bugs are now being broadly exploited.",
+      "why_it_matters": "PHP runs a large share of websites, so unpatched services, including some Americans use daily, face outages or compromise.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "ai"
+      ],
+      "entities": [
+        "PHP",
+        "Amazon",
+        "OpenAI"
+      ],
+      "importance": 4,
+      "follows": "2026-10-21T17-c22",
+      "storyline_id": null,
+      "published_at": "2026-10-22T02:24:17.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Governments working to identify exposure after global cyber-security warning",
+          "url": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Wired",
+          "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+          "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c02",
+      "drop": "2026-10-22T05",
+      "headline": "US orders diplomats out of Saudi Arabia after deadly Houthi strikes",
+      "summary": "One person died and eight were hurt in an attack on King Fahd airport, and a drone attack on Aramco's Shaybah oilfield killed two. The US ordered some staff and families to leave; oil rose.",
+      "why_it_matters": "Escalation near Gulf oil facilities threatens fuel prices and puts American personnel and a key ally at risk.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "energy",
+        "middle-east"
+      ],
+      "entities": [
+        "Saudi Arabia",
+        "Houthis",
+        "State Department",
+        "Saudi Aramco"
+      ],
+      "importance": 4,
+      "follows": "2026-10-21T22-c01",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-10-21T22:05:54.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
+          "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss"
+        },
+        {
+          "outlet": "BBC",
+          "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Latest Oil Market News and Analysis for Oct. 22",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/latest-oil-market-news-and-analysis-for-oct-22"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T05-c03",
+      "drop": "2026-10-22T05",
+      "headline": "Stocks fall as AI trade stumbles; Treasuries and yen rally",
+      "summary": "Stocks fell after megacap earnings failed to reassure investors on AI, and Chinese equities neared a bear market. Treasuries, the yen and the Swiss franc rose as havens while oil gained.",
+      "why_it_matters": "Swings in AI stocks and bond yields affect retirement accounts, mortgage rates and borrowing costs for households and companies.",
+      "region": "Global",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Treasuries"
+      ],
+      "importance": 4,
+      "follows": "2026-10-21T05-c08",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-21T22:13:33.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "AI Trade Stumbles After Tech Earnings, Oil Gains: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/stock-market-today-dow-s-p-live-updates"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Treasuries Climb With Yen as AI Trade Jitters Fuel Haven Bid",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/long-end-us-yield-hits-one-month-low-as-ai-fears-fuel-haven-bid"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T05-c04",
+      "drop": "2026-10-22T05",
+      "headline": "Alibaba leads Hong Kong tech lower; China stocks near bear market",
+      "summary": "Alibaba had its steepest drop in two months after Chinese authorities summoned e-commerce operators and urged tighter product-quality standards. Chinese stocks are on track for a bear market amid the AI selloff and limited stimulus.",
+      "why_it_matters": "China's market stress and tighter rules on its platforms can affect global investors and the supply of goods sold to US shoppers.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "china"
+      ],
+      "entities": [
+        "Alibaba",
+        "China"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T02:51:12.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Alibaba Leads Hong Kong Tech Slide on China Regulatory Move",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/alibaba-shares-post-steepest-drop-in-two-months-on-china-curbs"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "China Stocks Set for Bear Market as Tech Sinks, Policy Hopes Ebb",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/china-stocks-set-for-bear-market-as-ai-trade-policy-hopes-fade"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T05-c05",
+      "drop": "2026-10-22T05",
+      "headline": "Tesla says it will start selling Cybercabs by end of year",
+      "summary": "On its earnings call Tesla said it will sell the steering-wheel-free Cybercab by year end, though federal regulators are investigating whether it meets safety standards. It also said owners could add cars to its robotaxi fleet next year.",
+      "why_it_matters": "Self-driving vehicles for sale to consumers would be a major change for US roads, with safety oversight still unresolved.",
+      "region": "US",
+      "topics": [
+        "autos-transport",
+        "ai"
+      ],
+      "entities": [
+        "Tesla",
+        "Cybercab"
+      ],
+      "importance": 3,
+      "follows": "2026-10-21T22-c03",
+      "storyline_id": null,
+      "published_at": "2026-10-21T23:36:31.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Tesla says it will start selling Cybercabs by end of year",
+          "url": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/"
+        },
+        {
+          "outlet": "The Verge",
+          "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
+          "url": "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c06",
+      "drop": "2026-10-22T05",
+      "headline": "Meta deal aims to keep Zuckerberg in California despite wealth tax",
+      "summary": "The FT and Wired report Meta agreed to create a non-voting share class partly so Mark Zuckerberg can sell stock without losing control, and to give him incentives to stay in California amid a billionaires' tax ballot measure.",
+      "why_it_matters": "It shows how a state tax proposal can shape corporate governance at a major US tech company.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Meta",
+        "Mark Zuckerberg",
+        "California"
+      ],
+      "importance": 3,
+      "follows": "2026-10-21T22-c04",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-10-21T22:39:50.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal",
+          "url": "https://www.ft.com/content/b34502b6-38dc-4a46-a8e7-d9131726cd31?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Wired",
+          "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
+          "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c07",
+      "drop": "2026-10-22T05",
+      "headline": "US embassy accuses Canada of election meddling before midterms",
+      "summary": "The US embassy cited Canadian tariffs, political meetings and anti-Trump ads as evidence of attempted election interference. Prime Minister Mark Carney dismissed the claim, noting that the US initiated the trade actions against Canada.",
+      "why_it_matters": "A public dispute with the US's largest trading partner adds strain to an already tense trade relationship.",
+      "region": "Americas",
+      "topics": [
+        "geopolitics",
+        "elections",
+        "trade"
+      ],
+      "entities": [
+        "Canada",
+        "Mark Carney",
+        "United States"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T23:52:21.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "US embassy accuses Canada of election meddling ahead of midterms",
+          "url": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "US accuses Canada of election interference ahead of midterms",
+          "url": "https://www.aljazeera.com/news/2026/10/21/us-accuses-canada-of-election-interference-ahead-of-midterms?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c08",
+      "drop": "2026-10-22T05",
+      "headline": "Omar to leave DC apartment after federal search, citing threats",
+      "summary": "Rep. Ilhan Omar said she must move out of her Washington apartment because of death threats received after federal agents executed a search warrant there last week in an immigration fraud probe.",
+      "why_it_matters": "The case involves a sitting member of Congress, a federal investigation and rising threats against officials.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "crime-justice"
+      ],
+      "entities": [
+        "Ilhan Omar",
+        "Justice Department"
+      ],
+      "importance": 3,
+      "follows": "2026-10-20T22-c13",
+      "storyline_id": null,
+      "published_at": "2026-10-22T01:38:25.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Omar said she will have to move due to threats following federal raid",
+          "url": "https://thehill.com/homenews/house/6164465-omar-to-move-dc-residence/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Ilhan Omar vacating DC apartment after federal raid, citing death threats",
+          "url": "https://www.washingtonexaminer.com/news/house/4775291/ilhan-omar-dc-apartment-federal-raid-death-threats/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c09",
+      "drop": "2026-10-22T05",
+      "headline": "Press association condemns White House pool restriction on reporter",
+      "summary": "The White House Correspondents' Association said the White House limited journalist Andrew Feinberg's access to cover President Trump after Trump criticized him in the Oval Office earlier this week. The association called it retaliation.",
+      "why_it_matters": "Access to the president shapes how the public gets information about the White House.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "White House Correspondents' Association",
+        "Andrew Feinberg",
+        "Donald Trump"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T02:43:50.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "WHCA condemns removal of journalist from White House pool",
+          "url": "https://thehill.com/media/6164506-whca-condemns-trump-retaliation/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T05-c10",
+      "drop": "2026-10-22T05",
+      "headline": "Trump rallies in Clemson; reports say supporter hit protester",
+      "summary": "Trump campaigned for Sen. Darline Graham in South Carolina, urging turnout to stop Democrats from undoing GOP policies. The Guardian reports a supporter allegedly punched a protester and Trump praised it. He will hold a Mississippi rally Monday.",
+      "why_it_matters": "Trump's travel to reliably red states shows where Republicans see Senate risk with two weeks left.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Darline Graham",
+        "South Carolina"
+      ],
+      "importance": 3,
+      "follows": "2026-10-21T22-c08",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-21T23:15:18.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump warns Democrats ‘want to burn it all down’ in South Carolina pitch",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4775238/trump-south-carolina-rally-darline-graham/"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "‘Man, I loved that’: Trump cheers South Carolina rally attender who hit protester",
+          "url": "https://www.theguardian.com/us-news/2026/oct/21/trump-south-carolina-rally-darline-graham"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Trump to hold rally in Mississippi",
+          "url": "https://thehill.com/homenews/campaign/6164347-trump-mississippi-rally-midterms/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c11",
+      "drop": "2026-10-22T05",
+      "headline": "Michigan and Kansas Senate candidates hold final debates",
+      "summary": "In Michigan, Democrat Abdul El-Sayed and Republican Mike Rogers argued over Trump, the economy and Iran. In Kansas, Sen. Roger Marshall and Democrat Adam Hamilton each tried to distance themselves from party leaders.",
+      "why_it_matters": "Both races could help decide Senate control, and Kansas is tighter than Republicans expected.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Abdul El-Sayed",
+        "Mike Rogers",
+        "Roger Marshall",
+        "Adam Hamilton"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-22T02:15:22.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "El-Sayed, Rogers face off in last Michigan Senate debate: 3 takeaways",
+          "url": "https://thehill.com/homenews/campaign/6164307-michigan-senate-debate-el-sayed-rogers-takeaways/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump dominates El-Sayed's attacks against Rogers, but GOP rival offers unexpected policy split",
+          "url": "https://www.foxnews.com/politics/trump-dominates-el-sayeds-attacks-against-rogers-gop-rival-offers-unexpected-policy-split"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Marshall, Hamilton clash in battleground Kansas Senate debate: 4 takeaways",
+          "url": "https://thehill.com/homenews/campaign/6164323-marshall-hamilton-clash-in-battleground-kansas-senate-debate-4-takeaways/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c12",
+      "drop": "2026-10-22T05",
+      "headline": "Fox polls: Brown leads in Ohio, Texas Senate race tight",
+      "summary": "A Fox News poll has Democrat Sherrod Brown ahead of Sen. Jon Husted 52% to 47% in Ohio. In Texas, Fox says the Senate race is near a photo finish, with Republican Ken Paxton's ratings underwater by 17 points.",
+      "why_it_matters": "Competitive Senate races in Ohio and Texas widen the map that decides which party controls the chamber.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Sherrod Brown",
+        "Jon Husted",
+        "Ken Paxton",
+        "James Talarico"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T22:00:03.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Fox News Poll: Gender gap and pocketbook pain shape Ohio Senate race",
+          "url": "https://www.foxnews.com/politics/fox-news-poll-gender-gap-pocketbook-pain-shape-ohio-senate-race"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Fox News Poll: Texas Senate race galloping toward a photo finish",
+          "url": "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c13",
+      "drop": "2026-10-22T05",
+      "headline": "Justice Department begins notifying counties it wants to monitor",
+      "summary": "The Justice Department is telling counties where it wants election monitors. It has long sent monitors, but NPR reports the administration's unprecedented steps to gain control over elections have raised new concerns about this year's effort.",
+      "why_it_matters": "How federal monitors operate could affect voter confidence and the conduct of polling places in the midterms.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Justice Department"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-22T00:18:47.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "The Justice Department begins notifying counties where it wants to monitor elections",
+          "url": "https://www.npr.org/2026/10/21/nx-s1-6009896/justice-department-monitors"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c14",
+      "drop": "2026-10-22T05",
+      "headline": "House Democrats' campaign arm reportedly guides PACs to boost minor candidates",
+      "summary": "Axios reports the DCCC is instructing allied super PACs to promote minor candidates in several key House races, a way to draw votes from Republicans without direct coordination.",
+      "why_it_matters": "It shows late tactics both parties use to shape close House contests.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "DCCC"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-21T23:12:00.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Scoop: Dems quietly guide super PACs to boost spoiler House candidates",
+          "url": "https://www.axios.com/2026/10/21/democrats-2026-election-spoiler-third-party-dccc"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T05-c15",
+      "drop": "2026-10-22T05",
+      "headline": "Pelosi's office gets suspicious letter containing white powder",
+      "summary": "Nancy Pelosi's office received a suspicious letter Wednesday, the latest in mailings sent to members of Congress before the midterms. Earlier reports said election offices in at least 32 states were also targeted.",
+      "why_it_matters": "Threatening mail aimed at lawmakers and election offices raises security concerns ahead of voting.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "elections"
+      ],
+      "entities": [
+        "Nancy Pelosi"
+      ],
+      "importance": 2,
+      "follows": "2026-10-20T22-c10",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-10-21T22:47:28.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Nancy Pelosi’s office latest recipient of letter containing white powder",
+          "url": "https://www.theguardian.com/us-news/2026/oct/21/nancy-pelosi-office-letter-white-powder"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c16",
+      "drop": "2026-10-22T05",
+      "headline": "Flesh-eating screwworm found in Texas elk, first in US wildlife",
+      "summary": "The USDA confirmed the first detection of the New World screwworm parasite in US wildlife, in an elk in Pecos County, Texas, and urged hunters and ranchers to be vigilant.",
+      "why_it_matters": "The parasite threatens livestock and the cattle industry, and its spread could affect beef supply and prices.",
+      "region": "US",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "USDA",
+        "Texas"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T23:36:31.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Officials confirm flesh-eating New World screwworm parasite found in US wildlife",
+          "url": "https://www.theguardian.com/us-news/2026/oct/21/new-world-screwworm-texas"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c17",
+      "drop": "2026-10-22T05",
+      "headline": "Arab parties could hold balance of power in Israeli election",
+      "summary": "BBC reports disaffection has often cut turnout among Arab Israelis, but there is a strong push this time to remove the governing right-wing coalition ahead of the Oct. 27 vote.",
+      "why_it_matters": "The Israeli result will shape wartime policy toward Iran and Gaza, and US relations.",
+      "region": "Middle East",
+      "topics": [
+        "elections",
+        "middle-east"
+      ],
+      "entities": [
+        "Israel"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T05:30:22.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "How Arab parties could hold critical balance of power in Israeli election",
+          "url": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c18",
+      "drop": "2026-10-22T05",
+      "headline": "North Korea to restart border propaganda loudspeakers",
+      "summary": "Kim Yo-jong said loudspeakers aimed at South Korea will be ready to restart within days along the entire border, and Pyongyang plans anti-South broadcasts. Seoul urged dialogue.",
+      "why_it_matters": "Rising tension on the Korean border matters for US troops and allies in the region.",
+      "region": "Asia",
+      "topics": [
+        "geopolitics",
+        "asia"
+      ],
+      "entities": [
+        "North Korea",
+        "South Korea",
+        "Kim Yo-jong"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T03:56:46.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "North Korea prepares to restart propaganda loudspeakers as ties sour with South",
+          "url": "https://www.theguardian.com/world/2026/oct/22/north-korea-to-restart-propaganda-loudspeakers-south-korea"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "North Korea to resume propaganda broadcasts, South Korea urges dialogue",
+          "url": "https://www.aljazeera.com/news/2026/10/22/north-korea-to-resume-propaganda-broadcasts-south-korea-urges-dialogue?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c19",
+      "drop": "2026-10-22T05",
+      "headline": "Bukele threatens Haitian gangs over four abducted soldiers",
+      "summary": "Salvadoran President Nayib Bukele said he has started a military operation to rescue four Salvadoran soldiers abducted in Haiti.",
+      "why_it_matters": "It shows deepening regional involvement in Haiti's gang crisis, which affects migration and security in the Americas.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "war-conflict"
+      ],
+      "entities": [
+        "Nayib Bukele",
+        "El Salvador",
+        "Haiti"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T05:36:33.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "El Salvador’s Bukele threatens Haitian gangs over abducted soldiers",
+          "url": "https://www.aljazeera.com/news/2026/10/22/el-salvadors-bukele-threatens-haitian-gangs-over-abducted-soldiers?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c20",
+      "drop": "2026-10-22T05",
+      "headline": "Former Congo president Kabila joins new rebel alliance",
+      "summary": "Former President Joseph Kabila has joined a coalition that says it will challenge the government in Kinshasa by all means, Foreign Policy reports.",
+      "why_it_matters": "A broader rebel front could prolong conflict in a mineral-rich region and complicate US-backed peace efforts.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "war-conflict"
+      ],
+      "entities": [
+        "Joseph Kabila",
+        "Congo"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T00:36:19.000Z",
+      "sources": [
+        {
+          "outlet": "Foreign Policy",
+          "title": "What a New Rebel Alliance Means for Congo",
+          "url": "https://foreignpolicy.com/2026/10/21/what-a-new-rebel-alliance-means-for-congo/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c21",
+      "drop": "2026-10-22T05",
+      "headline": "Colombian president removes works he says promote communism",
+      "summary": "President Abelardo de la Espriella removed works from Colombia's National Museum that he says promote communism and said he will wage a counterrevolution against cultural institutions.",
+      "why_it_matters": "The move signals a sharp cultural and political turn in a major US partner in Latin America.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "culture-sports"
+      ],
+      "entities": [
+        "Abelardo de la Espriella",
+        "Colombia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T01:09:40.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Colombian president purges National Museum of works promoting ‘communism’",
+          "url": "https://www.aljazeera.com/news/2026/10/22/colombian-president-purges-national-museum-of-works-promoting-communism?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c22",
+      "drop": "2026-10-22T05",
+      "headline": "Publisher drops novelist Orélien over AI use in book",
+      "summary": "Canadian publisher Boréal ended its relationship with Haitian-Canadian author Thélyson Orélien after investigations it said confirmed he used AI in his novel. The Guardian notes Orélien has repeatedly denied using AI.",
+      "why_it_matters": "The case shows how publishers and prizes are policing AI use in creative work.",
+      "region": "Americas",
+      "topics": [
+        "culture-sports",
+        "ai"
+      ],
+      "entities": [
+        "Thélyson Orélien",
+        "Boréal",
+        "Prix Goncourt"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T22:16:50.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Canadian publisher drops writer Thelyson Orelien over AI use in novel",
+          "url": "https://www.aljazeera.com/news/2026/10/21/canadian-publisher-cuts-ties-with-best-selling-writer-orelien-over-ai-use?traffic_source=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Canadian publisher Boréal ends relationship with novelist Thélyson Orélien over alleged use of AI",
+          "url": "https://www.theguardian.com/culture/2026/oct/22/canadian-publisher-boreal-ends-relationship-author-thelyson-orelien-over-ai"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c23",
+      "drop": "2026-10-22T05",
+      "headline": "Report: data centers could erase decades of air quality gains",
+      "summary": "A new report says a rush of data centers in Texas could return air pollution to levels not seen since the 2000s, depending on how developers and utilities meet their large electricity demand.",
+      "why_it_matters": "The AI buildout has local health costs, and pollution is becoming part of the political fight over data centers.",
+      "region": "US",
+      "topics": [
+        "climate",
+        "energy",
+        "ai"
+      ],
+      "entities": [
+        "Texas"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T22:33:44.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Data centers could erase decades of air quality gains",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c24",
+      "drop": "2026-10-22T05",
+      "headline": "AI firms warn UK has a year to head off datacentre protests",
+      "summary": "A taskforce including Nvidia, Microsoft and Cisco told UK ministers they have 12 months to offer communities greater benefits or risk US-style opposition that could threaten construction, the Guardian reports.",
+      "why_it_matters": "Local opposition is becoming a constraint on AI infrastructure on both sides of the Atlantic.",
+      "region": "Europe",
+      "topics": [
+        "ai",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Nvidia",
+        "Microsoft",
+        "Cisco",
+        "United Kingdom"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T05:00:08.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c25",
+      "drop": "2026-10-22T05",
+      "headline": "Axel Springer boss reportedly pitched buying TikTok's European arm",
+      "summary": "The FT reports Axel Springer chief Mathias Döpfner raised the idea of a deal for TikTok's European business over lunch with Charles Kushner, the US ambassador to France.",
+      "why_it_matters": "TikTok's future in Western markets remains unsettled, with media and political interests involved.",
+      "region": "Europe",
+      "topics": [
+        "big-tech",
+        "europe"
+      ],
+      "entities": [
+        "Axel Springer",
+        "TikTok",
+        "Mathias Döpfner",
+        "Charles Kushner"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T04:00:12.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Politico and Telegraph owner pitched deal to buy European arm of TikTok",
+          "url": "https://www.ft.com/content/171220b9-8d8e-4d82-a866-f9aaf258e0fb?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T05-c26",
+      "drop": "2026-10-22T05",
+      "headline": "Trump's green card curbs test Indian tech workers' American dream",
+      "summary": "BBC reports immigration curbs and tech firms cutting foreign hiring are making US permanent residency a distant prospect for many Indian workers.",
+      "why_it_matters": "Fewer skilled immigrants could affect US tech hiring and competitiveness, while families face long uncertainty.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "jobs-labor"
+      ],
+      "entities": [
+        "India",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T23:06:37.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Trump's green card curbs test Indian tech workers' American dream",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34j7dk771o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c27",
+      "drop": "2026-10-22T05",
+      "headline": "CMS extends fraud crackdown to New York adult day care",
+      "summary": "The Centers for Medicare and Medicaid Services is cracking down on adult day care operators in New York, part of a broader focus on alleged health care fraud, STAT reports.",
+      "why_it_matters": "Medicaid fraud enforcement affects taxpayer spending and access to care for older and disabled patients.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation"
+      ],
+      "entities": [
+        "CMS",
+        "New York"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T21:38:41.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "STAT+: CMS extends fraud crackdown to New York’s adult day care program",
+          "url": "https://www.statnews.com/2026/10/21/cms-medicaid-fraud-nyc-adult-daycare-operators/?utm_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T05-c28",
+      "drop": "2026-10-22T05",
+      "headline": "NASA fires RS-25 engine for full launch duration",
+      "summary": "NASA tested developmental RS-25 engine No. 10001 at Stennis Space Center for 500 seconds, matching the burn time of RS-25 engines during launch of its rockets.",
+      "why_it_matters": "The engines power the Artemis program's return to the Moon, a long-running US space priority.",
+      "region": "US",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "NASA",
+        "Stennis Space Center"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T20:51:50.000Z",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
+          "url": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-10-22T05-c29",
+      "drop": "2026-10-22T05",
+      "headline": "Automattic begins layoffs after board upheaval",
+      "summary": "Automattic has started layoffs following board changes and executive departures, and sources told TechCrunch more cuts could follow as the company works to improve its finances.",
+      "why_it_matters": "The company runs WordPress.com, which is widely used by publishers and small businesses.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Automattic"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T20:15:00.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Automattic begins layoffs following board upheaval and executive departures",
+          "url": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c30",
+      "drop": "2026-10-22T05",
+      "headline": "Xbox plans per-hour fees to stream games you already own",
+      "summary": "Ars Technica reports Xbox wants to charge 24 to 40 cents per hour to stream games players have already bought, on top of the purchase price.",
+      "why_it_matters": "It adds another recurring cost for gamers who already pay for hardware, games and subscriptions.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "culture-sports"
+      ],
+      "entities": [
+        "Xbox",
+        "Microsoft"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T22:06:07.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
+          "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c31",
+      "drop": "2026-10-22T05",
+      "headline": "Bose acquires Skullcandy",
+      "summary": "Bose said it has acquired rival Skullcandy and will keep it in Park City, Utah, bringing Bose audio technologies to lower-priced products.",
+      "why_it_matters": "The deal could bring noise-cancelling and spatial audio features to cheaper headphones.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "culture-sports"
+      ],
+      "entities": [
+        "Bose",
+        "Skullcandy"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-21T20:15:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Bose acquires Skullcandy to help it reach a wider audience",
+          "url": "https://www.theverge.com/tech/1015276/bose-acquisition-skullcandy-headphones-earbuds-speakers"
+        },
+        {
+          "outlet": "Wired",
+          "title": "Bose Is Buying Skullcandy. It’s Not as Weird as It Sounds",
+          "url": "https://www.wired.com/story/bose-acquires-skullcandy-october-2026/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-10-22T05-c32",
+      "drop": "2026-10-22T05",
+      "headline": "Seaya Ventures opens London office after raising €600 million",
+      "summary": "Spanish venture firm Seaya Ventures, backed by Banco Santander, is opening a London office after raising €600 million for a new fund focused on European startups.",
+      "why_it_matters": "Fresh capital for European startups shows investor appetite beyond the US, even as AI funding is scrutinized.",
+      "region": "Europe",
+      "topics": [
+        "startups-vc",
+        "europe"
+      ],
+      "entities": [
+        "Seaya Ventures",
+        "Banco Santander"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-10-22T05:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Spain’s Seaya Ventures Enters London After Raising €600 Million",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/spain-s-seaya-ventures-enters-london-after-raising-600-million"
+        }
+      ],
+      "has_article": false
+    }
+  ]
+}

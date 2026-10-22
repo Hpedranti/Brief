@@ -1,8 +1,72 @@
 {
   "version": 2,
-  "updated_at": "2026-10-21T22:09:50Z",
-  "read": "Growth signals are mixed. Pending home sales hit a record low as mortgage rates rose, the federal deficit reached $2 trillion, and gas prices remain elevated from the Iran war. Tech earnings are steadying stocks, though AI credit worries linger. Markets expect the Fed to hold next week.",
-  "indicators": [],
+  "updated_at": "2026-10-22T05:48:29Z",
+  "read": "Inflation is re-accelerating and the Fed has already hiked once. CPI rose to 3.7% and unemployment ticked up to 4.20%. Ten-year Treasury yields sit above 5% and mortgage rates are 7.40%, weighing on housing. Oil prices and Gulf tensions keep inflation pressure alive, while AI-linked stock volatility adds risk.",
+  "indicators": [
+    {
+      "key": "fedfunds",
+      "label": "Fed funds target",
+      "value": "3.75–4.00",
+      "unit": "%",
+      "as_of": "2026-10-21",
+      "change": "up 0.25",
+      "note": "Raised from 3.50–3.75 in September"
+    },
+    {
+      "key": "fedfunds_effective",
+      "label": "Fed funds (effective)",
+      "value": "3.75",
+      "unit": "%",
+      "as_of": "2026-09-01",
+      "change": "up 0.12",
+      "note": "Monthly average reflects the hike"
+    },
+    {
+      "key": "cpi_yoy",
+      "label": "CPI inflation (YoY)",
+      "value": "3.7",
+      "unit": "%",
+      "as_of": "2026-09-01",
+      "change": "up 0.3",
+      "note": "Inflation accelerating again"
+    },
+    {
+      "key": "unrate",
+      "label": "Unemployment",
+      "value": "4.20",
+      "unit": "%",
+      "as_of": "2026-09-01",
+      "change": "up 0.1",
+      "note": "Labor market softening slightly"
+    },
+    {
+      "key": "dgs10",
+      "label": "10-yr Treasury",
+      "value": "5.12",
+      "unit": "%",
+      "as_of": "2026-10-20",
+      "change": "down 0.03",
+      "note": "Still above 5%"
+    },
+    {
+      "key": "dgs2",
+      "label": "2-yr Treasury",
+      "value": "4.79",
+      "unit": "%",
+      "as_of": "2026-10-20",
+      "change": "up 0.02",
+      "note": "Reflects expectations of high rates"
+    },
+    {
+      "key": "mortgage30",
+      "label": "30-yr mortgage",
+      "value": "7.40",
+      "unit": "%",
+      "as_of": "2026-10-15",
+      "change": "unch",
+      "note": "Housing demand under pressure"
+    }
+  ],
   "fed": {
     "next_meeting": "2026-10-28",
     "odds": [
@@ -15,25 +79,25 @@
         "prob": 0.12
       },
       {
-        "label": "Cut 25bps",
-        "prob": 0.01
-      },
-      {
         "label": "Cut >25bps",
         "prob": 0.01
       },
       {
         "label": "Hike >25bps",
         "prob": 0.01
+      },
+      {
+        "label": "Cut 25bps",
+        "prob": 0.01
       }
     ],
-    "note": "Markets strongly expect a hold, with a small chance of another quarter-point hike."
+    "note": "Markets strongly expect a hold after September's hike; oil and inflation remain the risk."
   },
   "week_ahead": [
     {
       "date": "2026-10-28",
       "event": "FOMC rate decision",
-      "why_it_matters": "Sets borrowing costs after September's hike."
+      "why_it_matters": "Markets expect a hold after September's hike."
     }
   ]
 }

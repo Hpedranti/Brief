@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "drop": "2026-10-22T05",
+  "articles": {
+    "2026-10-22T05-c26": {
+      "paragraphs": [
+        "The US announced earlier this month that it would suspend eight technology firms, including Microsoft, Infosys, Tata Consultancy Services, Wipro and HCL Technologies, from hiring skilled foreign workers permanently through the Permanent Labor Certification Program, known as PERM, the BBC reports. New and pending applications under the program have been frozen.",
+        "Indians hold a majority of H-1B visas, the temporary visa for specialists, and many have relied on PERM to move toward a green card. The National Foundation for American Policy says nearly one million Indian nationals were waiting for employment-based green cards as of December 2025, 79% of pending applications. It projects waits of five to 179 years for highly skilled Indians filing from January 2026, depending on the category.",
+        "Experts quoted by the BBC say the business impact may be small. Nasscom, India's technology trade body, says Indian firms have cut their reliance on H-1B visas. Wipro said over 80% of its US workforce is locally hired, and TCS said its PERM applications were in single digits in the last two years. Microsoft said it files H-1B visas mostly to retain existing staff. The eight companies did not answer the BBC's questions.",
+        "The human impact may be larger. An anonymous senior executive at one of the firms said many employees are stuck waiting while their children, who grew up in the US, do not want to leave. Ahmet Gulek of Stanford's Immigration Policy Lab said switching to an unaffected employer may be hard given fear of retaliation, and warned that other residency routes may be targeted next. Immigration lawyer Poorvi Chothani said some are considering the $800,000 EB-5 investor route but may lack the capital.",
+        "Vice President JD Vance referred to H-1B holders as \"foreign indentured servants\" and later called the rhetoric \"imperfect\". India's foreign ministry called the remark \"unwarranted\" and \"deeply offensive\". The BBC says the PERM suspension may face federal court challenges."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cqj34j7dk771o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-10-22T05-c29": {
+      "paragraphs": [
+        "Automattic, the parent company of WordPress.com, WooCommerce and Tumblr, has begun layoffs, and insiders told TechCrunch they expect more cuts. Over at least the past week, the cuts have affected the communications and social teams, WordPress.com and its VIP enterprise business. Sources also said marketing and product staff at WordPress.com have been let go this month.",
+        "The layoffs follow turmoil after the board's failed attempt in September to oust CEO Matt Mullenweg. That led to a complete board turnover and the departures of several executives, including the CFO, an interim CFO and the chief legal officer. Communications director Megan Fox said on LinkedIn that her role had been \"eliminated\".",
+        "Mullenweg told TechCrunch last week that the terminations were not above normal numbers. Asked again on Wednesday about the growing total, he said he was \"mostly focused on PHP\", referring to a security issue affecting the internet. He also suggested on X that interim CFO Jeremy Klaperman may have been \"offended\" by the decision to seek outside CFO candidates, though TechCrunch heard that Mullenweg had internally asked Klaperman to reconsider leaving.",
+        "According to screenshots TechCrunch viewed, Mullenweg shared personal information in the company's internal Slack about a departed executive's spouse's health matter and insurance. Some employees told TechCrunch they were shocked.",
+        "The company's About page lists 1,397 staff. Insiders said the plan is likely to spread layoffs over the coming months, in the hope of improving fourth-quarter revenue before a debt renegotiation due in June. Spokesperson Chenda Ngak said Automattic is staggering changes \"to be more generous with severance and allow more time with each Automattician\"."
+      ],
+      "based_on": [
+        "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/"
+      ]
+    },
+    "2026-10-22T05-c30": {
+      "paragraphs": [
+        "Microsoft has begun rolling out a la carte Cloud Playtime purchases to Xbox Insiders, letting non-subscribers pay for hours of streaming for games they own, Ars Technica reports. The introductory prices are $4 for 10 hours, $8 for 25 hours and $12 for 50 hours, or roughly 40, 32 and 24 cents per hour. Microsoft says purchased time remains available until it is used.",
+        "The packs require a purchase of a cloud-playable game or, for select games, free-to-play access, so the cost comes on top of what players already paid for the game. Ars contrasts this with Xbox Game Pass, which includes some monthly streaming hours. Microsoft limited that streaming in September, and said last month that only 4 percent of Game Pass subscribers would be affected by new caps of five to 15 hours per month.",
+        "Ars compares the model with earlier streaming efforts. Google's Stadia allowed unlimited streaming of purchased games but shut down in 2022, with full refunds. Sony's PlayStation Now offered rental access in 2014, at one point $30 for 90 days, before moving to a subscription. Unlimited streaming of select titles is now part of the $20 per month PlayStation Plus Premium tier.",
+        "Microsoft also notes that Insiders can test free, ad-supported streams of games they own without buying playtime. It says paid users get shorter wait times and higher-quality streaming. Ars suggests the small share of Game Pass subscribers affected by the caps points to limited demand for heavy cloud use, and asks whether non-subscribers paying by the hour will be more interested."
+      ],
+      "based_on": [
+        "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/"
+      ]
+    },
+    "2026-10-22T05-c31": {
+      "paragraphs": [
+        "Bose announced on Wednesday that it has acquired Skullcandy, the lifestyle audio brand founded in 2003. According to The Verge, specific deal terms were not shared. Bose plans to keep Skullcandy as a separate brand within its premium consumer audio business, and it will remain based in Park City, Utah.",
+        "The two companies already worked together. Under Bose's Sound by Bose licensing program, Skullcandy designs products and Bose handles audio technology. The partnership began with the Method 360 ANC earbuds in 2025 and continued with the Crusher 1080 ANC headphones in July, which bring Bose features such as head-tracking spatial audio and active noise cancellation to lower-priced products.",
+        "Bose CEO Lila Snyder told Wired that Skullcandy gives Bose access to a customer base it is \"largely missing with the Bose brand\". She said Bose has no plans to move the company because Park City is the center of board sports culture. Skullcandy's products are also affordable relative to Bose's, which Wired says lets Bose compete at both ends of the market. Snyder described the recent products as \"the beginning of what we think we can do together\".",
+        "Wired's headphone reviewer called the pairing odd, noting Skullcandy's reputation for middling sound quality, though he said recent collaborations have started to change that. Wired rated the Method 360 ANC earbuds 8/10. In July, Skullcandy CEO Brian Garofalow told Wired the company was not \"the greatest at the engineering part of innovation\".",
+        "Bose bought McIntosh Group, owner of McIntosh and Sonus Faber, in 2024. This year it also acquired StreamUnlimited Engineering and Firelight Technologies, the maker of FMOD."
+      ],
+      "based_on": [
+        "https://www.theverge.com/tech/1015276/bose-acquisition-skullcandy-headphones-earbuds-speakers",
+        "https://www.wired.com/story/bose-acquires-skullcandy-october-2026/"
+      ]
+    },
+    "2026-10-22T05-c15": {
+      "paragraphs": [
+        "Representative Nancy Pelosi's office received what it called a suspicious letter on Wednesday, according to The Guardian. The paper described it as the latest in a series of ill-intentioned mailings aimed at members of Congress ahead of the midterm elections.",
+        "The Guardian reported that the offices of more than three dozen members of Congress, across the political spectrum, have received envelopes containing white powder in recent days. One lawmaker's office said preliminary tests showed the powder was not hazardous. The paper also said more than 100 letters thought to contain white powder were reportedly circulating in the US mail system, and that election offices across the country have reported suspicious mail too.",
+        "A Pelosi spokesperson, Nicholas Martin, said the letter was consistent with mailings reported by other congressional offices and that everyone in the office was safe. He said she is concerned for the members and staff whose offices have had similar incidents, and thanked the Capitol police, the San Francisco police department and other agencies for investigating.",
+        "The FBI, the Capitol police and the US Postal Inspection Service are investigating. The FBI declined to confirm specific instances or letters. Earlier this week it said it and the Postal Inspection Service are investigating a series of suspicious mailings sent to addresses nationwide, including secretary of state offices, related election offices and congressional offices.",
+        "The Guardian's report does not say who sent the letters or what their purpose was, and no arrests were mentioned."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/oct/21/nancy-pelosi-office-letter-white-powder"
+      ]
+    },
+    "2026-10-22T05-c16": {
+      "paragraphs": [
+        "The US Department of Agriculture said on Wednesday that it had confirmed the first detection of the New World screwworm, a flesh-eating parasite, in US wildlife. The case was an elk in Pecos County, Texas, according to The Guardian. The elk was on a game ranch and was reported after a hunter harvested it, the USDA said.",
+        "The Texas animal health commission will modify a previously established infested zone, the USDA said. The USDA and the Texas parks and wildlife department are carrying out additional wildlife surveillance in the area. Alan Cain, Texas wildlife division director, encouraged hunters and landowners to watch for signs of the parasite while in the field this season.",
+        "The Guardian reported that the pest was eradicated from the US decades ago but has surged north from Central America through Mexico. Washington responded with a ban on Mexican cattle imports that lasted more than a year. Livestock trade resumed in August at an Arizona port as part of a phased reopening plan.",
+        "The paper said the halt has tightened US cattle supplies and pushed beef prices to record highs for American consumers. Despite the import measures, screwworm was detected in June on a calf in Zavala County, near the US-Mexico border. Dozens of cases have since been found in the US this year, including on a horse and a dog.",
+        "The next steps described in the report are the adjusted infested zone in Texas and the continuing wildlife surveillance in the area."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/oct/21/new-world-screwworm-texas"
+      ]
+    },
+    "2026-10-22T05-c17": {
+      "paragraphs": [
+        "Ahead of Israel's general election, polls suggest Arab parties could hold a critical balance of power, the BBC reports. Arab Israelis make up about a fifth of the population, and disaffection has often lowered their turnout. The BBC says this time there is a strong push to remove what it calls the most right-wing governing coalition in the country's history, an alliance of Prime Minister Benjamin Netanyahu with far-right and ultra-Orthodox parties.",
+        "Most polls indicate that neither Netanyahu's bloc nor the main Change Bloc, led by former military chief Gadi Eisenkot, has a clear path to a majority. Polls this week suggested each bloc could win around 50 of the 120 seats, with 13 or 14 going to Arab-majority groupings: the Joint Arab List and the smaller United Arab List led by Mansour Abbas.",
+        "The BBC says anti-Netanyahu parties would either have to go back on pledges not to work with him or make a deal with Arab-majority lists. Eisenkot has so far ruled out a government with Arab parties, citing a lack of shared values. Analyst Mohammed Magadli called that racism, while saying Netanyahu's political interests are behind efforts to delegitimize Arab parties.",
+        "Netanyahu has claimed his rivals plan to team up with Arabs and form a dangerous government, and his campaign has used billboards and AI-generated videos to press the point. The BBC says civil society groups accuse the government of disproportionate budget cuts for Arab communities, while the government says reductions are needed to fund wartime defense and security spending.",
+        "Abbas, who served as a minister in a 2021 government, has put a Jewish former police official, Yoav Segalovitz, in the number two slot on his list. He says he wants to join the next government. The vote is on October 27."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-10-22T05-c18": {
+      "paragraphs": [
+        "North Korea says propaganda loudspeakers aimed at South Korea will be ready to restart within days along the entire border. Kim Yo-jong, the sister of leader Kim Jong-un, made the statement, carried by state news agency KCNA on Thursday. It followed her Wednesday comment that the speakers would operate along the whole border from some time in October.",
+        "If broadcasts resume, The Guardian says, they would be the first loudspeaker exchange across the border in 16 months. South Korean president Lee Jae Myung suspended the South's broadcasts in June 2025 to ease tensions, and the military dismantled its speakers that August. Kim also said North Korea would place new counter means on alert along the border, without elaborating, and warned Seoul of a very distressing situation if it continued what Pyongyang calls interference in its internal affairs.",
+        "South Korea's defense ministry said that if the North went ahead, there would have to be a proportional measure, but that no decision had been made. It also urged Pyongyang to discuss steps to ease tension and prevent an accidental clash. The joint chiefs of staff said routine maintenance of the North's loudspeakers had been observed before Kim's statements.",
+        "Tensions have risen since a September landmine blast south of the demarcation line injured three South Korean soldiers. Seoul and the UN command concluded it was a North Korean mine and an armistice violation. Pyongyang denied responsibility and called it a self-staged farce.",
+        "Kim inspected border fortifications on Wednesday and said the border should be a permanent line never to be crossed. Seoul says North Korean troops have repeatedly crossed the line during construction work, prompting warning broadcasts and shots from the South, which Seoul called legitimate and defensive. North Korea calls them provocations."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/22/north-korea-to-restart-propaganda-loudspeakers-south-korea",
+        "https://www.aljazeera.com/news/2026/10/22/north-korea-to-resume-propaganda-broadcasts-south-korea-urges-dialogue?traffic_source=rss"
+      ]
+    },
+    "2026-10-22T05-c19": {
+      "paragraphs": [
+        "Salvadoran President Nayib Bukele said El Salvador has begun a military operation to rescue four Salvadoran soldiers abducted by gangs in Haiti, according to Al Jazeera. He announced it in a post on X without elaborating. He warned that a more forceful response would follow if the men were not released alive and well, and told the gangs not to take his word for empty threats.",
+        "The four are aviation technicians with the UN-backed Gang Suppression Force. Gangs fired on their armored vehicle on Sunday in the Santo area of Croix-des-Bouquets, Port-au-Prince, in the first major attack since the force began operating last year. The men have been missing since they fled the burning vehicle.",
+        "Haiti's government said on Wednesday evening that their release was an absolute priority. It said a meeting at the prime minister's office assessed ongoing interventions and measures to strengthen operations with the force. It was not clear whether Haitian authorities had any confirmation the soldiers are alive. A force spokesperson did not immediately respond to a request for details. The force is still fighting gangs in the area and has told residents to stay indoors.",
+        "No one has claimed responsibility for the attack, which comes as Haiti prepares for its first general election in more than a decade. Gangs control an estimated 70 percent of Port-au-Prince. The force includes troops from El Salvador, Chad, Jamaica and Guatemala, with more than 2,000 on the ground.",
+        "The UN says gang violence has displaced nearly 1.5 million people in Haiti and that more than 5,700 people were killed or injured from January to mid-September this year."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/10/22/el-salvadors-bukele-threatens-haitian-gangs-over-abducted-soldiers?traffic_source=rss"
+      ]
+    },
+    "2026-10-22T05-c20": {
+      "paragraphs": [
+        "Former Congolese president Joseph Kabila, who led the country from 2001 to 2019, has joined an armed coalition that says it seeks to challenge the current administration by all means, including force, Foreign Policy reports. The group, the Front for the Refoundation of the Nation, unites militias and opposition figures. It includes the Rwanda-backed M23 movement, which has controlled large areas of eastern Congo since 2022, and the Congo River Alliance led by Corneille Nangaa.",
+        "Some analysts believe an insurgency so far concentrated in the east could reach Kinshasa. Foreign Policy says members have differing goals: M23 says it seeks protection and a greater political voice for Congo's Tutsi minority, while Kabila likely aims to unseat President Félix Tshisekedi, his former coalition partner. The magazine also says the conflict is rooted in competition over land and minerals, and that fighting has displaced more than 8 million people.",
+        "Foreign Policy says Tshisekedi faces his own pressure. His 2018 election win was widely disputed, and he has faced calls to resign over constitutional reforms that could allow a third term. Opposition protests took place last month. Belgian police also raided homes of his family members and associates in a money-laundering investigation tied to mining revenues.",
+        "Kabila left office unpopular, the magazine says; one poll found eight in 10 Congolese viewed him negatively by the end of his tenure. A Congolese military court sentenced him to death in absentia in September 2025 on treason charges over claims he supported M23.",
+        "Foreign Policy says questions remain over how long the coalition can hold together and how much influence Kabila has over M23, which reportedly faces its own internal power struggle."
+      ],
+      "based_on": [
+        "https://foreignpolicy.com/2026/10/21/what-a-new-rebel-alliance-means-for-congo/"
+      ]
+    },
+    "2026-10-22T05-c21": {
+      "paragraphs": [
+        "Colombian President Abelardo de la Espriella has announced a cultural counterrevolution that includes removing dozens of exhibits from the National Museum, according to Al Jazeera. De la Espriella, a conservative ally of US President Donald Trump, said last week he wants to stop cultural institutions from being taken over by what he calls atheist social communism.",
+        "Exhibits taken down once addressed the history of social movements, including feminist and LGBTQ activism, and Colombia's political violence. Civil rights groups, artists and students have protested, accusing the government of censorship and warning that important parts of the country's history could be erased. Dozens of demonstrators gathered outside the museum in Bogota on Wednesday, with riot police at its entrance.",
+        "Culture Minister Paola Holguin said the government is reviewing and redesigning exhibitions and curatorial practices at other museums her ministry oversees. The foreign ministry also renamed a courtyard that had honored an Indigenous leader, describing the change as part of the president's campaign against woke ideology. Beyond these statements, the government's wider case was not detailed in the report.",
+        "Critics drew comparisons with Trump. Gimena Sanchez-Garzoli of the Washington Office on Latin America said the approach reflects a broader trend of Trump allies copying US political narratives. Al Jazeera notes that the White House issued a report in July describing leaders at the Smithsonian's National Museum of American History as radical activists. The museum's director told Congress the report does not fairly or accurately characterize its work.",
+        "History student Azul Riascos said the government is promoting a vision of Colombia as exclusively white, Catholic and Spanish-speaking."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/10/22/colombian-president-purges-national-museum-of-works-promoting-communism?traffic_source=rss"
+      ]
+    },
+    "2026-10-22T05-c22": {
+      "paragraphs": [
+        "Canadian publisher Les Éditions du Boréal said on Wednesday that it is ending its professional relationship with Haitian-Canadian author Thélyson Orélien. It said it had confirmed he used artificial intelligence to help write his novel, It Was Either That or Die.",
+        "Boréal said new information confirmed over recent days indicated AI was used in the writing process, though it does not know how extensively and will likely never have a definitive answer. It said it gathered the working versions of the novel and hired an outside party to analyze them, and that the results revealed traces of AI tags in the metadata of certain documents. The publisher said it had earlier tried to work with Orélien to gather evidence to prove his innocence, but that effort was inconclusive and he then said he would give no further information.",
+        "Only last week Boréal had said it stood by the 38-year-old writer. The novel, about migration, had been scheduled for translation in more than 20 countries. France's Goncourt prize removed it from its shortlist after tests with the AI detector Pangram indicated a 100 percent probability it contained computer-generated text.",
+        "Orélien has repeatedly denied the allegations, calling them slander and heresy in an earlier statement to AFP. He said he used tools for research, particularly for foreign idioms, but that not a single sentence was created by a machine. On Wednesday he told Libération he used AI in the creative process for historical research. He said he began the book in late 2017 and finished a first draft in 2019, before services such as ChatGPT were widely available.",
+        "Separately, he has admitted to unacceptable mistakes in the past in response to plagiarism allegations."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/10/21/canadian-publisher-cuts-ties-with-best-selling-writer-orelien-over-ai-use?traffic_source=rss",
+        "https://www.theguardian.com/culture/2026/oct/22/canadian-publisher-boreal-ends-relationship-author-thelyson-orelien-over-ai"
+      ]
+    },
+    "2026-10-22T05-c23": {
+      "paragraphs": [
+        "A new report from the Houston Advanced Research Center, or HARC, says a rush of new data centers could push air pollution in Texas back to levels not seen since the 2000s, according to The Verge. Texas is the leading data center market, with 26 gigawatts of existing and under-construction capacity.",
+        "HARC modeled a scenario in which all planned data center projects connect to the Texas grid and are powered by the anticipated grid mix. In that case, fine particle pollution from the power sector would more than triple, reaching its highest level since 2006. Smog-forming nitrogen oxide emissions would rise 136 percent, approaching 2004 levels, and carbon dioxide emissions would climb 90 percent above 2025 levels. The report says this could happen within five years.",
+        "The outcome is not fixed. HARC modeled three projections of data center energy demand, and The Verge notes many proposed projects are speculative and may never be built. Developers can also limit the impact by building solar and wind farms onsite; nitrogen oxide emissions could be up to 10 times lower if data centers pair grid power with onsite renewables.",
+        "The opposite could also happen. If developers build gas engines onsite to avoid long waits for grid connection, pollution could reach the highest levels possible. A Wood Mackenzie report published in March found Texas expects four times more proposed data center capacity running on onsite power than any other state, and The Verge says developers are often choosing less efficient gas turbines to speed construction.",
+        "HARC chief executive John Hall said in a press release that progress made over decades to cut emissions is now at risk."
+      ],
+      "based_on": [
+        "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report"
+      ]
+    },
+    "2026-10-22T05-c24": {
+      "paragraphs": [
+        "A taskforce of AI infrastructure companies including Nvidia, Microsoft and Cisco has told UK ministers they have about 12 months to head off public opposition to datacentres, The Guardian reports. The Sovereign AI Leadership taskforce warned of US-style protests that could threaten construction. Its submission cites successive dry summers and rising energy bills as increasing scrutiny.",
+        "The group wants a compact showing how communities benefit from hosting datacentres, including letting councils keep more of the tax revenue. It also proposes a framework of recommended local benefit terms, with an indicative contribution scaled to a site's size. The taskforce said US opposition has stopped fully permitted projects, and that distrust of corporate and government promises and electricity costs run deeper than concern about AI itself. It has not calculated the cost to central government if councils keep all their business rates.",
+        "Campaigners responded critically. Joseph Miller of PauseAI UK said people will feel it is undignified to be bought off by huge tech companies. Kat Jones of Action to Protect Rural Scotland said companies had already missed the boat on containing opposition, citing 15 community campaigns in Scotland. Donald Campbell of Foxglove said tech firms would not pay more while the funding for councils would come from central government services such as the NHS.",
+        "A government spokesperson said datacentres should create British jobs and provide investment to host communities, and that community benefits are normally handled in local planning. The spokesperson said measures already announced will let councils hosting datacentres in AI growth zones in England keep all the additional business rates they generate."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened"
+      ]
+    },
+    "2026-10-22T05-c01": {
+      "paragraphs": [
+        "The UK government said it is working to identify any exposure in its online services after critical flaws were found in PHP, a programming language that underpins a large share of the world's websites. According to the BBC, governments and big companies, including Amazon, are rushing to protect systems before hackers can exploit the flaws.",
+        "Amazon said it identified a \"PHP2Shell exploitation attempt\" on 17 October against one of its decoy, or honeypot, systems, according to security chief CJ Moses. Wired reported that the attempt came from an IP address linked to a commercial anonymization network. Moses said it remains unclear how the actor learned of the flaws before disclosure. The PHP Foundation had planned to release its findings and a full patch later this month, but details leaked on social media on Tuesday. Further attempts on 21 October appeared to come from multiple actors, Moses said. He wrote that PHP2Shell is now being broadly exploited, while noting it is unclear whether any of the attempts would have worked against real systems.",
+        "The UK's National Cyber Security Centre and its counterparts in the EU and Australia urged PHP users to apply fixes, and said systems that cannot be fixed immediately should be considered for taking offline. The Dutch cybersecurity agency went offline, Finland shut its public web services, and Wikipedia took down parts of its site. The US National Security Agency said the flaws often provide a direct path to a server's file system or database.",
+        "Moses said AI makes it cheaper to turn a patch into a working exploit, so more actors can act within hours of details emerging. The BBC reported that the flaws went undetected for at least a decade and that security firm Wiz estimates roughly 70 percent of the internet is affected, a figure the BBC could not verify. Moses said technical analysis is continuing."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
+        "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/"
+      ]
+    },
+    "2026-10-22T05-c05": {
+      "paragraphs": [
+        "Tesla said on its third-quarter earnings call that it will begin selling its Cybercab to customers by the end of the year, according to TechCrunch. The two-seater has no steering wheel or other traditional controls. Lars Moravy, Tesla's vice president of engineering, said the Cybercabs built today are all going to Tesla's own robotaxi fleet, and that deliveries to customers will start small.",
+        "Federal regulators are a possible obstacle. TechCrunch reported that the National Highway Traffic Safety Administration opened an investigation last month, hours after Cybercabs began operating on public streets in Austin. Federal safety standards require manual controls such as brake pedals and mirrors, and Tesla self-certified that the vehicle complies. The Department of Transportation has proposed removing those requirements for vehicles designed to drive autonomously. NHTSA said it would examine the process and technical data Tesla relied on. TechCrunch said the outcome could affect whether anyone can legally operate the Cybercab.",
+        "The Verge reported that Tesla also set a target of the second quarter of 2027 for letting owners add their own vehicles to the robotaxi fleet. Ashok Elluswamy, Tesla's vice president for autonomous driving, said the software for Cybercabs and Model Y is the same and that customer cars would need to be part of Tesla's geofences and fleet management. Elon Musk said unsupervised Full Self-Driving would reach customers in the same quarter. The Verge noted Musk's history of deadlines that slipped, and said regulatory permits, insurance and local laws remain hurdles.",
+        "The Verge also reported that over 75 percent of new North American buyers chose Full Self-Driving (Supervised) this quarter, while vehicle sales fell and profits dipped. Tesla said it has driven 3.3 million miles autonomously."
+      ],
+      "based_on": [
+        "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+        "https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings"
+      ]
+    },
+    "2026-10-22T05-c06": {
+      "paragraphs": [
+        "Meta CEO Mark Zuckerberg has agreed to keep living in California for eight years, a commitment that could expose him to billions of dollars in one-time taxes if voters approve a ballot measure next month, according to a Meta regulatory filing released Wednesday and reported by Wired.",
+        "The measure, Proposition 40, would impose a one-time 5 percent tax on stock and other assets held by billionaires in the state as of January 2026. The filing says Zuckerberg told board members at a September 9 dinner that he was considering leaving California and planned to list his Palo Alto home for sale four days later. A special committee of the board was concerned about the company's difficulties during the COVID-19 pandemic, when Zuckerberg could not be physically present with managers, the filing says.",
+        "Under what Meta calls a Founder Alignment Agreement, the company will create a new class of non-voting shares and give them to existing shareholders in proportion to their holdings. Wired reported that selling such shares could help fund Meta's AI data center spending without diluting Zuckerberg's voting control. He can sell 20 percent of his new shares to help pay any taxes he may owe. The remaining 80 percent can be sold in chunks over eight years as long as he stays in California. Selling early would require him to sell some voting shares, unless unforeseen circumstances make living elsewhere prudent.",
+        "Wired noted that the agreement requires him only to live wherever Meta has its headquarters, so he and the company could move together. It also reported that recent polling suggests Proposition 40 will fail, with about $129 million spent campaigning against it."
+      ],
+      "based_on": [
+        "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/"
+      ]
+    },
+    "2026-10-22T05-c07": {
+      "paragraphs": [
+        "The US embassy in Ottawa released a fact sheet on Wednesday accusing Canadian officials of election meddling ahead of the November 3 midterms. The embassy said the Canadian government brushes off concerns about potential interference even as its ministers and premiers openly describe plans to influence American politics. Canadian leaders, including Prime Minister Mark Carney, have dismissed the claims.",
+        "The fact sheet cites several examples. It points to Industry Minister Mélanie Joly's meetings with Democratic officials in Boston and Chicago, and her answer to a question about tariffs under a Democratic win: \"That's exactly why I'm meeting so many governors and potential presidential candidates.\" It also cites Ontario Premier Doug Ford's calls for retaliatory tariffs and his government's anti-tariff ad campaign, and a Liberal MP's campaigning in Florida for a Democratic congresswoman. It names 11 Canadians charged or sentenced for voting in US elections between 2012 and 2024. Al Jazeera reported that the sheet did not explain how the trade efforts amounted to interference or link those individuals to any Canadian government effort.",
+        "Carney said the US first initiated the trade actions and that Canada responded to protect jobs and companies. Joly has said her US visits were to attract investment, and Ford said he has no interest in interfering in US elections. Their responses came as Carney announced a nearly C$9bn aid package in response to US tariffs.",
+        "US Ambassador Pete Hoekstra said last week that Washington is monitoring the situation and would respond if some of it becomes election interference. The BBC reported that a petition calling for his removal has drawn more than 280,000 signatures."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/10/21/us-accuses-canada-of-election-interference-ahead-of-midterms?traffic_source=rss"
+      ]
+    },
+    "2026-10-22T05-c08": {
+      "paragraphs": [
+        "Rep. Ilhan Omar, a Minnesota Democrat, said Wednesday that she will have to move out of her Washington, D.C., apartment because of death threats she says she has received since becoming the subject of a federal investigation, according to the Washington Examiner.",
+        "In an interview on MS Now, Omar said her address has become public and that, given the threats, it is no longer feasible to stay there with her children visiting. She said up to 15 Homeland Security Investigations agents executed a search warrant at the home earlier this month and took 17 items, including several phones. The Examiner reported that investigators also seized notebooks, personal computers and her passport. Omar said she proclaims her innocence and would \"stand up to the bullies.\" She said agents arriving so early in the morning was meant to unsettle her, and that she believes critics would like to see her locked up or deported, or else see her decide to leave.",
+        "The Examiner reported that President Donald Trump said in January that the Justice Department was looking into discrepancies in Omar's financial records. Vice President JD Vance later said the department is also investigating allegations that she took part in a sham marriage with her biological brother so he could gain US residency. The paper said the immigration inquiry appears to rest on concerns that she and her family gave false information about her age and other details to obtain legal residency decades ago, and could end in denaturalization and deportation if the administration proved its claims.",
+        "Omar has called the investigations a politically motivated conspiracy and has asked supporters to donate to her reelection campaign. The page text does not include a response from the Justice Department."
+      ],
+      "based_on": [
+        "https://www.washingtonexaminer.com/news/house/4775291/ilhan-omar-dc-apartment-federal-raid-death-threats/"
+      ]
+    },
+    "2026-10-22T05-c10": {
+      "paragraphs": [
+        "President Donald Trump held a rally at Clemson University's arena on Wednesday evening to support Sen. Darline Graham and other South Carolina Republicans. According to the Washington Examiner, thousands attended, and Trump urged voters to turn out for the midterms to stop Democrats from undoing Republican policies. Boxing champion Evander Holyfield also spoke.",
+        "The Examiner reported that Trump covered the economy, the war in Iran, transgender athletes, voter ID and tax cuts, and repeated a promise of a $5,000 dividend for every voter from tariff revenue if Republicans sweep the midterms. He described Democrats as wanting to \"burn it all down.\" The page text does not include a Democratic response to his remarks.",
+        "Both the Examiner and The Guardian reported that the speech was interrupted by hecklers. The Guardian, citing a pool report, said Trump was interrupted at least nine times and that multiple protesters were removed. It said one removed protester was followed by an attendee who appeared to slap the demonstrator on the head, and described the protester as apparently punched. Trump praised the incident, saying \"He got whacked\" and, according to the Guardian, \"Man, I loved that.\" He also asked who had thrown the punch. The Guardian noted that Trump often describes protesters as paid.",
+        "Graham, the sister of the late Sen. Lindsey Graham, faces Democrat Annie Andrews. The Examiner said she is widely expected to win but that polls show a close race. The Guardian reported that the latest Reuters/Ipsos poll found 31 percent of Americans approve of Trump's performance, a record low for him. The midterm elections are on November 3."
+      ],
+      "based_on": [
+        "https://www.washingtonexaminer.com/news/campaigns/congressional/4775238/trump-south-carolina-rally-darline-graham/",
+        "https://www.theguardian.com/us-news/2026/oct/21/trump-south-carolina-rally-darline-graham"
+      ]
+    },
+    "2026-10-22T05-c11": {
+      "paragraphs": [
+        "Democrat Abdul El-Sayed and Republican Mike Rogers met Wednesday for their second debate in Michigan's open US Senate race, according to Fox News. The hour-long debate was dominated by President Donald Trump, whom El-Sayed mentioned 18 times while portraying Rogers as Trump's \"sock puppet.\" He repeatedly called Rogers' answers \"MAGA bingo.\" Rogers answered that the real bingo game was how often El-Sayed brought up Trump.",
+        "Rogers did not match Trump on every issue. He called the president's tariffs a \"mixed bag\" and said tariffs on Canada may have been \"not well thought through.\" He also said Congress should ban Chinese automakers from building vehicles in the United States, and El-Sayed noted that Trump has said he is open to it.",
+        "Rogers described El-Sayed as having a \"pattern of deception\" and as outside the mainstream. He cited El-Sayed's past support for defunding the police and his ties to the Democratic Socialists of America. He also claimed some of El-Sayed's donors and supporters were tied to Hamas, Hezbollah and the Muslim Brotherhood, and asked whether El-Sayed was for America or for terrorist groups overseas. Fox's page text does not say what evidence was offered. El-Sayed called the line of questioning \"shameful,\" said it was \"beneath\" Rogers, and said he was \"proud to be an American.\"",
+        "El-Sayed, backed by Sen. Bernie Sanders and Rep. Alexandria Ocasio-Cortez, supports Medicare for All, higher taxes on the wealthy, ending US military aid to Israel and abolishing ICE. Fox reported that the race could help decide Senate control and is a test for the Democratic Party's progressive wing. Michigan Republican chairman Jim Runestad criticized El-Sayed after the debate."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/trump-dominates-el-sayeds-attacks-against-rogers-gop-rival-offers-unexpected-policy-split"
+      ]
+    },
+    "2026-10-22T05-c12": {
+      "paragraphs": [
+        "Two new Fox News polls of likely voters, conducted October 15-19, show competitive Senate races in Ohio and Texas. Each has a margin of sampling error of about two to two and a half points.",
+        "In Ohio, former Democratic Sen. Sherrod Brown leads appointed Republican Sen. Jon Husted 52 percent to 47 percent. Brown's favorability is 50 percent favorable and 48 percent unfavorable, while Husted's is 42 percent to 55 percent. Fox reported that 46 percent of voters say their finances are worse than two years ago, against 19 percent who say better. President Trump's approval in Ohio is 43 percent, and 52 percent are concerned Husted is too close to him. Fifty percent are worried Brown is too liberal. Women favor Brown by 14 points and men favor Husted by 4. In the governor's race, Democrat Amy Acton leads Republican Vivek Ramaswamy 50 percent to 48 percent. Fox noted the survey was finished before a Ramaswamy ad featuring Acton's estranged mother became public.",
+        "In Texas, Democrat James Talarico and Republican Ken Paxton are tied at 49 percent. Talarico led 51 to 49 last month. Fox said Paxton has consolidated conservatives, rural voters and voters who backed Sen. John Cornyn in the primary. Paxton's ratings are 41 percent favorable and 58 percent unfavorable, 17 points underwater, while Talarico's are 49 to 48. Hispanic voters favor Talarico 64 percent to 34 percent. Texans prefer Republican Senate control 51 percent to 47 percent, and Gov. Greg Abbott leads Democrat Gina Hinojosa 52 percent to 47 percent.",
+        "Republican pollster Daron Shaw said the Texas race may turn on whether disaffected Republicans turn out and vote for a candidate they have reservations about."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/fox-news-poll-gender-gap-pocketbook-pain-shape-ohio-senate-race",
+        "https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish"
+      ]
+    },
+    "2026-10-22T05-c13": {
+      "paragraphs": [
+        "The Justice Department this week began notifying counties it wants to monitor on Election Day, NPR reported. Counties in Colorado, Florida, Minnesota, Texas and Washington have received notices so far, including seven in Texas, King County in Washington, Miami-Dade County in Florida, and Hennepin and Ramsey counties in Minnesota. The list appears to be growing.",
+        "The department has long sent monitors. Under President Biden it monitored 64 jurisdictions in 24 states in 2022. Harmeet Dhillon, who leads the Civil Rights Division, said last month the department planned to send 1,000 observers, calling it the largest monitoring effort in its history. A spokesperson, Kiersten Pels, said details on which jurisdictions will be monitored will come closer to the election.",
+        "NPR reported that, unlike in past cycles, state officials were not notified at the same time as counties. Officials in three states, speaking anonymously, said they scrambled to learn where the department planned to be and received notices after NPR asked about it. NPR also noted that experts worry federal law enforcement could use false claims of widespread fraud as a pretext to interfere in counting.",
+        "Josh Zygielbaum, the Democratic clerk of Adams County, Colorado, said he suspects the selection is politically motivated and could be intimidation, since the Republican clerk of neighboring Weld County, which shares a toss-up congressional district, was not contacted. Pels said the department prioritizes competitive places and chose Adams because it is covered by Section 203 of the Voting Rights Act on language access. Zygielbaum said that did not put him at ease.",
+        "Colorado officials said they are weighing the request, since state rules require observers to have the secretary of state's permission unless a court orders otherwise. In Wyoming, the Republican governor and a county clerk criticized monitors' conduct in the August primary, which the department disputes."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/10/21/nx-s1-6009896/justice-department-monitors"
+      ]
+    }
+  }
+}

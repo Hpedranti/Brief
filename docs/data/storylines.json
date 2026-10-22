@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T22:09:50Z",
+  "updated_at": "2026-10-22T05:48:29Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -150,11 +150,16 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Stocks rebounded as tech earnings eased AI fears, but credit-risk gauges for tech hit highs. SpaceX jumped on earnings and Tesla merger talk; Meta plans a non-voting share class to fund AI; neocloud economics are in focus.",
+      "summary": "Stocks fell again Wednesday as megacap earnings failed to calm AI fears; Treasuries and the yen rallied as havens. Credit-risk gauges for tech are at highs. Meta plans a non-voting share class; neocloud economics are in focus.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Stocks fall as megacap earnings fail to reassure on AI; Treasuries and yen rally as havens and Chinese equities near a bear market.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-21/stock-market-today-dow-s-p-live-updates"
+        },
         {
           "date": "2026-10-21",
           "text": "Meta says it will issue a new class of non-voting shares, trading from 2027, to fund AI initiatives, acquisitions and pay.",
@@ -249,11 +254,6 @@
           "date": "2026-10-17",
           "text": "FT reports America's $10 trillion AI infrastructure boom is running into the economics of the physical world.",
           "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-10-17",
-          "text": "Junk bond buyers freeze out tech startups as CoreWeave's pain raises questions over AI financing.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly"
         }
       ]
     },
@@ -290,11 +290,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Trump approval is at record lows and Democrats lead the generic ballot. Democratic groups sued over administration election threats; Trump rallies in South Carolina as Republicans weigh money for Mississippi, Kansas and South Carolina; Republicans hold a spending edge.",
+      "summary": "Trump approval is at record lows and Democrats lead the generic ballot. Trump rallied in South Carolina and heads to Mississippi as Republicans weigh more money for competitive Senate races; DOJ is notifying counties of election monitors; Democratic groups sued over election threats.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Trump rallies in Clemson for Sen. Darline Graham; the Guardian reports he praised a supporter who allegedly punched a protester.",
+          "url": "https://www.theguardian.com/us-news/2026/oct/21/trump-south-carolina-rally-darline-graham"
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Michigan and Kansas Senate candidates hold final debates; Kansas race is tighter than Republicans anticipated.",
+          "url": "https://thehill.com/homenews/campaign/6164307-michigan-senate-debate-el-sayed-rogers-takeaways/"
+        },
         {
           "date": "2026-10-21",
           "text": "Democratic groups sue the Trump administration, alleging it uses unfounded fraud claims and prosecution threats to pressure election officials.",
@@ -384,27 +394,22 @@
           "date": "2026-10-19",
           "text": "Trump rallies in Kansas for Sen. Roger Marshall as Republicans defend an unexpectedly competitive Senate race.",
           "url": "https://thehill.com/homenews/administration/6159184-trump-senate-midterm-travel/"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Reuters/Ipsos poll puts Trump approval at a record-low 31 percent; Democrats lead the generic ballot by 12 points.",
-          "url": "https://www.aljazeera.com/news/2026/10/19/trump-approval-hits-record-low-31-percent-polls-show-republican-struggles?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Vance announces about $858 million in disaster funds while campaigning for Whatley in North Carolina.",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4771248/jd-vance-additional-disaster-funds-hurricane-helene-rally-north-carolina/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After nine months of war, Brent hit $110 before easing. The US ordered nonemergency staff out of Saudi Arabia as Houthi attacks escalate; Iran says it will keep its uranium. Netanyahu pushes to resume strikes; Israeli jets flew to Iran's border.",
+      "summary": "After nine months of war, Brent hit $110 before easing. Houthi strikes on Saudi Arabia killed several people and the US ordered nonemergency staff out; Iran says it will keep its uranium. Netanyahu pushes to resume strikes on Iran.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-10-21",
       "events": [
+        {
+          "date": "2026-10-21",
+          "text": "Houthi attack on King Fahd airport kills one and wounds eight; a drone attack on Aramco's Shaybah oilfield reportedly kills two; oil rises.",
+          "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss"
+        },
         {
           "date": "2026-10-21",
           "text": "State Department orders nonemergency personnel and families to leave Saudi Arabia as Houthi attacks continue; Fox reports Trump weighs strikes on Houthis.",
@@ -499,11 +504,6 @@
           "date": "2026-10-18",
           "text": "GCC ministers condemn Houthi attacks on Saudi Arabia as Yemen fighting displaces more than 233,000 people.",
           "url": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Bessent says oil prices falling before year-end will depend on the Iran conflict; Wright defends gas price record.",
-          "url": "https://thehill.com/policy/energy-environment/6156572-bessent-oil-prices-iran-conflict/"
         }
       ]
     }
