@@ -1,15 +1,20 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T07:10:49Z",
+  "updated_at": "2026-11-01T22:36:44Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
       "title": "France riots and European unrest",
-      "summary": "French protests entered a third week with 320,000 marching Saturday and clashes in Paris and Marseille. Violent cost-of-living protests also hit German cities. Earlier curfews, protest bans and 5% French bond yields continue to weigh.",
+      "summary": "French protests entered a third week with 320,000 marching Saturday and clashes in Paris and Marseille. French officials opened an attempted-murder probe over petrol bombs thrown at police. Violent cost-of-living protests also hit German cities.",
       "status": "active",
       "first_seen": "2026-10-20",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "France opens an attempted-murder investigation after petrol bombs are thrown at riot police at Saturday's protests; no arrests reported.",
+          "url": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police"
+        },
         {
           "date": "2026-11-01",
           "text": "Germany's cost-of-living protests turn violent in Berlin, Hamburg and Frankfurt, with shops looted, the same day hundreds of thousands protest in France.",
@@ -55,11 +60,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "The US approved 500 Patriot missiles for Ukraine, with allies paying $2.1 billion. A US-brokered local truce let Oleshky evacuees cross into Ukraine. Russia agreed in principle to resume talks earlier but kept striking Kyiv; Witkoff's Putin remarks drew rebukes.",
+      "summary": "The US approved 500 Patriot missiles for Ukraine. The Oleshky truce has ended, with Russian strikes cutting power in Ukraine, while Ukraine resumed strikes on Russian refineries despite Trump's pressure, the Kremlin says.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Ukraine resumes attacks on Russian oil refineries in defiance of Trump pressure, the Guardian reports; the Kremlin says Kyiv is ignoring US wishes.",
+          "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil"
+        },
         {
           "date": "2026-11-01",
           "text": "Evacuees from Russian-occupied Oleshky reach Ukraine during a localized US-brokered ceasefire.",
@@ -154,22 +164,22 @@
           "date": "2026-10-19",
           "text": "Deutsche Telekom, Orange, Telefonica and Vodafone sign a letter of intent weighing a joint satellite spectrum bid to rival Starlink.",
           "url": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Merz says Putin seeks to destabilize Europe, not just defeat Ukraine.",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-19/merz-warns-russia-aims-to-destabilize-european-continent-video"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Tech stocks ended the week lower as Big Tech earnings reignited AI spending fears; Bloomberg says AI enthusiasm is collapsing. S&P moved Meta's outlook to negative, Intel had its worst day since the 1970s, and OpenAI pared its fundraising goal.",
+      "summary": "Tech stocks ended the week lower as Big Tech earnings reignited AI spending fears; Bloomberg says AI enthusiasm is collapsing. Credit investors now describe a junk debt rout, and Asian stocks were set to fall Monday.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "FT reports a junk debt rout sparking a 'bloodbath' for credit investors; Bloomberg says investors brace for more volatile days after the tech rout.",
+          "url": "https://www.ft.com/content/fdc9a85d-d2c4-465f-99ca-609d68b6d443?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-01",
           "text": "Bloomberg: AI enthusiasm is collapsing and Big Tech earnings made it worse; CNBC says stocks reversed from early-week gains.",
@@ -264,11 +274,6 @@
           "date": "2026-10-19",
           "text": "US bans DeepSeek AI from government use as tech tension with China continues.",
           "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Micron and other chip stocks rebound after a bruising selloff; JPMorgan says CoreWeave debt fears are overdone.",
-          "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories"
         }
       ]
     },
@@ -310,11 +315,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "With Election Day Tuesday, more than 50 million have voted early. Democrats are feuding in Michigan, DOJ is probing Alaska's two-Sullivan ballot dispute, and courts have rebuffed DOJ moves on California ballots and election-worker threats.",
+      "summary": "With Election Day Tuesday, Rep. Haley Stevens endorsed Republican Mike Rogers in Michigan, splitting Democrats. A judge dismissed the DOJ suit over Alaska's Senate certification. Polls favor Democrats, with Decision Desk HQ seeing a likely House flip.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Trump says he would become 'Mr. Veto' if Democrats win Congress; an NBC poll shows 52% prefer a Democratic Congress, 45% Republican.",
+          "url": "https://thehill.com/homenews/administration/6186898-trump-plans-veto-strategy/"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "A federal judge dismisses the DOJ lawsuit seeking to block certification of Alaska's Senate race if Republican Dan Sullivan loses; Sullivan says he will accept results.",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "Rep. Haley Stevens endorses Republican Mike Rogers in the Michigan Senate race; Democratic leaders condemn the move, and Trump praises it.",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6020993/michigan-senate-race-abdul-el-sayed-haley-stevens-mike-rogers"
+        },
         {
           "date": "2026-11-01",
           "text": "El-Sayed asks Rep. Haley Stevens to stay away from his events, a source says; a Clyburn adviser says he cannot disinvite her from a Sunday event.",
@@ -399,32 +419,27 @@
           "date": "2026-10-20",
           "text": "Los Angeles County officials say the DOJ's list of 20,000 likely noncitizen voters is unreliable, with some apparently US-born, NPR reports.",
           "url": "https://www.npr.org/2026/10/20/nx-s1-6009873/california-doj-voter-rolls-noncitizens"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "At a North Carolina rally for Michael Whatley, Trump announces $1.5 billion in Pentagon investment in chip production.",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4772412/trump-rally-michael-whatley-north-carolina/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Trump says he has committed more than $400 million to support Republicans in the midterms.",
-          "url": "https://www.aljazeera.com/news/2026/10/20/trump-commits-more-than-400m-ahead-of-high-stakes-midterm-elections?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Musk formally endorses Ken Paxton after funding a PAC backing him.",
-          "url": "https://thehill.com/homenews/campaign/6161202-musk-endorses-paxton-in-texas-senate-race/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Trump says he is in no hurry for an Iran deal while weighing strikes after the midterms. Khamenei ordered a maximum response to any attack. Qatar is mediating, and Iran says a two-day Hormuz reopening plan is possible if US meets its conditions.",
+      "summary": "Qatar is leading intense mediation to prevent possible US attacks on Iran after the midterms; Gulf officials are braced for the worst. Trump says he is in no hurry for a deal, while Netanyahu presses him to strike.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Gulf leaders meet in Qatar as mediators await Washington's reply to an Iranian proposal involving $6 billion in assets and reopening Hormuz.",
+          "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "Axios: Trump has a frank call with Netanyahu about how quickly to return to combat; Netanyahu presses for strikes.",
+          "url": "https://www.axios.com/2026/11/01/trump-netanyahu-iran-negotiations-war"
+        },
         {
           "date": "2026-11-01",
           "text": "Trump says the US is not in much of a hurry for an Iran deal; Araghchi says Iran and Qatar have a plan to reopen Hormuz in two days.",
@@ -509,32 +524,22 @@
           "date": "2026-10-19",
           "text": "Hegseth meets Netanyahu in Israel, Axios reports, amid US-Israeli talks on possibly resuming major combat operations.",
           "url": "https://www.axios.com/2026/10/19/pete-hegseth-israel-visit-netanyahu-meeting"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Egypt's parliament delays a vote on military support for Saudi Arabia.",
-          "url": "https://www.aljazeera.com/news/2026/10/19/egyptian-parliament-delays-vote-on-military-support-for-saudi-arabia?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Oil wavers as traders weigh Iranian escalation risk in Hormuz against steady Gulf flows.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/latest-oil-market-news-and-analysis-for-oct-20"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Houthi missile strike on a Yemeni training camp kills at least 50, the deadliest single attack since fighting reignited.",
-          "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war"
         }
       ]
     },
     {
       "id": "sl-binance-hack",
       "title": "Binance $6.3 billion hack",
-      "summary": "A record $6.3 billion hack of Binance, blamed by the FBI on North Korean group TraderTraitor, led to suspended withdrawals. Binance says it has replaced 90% of losses and planned to resume withdrawals Sunday.",
+      "summary": "A record $6.3 billion hack of Binance, blamed by the FBI on North Korean group TraderTraitor, led to suspended withdrawals. Binance resumed phased withdrawals and says 90% of losses are covered; TechCrunch reports 95%.",
       "status": "active",
       "first_seen": "2026-10-30",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Binance resumes phased withdrawals; TechCrunch reports 95% of stolen assets covered, while Binance's own figure reported elsewhere is 90%.",
+          "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/"
+        },
         {
           "date": "2026-11-01",
           "text": "Binance says 90% of losses are covered and withdrawals resume Sunday; FBI says North Korea-backed TraderTraitor is behind the attack.",

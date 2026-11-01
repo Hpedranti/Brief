@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "updated_at": "2026-11-01T07:10:49Z",
+  "updated_at": "2026-11-01T22:36:44Z",
   "drops": [
     {
       "id": "2026-11-01T07",
       "at": "2026-11-01T07:10:49Z",
       "model": "claude-sonnet-5-5",
       "count": 47
+    },
+    {
+      "id": "2026-11-01T22",
+      "at": "2026-11-01T22:36:44Z",
+      "model": "claude-sonnet-5-5",
+      "count": 34
     }
   ],
   "cards": [
@@ -1533,6 +1539,1069 @@
         }
       ],
       "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c01",
+      "drop": "2026-11-01T22",
+      "headline": "Rep. Haley Stevens endorses Republican Mike Rogers in Michigan Senate race",
+      "summary": "Democratic Rep. Haley Stevens endorsed Republican Mike Rogers on Sunday, two days before the vote, after Democratic nominee Abdul El-Sayed asked her to stay away from his events. El-Sayed said the endorsement does not matter. Schumer called it a betrayal; Trump praised it.",
+      "why_it_matters": "Michigan is a close Senate contest that could help decide control of the chamber, and a split inside the Democratic Party so late is unusual.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Haley Stevens",
+        "Mike Rogers",
+        "Abdul El-Sayed",
+        "Chuck Schumer"
+      ],
+      "importance": 4,
+      "follows": "2026-11-01T07-c05",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-01T16:04:03.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Haley Stevens endorses GOP candidate in Michigan Senate race, spurning Abdul El-Sayed",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6020993/michigan-senate-race-abdul-el-sayed-haley-stevens-mike-rogers"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Democrat Haley Stevens endorses GOP Senate nominee Mike Rogers at Detroit church",
+          "url": "https://www.foxnews.com/politics/haley-stevens-appears-alongside-gop-rival-mike-rogers-detroit-church"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Democrat Haley Stevens endorses Abdul El-Sayed’s Republican rival Mike Rogers",
+          "url": "https://www.theguardian.com/us-news/2026/nov/01/abdul-el-sayed-haley-stevens-michigan-senate"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c02",
+      "drop": "2026-11-01T22",
+      "headline": "Judge dismisses DOJ suit over Alaska Senate certification",
+      "summary": "A federal judge dismissed a Justice Department lawsuit that sought to block or delay certification of Alaska's Senate race if Republican Sen. Dan Sullivan loses. Sullivan said he will accept the result. Rep. James Comer said Peltola might not be seated if she wins.",
+      "why_it_matters": "The ruling bears on whether election results are certified on schedule, a central question in the final days before Tuesday's midterms.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "elections"
+      ],
+      "entities": [
+        "Dan Sullivan",
+        "Mary Peltola",
+        "Department of Justice"
+      ],
+      "importance": 4,
+      "follows": "2026-11-01T07-c04",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-01T18:00:37.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Judge dismisses Trump attempt to block Alaska Senate race results if Republican loses",
+          "url": "https://www.theguardian.com/us-news/2026/nov/01/alaska-senate-race-republican-dan-sullivan"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Judge dismisses DOJ bid to delay Alaska Senate results if Republican loses",
+          "url": "https://www.washingtonexaminer.com/news/justice/4787398/judge-doj-delay-alaska-senate-dan-sullivan-lawsuit/"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Judge tosses Trump's attempt to block Alaska Senate results if GOP incumbent loses",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c03",
+      "drop": "2026-11-01T22",
+      "headline": "Sen. Chris Murphy hospitalized after stroke, expected to recover",
+      "summary": "Connecticut Democratic Sen. Chris Murphy, 53, suffered a stroke Saturday and is being treated at Johns Hopkins Hospital. His chief of staff said he is responding well to treatment and is expected to make a full recovery.",
+      "why_it_matters": "Murphy is a prominent senator who had been campaigning ahead of Tuesday's elections; the news also puts stroke warning signs in focus.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "health"
+      ],
+      "entities": [
+        "Chris Murphy",
+        "Johns Hopkins Hospital"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T17:33:11.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Sen. Chris Murphy hospitalized after suffering stroke",
+          "url": "https://www.axios.com/2026/11/01/chris-murphy-stroke-hospitalized"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Connecticut Dem Sen Chris Murphy hospitalized Saturday for stroke",
+          "url": "https://www.foxnews.com/politics/connecticut-dem-sen-chris-murphy-hospitalized-stroke"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Connecticut Senator Chris Murphy is hospitalized with a stroke",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6025467/chris-murphy-stroke"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c04",
+      "drop": "2026-11-01T22",
+      "headline": "Trump says he would be 'Mr. Veto' if Democrats win Congress",
+      "summary": "In a Fox News interview, President Trump said that if Republicans lose the House and Senate he would 'become Mr. Veto' and not let Democratic legislation through. Polls cited by NBC show 52% of voters prefer a Democratic Congress and 45% a Republican one.",
+      "why_it_matters": "A divided government would shape budgets, investigations and appointments for the next two years.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Democratic Party",
+        "Republican Party"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-01T16:52:19.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump says he'll become 'Mr. Veto' if Democrats take Congress",
+          "url": "https://thehill.com/homenews/administration/6186898-trump-plans-veto-strategy/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Voters prefer Democrat-controlled Congress days before elections, poll shows",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4787297/voters-democrat-congress-midterm-elections-poll/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c05",
+      "drop": "2026-11-01T22",
+      "headline": "Trump makes final midterm pitch as RNC chair cites turnout problem",
+      "summary": "Trump rallied in Iowa after earlier canceling in-person events, defending Republican control of Congress. RNC chair Joe Gruters acknowledged a Republican turnout problem. Decision Desk HQ forecasts Democrats will likely win the House; the Senate is closer.",
+      "why_it_matters": "Tuesday's results will set the balance of power in Washington and test public views on prices and the president.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Joe Gruters",
+        "Decision Desk HQ"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-01T20:01:02.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Trump makes final pitch to restive voters in midterms campaign",
+          "url": "https://www.ft.com/content/75e8405b-124f-44aa-9c5e-0a33d0ee5b92?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "RNC chair says Republicans have voter turnout problem",
+          "url": "https://thehill.com/homenews/campaign/6187168-rnc-acknowledges-voter-turnout-issues/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "This Week on the Hill: Election Day is finally here",
+          "url": "https://thehill.com/newsletters/this-week-on-the-hill/6185603-midterm-election-house-senate-control/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c06",
+      "drop": "2026-11-01T22",
+      "headline": "Gulf leaders meet in Qatar to head off new US-Iran escalation",
+      "summary": "Qatar has led about 72 hours of mediation to prevent possible US attacks on Iran after Tuesday's election. The Guardian reports officials are braced for the worst while awaiting Washington's reply to an Iranian proposal tied to $6 billion in assets and reopening Hormuz.",
+      "why_it_matters": "A renewed war would threaten Gulf oil flows and US fuel prices, and put American forces and diplomats in the region at risk.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "Qatar",
+        "Iran",
+        "Strait of Hormuz",
+        "United States"
+      ],
+      "importance": 5,
+      "follows": "2026-11-01T07-c01",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-01T17:49:28.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Gulf leaders meet in Qatar in effort to stave off new escalation in U.S and Iran war",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Negotiators ‘braced for worst’ over US-Iran talks to reopen strait of Hormuz",
+          "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Gulf braced for escalation of war between US-Israel alliance and Iran",
+          "url": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c07",
+      "drop": "2026-11-01T22",
+      "headline": "Netanyahu presses Trump on striking Iran in 'frank' call",
+      "summary": "Per one Israeli and one US source cited by Axios, Trump and Netanyahu spoke Saturday about the state of Iran negotiations and how quickly to return to combat. Netanyahu is pressing Trump to strike.",
+      "why_it_matters": "Whether the US and Israel resume strikes after the midterms will affect oil prices, regional security and US troops.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics",
+        "war-conflict"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Benjamin Netanyahu",
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-01T18:00:05.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump has frank call with Netanyahu about next move in Iran war",
+          "url": "https://www.axios.com/2026/11/01/trump-netanyahu-iran-negotiations-war"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c08",
+      "drop": "2026-11-01T22",
+      "headline": "Pakistan LNG cargo hit near Hormuz had Iranian approval",
+      "summary": "Pakistan negotiated safe passage with Iran for the LNG carrier Al Mayeda before it was attacked near the Strait of Hormuz on Friday, Bloomberg reports, citing people with direct knowledge.",
+      "why_it_matters": "It shows shipping through Hormuz remains dangerous even with permissions, which keeps pressure on global gas and oil prices.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "middle-east"
+      ],
+      "entities": [
+        "Pakistan",
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-01T09:23:14.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/pakistan-lng-cargo-attacked-near-hormuz-had-iranian-approval"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c09",
+      "drop": "2026-11-01T22",
+      "headline": "Ukraine resumes strikes on Russian refineries as Kherson truce ends",
+      "summary": "The Guardian reports Ukraine resumed attacks on Russian oil refineries despite Trump's pressure; the Kremlin says Kyiv is ignoring US wishes. BBC reports Russian strikes cut power to thousands in Ukraine as the Oleshky ceasefire ended.",
+      "why_it_matters": "Strikes on Russian oil and the end of the truce complicate US-led peace efforts and could affect global fuel markets.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics",
+        "energy"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia",
+        "Donald Trump"
+      ],
+      "importance": 4,
+      "follows": "2026-11-01T07-c23",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-01T17:20:18.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Ukraine defies Trump to resume attacks on Russian oil refineries",
+          "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+          "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c10",
+      "drop": "2026-11-01T22",
+      "headline": "Russia detains minor over Moscow attack plot after US warning",
+      "summary": "Russian authorities say a US tip-off helped them identify a teenager suspected of planning an attack at a Moscow park.",
+      "why_it_matters": "It is a rare example of US-Russia security cooperation amid the war in Ukraine.",
+      "region": "Europe",
+      "topics": [
+        "geopolitics",
+        "crime-justice"
+      ],
+      "entities": [
+        "Russia",
+        "United States"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T16:24:16.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia detains minor over alleged Moscow attack plot after US warning",
+          "url": "https://www.aljazeera.com/news/2026/11/1/russia-detains-minor-over-alleged-moscow-attack-plot-after-us-warning?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c11",
+      "drop": "2026-11-01T22",
+      "headline": "France opens attempted-murder probe after petrol bomb attacks on police",
+      "summary": "French officials opened an investigation after petrol bombs were thrown at riot police at Saturday's protests; no arrests were reported. Youth-led protests ended in street violence in several European countries, and Germany's interior minister called for harsh penalties.",
+      "why_it_matters": "The unrest across Europe affects US allies and markets, and raises questions about stability in major economies.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "crime-justice"
+      ],
+      "entities": [
+        "France",
+        "Germany"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T07-c20",
+      "storyline_id": "sl-france-unrest",
+      "published_at": "2026-11-01T16:24:38.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
+          "url": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Attempted murder probe after petrol bomb thrown at French riot police",
+          "url": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c12",
+      "drop": "2026-11-01T22",
+      "headline": "Binance resumes withdrawals after $6.3 billion hack",
+      "summary": "Binance restarted phased withdrawals. It says 90% of affected assets are covered; TechCrunch reports 95%. The FBI attributes the October 29 theft to North Korea's TraderTraitor group.",
+      "why_it_matters": "The record hack tests confidence in major crypto exchanges that millions of Americans use.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "markets"
+      ],
+      "entities": [
+        "Binance",
+        "FBI",
+        "North Korea"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T07-c11",
+      "storyline_id": "sl-binance-hack",
+      "published_at": "2026-11-01T12:19:33.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
+          "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Binance resumes withdrawals following $6.3 billion breach",
+          "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c13",
+      "drop": "2026-11-01T22",
+      "headline": "Parents sue OpenAI over daughter's death after chatbot medication advice",
+      "summary": "The parents of Bowen Wan, who died of a seizure, sued OpenAI. They allege ChatGPT gave her a tapering schedule to reduce her anti-seizure medication. The Guardian calls it the latest lawsuit of its kind.",
+      "why_it_matters": "The case tests the liability of AI companies when chatbots give medical advice that millions of people rely on.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "health",
+        "courts"
+      ],
+      "entities": [
+        "OpenAI",
+        "ChatGPT"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T22:02:17.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Parents of woman who died of seizure after ChaGPT misguidance sue OpenAI",
+          "url": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c14",
+      "drop": "2026-11-01T22",
+      "headline": "OpenAI plans post-election policy push, may rebrand data centers",
+      "summary": "Axios reports OpenAI will launch a policy and PR effort right after the midterms to align with the new Washington, including calling data centers 'AI compute campuses'. TechCrunch notes data centers are deeply unpopular.",
+      "why_it_matters": "Data centers have become a political issue over power bills and local impact, and AI firms expect a tougher Washington.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "policy-regulation",
+        "big-tech"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T13:43:06.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Behind the Curtain: OpenAI's post-election power play",
+          "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c15",
+      "drop": "2026-11-01T22",
+      "headline": "Junk debt rout hits credit investors as stocks brace for volatility",
+      "summary": "The FT reports a sell-off in junk debt has been called a 'bloodbath' by credit investors, worsened by asset-shifting tactics. Bloomberg says investors expect more volatile days after Friday's tech rout, and Asian stocks were set to fall.",
+      "why_it_matters": "Stress in credit and tech shares can affect retirement accounts, borrowing costs and company hiring.",
+      "region": "Global",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "Nasdaq"
+      ],
+      "importance": 4,
+      "follows": "2026-11-01T07-c12",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-01T14:54:55.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Junk debt rout sparks ‘bloodbath’ for credit investors",
+          "url": "https://www.ft.com/content/fdc9a85d-d2c4-465f-99ca-609d68b6d443?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "After Tech Rout, Investors Gird for More Wild Days for Stocks",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-more-wild-days-in-stocks-after-tech-rout"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c16",
+      "drop": "2026-11-01T22",
+      "headline": "Apple reports Monday under new CEO John Ternus",
+      "summary": "Apple's earnings on Monday will show how new CEO John Ternus is handling inflated memory prices and weaker consumer spending, MarketWatch says, at a critical time for Big Tech.",
+      "why_it_matters": "Apple's results are a gauge of consumer demand and component costs, and affect many Americans' retirement portfolios.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "markets"
+      ],
+      "entities": [
+        "Apple",
+        "John Ternus"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T15:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Apple’s new earnings era begins at a critical time for Big Tech",
+          "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c17",
+      "drop": "2026-11-01T22",
+      "headline": "Treasury expected to overhaul bond sales guidance",
+      "summary": "Wall Street is preparing for the biggest revamp in Treasury issuance guidance since early 2024, Bloomberg reports, after Secretary Scott Bessent signaled willingness to intervene in the bond market to push down yields.",
+      "why_it_matters": "Treasury issuance plans influence mortgage rates and government borrowing costs.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "economy",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Scott Bessent",
+        "Treasury Department"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T20:00:01.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Wall Street Braces for Biggest Treasury Sales Overhaul in Years",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c18",
+      "drop": "2026-11-01T22",
+      "headline": "Indonesia faces MSCI downgrade over wash trades and extreme rallies",
+      "summary": "Bloomberg reports stock trading schemes that enriched Indonesian tycoons, including wash trades and rallies of up to 5,000%, have put the country on the verge of a costly MSCI downgrade.",
+      "why_it_matters": "A downgrade could force index funds, including US-held emerging-market funds, to sell Indonesian stocks.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "asia"
+      ],
+      "entities": [
+        "Indonesia",
+        "MSCI"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T22:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Indonesia’s MSCI Crisis Driven By Wash Trades and 5,000% Rallies",
+          "url": "https://www.bloomberg.com/news/features/2026-11-01/indonesia-s-msci-crisis-driven-by-wash-trades-and-5-000-rallies"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c19",
+      "drop": "2026-11-01T22",
+      "headline": "Brazil selloff warns of crowded emerging-market trades",
+      "summary": "Brazil's market selloff has shown how quickly crowded emerging-market trades can unravel, Bloomberg says. Separately, Flávio Bolsonaro's flight to the US is creating a family problem for Brazil's right.",
+      "why_it_matters": "Emerging-market stress can spread to global portfolios, and the Bolsonaro case involves US-Brazil relations.",
+      "region": "Americas",
+      "topics": [
+        "markets",
+        "latin-america"
+      ],
+      "entities": [
+        "Brazil",
+        "Flávio Bolsonaro"
+      ],
+      "importance": 2,
+      "follows": "2026-11-01T07-c27",
+      "storyline_id": null,
+      "published_at": "2026-11-01T13:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Brazil Shakeup Sounds Warning on Crowded Emerging-Market Trades",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/brazil-shakeup-sounds-warning-on-crowded-emerging-market-trades"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Fuga de Flávio cria problema familiar para direita",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-01/fuga-de-flavio-cria-problema-familiar-para-direita-video"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c20",
+      "drop": "2026-11-01T22",
+      "headline": "Supreme Court to hear Colorado preschool case on same-sex parents",
+      "summary": "On Tuesday the justices are set to consider whether Colorado can require publicly funded preschools to admit children of same-sex couples. Religious-liberty advocates say religion is given short shrift; the case pits religious and LGBTQ rights.",
+      "why_it_matters": "The ruling could define how far anti-discrimination rules apply to religious groups that take public money.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Supreme Court",
+        "Colorado"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T22:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Preschool case puts LGBTQ and religious rights at odds in Supreme Court",
+          "url": "https://thehill.com/regulation/court-battles/6185430-supreme-court-colorado-religious-liberty-lgbtq-rights/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c21",
+      "drop": "2026-11-01T22",
+      "headline": "Experts say SSA and IRS emails praising Trump may violate Hatch Act",
+      "summary": "Emails from the Social Security Administration and IRS praising President Trump may violate the Hatch Act, experts told The Hill. One said the SSA is 'transforming into a model of excellence' under Trump.",
+      "why_it_matters": "The Hatch Act limits partisan activity by federal agencies, and the emails reached people just before an election.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Social Security Administration",
+        "Internal Revenue Service",
+        "Donald Trump"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T20:44:19.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Social Security email praising Trump may violate Hatch Act",
+          "url": "https://thehill.com/homenews/administration/6187284-ssa-irs-hatch-act-trump/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c22",
+      "drop": "2026-11-01T22",
+      "headline": "Trump's election probes find an opening in Georgia",
+      "summary": "Axios reports that as Trump's push to investigate alleged election fraud faces setbacks elsewhere, Georgia offers an opening for the Justice Department, in the state that was central to his 2020 efforts.",
+      "why_it_matters": "Federal involvement in state election administration affects trust in how votes are run and counted.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Justice Department",
+        "Brad Raffensperger"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-01T12:30:09.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump's election probes find an opening in Georgia",
+          "url": "https://www.axios.com/2026/11/01/trump-georgia-elections-justice-department-raffensper"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c23",
+      "drop": "2026-11-01T22",
+      "headline": "Carney signals progress in Canada-US trade talks",
+      "summary": "Canadian Prime Minister Mark Carney said talks with the US on a trade deal have made progress, ahead of Tuesday's US midterm elections.",
+      "why_it_matters": "Canada is a top US trading partner, and US tariffs have closed plants such as a Quebec paper mill.",
+      "region": "Americas",
+      "topics": [
+        "trade",
+        "geopolitics"
+      ],
+      "entities": [
+        "Mark Carney",
+        "Canada"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T07-c26",
+      "storyline_id": null,
+      "published_at": "2026-11-01T21:01:33.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Carney signals progress on Canada-US trade deal talks as midterms loom",
+          "url": "https://www.aljazeera.com/news/2026/11/1/carney-signals-progress-on-canada-us-trade-deal-talks-as-midterms-loom?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c24",
+      "drop": "2026-11-01T22",
+      "headline": "US-China trade truce holds, but calm is misleading, Guardian says",
+      "summary": "The Guardian argues a truce has cooled the US-China trade conflict, but neither side has done anything to limit new hostilities, even as tariff fears flare periodically.",
+      "why_it_matters": "A breakdown in the truce would raise prices on goods Americans buy and hit exporters.",
+      "region": "Global",
+      "topics": [
+        "trade",
+        "china"
+      ],
+      "entities": [
+        "United States",
+        "China",
+        "Donald Trump",
+        "Xi Jinping"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T12:00:12.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
+          "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c25",
+      "drop": "2026-11-01T22",
+      "headline": "Bulgaria's Iotova leads presidential run-off exit polls",
+      "summary": "Acting President Iliana Iotova leads in exit polls from Bulgaria's run-off. She would become the first elected female president if results confirm her win on Monday.",
+      "why_it_matters": "Bulgaria is an EU and NATO member, and its presidency affects policy toward Russia and Ukraine.",
+      "region": "Europe",
+      "topics": [
+        "elections",
+        "europe"
+      ],
+      "entities": [
+        "Iliana Iotova",
+        "Bulgaria"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T20:43:33.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Bulgaria’s acting President Iotova leads in run-off exit polls",
+          "url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c26",
+      "drop": "2026-11-01T22",
+      "headline": "Israeli siege of Hebron enters 10th day",
+      "summary": "Almost 5,000 people have been displaced by Israel's military siege of Hebron in the West Bank, Al Jazeera reports. Israeli forces have demolished homes and closed hundreds of businesses, and Israel threatens a wider offensive.",
+      "why_it_matters": "Escalation in the West Bank adds to regional instability while the US weighs possible action against Iran.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Hebron",
+        "Israel"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T17:30:45.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Hebron siege continues for 10th day as Israel threatens wider offensive",
+          "url": "https://www.aljazeera.com/news/2026/11/1/hebron-siege-continues-for-10th-day-as-israel-threatens-wider-offensive?traffic_source=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Thousands displaced from Hebron as Israel carries on siege",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/thousands-displaced-from-hebron-as-israel-carries-on-siege?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c27",
+      "drop": "2026-11-01T22",
+      "headline": "Israel's first ambassador to Somaliland presents credentials",
+      "summary": "Israel expanded ties with the breakaway territory by sending its first ambassador to Hargeisa. Somalia challenges Israel's motives as war intensifies in Yemen.",
+      "why_it_matters": "The move gives Israel a position near the Red Sea and Yemen, where Houthi attacks have disrupted shipping.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "geopolitics",
+        "middle-east"
+      ],
+      "entities": [
+        "Israel",
+        "Somaliland",
+        "Somalia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T18:23:57.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israel’s first ambassador to Somaliland presents credentials in Hargeisa",
+          "url": "https://www.aljazeera.com/news/2026/11/1/israels-first-ambassador-to-somaliland-presents-credentials-in-hargeisa?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c28",
+      "drop": "2026-11-01T22",
+      "headline": "Business jet carrying nine crashes in Florida neighborhood",
+      "summary": "A Learjet 60 carrying nine people crashed in a residential area of Palm Beach County on Sunday, erupting in a fireball. It is unclear whether anyone on board survived or whether anyone on the ground was hurt.",
+      "why_it_matters": "Federal investigators will examine the cause of a crash in a populated area.",
+      "region": "US",
+      "topics": [
+        "autos-transport"
+      ],
+      "entities": [
+        "Palm Beach County"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T21:13:23.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Business jet carrying nine people crashes in Florida neighborhood",
+          "url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c29",
+      "drop": "2026-11-01T22",
+      "headline": "UK to make most legal migrants wait 10 years to settle",
+      "summary": "Home Secretary Shabana Mahmood will announce on Monday that most legal migrants must wait a decade for settlement, some up to 15 years. MPs warn of shortages in health and social care.",
+      "why_it_matters": "It is a major tightening of immigration rules in a key US ally, with effects on workers and health services.",
+      "region": "Europe",
+      "topics": [
+        "policy-regulation",
+        "europe"
+      ],
+      "entities": [
+        "Shabana Mahmood",
+        "United Kingdom"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T19:47:35.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Home secretary to make some migrants wait 10 years or more for right to settle in UK",
+          "url": "https://www.theguardian.com/politics/2026/nov/01/home-secretary-shabana-mahmood-immigration-leave-to-remain-windrush"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c30",
+      "drop": "2026-11-01T22",
+      "headline": "Police detain 325 at London protest over Palestine Action ban",
+      "summary": "London's Metropolitan Police said 325 people were arrested Saturday at a protest outside the US embassy against the proscription of Palestine Action. The UK Supreme Court hears a challenge to the ban Wednesday.",
+      "why_it_matters": "The case tests the limits of protest and terrorism law in a close US ally.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "courts",
+        "crime-justice"
+      ],
+      "entities": [
+        "Palestine Action",
+        "Metropolitan Police"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T17:29:20.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Police detain 325 people at pro-Palestine Action protest at US embassy in London",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/01/police-detain-325-people-at-pro-palestine-action-protest-at-us-embassy-in-london"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c31",
+      "drop": "2026-11-01T22",
+      "headline": "Weil Gotshal to shut down after 95 years",
+      "summary": "The New York law firm is closing after an exodus of top talent, the Financial Times reports.",
+      "why_it_matters": "The collapse of a Wall Street legal powerhouse affects deal-making and the legal market.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Weil Gotshal"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T12:00:01.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Weil Gotshal: what happens now at the troubled Wall St law firm?",
+          "url": "https://www.ft.com/content/8332fa3f-2a4a-41ca-8836-44d41d32fe8a?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-01T22-c32",
+      "drop": "2026-11-01T22",
+      "headline": "Virgin Media O2 to cut thousands of jobs",
+      "summary": "The UK broadband provider has not finalised numbers, but the BBC understands it will be a sizeable share of its workforce.",
+      "why_it_matters": "It adds to job losses in telecoms as companies cut costs.",
+      "region": "Europe",
+      "topics": [
+        "jobs-labor",
+        "europe"
+      ],
+      "entities": [
+        "Virgin Media O2"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T16:57:14.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Thousands of jobs at Virgin Media O2 to be cut",
+          "url": "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c33",
+      "drop": "2026-11-01T22",
+      "headline": "ACA open enrollment begins for 2027 coverage",
+      "summary": "The ACA health insurance marketplaces opened Nov. 1 for 2027 coverage. NPR says changes affect shoppers and getting an early start may be especially important this year.",
+      "why_it_matters": "Millions of Americans choose or renew their health plans in this window, and costs and rules have shifted.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation"
+      ],
+      "entities": [
+        "HealthCare.gov"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T12:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "It's ACA open enrollment time. Here are the changes for health insurance shoppers",
+          "url": "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-01T22-c34",
+      "drop": "2026-11-01T22",
+      "headline": "Fight over 2030 Census race question draws 100,000 comments",
+      "summary": "A dispute over whether the 2030 Census should stop asking about race and ethnicity has drawn more than 100,000 public comments, according to advocates tracking the docket, Axios reports.",
+      "why_it_matters": "Census race data is used in civil rights enforcement and in distributing federal resources.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "us-politics"
+      ],
+      "entities": [
+        "Census Bureau"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T11:00:10.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Fight over race questions intensifies ahead of 2030 Census deadline",
+          "url": "https://www.axios.com/2026/11/01/2030-census-assign-question-race"
+        }
+      ],
+      "has_article": false
     }
   ]
 }
