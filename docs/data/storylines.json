@@ -1,15 +1,25 @@
 {
   "version": 1,
-  "updated_at": "2026-10-22T17:52:56Z",
+  "updated_at": "2026-11-01T07:10:49Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
       "title": "France riots and European unrest",
-      "summary": "France has imposed nightly curfews and now bans 'illegitimate' protests in Marseille and Lyon, closing top museums Saturday. Italy is sending troops to Milan. French yields hit 5% and spreads are at 15-year highs.",
+      "summary": "French protests entered a third week with 320,000 marching Saturday and clashes in Paris and Marseille. Violent cost-of-living protests also hit German cities. Earlier curfews, protest bans and 5% French bond yields continue to weigh.",
       "status": "active",
       "first_seen": "2026-10-20",
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Germany's cost-of-living protests turn violent in Berlin, Hamburg and Frankfurt, with shops looted, the same day hundreds of thousands protest in France.",
+          "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "Police clash with masked rioters in Paris, Marseille and other cities after largely peaceful third-wave marches across France.",
+          "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france"
+        },
         {
           "date": "2026-10-22",
           "text": "Macron bans 'illegitimate' protests; total ban in Marseille and Lyon, union-organised marches only elsewhere, museums closed Saturday.",
@@ -28,7 +38,7 @@
         {
           "date": "2026-10-20",
           "text": "France announces nightly curfews in Paris, Lyon and other cities for as long as necessary after the first quiet night.",
-          "url": "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews"
+          "url": "https://www.npr.org/2026/10/21/nx-s-6010344/france-nightly-curfews"
         },
         {
           "date": "2026-10-20",
@@ -45,11 +55,21 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Russia agreed in principle to resume talks and freed American Stephen Hubbard, but fired ballistic missiles at Kyiv. Witkoff's 'humanitarian' description of Putin drew rebukes from Downing Street and Zelenskyy. Demand for Starlink alternatives grows.",
+      "summary": "The US approved 500 Patriot missiles for Ukraine, with allies paying $2.1 billion. A US-brokered local truce let Oleshky evacuees cross into Ukraine. Russia agreed in principle to resume talks earlier but kept striking Kyiv; Witkoff's Putin remarks drew rebukes.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Evacuees from Russian-occupied Oleshky reach Ukraine during a localized US-brokered ceasefire.",
+          "url": "https://thehill.com/policy/international/6186192-oleshky-residents-return-ukraine/"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "US approves sale of 500 Patriot missiles to Ukraine, with $2.1 billion to be paid by allies.",
+          "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-10-22",
           "text": "Russia fires three waves of ballistic missiles at Kyiv; Downing Street and Zelenskyy rebuke Witkoff for calling Putin a 'humanitarian'.",
@@ -139,27 +159,27 @@
           "date": "2026-10-19",
           "text": "Merz says Putin seeks to destabilize Europe, not just defeat Ukraine.",
           "url": "https://www.bloomberg.com/news/videos/2026-10-19/merz-warns-russia-aims-to-destabilize-european-continent-video"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Zelenskyy adviser says Ukrainians are dying because of US intelligence limits; White House says nothing changed.",
-          "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Rep. Mike Turner calls for an investigation into Ukraine's temporary loss of military Starlink access.",
-          "url": "https://thehill.com/homenews/house/6157079-turner-demands-starlink-investigation/"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Stocks fell again Thursday as Meta sank 6% on negative free cash flow and record credit-default-swap prices; Treasury yields dipped below 5% on haven buying. Tech credit risk is at highs; chip stocks weak.",
+      "summary": "Tech stocks ended the week lower as Big Tech earnings reignited AI spending fears; Bloomberg says AI enthusiasm is collapsing. S&P moved Meta's outlook to negative, Intel had its worst day since the 1970s, and OpenAI pared its fundraising goal.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Bloomberg: AI enthusiasm is collapsing and Big Tech earnings made it worse; CNBC says stocks reversed from early-week gains.",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-31/ai-enthusiasm-is-collapsing-and-tech-earnings-just-made-it-worse"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "OpenAI pares fundraising goal to as much as $20 billion; S&P turns negative on Meta; Intel has worst day since the 1970s.",
+          "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
+        },
         {
           "date": "2026-10-22",
           "text": "Meta falls 6% as AI spending pushes free cash flow negative and its credit default swaps hit records; tech stocks slide.",
@@ -249,27 +269,22 @@
           "date": "2026-10-19",
           "text": "Micron and other chip stocks rebound after a bruising selloff; JPMorgan says CoreWeave debt fears are overdone.",
           "url": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Asian chip stocks fall again as DeepSeek's latest model and AI financing worries hit demand expectations.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/korean-stocks-fall-as-deepseek-model-funding-worry-rattle-chips"
-        },
-        {
-          "date": "2026-10-18",
-          "text": "Bloomberg says Treasuries show tentative haven signs, threatening big short bets as the AI trade wobbles.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles"
         }
       ]
     },
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh is expected to hold Oct. 28. Housing data is weakening and traders expect oil to stay elevated longer, prolonging inflation pressure.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh left rates unchanged in October, NPR reports, as GDP and prices both rose. Kalshi traders now put a December 25bp hike at 70%. Housing data is weak.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-21",
+      "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "NPR: GDP growth is up but so are prices; interest rates are staying the same for now, with midterms ahead.",
+          "url": "https://www.npr.org/2026/10/31/nx-s1-6022285/mixed-economic-forecast-weighs-heavy-ahead-of-midterms"
+        },
         {
           "date": "2026-10-21",
           "text": "Axios: traders bet oil prices stay elevated longer, threatening to prolong inflation pressure.",
@@ -295,11 +310,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "A judge ordered a halt to DHS noncitizen-voting probes in nine states; DOJ says it verified 20,000 noncitizens on California rolls and is sending monitors to Utah. Trump's economic approval is at a record low in CNBC's poll; Ohio ad row continues.",
+      "summary": "With Election Day Tuesday, more than 50 million have voted early. Democrats are feuding in Michigan, DOJ is probing Alaska's two-Sullivan ballot dispute, and courts have rebuffed DOJ moves on California ballots and election-worker threats.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "El-Sayed asks Rep. Haley Stevens to stay away from his events, a source says; a Clyburn adviser says he cannot disinvite her from a Sunday event.",
+          "url": "https://thehill.com/homenews/campaign/6186552-clyburn-rally-el-sayed-stevens/"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "DOJ seeks to isolate Alaska ballots amid a criminal probe over the two-Dan-Sullivan ballot dispute; Peltola denies involvement.",
+          "url": "https://www.npr.org/2026/10/31/nx-s1-6024423/criminal-probe-alaska-senate-candidate"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "More than 50 million Americans have cast early ballots, a record, with Democrats ahead in states reporting party data.",
+          "url": "https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms"
+        },
         {
           "date": "2026-10-22",
           "text": "Federal judge orders halt to noncitizen voting investigation in nine states, citing error-filled data and intimidation of voter assistance groups.",
@@ -390,11 +420,26 @@
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Oil hit a five-month high after Houthi strikes on Saudi Arabia and Iranian attacks on Gulf ships. NPR reports the US and Israel are planning a possible attack on Iran in early November, after the midterms. Iran says it will keep its uranium.",
+      "summary": "Trump says he is in no hurry for an Iran deal while weighing strikes after the midterms. Khamenei ordered a maximum response to any attack. Qatar is mediating, and Iran says a two-day Hormuz reopening plan is possible if US meets its conditions.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-10-22",
+      "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Trump says the US is not in much of a hurry for an Iran deal; Araghchi says Iran and Qatar have a plan to reopen Hormuz in two days.",
+          "url": "https://www.washingtonexaminer.com/news/world/4787211/trump-iran-negotiations-not-in-hurry/"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "Qatari mediators hold 12-plus hours of talks in Tehran to restart US-Iran negotiations; talks continue in Doha.",
+          "url": "https://www.axios.com/2026/10/31/qatari-mediators-iran-war-deal-before-midterms"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "Supreme Leader Mojtaba Khamenei orders an immediate response without geographical limits to any US or Israeli attack.",
+          "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack"
+        },
         {
           "date": "2026-10-22",
           "text": "Oil jumps to a five-month high as Iran's IRGC says it hit four vessels in the northern Gulf and three ships struck mines near Hormuz.",
@@ -479,21 +524,21 @@
           "date": "2026-10-19",
           "text": "Houthi missile strike on a Yemeni training camp kills at least 50, the deadliest single attack since fighting reignited.",
           "url": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war"
-        },
+        }
+      ]
+    },
+    {
+      "id": "sl-binance-hack",
+      "title": "Binance $6.3 billion hack",
+      "summary": "A record $6.3 billion hack of Binance, blamed by the FBI on North Korean group TraderTraitor, led to suspended withdrawals. Binance says it has replaced 90% of losses and planned to resume withdrawals Sunday.",
+      "status": "active",
+      "first_seen": "2026-10-30",
+      "last_updated": "2026-11-01",
+      "events": [
         {
-          "date": "2026-10-19",
-          "text": "Saudi Arabia postpones its Future Investment Initiative conference to next year over Houthi attacks.",
-          "url": "https://thehill.com/policy/international/6159092-saudi-arabia-postpones-investment-conference/"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Guardian reports Iran has attacked at least 15 container ships in Hormuz in 10 days.",
-          "url": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Benny Gantz drops out of Israel's election race ahead of the Oct. 27 vote.",
-          "url": "https://www.aljazeera.com/news/2026/10/19/benny-gantz-drops-out-of-israels-election-race?traffic_source=rss"
+          "date": "2026-11-01",
+          "text": "Binance says 90% of losses are covered and withdrawals resume Sunday; FBI says North Korea-backed TraderTraitor is behind the attack.",
+          "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
         }
       ]
     }

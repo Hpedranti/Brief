@@ -1,0 +1,423 @@
+{
+  "version": 1,
+  "drop": "2026-11-01T07",
+  "articles": {
+    "2026-11-01T07-c11": {
+      "paragraphs": [
+        "Binance said on Saturday that it has replaced 90% of the assets stolen in what it describes as a record $6.3 billion hack, and that it expects to resume user withdrawals on Sunday. The same day, the FBI said North Korea was responsible for the theft.",
+        "The company said the remaining 10% consists of tokens outside its top 10 that are less liquid and may take longer to source. Co-CEO Richard Teng said users will not bear the financial impact. Binance said BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD and ZEC are fully backed. It said it is drawing on its Secure Asset Fund for Users, part of its Futures insurance fund and its corporate treasury, and will keep buying tokens until coverage reaches 100%. Resuming withdrawals is subject to security checks.",
+        "The FBI named TraderTraitor, a North Korea-affiliated group, and said the theft took place on or about October 29, 2026. The agency said it had seen the actors converting stolen assets into Ethereum and expected further laundering through decentralised finance and instant swap services. It urged private companies to block transactions linked to addresses the group is using. The Guardian reports TraderTraitor is believed to be part of the Lazarus Group. TRM Labs had earlier pointed to North Korean hackers, citing similarities to the Bybit and KelpDAO hacks.",
+        "How the attack happened is still unclear. Binance first pointed to a compromised DevOps engineer's laptop, but Teng later described a more complex attack that also involved malicious software designed to delete evidence. Binance declined to give CNBC further detail on its investigation. According to the Guardian, bitcoin fell nearly 5% after news of the hack, Ethereum nearly 6% and BNB nearly 10%."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+        "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
+      ]
+    },
+    "2026-11-01T07-c13": {
+      "paragraphs": [
+        "Intel shares fell about 28% to 29% on Friday, depending on the outlet, after the chipmaker gave a weaker-than-expected forecast. CNBC called it the stock's worst day since the 1970s. The drop cut the value of the US government's roughly 10% stake in Intel by about $12 billion, according to CNBC, and reduced the value of Nvidia's stake by about $6 billion.",
+        "Intel said it expects fourth-quarter revenue of $15 billion to $16 billion and adjusted earnings of 25 cents a share. Analysts surveyed by LSEG had expected $17.1 billion and 43 cents. TechCrunch reported that Intel also warned its gross margin would fall to 37% from 43% and that it expects no positive cash flow because of heavy investment.",
+        "The company pointed to two causes. One is a weak PC market: CEO Lip-Bu Tan said customers signaled a slowdown because of memory prices and availability, and finance chief David Zinsner said Intel expects the slowdown to last at least through the first half of next year. The other is an explosion at an Israeli fab earlier this month that killed two workers and caused an extended shutdown. Zinsner said it will cost about $600 million in revenue over two quarters.",
+        "Both outlets noted the stock remains up for the year, with CNBC citing about 150% before the drop and TechCrunch saying more than 70% afterward. Data center revenue grew 78% from a year earlier, according to TechCrunch. Intel still has no external customers for its new chips, though Tan said it expects to announce a couple in the next two quarters. Tech stocks broadly fell, and the Nasdaq Composite slid 2.9%."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+        "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
+      ]
+    },
+    "2026-11-01T07-c14": {
+      "paragraphs": [
+        "S&P Global Ratings revised its outlook on Meta to negative from stable on Friday, keeping the company's credit rating at AA-. The agency said the move reflects uncertainty about Meta's elevated capital spending and its negative free cash flow. S&P's highest rating is AAA, and anything below BBB falls into junk territory.",
+        "S&P questioned Meta's ability to make money from its AI investments relative to its peers, which are also spending heavily on data centers and burning cash. It acknowledged that Meta has recently launched its Muse AI agent app and related foundation models, but said it is unclear when those revenue streams will contribute enough to exceed their rising costs over the next few years. The agency said it expects Meta's capital spending growth to flatten beginning in 2028, but is less certain the company will curtail spending as previously anticipated.",
+        "A Meta spokesperson disagreed. The company said it respectfully disagrees with S&P's assertion about its AI monetization capabilities and sees significant product and business opportunities that support what it called a very strong credit profile.",
+        "The revision follows a rough stretch for the company. In its third-quarter report last week, Meta said it expects full-year capital spending of $135 billion to $145 billion and posted negative free cash flow of $2.12 billion, its first time in the red. Shares fell 7% after the report despite a revenue beat, and the stock ended October down 15%, its worst month in four years. Meta also said on Monday it plans to raise $95 billion for its AI work, starting with $35 billion in public equity offerings and then $60 billion through an at-the-market program."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html"
+      ]
+    },
+    "2026-11-01T07-c15": {
+      "paragraphs": [
+        "OpenAI is now seeking to raise up to $20 billion in its latest funding round, down from an earlier target of up to $30 billion, CNBC reported on Saturday. A person directly familiar with the deal told CNBC the round has not closed and the figures could change. OpenAI did not immediately respond to CNBC's request for comment.",
+        "The Financial Times first reported the lower target and said OpenAI would seek a post-money valuation of $1.25 trillion. TechCrunch noted the company had earlier been reported to be seeking $30 billion at a $1.4 trillion valuation. According to the FT, OpenAI set a Friday deadline for investors to commit and some chose to reduce their allocations. The FT also said the first close is expected to be below $20 billion, and that a later retail offering for wealthy individuals could bring the total to the target.",
+        "Investors from the United Arab Emirates are leading the round alongside Coatue, according to CNBC. TechCrunch, citing a follow-up Wall Street Journal story, reported that OpenAI has secured $11 billion so far and that some large investors responded to the fundraising with a tepid reception.",
+        "Both outlets tied the news to wider investor unease about AI spending. CNBC said AI-linked stocks fell on Friday, with Intel, Micron and Nvidia all lower, and that Alphabet had its worst trading day ever on Thursday after weaker-than-expected search revenue. TechCrunch suggested the fundraising difficulties may partly reflect bad timing amid the tech sell-off, and said Anthropic's planned IPO could face challenges too. OpenAI has not commented on those characterizations in the reporting."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+        "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+      ]
+    },
+    "2026-11-01T07-c17": {
+      "paragraphs": [
+        "A malicious version of Anthropic's Claude Code extension was available in the extension marketplace of Cursor, an AI development tool owned by SpaceX, for roughly 11 hours on Thursday, according to Wired. Ars Technica put the window between 5:27 a.m. and 4:35 p.m. Eastern. Cursor said the tampered version was downloaded by at most 5,000 users.",
+        "Cursor said the extension, version 2.1.313, tried to install a persistent SSH backdoor, collect host and user information and open a reverse SSH tunnel on Windows, macOS and Linux. Both outlets reported that errors in the malicious code stopped it from fully establishing itself on most machines. Wired quoted Calum Hall, CEO of detection firm Phorion, which first spotted the extension, as saying everyone was lucky because it could have been a dangerous foothold. Phorion said the malware remains a significant threat where it does work.",
+        "How the extension got into the marketplace is not explained. Cursor said the malicious versions were not developed by Anthropic. Anthropic staff said on X that its systems and employee laptops were not compromised, that a malicious actor used access to Cursor's marketplace to publish a tampered copy, and that versions on its official channels are unaffected. Ars reported that security researchers said the version was posted through Anthropic's official account on Cursor, and that neither company has said how attackers gained control of it.",
+        "Cursor removed the bad version, blocked further distribution, worked with the hosting provider to cut off the server, and briefly shut the marketplace to rotate keys and audit access. The marketplace has reopened. Cursor published remediation steps and indicators of compromise. Ars reported that Anthropic had not publicly warned customers, and Cursor did not respond to Wired's questions."
+      ],
+      "based_on": [
+        "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+        "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
+      ]
+    },
+    "2026-11-01T07-c18": {
+      "paragraphs": [
+        "A federal judge in Mississippi has refused to dismiss an NAACP lawsuit alleging that xAI, now part of SpaceX, violated the Clean Air Act with gas turbines that power its data centers around Memphis. The opinion, from Judge Debra M. Brown of the Northern District of Mississippi, was released late Friday. SpaceX did not immediately respond to requests for comment from CNBC or TechCrunch.",
+        "The Southern Environmental Law Center and Earthjustice filed the suit for the NAACP in April 2026. CNBC reported that it alleges xAI and its subsidiary MZX Tech installed and operated 27 gas turbines in Southaven, Mississippi, between August and December 2025 without an air permit. TechCrunch quoted the law center as alleging at least 35 combustion turbines and other pollution sources at the Colossus site without preconstruction or operating permits. The suit says the turbines emit smog-forming pollutants and particulate matter.",
+        "The company argued that its turbines, which it called mobile, were exempt from permitting, that the NAACP lacked standing, and that such citizen suits are unconstitutional. The judge rejected those points, writing that the plaintiffs have statutory standing, that the turbines are not mobile sources under Mississippi's State Implementation Plan, and that the citizen suit provision does not violate Article II or the private nondelegation doctrine. She added that citizen plaintiffs sue on their own behalf and so are not exercising federal executive power.",
+        "Abre' Connor of the NAACP called the ruling another important victory and said xAI cannot operate gas turbines without required permits. Both outlets noted that the same court rejected a Department of Justice request to end the case about two weeks ago. The case now proceeds."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html",
+        "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+      ]
+    },
+    "2026-11-01T07-c19": {
+      "paragraphs": [
+        "Two reports, one from a Brooklyn midterm event and one from West Virginia, show data centers drawing scrutiny as the November 3 elections approach. TechCrunch's reporter wrote that AI and data centers dominated conversation at an event hosted by the media company Newsreel, including when she moderated a panel on the topic and the audience booed a question about who supports AI data centers.",
+        "TechCrunch cited a Data Center Watch report that almost $200 billion in data center projects were delayed, stalled or blocked in the first half of 2026 because of political and community opposition. Panelists described anger over deals with local officials and zoning rules that obscure what is being built. One speaker noted some labor unions support data centers for the jobs they promise, while another was skeptical, saying the same institutions had taken union jobs away.",
+        "NPR reported on a proposed project called Ridgeline in Tucker County, West Virginia, near the Monongahela National Forest. Its developer, Fundamental Data LLC, plans a roughly 785-megawatt power plant running mainly on natural gas, with diesel as backup, on a reclaimed coal-mining site. The first phase covers 291 acres, and local reports say it could grow to 10,000 acres. The company's Casey Chapman said that if fully developed it would be thousands of acres.",
+        "Residents and business owners fear harm to dark skies and tourism. A Northern Virginia Astronomy Club analysis found the first phase could raise sky glow near Blackwater Falls State Park by 528%. Chapman said the company will use well-designed lighting but that safety takes precedence. A West Virginia University economist said data centers could be a good opportunity if pollution rules are followed."
+      ],
+      "based_on": [
+        "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+        "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies"
+      ]
+    },
+    "2026-11-01T07-c20": {
+      "paragraphs": [
+        "Cost-of-living protests continued across Europe on Saturday, with mostly peaceful marches in France giving way to clashes at night and violence in several German cities. France's interior ministry said about 320,000 people took part, down from an estimated 410,000 the previous weekend, and that 565 people were arrested. Four police officers and one gendarme were injured in Paris, the ministry said. Interior Minister Laurent Nuñez said a riot police officer was hit by a molotov cocktail, which he called an attempted murder.",
+        "The marches brought together school students, trade unions and yellow vest protesters angry about living costs, inequality and Emmanuel Macron's government, according to the Guardian. Police fired tear gas and stun grenades in several cities. Student organizers said they would stage new blockades on Tuesday and Thursday and join a union-called demonstration on November 5.",
+        "In Germany, youth-led demonstrations organized by the group Gen Z regelt began peacefully, protesting underfunded schools, living costs, public spending cuts and military service. As night fell, shops were looted in Frankfurt, and police used water cannon in Cologne and elsewhere after officers were targeted with fireworks, stones and bottles. Authorities reported as many as 18,000 protesters in Frankfurt, Munich and Berlin, about half the organizers' estimate. Hesse's interior minister, Roman Poseck, said around 100 identified left-wing extremists had infiltrated the Frankfurt protest.",
+        "Protests also took place in Italy, Portugal and Albania. The BBC noted that young protesters have recently taken to the streets in many European countries, with demands that differ by country but center on housing, education quality and public service cuts."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france"
+      ]
+    },
+    "2026-11-01T07-c21": {
+      "paragraphs": [
+        "Riot police were deployed at Poland's Constitutional Court after the government-backed side moved against the court's top judges. Justice Minister Waldemar Żurek said he had asked to strip court President Bogdan Święczkowski and Vice-President Bartłomiej Sochański of immunity so they could face criminal charges. The Guardian reported that government-backed judges also tried on Friday to take procedural control of the tribunal and suspended the two. The court called the actions a coup d'etat.",
+        "Prime Minister Donald Tusk defended the move in a Saturday television address, saying that in certain matters there can be no compromise and that the court in the form imposed by Law and Justice (PiS) was not a genuine court. He cited rulings by European courts that found the PiS majority had improperly elected three judges. He also said no politician, including the president, may enter a court to issue orders. President Karol Nawrocki, who is backed by PiS, entered the court on Friday and held crisis talks on Saturday with opposition and some coalition parties. Tusk's Civic Coalition stayed away, and no breakthrough was reported. Nawrocki's aide Zbigniew Bogucki called Tusk a pathological liar.",
+        "Legal opinion is divided. The Helsinki Foundation for Human Rights called the legal basis for the suspension questionable. Lawyer Marcin Matczak, a critic of Święczkowski, said it had no legal basis. Foreign Minister Radosław Sikorski called the scenes outside not elegant but said the alternative was an unconstitutional shift to a presidential republic.",
+        "Nawrocki has refused to swear in five judges elected by parliament. The European Commission urged him to approve them, as the Venice Commission had earlier. Parliamentary elections are due next year."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/world/2026/oct/31/donald-tusk-defends-overhaul-poland-constitutional-court-despite-protests",
+        "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff?traffic_source=rss"
+      ]
+    },
+    "2026-11-01T07-c22": {
+      "paragraphs": [
+        "The US State Department has approved the potential sale of 500 Patriot PAC-3 MSE interceptor missiles to Ukraine at an estimated price of $2.1 billion, according to a congressional notification. The department said the purchase would be paid for by Ukraine's partners and allies, using donations from Canada, Germany and Norway through the JUMPSTART program and national funds financed by the European Union's Ukraine Support Loan. It said no US funds are involved and that Lockheed Martin would be the principal contractor.",
+        "Delivery timing is unclear. Ukrainian President Volodymyr Zelensky welcomed the announcement but warned it could take \"several years\" for the missiles to arrive, and said Ukraine needed them \"right now\". The BBC reported it is understood the order is for new builds rather than existing stock, and that the US Department of Defense says only 600 Patriot missiles are produced each year. The BBC also cited a global shortage of the munitions linked to their use in the US war against Iran.",
+        "Breaking Defense said the diplomatic language of the notice hides lingering tension. It noted that on Oct. 19 The Washington Post reported the US appeared to have delayed Patriot transfers amid a falling out between President Trump and Zelensky, and that CNN reported Kyiv had run out of interceptors. On Oct. 25 Zelensky said missile deliveries were moving \"more slowly than Russian missiles fly.\" The State Department did not immediately tell Breaking Defense how the announcement might affect Ukraine's near-term shortage.",
+        "Breaking Defense also explained that Foreign Military Sales notifications are generally early steps in processes that can last years, and that quantities and prices can change during contract talks. Lawmakers could delay or block the deal, though it said that is less likely given continuing bipartisan support for Ukraine. Separately, Zelensky said Russian strikes on Friday night left about 200,000 households in the Dnipro region and at least 80,000 in the Kyiv region without electricity. He accused Russia of deliberately targeting civilian infrastructure."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+        "https://breakingdefense.com/2026/10/us-greenlights-500-patriot-missiles-for-ukraine-with-2-1-billion-to-be-paid-by-allies/"
+      ]
+    },
+    "2026-11-01T07-c23": {
+      "paragraphs": [
+        "Evacuees from the Russian-occupied city of Oleshky crossed into Ukrainian-held territory on Saturday and were reunited with relatives at the Ukrainian-Belarusian border, according to The Guardian. The operation began on Friday under what the paper described as the most significant truce since Russia's full-scale invasion. Evacuees traveled by bus and plane through Russia and Belarus, and volunteers from groups including the Red Cross, Médecins Sans Frontières and World Central Kitchen met them with aid and food.",
+        "The ceasefire in Ukraine's southern Kherson region began early on Tuesday and was expected to run through Sunday evening. The White House said first lady Melania Trump helped broker the local deal, and Pope Leo XIV urged Russia and Ukraine to allow aid deliveries and evacuations. Melania Trump posted on Friday that the convoy could safely evacuate more than 750 people. Ukrainian authorities have not said how many left and have restricted details of the route, citing the need to protect those who stayed and future missions.",
+        "About 2,000 people were estimated to remain in Oleshky when the truce began. They could choose evacuation to Ukrainian- or Russian-held territory, or stay with restocked food and medical supplies. Evacuee Ivan Yevhenovych, 48, described drones, a lack of staple food since spring, and daily deaths from landmines or drone strikes. Ukraine's human rights ombudsman, Dmytro Lubinets, called the mission a win and said evacuees ranged from just over one year old to 94.",
+        "The two sides described what comes next differently. Russia's human rights commissioner, Yana Lantratova, said both sides agreed to hold regular humanitarian missions in and around Oleshky; Lubinets did not mention this. She said some evacuees who chose Russian-held territory were taken to a shelter in Simferopol. Lubinets said he hoped the truce could be replicated elsewhere."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/31/oleshky-evacuees-reunite-with-families-after-truce-allows-crossing-into-ukraine"
+      ]
+    },
+    "2026-11-01T07-c24": {
+      "paragraphs": [
+        "The traditional \"family photo\" to open the G20 foreign ministers' meeting in Atlanta was cancelled after several delegations refused to appear alongside Russian Foreign Minister Sergei Lavrov, according to The Guardian and the BBC. The Guardian reported that about one-third of the countries present said they would not appear next to any Russian representative. A US official told the BBC the photo was dropped \"after it became clear some of the delegations were unwilling to participate,\" adding that the US did not want a ceremonial photo to become \"a diplomatic distraction.\"",
+        "German Foreign Minister Johann Wadephul said there would be no photo with European partners and Lavrov together because \"there is no normality with Russia.\" UK Foreign Secretary Ed Miliband said Britain does not engage with Russians in that way, and later told Lavrov, \"We all know who the aggressor in this war is.\" Australia's Penny Wong condemned the invasion in front of Lavrov, and her spokesperson said Australia backed the cancellation.",
+        "Participants told The Guardian the disagreements, which include Russia's position on Ukraine and its opposition to Poland's G20 membership, will probably prevent a joint communique. Ukraine, not a G20 member, was not invited this year; US officials said that was a deliberate choice to include only formal members. South Africa, a founding member, was also not invited. Its foreign ministry spokesperson said its absence is \"not voluntary.\"",
+        "The BBC said US-Russia relations have partially thawed in recent weeks, after President Trump waived some sanctions and agreed a deal to import Russian diesel. Ukraine's President Zelensky called the deal \"a gift\" to Putin, while Trump said suspending sanctions is meant to keep Moscow at the negotiating table. Participants told The Guardian all sides agreed to try to make next month's G20 leaders' summit in Florida a success."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
+        "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-01T07-c25": {
+      "paragraphs": [
+        "Canada and the European Union announced a new partnership called the Alliance for the Future at the close of a two-day summit in Montreal on Friday, according to The Guardian. Prime Minister Mark Carney and European Commission President Ursula von der Leyen said the alliance is open to other like-minded countries and could offer \"unprecedented stability and opportunity.\" Carney said societies have been \"shaken by new storms,\" including climate change, the \"erosion of democratic norms\" and \"the weaponization of trade.\"",
+        "Canada agreed to contribute to a €90 billion support loan for Ukraine. The leaders said future talks would aim at a more integrated market worth tens of billions of dollars, fewer trade and travel restrictions and new educational opportunities. Brussels and Ottawa also announced an agreement to bring Canada into Europe's supercomputing network, giving Canadian access to European machines to train AI models. Carney also pointed to a planned merger of Canada's Cohere and Germany's Aleph Alpha as a step toward reducing reliance on American AI companies; the Canadian government announced a stake in Cohere worth up to C$1.6 billion.",
+        "The Guardian linked the effort to the trade war between Canada and the United States and to Canadian concern about depending on American companies, especially in defense. Von der Leyen said it is \"a partnership not against anyone else, but for our common strength.\"",
+        "The leaders again raised the idea of Canada becoming an associate member of the EU, which Von der Leyen called uncharted territory. A clearer scope is expected at a 2027 summit. The Guardian reported that some EU members, including Germany, had worked to remove the phrase from a draft statement, fearing it could confuse other nations seeking membership.",
+        "In Quebec, Premier Paul St-Pierre Plamondon skipped the event after Ottawa refused to let him speak publicly at it. He criticized the federal government's offer of a place at the head table."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+        "https://www.theguardian.com/politics/2026/oct/31/keir-starmer-uk-europe-us-relationship-trump"
+      ]
+    },
+    "2026-11-01T07-c26": {
+      "paragraphs": [
+        "The paper mill in Témiscaming, Quebec, has been idle since early October, when its American owner, RYAM, carried out an \"economic shutdown\" for \"an indefinite period,\" according to the BBC. The shutdown followed the collapse of trade talks between Canada and the US and new US tariffs of up to 50% on products including lumber, pulp and paper. Most of the mill's 360 employees are out of work, supported for now by partial pay from a government tariff-relief program.",
+        "The BBC reported that property values fell quickly and \"For Sale\" signs dot the town's yards, with fears that essential service workers may leave too. One local contractor said he has already laid off 13 people. Canada's national unemployment rate has held at around 6.5%, but the BBC said some industries hit directly by tariffs, including steel, aluminum, autos and forestry, are suffering deeply.",
+        "Workers hope to repeat 1973, when employees and managers bought the mill from its then-American owner and created Tembec. Union leader Stéphane Lefebvre said they cannot buy it back from RYAM, which acquired it in 2017, without tariff relief or financial help from Ottawa or Quebec. RYAM told the BBC it would not comment on a possible sale. Mayor Alain Gauthier does not blame RYAM and wants Canada to impose duties on US board products. Bloc Québécois MP Sébastien Lemire criticized what he called government inaction.",
+        "A spokesperson for Industry Minister Mélanie Joly said the government has made $400 million available for the forestry sector in rural and remote areas and launched a cash-flow program for tariff-affected businesses. On the mill, the spokesperson said the government is \"actively working with all parties involved to find a viable solution.\" The BBC noted Carney and Ontario's premier recently announced nearly C$9 billion for Ontario's steel and auto sectors."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-01T07-c27": {
+      "paragraphs": [
+        "US Secretary of State Marco Rubio said the Trump administration did not help Brazil's defeated presidential candidate Flavio Bolsonaro leave Brazil for the United States, according to Al Jazeera. \"We didn't facilitate anything,\" Rubio told reporters in Atlanta on Saturday. He said the US learned Bolsonaro had arrived, that he previously held a visa, and that President Trump decided to let him enter. Rubio said the government was not \"involved directly in any of the moves that were made.\"",
+        "Bolsonaro arrived in Miami on Wednesday, a day after the State Department said he and his family would be granted US visas following his October 25 run-off loss to President Luiz Inacio Lula da Silva. Al Jazeera reported that he is under investigation in Brazil for alleged corruption, money laundering and tax evasion, and had been ordered to surrender his passport because police considered him a flight risk. Reuters reported he was admitted under humanitarian parole, a status that typically lasts one year.",
+        "Al Jazeera said some US media outlets reported that his route, via Argentina and Ecuador, was partly arranged with help from Jason Miller, a White House official. That differs from Rubio's account that the US was not directly involved; the White House's response to those reports was not given in the article.",
+        "Trump, who had previously called the Brazilian election \"rigged,\" said Bolsonaro \"got treated very shabbily\" and \"can stay here as long as he wants.\" Bolsonaro has refused to concede, calling the results fraudulent without providing evidence, and says he left because of \"persecution.\" Rubio said he saw Brazil's foreign minister, Mauro Vieira, in Atlanta and expects to meet Brazilian officials again in France in November."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/1/flavio?traffic_source=rss"
+      ]
+    },
+    "2026-11-01T07-c28": {
+      "paragraphs": [
+        "Bolivia has declared a nationwide state of emergency to free up resources for dealing with the effects of the El Nino weather phenomenon, Al Jazeera reported. President Rodrigo Paz signed the decree on Saturday. It also calls for further deployments of rescue teams to areas hit hard by flooding and drought. Paz said El Nino will have \"very severe impacts in terms of drought and floods\" and that Bolivia needs \"the cooperation of all institutions.\"",
+        "According to a government report this week, drought is now affecting 78,000 families in six of Bolivia's nine departments and has caused the loss of more than 75,000 cattle. Al Jazeera noted that Bolivia is also prone to flooding, and that floods in the Santa Cruz region killed dozens of people in December 2025.",
+        "Elsewhere in the region, Al Jazeera said Chile's capital, Santiago, recorded its rainiest October ever, while wildfires in Peru killed at least 12 people last month.",
+        "El Nino is a natural climate cycle that occurs roughly every two to seven years. Warming in the Pacific Ocean changes winds, pressure and rainfall patterns worldwide and often causes extreme weather. Its intensity and effects vary by location, but Al Jazeera said this cycle could be the strongest on record. It is due to peak at the end of 2026, and its impacts could continue well into 2027.",
+        "Al Jazeera reported that scientists predict El Nino could cause more than 450,000 deaths globally, with the poorest countries worst affected. In early September, the World Meteorological Organization reported a nearly 100 percent likelihood that El Nino will continue through February 2027."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/1/bolivia-declares-state-of-emergency-over-el-nino-weather-pattern?traffic_source=rss"
+      ]
+    },
+    "2026-11-01T07-c29": {
+      "paragraphs": [
+        "India's opposition planned a large rally in Delhi on Sunday demanding the resignation of Chief Election Commissioner Gyanesh Kumar and electoral reforms, according to the BBC and The Guardian. The Congress-led INDIA alliance organized the march and rally, which was to end at the Ramlila Maidan grounds. Security forces with batons, shields and riot control vehicles surrounded the venue. The BBC reported thousands of police and paramilitary personnel were deployed across the city, and that Delhi police allowed the rally with conditions, including an end time of 5pm.",
+        "The protests concern a voter-list revision known as the Special Intensive Revision, which has removed more than 130 million names from draft rolls. The Guardian said those include 28 million who died, 63 million who relocated and 30 million who could not be traced. The Election Commission says the exercise purges the names of people who have died or moved, and that wrongly deleted voters can re-enroll. Opposition parties allege it could benefit Prime Minister Narendra Modi's BJP and disproportionately affect Muslim and other minority voters. The BJP and the commission deny this, and the BJP accuses rivals of wrongly questioning legitimate electoral processes.",
+        "The controversy grew after The Indian Express reported in September that Kumar made key decisions without the agreement of the two other election commissioners, who had raised objections. The commission said differences of opinion are normal and do not affect its functioning.",
+        "On Saturday, opposition leaders held a symbolic impeachment of Kumar, which has no legal standing. Modi said on Friday that \"some people\" want to create chaos to defame him. Analysts told The Guardian the protests are the worst crisis for Modi since 2014, though his government remains stable and the next general election is due in 2029."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi"
+      ]
+    },
+    "2026-11-01T07-c30": {
+      "paragraphs": [
+        "China's Communist Party ended its fifth plenum on Thursday, confirming the expulsion of 33 senior party members as Xi Jinping's anti-corruption campaign continues to widen, NPR reported. Of the 376 full and alternate central committee members named in 2022, only 279 attended, with many absentees believed to be under investigation. The expelled include Zhang Youxia, formerly China's most senior general, and Liu Jianchao, a senior diplomat once tipped as a future foreign minister.",
+        "The meeting focused on anti-corruption work and party discipline. Joseph Torigian of American University told NPR it was Xi \"setting up for the next party congress next year by ensuring that everybody is on the same page as him,\" amid wide speculation that Xi will seek a fourth term. Neil Thomas of the Asia Society Policy Institute said military leadership has been \"almost completely\" purged over three or four years. General Zhang Shengmin, a key figure in the anti-corruption drive, was promoted to the Politburo.",
+        "A senior discipline official, Zhang Fuhai, said 7.9 million people have been punished since 2012, including over 960 senior officials, and that eradicating corruption's \"breeding ground\" remains \"a formidable task.\" The plenum also called for more regular reporting from discipline inspectors to central authorities. Thomas warned that local officials might play things safe, which could produce inertia and the opposite of what Xi intended.",
+        "Thomas said the focus suggests Xi is unlikely to risk using force over Taiwan or the South China Sea until he is more comfortable with the party he leads. Torigian said the meeting gave no insight into a successor. Full decisions from the plenum are expected to be published in the coming days."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/10/31/nx-s1-6024695/political-meeting-beijing-takeaways"
+      ]
+    },
+    "2026-11-01T07-c31": {
+      "paragraphs": [
+        "More than 5,000 people have died in an Ebola outbreak in the Democratic Republic of Congo, according to government data cited by the BBC. Eight of the country's 26 provinces are affected, with more than 10,300 confirmed cases and a case fatality rate of 48.6%. The outbreak began in May and became the country's deadliest in August. Health officials say the epicenter remains Ituri province in the northeast, a conflict zone where containment is harder.",
+        "The outbreak is caused by the Bundibugyo species, for which there is no approved treatment or vaccine, though vaccine trials are under way. The UN says it is the second largest Ebola outbreak in history and is \"taking lives at a much faster rate\" than DR Congo's previous deadliest outbreak, which killed 2,299 people in 2018-2020. Al Jazeera reported that only about 12 percent of confirmed cases were identified among known contacts, with many deaths occurring in communities.",
+        "On Saturday, Nigeria's disease control center said two suspected cases were identified in the northeast. Both people are isolated, contact listing is continuing and laboratory tests are being run. The agency stressed that suspected cases are not confirmed until lab results come back. Earlier this month, Nigeria confirmed an imported case, a Swiss woman who had traveled from Uganda and was evacuated to Switzerland with her husband.",
+        "Cases have also been confirmed in Uganda, Kenya and France, according to the sources. The BBC reported nine confirmed cases and two deaths in Kenya. The European Centre for Disease Prevention and Control says the infection risk in Europe is \"very low.\" Health workers have faced attacks, including the killing of a nurse this week, and the WHO's Africa office calls for greater access to affected areas and community outreach."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/10/31/health-authorities-probe-two-suspected-ebola-cases-in-northeast-nigeria?traffic_source=rss"
+      ]
+    },
+    "2026-11-01T07-c03": {
+      "paragraphs": [
+        "More than 50.5 million early votes had been cast across the United States as of Saturday morning, according to an analysis by the University of Florida, three days before Tuesday's midterm elections. The Guardian reports that the figure is already nearly 5 million more than the total early votes cast in the 2022 midterms.",
+        "In states that collect party registration data, 10.7 million registered Democrats have voted, compared with 7.8 million registered Republicans. The Guardian notes that party affiliation does not show how people actually voted, though polling has shown widespread unhappiness with Donald Trump's presidency and unusually close races in states usually won comfortably by Republicans.",
+        "Republicans are defending a 53-47 Senate majority. The Guardian says the battleground map has expanded, with Democrats aiming for wins in traditionally conservative-leaning states such as Texas, Alaska and Kansas. In Texas, more than 7 million people have voted early, 1.5 million more than in 2022. In Harris County, which includes Houston, 862,700 people had voted as of Wednesday, compared with 564,500 at the same point in 2022, an Associated Press analysis found.",
+        "Early voting is also up elsewhere, according to the AP: 83 percent in South Carolina, 34 percent in Kansas, 44 percent in Maine and 32 percent in Michigan, compared with the 2022 midterms.",
+        "The Guardian says the midterms will decide control of the House and Senate for the final two years of Trump's second term, with rising food and gasoline costs, the Iran war and concern over government corruption as the backdrop. Trump has held rallies in previously safe states to boost struggling Republican candidates."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms"
+      ]
+    },
+    "2026-11-01T07-c04": {
+      "paragraphs": [
+        "The Justice Department asked a federal court on Friday to order Alaska election officials to isolate ballots that rank a candidate named Dan J. Sullivan, NPR reports, while federal officials confirmed a criminal investigation tied to the candidacy. He shares a name with Republican Sen. Dan Sullivan, who faces Democrat Mary Peltola in Tuesday's ranked choice election.",
+        "Alaska U.S. Attorney Michael Heyman said the probe has run for several months, and that recent New York Times revelations that Peltola's campaign appeared to be involved in recruiting the candidate led to a surge of law enforcement resources in the state. He would not say what crimes are being examined or who the targets are. Peltola denied knowing about the effort, saying, \"I am not interested in tricking voters.\" Democrats, including the Democratic Senatorial Campaign Committee, and Dan J. Sullivan have denied any scheme.",
+        "The department's filing says there is a \"substantial risk\" the candidacy will mislead voters, and it asks for a decision by Monday. The request is part of a civil suit seeking to block certification of the race if the incumbent loses. Trump has said he told the department to file it.",
+        "Alaska's attorneys, in a Saturday filing reported by the AP, called the suit \"meritless\" and asked Judge Sharon Gleason to dismiss it. They argued that segregating ballots is not possible without violating ballot secrecy, that officials already distinguished the two Sullivans on the ballot, and that ranked voting lets voters rank both. The AP said election law experts have criticized the complaint.",
+        "NPR noted it is highly unusual for the department to discuss a criminal investigation publicly so close to an election. At a Friday rally, Trump said Peltola and Dan J. Sullivan should be prosecuted and said Attorney General Todd Blanche would make his own decision."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/10/31/nx-s1-6024423/criminal-probe-alaska-senate-candidate",
+        "https://www.washingtonexaminer.com/news/campaigns/congressional/4787189/alaska-trump-demand-set-aside-senate-ballots/"
+      ]
+    },
+    "2026-11-01T07-c06": {
+      "paragraphs": [
+        "The BBC reports that the Texas Senate race may help decide which party controls Congress, with total spending above half a billion dollars, making it the most expensive in US history. Democrat James Talarico, 37, faces Republican Ken Paxton, and recent polls suggest Talarico has a slim but stable lead, according to the BBC.",
+        "Democrats have not won a statewide election in Texas in more than three decades, and a Talarico win would turn a Texas Senate seat blue for the first time since 1988. At a Tuesday night rally in Lubbock, an estimated 3,000 supporters attended, with another thousand listening outside. He criticized a conservative establishment he said is insensitive to the economic hardship of average Americans and promised an anti-corruption agenda. Student Andrew Robinson, 26, said a Talarico win would mean so much, though a lifetime of watching Democrats fail tempered his optimism.",
+        "Trump and Paxton held a rally a few miles away in a venue twice the size. \"If you go out and vote, we're going to have a tremendous win in Texas,\" Trump said. The BBC says the visit suggests Republican concern about turnout. Sen. Ted Cruz said on his podcast Friday, \"we could lose Texas,\" adding that Democrats are \"massively out-turning-out the Republicans.\"",
+        "Republican strategist Brendan Steinhauser told the BBC a Democratic win would cause \"soul searching\" in the party. The BBC says party leaders fear it would encourage more Democrats to run for statewide and federal office. It adds that voters are frustrated with high consumer costs and largely blame Trump's tariff policies and the Iran war."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cmy0r2y6zeddo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-01T07-c07": {
+      "paragraphs": [
+        "A federal judge on Friday temporarily barred the Trump administration from threatening election workers with criminal prosecution over ballots linked to suspected noncitizens, Fox News reports. Judge Trina Thompson found the Justice Department and the Department of Homeland Security likely violated the Voting Rights Act's prohibition on voter intimidation.",
+        "The temporary restraining order prohibits federal officials from threatening or coercing election workers into halting ballot processing solely because the administration alleges certain registered voters are ineligible. It also bars demands that officials remove voters from the rolls, refuse them ballots, or segregate or decline to count their ballots based solely on those allegations. Thompson also ordered the administration to notify governments that received the disputed letters that the demands and prosecution threats in them are blocked.",
+        "\"Ballots have already been issued,\" Thompson wrote. \"Americans have already begun voting.\" The lawsuit was brought by labor unions and civil rights groups, including the Service Employees International Union and the NAACP.",
+        "The Justice Department criticized the ruling, saying the judge issued the order without waiting to hear from the United States and describing a \"two-track system of justice.\" It said it is reviewing the order and evaluating all options. The administration has said its efforts aim to prevent noncitizen voting and protect election integrity.",
+        "Separately on Friday, the 9th U.S. Circuit Court of Appeals denied the department's emergency request to require California to set aside mail-in ballots tied to roughly 20,000 voters federal officials identified as likely noncitizens while their status was verified, a setback four days before Election Day."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/federal-judge-blocks-trump-doj-threats-against-election-workers-ahead-2026-midterms"
+      ]
+    },
+    "2026-11-01T07-c08": {
+      "paragraphs": [
+        "US District Judge Darrin Gayles on Saturday permanently dismissed Donald Trump's defamation lawsuit against Rupert Murdoch and The Wall Street Journal, Al Jazeera reports, concluding the president failed to establish \"actual malice.\" The case was dismissed \"with prejudice,\" which effectively blocks future litigation on the matter.",
+        "Under US law, a successful complaint must show the defendant published a defamatory statement knowing it was false or with reckless disregard for its accuracy. Gayles wrote that the allegations about malice were \"conclusory, vague, sometimes inconsistent with the Article and often irrelevant.\" He said Trump was \"grasping at straws\" and suggested his legal team had tried \"to manufacture flaws with the investigation.\"",
+        "The suit stemmed from a July 17, 2025 Journal report describing a sexually suggestive birthday note for Jeffrey Epstein's 50th birthday in 2003, part of a book of letters reportedly collected by Ghislaine Maxwell. The note was attributed to Trump, who denied responsibility for the text, the signature and the artwork. A copy was later released through the House Oversight Committee. Trump called the coverage \"false, malicious, and defamatory\" and filed suit in Miami on July 18, 2025, seeking $10 billion. Two journalists were named as defendants.",
+        "Gayles first dismissed the suit in April but allowed Trump to refile, which he did in May. The updated complaint claimed the paper had been reckless in not showing how reporters received and verified the letter. Al Jazeera notes Trump has other defamation cases pending against outlets including the BBC and The New York Times."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/10/31/trump-loses-legal-battle-over-epstein-linked-wall-street-journal-case?traffic_source=rss"
+      ]
+    },
+    "2026-11-01T07-c09": {
+      "paragraphs": [
+        "Virginia and the District of Columbia filed a lawsuit Saturday in federal court in Washington to block construction of President Trump's proposed 250-foot arch. In the 45-page complaint, attorneys general Jay Jones and Brian Schwalb called the project \"flagrantly unlawful,\" NPR reports.",
+        "They argue that construction, which could begin as soon as next week, will \"inflict irreparable harm,\" including snarled traffic between the two jurisdictions. The Guardian quotes the filing as warning of pollution and stormwater runoff in the Potomac and interference with emergency services during a three-year build. They say the defendants refused to consult adequately, and they are seeking a temporary restraining order.",
+        "The Guardian counts three lawsuits against the project. The first was brought by three Vietnam war veterans and an architectural historian. Judge Tanya Chutkan held a hearing Friday and did not immediately act, but said she would move expeditiously. NPR reports she ordered both sides to agree on a proposed briefing schedule for the restraining order motion by Saturday evening.",
+        "The administration said in a recent filing that it plans to seek final approval at Thursday's meeting of the National Capital Planning Commission and might begin construction that day. The government submitted a 106-page plan describing a structure more than 12 stories high with a bronze statue of Lady Liberty and an observation deck. The arch would sit between Arlington National Cemetery and the Lincoln Memorial. Trump has previously described it as a \"military complex,\" but the latest plans include no military elements. The White House had not responded to requests for comment."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/10/31/nx-s1-6024694/virginia-dc-sue-trump-arch",
+        "https://www.theguardian.com/us-news/2026/oct/31/trump-arch-lawsuits-dc-virginia"
+      ]
+    },
+    "2026-11-01T07-c10": {
+      "paragraphs": [
+        "Judge Ana Reyes announced Friday that she is opening a formal inquiry into whether Trump administration officials, including agency and Justice Department attorneys, misrepresented the president's plans for East Potomac Park's municipal golf course to the court, NPR and the BBC report.",
+        "The move followed a written filing Wednesday in which government lawyers acknowledged a plan to turn the course into a championship-level venue, closing it and much of the park in mid-November. For months, Justice Department attorneys had said in filings and hearings that no plan was final. They told the court Friday that the plan was submitted that day to the National Capital Planning Commission.",
+        "At a four-hour hearing, Reyes quoted the D.C. Bar rule against knowingly making or failing to correct false statements and asked Associate Attorney General Stanley Woodward Jr. whether he wanted to correct anything. \"Not to my knowledge,\" he said. He told her the submission had been in the works for several weeks, though no one mentioned it in earlier hearings.",
+        "Reyes said the inquiry may be led by a special master with \"full investigatory powers,\" and that she will conduct it herself if the government rejects her choice. She stressed that opening it does not mean any violation has been or will be found, and she ordered officials to preserve relevant documents.",
+        "The suit was filed in February by historic preservation advocates and golfers. This month the administration cut down hundreds of trees, and Reyes barred further removal and required 10 days' notice before irreversible changes. The government has appealed. Trump has said the renovation will go ahead. The pages do not report how the Justice Department responded to the inquiry."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/10/30/nx-s1-6023328/east-potomac-reyes-misconduct-inquiry-doj",
+        "https://www.bbc.co.uk/news/articles/cmj6jpn8px28o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-01T07-c46": {
+      "paragraphs": [
+        "Biotech founder Gabriel Ocana Santero used an AI agent to carry out a brain injection on a living mouse, Wired reports. Santero is CEO and cofounder of Exin Therapeutics, a San Francisco startup that uses AI to analyze brain activity to develop drugs for epilepsy and neurodegenerative diseases. He told Wired he wanted to see what happens when agents get direct access to lab equipment instead of only designing experiments or analyzing results.",
+        "The team connected the agent to a custom surgical rig with a motorized device to immobilize the mouse and a camera that let the agent watch the procedure, move the needle and control delivery. The agent was asked to pick a gene therapy from 19 options in a spreadsheet, to test whether it could reduce seizures in a mouse with epilepsy. A veterinary surgeon first performed the craniotomy. The agent then chose the therapy, brain region and coordinates, and controlled the arms and injector, including volume and speed.",
+        "The first model tried, Anthropic's Claude Opus 5.5, declined to guide the needle, suggesting it might stop midway and endanger the animal. The team switched to Claude Sonnet 5, which agreed. Anthropic did not respond to Wired's request for comment.",
+        "The researchers set safeguards: human approval of the injection plan, an emergency button that cuts power to the rig's motors, and restricted access to the equipment code. A glitch then disrupted the coordinate system. The agent recognized the position was wrong but would not change the code, because its instructions prohibited it. The team used a separate agent to fix the code without telling it a live surgery was under way. Santero said the procedure took slightly over an hour, versus about 45 minutes typically.",
+        "The team is waiting for the therapy to take effect before assessing its impact on seizures. It plans to test Grok and other models, and is experimenting with agent-controlled craniotomies but wants to be sure of their safety before live surgeries. Santero said human oversight remains key, and that it is far too soon to use an AI agent on a human brain. The mouse is recovering well, he said."
+      ],
+      "based_on": [
+        "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/"
+      ]
+    },
+    "2026-11-01T07-c47": {
+      "paragraphs": [
+        "The Golden State Valkyries beat the Atlanta Dream 68-63 in game seven of the WNBA Finals on Saturday in San Francisco, winning a championship in the franchise's second year, according to Al Jazeera. It was the first game seven in a WNBA championship series.",
+        "Gabby Williams was named Finals MVP. She scored 28 of her game-high 30 points in the second half after a two-point first half, becoming the first player in WNBA postseason history to score 28 points in a half. With 2:18 left she hit a 31-foot three-pointer to give Golden State a 60-57 lead it kept. Kiah Stokes tipped in a Williams miss with 53 seconds left, and Veronica Burton made the final points after being fouled with 5.1 seconds remaining.",
+        "Williams set Finals records for points (137) and steals (18). Stokes had 13 rebounds and two blocks, giving her a Finals-record 19 blocks, and held Atlanta's Angel Reese to eight points. Golden State trailed by nine in the third quarter and made just five of 20 three-pointers. Atlanta shot 33.3 percent and went 6-for-30 from three. Jordin Canada scored 18 and Allisha Gray 16.",
+        "Atlanta coach Karl Smesko pointed to the opening 5:19, when the Dream went scoreless and fell behind 8-0. He called it \"beyond frustrating\" that the team did not reach its goal. Reese said, \"we'll be back.\"",
+        "Coach Natalie Nakase said the roster was built from players left unprotected in the expansion draft, several international imports and one key free-agent signing, and dedicated the win to people who are underrated. The Valkyries have sold out every home game, setting league attendance records, with 18,064 at Chase Center."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/sports/2026/11/1/golden-state-valkyries-defeat-atlanta-dream-to-capture-first-wnba-crown?traffic_source=rss"
+      ]
+    },
+    "2026-11-01T07-c32": {
+      "paragraphs": [
+        "The New World screwworm infestation has spread to Arizona, making it the third US state affected alongside New Mexico and Texas, according to Ars Technica. The US Department of Agriculture has identified 74 animal cases since the flies re-invaded the country in June.",
+        "Arizona's agriculture department said the state's first case was a dog in Cochise County, which borders New Mexico and Mexico. A local veterinarian examined the dog on October 26 and found a wound on its back \"heavily infested with maggots consistent with NWS characteristics.\" The USDA confirmed the infection and said it is working with Arizona on a joint response.",
+        "This week the USDA recorded four new cases in domestic dogs, including the Arizona one, and a domestic cat in New Mexico. That brings the pet total to 10 since the flies reemerged. One case in a wild elk was reported last week. Most of the 74 cases have been in livestock.",
+        "Ars Technica explains that the flies lay eggs in wounds and moist orifices, and the resulting maggots feed on living flesh, causing severe and sometimes fatal wounds. The flies were eliminated from the US in the 1960s through releases of sterile male flies. For years a biological barrier at the Darién Gap, between Panama and Colombia, kept them away, but it was breached in 2022.",
+        "Humans can also be affected, in rarer cases. Mexico's Ministry of Health has confirmed 806 human infestations since the flies reemerged, with nine deaths. Arizona urged livestock owners, pet owners and other animal industry partners to keep monitoring animals and to report any unusual wounds immediately."
+      ],
+      "based_on": [
+        "https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/"
+      ]
+    },
+    "2026-11-01T07-c33": {
+      "paragraphs": [
+        "Delegates from nearly 200 countries meeting in Yerevan, Armenia, agreed the key parts of a new action plan on nature early Saturday, hours after talks were due to finish, according to the BBC. Meeting president Hambardzum Matevosyan said, \"And that's it. Perfect.\"",
+        "The countries signed the Global Biodiversity Framework in 2022, with 24 targets including protecting 30% of the world's land and seas by the end of the decade. The UN said this week that the world is on track to achieve just one of them. As part of the new deal, countries acknowledged they were falling behind.",
+        "Money was named as the main barrier. In 2022 countries agreed to put $30bn toward nature recovery by the end of the decade and mobilise a further $170bn from private sources. According to the UN, pledges are not at the required rate, as many nations have redirected aid to defence and energy shocks. More than $1bn was pledged at this meeting, half of it from philanthropists including Re:wild. The Cali Fund, meant to collect donations from companies that profit from genetic material found in nature, was estimated to be able to raise up to $3.6bn a year, but only $10,000 had been pledged at the start of the meeting. Little progress was made on it.",
+        "Researcher Anna Ducros noted some progress on commitments to cut subsidies for industries harmful to nature. Approving scientific reports on the state of nature was meant to be easy, but a small group of countries, including Saudi Arabia and Russia, were reported to have frustrated it. French minister Monique Barbut was reported by AFP as saying, \"The attacks on science have bothered me a lot.\" Countries meet next month for the COP31 climate conference."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-01T07-c36": {
+      "paragraphs": [
+        "The economy sent mixed signals this week, days before the midterm elections, NPR's Scott Horsley reported. GDP grew at an annual rate of 3.4% in July through September, up from 2.2% the previous quarter, but inflation in September was 3.6%, according to the Commerce Department. The Federal Reserve did not raise interest rates at its meeting.",
+        "Horsley said inflation is higher than when President Trump returned to the White House, and that nearly two-thirds of Americans disapprove of the president's economic stewardship. Fed Chairman Kevin Warsh said, \"The economy is strong. The economy is pointing in the right direction.\" Horsley noted that much of the growth is driven by investment in artificial intelligence, without a matching burst of hiring.",
+        "Employers added just 29,000 jobs in September, and unemployment is 4.2%. Moody's Analytics chief economist Mark Zandi said hiring rates are \"extraordinarily low\" and not consistent with a healthy labor market, which means little pressure on employers to raise wages. Horsley said September spending rose 2.5 times as fast as wages.",
+        "Housing remains a weak spot. The average 30-year mortgage rate is around 7.25%, which Zandi said keeps many would-be buyers on the sidelines. Horsley said the housing component of GDP has been negative in 8 of the last 10 quarters.",
+        "NPR reported that higher borrowing costs could still come by the end of the year. October jobs numbers are due this coming week. Horsley said voters punished Democrats over inflation in 2024 and may now do the same to Republicans."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/10/31/nx-s1-6022285/mixed-economic-forecast-weighs-heavy-ahead-of-midterms"
+      ]
+    },
+    "2026-11-01T07-c38": {
+      "paragraphs": [
+        "Cryptocurrency-tied groups have contributed more than $200 million this election cycle, outpacing online betting and data center groups in federal corporate political spending, according to Public Citizen, as reported by CNBC. The industry hopes to repeat 2024, when super PACs spent $250 million to elect pro-crypto lawmakers.",
+        "Fairshake and its affiliated super PACs are backing 33 House candidates, 19 Republicans and 14 Democrats. Six incumbents are each getting a baseline of $1 million: Republicans Bryan Steil, French Hill and Bill Huizenga, and Democrats Janelle Bynum, Derek Tran and Steven Horsford. Coinbase gave $25 million to Fairshake's midterm efforts in 2025, and Ripple gave $25 million, according to the super PAC.",
+        "Coinbase vice chairman Ryan VanGrack told CNBC the goal is to bring the financial system into the 21st century, adding that cheaper, faster transactions are not something Democrats or Republicans should oppose. Ripple's chief legal officer, Stu Alderoty, said the industry has seen a very good return, pointing to the GENIUS Act, the stablecoin law signed in July 2025.",
+        "The industry has also met resistance. In September the Clarity Act, a bipartisan set of market structure rules, stalled in the Senate after Democrats argued it did not do enough to stop top government officials from profiting off crypto ventures. A Gallup poll found a record 89% of US adults say government corruption is widespread.",
+        "The Ohio Senate race is a focus. Fairshake says it has spent $55 million to oppose Democrat Sherrod Brown, a longtime crypto critic, who faces Republican Sen. Jon Husted. A Marist poll showed Brown ahead by four points, within the 4.5-point margin of error."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html"
+      ]
+    },
+    "2026-11-01T07-c40": {
+      "paragraphs": [
+        "A US Immigration and Customs Enforcement officer, Mario Alberto Morales, has been indicted by a grand jury in Texas on a charge of aggravated assault with a deadly weapon, according to a prosecutor cited by the BBC. If convicted of the second-degree felony, he faces two to 20 years in prison, Harris County District Attorney Sean Teare said.",
+        "Teare said Morales pursued a vehicle driven by Miguel Parra-Hernandez, a 48-year-old Mexican national who has lived in Texas for more than 30 years without legal documentation, on the morning of October 10. Teare said Parra-Hernandez and another occupant fled on foot before Morales \"aggressively steered his vehicle\" into him, running over both legs. He said Parra-Hernandez had no criminal record, was not subject to a deportation order, and remains hospitalised with multiple leg fractures and a hip injury.",
+        "Teare also said Morales then called 911 to report that Parra-Hernandez had hit his car, and that ICE was allegedly pursuing a different man, Jose Mendoza-Cervantes, who has apparently been dead for nine years.",
+        "ICE disputes the account. Right after the incident, a spokesperson told CBS News that Parra-Hernandez had run in front of the agent's vehicle. After the indictment, an ICE spokesperson called it \"nothing more than a political stunt by Houston sanctuary politicians\" and said allegations of an intentional strike were \"reckless and false.\" The statement added that federal officers acting in the course of their duties can be investigated only by federal agencies, and that local governments lack authority to do so.",
+        "Teare said he has the utmost respect for law enforcement and believes undocumented violent felons should be deported. He said he hoped the case would send a message to ICE officers who feel they have a free pass."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/ckjwep125v3eo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-01T07-c41": {
+      "paragraphs": [
+        "The US Food and Drug Administration wants to withdraw its approval of Tavneos, a drug for a rare autoimmune vasculitis, but Ars Technica reports the process is not straightforward. In April the agency proposed pulling the drug, citing reports of serious, sometimes fatal liver injury and arguing it now lacks \"substantial evidence\" that it works.",
+        "The FDA approved Tavneos on October 7, 2021, after an advisory committee voted narrowly in favor. The pivotal trial, run by ChemoCentryx, showed slightly higher remission rates after one year, but the FDA had said the study design made results hard to interpret. Amgen acquired ChemoCentryx a year later. The drug costs about $220,000 a year, according to Drugs.com, and fiscal 2025 sales reached nearly half a billion dollars.",
+        "An investor lawsuit uncovered what the FDA now believes is evidence that ChemoCentryx employees manipulated the trial data. This summer the New England Journal of Medicine retracted the trial paper, and Tavneos was taken off the market in the European Union. The United Kingdom has said it will remove it too. A court hearing on a proposed $69 million settlement of the lawsuit was expected October 29.",
+        "Amgen is pushing back. In July it submitted a 104-page document to the FDA saying \"the totality of the evidence supports the continued availability of TAVNEOS.\" Epidemiologist Eric Roberts, who co-authored an independent registry study, said the drug appears efficacious.",
+        "Reshma Ramachandran of Yale said the dispute reflects the FDA's struggle with drugs of uncertain efficacy. Tavneos was meant to reduce patients' reliance on steroids, which cause severe side effects. The drug's fate in the US remains undecided."
+      ],
+      "based_on": [
+        "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/"
+      ]
+    },
+    "2026-11-01T07-c42": {
+      "paragraphs": [
+        "NASA on Thursday issued a Request for Information asking commercial companies for ideas to reboost, service, or carry out a controlled disposal of the Hubble Space Telescope, Ars Technica reports. Responses are due November 30. NASA wants capabilities for capturing Hubble and lifting it to at least 373 miles, and the RFI says the mission must not harm the telescope and is expected to occur by 2032.",
+        "Hubble has not had its orbit raised since 2002 and has no onboard propulsion. It has sunk from 362 miles to about 292 miles. Orbital dynamicists predict reentry in 2033 or 2034 without intervention, though forecasts can shift with solar activity. A reboost to 373 miles would likely keep it up at least 25 more years.",
+        "NASA is not committing to buy a mission, and has no funding allocated for one. It wants to know who is interested, what it would cost, and who could realistically reach Hubble in time.",
+        "The idea is not new. Jared Isaacman proposed a crewed Dragon servicing mission in 2022, and NASA's 2022 RFI drew eight responses. In 2024, officials said they would not pursue a reboost, with then-astrophysics head Mark Clampin calling the plans \"notional concepts.\" Isaacman is now NASA administrator, and the servicing industry has matured, with Northrop Grumman launching a robotic servicing satellite this year.",
+        "The article points to NASA's attempt to rescue the Swift telescope. Katalyst Space Technologies got a $30 million contract and nine months, built and launched a satellite, and got within about 6 miles of Swift before power and reaction control problems stopped the approach. NASA would likely offer more money and time for Hubble.",
+        "A crewed mission looks unlikely, since SpaceX aims to retire Crew Dragon by 2030. Isaacman wrote that he expects the RFI to draw interest from robotics companies."
+      ],
+      "based_on": [
+        "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+      ]
+    }
+  }
+}
