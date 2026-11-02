@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-01T22:36:44Z",
+  "updated_at": "2026-11-02T07:21:18Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -60,11 +60,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "The US approved 500 Patriot missiles for Ukraine. The Oleshky truce has ended, with Russian strikes cutting power in Ukraine, while Ukraine resumed strikes on Russian refineries despite Trump's pressure, the Kremlin says.",
+      "summary": "The US approved 500 Patriot missiles for Ukraine. The Oleshky truce has ended, Ukraine resumed strikes on Russian refineries despite Trump's pressure, and air raid alert apps in both countries were hit by cyberattacks.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Air raid alert apps in Ukraine and Russia are hit by cyberattacks after the truce ends; Ukraine blames Russia for fake nuclear warnings.",
+          "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
+        },
         {
           "date": "2026-11-01",
           "text": "Ukraine resumes attacks on Russian oil refineries in defiance of Trump pressure, the Guardian reports; the Kremlin says Kyiv is ignoring US wishes.",
@@ -159,22 +164,22 @@
           "date": "2026-10-19",
           "text": "Trump says Zelenskyy should nominate 'somebody else' to negotiate with Russia.",
           "url": "https://www.washingtonexaminer.com/news/white-house/4771238/trump-negotiations-ukraine-russia-zelensky/"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Deutsche Telekom, Orange, Telefonica and Vodafone sign a letter of intent weighing a joint satellite spectrum bid to rival Starlink.",
-          "url": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Tech stocks ended the week lower as Big Tech earnings reignited AI spending fears; Bloomberg says AI enthusiasm is collapsing. Credit investors now describe a junk debt rout, and Asian stocks were set to fall Monday.",
+      "summary": "Tech stocks ended the week lower as Big Tech earnings reignited AI spending fears, and credit investors describe a junk debt rout. The FT says the global AI selloff is easing after the Nasdaq's worst month in over a year, with US futures higher.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "FT says the global AI selloff eases after the Nasdaq's worst month in over a year; US stock futures gain in Asian trading.",
+          "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-01",
           "text": "FT reports a junk debt rout sparking a 'bloodbath' for credit investors; Bloomberg says investors brace for more volatile days after the tech rout.",
@@ -269,11 +274,6 @@
           "date": "2026-10-19",
           "text": "DHS order removing DeepSeek from federal systems is published in the Federal Register.",
           "url": "https://thehill.com/policy/technology/6159116-dhs-bans-chinese-deepseek-ai/"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "US bans DeepSeek AI from government use as tech tension with China continues.",
-          "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -315,11 +315,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "With Election Day Tuesday, Rep. Haley Stevens endorsed Republican Mike Rogers in Michigan, splitting Democrats. A judge dismissed the DOJ suit over Alaska's Senate certification. Polls favor Democrats, with Decision Desk HQ seeing a likely House flip.",
+      "summary": "With Election Day Tuesday, Democrats are pursuing action against Rep. Haley Stevens after her Rogers endorsement. DOJ plans to appeal the Alaska ruling. NYT/Siena polls show Democrats narrowly ahead in seven Senate races; Decision Desk HQ sees a likely House flip.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Stevens is removed from the Michigan Democratic Party, Washington Examiner reports; some House Democrats seek her removal from caucus, Axios reports.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4787498/michigan-democrats-disarray-haley-stevens-endorses-mike-rogers/"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "DOJ set to appeal dismissal of its Alaska Senate certification suit, Fox News reports; Sanders calls alleged Democratic ballot-stacking 'pretty dumb'.",
+          "url": "https://www.foxnews.com/politics/doj-set-appeal-ruling-alaska-senate-race-dispute-over-decoy-dan"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "NYT/Siena polls show Democrats narrowly ahead in seven Senate races, mostly within margin of error; another poll finds late deciders favor Republicans.",
+          "url": "https://thehill.com/homenews/6187749-democrats-edge-out-gop-senate-poll/"
+        },
         {
           "date": "2026-11-01",
           "text": "Trump says he would become 'Mr. Veto' if Democrats win Congress; an NBC poll shows 52% prefer a Democratic Congress, 45% Republican.",
@@ -404,32 +419,27 @@
           "date": "2026-10-21",
           "text": "Wedgewood Polls admits fabricating survey data; FCC chair Carr warns broadcasters about false polls.",
           "url": "https://www.theguardian.com/us-news/2026/oct/21/polling-fabricated-data-social-experiment"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Elon University poll has Cooper leading Whatley 52 to 39 in North Carolina Senate race.",
-          "url": "https://thehill.com/homenews/campaign/6163192-north-carolina-senate-polling-data/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Ramaswamy confirms his campaign made an ad featuring Amy Acton's estranged mother, and Axios reports a $4 million buy despite backlash.",
-          "url": "https://thehill.com/homenews/campaign/6161654-ramaswamy-attack-ad-amy-acton/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Los Angeles County officials say the DOJ's list of 20,000 likely noncitizen voters is unreliable, with some apparently US-born, NPR reports.",
-          "url": "https://www.npr.org/2026/10/20/nx-s1-6009873/california-doj-voter-rolls-noncitizens"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Qatar is leading intense mediation to prevent possible US attacks on Iran after the midterms; Gulf officials are braced for the worst. Trump says he is in no hurry for a deal, while Netanyahu presses him to strike.",
+      "summary": "Qatar is leading intense mediation to prevent possible US attacks on Iran after the midterms; Gulf states are braced for escalation. Oil fell on a report Trump will give diplomacy more time, while Netanyahu presses him to strike.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Oil declines after a report Trump wants to give Iran diplomacy more time before possibly resuming strikes after the midterms, Bloomberg says.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/latest-oil-market-news-and-analysis-for-nov-2"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "FT: Gulf states brace for escalation between the US-Israel alliance and Iran; diplomats warn renewed conflict would be more damaging than earlier rounds.",
+          "url": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-01",
           "text": "Gulf leaders meet in Qatar as mediators await Washington's reply to an Iranian proposal involving $6 billion in assets and reopening Hormuz.",
@@ -519,22 +529,22 @@
           "date": "2026-10-19",
           "text": "Vance says he is 'not getting involved' when asked whether he endorses Netanyahu, a day after Trump's endorsement.",
           "url": "https://thehill.com/homenews/administration/6159434-vance-declines-netanyahu-endorsement/"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Hegseth meets Netanyahu in Israel, Axios reports, amid US-Israeli talks on possibly resuming major combat operations.",
-          "url": "https://www.axios.com/2026/10/19/pete-hegseth-israel-visit-netanyahu-meeting"
         }
       ]
     },
     {
       "id": "sl-binance-hack",
       "title": "Binance $6.3 billion hack",
-      "summary": "A record $6.3 billion hack of Binance, blamed by the FBI on North Korean group TraderTraitor, led to suspended withdrawals. Binance resumed phased withdrawals and says 90% of losses are covered; TechCrunch reports 95%.",
+      "summary": "A record $6.3 billion hack of Binance, blamed by the FBI on North Korean group TraderTraitor, led to suspended withdrawals. Binance resumed phased withdrawals and says 90% of losses are covered; users have since withdrawn $3.6 billion, the BBC reports.",
       "status": "active",
       "first_seen": "2026-10-30",
       "last_updated": "2026-11-01",
       "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Binance users withdraw $3.6 billion after the exchange resumes transactions following the largest-ever crypto hack, the BBC reports.",
+          "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-01",
           "text": "Binance resumes phased withdrawals; TechCrunch reports 95% of stolen assets covered, while Binance's own figure reported elsewhere is 90%.",
@@ -544,6 +554,26 @@
           "date": "2026-11-01",
           "text": "Binance says 90% of losses are covered and withdrawals resume Sunday; FBI says North Korea-backed TraderTraitor is behind the attack.",
           "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
+        }
+      ]
+    },
+    {
+      "id": "sl-israel-election",
+      "title": "Israel election deadlock",
+      "summary": "Israel's election produced a deadlock, with an Arab coalition holding the balance of power after winning a record number of seats. Netanyahu claims the vote was 'stolen'; the election body says results stand.",
+      "status": "active",
+      "first_seen": "2026-11-01",
+      "last_updated": "2026-11-01",
+      "events": [
+        {
+          "date": "2026-11-01",
+          "text": "Israel's election body says the deadlocked result will stand even if foreign-interference claims are proven, as Netanyahu alleges the election was 'stolen'.",
+          "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss"
+        },
+        {
+          "date": "2026-11-01",
+          "text": "Arab coalition leader Yousef Jabareen says he is ready to join the opposition bloc to oust Netanyahu after record seat gains, the Guardian reports.",
+          "url": "https://www.theguardian.com/world/2026/nov/02/israel-opposition-bloc-arab-coalition-knesset-yousef-jabareen"
         }
       ]
     }

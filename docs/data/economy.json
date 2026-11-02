@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-11-01T22:36:44Z",
-  "read": "Inflation is re-accelerating at 3.7% and unemployment ticked up to 4.20%, while the Fed raised rates in September and held in October. Treasury yields eased slightly, mortgage rates remain above 7%, and a tech and credit selloff adds risk before Tuesday's midterms.",
+  "updated_at": "2026-11-02T07:21:18Z",
+  "read": "Inflation is re-accelerating at 3.7% and unemployment edged up to 4.2%, leaving the Fed under Chairman Kevin Warsh after a September hike. Long yields near 5% and 7.24% mortgages squeeze housing, while an AI-led tech selloff and high fuel prices weigh on sentiment before the midterms.",
   "indicators": [
     {
       "key": "fedfunds",
@@ -10,7 +10,7 @@
       "unit": "%",
       "as_of": "2026-11-01",
       "change": "up 0.25",
-      "note": "Raised in September; held in October"
+      "note": "Raised from 3.50–3.75 in September"
     },
     {
       "key": "fedfunds_effective",
@@ -36,8 +36,8 @@
       "value": "4.20",
       "unit": "%",
       "as_of": "2026-09-01",
-      "change": "up 0.1",
-      "note": "Slight rise in joblessness"
+      "change": "up 0.10",
+      "note": "Labor market loosening slightly"
     },
     {
       "key": "dgs10",
@@ -46,7 +46,7 @@
       "unit": "%",
       "as_of": "2026-10-29",
       "change": "down 0.07",
-      "note": "Yield dipped below 5%"
+      "note": "Yield slipped below 5%"
     },
     {
       "key": "dgs2",
@@ -55,7 +55,7 @@
       "unit": "%",
       "as_of": "2026-10-29",
       "change": "down 0.06",
-      "note": "Short yields eased with havens"
+      "note": "Short yields eased with the 10-year"
     },
     {
       "key": "mortgage30",
@@ -64,7 +64,7 @@
       "unit": "%",
       "as_of": "2026-10-29",
       "change": "down 0.08",
-      "note": "Still high, weighing on housing"
+      "note": "Still very high for buyers"
     }
   ],
   "fed": {
@@ -91,23 +91,28 @@
         "prob": 0.01
       }
     ],
-    "note": "Kalshi traders favor another quarter-point hike in December after inflation rose."
+    "note": "Kalshi traders see a December hike as likely after the Fed held rates in October."
   },
   "week_ahead": [
     {
       "date": "2026-11-02",
-      "event": "Apple quarterly earnings",
-      "why_it_matters": "Tests consumer demand and memory costs amid tech jitters."
+      "event": "Apple earnings under new CEO John Ternus",
+      "why_it_matters": "A read on consumer spending and memory costs amid the tech selloff."
     },
     {
       "date": "2026-11-03",
       "event": "US midterm elections",
-      "why_it_matters": "Control of Congress shapes budgets, tariffs and regulation."
+      "why_it_matters": "Control of Congress shapes policy, markets and the Iran war debate."
     },
     {
       "date": "2026-11-03",
       "event": "Supreme Court hears Colorado preschool case",
-      "why_it_matters": "Could shape rules for publicly funded religious schools."
+      "why_it_matters": "Tests religious liberty against LGBTQ rights in publicly funded preschools."
+    },
+    {
+      "date": "2026-11-04",
+      "event": "Treasury quarterly refunding announcement",
+      "why_it_matters": "Guidance could change long-bond sales and affect yields."
     }
   ]
 }

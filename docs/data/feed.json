@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-01T22:36:44Z",
+  "updated_at": "2026-11-02T07:21:18Z",
   "drops": [
     {
       "id": "2026-11-01T07",
@@ -13,6 +13,12 @@
       "at": "2026-11-01T22:36:44Z",
       "model": "claude-sonnet-5-5",
       "count": 34
+    },
+    {
+      "id": "2026-11-02T07",
+      "at": "2026-11-02T07:21:18Z",
+      "model": "claude-sonnet-5-5",
+      "count": 30
     }
   ],
   "cards": [
@@ -2602,6 +2608,903 @@
         }
       ],
       "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c01",
+      "drop": "2026-11-02T07",
+      "headline": "UN peacekeeping mission in Western Sahara ends after 35 years",
+      "summary": "The UN mission for disputed Western Sahara, MINURSO, ceased operations Sunday after 35 years. The territory, once ruled by Spain, is claimed by both Morocco and the pro-independence Polisario Front. The UN has warned of security risks.",
+      "why_it_matters": "The end of a long-running ceasefire monitor raises the risk of renewed conflict in North Africa, a region where the US has diplomatic interests.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "geopolitics"
+      ],
+      "entities": [
+        "United Nations",
+        "Morocco",
+        "Polisario Front"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T07:19:35.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "UN's peacekeeping mission in disputed Western Sahara ends after 35 years",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c02",
+      "drop": "2026-11-02T07",
+      "headline": "Hungary to publish names of communist-era informants",
+      "summary": "Hungary's new government will on Wednesday reveal the names of tens of thousands of state informants from 1945 to 1989, opening security police files in an effort to confront the past and rebuild public trust.",
+      "why_it_matters": "The release shows how Hungary's new government is reshaping its politics, with effects on a NATO and EU member's domestic stability.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Hungary"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T07:09:25.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "‘Traitors in every family’: Hungary to unmask communist-era informants and confront past",
+          "url": "https://www.theguardian.com/world/2026/nov/02/hungary-informant-names-revealed-communist-era-past"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c03",
+      "drop": "2026-11-02T07",
+      "headline": "Hebron governor says Israeli forces withdrew after 10-day siege",
+      "summary": "Hebron's governor, Khaled Dudin, said Israeli forces have pulled out of the West Bank city after a 10-day siege and that families forced from their homes can return. Nearly 5,000 people had been displaced, Al Jazeera reported.",
+      "why_it_matters": "The siege displaced thousands and adds to West Bank tensions that complicate US diplomacy in the region. The account comes from a Palestinian official.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Hebron",
+        "Israel",
+        "Khaled Dudin"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T22-c26",
+      "storyline_id": null,
+      "published_at": "2026-11-02T06:27:01.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Hebron governor says Israeli forces withdraw from city after 10-day siege",
+          "url": "https://www.aljazeera.com/news/2026/11/2/hebron-governor-says-israeli-forces-withdraw-from-city-after-10-day-siege?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c04",
+      "drop": "2026-11-02T07",
+      "headline": "Anthropic seeks up to $3.5 billion from Japan in US IPO",
+      "summary": "Anthropic aims to raise up to $3.5 billion from Japanese investors as part of its US initial public offering, Bloomberg reports, in a market starved of first-time listings.",
+      "why_it_matters": "A mega AI listing is a test of investor appetite for AI amid market jitters, and could affect retirement and index holdings.",
+      "region": "Global",
+      "topics": [
+        "ai",
+        "startups-vc",
+        "markets"
+      ],
+      "entities": [
+        "Anthropic",
+        "Japan"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T06:23:18.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Anthropic Seeks Up to $3.5 Billion in Japan for Its Mega US IPO",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/anthropic-seeks-up-to-3-5-billion-in-japan-for-its-mega-us-ipo"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c05",
+      "drop": "2026-11-02T07",
+      "headline": "Ryanair launches cost drive to offset $2 billion fuel surge",
+      "summary": "Ryanair will cut costs across its airline to offset a €2 billion ($2.2 billion) rise in fuel charges next year, as the Middle East conflict lifts oil prices and weighs on consumer willingness to book flights.",
+      "why_it_matters": "Higher jet fuel costs are feeding through to airfares and airline earnings, a pressure also hitting US carriers.",
+      "region": "Europe",
+      "topics": [
+        "energy",
+        "markets"
+      ],
+      "entities": [
+        "Ryanair"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T06:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Ryanair Initiates Cost Drive to Offset $2 Billion Fuel Surge",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/ryanair-initiates-cost-drive-to-offset-2-billion-jet-fuel-surge"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c06",
+      "drop": "2026-11-02T07",
+      "headline": "Blackstone leads $3.1 billion deal for LNG Canada stake",
+      "summary": "A Blackstone-led investor group agreed to buy a stake in LNG Canada's liquefaction business from a Mitsubishi subsidiary for $3.1 billion.",
+      "why_it_matters": "Large LNG investments signal how buyers are positioning for tight global gas supply during the Hormuz disruption.",
+      "region": "Americas",
+      "topics": [
+        "energy",
+        "markets"
+      ],
+      "entities": [
+        "Blackstone",
+        "LNG Canada",
+        "Mitsubishi"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T05:31:22.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Blackstone Leads $3.1 Billion Deal to Acquire LNG Canada Stake",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/blackstone-leads-3-1-billion-deal-to-acquire-lng-canada-stake"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c07",
+      "drop": "2026-11-02T07",
+      "headline": "China keeps Real Madrid off air after Mbappé Mao joke",
+      "summary": "China Media Group pulled La Liga matches after a joke by Kylian Mbappé seen as an insult to Mao Zedong. It acknowledged his apology but has not said how long the blackout will last; his weekend match was unavailable.",
+      "why_it_matters": "It shows how quickly Beijing can curb foreign sports and entertainment brands over perceived slights, a risk for global media companies.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "culture-sports"
+      ],
+      "entities": [
+        "Kylian Mbappé",
+        "Real Madrid",
+        "China Media Group"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T03:58:38.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "China state broadcaster pulls La Liga matches following Mbappé joke",
+          "url": "https://www.bbc.co.uk/news/articles/cq78pypg0800o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "China’s Mbappé Blackout Continues as Real Madrid Games Dropped",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/china-s-mbappe-blackout-continues-as-real-madrid-games-dropped"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c08",
+      "drop": "2026-11-02T07",
+      "headline": "Global AI selloff eases after Nasdaq's worst month in over a year",
+      "summary": "US equity futures rose in Asian trading and the FT said tech stocks were set to start the week higher after a rout that gave the Nasdaq its worst month in over a year. Japanese stocks fell.",
+      "why_it_matters": "Retirement accounts are heavily weighted to big tech, so whether the rout stabilizes affects savings and the wider economy.",
+      "region": "Global",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Nasdaq"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T22-c15",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-01T21:28:04.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
+          "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "US Stock Futures Gain After Selloff, Oil Declines: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c09",
+      "drop": "2026-11-02T07",
+      "headline": "US petrol prices set to hit record under Trump before midterms",
+      "summary": "The FT reports average fuel costs during Donald Trump's second term have passed Biden-era levels, with petrol heading for a record high as affordability dominates voters' concerns ahead of Tuesday's midterms.",
+      "why_it_matters": "Fuel is among the most visible household costs, and rising prices tied to the Iran war and Hormuz disruption are weighing on budgets.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "economy"
+      ],
+      "entities": [
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T05:00:26.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Petrol prices set to hit record high under Trump on eve of US elections",
+          "url": "https://www.ft.com/content/ee2748fb-9f85-4095-b599-526e5a4a6baa?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c10",
+      "drop": "2026-11-02T07",
+      "headline": "South Korea targets top sovereign AI model in record budget",
+      "summary": "South Korea's 2027 budget will rise 12.8% to 820.9 trillion won, including 21.3 trillion won for semiconductors, physical AI and AI data centers, with a goal of the world's highest-performing sovereign AI model.",
+      "why_it_matters": "State-backed AI and chip spending by a key US ally shapes global tech competition and supply chains.",
+      "region": "Asia",
+      "topics": [
+        "ai",
+        "chips",
+        "asia"
+      ],
+      "entities": [
+        "South Korea"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T06:02:03.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
+          "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c11",
+      "drop": "2026-11-02T07",
+      "headline": "Sam Altman makes surprise South Korea trip to meet chipmakers",
+      "summary": "OpenAI CEO Sam Altman made an unannounced visit to South Korea over the weekend, meeting Samsung executives and, reportedly, SK Group executives, as OpenAI builds on its chip partnerships.",
+      "why_it_matters": "Access to memory and AI chips is a main constraint on AI growth, affecting the cost of the technology Americans use.",
+      "region": "Asia",
+      "topics": [
+        "ai",
+        "chips"
+      ],
+      "entities": [
+        "OpenAI",
+        "Sam Altman",
+        "Samsung",
+        "SK Group"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T02:58:53.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Sam Altman makes surprise South Korea visit as OpenAI builds on chip partnerships",
+          "url": "https://www.cnbc.com/2026/11/02/openai-sam-altman-samsung-sk-south-korea.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c12",
+      "drop": "2026-11-02T07",
+      "headline": "Four US citizens among 69 dead in Spain train crash",
+      "summary": "Authorities say 69 people died in last week's high-speed train collision in Spain, one of Europe's deadliest rail accidents this century. Victims included 54 Spaniards and four US citizens, plus people from Canada, Japan and other countries.",
+      "why_it_matters": "American travelers were among the dead, and the crash will draw scrutiny of high-speed rail safety.",
+      "region": "Europe",
+      "topics": [
+        "autos-transport",
+        "europe"
+      ],
+      "entities": [
+        "Spain"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T01:06:13.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Spain train crash: US, Japan and Canada citizens among dead, authorities say",
+          "url": "https://www.theguardian.com/world/2026/nov/02/spain-train-crash-us-citizens-japan-canada-dead"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c13",
+      "drop": "2026-11-02T07",
+      "headline": "Air raid alert apps in Russia and Ukraine hit by cyberattacks",
+      "summary": "After the Kherson truce ended, Ukrainian users received fake nuclear-threat warnings and Ukraine blamed Russia, while Moscow reported 'false information' on its own alert app.",
+      "why_it_matters": "Attacks on civilian warning systems show cyber operations spreading in the war and risk panic and harm to civilians.",
+      "region": "Europe",
+      "topics": [
+        "cybersecurity",
+        "war-conflict"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-02T01:40:50.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
+          "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c14",
+      "drop": "2026-11-02T07",
+      "headline": "Oil falls on report Trump will give Iran diplomacy more time",
+      "summary": "Oil declined after a report that Trump wants to give diplomacy with Iran more time before possibly resuming strikes after Tuesday's midterms. The FT says Gulf states are braced for escalation, which diplomats warn would be more damaging than earlier fighting.",
+      "why_it_matters": "A renewed US-Iran war would raise fuel prices and endanger US forces and citizens across the Gulf.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "energy",
+        "war-conflict"
+      ],
+      "entities": [
+        "Iran",
+        "Donald Trump",
+        "Qatar"
+      ],
+      "importance": 4,
+      "follows": "2026-11-01T22-c06",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-01T23:11:50.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Latest Oil Market News and Analysis for Nov. 2",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/latest-oil-market-news-and-analysis-for-nov-2"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Gulf braced for escalation of war between US-Israel alliance and Iran",
+          "url": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c15",
+      "drop": "2026-11-02T07",
+      "headline": "Michigan Democrats act against Haley Stevens over Rogers endorsement",
+      "summary": "The Washington Examiner reports Stevens was removed from the Michigan Democratic Party and two aides resigned. Axios reports some House Democrats want her out of the caucus. Trump said he would 'love to have' her join the Republican Party.",
+      "why_it_matters": "The split exposes Democratic divisions in a tight Senate race that could help decide control of the chamber.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Haley Stevens",
+        "Mike Rogers",
+        "Abdul El-Sayed"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T22-c01",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-01T23:33:38.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Haley Stevens faces push for removal from House Dem caucus",
+          "url": "https://www.axios.com/2026/11/02/haley-stevens-house-democrats-remove-caucus"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Michigan Democrats in disarray after Haley Stevens endorses Mike Rogers and gets kicked out of party",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4787498/michigan-democrats-disarray-haley-stevens-endorses-mike-rogers/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Stevens defends endorsing Rogers during tense CNN interview",
+          "url": "https://thehill.com/homenews/campaign/6187753-haley-stevens-defends-endorsing-mike-rogers/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c16",
+      "drop": "2026-11-02T07",
+      "headline": "Trump holds final-weekend rallies in Iowa and Kansas",
+      "summary": "Trump rallied in Iowa and Kansas for Republican Senate candidates. The Guardian reports he repeatedly called Democrat Abdul El-Sayed a 'jihadist'. He also praised Rep. Haley Stevens' endorsement of Republican Mike Rogers. BBC says the rallies in states Republicans won before show how tight control could be.",
+      "why_it_matters": "The final pitch shows where each party sees risk, with control of Congress and the president's agenda at stake Tuesday.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Abdul El-Sayed",
+        "Ashley Hinson",
+        "Roger Marshall"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-01T22:37:36.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Trump makes fevered campaign push in final weekend before election",
+          "url": "https://www.bbc.co.uk/news/articles/c3j47gjx29vro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Trump launches racist diatribe against Abdul El-Sayed at Iowa rally",
+          "url": "https://www.theguardian.com/us-news/2026/nov/01/trump-iowa-rally"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Trump says he would ‘love to have’ Haley Stevens join Republican Party",
+          "url": "https://thehill.com/homenews/administration/6187354-trump-haley-stevens-join-republican-party/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c17",
+      "drop": "2026-11-02T07",
+      "headline": "Final Senate polls show narrow Democratic edge; late deciders lean GOP",
+      "summary": "NYT/Siena polls show Democrats ahead in seven competitive Senate races, mostly within the margin of error. Another poll released Sunday found late deciders in key races favor Republicans by nine points.",
+      "why_it_matters": "Close races mean Senate control may not be clear Tuesday night, and polls have missed before.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "New York Times",
+        "Siena University"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-02T03:03:49.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Democrats edge out Republicans in 7 heated Senate races: NYT polls",
+          "url": "https://thehill.com/homenews/6187749-democrats-edge-out-gop-senate-poll/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Late deciders favor Republicans in key Senate races by nine-point margin despite strong Democratic lead: Poll",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4787536/late-deciders-favor-republicans-despite-democratic-lead/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c18",
+      "drop": "2026-11-02T07",
+      "headline": "DOJ to appeal Alaska ruling as Sanders calls ballot scheme 'dumb'",
+      "summary": "Fox News reports the DOJ will appeal the dismissal of its suit over Alaska Senate certification. Sen. Bernie Sanders said alleged Democratic ballot-stacking was 'pretty dumb' but 'not illegal'; Mary Peltola has denied involvement.",
+      "why_it_matters": "The dispute could affect how and when a close Senate result in Alaska is certified.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "elections"
+      ],
+      "entities": [
+        "Department of Justice",
+        "Dan Sullivan",
+        "Mary Peltola",
+        "Bernie Sanders"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T22-c02",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-01T21:49:03.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Judge dismisses Trump administration's lawsuit over two Dan Sullivans in Alaska election",
+          "url": "https://www.bbc.co.uk/news/articles/cv4g1y02jejro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "DOJ set to appeal ruling in Alaska Senate race dispute over ‘Decoy Dan’",
+          "url": "https://www.foxnews.com/politics/doj-set-appeal-ruling-alaska-senate-race-dispute-over-decoy-dan"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Sanders says what Democrats did in Alaska 'seems to be pretty dumb'",
+          "url": "https://thehill.com/homenews/senate/6187375-sanders-alaska-ballot-stacking/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c19",
+      "drop": "2026-11-02T07",
+      "headline": "Khanna says Congress should stop funding further Iran war actions",
+      "summary": "Rep. Ro Khanna (D-Calif.) said the House and Senate should stop funding any further US military action in Iran, citing growing voter dissatisfaction with the war effort.",
+      "why_it_matters": "Congress's spending power is its main check on the war, and the midterm outcome could change that balance.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "war-conflict"
+      ],
+      "entities": [
+        "Ro Khanna",
+        "Iran"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T22:40:15.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Khanna says he'd stop funding further US military actions in Iran",
+          "url": "https://thehill.com/homenews/house/6187467-khanna-opposes-iran-war-funding/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c20",
+      "drop": "2026-11-02T07",
+      "headline": "South Carolina conservatives rally behind write-in against Trump's pick",
+      "summary": "As Trump backs Sen. Darline Graham, one conservative group is rallying around a write-in candidate, Ralph, in South Carolina's Senate race.",
+      "why_it_matters": "Intra-party resistance shows divisions among Republicans even in a safely red state.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Darline Graham",
+        "Donald Trump"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T04:31:02.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Write-In Ralph: South Carolina Republicans challenge Trump’s Senate pick",
+          "url": "https://www.aljazeera.com/news/2026/11/2/write-in-ralph-south-carolina-republicans-challenge-trumps-senate-pick?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c21",
+      "drop": "2026-11-02T07",
+      "headline": "Democrats eye state supreme court races this year and beyond",
+      "summary": "National groups are spending in battleground state judicial races, Politico reports, hoping to build liberal majorities on state high courts in two years.",
+      "why_it_matters": "State supreme courts rule on election rules, abortion and other issues that affect voters directly.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "elections"
+      ],
+      "entities": [
+        "Democratic Party"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-01T21:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Politico",
+          "title": "Democrats eye state supreme court races — this year and beyond",
+          "url": "https://www.politico.com/news/2026/11/01/state-supreme-court-midterm-elections-01144147"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c22",
+      "drop": "2026-11-02T07",
+      "headline": "Bulgaria's Iotova wins presidential runoff, first elected woman",
+      "summary": "Iliana Iotova won Bulgaria's presidential runoff, becoming the country's first elected female president, as exit polls had indicated.",
+      "why_it_matters": "Bulgaria is a NATO and EU member, and its presidency influences policy on Russia and Ukraine.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "elections"
+      ],
+      "entities": [
+        "Iliana Iotova",
+        "Bulgaria"
+      ],
+      "importance": 2,
+      "follows": "2026-11-01T22-c25",
+      "storyline_id": null,
+      "published_at": "2026-11-02T04:25:56.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Bulgaria has its first elected female president",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/bulgaria-has-its-first-elected-female-president?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c23",
+      "drop": "2026-11-02T07",
+      "headline": "Binance users withdraw $3.6 billion after record crypto hack",
+      "summary": "Binance users pulled $3.6 billion after the exchange resumed transactions it froze following the largest crypto hack ever, which has been linked to a North Korean group.",
+      "why_it_matters": "The outflow tests confidence in the largest crypto exchange, which holds savings for many US users.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "markets"
+      ],
+      "entities": [
+        "Binance",
+        "North Korea"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T22-c12",
+      "storyline_id": "sl-binance-hack",
+      "published_at": "2026-11-02T03:32:14.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
+          "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c24",
+      "drop": "2026-11-02T07",
+      "headline": "Antonelli becomes youngest Formula One world champion",
+      "summary": "Kimi Antonelli clinched the drivers' title at 20 years and 68 days by finishing third at the Mexico City Grand Prix.",
+      "why_it_matters": "A record-setting champion marks a generational change in a sport with a growing US audience.",
+      "region": "Global",
+      "topics": [
+        "culture-sports"
+      ],
+      "entities": [
+        "Kimi Antonelli"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T03:51:57.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Kimi Antonelli becomes Formula One’s youngest world champion in Mexico City",
+          "url": "https://www.aljazeera.com/sports/2026/11/2/kimi-antonelli-becomes-formula-ones-youngest-world-champion-in-mexico-city?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c25",
+      "drop": "2026-11-02T07",
+      "headline": "UK and Australia brace for central bank rate rises",
+      "summary": "The Bank of England is expected to begin raising rates this week, putting 2.3 million UK households facing remortgages at risk of higher payments. Australia's central bank is also expected to raise rates, and NSW Premier Chris Minns warned of job losses.",
+      "why_it_matters": "Rate hikes abroad echo the Fed's tightening and show inflation pressure from energy prices is global.",
+      "region": "Global",
+      "topics": [
+        "economy",
+        "fed-rates"
+      ],
+      "entities": [
+        "Bank of England",
+        "Reserve Bank of Australia",
+        "Chris Minns"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T06:00:34.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Millions in UK brace to remortgage on worse deals as rate rise looms",
+          "url": "https://www.theguardian.com/money/2026/nov/02/mortgage-payments-rise-2027-interest-rates"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Minns warns expected RBA rate rise will see ‘shops close that don’t reopen’ as pressure mounts on PM",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/02/minns-warns-rba-rate-rise-job-losses-economy"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c26",
+      "drop": "2026-11-02T07",
+      "headline": "UK has no coherent China policy, MPs warn",
+      "summary": "A Commons committee report says the UK is making China policy 'as it goes along', risking a strategy dictated by Washington or Beijing, hampering business and leaving national security risks unaddressed.",
+      "why_it_matters": "A key US ally's uncertainty on China affects coordination on tech controls, trade and security.",
+      "region": "Europe",
+      "topics": [
+        "china",
+        "geopolitics"
+      ],
+      "entities": [
+        "United Kingdom",
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T05:00:33.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "UK making up China policy ‘as it goes along’, MPs warn",
+          "url": "https://www.theguardian.com/politics/2026/nov/02/uk-making-up-china-policy-as-it-goes-along-mps"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c27",
+      "drop": "2026-11-02T07",
+      "headline": "FT: AI safety breaches raise doubts about labs' control of models",
+      "summary": "A Financial Times investigation says safety breaches are raising doubts about whether leading AI labs can keep increasingly powerful systems in check.",
+      "why_it_matters": "AI is rapidly entering workplaces and homes, so lapses in oversight carry real risks for users and consumers.",
+      "region": "Global",
+      "topics": [
+        "ai",
+        "policy-regulation"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T05:00:08.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "The race to keep AI under control",
+          "url": "https://ig.ft.com/ai-safety/?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c28",
+      "drop": "2026-11-02T07",
+      "headline": "Western Australia facial recognition trial scans a million faces",
+      "summary": "Police vans scanned more than a million faces over five months, producing 122 arrests and nine false alerts, according to the Guardian.",
+      "why_it_matters": "Real-time facial recognition raises privacy questions that US cities and states are also debating.",
+      "region": "Asia",
+      "topics": [
+        "policy-regulation",
+        "crime-justice",
+        "ai"
+      ],
+      "entities": [
+        "Western Australia Police"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T06:12:52.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-02T07-c29",
+      "drop": "2026-11-02T07",
+      "headline": "UAE oil chief urges bigger stockpiles and refining near users",
+      "summary": "The head of the UAE's biggest energy company said the world needs more oil storage and fuel production closer to consumers to handle the severe disruption to the Strait of Hormuz.",
+      "why_it_matters": "It signals the disruption is expected to last, with continued pressure on US fuel prices.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "geopolitics"
+      ],
+      "entities": [
+        "United Arab Emirates",
+        "Strait of Hormuz"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T06:35:19.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "UAE Oil Boss Calls for More Stockpiles, Refining Closer to Users",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-02/uae-oil-boss-calls-for-more-stockpiles-refining-closer-to-users"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-02T07-c30",
+      "drop": "2026-11-02T07",
+      "headline": "England to roll out child early-warning system in A&Es",
+      "summary": "NHS leaders say the world's largest paediatric early warning system, using a vital-signs scoring method to spot when sick children are deteriorating, is being introduced in A&E departments across England.",
+      "why_it_matters": "Standardized scoring to catch worsening illness in children is a model US hospitals could study.",
+      "region": "Europe",
+      "topics": [
+        "health"
+      ],
+      "entities": [
+        "NHS England"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T06:00:35.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "World’s largest early warning system for severe child illness to launch in NHS A&Es across England",
+          "url": "https://www.theguardian.com/society/2026/nov/02/nhs-early-warning-system-child-illness-england"
+        }
+      ],
+      "has_article": true
     }
   ]
 }
