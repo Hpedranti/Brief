@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-02T07:21:18Z",
+  "updated_at": "2026-11-03T07:38:47Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -60,11 +60,21 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "The US approved 500 Patriot missiles for Ukraine. The Oleshky truce has ended, Ukraine resumed strikes on Russian refineries despite Trump's pressure, and air raid alert apps in both countries were hit by cyberattacks.",
+      "summary": "The US will mediate Ukraine-Russia working-level talks in Abu Dhabi on Nov. 10-11. Russian bombing of an aid centre killed at least 26, Ukraine resumed refinery strikes despite Trump's pressure, and the US approved 500 Patriot missiles.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-01",
+      "last_updated": "2026-11-02",
       "events": [
+        {
+          "date": "2026-11-02",
+          "text": "Witkoff announces US-mediated Ukraine-Russia talks in Abu Dhabi on Nov. 10-11, restarting a track suspended in February.",
+          "url": "https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner"
+        },
+        {
+          "date": "2026-11-02",
+          "text": "Russian bombs hit an aid centre and shelter in southern Ukraine, killing at least 26; Zelenskyy calls the attack vile.",
+          "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha"
+        },
         {
           "date": "2026-11-01",
           "text": "Air raid alert apps in Ukraine and Russia are hit by cyberattacks after the truce ends; Ukraine blames Russia for fake nuclear warnings.",
@@ -149,32 +159,22 @@
           "date": "2026-10-20",
           "text": "Republicans push back on Trump's softer Russia stance; Rubio tells Zelenskyy Trump issued no order to harm Ukraine.",
           "url": "https://www.theguardian.com/us-news/2026/oct/20/republicans-push-back-trump-ukraine-russia"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Witkoff is traveling to Oslo for Tuesday talks with Zelenskyy and European leaders on a peace proposal, a US official says.",
-          "url": "https://www.axios.com/2026/10/20/russia-ukraine-peace-talks-trump-witkoff-oslo"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Zelenskyy lobbies a bipartisan group of senators to press the White House over alleged intelligence and weapons curbs.",
-          "url": "https://www.axios.com/2026/10/19/zelensky-blumenthal-tillis-ukraine-russia-war-intelligence"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Trump says Zelenskyy should nominate 'somebody else' to negotiate with Russia.",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4771238/trump-negotiations-ukraine-russia-zelensky/"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "Tech stocks ended the week lower as Big Tech earnings reignited AI spending fears, and credit investors describe a junk debt rout. The FT says the global AI selloff is easing after the Nasdaq's worst month in over a year, with US futures higher.",
+      "summary": "The Nasdaq-100 fell into its third correction this year as AI worries mounted, after Big Tech earnings reignited spending fears and a junk debt rout. Wall Street leaders dismiss bubble talk; Blackstone urges more equity funding.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-01",
+      "last_updated": "2026-11-02",
       "events": [
+        {
+          "date": "2026-11-02",
+          "text": "Nasdaq-100 tumbles into its third correction this year as AI worries mount, MarketWatch reports; Blackstone's Jon Gray calls for more equity to fund AI.",
+          "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories"
+        },
         {
           "date": "2026-11-01",
           "text": "FT says the global AI selloff eases after the Nasdaq's worst month in over a year; US stock futures gain in Asian trading.",
@@ -269,11 +269,6 @@
           "date": "2026-10-19",
           "text": "CoreWeave bonds slip into distressed territory, becoming a wider AI industry problem, The Verge reports.",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "DHS order removing DeepSeek from federal systems is published in the Federal Register.",
-          "url": "https://thehill.com/policy/technology/6159116-dhs-bans-chinese-deepseek-ai/"
         }
       ]
     },
@@ -315,11 +310,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "With Election Day Tuesday, Democrats are pursuing action against Rep. Haley Stevens after her Rogers endorsement. DOJ plans to appeal the Alaska ruling. NYT/Siena polls show Democrats narrowly ahead in seven Senate races; Decision Desk HQ sees a likely House flip.",
+      "summary": "Election Day is here. Final forecasts point to Democratic gains, the Supreme Court rejected DOJ's California ballot bid, and Michigan Democrats remain split over Rep. Haley Stevens's Rogers endorsement. DOJ charged 63 people with voting crimes.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-01",
+      "last_updated": "2026-11-02",
       "events": [
+        {
+          "date": "2026-11-02",
+          "text": "Supreme Court rejects the Trump administration's emergency bid to set aside about 20,000 California ballots, with no noted dissents.",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump"
+        },
+        {
+          "date": "2026-11-02",
+          "text": "Axios says final polls, models and markets forecast Democratic gains; Cook shifts Michigan Senate to lean Democratic.",
+          "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions"
+        },
         {
           "date": "2026-11-01",
           "text": "Stevens is removed from the Michigan Democratic Party, Washington Examiner reports; some House Democrats seek her removal from caucus, Axios reports.",
@@ -409,27 +414,27 @@
           "date": "2026-10-21",
           "text": "NPR poll shows record support for Democratic congressional candidates; FT reports a large Republican spending advantage.",
           "url": "https://www.npr.org/2026/10/21/nx-s1-6011179/poll-democrats-republicans-trump-approval"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Vance says he is disgusted by Republicans criticizing Ramaswamy's ad featuring Amy Acton's estranged mother.",
-          "url": "https://thehill.com/homenews/campaign/6163244-vance-criticizes-gop-ramaswamy-ad/"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Wedgewood Polls admits fabricating survey data; FCC chair Carr warns broadcasters about false polls.",
-          "url": "https://www.theguardian.com/us-news/2026/oct/21/polling-fabricated-data-social-experiment"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Qatar is leading intense mediation to prevent possible US attacks on Iran after the midterms; Gulf states are braced for escalation. Oil fell on a report Trump will give diplomacy more time, while Netanyahu presses him to strike.",
+      "summary": "The US launched limited strikes on Iran's Qeshm Island late Monday, calling them defensive, while mediators led by Qatar push a deal. Oil held steady; Trump told Axios he is in no rush to resume full fighting.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-01",
+      "last_updated": "2026-11-02",
       "events": [
+        {
+          "date": "2026-11-02",
+          "text": "US strikes radar and missile launchers on Iran's Qeshm Island, officials say defensively, a day before the midterms; oil steady.",
+          "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island"
+        },
+        {
+          "date": "2026-11-02",
+          "text": "Trump tells Axios he is 'in no rush' to decide whether to resume fighting in Iran.",
+          "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
+        },
         {
           "date": "2026-11-01",
           "text": "Oil declines after a report Trump wants to give Iran diplomacy more time before possibly resuming strikes after the midterms, Bloomberg says.",
@@ -514,32 +519,22 @@
           "date": "2026-10-20",
           "text": "Netanyahu says he discussed eliminating Iran's regime with Trump; Sen. Rick Scott backs renewed bombing if it speeds regime change.",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/netanyahu-says-he-discussed-eliminating-irans-regime-with-trump?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Pentagon weighs force posture and the cost of rebuilding Middle East bases, a senior defense official says.",
-          "url": "https://breakingdefense.com/2026/10/pentagon-weighs-force-posture-costs-of-rebuilding-middle-east-bases/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "UK to deploy RAF Typhoons on defensive missions over Saudi Arabia against Houthi attacks.",
-          "url": "https://www.theguardian.com/uk-news/2026/oct/20/uk-raf-typhoon-fighters-saudi-arabia-houthi-attacks"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Vance says he is 'not getting involved' when asked whether he endorses Netanyahu, a day after Trump's endorsement.",
-          "url": "https://thehill.com/homenews/administration/6159434-vance-declines-netanyahu-endorsement/"
         }
       ]
     },
     {
       "id": "sl-binance-hack",
       "title": "Binance $6.3 billion hack",
-      "summary": "A record $6.3 billion hack of Binance, blamed by the FBI on North Korean group TraderTraitor, led to suspended withdrawals. Binance resumed phased withdrawals and says 90% of losses are covered; users have since withdrawn $3.6 billion, the BBC reports.",
+      "summary": "A record $6.3 billion hack of Binance, blamed by the FBI on North Korean group TraderTraitor, led to suspended withdrawals. Binance resumed withdrawals and says 90% of losses are covered. North Korea now denies involvement; laundering may take months.",
       "status": "active",
       "first_seen": "2026-10-30",
-      "last_updated": "2026-11-01",
+      "last_updated": "2026-11-02",
       "events": [
+        {
+          "date": "2026-11-02",
+          "text": "North Korea denies being behind the hack; the FT reports hackers are expected to take months to launder the funds.",
+          "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-01",
           "text": "Binance users withdraw $3.6 billion after the exchange resumes transactions following the largest-ever crypto hack, the BBC reports.",

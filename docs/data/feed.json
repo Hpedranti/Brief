@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-02T07:21:18Z",
+  "updated_at": "2026-11-03T07:38:47Z",
   "drops": [
     {
       "id": "2026-11-01T07",
@@ -19,6 +19,12 @@
       "at": "2026-11-02T07:21:18Z",
       "model": "claude-sonnet-5-5",
       "count": 30
+    },
+    {
+      "id": "2026-11-03T07",
+      "at": "2026-11-03T07:38:47Z",
+      "model": "claude-sonnet-5-5",
+      "count": 46
     }
   ],
   "cards": [
@@ -3505,6 +3511,1437 @@
         }
       ],
       "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c01",
+      "drop": "2026-11-03T07",
+      "headline": "US strikes Iran's Qeshm Island on eve of midterms",
+      "summary": "The US launched limited strikes on Qeshm Island in the Strait of Hormuz late Monday, hitting radar and missile launchers. US officials described them as defensive against possible Iranian surface-to-air missile use. Oil prices held steady; Vance had voiced optimism about a deal.",
+      "why_it_matters": "Renewed US-Iran fighting risks Hormuz shipping and fuel prices, and tests mediation efforts just as Americans vote.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "geopolitics",
+        "energy"
+      ],
+      "entities": [
+        "Iran",
+        "United States",
+        "Qeshm Island",
+        "JD Vance"
+      ],
+      "importance": 5,
+      "follows": "2026-11-02T07-c14",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-03T02:16:12.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "US reportedly strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+          "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "US strikes Iran’s Qeshm Island on eve of election",
+          "url": "https://www.ft.com/content/ebeaca62-8958-459a-be9d-d3d39e441a53?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "US military strikes Iran’s Qeshm Island day before midterms",
+          "url": "https://thehill.com/policy/defense/6190947-us-strikes-iranian-radar-missiles/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c02",
+      "drop": "2026-11-03T07",
+      "headline": "Americans vote in midterms seen as referendum on Trump",
+      "summary": "Polls open Tuesday for midterm elections that will decide control of the House and Senate, both held by Republicans. First polls open in Vermont; results begin as polls close, but final outcomes in close races may take days.",
+      "why_it_matters": "The result will shape what President Trump can pass, how Congress oversees his administration, and policy on prices, immigration and the Iran war.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Republican Party",
+        "Democratic Party",
+        "Donald Trump"
+      ],
+      "importance": 5,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-03T07:00:43.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Americans head to polls in midterm elections seen as referendum on Trump",
+          "url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-elections-americans-vote"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "When will we know the US midterm election results?",
+          "url": "https://www.aljazeera.com/news/2026/11/3/when-will-we-know-the-us-midterm-election-results?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c03",
+      "drop": "2026-11-03T07",
+      "headline": "Supreme Court rejects Trump bid over 20,000 California ballots",
+      "summary": "The Supreme Court denied, in a one-sentence order with no noted dissents, the administration's emergency request to make California set aside ballots from about 20,000 voters it suspects are noncitizens. A federal judge separately barred the demand, finding it likely unconstitutional.",
+      "why_it_matters": "The rulings ease a federal-state clash over voter rolls on the eve of voting, though the administration says it is policing election integrity.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "elections",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Supreme Court",
+        "Department of Justice",
+        "California"
+      ],
+      "importance": 4,
+      "follows": "2026-11-01T07-c07",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-02T15:50:29.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+          "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Supreme Court denies Trump admin request to reverse block on segregating 20K California ballots",
+          "url": "https://www.foxnews.com/politics/supreme-court-denies-trump-admin-request-reverse-block-segregating-20k-california-ballots"
+        },
+        {
+          "outlet": "NPR",
+          "title": "The Supreme Court rejects a DOJ push to separate California ballots",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c04",
+      "drop": "2026-11-03T07",
+      "headline": "Final forecasts point to Democratic gains; Michigan leans blue",
+      "summary": "Axios says nearly every major poll, model and market forecasts Democratic gains. Cook Political Report moved its final Michigan Senate rating to lean Democratic, even after Rep. Haley Stevens endorsed Republican Mike Rogers. Some Democrats fear expectations are too high.",
+      "why_it_matters": "Forecasts can miss, but a Democratic House would give Congress new power to investigate and block Trump's agenda.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Cook Political Report",
+        "Mike Rogers",
+        "Abdul El-Sayed"
+      ],
+      "importance": 4,
+      "follows": "2026-11-02T07-c17",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-02T23:56:59.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Final polls, models and markets see a \"blue tsunami\"",
+          "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Michigan Senate race shifts to 'lean Democrat' in final Cook Political Report rating",
+          "url": "https://thehill.com/homenews/campaign/6190665-cook-political-report-michigan-senate/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c05",
+      "drop": "2026-11-03T07",
+      "headline": "DOJ charges 63 people with voting crimes day before election",
+      "summary": "The Justice Department announced charges against 63 people in 15 states on Monday for election-related offenses including illegal voting, fraudulent registration and false claims of citizenship. It described the action as part of a crackdown on alleged voter fraud.",
+      "why_it_matters": "The announcement lands as courts have rebuffed several DOJ election moves; critics argue the timing is political, while the department cites enforcement.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "elections"
+      ],
+      "entities": [
+        "Department of Justice"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-03T00:35:31.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "DOJ charges 63 people with voting-related crimes day before midterm elections",
+          "url": "https://www.washingtonexaminer.com/news/justice/4788901/doj-charges-63-people-voter-fraud-midterm-elections/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c06",
+      "drop": "2026-11-03T07",
+      "headline": "Judge tosses case against ex-FBI officials in Hunter Biden probe",
+      "summary": "A federal judge dismissed charges against two former FBI officials accused of lying to Congress about the Hunter Biden investigations. He said he was deeply troubled by mistakes and the rushed nature of the case, citing a DOJ 'weaponization'; Fox says he blamed Trump and Kash Patel.",
+      "why_it_matters": "The ruling is another judicial check on politically charged Justice Department prosecutions ahead of the midterms.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "crime-justice"
+      ],
+      "entities": [
+        "Department of Justice",
+        "Kash Patel"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T14:58:33.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Judge accuses DOJ of 'weaponization,' tosses case against ex-FBI officials",
+          "url": "https://www.npr.org/2026/11/02/g-s1-151242/judge-tosses-case-fbi-officials-hunter-biden"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Judge tosses case against ex-FBI officials accused of lying to Congress about Hunter Biden investigation",
+          "url": "https://www.foxnews.com/politics/judge-tosses-case-against-ex-fbi-officials-accused-lying-congress-hunter-biden-investigation"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c07",
+      "drop": "2026-11-03T07",
+      "headline": "US to mediate Ukraine-Russia talks in Abu Dhabi on Nov. 10-11",
+      "summary": "Envoy Steve Witkoff said the US will mediate working-level negotiations between Ukraine and Russia in Abu Dhabi on November 10-11. Axios says the effort restarts a diplomatic track suspended in February because of the Iran war.",
+      "why_it_matters": "A revived peace track could shape the war's course, European security and US aid commitments.",
+      "region": "Europe",
+      "topics": [
+        "geopolitics",
+        "war-conflict"
+      ],
+      "entities": [
+        "Steve Witkoff",
+        "Ukraine",
+        "Russia"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-03T00:01:03.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "U.S., Russia and Ukraine to resume peace talks in Abu Dhabi next week, Witkoff says",
+          "url": "https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "US to mediate Ukraine-Russia talks in Abu Dhabi next week, Witkoff says",
+          "url": "https://thehill.com/policy/international/6190973-witkoff-announces-abu-dhabi-peace-negotiations/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c08",
+      "drop": "2026-11-03T07",
+      "headline": "Russian bombing kills at least 26 at Ukraine aid centre",
+      "summary": "Russian bombs hit an aid distribution centre and nearby shelter in a southern Ukrainian village, killing at least 26 people, Ukrainian officials said. The toll later rose to 29 in BBC reporting. Zelenskyy called the attack horrific; Russia's account was not given in the sources.",
+      "why_it_matters": "The strike came days before planned US-mediated talks and shows civilians still bearing the war's cost.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia",
+        "Volodymyr Zelenskyy"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-03T01:13:52.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+          "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Russian bombing of Ukrainian aid centre kills at least 26, Kyiv says",
+          "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c09",
+      "drop": "2026-11-03T07",
+      "headline": "Drones hit Russia's Yanos refinery as Ukraine steps up strikes",
+      "summary": "Russia's Yanos oil refinery was damaged in a massive overnight drone attack, Bloomberg reports, as Ukraine resumed strikes on Russian energy infrastructure after a local truce ended.",
+      "why_it_matters": "Attacks on Russian refineries affect global fuel supply and tension between Kyiv and Washington over targeting.",
+      "region": "Europe",
+      "topics": [
+        "energy",
+        "war-conflict"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia",
+        "Yanos refinery"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T22-c09",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-03T06:47:06.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Drones Hit Russia’s Yanos Refinery as Ukraine Steps Up Strikes",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/drones-hit-russia-s-yanos-refinery-as-ukraine-steps-up-strikes"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c10",
+      "drop": "2026-11-03T07",
+      "headline": "Apple posts record iPhone sales but warns of memory chip costs",
+      "summary": "Apple reported $57.58 billion in iPhone revenue, up 17%, and predicted a strong holiday season. It warned of unprecedented memory chip costs and a weaker services outlook; shares fell. Supply of its $2,000 foldable iPhone Duo remains constrained.",
+      "why_it_matters": "Higher chip costs could raise device prices, and Apple's results are a gauge of consumer spending and tech stocks.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "chips",
+        "markets"
+      ],
+      "entities": [
+        "Apple",
+        "John Ternus"
+      ],
+      "importance": 4,
+      "follows": "2026-11-01T22-c16",
+      "storyline_id": null,
+      "published_at": "2026-11-02T22:02:36.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Apple set an iPhone sales record even without a new standard iPhone",
+          "url": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Apple warns ‘unprecedented’ memory chip costs will hit margins",
+          "url": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
+          "url": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c11",
+      "drop": "2026-11-03T07",
+      "headline": "Marvell to buy Lumentum for $115 billion",
+      "summary": "Marvell agreed to an all-stock purchase of Lumentum for $115 billion, one of the largest tech deals ever, aimed at AI connectivity. Nvidia is a strategic investor in both. Shares of both fell Monday and some shareholders criticized the terms; closing is expected in 2028.",
+      "why_it_matters": "The deal shows how much capital is chasing AI infrastructure even as investors worry about the sector's debt and valuations.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "ai",
+        "markets"
+      ],
+      "entities": [
+        "Marvell",
+        "Lumentum",
+        "Nvidia"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T17:54:11.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "In one of the largest deals in tech history, Marvell buys Lumentum for $115B",
+          "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’",
+          "url": "https://www.marketwatch.com/story/marvell-and-lumentum-shareholders-unite-in-panning-merger-deal-its-a-trash-offer-53a9f307?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c12",
+      "drop": "2026-11-03T07",
+      "headline": "Palantir's US commercial revenue tops government for first time",
+      "summary": "Palantir said commercial revenue rose 148% to $984 million, passing government revenue of $953 million. Its stock fell anyway as some analysts noted slowing US commercial contract growth.",
+      "why_it_matters": "It is a data point on whether businesses are paying for AI at scale amid bubble worries.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "markets",
+        "big-tech"
+      ],
+      "entities": [
+        "Palantir"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T22:53:20.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Palantir reports booming U.S. commercial revenue growth, topping government for first time",
+          "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+          "url": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c13",
+      "drop": "2026-11-03T07",
+      "headline": "Anthropic's revised filing shows $17 billion in quarterly revenue",
+      "summary": "A revised S-1 shows Anthropic had $17 billion in third-quarter revenue and purchase commitments of $895.4 billion. The first filing only covered financials through the first half of the year.",
+      "why_it_matters": "The numbers show the scale of AI demand and of spending commitments behind it, ahead of one of the biggest tech IPOs.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "startups-vc",
+        "markets"
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "importance": 4,
+      "follows": "2026-11-02T07-c04",
+      "storyline_id": null,
+      "published_at": "2026-11-02T17:52:01.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c14",
+      "drop": "2026-11-03T07",
+      "headline": "Anthropic says it is close to AI that can improve itself",
+      "summary": "Anthropic warned it is very close to recursive self-improvement, the point at which AI trains itself well enough to sharply accelerate its own capabilities, TechCrunch reports. Some AI safety advocates see that threshold as a major risk.",
+      "why_it_matters": "A leading lab flagging the threshold raises questions about oversight and regulation of fast-advancing AI.",
+      "region": "US",
+      "topics": [
+        "ai"
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T22:14:50.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c15",
+      "drop": "2026-11-03T07",
+      "headline": "Nasdaq-100 falls into third correction this year",
+      "summary": "The Nasdaq-100 tumbled into its third correction of 2026 as AI worries mounted. Blackstone's Jon Gray separately argued AI buildout needs more equity as debt risks mount, while other Wall Street leaders dismissed bubble fears.",
+      "why_it_matters": "Tech dominates US retirement portfolios, so a deeper slide or AI funding stress would hit household wealth.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Nasdaq-100",
+        "Blackstone"
+      ],
+      "importance": 4,
+      "follows": "2026-11-02T07-c08",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-03T00:03:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+          "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
+          "url": "https://www.cnbc.com/2026/11/03/equity-ai-debt-blackstone-pimco-financing.html"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c16",
+      "drop": "2026-11-03T07",
+      "headline": "Nvidia tells cloud clients to cut China exposure",
+      "summary": "Nvidia has told data centre cloud providers that a majority of their customers must be non-Chinese, the Financial Times reports.",
+      "why_it_matters": "It shows how US-China tech tensions are shaping who can access leading AI chips.",
+      "region": "Global",
+      "topics": [
+        "chips",
+        "china",
+        "trade"
+      ],
+      "entities": [
+        "Nvidia",
+        "China"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T05:00:13.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Nvidia orders data centre clients to reduce China exposure",
+          "url": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c17",
+      "drop": "2026-11-03T07",
+      "headline": "Australia raises rates to 4.85%, highest since 2008",
+      "summary": "The Reserve Bank of Australia raised its cash rate from 4.6% to 4.85%, its fifth increase this year, as expected. Governor Michele Bullock said some pain now would prevent worse pain later.",
+      "why_it_matters": "Central banks abroad are still tightening against inflation, a signal for how long US rates may stay high.",
+      "region": "Asia",
+      "topics": [
+        "fed-rates",
+        "economy"
+      ],
+      "entities": [
+        "Reserve Bank of Australia",
+        "Michele Bullock"
+      ],
+      "importance": 3,
+      "follows": "2026-11-02T07-c25",
+      "storyline_id": null,
+      "published_at": "2026-11-03T03:46:20.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "RBA interest rates: Bullock says ‘some pain now’ will prevent worse pain later as Reserve Bank hikes rates for fifth time",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Australia hikes rates to 18-year high to fight inflation",
+          "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c18",
+      "drop": "2026-11-03T07",
+      "headline": "Borsa Istanbul chief arrested in investment fund probe",
+      "summary": "Turkish authorities arrested Borsa Istanbul CEO Korkmaz Ergun on bribery charges, state-run Anadolu reported, part of a widening investigation into Turkey's investment fund crisis.",
+      "why_it_matters": "The probe is testing confidence in Turkish markets, a major emerging-market economy.",
+      "region": "Europe",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "Borsa Istanbul",
+        "Korkmaz Ergun",
+        "Turkey"
+      ],
+      "importance": 2,
+      "follows": "2026-11-01T07-c37",
+      "storyline_id": null,
+      "published_at": "2026-11-03T07:10:25.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Turkish Stock Market Chief Arrested in Funds Probe, Anadolu Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/turkish-stock-market-chief-arrested-in-funds-probe-anadolu-says"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c19",
+      "drop": "2026-11-03T07",
+      "headline": "Mideast oil metrics show supply outpacing demand",
+      "summary": "Middle East oil market indicators show near-term supply outpacing demand for the first time since July, as crude keeps flowing through Hormuz. Trump touted a fall in oil prices in his closing midterm speech.",
+      "why_it_matters": "Lower crude could ease record US gasoline prices, though renewed strikes on Iran threaten that.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "markets"
+      ],
+      "entities": [
+        "Strait of Hormuz",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T23:07:49.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Mideast Oil Prices Weaken as Crude Keeps Flowing Through Hormuz",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/middle-east-oil-markets-flash-signs-of-abundance-as-flows-rise"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Trump touts oil price dip in closing speech",
+          "url": "https://thehill.com/newsletters/energy-environment/6190523-trump-touts-oil-price-dip-in-closing-speech/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c20",
+      "drop": "2026-11-03T07",
+      "headline": "IEA warns gas market tightness could last into 2027",
+      "summary": "The International Energy Agency says global gas tightness could extend well into next year, with Europe at risk of ending winter with record-low inventories that must then be refilled.",
+      "why_it_matters": "Tight gas supply lifts energy costs worldwide, including US LNG prices and manufacturing costs.",
+      "region": "Europe",
+      "topics": [
+        "energy",
+        "economy"
+      ],
+      "entities": [
+        "International Energy Agency",
+        "Europe"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T06:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "IEA Issues Warning on Gas Market Tightness Extending Into 2027",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/iea-issues-warning-on-gas-market-tightness-extending-into-2027"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c21",
+      "drop": "2026-11-03T07",
+      "headline": "North Korea denies being behind $6.3 billion Binance hack",
+      "summary": "North Korea denied involvement in the record Binance hack, which US agencies and analysts have blamed on Pyongyang. The FT reports the hackers are expected to take months to launder the funds, which have been split into small packages.",
+      "why_it_matters": "Stolen crypto helps fund sanctioned North Korean programs, and the laundering trail will test exchanges and regulators.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "markets"
+      ],
+      "entities": [
+        "Binance",
+        "North Korea",
+        "FBI"
+      ],
+      "importance": 3,
+      "follows": "2026-11-02T07-c23",
+      "storyline_id": "sl-binance-hack",
+      "published_at": "2026-11-03T05:00:13.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "North Korea denies being behind record $6.3bn Binance hack",
+          "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "North Korean hackers expected to take months to launder Binance billions",
+          "url": "https://www.ft.com/content/a6212e33-2175-4957-91d1-8f8f6bc3918b?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c22",
+      "drop": "2026-11-03T07",
+      "headline": "New York child dies of measles, state's first in 30 years",
+      "summary": "A child in rural northern New York has died after contracting measles, the state's first measles death in 30 years, officials said. Gov. Kathy Hochul called it a reminder of what is at stake when vaccine protections erode.",
+      "why_it_matters": "Measles is preventable by vaccine; falling coverage has brought back deaths once thought rare.",
+      "region": "US",
+      "topics": [
+        "health"
+      ],
+      "entities": [
+        "New York State",
+        "Kathy Hochul"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T05:48:26.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "New York child dies from measles in state’s first fatal case in 30 years",
+          "url": "https://www.theguardian.com/society/2026/nov/03/new-york-child-measles-death-first-in-30-years"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c23",
+      "drop": "2026-11-03T07",
+      "headline": "Washington state resident dies of bird flu after cattle exposure",
+      "summary": "A Washington state resident died of bird flu complications after exposure to infected cattle, the first such US death in a year and the third since the virus began jumping to livestock. Health officials still rate the public threat as low.",
+      "why_it_matters": "The virus keeps spreading in livestock, raising questions about farm worker protection and pandemic preparedness.",
+      "region": "US",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "Washington state"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T20:44:40.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "Washington state resident dies from bird flu following exposure to infected cattle",
+          "url": "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/?utm_campaign=rss"
+        },
+        {
+          "outlet": "Ars Technica",
+          "title": "Third person dies of bird flu since virus started jumping to livestock",
+          "url": "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c24",
+      "drop": "2026-11-03T07",
+      "headline": "FDA approves generic HIV prevention shot",
+      "summary": "The FDA approved a generic version of the injectable HIV prevention drug lenacapavir, a step toward wider access in lower-income countries. An Indian maker pledges to sell it there for $40 a year.",
+      "why_it_matters": "Cheap long-acting prevention could cut new HIV infections globally and reflects a shift in US-regulated drug access.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "FDA",
+        "Dr. Reddy's"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T05:25:45.000Z",
+      "sources": [
+        {
+          "outlet": "Science",
+          "title": "U.S. approval of cheap, generic HIV prevention shot may boost global rollout",
+          "url": "https://www.science.org/content/article/u-s-approval-cheap-generic-hiv-prevention-shot-may-boost-global-rollout"
+        },
+        {
+          "outlet": "STAT",
+          "title": "STAT+: FDA OKs generic HIV prevention shot, widening access for lower-income countries",
+          "url": "https://www.statnews.com/pharmalot/2026/11/02/lenacapavir-generic-version-approved-fda-hiv-prevention-dr-reddys/?utm_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c25",
+      "drop": "2026-11-03T07",
+      "headline": "UK and EU agree draft deal to cut food export red tape",
+      "summary": "The UK and EU agreed a draft deal to scrap Brexit-era checks on food exports, ahead of a summit later this month. The BBC calls it the most significant part of the Brexit reset so far.",
+      "why_it_matters": "Easier UK-EU trade affects a major US ally and trading partner's economy and its alignment with Europe.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "trade"
+      ],
+      "entities": [
+        "United Kingdom",
+        "European Union"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T02:11:13.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c26",
+      "drop": "2026-11-03T07",
+      "headline": "Trump to remove Rwanda and South Africa from US trade deal",
+      "summary": "The Trump administration plans to remove Rwanda and South Africa from a US trade arrangement, the BBC reports, a week after the US Treasury sanctioned Rwanda's defence ministry.",
+      "why_it_matters": "It could raise tariffs on African exports and reflects a hardening US posture toward both countries.",
+      "region": "Africa",
+      "topics": [
+        "trade",
+        "africa",
+        "geopolitics"
+      ],
+      "entities": [
+        "Rwanda",
+        "South Africa",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T03:00:36.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Trump to remove Rwanda and South Africa from US trade deal",
+          "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c27",
+      "drop": "2026-11-03T07",
+      "headline": "Australia's High Court hears challenge to under-16 social media ban",
+      "summary": "Reddit and the Digital Freedom Project argue Australia's under-16 social media ban is unconstitutional. Reddit told the High Court the 2024 law was rushed and over-broad and impinges on the implied freedom of political communication.",
+      "why_it_matters": "The case could decide whether other countries, including US states weighing similar limits, can restrict teens' access.",
+      "region": "Asia",
+      "topics": [
+        "policy-regulation",
+        "courts",
+        "big-tech"
+      ],
+      "entities": [
+        "Reddit",
+        "Australia",
+        "High Court of Australia"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T06:36:58.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Australia’s social media ban ‘ill-thought-out’, Reddit argues in high court challenge",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Australia’s High Court hears bid to overturn under-16s social media ban",
+          "url": "https://www.aljazeera.com/news/2026/11/3/australias-high-court-hears-bid-to-overturn-under-16s-social-media-ban?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c28",
+      "drop": "2026-11-03T07",
+      "headline": "Israeli forces kill four in Gaza despite ceasefire",
+      "summary": "Israeli forces killed four Palestinians in Gaza and a fifth died of wounds, Al Jazeera reports. It says nearly 1,600 Palestinians have been killed since the US-brokered ceasefire took effect last October. Al Jazeera also reports West Bank closures.",
+      "why_it_matters": "Continued deaths under the ceasefire strain a US-backed truce and complicate regional diplomacy.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Gaza",
+        "Israel"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T05:02:34.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israeli forces kill four in Gaza as fifth Palestinian dies of wounds",
+          "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds?traffic_source=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Palestine weekly: Election deadlock meets West Bank sieges, Gaza killings",
+          "url": "https://www.aljazeera.com/news/2026/11/3/palestine-weekly-election-deadlock-meets-west-bank-sieges-gaza-killings?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c29",
+      "drop": "2026-11-03T07",
+      "headline": "Germany says lawmakers' iPhones may have been hit by spyware",
+      "summary": "German lawmakers and a filmmaker received Apple notifications warning their phones may have been hacked, and Germany said the devices may have been targeted with spyware.",
+      "why_it_matters": "Spyware targeting officials in a NATO ally raises security and privacy concerns for users of widely used phones.",
+      "region": "Europe",
+      "topics": [
+        "cybersecurity",
+        "europe"
+      ],
+      "entities": [
+        "Germany",
+        "Apple"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T19:45:54.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Germany says lawmakers’ iPhones may have been hacked with spyware",
+          "url": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c30",
+      "drop": "2026-11-03T07",
+      "headline": "Google says Android partner turned 1.3 million boxes into botnet",
+      "summary": "Google says Shenzhen-based Videostrong Technology secretly built a backdoor into 1.3 million Android set-top boxes and turned them into a botnet. Google says it dismantled the backdoor and cut ties with the manufacturer.",
+      "why_it_matters": "Cheap connected devices in US homes can be quietly hijacked, a supply-chain risk for consumers.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "big-tech"
+      ],
+      "entities": [
+        "Google",
+        "Videostrong Technology"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T20:37:49.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "One of Google’s Android partners turned 1.3 million set-top boxes into a botnet",
+          "url": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c31",
+      "drop": "2026-11-03T07",
+      "headline": "Officials suspect Iran in cyberattacks on military base freezers",
+      "summary": "Officials suspect Iran of a series of cyberattacks on military base freezers and of backing recent attacks on US water-treatment equipment, Defense One reports.",
+      "why_it_matters": "It suggests Iran is targeting everyday US infrastructure as conflict persists.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "defense"
+      ],
+      "entities": [
+        "Iran",
+        "Department of Defense"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-02T14:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Defense One",
+          "title": "Officials suspect Iran of cyberattacks on military base freezers",
+          "url": "https://www.defenseone.com/threats/2026/11/officials-suspect-iran-series-cyberattacks-military-base-freezers/416992/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c32",
+      "drop": "2026-11-03T07",
+      "headline": "OpenAI hires former Army Secretary Dan Driscoll",
+      "summary": "OpenAI hired former US Army Secretary Dan Driscoll for a newly created national security role focused on modernization.",
+      "why_it_matters": "It deepens ties between leading AI labs and the Pentagon as the military adopts AI.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "defense"
+      ],
+      "entities": [
+        "OpenAI",
+        "Dan Driscoll"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T02:47:57.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "OpenAI hires former U.S. Army Secretary Dan Driscoll for national security role",
+          "url": "https://www.cnbc.com/2026/11/03/openai-hires-dan-driscoll-national-security.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c33",
+      "drop": "2026-11-03T07",
+      "headline": "China sets out plan for crewed lunar landing within three years",
+      "summary": "China publicly disclosed a timeline for landing on the Moon, targeting before 2030, Ars Technica reports. The plan does not include a mission like Apollo 8 or Artemis II.",
+      "why_it_matters": "It sharpens the US-China race to return humans to the Moon.",
+      "region": "Asia",
+      "topics": [
+        "space",
+        "china"
+      ],
+      "entities": [
+        "China",
+        "NASA"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T17:09:13.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "China publicly discloses plan for a lunar landing within three years",
+          "url": "https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c34",
+      "drop": "2026-11-03T07",
+      "headline": "Shareholders approve $2.5 billion Agility Robotics SPAC",
+      "summary": "Churchill Capital XI shareholders approved a $2.5 billion SPAC merger with Agility Robotics, maker of the Digit humanoid. The deal is expected to provide about $465 million in gross capital.",
+      "why_it_matters": "It is a test of public-market appetite for humanoid robots entering US warehouses and factories.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "startups-vc"
+      ],
+      "entities": [
+        "Agility Robotics",
+        "Churchill Capital XI"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T00:15:39.000Z",
+      "sources": [
+        {
+          "outlet": "The Robot Report",
+          "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+          "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c35",
+      "drop": "2026-11-03T07",
+      "headline": "Apple reportedly plans $1,000 home robot for 2027",
+      "summary": "Apple is reportedly planning a roaming home robot for 2027, backed by CEO John Ternus, that could do FaceTime calls and switch on lights. It may cost around $1,000 with limited uses, according to Ars Technica.",
+      "why_it_matters": "It would mark Apple's entry into consumer robotics, an unproven market.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "big-tech"
+      ],
+      "entities": [
+        "Apple",
+        "John Ternus"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T18:32:21.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+          "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c36",
+      "drop": "2026-11-03T07",
+      "headline": "Trump closes midterm campaign touting Washington renovations",
+      "summary": "In what is expected to be his last public address before the vote, Trump promoted projects including the Reflecting Pool, new pipes, a promenade and a White House helipad. Axios says he repeated debunked vandalism claims; the White House position was not detailed in the sources.",
+      "why_it_matters": "The closing message shows what the president chose to stress as polls point to Democratic gains.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-02T20:48:47.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Trump offered a closing message to voters by touting his D.C. renovations",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6026399/trump-offered-a-closing-message-to-voters-by-touting-his-d-c-renovations"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Trump pre-election pitch: Reflecting Pool, pipes and a new promenade",
+          "url": "https://www.axios.com/2026/11/02/trump-dc-projects-reflecting-pool-speech"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "‘A massive piece of pool’: Trump talks algae and grass in final midterm push",
+          "url": "https://www.ft.com/content/6ec53c14-0186-4b58-86db-cf200131680f?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c37",
+      "drop": "2026-11-03T07",
+      "headline": "Trump says he would protect Musk, floats pre-emptive pardons",
+      "summary": "Trump said he would move to protect Elon Musk if Democrats investigate him after the midterms, and suggested possible pre-emptive pardons for staff and others around him if Democrats win, Axios reports.",
+      "why_it_matters": "It previews the oversight fight if Democrats take Congress and the limits of presidential clemency power.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Elon Musk"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T12:38:14.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump vows to protect Musk, floats pre-emptive staff pardons",
+          "url": "https://www.axios.com/2026/11/02/trump-musk-democrats"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c38",
+      "drop": "2026-11-03T07",
+      "headline": "National Guard to play roles at polls in at least seven states",
+      "summary": "National Guard members in at least seven states will have election-related roles, from monitoring ballot boxes in seven Washington counties to defending election networks from cyberattacks, The Hill reports.",
+      "why_it_matters": "The presence of troops near voting is sensitive; states describe the roles as security and cyber support.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections",
+        "cybersecurity"
+      ],
+      "entities": [
+        "National Guard"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T22:56:35.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "How National Guard units are being deployed around the midterm elections",
+          "url": "https://thehill.com/homenews/6190539-states-deploying-guardsmen-cybersecurity/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c39",
+      "drop": "2026-11-03T07",
+      "headline": "Mamdani threatens to sue over ICE use of city-owned lots",
+      "summary": "New York Mayor Zohran Mamdani threatened legal action against ICE over agents allegedly staging immigration enforcement operations in city-owned parking lots, Fox News reports.",
+      "why_it_matters": "It is a new city-federal clash over immigration enforcement in the nation's largest city.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Zohran Mamdani",
+        "ICE"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T04:58:37.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Mamdani threatens to sue Trump admin over ICE's use of city-owned lots for immigration enforcement",
+          "url": "https://www.foxnews.com/politics/mamdani-threatens-sue-trump-admin-ices-use-city-owned-lots-immigration-enforcement"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c40",
+      "drop": "2026-11-03T07",
+      "headline": "Talarico says he would work with Trump; Paxton makes final pitch",
+      "summary": "Texas Democratic Senate nominee James Talarico said he would work with Trump on parts of the MAGA agenda. Republican Ken Paxton and Talarico made final appeals before Tuesday's vote.",
+      "why_it_matters": "Texas is one of the most expensive Senate races and a test of Democrats' reach in red states.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "James Talarico",
+        "Ken Paxton",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": "2026-11-01T07-c06",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-02T23:52:37.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Talarico says he wants to work with Trump on bipartisan MAGA agenda",
+          "url": "https://thehill.com/homenews/campaign/6190917-james-talarico-donald-trump-maga/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Talarico says he’d work with Trump to fulfill ‘promise’ of MAGA: ‘There’s still time’",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4788790/james-talarico-trump-maga-promise-texas/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Texas Senate candidates Paxton and Talarico make final appeals",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/texas-senate-candidates-paxton-and-talarico-make-final-appeals?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c41",
+      "drop": "2026-11-03T07",
+      "headline": "Congo seizes copper and cobalt, orders illegal mining probe",
+      "summary": "Congolese officials seized thousands of tons of copper and cobalt, and the justice minister ordered an investigation into allegations of widespread illegal mining, Bloomberg reports.",
+      "why_it_matters": "Congo supplies much of the world's cobalt, key for batteries and electronics.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "economy",
+        "trade"
+      ],
+      "entities": [
+        "Democratic Republic of Congo"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T07:25:50.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Congo to Probe Illegal Mining After Seizing Copper and Cobalt",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/congo-to-probe-illegal-mining-after-seizing-copper-and-cobalt"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-03T07-c42",
+      "drop": "2026-11-03T07",
+      "headline": "Saab launches AI agents for future fighter projects",
+      "summary": "Sweden's Saab launched a family of AI agents for future aircraft, built through an AI Fighter Jet Pilot Academy that will create, train and evaluate them, the company says.",
+      "why_it_matters": "It shows allied militaries moving toward autonomous combat aircraft.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "ai"
+      ],
+      "entities": [
+        "Saab"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T06:56:00.000Z",
+      "sources": [
+        {
+          "outlet": "Breaking Defense",
+          "title": "Sweden’s Saab launches family of AI agents for future aircraft projects",
+          "url": "https://breakingdefense.com/2026/11/swedens-saab-launches-family-of-ai-agents-for-future-aircraft-projects/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c43",
+      "drop": "2026-11-03T07",
+      "headline": "Ukrainian pocket receiver intercepts Russian drone video feeds",
+      "summary": "A Kyiv startup's 10-ounce receiver lets Ukrainian troops watch live video from Russian drones. Russia's move to digital video and AI-guided drones that emit no signals could make the advantage short-lived, TechCrunch notes.",
+      "why_it_matters": "Cheap electronic warfare tools are shaping drone combat lessons for US forces.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "war-conflict"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T16:03:13.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
+          "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/"
+        },
+        {
+          "outlet": "Defense News",
+          "title": "Tiny Ukrainian receiver intercepts Russian drone feeds in real time",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/11/02/tiny-ukrainian-receiver-intercepts-russian-drone-feeds-in-real-time/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c44",
+      "drop": "2026-11-03T07",
+      "headline": "One patient clear of pancreatic cancer in mRNA vaccine trial",
+      "summary": "One patient in a small trial of an mRNA pancreatic cancer vaccine shows no evidence of the cancer years later, NPR reports. The result comes from a very small study, so it is not proof the vaccine works broadly.",
+      "why_it_matters": "Pancreatic cancer is among the deadliest, so any durable response draws attention, though larger trials are needed.",
+      "region": "US",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T21:31:10.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "What the latest on mRNA vaccines means for cancer",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6009085/what-the-latest-on-mrna-vaccines-means-for-cancer"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c45",
+      "drop": "2026-11-03T07",
+      "headline": "BMW to launch urban driver assist in 2027",
+      "summary": "BMW says it will expand navigation-guided partial automation to city streets starting in 2027, first in Germany, to compete with Tesla's Full Self-Driving.",
+      "why_it_matters": "It signals automakers racing Tesla on driver-assist features that US buyers may see later.",
+      "region": "Europe",
+      "topics": [
+        "autos-transport",
+        "ai"
+      ],
+      "entities": [
+        "BMW",
+        "Tesla"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T20:03:52.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "BMW is taking on Tesla’s FSD with urban driver assist starting in 2027",
+          "url": "https://www.theverge.com/transportation/1024616/bmw-level-2-city-driver-assist-2027"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-03T07-c46",
+      "drop": "2026-11-03T07",
+      "headline": "New York Times and others sue Brave over alleged scraping",
+      "summary": "The New York Times and other outlets sued the Brave browser company, alleging it scraped copyrighted content and distributed it to customers including Anthropic and Perplexity. Brave's response was not given in the source.",
+      "why_it_matters": "The suit adds to legal fights over how AI products can use news content.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "courts",
+        "big-tech"
+      ],
+      "entities": [
+        "New York Times",
+        "Brave",
+        "Anthropic",
+        "Perplexity"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-02T19:19:17.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+        }
+      ],
+      "has_article": false
     }
   ]
 }
