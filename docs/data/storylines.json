@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T07:38:47Z",
+  "updated_at": "2026-11-03T23:52:33Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -60,11 +60,21 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "The US will mediate Ukraine-Russia working-level talks in Abu Dhabi on Nov. 10-11. Russian bombing of an aid centre killed at least 26, Ukraine resumed refinery strikes despite Trump's pressure, and the US approved 500 Patriot missiles.",
+      "summary": "US-mediated Ukraine-Russia talks are set for Abu Dhabi on Nov. 10-11. Russian strikes on an aid centre, hospice and hospital killed at least 38 in 24 hours; the US Air Force seeks a cruise missile for Ukraine.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-02",
+      "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "Russian attacks on an aid centre, hospice and hospital kill at least 38 in 24 hours; Zelenskyy says dozens may be trapped.",
+          "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "US Air Force asks industry to mass produce the Extended Range Attack Munition cruise missile for Ukraine.",
+          "url": "https://www.defensenews.com/industry/2026/11/03/us-air-force-asks-industry-for-new-cruise-missile-for-ukraine/"
+        },
         {
           "date": "2026-11-02",
           "text": "Witkoff announces US-mediated Ukraine-Russia talks in Abu Dhabi on Nov. 10-11, restarting a track suspended in February.",
@@ -154,22 +164,27 @@
           "date": "2026-10-20",
           "text": "Witkoff meets Zelenskyy before travelling to Russia, the FT reports; Zelenskyy says missile-strike intelligence 'works now'.",
           "url": "https://www.ft.com/content/a068036c-a752-4267-9a2f-a95190ef619f?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Republicans push back on Trump's softer Russia stance; Rubio tells Zelenskyy Trump issued no order to harm Ukraine.",
-          "url": "https://www.theguardian.com/us-news/2026/oct/20/republicans-push-back-trump-ukraine-russia"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "The Nasdaq-100 fell into its third correction this year as AI worries mounted, after Big Tech earnings reignited spending fears and a junk debt rout. Wall Street leaders dismiss bubble talk; Blackstone urges more equity funding.",
+      "summary": "The Nasdaq-100 fell into a third correction this year on AI worries. Tuesday brought mixed signals: AMD and Super Micro jumped, Palantir and Shopify fell, Meta seeks up to $25 billion in bonds, and futures rose.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-02",
+      "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "Meta seeks to raise $20 billion to $25 billion in a bond sale for AI spending.",
+          "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "AMD jumps 8% as data center revenue nearly doubles; Palantir and Shopify fall after earnings.",
+          "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+        },
         {
           "date": "2026-11-02",
           "text": "Nasdaq-100 tumbles into its third correction this year as AI worries mount, MarketWatch reports; Blackstone's Jon Gray calls for more equity to fund AI.",
@@ -259,27 +274,22 @@
           "date": "2026-10-19",
           "text": "SoftBank's credit default swaps hit their highest in nearly four years on AI funding strain; FT reports surging default-swap trading on Big Tech.",
           "url": "https://www.bloomberg.com/news/articles/2026-10-20/softbank-group-credit-risk-hits-4-year-high-on-ai-funding-strain"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "Futures edge higher after a chipmaker rally helps the Nasdaq 100 recover from its worst week since April 2025.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-19/stock-market-today-dow-s-p-live-updates"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "CoreWeave bonds slip into distressed territory, becoming a wider AI industry problem, The Verge reports.",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
         }
       ]
     },
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh left rates unchanged in October, NPR reports, as GDP and prices both rose. Kalshi traders now put a December 25bp hike at 70%. Housing data is weak.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. Kalshi traders put a December 25bp hike at 75%. September job openings beat forecasts at 7.52 million; housing data is weak.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-01",
+      "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "September job openings rise to 7.52 million, above the 7.15 million consensus, ahead of the payrolls report.",
+          "url": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html"
+        },
         {
           "date": "2026-11-01",
           "text": "NPR: GDP growth is up but so are prices; interest rates are staying the same for now, with midterms ahead.",
@@ -310,11 +320,31 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Election Day is here. Final forecasts point to Democratic gains, the Supreme Court rejected DOJ's California ballot bid, and Michigan Democrats remain split over Rep. Haley Stevens's Rogers endorsement. DOJ charged 63 people with voting crimes.",
+      "summary": "Polls began closing Tuesday night with forecasts favoring Democratic gains. Trump-backed Ed Gallrein won Massie's Kentucky seat. Election-day problems were reported in New York and Florida, DOJ sent target letters over the Alaska decoy candidate, and Rep. Haley Stevens sought protection.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-02",
+      "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "Trump-backed Ed Gallrein is projected to win Rep. Thomas Massie's Kentucky seat, per Decision Desk HQ.",
+          "url": "https://thehill.com/homenews/campaign/6186595-trump-backed-kentucky-republican-wins-house-seat/"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "First polls close; Westchester County machines reject paper ballots, which will still be counted.",
+          "url": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "DOJ reportedly sends target letters to about 20 Democrats, including Marc Elias, over the alleged decoy Dan Sullivan candidacy.",
+          "url": "https://www.washingtonexaminer.com/news/justice/4789916/doj-sends-target-letters-to-marc-elias-and-more-democrats-over-second-dan-sullivan-candidacy/"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "Rep. Haley Stevens requests US marshals' protection after death threats over her Rogers endorsement, Axios reports.",
+          "url": "https://www.axios.com/2026/11/03/haley-stevens-death-threats-marshals"
+        },
         {
           "date": "2026-11-02",
           "text": "Supreme Court rejects the Trump administration's emergency bid to set aside about 20,000 California ballots, with no noted dissents.",
@@ -394,37 +424,27 @@
           "date": "2026-10-21",
           "text": "Trump rallies in Clemson for Sen. Darline Graham; the Guardian reports he praised a supporter who allegedly punched a protester.",
           "url": "https://www.theguardian.com/us-news/2026/oct/21/trump-south-carolina-rally-darline-graham"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Michigan and Kansas Senate candidates hold final debates; Kansas race is tighter than Republicans anticipated.",
-          "url": "https://thehill.com/homenews/campaign/6164307-michigan-senate-debate-el-sayed-rogers-takeaways/"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Democratic groups sue the Trump administration, alleging it uses unfounded fraud claims and prosecution threats to pressure election officials.",
-          "url": "https://www.axios.com/2026/10/21/trump-election-interference-lawsuit-democrats"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Trump heads to South Carolina for Sen. Darline Graham; Axios reports Senate Republicans weigh more money for Mississippi, South Carolina and Kansas.",
-          "url": "https://www.axios.com/2026/10/21/mississippi-senate-competitive-hyde-smith-colom"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "NPR poll shows record support for Democratic congressional candidates; FT reports a large Republican spending advantage.",
-          "url": "https://www.npr.org/2026/10/21/nx-s1-6011179/poll-democrats-republicans-trump-approval"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "The US launched limited strikes on Iran's Qeshm Island late Monday, calling them defensive, while mediators led by Qatar push a deal. Oil held steady; Trump told Axios he is in no rush to resume full fighting.",
+      "summary": "After limited US strikes on Iran's Qeshm Island, Trump told the FT the US has no immediate plan to strike Iran. Qatar-led mediators push a deal. Oil edged higher on conflicting signals; Yemen accuses Iran and Hezbollah of aiding Houthis.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-02",
+      "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "Trump tells the FT the US has no immediate plan to strike Iran and calls his position brilliant; oil edges higher.",
+          "url": "https://www.ft.com/content/f3afd549-65fc-487e-922e-2748fa6a8a5f?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "Yemen's government accuses Iran's IRGC and Hezbollah of sending 21 experts to back the Houthis.",
+          "url": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-back-houthis?traffic_source=rss"
+        },
         {
           "date": "2026-11-02",
           "text": "US strikes radar and missile launchers on Iran's Qeshm Island, officials say defensively, a day before the midterms; oil steady.",
@@ -509,27 +529,22 @@
           "date": "2026-10-21",
           "text": "United Airlines forecasts weak Q4 earnings as jet fuel costs surge.",
           "url": "https://www.bloomberg.com/news/videos/2026-10-21/united-misses-estimates-squeezed-by-jet-fuel-costs-video"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "FT reports Netanyahu is pushing to resume strikes on Iran; Israel held off earlier plans as Trump rules out an attack before the midterms.",
-          "url": "https://www.ft.com/content/eb4d1101-45ed-4d03-9beb-42f7c87a58ea"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Netanyahu says he discussed eliminating Iran's regime with Trump; Sen. Rick Scott backs renewed bombing if it speeds regime change.",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/netanyahu-says-he-discussed-eliminating-irans-regime-with-trump?traffic_source=rss"
         }
       ]
     },
     {
       "id": "sl-binance-hack",
       "title": "Binance $6.3 billion hack",
-      "summary": "A record $6.3 billion hack of Binance, blamed by the FBI on North Korean group TraderTraitor, led to suspended withdrawals. Binance resumed withdrawals and says 90% of losses are covered. North Korea now denies involvement; laundering may take months.",
+      "summary": "Binance says suspected North Korean hackers used fake job interviews and a tampered installer to steal $6.3 billion, and that 98% of affected assets are replenished. North Korea denies involvement; laundering may take months.",
       "status": "active",
       "first_seen": "2026-10-30",
-      "last_updated": "2026-11-02",
+      "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "Binance's postmortem says hackers used fake job interviews and an internal AI tool; it says 98% of affected assets are replenished.",
+          "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html"
+        },
         {
           "date": "2026-11-02",
           "text": "North Korea denies being behind the hack; the FT reports hackers are expected to take months to launder the funds.",
