@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T07:17:55Z",
+  "updated_at": "2026-11-04T20:19:03Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -60,11 +60,21 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "US-mediated Ukraine-Russia talks are set for Abu Dhabi on Nov. 10-11. Russian strikes on an aid centre, hospice and hospital killed at least 38 in 24 hours; the US Air Force seeks a cruise missile for Ukraine.",
+      "summary": "Zelenskyy says 40 are confirmed dead in a Russian strike on a school. US-mediated Ukraine-Russia talks are set for Abu Dhabi on Nov. 10-11, and delegations meet Melania Trump Thursday.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-03",
+      "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "Zelenskyy says 40 are confirmed dead after a Russian strike on a school in Komyshuvakha; Kyiv releases bodycam video.",
+          "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Russian and Ukrainian delegations are to meet Melania Trump at the White House Thursday after the Oleshky ceasefire.",
+          "url": "https://www.bbc.co.uk/news/articles/cm87zvpzwq0no?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-03",
           "text": "Russian attacks on an aid centre, hospice and hospital kill at least 38 in 24 hours; Zelenskyy says dozens may be trapped.",
@@ -154,27 +164,22 @@
           "date": "2026-10-20",
           "text": "Hegseth says US posture toward Ukraine is unchanged but US forces also need Patriot interceptors.",
           "url": "https://thehill.com/policy/defense/6161092-us-posture-ukraine-unchanged/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Zelenskyy says US intelligence on missile strikes 'works now' after Oslo talks with Witkoff.",
-          "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Witkoff meets Zelenskyy before travelling to Russia, the FT reports; Zelenskyy says missile-strike intelligence 'works now'.",
-          "url": "https://www.ft.com/content/a068036c-a752-4267-9a2f-a95190ef619f?syn-25a6b1a6=1"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "The Nasdaq-100 fell into a third correction this year on AI worries. Tuesday brought mixed earnings signals. After Democrats won Congress, Asian and European stocks fell on fears of tighter AI scrutiny while the dollar weakened.",
+      "summary": "After Democrats won Congress, hyperscalers and Apple rallied while chipmakers and data center stocks fell as voters rebuffed data center projects. The Nasdaq-100 had entered its third correction this year on AI worries.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-03",
+      "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "Voters approve dozens of data center moratoriums; hyperscalers and Apple surge while chipmakers and data center stocks fall, CNBC and the FT report.",
+          "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html"
+        },
         {
           "date": "2026-11-03",
           "text": "Stocks and the dollar fall as Democrats win Congress; traders fear tighter AI oversight and slower data center buildout, the FT reports.",
@@ -269,22 +274,27 @@
           "date": "2026-10-20",
           "text": "China defends DeepSeek and warns of possible retaliation after the DHS order removing it from federal systems.",
           "url": "https://thehill.com/policy/technology/6160255-china-retaliation-deepseek-ban/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "South Korean data centre builder Elice tumbles 32% on its trading debut, adding to AI valuation concerns.",
-          "url": "https://www.ft.com/content/cddafc0a-1ae6-467b-84b8-34c172002b6a?syn-25a6b1a6=1"
         }
       ]
     },
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. Kalshi traders put a December 25bp hike at 75%. September job openings beat forecasts at 7.52 million; housing data is weak.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. Kalshi traders put a December 25bp hike at 80%. ADP shows 86,000 private jobs added in October; with Democrats controlling the Senate, Trump's push to reshape the Fed board looks stalled.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-03",
+      "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "ADP says private employers added 86,000 jobs in October, slightly above expectations.",
+          "url": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html"
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Axios reports Trump's effort to replace Fed governors with allies looks dead now that Democrats control the Senate.",
+          "url": "https://www.axios.com/2026/11/04/fed-trump-appointees-democrats"
+        },
         {
           "date": "2026-11-03",
           "text": "September job openings rise to 7.52 million, above the 7.15 million consensus, ahead of the payrolls report.",
@@ -320,11 +330,31 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House and Senate, flipping seats in Texas, Iowa, Kansas, North Carolina, South Carolina, Maine and Ohio, and took several governorships. Trump says he accepts the results; House Republicans are trading blame ahead of leadership elections.",
+      "summary": "Democrats won the House and Senate and a majority of governorships; a few races, including Mississippi's Senate seat, remain uncounted. Speaker Johnson will step aside as GOP leader. Trump and Vance blame the Iran war; Democrats plan investigations and an affordability push.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-03",
+      "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "Vance says the Iran war cost Republicans the midterms; Trump later calls it the primary reason but says he would do it again.",
+          "url": "https://www.axios.com/2026/11/04/jd-vance-iran-war-trump-election"
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Speaker Mike Johnson will not stay on as House Republican leader; Scalise and Jordan eye the job.",
+          "url": "https://www.npr.org/2026/11/04/g-s1-151854/2026-midterms-mike-johnson-speaker"
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Democrats outline investigations of the Trump administration while promising an affordability focus.",
+          "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Mississippi Senate race between Scott Colom and Cindy Hyde-Smith remains too close to call.",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6028618/votes-are-still-being-counted-in-mississippi-u-s-senate-race"
+        },
         {
           "date": "2026-11-03",
           "text": "Democrats flip Senate seats in Kansas, Iowa, South Carolina, North Carolina and Maine, and win the House's 218th seat, taking both chambers.",
@@ -404,37 +434,27 @@
           "date": "2026-11-01",
           "text": "El-Sayed asks Rep. Haley Stevens to stay away from his events, a source says; a Clyburn adviser says he cannot disinvite her from a Sunday event.",
           "url": "https://thehill.com/homenews/campaign/6186552-clyburn-rally-el-sayed-stevens/"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "DOJ seeks to isolate Alaska ballots amid a criminal probe over the two-Dan-Sullivan ballot dispute; Peltola denies involvement.",
-          "url": "https://www.npr.org/2026/10/31/nx-s1-6024423/criminal-probe-alaska-senate-candidate"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "More than 50 million Americans have cast early ballots, a record, with Democrats ahead in states reporting party data.",
-          "url": "https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "Federal judge orders halt to noncitizen voting investigation in nine states, citing error-filled data and intimidation of voter assistance groups.",
-          "url": "https://www.theguardian.com/us-news/live/2026/oct/22/vivek-ramaswamy-ohio-trump-vance-us-midterm-elections-latest-news-updates"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "US Attorney Bill Essayli says DOJ verified all 20,000 flagged California voter entries as noncitizens who received mail ballots.",
-          "url": "https://www.foxnews.com/politics/doj-verified-20000-noncitizens-california-voter-rolls-federal-prosecutor-says"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After limited US strikes on Iran's Qeshm Island, Trump told the FT the US has no immediate plan to strike Iran, though he confirmed a strike on an anti-aircraft facility. Iran called Washington's Hormuz reply unconvincing; indirect talks continue and oil fluctuated.",
+      "summary": "After the midterms, oil fell below $100 on hopes of de-escalation as Vance blamed the war for GOP losses; Trump says the war was justified. Schumer threatens to use the power of the purse. Indirect talks continue.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-03",
+      "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "Oil falls below $100 as Vance blames the Iran war for GOP losses and traders see pressure for an offramp.",
+          "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Schumer says Democrats will use the power of the purse to end the Iran war; Iran's chief negotiator says Americans voted no to war.",
+          "url": "https://thehill.com/homenews/senate/6198699-schumer-republicans-iran-war-end/"
+        },
         {
           "date": "2026-11-03",
           "text": "Iran calls the US reply to its Hormuz plan unconvincing as indirect talks continue; Trump confirms a strike on an Iranian anti-aircraft facility.",
@@ -524,22 +544,22 @@
           "date": "2026-10-21",
           "text": "Dozens of Israeli fighter jets fly a sortie to the Iranian border, per Israeli and US officials, Axios reports.",
           "url": "https://www.axios.com/2026/10/21/israel-military-training-sortie-iran-border"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Macron makes a surprise visit to Riyadh as France secures extra diesel supplies.",
-          "url": "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss"
         }
       ]
     },
     {
       "id": "sl-binance-hack",
       "title": "Binance $6.3 billion hack",
-      "summary": "Binance says suspected North Korean hackers used fake job interviews and a tampered installer to steal $6.3 billion, and that 98% of affected assets are replenished. North Korea denies involvement and fired missiles; laundering may take months.",
+      "summary": "Binance says suspected North Korean hackers used fake job interviews and a tampered installer to steal $6.3 billion after months of planning, and that 98% of affected assets are replenished. North Korea denies involvement.",
       "status": "active",
       "first_seen": "2026-10-30",
-      "last_updated": "2026-11-03",
+      "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "Binance says the hackers spent months planning, using laptop infections, compromised internal tooling and fake job interviews.",
+          "url": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/"
+        },
         {
           "date": "2026-11-03",
           "text": "North Korea fires multiple missiles and Kim Yo Jong rejects dialogue with the US while denying responsibility for the hack.",
@@ -575,11 +595,16 @@
     {
       "id": "sl-israel-election",
       "title": "Israel election deadlock",
-      "summary": "Israel's election produced a deadlock, with an Arab coalition holding the balance of power after winning a record number of seats. Netanyahu claims the vote was 'stolen'; the election body says results stand.",
+      "summary": "Israel's election produced a deadlock, with an Arab coalition holding the balance of power after record gains. Netanyahu claims the vote was 'stolen'; the election body says results stand. President Herzog has begun consultations with parties.",
       "status": "active",
       "first_seen": "2026-11-01",
-      "last_updated": "2026-11-01",
+      "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "President Herzog begins consultations with parties and warns not every promise can be fulfilled if they want to avoid another election.",
+          "url": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-01",
           "text": "Israel's election body says the deadlocked result will stand even if foreign-interference claims are proven, as Netanyahu alleges the election was 'stolen'.",
