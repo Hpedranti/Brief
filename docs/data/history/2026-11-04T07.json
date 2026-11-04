@@ -1,0 +1,1143 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-04T07",
+    "at": "2026-11-04T07:17:55Z",
+    "model": "claude-sonnet-5-5",
+    "count": 36
+  },
+  "cards": [
+    {
+      "id": "2026-11-04T07-c01",
+      "drop": "2026-11-04T07",
+      "headline": "Democrats win control of both the House and the Senate",
+      "summary": "Democrats won the 218th House seat early Wednesday, and the Associated Press projected a Senate majority after flips in several Republican-held states. Republicans held both chambers and the presidency going into the midterms. Trump says he accepts the results.",
+      "why_it_matters": "Divided government will shape spending, oversight of the administration and the legislative agenda for Trump's final two years.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Democratic Party",
+        "Republican Party",
+        "Hakeem Jeffries",
+        "Chuck Schumer"
+      ],
+      "importance": 5,
+      "follows": "2026-11-03T23-c02",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T04:44:55.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Democrats win full control of Congress, ushering in a new era of divided government",
+          "url": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Dems seize the Senate as blue tidal wave crashes deep into Trump country, topples GOP strongholds",
+          "url": "https://www.foxnews.com/politics/dems-seize-senate-blue-tidal-wave-crashes-deep-trump-country-topples-gop-strongholds"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Democrats cap off midterm night to remember as they clinch 218 seats to win House to go with Senate sweep",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4784797/control-of-congress-house-majority-2026-elections/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c02",
+      "drop": "2026-11-04T07",
+      "headline": "Talarico beats Paxton to flip Texas Senate seat",
+      "summary": "Democrat James Talarico defeated Republican Ken Paxton, the first Democratic Senate win in Texas since 1988. Trump had backed Paxton. Talarico told supporters, 'Tonight we defeated Goliath.' Republicans had held statewide office in Texas for decades.",
+      "why_it_matters": "Texas is the largest Republican stronghold to flip a Senate seat in years, and it helped decide control of the chamber.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "James Talarico",
+        "Ken Paxton",
+        "Texas",
+        "Donald Trump"
+      ],
+      "importance": 4,
+      "follows": "2026-11-03T23-c08",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T03:14:31.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "James Talarico wins Texas Senate race in historic victory for Democrats",
+          "url": "https://www.theguardian.com/us-news/2026/nov/03/james-talarico-ken-paxton-texas-senate"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump's gamble on Ken Paxton backfires as Democrat pulls off historic Texas Senate upset",
+          "url": "https://www.foxnews.com/politics/trumps-gamble-ken-paxton-backfires-democrat-pulls-off-historic-texas-senate-upset"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Talarico flips Texas Senate seat in historic Democratic breakthrough",
+          "url": "https://www.axios.com/2026/11/04/texas-senate-results-talarico-paxton"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c03",
+      "drop": "2026-11-04T07",
+      "headline": "Trump says Republicans would have won had he been on ballot",
+      "summary": "Trump said he is willing to accept the midterm results but argued Republicans would have won in a landslide had he been on the ballot. The Financial Times reports he also acknowledged the Iran war was a factor in the losses.",
+      "why_it_matters": "The president's reaction signals how the White House will frame the defeat and approach a Democratic Congress.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Republican Party"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T05:00:30.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump says GOP lost because he wasn't on ballot, is \"willing to accept\" results",
+          "url": "https://www.axios.com/2026/11/04/trump-republicans-midterms-2026-landslide-blue-wave"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Republicans suffer stunning defeat as voters deliver verdict on Trump agenda",
+          "url": "https://www.theguardian.com/us-news/2026/nov/03/midterm-voters-republican-democrats-trump-second-term"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Live coverage: Trump admits Iran war a factor as Republicans routed",
+          "url": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c04",
+      "drop": "2026-11-04T07",
+      "headline": "Troy Jackson ousts Susan Collins in Maine Senate race",
+      "summary": "Democrat Troy Jackson defeated Republican Sen. Susan Collins, who conceded by phone Tuesday night. Collins had held the seat for nearly 30 years. The BBC notes the race was affected by the earlier withdrawal of another Democratic nominee.",
+      "why_it_matters": "Losing a longtime moderate Republican removes a swing vote and was one of several pickups that gave Democrats the Senate.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Troy Jackson",
+        "Susan Collins",
+        "Maine"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T04:34:23.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Troy Jackson wins Maine Senate race over Susan Collins, in major coup for Democrats",
+          "url": "https://www.npr.org/2026/11/04/g-s1-148952/maine-senate-race-susan-collins-troy-jackson"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Troy Jackson defeats Susan Collins in Maine, notching major pickup for Democrats",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4788446/susan-collins-troy-jackson-maine-senate-race-results/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "GOP senator's 30-year reign ends as 5th-generation logger pulls off stunning upset",
+          "url": "https://www.foxnews.com/politics/gop-senators-30-year-reign-ends-5th-generation-logger-pulls-off-stunning-upset"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c05",
+      "drop": "2026-11-04T07",
+      "headline": "Democrats flip Senate seats in Kansas, Iowa, South Carolina and N.C.",
+      "summary": "Adam Hamilton beat Sen. Roger Marshall in Kansas, Josh Turek beat Rep. Ashley Hinson in Iowa, Annie Andrews beat Darline Graham in South Carolina, and Roy Cooper beat Michael Whatley in North Carolina. Sherrod Brown also won in Ohio.",
+      "why_it_matters": "The wins in Republican-leaning states gave Democrats a Senate majority and a check on Trump's nominees and agenda.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Adam Hamilton",
+        "Josh Turek",
+        "Annie Andrews",
+        "Roy Cooper"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T02:16:10.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Adam Hamilton becomes the first Democratic senator from Kansas in nearly a century",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151587/kansas-senate-race-hamilton-marshall"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Josh Turek delivers flips control of Senate with Iowa upset",
+          "url": "https://www.axios.com/local/des-moines/2026/11/04/iowa-senate-election-win-hinson-turek"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Massive upset: Andrews downs Trump-backed Graham in ruby-red South Carolina",
+          "url": "https://www.foxnews.com/politics/massive-upset-andrews-downs-trump-backed-graham-ruby-red-south-carolina"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c06",
+      "drop": "2026-11-04T07",
+      "headline": "Democrats win governorships in Georgia, Ohio, Michigan, Wisconsin",
+      "summary": "Keisha Lance Bottoms won in Georgia, Amy Acton beat Vivek Ramaswamy in Ohio, Jocelyn Benson won Michigan, David Crowley won Wisconsin and Xavier Becerra won California. Republicans held Florida with Byron Donalds and Alabama with Tommy Tuberville.",
+      "why_it_matters": "Governors oversee elections, budgets and enforcement of federal policy in their states, so the results shape the next two years and the 2028 map.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Keisha Lance Bottoms",
+        "Amy Acton",
+        "Byron Donalds",
+        "Xavier Becerra"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T01:20:02.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Amy Acton wins Ohio governor after bitter race with billionaire Ramaswamy",
+          "url": "https://www.bbc.co.uk/news/articles/cmx2dlz8574jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump-backed Byron Donalds to make history as Florida’s first Black governor",
+          "url": "https://www.foxnews.com/politics/trump-backed-byron-donalds-make-history-floridas-first-black-governor"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Xavier Becerra wins California race for governor with vows to resist Trump’s agenda",
+          "url": "https://www.theguardian.com/us-news/2026/nov/03/xavier-becerra-steve-hilton-california-governor"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c07",
+      "drop": "2026-11-04T07",
+      "headline": "Missouri voters reject GOP House map and abortion ban measure",
+      "summary": "Missouri voters defeated Proposition A, which would have allowed a more Republican-friendly congressional map, and a measure that would have reimposed an abortion ban coupled with a ban on transgender treatment for minors. Opponents said the abortion measure was misleading.",
+      "why_it_matters": "The results show limits to mid-decade redistricting and abortion restrictions at the ballot box, with consequences for House control and reproductive rights.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "elections"
+      ],
+      "entities": [
+        "Missouri",
+        "Decision Desk HQ"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T04:25:05.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Missouri voters reject new GOP-friendly House map",
+          "url": "https://thehill.com/homenews/campaign/6191198-missouri-voters-redistricting-gop-house-map-rejected-2026/"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Missourians reject ballot proposal that would have re-imposed an abortion ban",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151063/missouri-abortion-ban-transgender"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c08",
+      "drop": "2026-11-04T07",
+      "headline": "Stocks and dollar fall as Democratic wins stoke AI worries",
+      "summary": "Asian and European stock futures fell as traders bet a Democratic Congress could bring tighter scrutiny of AI and slow data center buildout. The dollar had its worst day in a month, while Treasuries and the Swiss franc and yen rose.",
+      "why_it_matters": "Retirement accounts are heavily weighted toward tech and AI shares, and Treasury yields feed through to mortgage and borrowing costs.",
+      "region": "Global",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Nasdaq",
+        "Treasury"
+      ],
+      "importance": 4,
+      "follows": "2026-11-03T23-c41",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-04T03:11:23.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Stocks fall as Democratic wins stoke fears for AI boom",
+          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Asian Stocks Fall as Democratic Gains in US Add to AI Worries",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/asian-stocks-fall-as-democratic-gains-in-us-add-to-ai-worries"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/franc-yen-emerge-as-fx-winners-as-us-midterms-weaken-dollar"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-04T07-c09",
+      "drop": "2026-11-04T07",
+      "headline": "House Republicans trade blame as Johnson's job is questioned",
+      "summary": "Axios reports members are questioning whether Speaker Mike Johnson or other top deputies can survive next week's leadership elections. Johnson told supporters the party faced 'real odds' and the fight was not over. Reports describe disagreement over who to blame.",
+      "why_it_matters": "Republican leadership turmoil affects who leads the party in the House and how it opposes a Democratic majority.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Mike Johnson",
+        "House Republicans",
+        "Steve Scalise"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T04:59:44.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "House Republicans torch each other over \"brutal\" midterms losses",
+          "url": "https://www.axios.com/2026/11/04/republicans-midterms-johnson-trump-scalise"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Speaker Mike Johnson: Republicans ‘faced some real odds’",
+          "url": "https://thehill.com/homenews/house/6196564-mike-johnson-republicans-midterm-elections/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-04T07-c10",
+      "drop": "2026-11-04T07",
+      "headline": "Democrats prepare investigations of Trump administration",
+      "summary": "Fox News reports Democrats on Capitol Hill told the administration to 'lawyer up' and are preparing subpoenas, naming Defense Secretary Pete Hegseth. Hakeem Jeffries said voters sent a message to end extremism and corruption; Republicans have not accepted that framing.",
+      "why_it_matters": "Congressional oversight can force testimony and documents from the administration and shape the political fight ahead of 2028.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Hakeem Jeffries",
+        "Pete Hegseth",
+        "House Democrats"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T04:50:17.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "‘LAWYER UP’: Dems immediately put Trump on notice amid Republicans' midterm bloodbath",
+          "url": "https://www.foxnews.com/politics/lawyer-up-dems-immediately-put-trump-notice-amid-republicans-midterm-bloodbath"
+        },
+        {
+          "outlet": "NPR",
+          "title": "House Democratic Leader Hakeem Jeffries declares \"America is back\"",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6028572/hakeem-jeffries-midterms-house"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c11",
+      "drop": "2026-11-04T07",
+      "headline": "Democratic socialists win House seats in New York",
+      "summary": "Claire Valdez, backed by Mayor Zohran Mamdani, and Darializa Avila Chevalier won New York House races, and Brad Lander also won. Mamdani said the results show the power of working-class voters. Fox News reports the wins deepen a rift among New York Democrats.",
+      "why_it_matters": "The incoming left flank could test how much room Hakeem Jeffries has in a narrow Democratic House majority.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Zohran Mamdani",
+        "Claire Valdez",
+        "Hakeem Jeffries"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T02:09:31.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "On a historic night for democratic socialists, Mamdani says midterms show power of working-class voters",
+          "url": "https://www.npr.org/2026/11/03/nx-s1-6028105/on-a-historic-night-for-democratic-socialists-mamdani-says-midterms-show-power-of-working-class-voters"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Mamdani-backed socialist wins NYC House seat as DSA expands its reach in Congress",
+          "url": "https://www.foxnews.com/politics/mamdani-backed-socialist-wins-nyc-house-seat-dsa-expands-reach-congress"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c12",
+      "drop": "2026-11-04T07",
+      "headline": "Exit poll: voters most unhappy with economy",
+      "summary": "A major election day survey suggests voters named the economy and the state of democracy as top issues, and were most unhappy with the economy. NPR published breakdowns of how demographic groups voted, from a poll by SSRS.",
+      "why_it_matters": "Prices and inflation, now at 3.7 percent, drove the vote and will pressure both parties and the Fed.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "elections"
+      ],
+      "entities": [
+        "SSRS"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-04T05:43:42.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "US voters name economy and state of democracy as top issues, poll says",
+          "url": "https://www.bbc.co.uk/news/articles/c39wz0970eypo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Here's how some key demographic groups voted in the midterms",
+          "url": "https://www.npr.org/2026/11/04/nx-s1-6028080/voter-polls-midterms-demographics"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c13",
+      "drop": "2026-11-04T07",
+      "headline": "Democratic governors win on pledges to curb data center building",
+      "summary": "The Financial Times reports Democratic governors elected in Texas, Georgia and Ohio, along with local ballot measures, ran on stopping or limiting data center construction, showing discontent with Trump-backed infrastructure spending.",
+      "why_it_matters": "Local opposition over power use and electricity bills could slow the AI buildout that supports US growth.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "ai",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Financial Times"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-04T06:40:23.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Democratic governors elected on promises to stop data centre building",
+          "url": "https://www.ft.com/content/badd6af9-88b7-47b7-b1c2-067814e70fb5?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-04T07-c14",
+      "drop": "2026-11-04T07",
+      "headline": "Musk's record spending falls short as Tesla, SpaceX shares dip",
+      "summary": "The Financial Times says Elon Musk put $47 million behind Ken Paxton, who lost in Texas. Tesla and SpaceX shares fell in after-hours trading as Democratic gains emerged. Musk joked about space lasers early Wednesday, Axios reports.",
+      "why_it_matters": "Musk's political spending and exposure to Washington policy now carry risk for two major companies.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "us-politics"
+      ],
+      "entities": [
+        "Elon Musk",
+        "Tesla",
+        "SpaceX"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T04:28:06.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "James Talarico’s historic Texas Senate victory deals blow to Elon Musk",
+          "url": "https://www.ft.com/content/b2d07a1f-dfa6-449b-a598-1db51951d6f6?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Tesla, SpaceX Shares Take Early Hit as Midterm Blue Wave Unfolds",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/tesla-spacex-shares-take-early-hit-as-midterm-blue-wave-unfolds"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-04T07-c15",
+      "drop": "2026-11-04T07",
+      "headline": "Iran calls US reply on Hormuz plan unconvincing; Trump confirms strike",
+      "summary": "Iran said Washington's reply to its Hormuz proposal was unconvincing, though indirect talks continue. Trump said US forces struck an Iranian anti-aircraft facility Tuesday. Oil fluctuated as traders weighed mixed signals on the talks.",
+      "why_it_matters": "Talks over reopening the Strait of Hormuz influence US fuel prices and the risk of renewed war.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "energy",
+        "geopolitics"
+      ],
+      "entities": [
+        "Iran",
+        "Donald Trump",
+        "Strait of Hormuz"
+      ],
+      "importance": 4,
+      "follows": "2026-11-03T23-c04",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-03T23:08:04.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
+          "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Latest Oil Market News and Analysis for Nov. 4",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-03/latest-oil-market-news-and-analysis-for-nov-4"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c16",
+      "drop": "2026-11-04T07",
+      "headline": "North Korea fires missiles and denies Binance hack claims",
+      "summary": "North Korea fired multiple missiles, and Kim Yo Jong rejected dialogue with the US while denying responsibility for the theft of more than $6 billion in crypto. The FBI has said a North Korea-backed group was behind the Binance attack.",
+      "why_it_matters": "Stolen crypto is a funding source for Pyongyang's weapons programs, and talks with Washington look stalled.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "cybersecurity",
+        "geopolitics"
+      ],
+      "entities": [
+        "North Korea",
+        "Kim Yo Jong",
+        "Binance"
+      ],
+      "importance": 3,
+      "follows": "2026-11-03T07-c21",
+      "storyline_id": "sl-binance-hack",
+      "published_at": "2026-11-04T05:11:00.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "N Korea fires multiple missiles, denies US claims on Binance hack",
+          "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c17",
+      "drop": "2026-11-04T07",
+      "headline": "Oracle cancels $7 billion Tencent AI deal under Trump pressure",
+      "summary": "The Financial Times reports Oracle cancelled a $7 billion AI deal with Tencent after pressure from the Trump administration. It comes amid growing tension for US AI infrastructure companies doing business with Chinese tech groups.",
+      "why_it_matters": "It shows the White House using informal pressure to limit US-China AI ties, adding uncertainty for US cloud and chip firms.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "china",
+        "trade"
+      ],
+      "entities": [
+        "Oracle",
+        "Tencent",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T05:00:09.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure",
+          "url": "https://www.ft.com/content/c5a6a738-cd78-4a8e-a814-57a7473ebb9c?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-04T07-c18",
+      "drop": "2026-11-04T07",
+      "headline": "Qatar set to become world's biggest buyer of US LNG",
+      "summary": "The Financial Times reports Qatar, once the top LNG producer, will control the largest share of US output by 2033. The shift follows Gulf investment in US export projects.",
+      "why_it_matters": "Gulf control of US gas exports could affect domestic gas prices and US leverage in energy markets.",
+      "region": "Middle East",
+      "topics": [
+        "energy",
+        "trade"
+      ],
+      "entities": [
+        "Qatar",
+        "United States"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T05:00:09.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Qatar set to become world’s biggest buyer of US LNG",
+          "url": "https://www.ft.com/content/88e46724-0bd4-451a-b02b-f5709c9771b7?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-04T07-c19",
+      "drop": "2026-11-04T07",
+      "headline": "Australian inquiry calls Aukus 'worst, riskiest' defence decision",
+      "summary": "A public inquiry led by Peter Garrett and former defence chief Adm Chris Barrie called the $368 billion Aukus submarine deal the worst, riskiest and most costly Australian defence decision. It urged suspending the deal and holding a royal commission.",
+      "why_it_matters": "Aukus is a core US-Australia-UK security pact for countering China, so doubts in Canberra matter to Washington.",
+      "region": "Asia",
+      "topics": [
+        "defense",
+        "geopolitics"
+      ],
+      "entities": [
+        "Aukus",
+        "Australia",
+        "Peter Garrett"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T07:02:44.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Aukus is ‘worst, riskiest and most costly’ Australian defence decision ever, public inquiry into submarine deal says",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/04/aukus-worst-australian-defence-decision-ever-public-inquiry"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c20",
+      "drop": "2026-11-04T07",
+      "headline": "EU says supermarket cyberattacks in 11 countries not isolated",
+      "summary": "Germany, Romania and the UK reported supermarket cyberattacks, and the EU said hacks in at least 11 countries are not isolated and urged action. A Romanian official said he suspects no state actor.",
+      "why_it_matters": "Attacks on food retailers can disrupt supply chains and shelves, and attribution remains unsettled.",
+      "region": "Europe",
+      "topics": [
+        "cybersecurity",
+        "europe"
+      ],
+      "entities": [
+        "European Union",
+        "Germany",
+        "Romania",
+        "United Kingdom"
+      ],
+      "importance": 3,
+      "follows": "2026-11-03T23-c23",
+      "storyline_id": null,
+      "published_at": "2026-11-04T03:16:37.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "EU urges action as Germany, Romania and UK report supermarket cyberattacks",
+          "url": "https://www.aljazeera.com/news/2026/11/4/eu-urges-action-as-germany-romania-and-uk-report-supermarket-cyberattacks?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c21",
+      "drop": "2026-11-04T07",
+      "headline": "South Africans vote in local elections as ANC faces anger",
+      "summary": "South Africans voted in local elections amid frustration over water outages and power cuts. The Guardian says the ANC is expected to win less than a third of the vote. Residents told the BBC they are tired of poor services.",
+      "why_it_matters": "A weak ANC showing would signal a political shift in Africa's most industrialized economy and a key US trade partner.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "elections"
+      ],
+      "entities": [
+        "African National Congress",
+        "South Africa"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T00:03:19.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "ANC faces anger over poor services as South Africans vote in local elections",
+          "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts"
+        },
+        {
+          "outlet": "BBC",
+          "title": "ANC under pressure to reverse South Africa decline",
+          "url": "https://www.bbc.co.uk/news/articles/cr4g1x6l77xyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c22",
+      "drop": "2026-11-04T07",
+      "headline": "Delhi air quality worsens ahead of Diwali",
+      "summary": "Delhi's air quality index stood at 377 on Wednesday morning, in the 'very poor' category, as firework restrictions took effect ahead of Diwali.",
+      "why_it_matters": "Severe pollution affects the health of millions in one of the world's largest cities, including US citizens and business travelers.",
+      "region": "Asia",
+      "topics": [
+        "climate",
+        "health"
+      ],
+      "entities": [
+        "Delhi",
+        "Diwali"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T06:50:29.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+          "url": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c23",
+      "drop": "2026-11-04T07",
+      "headline": "China's services activity slows unexpectedly for first time since July",
+      "summary": "A private survey showed China's services activity grew more slowly, with business confidence easing and firms cutting selling prices even as input costs rose.",
+      "why_it_matters": "Weak demand in the world's second-largest economy affects US exporters, commodity prices and global growth.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "economy"
+      ],
+      "entities": [
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T03:39:46.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "China Services Gauge Unexpectedly Dips for First Time Since July",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/china-services-gauge-unexpectedly-dips-for-first-time-since-july"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-04T07-c24",
+      "drop": "2026-11-04T07",
+      "headline": "US contractor admits giving Ethiopia secrets used in Tigray war",
+      "summary": "An Ethiopian-born American citizen admitted sharing dozens of classified documents with senior Ethiopian officials, which the BBC reports helped Ethiopia target Tigray fighters.",
+      "why_it_matters": "It is a case of a US citizen leaking classified material to a foreign government, with human costs in a conflict.",
+      "region": "Africa",
+      "topics": [
+        "crime-justice",
+        "africa"
+      ],
+      "entities": [
+        "Ethiopia",
+        "Tigray"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T06:07:24.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "US contractor gave Ethiopia secrets to help kill Tigray fighters",
+          "url": "https://www.bbc.co.uk/news/articles/c6y8lz73vmv7o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c25",
+      "drop": "2026-11-04T07",
+      "headline": "China disputes reports of artillery shell in Papua New Guinea",
+      "summary": "China disputed reports that a 32 kg object found in Papua New Guinea was an artillery shell. Police had earlier dismissed speculation it was 'merely a dummy.' The BBC headline frames the question as weapon or wine bottle.",
+      "why_it_matters": "The dispute plays out in a Pacific region where the US and China compete for influence.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "geopolitics"
+      ],
+      "entities": [
+        "Papua New Guinea",
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T03:46:10.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea",
+          "url": "https://www.bbc.co.uk/news/articles/cm0qkxzv3j99o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-04T07-c26",
+      "drop": "2026-11-04T07",
+      "headline": "Google says schools can restore Search with AI Overviews",
+      "summary": "After elected officials criticized Google for turning off Search at schools that ban AI, the company said Search can be turned back on if schools allow AI Overviews.",
+      "why_it_matters": "Schools and parents must choose between limiting AI tools and keeping a standard Search feature for students.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "ai",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Google"
+      ],
+      "importance": 2,
+      "follows": "2026-11-03T23-c42",
+      "storyline_id": null,
+      "published_at": "2026-11-04T01:07:01.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Google responds to political backlash over removing search from schools that ban AI",
+          "url": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c27",
+      "drop": "2026-11-04T07",
+      "headline": "Anthropic is building a system to prove an AI model's identity",
+      "summary": "TechCrunch reports Anthropic is working on FlashProve, a system that would let anyone check that an AI response really came from the model it claims to be from.",
+      "why_it_matters": "Verifying which model produced an answer matters as AI outputs spread through products people and businesses rely on.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "cybersecurity"
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T22:41:03.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Anthropic is working on a system to prove AI models’ identity",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c28",
+      "drop": "2026-11-04T07",
+      "headline": "Data centers turn to old jet engines for power",
+      "summary": "With years-long waits for grid access and new turbines, data center builders are using once-discarded jet engines to generate power, a less efficient and less environmentally friendly option, TechCrunch reports.",
+      "why_it_matters": "Power shortages are a bottleneck for AI and could raise emissions and electricity costs near data centers.",
+      "region": "US",
+      "topics": [
+        "energy",
+        "ai"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T22:19:53.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Data centers are turning to old jet engines as the wait for power grows",
+          "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c29",
+      "drop": "2026-11-04T07",
+      "headline": "MBDA developing high-speed strike missile for France and UK",
+      "summary": "MBDA's Stratus RS rapid strike missile is expected to have a range far exceeding the Exocet. MBDA is awaiting a development contract from France's armaments directorate.",
+      "why_it_matters": "European allies are investing in their own long-range strike weapons, which affects NATO planning and US defense exporters.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "europe"
+      ],
+      "entities": [
+        "MBDA",
+        "France",
+        "United Kingdom"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T06:30:53.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "MBDA’s high-speed strike missile to have range ‘far’ exceeding Exocet",
+          "url": "https://www.defensenews.com/global/europe/2026/11/04/mbda-high-speed-strike-missile-to-have-range-far-exceeding-exocet/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c30",
+      "drop": "2026-11-04T07",
+      "headline": "SNC exits Navy trainer jet competition, leaving Textron likely winner",
+      "summary": "Breaking Defense reports SNC withdrew from the Navy's UJTS trainer jet program, leaving Textron the likely winner. The Navy now plans an award between July and the end of September 2027.",
+      "why_it_matters": "A one-bidder field affects cost and timing of how the Navy trains future pilots with its aging T-45 fleet.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "autos-transport"
+      ],
+      "entities": [
+        "Textron",
+        "SNC",
+        "US Navy"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T23:19:46.000Z",
+      "sources": [
+        {
+          "outlet": "Breaking Defense",
+          "title": "EXCLUSIVE: SNC pulls out of Navy’s trainer jet competition, leaving Textron likely winner",
+          "url": "https://breakingdefense.com/2026/11/snc-pulls-out-of-navy-trainer-jet-t45-ujts-leonardo-textron/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c31",
+      "drop": "2026-11-04T07",
+      "headline": "California fights Trump administration demand on state broadband laws",
+      "summary": "California is trying to obtain federal broadband funds while rejecting an administration condition to scrap state broadband laws. The state called the demand 'preposterous,' Ars Technica reports.",
+      "why_it_matters": "The dispute tests how far Washington can attach conditions to funds meant to expand internet access.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "big-tech"
+      ],
+      "entities": [
+        "California",
+        "Trump administration"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-03T22:39:37.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "California fights \"preposterous\" Trump admin demand to scrap state broadband laws",
+          "url": "https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c32",
+      "drop": "2026-11-04T07",
+      "headline": "Why Indonesians are dying fighting for Russia in Ukraine",
+      "summary": "Foreign Policy reports Russian recruitment on social media uses tactics similar to those of scam center criminals, drawing Indonesians into the war in Ukraine.",
+      "why_it_matters": "It shows how Russia is sustaining its war with foreign recruits and online manipulation.",
+      "region": "Asia",
+      "topics": [
+        "war-conflict",
+        "asia"
+      ],
+      "entities": [
+        "Indonesia",
+        "Russia",
+        "Ukraine"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T06:00:45.000Z",
+      "sources": [
+        {
+          "outlet": "Foreign Policy",
+          "title": "Why Are Indonesians Dying in Ukraine?",
+          "url": "https://foreignpolicy.com/2026/11/04/southeast-asia-indonesia-russia-ukraine-war-recruitment/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c33",
+      "drop": "2026-11-04T07",
+      "headline": "Canada joins coalition refusing to play hockey against Russia",
+      "summary": "Prime Minister Mark Carney said Russian skaters will not be allowed in junior championships, as a growing number of countries resist Russia's return after a sports court lifted a ban.",
+      "why_it_matters": "The stance extends Ukraine-war pressure into sport and may affect international events US teams join.",
+      "region": "Americas",
+      "topics": [
+        "culture-sports",
+        "geopolitics"
+      ],
+      "entities": [
+        "Canada",
+        "Mark Carney",
+        "Russia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T01:31:46.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war",
+          "url": "https://www.theguardian.com/world/2026/nov/04/canada-bans-russian-players-junior-ice-hockey-championships-ukraine-war"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c34",
+      "drop": "2026-11-04T07",
+      "headline": "Prince William warns of rising wildfire risk in UK",
+      "summary": "Prince William said 2026 was the first summer he felt worried about the scale of wildfires, calling the risk of more UK wildfires from climate change terrifying.",
+      "why_it_matters": "Wildfire risk is rising in places not used to it, which is a pattern relevant to US insurers and communities.",
+      "region": "Europe",
+      "topics": [
+        "climate"
+      ],
+      "entities": [
+        "Prince William"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T06:11:43.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
+          "url": "https://www.bbc.co.uk/news/articles/cr62yv02zwxwo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c35",
+      "drop": "2026-11-04T07",
+      "headline": "Kellogg's removes rice from Rice Krispies, citing weather",
+      "summary": "Kellogg's new recipes for Rice Krispies contain no rice grains because of changing weather, and packaging will now carry a 'contains wheat gluten' warning, the BBC reports.",
+      "why_it_matters": "It is a small example of climate pressure on crops showing up in familiar grocery products.",
+      "region": "Global",
+      "topics": [
+        "economy",
+        "climate"
+      ],
+      "entities": [
+        "Kellogg's"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T01:36:06.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "No more rice grains in Kellogg's Rice Krispies due to changing weather",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-04T07-c36",
+      "drop": "2026-11-04T07",
+      "headline": "Nexus Mods will require AI disclosures for new mods",
+      "summary": "The PC gaming mod site Nexus Mods will require authors to declare whether AI has been used in their work for new uploads, part of a wider policy on AI-generated content.",
+      "why_it_matters": "It is an early test of how large creator platforms handle labeling of AI-made content.",
+      "region": "Global",
+      "topics": [
+        "ai",
+        "culture-sports"
+      ],
+      "entities": [
+        "Nexus Mods"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-04T00:42:10.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "The biggest modding site in PC gaming is taking a stance on AI",
+          "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}

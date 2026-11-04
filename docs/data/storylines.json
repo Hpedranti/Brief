@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T23:52:33Z",
+  "updated_at": "2026-11-04T07:17:55Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -170,11 +170,16 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "The Nasdaq-100 fell into a third correction this year on AI worries. Tuesday brought mixed signals: AMD and Super Micro jumped, Palantir and Shopify fell, Meta seeks up to $25 billion in bonds, and futures rose.",
+      "summary": "The Nasdaq-100 fell into a third correction this year on AI worries. Tuesday brought mixed earnings signals. After Democrats won Congress, Asian and European stocks fell on fears of tighter AI scrutiny while the dollar weakened.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "Stocks and the dollar fall as Democrats win Congress; traders fear tighter AI oversight and slower data center buildout, the FT reports.",
+          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-03",
           "text": "Meta seeks to raise $20 billion to $25 billion in a bond sale for AI spending.",
@@ -269,11 +274,6 @@
           "date": "2026-10-20",
           "text": "South Korean data centre builder Elice tumbles 32% on its trading debut, adding to AI valuation concerns.",
           "url": "https://www.ft.com/content/cddafc0a-1ae6-467b-84b8-34c172002b6a?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-10-19",
-          "text": "SoftBank's credit default swaps hit their highest in nearly four years on AI funding strain; FT reports surging default-swap trading on Big Tech.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/softbank-group-credit-risk-hits-4-year-high-on-ai-funding-strain"
         }
       ]
     },
@@ -320,11 +320,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Polls began closing Tuesday night with forecasts favoring Democratic gains. Trump-backed Ed Gallrein won Massie's Kentucky seat. Election-day problems were reported in New York and Florida, DOJ sent target letters over the Alaska decoy candidate, and Rep. Haley Stevens sought protection.",
+      "summary": "Democrats won the House and Senate, flipping seats in Texas, Iowa, Kansas, North Carolina, South Carolina, Maine and Ohio, and took several governorships. Trump says he accepts the results; House Republicans are trading blame ahead of leadership elections.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "Democrats flip Senate seats in Kansas, Iowa, South Carolina, North Carolina and Maine, and win the House's 218th seat, taking both chambers.",
+          "url": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "Democrat James Talarico defeats Ken Paxton to win the Texas Senate seat, the first Democratic Senate win there since 1988.",
+          "url": "https://www.theguardian.com/us-news/2026/nov/03/james-talarico-ken-paxton-texas-senate"
+        },
+        {
+          "date": "2026-11-03",
+          "text": "Trump says he is willing to accept the results but Republicans would have won in a landslide if he were on the ballot.",
+          "url": "https://www.axios.com/2026/11/04/trump-republicans-midterms-2026-landslide-blue-wave"
+        },
         {
           "date": "2026-11-03",
           "text": "Trump-backed Ed Gallrein is projected to win Rep. Thomas Massie's Kentucky seat, per Decision Desk HQ.",
@@ -409,32 +424,22 @@
           "date": "2026-10-22",
           "text": "US Attorney Bill Essayli says DOJ verified all 20,000 flagged California voter entries as noncitizens who received mail ballots.",
           "url": "https://www.foxnews.com/politics/doj-verified-20000-noncitizens-california-voter-rolls-federal-prosecutor-says"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "Amy Acton calls Ramaswamy's ad despicable; Gov. DeWine urges Ramaswamy to take it down.",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4775716/mike-dewine-vivek-ramaswamy-take-down-amy-acton-mother-ad/"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "Utah says DOJ is sending election monitors for the Nov. 3 midterms.",
-          "url": "https://www.washingtonexaminer.com/news/justice/4775838/utah-doj-send-election-monitor/"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Trump rallies in Clemson for Sen. Darline Graham; the Guardian reports he praised a supporter who allegedly punched a protester.",
-          "url": "https://www.theguardian.com/us-news/2026/oct/21/trump-south-carolina-rally-darline-graham"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After limited US strikes on Iran's Qeshm Island, Trump told the FT the US has no immediate plan to strike Iran. Qatar-led mediators push a deal. Oil edged higher on conflicting signals; Yemen accuses Iran and Hezbollah of aiding Houthis.",
+      "summary": "After limited US strikes on Iran's Qeshm Island, Trump told the FT the US has no immediate plan to strike Iran, though he confirmed a strike on an anti-aircraft facility. Iran called Washington's Hormuz reply unconvincing; indirect talks continue and oil fluctuated.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "Iran calls the US reply to its Hormuz plan unconvincing as indirect talks continue; Trump confirms a strike on an Iranian anti-aircraft facility.",
+          "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss"
+        },
         {
           "date": "2026-11-03",
           "text": "Trump tells the FT the US has no immediate plan to strike Iran and calls his position brilliant; oil edges higher.",
@@ -524,22 +529,22 @@
           "date": "2026-10-21",
           "text": "Macron makes a surprise visit to Riyadh as France secures extra diesel supplies.",
           "url": "https://www.aljazeera.com/news/2026/10/21/macron-makes-surprise-saudi-visit-as-france-secures-extra-diesel-supplies?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "United Airlines forecasts weak Q4 earnings as jet fuel costs surge.",
-          "url": "https://www.bloomberg.com/news/videos/2026-10-21/united-misses-estimates-squeezed-by-jet-fuel-costs-video"
         }
       ]
     },
     {
       "id": "sl-binance-hack",
       "title": "Binance $6.3 billion hack",
-      "summary": "Binance says suspected North Korean hackers used fake job interviews and a tampered installer to steal $6.3 billion, and that 98% of affected assets are replenished. North Korea denies involvement; laundering may take months.",
+      "summary": "Binance says suspected North Korean hackers used fake job interviews and a tampered installer to steal $6.3 billion, and that 98% of affected assets are replenished. North Korea denies involvement and fired missiles; laundering may take months.",
       "status": "active",
       "first_seen": "2026-10-30",
       "last_updated": "2026-11-03",
       "events": [
+        {
+          "date": "2026-11-03",
+          "text": "North Korea fires multiple missiles and Kim Yo Jong rejects dialogue with the US while denying responsibility for the hack.",
+          "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss"
+        },
         {
           "date": "2026-11-03",
           "text": "Binance's postmortem says hackers used fake job interviews and an internal AI tool; it says 98% of affected assets are replenished.",
