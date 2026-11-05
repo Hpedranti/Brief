@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-11-04T20:19:03Z",
-  "read": "The US economy shows resilient hiring but rising prices. CPI inflation reached 3.7 percent, unemployment ticked up to 4.20 percent, and the Fed raised rates in September. Mortgage rates remain above 7 percent. Oil fell after the midterms, which could ease price pressure if it holds.",
+  "updated_at": "2026-11-05T00:11:26Z",
+  "read": "Inflation is re-accelerating at 3.7% while unemployment edged up to 4.20%. The Fed raised rates in September and holds a 3.75–4.00 target; markets see a December hike as likely. Oil fell below $100 after the midterms, but mortgage rates remain above 7%.",
   "indicators": [
     {
       "key": "fedfunds",
@@ -10,7 +10,7 @@
       "unit": "%",
       "as_of": "2026-11-04",
       "change": "up from 3.50–3.75",
-      "note": "Range raised at September meeting"
+      "note": "Target range after September hike"
     },
     {
       "key": "fedfunds_effective",
@@ -19,7 +19,7 @@
       "unit": "%",
       "as_of": "2026-10-01",
       "change": "up 0.13",
-      "note": "Follows the September hike"
+      "note": "Tracks the higher target range"
     },
     {
       "key": "cpi_yoy",
@@ -28,7 +28,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.3",
-      "note": "Inflation accelerating on energy costs"
+      "note": "Inflation accelerating"
     },
     {
       "key": "unrate",
@@ -37,25 +37,25 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.1",
-      "note": "Slightly higher than August"
+      "note": "Slight loosening in labor market"
     },
     {
       "key": "dgs10",
       "label": "10-yr Treasury",
-      "value": "4.91",
+      "value": "4.95",
       "unit": "%",
-      "as_of": "2026-11-02",
-      "change": "down 0.03",
-      "note": "Yield eased slightly"
+      "as_of": "2026-11-03",
+      "change": "up 0.04",
+      "note": "Yields near 5%"
     },
     {
       "key": "dgs2",
       "label": "2-yr Treasury",
-      "value": "4.59",
+      "value": "4.61",
       "unit": "%",
-      "as_of": "2026-11-02",
-      "change": "up 0.03",
-      "note": "Short yields edge higher"
+      "as_of": "2026-11-03",
+      "change": "up 0.02",
+      "note": "Reflects expected further hikes"
     },
     {
       "key": "mortgage30",
@@ -64,7 +64,7 @@
       "unit": "%",
       "as_of": "2026-10-29",
       "change": "down 0.08",
-      "note": "Still above 7 percent"
+      "note": "Still above 7%"
     }
   ],
   "fed": {
@@ -72,7 +72,7 @@
     "odds": [
       {
         "label": "Hike 25bps",
-        "prob": 0.8
+        "prob": 0.81
       },
       {
         "label": "Fed maintains rate",
@@ -91,7 +91,7 @@
         "prob": 0.01
       }
     ],
-    "note": "Kalshi traders favor a 25bp hike in December; oil and election shifts may matter."
+    "note": "Traders see a December quarter-point hike as the base case."
   },
   "week_ahead": []
 }

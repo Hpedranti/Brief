@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T20:19:03Z",
+  "updated_at": "2026-11-05T00:11:26Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -60,11 +60,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Zelenskyy says 40 are confirmed dead in a Russian strike on a school. US-mediated Ukraine-Russia talks are set for Abu Dhabi on Nov. 10-11, and delegations meet Melania Trump Thursday.",
+      "summary": "Ukraine says at least 40 are dead in a Russian strike on Komyshuvakha, with about 30 possibly under rubble. US-mediated Ukraine-Russia talks are set for Abu Dhabi on Nov. 10-11, and delegations meet Melania Trump Thursday.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "Kyiv says bodycam video shows a double-tap Russian strike on Komyshuvakha; at least 40 are dead and about 30 may be under rubble.",
+          "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-04",
           "text": "Zelenskyy says 40 are confirmed dead after a Russian strike on a school in Komyshuvakha; Kyiv releases bodycam video.",
@@ -154,16 +159,6 @@
           "date": "2026-10-20",
           "text": "Trump says 'I don't care how it's done' as he presses Ukraine to cut a peace deal.",
           "url": "https://www.aljazeera.com/news/2026/10/20/i-dont-care-how-its-done-trump-pressures-ukraine-to-cut-peace-deal?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "WSJ reports Musk ordered a Starshield slowdown that Ukraine said hampered its response to Russian attacks.",
-          "url": "https://thehill.com/policy/international/6161243-musk-ordered-starshield-slowdown/"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Hegseth says US posture toward Ukraine is unchanged but US forces also need Patriot interceptors.",
-          "url": "https://thehill.com/policy/defense/6161092-us-posture-ukraine-unchanged/"
         }
       ]
     },
@@ -175,6 +170,11 @@
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "The Hill reports data centers lost overwhelmingly where they were on the ballot; Ars Technica says Big Tech calls the backlash anti-Trump, not anti-tech.",
+          "url": "https://thehill.com/newsletters/energy-environment/6199755-blue-wave-crashes-into-data-centers/"
+        },
         {
           "date": "2026-11-04",
           "text": "Voters approve dozens of data center moratoriums; hyperscalers and Apple surge while chipmakers and data center stocks fall, CNBC and the FT report.",
@@ -269,18 +269,13 @@
           "date": "2026-10-20",
           "text": "Credit-risk gauges for major tech companies hit fresh highs as investors brace for post-earnings bond sales.",
           "url": "https://www.bloomberg.com/news/articles/2026-10-20/tech-credit-risk-hits-fresh-highs-on-fears-of-debt-wave-to-come"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "China defends DeepSeek and warns of possible retaliation after the DHS order removing it from federal systems.",
-          "url": "https://thehill.com/policy/technology/6160255-china-retaliation-deepseek-ban/"
         }
       ]
     },
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. Kalshi traders put a December 25bp hike at 80%. ADP shows 86,000 private jobs added in October; with Democrats controlling the Senate, Trump's push to reshape the Fed board looks stalled.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. Kalshi traders put a December 25bp hike at 81%. ADP shows 86,000 private jobs added in October; with Democrats controlling the Senate, Trump's push to reshape the Fed board looks stalled.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-04",
@@ -330,11 +325,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House and Senate and a majority of governorships; a few races, including Mississippi's Senate seat, remain uncounted. Speaker Johnson will step aside as GOP leader. Trump and Vance blame the Iran war; Democrats plan investigations and an affordability push.",
+      "summary": "Democrats won the House and Senate and a majority of governorships; Alaska and Mississippi Senate races remain uncalled, with Democrats leading both counts. Jeffries is running for speaker; Johnson will step aside as GOP leader. Trump and Vance blame the Iran war.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "Peltola leads Sullivan by 626 first-choice votes in Alaska; Colom leads Hyde-Smith by 1,138 in Mississippi. Both races remain uncalled.",
+          "url": "https://www.washingtonexaminer.com/news/justice/4793420/doj-quiet-alaska-investigation-senate-peltola-sullivan/"
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Hakeem Jeffries formally announces his bid for House speaker, saying Democrats expect at least 255 seats.",
+          "url": "https://www.axios.com/2026/11/04/hakeem-jeffries-speaker-house-democrats-letter"
+        },
         {
           "date": "2026-11-04",
           "text": "Vance says the Iran war cost Republicans the midterms; Trump later calls it the primary reason but says he would do it again.",
@@ -419,32 +424,27 @@
           "date": "2026-11-01",
           "text": "Trump says he would become 'Mr. Veto' if Democrats win Congress; an NBC poll shows 52% prefer a Democratic Congress, 45% Republican.",
           "url": "https://thehill.com/homenews/administration/6186898-trump-plans-veto-strategy/"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "A federal judge dismisses the DOJ lawsuit seeking to block certification of Alaska's Senate race if Republican Dan Sullivan loses; Sullivan says he will accept results.",
-          "url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Rep. Haley Stevens endorses Republican Mike Rogers in the Michigan Senate race; Democratic leaders condemn the move, and Trump praises it.",
-          "url": "https://www.npr.org/2026/11/01/nx-s1-6020993/michigan-senate-race-abdul-el-sayed-haley-stevens-mike-rogers"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "El-Sayed asks Rep. Haley Stevens to stay away from his events, a source says; a Clyburn adviser says he cannot disinvite her from a Sunday event.",
-          "url": "https://thehill.com/homenews/campaign/6186552-clyburn-rally-el-sayed-stevens/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "After the midterms, oil fell below $100 on hopes of de-escalation as Vance blamed the war for GOP losses; Trump says the war was justified. Schumer threatens to use the power of the purse. Indirect talks continue.",
+      "summary": "Oil steadied after an 8% plunge on hopes a Democratic Congress will push to end the war. Trump says he has no immediate plans for more strikes; 23 US service members have died since the war began. Indirect talks continue.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-04",
       "events": [
+        {
+          "date": "2026-11-04",
+          "text": "Oil steadies after falling more than 8% as investors bet a Democratic sweep could accelerate efforts to end the war.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5"
+        },
+        {
+          "date": "2026-11-04",
+          "text": "Defense News reports two US airmen died in non-hostile incidents last week, raising the war's US death toll to 23.",
+          "url": "https://www.defensenews.com/news/pentagon-congress/2026/11/04/amid-iran-conflict-non-hostile-deaths-of-2-us-airmen-raise-overseas-toll-to-23/"
+        },
         {
           "date": "2026-11-04",
           "text": "Oil falls below $100 as Vance blames the Iran war for GOP losses and traders see pressure for an offramp.",
@@ -534,16 +534,6 @@
           "date": "2026-10-21",
           "text": "State Department orders nonemergency personnel and families to leave Saudi Arabia as Houthi attacks continue; Fox reports Trump weighs strikes on Houthis.",
           "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-orders-some-diplomats-out-of-saudi-arabia-amid-houthi-attacks"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Iran says it is determined to keep its uranium and had nothing new for Washington after reported mediator proposals.",
-          "url": "https://www.aljazeera.com/news/2026/10/21/iran-determined-to-keep-uranium-amid-increased-war-odds-flurry-of-meetings?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Dozens of Israeli fighter jets fly a sortie to the Iranian border, per Israeli and US officials, Axios reports.",
-          "url": "https://www.axios.com/2026/10/21/israel-military-training-sortie-iran-border"
         }
       ]
     },
