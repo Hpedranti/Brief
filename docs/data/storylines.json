@@ -1,15 +1,20 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T07:44:40Z",
+  "updated_at": "2026-11-05T20:29:36Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
       "title": "France riots and European unrest",
-      "summary": "French protests are in their fifth week; unions called a nationwide strike for Thursday, including hospital, air traffic and rail workers, while budget talks remain deadlocked. Earlier, 320,000 marched and clashes hit Paris and Marseille; violent protests also hit German cities.",
+      "summary": "French protests are in their fifth week. Unions staged a nationwide strike Thursday; the interior ministry counted 600,000 marchers, unions said more, and 70,000 police were deployed. Budget talks remain deadlocked. Earlier clashes hit Paris and Marseille; violent protests also hit German cities.",
       "status": "active",
       "first_seen": "2026-10-20",
-      "last_updated": "2026-11-04",
+      "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Unions stage a general strike; the interior ministry estimates 600,000 marchers nationwide, with unions citing a far higher number.",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-04",
           "text": "France braces for a nationwide strike and marches over cost of living and education as parliamentary budget talks remain deadlocked.",
@@ -65,11 +70,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Ukraine says at least 40 are dead in a Russian strike on Komyshuvakha. Zelenskyy spoke with Witkoff and Kushner for 90 minutes ahead of US-mediated talks in Abu Dhabi on Nov. 10-11; delegations meet Melania Trump Thursday.",
+      "summary": "Ukraine says at least 40 died in a Russian strike on Komyshuvakha. Melania Trump hosted Russian and Ukrainian delegations Thursday and urged a lasting truce; US-mediated talks in Abu Dhabi are set for Nov. 10-11.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-04",
+      "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Melania Trump hosts Russian and Ukrainian officials at the White House and urges them to build on the recent local truce.",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-04",
           "text": "Zelenskyy says he spoke for 90 minutes with Witkoff and Kushner ahead of trilateral talks; he and EU officials hope a Democratic Congress will help.",
@@ -170,11 +180,16 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, hyperscalers and Apple rallied while chipmakers and data center stocks fell as voters rebuffed data center projects. Asian tech stocks slid on fears of a slower buildout, while Hong Kong rebounded.",
+      "summary": "After Democrats won Congress, AI stocks plunged: the Nasdaq had its worst day since April 2025 as chip and neocloud shares fell on fears of a slower data center buildout. SpaceX credit risk hit a record; AI firms are offering concessions.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-04",
+      "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "CNBC: chip stocks and neoclouds plunge, pushing the Nasdaq to its worst day since April 2025 on fears of a post-midterm AI slowdown.",
+          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+        },
         {
           "date": "2026-11-04",
           "text": "Asian tech stocks slide on fears Democratic control slows data center buildout; Hong Kong rebounds as investors rotate away from AI hardware.",
@@ -269,11 +284,6 @@
           "date": "2026-10-20",
           "text": "Stocks rise as strong tech earnings revive the AI trade after last week's selloff; oil gains.",
           "url": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Australian data center operator NextDC plunges about 40% after cutting its earnings forecast over power delays.",
-          "url": "https://www.cnbc.com/2026/10/21/australia-data-center-operator-nexdc-datacenter.html"
         }
       ]
     },
@@ -330,11 +340,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and a majority of governorships, sweeping Texas; Alaska and Mississippi Senate races remain uncalled with Democrats leading. Jeffries is running for speaker; Johnson steps aside as GOP leader. Trump and Vance blame the Iran war; Cruz cites cost of living.",
+      "summary": "Democrats won the House, Senate and most governorships. Mississippi (Colom leads by about 1,000) and Alaska (Sullivan-Peltola, with a namesake candidate dispute) remain uncalled. Jeffries seeks speaker; Johnson steps aside; Schumer faces leadership pressure. Trump and Vance blame the Iran war.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-04",
+      "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Trump says Sen. Dan Sullivan should receive the votes cast for namesake Dan J. Sullivan in Alaska, where the margin is 642 votes.",
+          "url": "https://www.axios.com/2026/11/05/trump-dan-sullivan-alaska-senate-race"
+        },
+        {
+          "date": "2026-11-05",
+          "text": "BBC: Democrat Scott Colom leads Cindy Hyde-Smith by just over 1,000 votes in Mississippi; Republicans pin hopes on late-arriving ballots.",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9rwxlx992o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-04",
           "text": "Scott Wiener is poised to win Pelosi's seat; Nithya Raman is projected to unseat Los Angeles Mayor Karen Bass, per Decision Desk HQ.",
@@ -424,27 +444,22 @@
           "date": "2026-11-01",
           "text": "Stevens is removed from the Michigan Democratic Party, Washington Examiner reports; some House Democrats seek her removal from caucus, Axios reports.",
           "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4787498/michigan-democrats-disarray-haley-stevens-endorses-mike-rogers/"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "DOJ set to appeal dismissal of its Alaska Senate certification suit, Fox News reports; Sanders calls alleged Democratic ballot-stacking 'pretty dumb'.",
-          "url": "https://www.foxnews.com/politics/doj-set-appeal-ruling-alaska-senate-race-dispute-over-decoy-dan"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "NYT/Siena polls show Democrats narrowly ahead in seven Senate races, mostly within margin of error; another poll finds late deciders favor Republicans.",
-          "url": "https://thehill.com/homenews/6187749-democrats-edge-out-gop-senate-poll/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Oil fell below $100 on hopes a Democratic Congress will push to end the war. Axios says Trump faces hard choices between a deal and renewed bombing; 23 US service members have died. Indirect talks continue; South Korea plans wider Hormuz patrols.",
+      "summary": "Iran says five tankers and a tugboat caught fire in Hormuz amid fears of a new US attack. Oil fell below $100 earlier this week on hopes a Democratic Congress will push to end the war; 23 US service members have died.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-04",
+      "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Iran says five oil tankers and a tugboat caught fire in several incidents in the Strait of Hormuz amid fears of a new US attack.",
+          "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss"
+        },
         {
           "date": "2026-11-04",
           "text": "Axios says Trump, who blames the war for GOP losses, faces mostly bad options: strike again or seek a deal.",
@@ -539,11 +554,6 @@
           "date": "2026-10-22",
           "text": "Oil jumps to a five-month high as Iran's IRGC says it hit four vessels in the northern Gulf and three ships struck mines near Hormuz.",
           "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "NPR source says the US and Israel are planning a possible attack on Iran in early November, after the midterms; Iran says it is prepared.",
-          "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war"
         }
       ]
     },
@@ -595,11 +605,16 @@
     {
       "id": "sl-israel-election",
       "title": "Israel election deadlock",
-      "summary": "Israel's election produced a deadlock, with an Arab coalition holding the balance of power after record gains. Netanyahu claims the vote was 'stolen'; the election body says results stand. Herzog has accepted the results and opened coalition talks.",
+      "summary": "Israel's election produced a deadlock, with Arab parties holding the balance. Netanyahu claims the vote was 'stolen'; the election body says results stand. Arab parties now back Gadi Eisenkot, and Herzog decides within a week whom to task.",
       "status": "active",
       "first_seen": "2026-11-01",
-      "last_updated": "2026-11-04",
+      "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Arab parties led by Yousef Jabareen tell Herzog they back Gadi Eisenkot over Netanyahu to form a government.",
+          "url": "https://www.washingtonexaminer.com/news/world/4794224/israel-arab-parties-back-eisenkot/"
+        },
         {
           "date": "2026-11-04",
           "text": "Herzog accepts the vote results and opens talks on forming a government, a blow to Netanyahu's efforts to discredit the election, Al Jazeera reports.",

@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "updated_at": "2026-11-05T07:44:40Z",
-  "read": "The US economy shows sticky inflation and a softening job market. CPI inflation rose to 3.7% in September, unemployment edged up to 4.20%, and the Fed raised rates in September. Treasury yields near 5% and mortgage rates above 7% weigh on housing, while markets expect another hike in December.",
+  "updated_at": "2026-11-05T20:29:36Z",
+  "read": "Inflation is re-accelerating, with CPI at 3.7% and unemployment up to 4.20%, while the Fed has raised rates and traders see a December hike as likely. Mortgage rates remain above 7%. A sharp AI-led stock selloff has sent Treasury yields lower; Friday's jobs report is the next test.",
   "indicators": [
     {
       "key": "fedfunds",
       "label": "Fed funds target",
       "value": "3.75–4.00",
       "unit": "%",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "change": "up 0.25",
-      "note": "Range raised from 3.50–3.75 in September"
+      "note": "Raised from 3.50–3.75 in September."
     },
     {
       "key": "fedfunds_effective",
@@ -19,7 +19,7 @@
       "unit": "%",
       "as_of": "2026-10-01",
       "change": "up 0.13",
-      "note": "Tracks the higher target range"
+      "note": "Tracks the higher target range."
     },
     {
       "key": "cpi_yoy",
@@ -28,7 +28,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.3",
-      "note": "Inflation accelerated from August"
+      "note": "Inflation picked up again in September."
     },
     {
       "key": "unrate",
@@ -36,8 +36,8 @@
       "value": "4.20",
       "unit": "%",
       "as_of": "2026-09-01",
-      "change": "up 0.10",
-      "note": "Edged higher from August"
+      "change": "up 0.1",
+      "note": "Labor market loosening slightly."
     },
     {
       "key": "dgs10",
@@ -46,7 +46,7 @@
       "unit": "%",
       "as_of": "2026-11-03",
       "change": "up 0.04",
-      "note": "Hovering near 5%"
+      "note": "Yields have since fallen on haven demand."
     },
     {
       "key": "dgs2",
@@ -55,16 +55,16 @@
       "unit": "%",
       "as_of": "2026-11-03",
       "change": "up 0.02",
-      "note": "Barely changed from prior day"
+      "note": "Reflects expectations of more Fed hikes."
     },
     {
       "key": "mortgage30",
       "label": "30-yr mortgage",
-      "value": "7.24",
+      "value": "7.18",
       "unit": "%",
-      "as_of": "2026-10-29",
-      "change": "down 0.08",
-      "note": "Slight weekly easing, still above 7%"
+      "as_of": "2026-11-05",
+      "change": "down 0.06",
+      "note": "Still above 7%, weighing on housing."
     }
   ],
   "fed": {
@@ -72,26 +72,37 @@
     "odds": [
       {
         "label": "Hike 25bps",
-        "prob": 0.8
+        "prob": 0.66
       },
       {
         "label": "Fed maintains rate",
-        "prob": 0.21
+        "prob": 0.34
       },
       {
         "label": "Hike >25bps",
-        "prob": 0.02
+        "prob": 0.01
       },
       {
         "label": "Cut 25bps",
-        "prob": 0.02
+        "prob": 0.01
       },
       {
         "label": "Cut >25bps",
         "prob": 0.01
       }
     ],
-    "note": "Kalshi traders favor a quarter-point hike in December after September's increase."
+    "note": "Kalshi traders favor another quarter-point hike on Dec. 9."
   },
-  "week_ahead": []
+  "week_ahead": [
+    {
+      "date": "2026-11-06",
+      "event": "October jobs report",
+      "why_it_matters": "Could ease or deepen the tech-led market selloff."
+    },
+    {
+      "date": "2026-11-09",
+      "event": "Senate vote on Bipartisan American Affordability and Jobs Act",
+      "why_it_matters": "Permitting overhaul could speed energy infrastructure."
+    }
+  ]
 }

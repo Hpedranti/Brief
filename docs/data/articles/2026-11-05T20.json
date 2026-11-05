@@ -1,0 +1,417 @@
+{
+  "version": 1,
+  "drop": "2026-11-05T20",
+  "articles": {
+    "2026-11-05T20-c25": {
+      "paragraphs": [
+        "Chinese regulators have blocked SoftBank Group's planned $5.375 billion purchase of ABB's robotics division, ABB confirmed to The Robot Report. China's Office of the Working Mechanism for Foreign Investment Security Review prohibited the acquisition in the country.",
+        "According to The Financial Times, which first reported the block, authorities expressed concerns about robotics data being transferred overseas and used to train AI models. It has been more than a year since ABB announced it had signed the agreement to sell the unit to the Japanese company.",
+        "The Robot Report said China has a say because it makes up a major portion of ABB's revenue. It reported that ABB Robotics had $928,000 in orders from China in fiscal 2025, up from $662,000 in 2024, and a 32% increase in business in China in the third quarter of 2026. ABB also builds robots in a Shanghai factory, and about 90% of machines made for Chinese customers are manufactured locally, employing thousands of people.",
+        "ABB said it and SoftBank are \"in close dialogue and are working constructively on the transaction.\" The Robot Report said it had reached out to sources for more comment.",
+        "The outlet noted this is not the first time China has blocked an international deal citing national security. In April, it said, China prevented Meta from acquiring Manus, an AI startup founded in China and later relocated to Singapore, for $2 billion. In the US, the commerce secretary has submitted a Section 232 report on robotics imports, which the outlet said could lead to tariffs, and the FCC has banned new foreign-made advanced robotic devices."
+      ],
+      "based_on": [
+        "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"
+      ]
+    },
+    "2026-11-05T20-c26": {
+      "paragraphs": [
+        "Agility Robotics began trading on Nasdaq under the ticker \"AGLT\" after completing its merger with the special-purpose acquisition company Churchill Capital Corp XI, The Robot Report said. Shares opened at $11.26, above the $10 price used in the SPAC deal, and were at $10.30 at press time.",
+        "The deal provides about $465 million in gross proceeds before expenses: about $164 million from the SPAC's trust account after redemptions, $201 million from a private investment led by Foxconn, and a $100 million funding round closed after the announcement. Agility had earlier projected more than $620 million if no shareholders redeemed.",
+        "According to The Robot Report, Agility reported $1.78 million in revenue in 2025, up from $310,000 in 2024, with a net loss of $138.1 million. About 64% of revenue came from related parties, and the company ended 2025 with $103 million in cash. It says its Digit robot has logged more than 65,000 hours across nine customer facilities, and that it has more than $300 million in committed multiyear orders for Digit 5, subject to contractual milestones, with early-access deliveries expected in 2027.",
+        "Ars Technica, citing the company's securities filing, said humanoid robots remain unproven at scale and have not achieved widespread commercialization. In a September S-4 filing, Agility described subscription pricing of about $25,000 for deployment plus $8,500 a month, or outright purchase at $200,000 plus $20,000 for deployment and a $36,000 annual fee.",
+        "Agility estimates each Digit 5 initially costs it $150,000 in materials, falling to $75,000 at 1,000 robots a year. CEO Peggy Johnson also suggested the company could license its intellectual property to other humanoid developers."
+      ],
+      "based_on": [
+        "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
+        "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/"
+      ]
+    },
+    "2026-11-05T20-c27": {
+      "paragraphs": [
+        "Defense technology company Shield AI is acquiring Echodyne, a provider of counter-drone radar systems, in a $5.3 billion deal, the companies announced, according to Breaking Defense. The deal is expected to close in early 2027 and gives Shield an in-house counter-drone offering, per a company statement.",
+        "Of the total, $4.8 billion will be paid at closing and another $500 million if Echodyne meets specified performance targets. Alongside the deal, Shield said it raised $2.5 billion through Series H funding and investments from Blackstone and JPMorgan Chase.",
+        "Echodyne says its counter-drone systems are used by defense, government and commercial customers in more than 40 countries. Its MESA radar system was selected in September by the Pentagon's Joint Interagency Task Force 401 to supply counter-drone systems to the US military.",
+        "Shield CEO Gary Steele said the acquisition accelerates efforts to meet demand for multi-mission capabilities and diversifies revenue. He described the company as now having three parts: autonomy software, autonomous systems and mission systems. Echodyne CEO Eben Frankenberg said sensors are central to autonomous systems and that joining Shield creates a company with greater size and breadth.",
+        "Echodyne will operate as a unit within Shield's mission systems business, with Frankenberg reporting to Steele. A Shield spokesperson said no workforce reductions are planned and employees will not have to relocate. The spokesperson said no specific aircraft integrations are being announced, that the deal does not affect Shield's recent decision to work with RTX on a radar for its X-Bat drone, and that the company will keep considering acquisitions. Breaking Defense noted Shield has grown through acquisitions before, including Martin UAV in 2021 and Aechelon Technologies this year."
+      ],
+      "based_on": [
+        "https://breakingdefense.com/2026/11/shield-ai-acquires-radar-firm-echodyne-in-5-3b-deal/"
+      ]
+    },
+    "2026-11-05T20-c28": {
+      "paragraphs": [
+        "Zipline has raised $1.5 billion and expanded its partnership with Walmart, TechCrunch reports. The funding values the drone delivery and logistics company at $21.5 billion.",
+        "Zipline and Walmart reached a new multi-year agreement to add 300 drone delivery sites across the United States. The companies have had a drone delivery agreement since 2021, and the new deal is a significant jump from the 21 active sites they have together today.",
+        "The round was led by Paradigm, WCM Investment Management and Layer Global, with participation from Valor Equity Partners, Fidelity Management & Research Company, Uber, Tiger Global, J.P. Morgan, ARK Invest and Salesforce Ventures. Zipline said it plans to use the money to expand its US manufacturing facilities and hire more workers to build a nationwide drone delivery network.",
+        "TechCrunch described the company's background. Founded in 2014, Zipline began in Africa, delivering blood in Rwanda before expanding to Ghana and Nigeria. It started US operations in 2020, carrying medical supplies for Novant Health in North Carolina. It received Part 135 air carrier certification from the Federal Aviation Administration in 2022, which authorized long-range commercial drone deliveries, and has since signed other partnerships, including one with Uber earlier this year.",
+        "Zipline now delivers food, retail, agricultural and health products in five African countries, several US cities and Japan. Its Platform 2 home delivery drones carry up to eight pounds within a 10-mile radius, while larger Platform 1 drones handle long-range deliveries of up to 120 miles round trip. The company said its share of delivery revenue grew from 10.8% to 34.9% between March and October, and the new funding aims to push that higher."
+      ],
+      "based_on": [
+        "https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/"
+      ]
+    },
+    "2026-11-05T20-c29": {
+      "paragraphs": [
+        "Anthropic announced a new Personal Finance feature for its Claude chatbot that connects to users' bank and credit card accounts through the Plaid platform. The Verge and TechCrunch report it is rolling out in beta this week to Claude Pro, Max and Ultra subscribers in the US.",
+        "Users can ask questions such as where their money went this month, and Claude produces a spending breakdown by category, including rent and utilities, food and shopping. It can also address broader questions, such as which bills remain before payday, whether a holiday trip is affordable and how much a user could save monthly. According to TechCrunch, Anthropic says it can flag duplicate charges, unexpected fees and steadily rising bills, and explain terms like APR.",
+        "Anthropic says access is read-only. Claude cannot move, manage or invest money and is not designed to give investment advice. The Verge reports that because Plaid handles the connection, Claude does not see banking passwords. Claude can see the bank's name, account names and types, the last four digits of account numbers, balances, credit limits and up to two years of transaction history. Anthropic says conversations in the Personal Finance hub are not used to train its models and that the feature has no ads or sponsored recommendations.",
+        "Both outlets note OpenAI introduced a similar ChatGPT feature in May that also uses Plaid. Anthropic called Personal Finance a first step and said it wants to hear from banks, wealth managers and financial services firms about letting Claude work alongside licensed professionals."
+      ],
+      "based_on": [
+        "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+        "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
+      ]
+    },
+    "2026-11-05T20-c30": {
+      "paragraphs": [
+        "Blue Origin has pushed the return to flight of its New Glenn rocket to January 2027, later than its earlier target of the end of this year, CNBC reports. CEO Dave Limp told employees in a Wednesday memo that the schedule slipped because of delays rebuilding the Cape Canaveral launch pad, including bad weather over the summer.",
+        "The memo was viewed by CNBC and was reported earlier by the Financial Times. A person familiar with the matter told CNBC the January timeframe is about 10 days later than the company's previous target. Bezos told Fox News last month that the company still expected New Glenn to fly again in December.",
+        "The pad was badly damaged by an explosion in May during a hot-fire test. The company had been scheduled to launch 48 satellites for Amazon's Leo internet service a few days later. Since then, CNBC says, Blue Origin has moved quickly to repair the facility and reworked its pad configuration.",
+        "Limp wrote that the \"small adjustment doesn't diminish what we've accomplished,\" and that returning New Glenn to flight remains the top priority. He said progress has been great but that \"rebuilding at this pace hasn't been easy.\"",
+        "CNBC reports the delays have slowed Amazon's Leo buildout, with Amazon turning to United Launch Alliance and Arianespace in the interim. NASA has also given Blue Origin Artemis contracts, including for a lunar lander. Last month the company announced new Florida investments aimed at supporting multiple flights per week by the end of the decade."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/11/05/blue-origin-launch-new-glenn.html"
+      ]
+    },
+    "2026-11-05T20-c31": {
+      "paragraphs": [
+        "Moonshot AI, a Chinese artificial intelligence lab, has sought access to Nvidia's advanced Blackwell chips through data centers in Europe, four people familiar with the matter told CNBC. The sources asked not to be named because the information is private.",
+        "They said deals were discussed this year for Moonshot to rent capacity from neoclouds hosting Nvidia GPUs in Europe. Three sources said Moonshot wanted Blackwell capacity, which is subject to US export controls that effectively bar its import into China. One source said talks involved clusters of 8,000 or more Blackwell GPUs and described Moonshot as \"very aggressive\" in pursuing computing power. Two sources said the interest was mainly in inference, and one was aware of interest in training clusters. One source said it had been proposed that Moonshot pay 30% to 50% more upfront than a non-Chinese customer.",
+        "In July, the White House said Moonshot had accessed Blackwell chips through a facility in Thailand. CNBC says current law does not give regulators broad authority over access to chips through overseas cloud services. The Remote Access Security Act, which would extend export controls to cloud access, passed the House in January but not the Senate.",
+        "The Financial Times reported Tuesday that Nvidia told cloud providers they must sell at least 51% of services to non-Chinese customers. An Nvidia spokesperson said America's AI infrastructure must win worldwide. Moonshot, Nvidia, the White House, the Commerce Department and Chinese officials did not respond to CNBC's requests for comment."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html"
+      ]
+    },
+    "2026-11-05T20-c32": {
+      "paragraphs": [
+        "The CISA, the FBI and the departments of Agriculture, Health and Human Services, and Transportation issued a joint warning Thursday about an \"ongoing cyber threat\" to industrial refrigeration systems, according to TechCrunch and Defense One. They said hackers are targeting internet-connected refrigeration and cold chain monitoring systems in grocery stores and cold storage facilities.",
+        "The agencies said attackers could change temperatures, force units into continuous heating and defrost cycles, or hide current temperatures from operators. Possible effects include fire hazards, lost inventory, equipment damage and harm to consumers using products kept at unsafe temperatures. CISA's Chris Butera said every organization depending on such systems should assume it could be a target.",
+        "The warning follows waves of attacks in Europe. TechCrunch reports they affected at least a dozen countries and included systems made by Danfoss, which had stopped providing security updates. Defense One says attacks hit hundreds of French establishments in October, three French regional blood banks this week, and supermarkets in Sweden, Belgium and Luxembourg. TechCrunch says the French blood bank attack was stopped before it compromised blood stores.",
+        "In the US, Defense One reports officials suspect Iran-linked hackers were behind freezer failures at about six military commissaries beginning around late August. The Pentagon is investigating. The US notice does not name who is responsible, though TechCrunch says researchers have broadly attributed the attacks to Iran.",
+        "The agencies urged operators to take control systems off the public internet, separate them from business networks, change default passwords, apply patches and retire unsupported equipment. European authorities issued their own warning Wednesday."
+      ],
+      "based_on": [
+        "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
+        "https://www.defenseone.com/threats/2026/11/warn-refrigerator-hacks-attacks-military/417076/"
+      ]
+    },
+    "2026-11-05T20-c12": {
+      "paragraphs": [
+        "Israel's Arab-led parties have urged President Isaac Herzog to let Gadi Eisenkot, chairman of the Yashar party, try first to form the next government, according to the Washington Examiner. A delegation led by Joint List chairman Yousef Jabareen met Herzog on Thursday.",
+        "The Washington Examiner reported that the endorsement would give Eisenkot the backing of 67 Knesset members, against 46 for Prime Minister Benjamin Netanyahu. The Joint List said widening the gap would improve the chances of replacing the government and make a national unity government that keeps Netanyahu in power less likely. The support was reluctant. \"We are not choosing between good and better, but between what we see as bad and even worse,\" Jabareen told Herzog.",
+        "The Guardian reported that Netanyahu's coalition fell from 68 to 53 seats in the 120-seat Knesset. Eisenkot's Change bloc has 48, and Arab parties won a record 19: 11 for the Joint List and eight for Ra'am. The Joint List has suggested it would back a minority government from outside, while Ra'am has said it would join a government led by Eisenkot. Eisenkot has set conditions for any coalition with Arab parties, including recognition of Israel as a Jewish state, compulsory national service and denouncing Hamas as a terrorist organisation.",
+        "Netanyahu said on Wednesday that Arab parties \"seek to erase the Jewish identity of Israel.\" He has also cast doubt on the results over an election-officials' investigation into possible vote tampering, and critics accuse him of undermining the outcome, which he denies. The Central Election Committee said the vote's integrity had not been compromised.",
+        "Herzog must choose by Nov. 11. The chosen candidate then has 28 days to build a coalition, with a possible 14-day extension. If that fails, Herzog can pick another candidate. Netanyahu remains prime minister in a caretaker role until then."
+      ],
+      "based_on": [
+        "https://www.washingtonexaminer.com/news/world/4794224/israel-arab-parties-back-eisenkot/",
+        "https://www.theguardian.com/world/2026/nov/05/herzog-netanyahu-eisenkot-israel-election-decision"
+      ]
+    },
+    "2026-11-05T20-c13": {
+      "paragraphs": [
+        "Comedian and actor Russell Brand, 51, was convicted on Thursday at Southwark Crown Court in London of one count of rape and three counts of sexual assault involving four women, NPR reported. The jury of eight men and four women deliberated for more than eight hours over two days after a three-week trial, according to the BBC.",
+        "Judge Joel Bennathan said Brand faces a \"significant\" prison term when he is sentenced on Monday. He rejected a bail request because of the possibility Brand might flee, and Brand was taken into custody. Brand was acquitted of two counts of rape and one count of attempted indecent assault.",
+        "The convictions relate to a sexual assault at a London bar in 2004, the groping of a woman at a radio station in 2004 or 2005, the rape of a fan backstage in 2009, and a sexual assault during an advertisement recording in 2009. Brand denied all charges. He testified that he had led a promiscuous life but never forced anyone. His lawyers argued the accusers were undermined by having gone to police years later, after a 2023 documentary.",
+        "Detective Superintendent Andy Furphy of the Metropolitan Police said Brand used his fame to exploit women. The BBC reported that police have taken more than 340 witness statements and are investigating rape allegations from two more women. Furphy said he believes other women may now come forward.",
+        "The BBC said allegations first emerged in September 2023 through The Times, the Sunday Times and Channel 4's Dispatches. Charges followed in April 2025, with further charges in July 2025."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/11/05/nx-s1-6030720/russell-brand-rape-sexual-assault-prison",
+        "https://www.bbc.co.uk/news/articles/c6vgx8q09gg4o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-05T20-c15": {
+      "paragraphs": [
+        "The Justice Department is conducting a criminal investigation into the leak of the Supreme Court's draft opinion overturning Roe v. Wade, Fox News reported, citing multiple unnamed sources. The probe is led by the office of U.S. Attorney Jeanine Pirro in Washington. Sources said it has been underway for at least a year and that grand jury subpoenas have been issued, though it is unclear who received them. Fox said The New York Times first reported the investigation. The Justice Department and the U.S. Attorney's Office declined to comment.",
+        "Politico published the draft on May 2, 2022. The final ruling in Dobbs v. Jackson Women's Health Organization came on June 24, 2022. Chief Justice John Roberts ordered an internal investigation led by Court Marshal Gail Curley. After forensic analysis and interviews with nearly 100 employees, the court said in January 2023 that investigators were \"unable to identify a person responsible by a preponderance of the evidence.\"",
+        "The marshal's report found it unlikely that an outsider had improperly accessed court systems. It said expanded work-from-home arrangements during the pandemic and gaps in security policies made it easier to remove sensitive information. Some employees admitted telling a spouse or partner about the draft. Former Homeland Security Secretary Michael Chertoff reviewed the methods and concluded he could not identify additional useful measures.",
+        "Justice Samuel Alito told Fox News last month he has an opinion on who was responsible but that the evidence is not strong enough to name anyone. Fox said it asked the Supreme Court whether it has worked with outside investigators, including the Justice Department; the page does not report a response."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/doj-launches-criminal-probe-supreme-court-leak-exposed-ruling-overturning-roe-v-wade"
+      ]
+    },
+    "2026-11-05T20-c16": {
+      "paragraphs": [
+        "Democrat Scott Colom was narrowly ahead of Republican Sen. Cindy Hyde-Smith in Mississippi's Senate race on Thursday, with neither candidate declared the winner. The BBC reported a lead of just over 1,000 votes with 96% counted. The Washington Examiner, citing the Associated Press, put Colom's lead at 1,724 votes with an estimated 95.6% counted. Fox News listed totals of 464,926 for Colom and 463,788 for Hyde-Smith. The figures differ by outlet and time of day.",
+        "Remaining ballots include absentee, provisional and affidavit ballots. Mississippi counts mail ballots postmarked by Election Day and received within five business days. Secretary of State Michael Watson said about 3,600 absentee ballots were outstanding as of Wednesday. Julie Wronski, a University of Mississippi political scientist, told the BBC the race likely will not be called until at least Nov. 10. Mississippi has no automatic recounts and does not let candidates request them.",
+        "Both campaigns expressed confidence. Hyde-Smith's campaign said Mississippians will have reelected her once every legally cast vote is counted. Colom said his campaign has an \"army of lawyers\" and expects to win.",
+        "The Washington Examiner noted that in June the Supreme Court upheld Mississippi's late-arriving ballot law 5-4 in Watson v. Republican National Committee, rejecting the Republican National Committee's argument. Republican Attorney General Lynn Fitch, whose office defended the law, said she hoped the legislature would amend it.",
+        "A Colom win would make him the first Black U.S. senator elected in Mississippi since 1875, the BBC reported. Democrats are projected to hold at least 54 Senate seats, and the Alaska race also remains uncalled."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/c6n9rwxlx992o?at_medium=RSS&at_campaign=rss",
+        "https://www.washingtonexaminer.com/news/campaigns/congressional/4794101/gop-pins-hopes-mississippi-senate-race-mail-in-ballots/"
+      ]
+    },
+    "2026-11-05T20-c17": {
+      "paragraphs": [
+        "President Trump called on Thursday for votes cast for a second candidate named Dan Sullivan to be given to Alaska's Republican Sen. Dan Sullivan, as the state's Senate race remained extremely close. In a Truth Social post quoted by Fox News, Trump wrote that the votes for the \"Fake Dan Sullivan,\" plus another candidate he called a \"slug,\" should go to the \"REAL Dan Sullivan\" and that \"There is no other fair solution!\"",
+        "Fox News reported that Democrat Mary Peltola, a former congresswoman, led the senator by less than 700 votes, with about a quarter of the vote still to count according to the Associated Press. Fox gave the margin as 637 votes in one place. Daniel J. Sullivan, a retired schoolteacher who entered the race in May, had received about 3,600 votes, more than five times that gap.",
+        "The Justice Department opened an investigation into Daniel J. Sullivan in July. The New York Times reported in October that he had met with Democratic operatives and Peltola campaign staff who encouraged him to run, Fox said. Peltola has denied any involvement. Fox also quoted one voter who said he believed he accidentally voted for the wrong Dan Sullivan.",
+        "Alaska uses ranked choice voting. If no candidate has 50% of the vote, the last-place candidate is eliminated and those voters' ballots go to their next choice. The page does not say how the ranked ballots will affect the result, or whether Trump's proposal has any legal basis.",
+        "Fox also reported a razor-thin Mississippi Senate race, where Democrat Scott Colom led Sen. Cindy Hyde-Smith with 95.6% of votes counted."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/alaska-mississippi-senate-races-separate-razor-thin-vote-margins"
+      ]
+    },
+    "2026-11-05T20-c18": {
+      "paragraphs": [
+        "House Majority Leader Steve Scalise sent a letter to all House Republican committee chairmen on Thursday telling them to prepare for investigations once Democrats take control of the House next year, according to copies obtained by the Washington Examiner and Fox News. Scalise wrote that Democrats will use oversight powers for \"retribution\" and \"countless witch hunts,\" and said they \"will weaponize every single gavel to appease their radical base.\"",
+        "The letter asks chairmen to take inventory of current and likely Democratic investigations, to identify administration officials, programs, authorities and outside allies who may be on Democrats' \"target list,\" and to consider how recent Supreme Court decisions and a Justice Department legal opinion on executive privilege will affect oversight. Scalise said a third impeachment effort against President Trump may come but that Democrats \"will not stop there.\" He directed his staff to arrange meetings with chairmen, administration officials and outside partners.",
+        "Democrats have signaled they plan a broad set of investigations, Fox reported. Rep. Robert Garcia of California, the likely next Oversight Committee chair, responded to the election results with the words \"Lawyer up.\" His committee said he has vowed to examine what it called the \"Trump Crime Family,\" corporate corruption, DHS and ICE abuses and the handling of the Epstein files. A House Judiciary Committee Democratic spokeswoman said Scalise appeared to be asking Republicans to list abuses they had protected from oversight, adding that \"the cover-up expires with the Republican majority.\"",
+        "House Republicans hold leadership elections on Nov. 10, where Scalise is running for minority leader against Jim Jordan. House Democrats hold theirs on Nov. 18 and 19."
+      ],
+      "based_on": [
+        "https://www.washingtonexaminer.com/news/house/4794263/scalise-warning-letter-gop-chairmen-prepare-defense-democrat-retribution/",
+        "https://www.foxnews.com/politics/house-gop-launches-defense-plan-shield-trump-from-looming-democrat-investigations"
+      ]
+    },
+    "2026-11-05T20-c19": {
+      "paragraphs": [
+        "Michigan Senator-elect Abdul El-Sayed said in a CNN interview on Thursday that he will back Maryland Sen. Chris Van Hollen over Chuck Schumer to lead Senate Democrats, according to Al Jazeera. It is one sign of division in a caucus that Fox News says now holds 54 seats, with Alaska and Mississippi still uncalled.",
+        "Al Jazeera listed at least seven incoming Democratic senators who have not committed to Schumer. Illinois's Juliana Stratton said through a spokesperson she will not support him, and Kansas's Adam Hamilton said \"I'm not supporting Schumer.\" Maine's Troy Jackson said he told Schumer he will \"support somebody else.\" Minnesota's Peggy Flanagan said \"It is time for new leadership,\" and New Hampshire's Chris Pappas cited a \"new generation of leadership.\" Texas's James Talarico said he wants to hear Schumer's vision first. The progressive group Indivisible released a memo calling for a contested leadership election.",
+        "Schumer told reporters on Wednesday, \"I'll be re-elected as majority leader,\" and said the issue \"is not me.\" Al Jazeera reported that he needs only a simple majority of the caucus. Sen. Cory Booker said Schumer deserves credit for the party's midterm results. Al Jazeera said Schumer's office had not responded to its questions.",
+        "Van Hollen has said Democrats should not commit to Schumer without a \"bold agenda,\" Al Jazeera reported. A Democratic aide told Fox that Van Hollen believes the caucus needs an open conversation about advancing an agenda, and Fox noted he has said he is \"kicking the tires\" on a 2028 run. Democrats are expected to hold leadership elections next month."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/schumer-faces-mutiny-from-newly-elected-senate-dems-party-prepares-seize-power",
+        "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role?traffic_source=rss"
+      ]
+    },
+    "2026-11-05T20-c20": {
+      "paragraphs": [
+        "Vice President JD Vance blamed the Iran war for Republican midterm losses in a long post on X after Republicans lost both the House and Senate. \"The reason we lost is the war. The president himself said so last night,\" he wrote. He added that anyone who thinks the war was worth losing the Senate for six years should argue so, calling that \"at least honest.\" Al Jazeera reported that Vance said former Trump voters had switched sides over the war and U.S. ties to Israel.",
+        "Al Jazeera said the U.S. and Israel struck Iran on Feb. 28, after which Tehran effectively closed the Strait of Hormuz. Brent crude reached $120 in March and April and had hovered near $115 before falling to $93.82 on Thursday. Analyst Andrew Payne of Chatham House told Al Jazeera that Republicans seeking the 2028 nomination will need to distance themselves from unpopular parts of Trump's record.",
+        "Al Jazeera, citing Axios, reported that Vance supported the war publicly but privately urged an end to it, and that he recently wrote to an Iranian security official proposing a meeting. A Vance ally told Politico he can only modestly differentiate himself from Trump. A New York Times poll cited by Al Jazeera put Vance at 40 percent in a hypothetical Republican primary, with Marco Rubio and Donald Trump Jr. at 21 percent each.",
+        "Fox News reported that Indiana Rep. Marlin Stutzman said he is \"all in\" for Rubio in 2028, calling him a potential unifier. Rubio has not commented on the election results, according to Al Jazeera."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/5/vance-eyes-2028-reset-as-republicans-mull-pivot-after-us-midterms-drubbing?traffic_source=rss",
+        "https://www.foxnews.com/politics/house-conservative-emerges-2028-presidential-pick-after-gops-midterm-massacre-i-am-all-in"
+      ]
+    },
+    "2026-11-05T20-c21": {
+      "paragraphs": [
+        "The National Capital Planning Commission was scheduled to meet Thursday to consider final approval of President Trump's proposed 250-foot triumphal arch in Washington, NPR reported. The arch was the only item on the agenda for the online meeting, which was expected to run five hours because more than 130 people signed up to speak. NPR said the commission, whose new chair is Trump appointee Mark Paoletta, is widely expected to approve it. The administration says that after a commission vote, only sign-off from the Interior Department is needed to begin construction.",
+        "Critics, including Democratic lawmakers, veterans and preservationists, say the arch would block a key view, insult service members buried at nearby Arlington National Cemetery and add risk to crowded airspace. NPR said more than 100,000 people have submitted written comments against it. The White House has said the arch will enhance the visitor experience at Arlington and become one of the world's iconic landmarks.",
+        "The arch is also the subject of a lawsuit by Vietnam War veterans and an architectural historian who argue it is unlawful without congressional approval. The administration has not sought that approval, citing an older congressional authorization of columns at the site. D.C. and Virginia filed their own suit, and Judge Tanya Chutkan consolidated the cases. She has ordered the government to notify the court within one hour of any arch decision and within 30 minutes of any construction-related activity.",
+        "The government told the court construction could begin as early as Thursday. Plaintiffs have asked for an injunction, and Chutkan may wait to rule until after the meeting ends at 6 p.m. ET."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/11/05/nx-s1-6027301/trump-arch-federal-approval-judge-construction"
+      ]
+    },
+    "2026-11-05T20-c23": {
+      "paragraphs": [
+        "OpenAI published a set of commitments and a policy blueprint on Thursday for how it will build data centers, two days after voters rejected expansion at the polls, CNBC reported. For facilities it owns and operates, the company said it will seek community input, publish construction plans and avoid non-disclosure agreements with public officials. It also reaffirmed a promise to pay the full cost of powering its data centers and urged policymakers to turn similar commitments into law. Chris Lehane, OpenAI's chief global affairs officer, said the aim is to create \"a very high floor\" for how projects proceed.",
+        "CNBC said that across 41 local ballot measures in 10 states, voters backed restrictions or rejected pro-development measures in all but one, per a Ballotpedia analysis. Opposition has grown over concerns about utility bills, environmental harm and job losses. Lehane said the blueprint has been in the works since August. Meta, Microsoft, Google and Anthropic have outlined similar commitments, CNBC reported.",
+        "Meta president Dina Powell McCormick told the WSJ Tech conference that Democratic wins will make data center construction harder and that the industry has not explained the benefits well enough. She said the data center is the visible face of broader feelings about AI. She described Meta's approach: paying for its own electricity, directing tax surpluses toward teachers and first responders, keeping labor local and seeking bipartisan support. Meta has data centers in 23 states, five planned at 1 gigawatt or larger, she said. She also said she expects projects to face more review over whether residents want them."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html",
+        "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
+      ]
+    },
+    "2026-11-05T20-c01": {
+      "paragraphs": [
+        "Chip stocks and debt-funded \"neocloud\" companies fell sharply on Thursday after this week's midterm elections raised concern on Wall Street that the artificial intelligence buildout will slow, according to CNBC. The Nasdaq was headed for its worst day in 19 months. Al Jazeera reported that at midday the Nasdaq was down 4.8 percent, the S&P 500 down 3.6 percent and the Dow down 2.8 percent.",
+        "CNBC said Nvidia and Qualcomm each fell about 8 percent, with Qualcomm also issuing a disappointing forecast for the current quarter. It reported double-digit losses for AMD, Micron and Applied Materials. Al Jazeera's midday figures included CoreWeave down more than 12 percent, Nebius Group down nearly 17 percent and Dell down nearly 13 percent.",
+        "CNBC noted that Democrats won key races in Texas, Ohio and Georgia, states with large data center plans. It said Ballotpedia counted 41 local data center measures in 10 states, and voters sided against data centers in all but one, in Harwood, North Dakota. Al Jazeera, citing a group called Data Centers on the Ballot, put the total at 45, with 39 restrictions passing. Al Jazeera also cited Reuters reporting that UBS analysts estimated construction pauses could put roughly 30 percent of planned US data center capacity additions in 2028 at risk.",
+        "Meta President Dina Powell McCormick told a Wall Street Journal conference that building data centers is \"going to be harder\" after the elections, CNBC reported. Qualcomm CEO Cristiano Amon told CNBC, \"We don't have a demand issue; it's a supply issue,\" pointing to a global memory shortage.",
+        "Analysts said the full effect is unclear. Michael Monaghan of Founders 100 ETF told Al Jazeera that portfolio managers are weighing political resistance to AI infrastructure, especially at the state and local level. Richard Clode of Janus Henderson told CNBC the questions will not be answered soon."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+        "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets?traffic_source=rss"
+      ]
+    },
+    "2026-11-05T20-c02": {
+      "paragraphs": [
+        "Shares in Elon Musk's SpaceX fell sharply on Thursday as technology and artificial intelligence stocks dropped across the market, the BBC reported. By lunchtime in Thursday trading, SpaceX was down more than 9 percent and Tesla was down more than 11 percent. The selloff came a day after Democrats swept the midterm elections.",
+        "The BBC said the market has been reacting to the prospect of tougher scrutiny of data center construction and the AI industry after Democratic wins in key data center states, including Texas. It reported that Texas governor-elect Gina Hinojosa campaigned heavily against data centers and pledged a moratorium on new construction in the sector.",
+        "The BBC said Musk spent nearly $450 million backing Republican campaigns, including at least $45 million in support of Ken Paxton for the Texas Senate seat. Texas turned blue on Tuesday night.",
+        "The wider market also fell. The Nasdaq Composite was down more than 5 percent at one point in early trading, and the S&P 500 was down 3.8 percent by lunchtime. The Philadelphia Semiconductor Index had fallen 10 percent. Nvidia was down nearly 9 percent, AMD more than 14 percent and Intel more than 7 percent, while Micron had been down as much as 17 percent before recovering slightly.",
+        "Susannah Streeter of Wealth Club said fears that the vast sums spent on AI infrastructure may not deliver the expected returns are \"colliding with the prospect of a sharp slowdown in data centre construction.\" The BBC added that some investors were already worried AI shares could be in a bubble due for a correction.",
+        "Tech leaders have acknowledged the backlash. OpenAI's Greg Brockman said at a Wall Street Journal conference that everyone had been surprised and that companies must engage communities directly. Meta's Dina Powell McCormick said the industry needs to \"double and triple down on telling the story.\""
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-05T20-c04": {
+      "paragraphs": [
+        "The Bank of England raised its base rate from 3.75 percent to 4 percent on Thursday, its first increase in more than three years. The Guardian and CNBC both reported that the Monetary Policy Committee voted 8 to 1. The dissenting member, Catherine Mann, wanted a half-point rise to 4.25 percent.",
+        "The Guardian said the decision was driven by inflationary pressure from the Iran war, which has pushed oil prices persistently above $100 a barrel as hopes of reopening the strait of Hormuz faded. The Bank now expects UK inflation to reach 4.9 percent in the middle of next year, up from the 3.2 percent forecast in July. CNBC quoted the committee as saying it expects inflation of \"about 5%\" by mid-2027 before it falls. Inflation was 3.5 percent in September.",
+        "Governor Andrew Bailey said he could see the argument for a further increase unless there is news that softens inflation risks. He also said the move should not be seen as the first in an inevitable long sequence of hikes, but that unless the Middle East conflict is resolved it is unlikely to be the last. The Guardian said oil has fallen below $100 since the US midterms, and Bailey welcomed that but said it would need to be sustained.",
+        "The minutes showed divisions. Alan Taylor described the move as a \"one-for-now\" insurance hike, while Mann argued a half-point rise was needed to protect credibility. The next decision is due December 17, and Oxford Economics' Andrew Goodwin said another hike in December or February is likely.",
+        "Chancellor John Healey said the conflict is reaching deep into family finances and pointed to his budget measures. Shadow chancellor Andrew Griffith called the rise another headwind for families."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/business/2026/nov/05/bank-of-england-raises-interest-rates-first-increase-for-more-than-three-years",
+        "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+      ]
+    },
+    "2026-11-05T20-c05": {
+      "paragraphs": [
+        "California Governor Gavin Newsom on Thursday commuted the death sentences of all 548 people on the state's death row, converting them to life in prison without the possibility of parole. The BBC and The Guardian both reported the move. The Guardian described it as the largest clearing of a US death row in modern history and said it means the people affected can never be executed under future governors.",
+        "Newsom said in a letter that he was using his constitutional clemency authority. \"I take this action because I firmly believe that state-sanctioned killing is incompatible with California's values,\" he wrote. He called the decision difficult but a \"righteous action,\" and acknowledged it may anger and hurt some Californians, including victims' families.",
+        "The BBC noted that California has not executed anyone since 2006 and that only 13 inmates have been executed since voters reinstated the death penalty in 1978. Newsom ordered a halt to executions in 2019. According to The Guardian, his office said 220 of those sentenced have waited 15 years or more for habeas counsel, and 45 people had exhausted their appeals and would face execution if not for the moratorium. The BBC cited experts who say the change could save millions of dollars in court costs each year.",
+        "Both outlets noted that Newsom is term limited and has been discussed as a possible 2028 presidential candidate. The Guardian said Democrats have at times avoided mass commutations for fear of being painted as soft on crime. It also pointed to earlier mass commutations by a Republican governor in Illinois in 2003 and by North Carolina's Roy Cooper in 2024.",
+        "The BBC said that at the federal level President Donald Trump has supported capital punishment, though no federal executions have occurred since his 2025 executive order reinstating it."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/us-news/2026/nov/05/gavin-newsom-commutes-death-sentences-california"
+      ]
+    },
+    "2026-11-05T20-c06": {
+      "paragraphs": [
+        "Harmeet Dhillon has resigned as head of the Justice Department's Civil Rights Division. Attorney General Todd Blanche announced on X that he accepted her resignation and said she had \"defended the civil liberties of every American.\" NPR noted she is the first senior department official to leave since Democrats retook the House and Senate in Tuesday's midterms.",
+        "Accounts differ on the timing. Dhillon told Fox News Digital she was not asked to resign and had told White House chief of staff Susie Wiles about three weeks before Election Day that she wanted to return to private practice. She said Wiles asked her to wait until after the midterms. NPR reported that her email to staff said she told President Trump in early October of her plan.",
+        "Both outlets described a major overhaul of the division. According to NPR, roughly 300 career attorneys were pushed out and replaced by what it called inexperienced ideological allies. Fox News said about 300 attorneys left during Trump's second term, according to recent reports, and Dhillon said she recruited more than 130 lawyers. Dhillon said the division ended \"illegal DEI\" and protected women in girls' sports. Fox listed priorities including religious discrimination, Second Amendment rights and election integrity.",
+        "NPR said the division sued dozens of states seeking voter information, and that courts tossed the lawsuits. It also reported suits against UCLA and Harvard over alleged antisemitism.",
+        "Reaction split. Stacey Young, a former division attorney who now leads a group of department alumni, called Dhillon the most destructive head in the division's history. Fox noted that conservatives had argued the division had become ideologically tilted under earlier administrations. Dhillon told Fox she would take legal counsel if Congress subpoenaed her, while noting limits from executive privilege."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/11/05/g-s1-152080/head-of-justice-department-office-on-civil-rights-resigns",
+        "https://www.foxnews.com/politics/doj-civil-rights-chief-harmeet-dhillon-resigns-says-white-house-asked-her-wait-until-after-midterms"
+      ]
+    },
+    "2026-11-05T20-c07": {
+      "paragraphs": [
+        "Paraguay's president, Santiago Peña, resigned on Thursday, and the lower house voted 78-0 minutes later to impeach him, according to NPR. The votes followed the collapse of Ueno Bank, which the central bank ordered into resolution after finding insolvency, freezing deposits for about 3 million customers, The Guardian reported. Protesters have marched in the capital for three days.",
+        "Peña said in a video that he was stepping down for \"the stability of our country, social peace and the need to preserve our democratic institutions.\" He apologized if he had failed people but, NPR said, stopped short of accepting responsibility for the crisis. Vice President Pedro Alliana takes over to serve until August 2028. The impeachment goes to the Senate, where a two-thirds majority is required to convict. The Guardian said that if it is approved, Peña would lose his Senate seat and its immunity, leaving him open to criminal proceedings in ordinary courts.",
+        "Ueno grew from an obscure finance company to a lender claiming over 60 percent of Paraguay's adults as customers, after winning a digital banking license in 2023. Peña held a stake in the company's holding group until last year. NPR said Ueno held roughly $800 million in public deposits, including state pension money, and that central bank inspectors found risky insider lending in June. Peña had dismissed warnings as a smear campaign and called reports of favoritism a \"false media campaign.\"",
+        "Opposition senator Rafael Filizzola called it the biggest fraud from political power in the democratic era. Former president Horacio Cartes, a onetime ally, endorsed impeachment. Officials said they had begun repaying depositors, and interim central bank president Pedro Acosta Bernal said the banking system is sound."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
+        "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse"
+      ]
+    },
+    "2026-11-05T20-c08": {
+      "paragraphs": [
+        "Hundreds of thousands of people marched across France on Thursday as unions staged a day of strikes and rallies over the cost of living and public services. The interior ministry said more than 600,000 people took part, while the CGT union put the figure at 1.57 million, according to the BBC. The Guardian reported the CGT figure as almost 1.6 million. About 70,000 police were deployed.",
+        "The BBC said the movement began in September over conditions in high schools and spread to universities, workers and a revived yellow-vest movement. Unions are seeking higher wages, including a rise in the minimum wage, currently 12.31 euros an hour. CFDT leader Marylise Léon asked for a net increase of 100 euros a month. The BBC said the ministry's earlier count for October 17 was 550,000 against the unions' 800,000.",
+        "Disruption hit schools, hospitals and transport, and the Eiffel Tower and parts of the Louvre closed. The government said 81 high schools were affected, while student unions said 1,000. Police used tear gas in Bordeaux and Lyon, and the BBC reported a car set alight in Lyon and clashes in Rennes. The Guardian described the demonstrations as largely peaceful, and the BBC said the unrest was smaller than on October 17.",
+        "Prime Minister Sébastien Lecornu said he would convene a social conference with unions and employers on Monday to discuss purchasing power and wages. The BBC said the government has little room to maneuver as it seeks tens of billions of euros in savings to cut the deficit to 5 percent of GDP. Union leader Sophie Binet and the Ligue des droits de l'Homme criticized restrictions on protests. A revived yellow-vest movement has called for more blockades on Friday and Saturday."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+        "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living"
+      ]
+    },
+    "2026-11-05T20-c09": {
+      "paragraphs": [
+        "First lady Melania Trump urged Russia and Ukraine to build on a recent local ceasefire as she hosted officials from both countries at the White House on Thursday. \"Together, we can create something more enduring than a temporary ceasefire,\" she said, according to Al Jazeera. The delegations included Ukraine's human rights ombudsman Dmytro Lubinets, Russia's Yana Lantratova, Ukrainian lawmaker Davyd Arakhamia and Kremlin envoy Kirill Dmitriev.",
+        "The meeting followed a six-day truce around the Russian-occupied town of Oleshky in Kherson. The BBC said hundreds of residents evacuated, and Al Jazeera put the number at nearly 800. Al Jazeera called it the longest multi-day truce since the full-scale invasion in February 2022. The truce expired last Sunday without extension, and a day later a Russian strike on an aid distribution point in the Zaporizhzhia region killed at least 40 people, according to Zelensky.",
+        "Accounts of her role differ. The White House said she mediated the truce, and she said written agreements named her \"exclusive intermediary.\" The BBC reported that both Moscow and Kyiv credited her with a key but unspecified role. A Kherson local government source told the BBC that groundwork had been underway for almost a year before others became involved and took credit. Al Jazeera said Pope Leo XIV also pressed both sides to allow aid and evacuations.",
+        "Zelensky said the truce showed that \"when Putin wants the fighting to stop, it stops.\" Arakhamia called it the biggest de-escalation since 2022 but said the political track of negotiations is complex. Mrs. Trump gave Dmitriev and Arakhamia letters for Putin and Zelensky. New US-brokered talks are expected in Abu Dhabi on November 10 and 11, Al Jazeera reported."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials?traffic_source=rss"
+      ]
+    },
+    "2026-11-05T20-c10": {
+      "paragraphs": [
+        "Iranian forces said on Thursday that at least five oil tankers and a tugboat were damaged by fire in the Strait of Hormuz, according to Al Jazeera. The Islamic Revolutionary Guard Corps told the Fars news agency that a large tanker caught fire after striking a mine, and that a supertanker leaving the eastern strait was halted by a massive fire, which also spread to a tugboat that approached to help. The Iranian army later said three more tankers struck naval mines and caught fire east of the strait. Al Jazeera's report relays Iranian statements, and the causes were not independently confirmed in it.",
+        "Separately, the UK Maritime Trade Operations agency said a tanker was struck by two projectiles about 50 nautical miles north of Madinat ash-Shamal, off Qatar's coast, late Wednesday. It did not identify the vessel, and no one had claimed responsibility. Last week, a Qatari liquefied natural gas carrier was hit by unidentified objects, with no injuries reported.",
+        "Al Jazeera said Iran has severely restricted traffic through the waterway since the war with the United States and Israel began in late February. The strait normally carries about one-fifth of global oil consumption. UKMTO said it was \"struggling to accurately report\" the number of attacks because most ships now decline to report them, and attacks on tankers in the Gulf are running close to a record pace.",
+        "Diplomacy continues alongside the threats. Qatar's foreign ministry said both sides were reviewing mediators' proposals. But The New York Times, citing unnamed Pentagon officials and commanders, reported that US forces are poised to resume major combat operations on President Donald Trump's orders. Iranian leaders have warned of repercussions, and Supreme Leader Mojtaba Khamenei said there should be no inclination toward submission."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss"
+      ]
+    },
+    "2026-11-05T20-c11": {
+      "paragraphs": [
+        "Hoax bomb threats disrupted at least 25 flights across Europe on Thursday, with some forced into emergency landings or diversions, The Guardian reported. The warnings affected flights linking countries including Italy, Ireland, the UK, Spain, Bulgaria, Poland and Finland, and airlines such as Ryanair, Aer Lingus, Wizz Air and easyJet. All planes landed safely, and searches found nothing suspicious. It was the second wave this week, and the Guardian counted at least 33 flights affected in total.",
+        "Investigators said there was no evidence that the hoaxes were orchestrated by a terror group or a hostile state such as Russia or Iran, though inquiries continue. The BBC likewise said no hard evidence had emerged linking them to Russia, Iran or proxy groups by Thursday evening. The Guardian said emails sent to airports in Rome and Sofia were signed \"fighters of the Male State.\" The BBC said that name likely refers to a banned Russian ultra-right group, but cautioned that another group could be using it. The group's founder did not comment or claim responsibility, according to the Guardian.",
+        "The disruption came amid other incidents, including cyber-attacks on supermarket refrigeration systems. A Kremlin spokesperson called it \"absurd\" to blame Russia for those. Italian Defence Minister Guido Crosetto described \"under-threshold warfare\" designed so that no one can pin down blame, though he said he did not know who was behind the hoaxes. The BBC noted that some people suspect Russia on circumstantial grounds.",
+        "Eurocontrol said the affected flights were a tiny fraction of the 27,400 scheduled in Europe on Thursday. The International Air Transport Association urged authorities to identify the source. The BBC said investigators should follow concrete leads rather than assumptions about likely culprits."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
+        "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-05T20-c35": {
+      "paragraphs": [
+        "Cancer diagnoses in England reached a record high in 2024, according to the latest cancer registration statistics reported by The Guardian. More than 373,000 people were diagnosed, an average of 1,021 a day in NHS England, up from 972 a day in 2023.",
+        "Prostate, breast, lung and bowel cancers made up half of all new diagnoses. The share of first new cancers found at stage 1 or 2 rose to 56.7% from 55.8% in 2023. Prof Peter Johnson, the NHS national clinical director for cancer, said the figures show the health service is \"moving in the right direction\" and credited staff's hard work.",
+        "Experts noted that waiting-time targets are still being missed. Monthly figures show 78.6% of patients urgently referred for suspected cancer were diagnosed or had cancer ruled out within 28 days in August, below the 80% target. The share who began treatment within 62 days of an urgent referral or consultant upgrade was 71.9%, against a target of 85%.",
+        "Dr Ian Walker of Cancer Research UK said too many people are still diagnosed late. He said the UK government must follow through on its national cancer plan for England, with clear accountability and enough specialist staff and equipment. Dr Hilary Williams of the Royal College of Physicians said an ageing population is an important factor in rising diagnoses, and pointed to obesity as an often overlooked risk. She urged expansion of targeted lung cancer screening.",
+        "Steven McIntosh of Macmillan Cancer Support said the headline figures mask inequalities, because who you are and where you live can affect your chances of getting cancer, how fast you are diagnosed and your survival. A government response to these criticisms was not included in the article."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/society/2026/nov/05/nhs-england-cancer-diagnoses-record-high-1000-people-diagnosed-every-day"
+      ]
+    },
+    "2026-11-05T20-c37": {
+      "paragraphs": [
+        "A Mexican judge, Luis Benítez Alcántara, has been arrested and accused by US officials of taking $2 million in bribes to release a suspected drug trafficker, according to a Justice Department statement reported by The Guardian and Fox News. Officials said the 49-year-old was arrested on Sunday in Colombia and charged in a nine-count indictment with being an accessory after the fact. The US will request his extradition from Colombia.",
+        "The case concerns extradition proceedings in Mexico in 2024 for a Canadian citizen the Guardian names as Andrew Clark and Fox News names as Ryan Clark. The Justice Department alleges he was second-in-command to former Olympic snowboarder Ryan Wedding, who is accused of running a billion-dollar cocaine network.",
+        "According to the indictment as described by Fox News, Clark was arrested in Guadalajara on Oct. 8, 2024, and sent about $2.75 million to intermediaries over four months. On Feb. 24, 2025, Benítez allegedly received $2 million and granted Clark bond and release the same day. Mexican officers arrested Clark again days later and handed him to US authorities on Feb. 27, 2025. He faces drug-trafficking and murder charges. If convicted, Benítez faces up to 15 years in prison.",
+        "Attorney General Todd Blanche said officials who help traffickers \"will face justice in the United States.\" Wedding was arrested in Mexico and pleaded not guilty to murder and drug charges. Benítez's response was not reported, it was not immediately known whether he has a lawyer, and Clark's attorney did not immediately respond to messages."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/nov/05/mexican-judge-us-arrest-drug-trafficking",
+        "https://www.foxnews.com/politics/mexican-judge-arrested-us-charges-accepting-2m-bribe-free-canadian-drug-trafficker"
+      ]
+    },
+    "2026-11-05T20-c40": {
+      "paragraphs": [
+        "The Council on American-Islamic Relations has suspended its operations in Florida as the state's designation of the group as a domestic terrorist organization takes effect, the Washington Examiner reported. The move followed a federal court decision declining to block enforcement of the law.",
+        "The designation comes from legislation signed by Gov. Ron DeSantis that lets state officials identify organizations as domestic terrorist groups and restrict their access to public funding and government contracts. It also sets criminal penalties for certain kinds of material support to designated groups. CAIR and its Florida chapter sued, arguing the law violates their First Amendment rights to speech and association and their right to due process.",
+        "Judge Allen Winsor of the US District Court for the Northern District of Florida, a Trump appointee, acknowledged the system is unusual, noting that terrorist designations have historically been federal and generally aimed at foreign groups. He wrote that the Constitution does not prohibit legislation simply because it is novel. He accepted the groups' claim that the designation would effectively force them to close in Florida, but said the questions before the court were narrower, focused on due process and speech and association rights.",
+        "CAIR-Florida posted a notice on its office doors blaming the state's \"baseless and unconstitutional enforcement.\" The ACLU, which represents CAIR, said it will appeal, with attorney Ashley Gorski saying the ruling upholds sweeping power to punish groups without due process. Florida Attorney General James Uthmeier called the decision a victory for the state.",
+        "The Examiner noted that the US government has not designated CAIR a terrorist organization, though it has faced scrutiny over alleged ties to Hamas and other Islamist groups. The ruling does not resolve every claim, so CAIR's legal challenge will continue."
+      ],
+      "based_on": [
+        "https://www.washingtonexaminer.com/news/justice/4794522/cair-shut-down-florida-court-foreign-terrorist-designation/"
+      ]
+    },
+    "2026-11-05T20-c42": {
+      "paragraphs": [
+        "Cristiano Ronaldo, 41, announced on Thursday that he is retiring from international football, ending a 23-year career with Portugal, according to Al Jazeera and the BBC. He did not give a reason, but said the decision was not easy because such choices are made \"with the heart\" as well as the head. He finishes with 146 goals in 234 games, per the BBC.",
+        "The announcement followed a public dispute with coach Jorge Jesus. On September 30, Ronaldo left Portugal's training camp before a Nations League match against Denmark, shortly after Jesus said he would not start him for a second straight game. He had been an unused substitute in a 2-1 win in Norway on September 27.",
+        "Jesus said Ronaldo could return if he wished. Ronaldo accused the coach of twice breaking his word, saying they had agreed he would miss the Norway and Denmark games to manage his fitness, but Jesus then told him he would play 30 minutes in Norway. Ronaldo said he warmed up and was not used. The BBC reported that the dispute ended with a 30-day sanction, already served, and a 255-euro fine for leaving camp without permission.",
+        "Ronaldo became the first player to play and score in six consecutive World Cups, scoring three goals at the 2026 tournament, where Portugal went out in the round of 16, Al Jazeera reported. The BBC's analysis described the ending as bitter, noting a pattern of clashes with coaches but also an era in which he helped transform the national team."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/sports/2026/11/5/why-has-cristiano-ronaldo-retired-from-international-football?traffic_source=rss",
+        "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-05T20-c43": {
+      "paragraphs": [
+        "Mars may be volcanically active, according to scientists who linked gas measurements with photographs of fresh cracks on the planet's surface, New Scientist reports. The study appears in Science Advances. Earlier work had found evidence of volcanism within the past few million years, and seismic activity hinted that some volcanoes might still be active, but no lava flows or current eruptions had been found.",
+        "In 2019, the ExoMars Trace Gas Orbiter detected hydrogen chloride in the Martian atmosphere. On Earth, the gas is commonly associated with magma vents. Daniel Mège of the Polish Academy of Sciences and colleagues examined just 15 recorded instances of the gas alongside newly taken surface images. They linked narrow, recent fissures in the Alba Mons region to the emissions, which they say is strong evidence of underground lava flow. The team also modelled wind direction at the time of the measurements.",
+        "The researchers acknowledged uncertainty. Mège described the atmosphere as turbulent, with dust devils common in that season and about 2 kilometres of wind between the fissures and the measurements. Nicolas Thomas of the University of Bern, a team member, said doubt about the gas source will remain until the area is studied up close. \"Suspicion is one thing, proof is better,\" he said, arguing the work supports further surface exploration.",
+        "Thomas said a constant heat source could improve prospects for life, given nighttime temperatures of -70C to -80C even at the equator. Lena Noack of the Free University of Berlin called the finding highly interesting, and said many Mars scientists would not be surprised, since the picture of a dead Mars conflicted with recent research."
+      ],
+      "based_on": [
+        "https://www.newscientist.com/article/2597667-evidence-of-active-volcanoes-on-mars-may-boost-chances-of-finding-life/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+      ]
+    },
+    "2026-11-05T20-c44": {
+      "paragraphs": [
+        "A hair from a 2,800-year-old tomb in Siberia contains the earliest definitive evidence of cannabis being used as a psychoactive drug, according to New Scientist. The researchers, led by Gino Caspari at the University of Bern, published the work in Science. They say the history of such use probably goes back much further.",
+        "The find came from the Tunnug 1 burial mound in the Uyuk Valley, a royal burial from the time of the Scythians, nomads known for horseback archery. In a trench at the mound's center, the team recovered almost 1,000 whole cannabis seeds, which radiocarbon dating placed around the start of the 8th century BC. A preserved human hair from the same period contained cannabinol, which forms when THC oxidizes, along with chemical signatures of THC itself. The team concludes the person likely felt psychoactive effects.",
+        "The previous earliest firm evidence was chemical traces on wooden braziers in China, suggesting cannabis was smoked 2,500 years ago in funeral rites. Genomic studies suggest cannabis was domesticated in China about 12,000 years ago, possibly for oil and fiber.",
+        "Caspari said it is unclear whether the person smoked the drug or ate seeds, and that its presence suggests a funerary ritual. He suggested it might also have been used to sedate people for sacrifice, noting the mound holds dozens of sacrificed horses and scattered human bones. Adam Brumm of Griffith University called that idea intriguing but highly speculative. Brumm added that cannabis use may reach much further back than the archaeological record shows."
+      ],
+      "based_on": [
+        "https://www.newscientist.com/article/2597653-tomb-in-siberia-reveals-humans-were-using-cannabis-2800-years-ago/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+      ]
+    }
+  }
+}

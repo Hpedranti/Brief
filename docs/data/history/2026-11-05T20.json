@@ -1,0 +1,1451 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-05T20",
+    "at": "2026-11-05T20:29:36Z",
+    "model": "claude-sonnet-5-5",
+    "count": 45
+  },
+  "cards": [
+    {
+      "id": "2026-11-05T20-c01",
+      "drop": "2026-11-05T20",
+      "headline": "Nasdaq has worst day since April 2025 as AI stocks plunge",
+      "summary": "Chip stocks and debt-funded 'neocloud' companies fell sharply as investors worried a Democratic Congress will slow the AI data center buildout. Goldman Sachs traders reported a flood of client calls, and Bloom Energy and Micron also dropped.",
+      "why_it_matters": "Retirement accounts and index funds are heavily weighted toward AI-linked companies, so a prolonged selloff affects many households.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai",
+        "chips"
+      ],
+      "entities": [
+        "Nasdaq",
+        "Nvidia",
+        "Goldman Sachs"
+      ],
+      "importance": 5,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-05T17:56:17.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025",
+          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "AI stocks plunge after US election, driving down markets",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets?traffic_source=rss"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Micron, Sandisk and other AI stocks are falling hard: ‘Investors don’t like uncertainty’",
+          "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-ai-stocks-are-falling-hard-investors-dont-like-uncertainty-94d2a3b9?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c02",
+      "drop": "2026-11-05T20",
+      "headline": "Tesla and SpaceX lose $450 billion in value over two days",
+      "summary": "Shares of Elon Musk's companies fell as investors worried that a divided Washington could hurt his business empire. SpaceX shares plunged and its default-risk measure hit a record in a broad credit slump, according to Bloomberg.",
+      "why_it_matters": "Tesla and SpaceX are widely held in retirement funds and ETFs, and credit stress in AI-linked firms can spread to wider markets.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "big-tech",
+        "space"
+      ],
+      "entities": [
+        "Tesla",
+        "SpaceX",
+        "Elon Musk"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-05T15:48:12.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $450 billion two-day wipeout",
+          "url": "https://www.marketwatch.com/story/the-musk-selloff-deepens-as-tesla-and-spacex-combine-for-450-billion-two-day-wipeout-d300ab4f?mod=mw_rss_topstories"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+          "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "SpaceX Default Risk Hits Record High in Tech-Driven Credit Slump",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-05/spacex-default-risk-hits-fresh-peak-as-tech-led-selloff-builds"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c03",
+      "drop": "2026-11-05T20",
+      "headline": "Treasuries rally as tech selloff drives haven buying",
+      "summary": "Treasury prices surged Thursday as the tech-stock slide after the midterms pushed investors toward safer assets. European stocks overtook Wall Street for the year, the Financial Times reported.",
+      "why_it_matters": "Falling Treasury yields can eventually ease mortgage and borrowing costs, though inflation and Fed hike expectations still weigh.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "Treasury",
+        "Stoxx Europe 600"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-05T15:54:44.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-05/treasuries-extend-advance-as-technology-shares-resume-slide"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "European stocks overtake Wall Street following Democratic sweep",
+          "url": "https://www.ft.com/content/1ca182d6-8d16-4ddb-98fb-cf933b4c3073?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c04",
+      "drop": "2026-11-05T20",
+      "headline": "Bank of England raises rate to 4%, first hike in three years",
+      "summary": "The Bank of England lifted its base rate from 3.75% to 4% and signaled another rise soon. CNBC reports it warned inflation will near 5%, and one policymaker voted for 4.25%.",
+      "why_it_matters": "Higher UK rates and inflation affect the pound, global borrowing costs and US firms and travelers with UK exposure.",
+      "region": "Europe",
+      "topics": [
+        "fed-rates",
+        "economy"
+      ],
+      "entities": [
+        "Bank of England"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T00-c23",
+      "storyline_id": null,
+      "published_at": "2026-11-05T16:01:47.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Bank of England raises interest rates to 4%, the first increase for more than three years",
+          "url": "https://www.theguardian.com/business/2026/nov/05/bank-of-england-raises-interest-rates-first-increase-for-more-than-three-years"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+          "url": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c05",
+      "drop": "2026-11-05T20",
+      "headline": "Newsom commutes death sentences of all 548 California inmates",
+      "summary": "California Gov. Gavin Newsom commuted the sentences of everyone on the state's death row, which was the nation's largest. The move means future governors cannot carry out their executions.",
+      "why_it_matters": "It reshapes capital punishment in the largest state and will likely draw legal and political challenges over clemency power.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Gavin Newsom",
+        "California"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T20:07:12.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "California governor commutes death sentences for all 548 people on death row",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Gavin Newsom commutes more than 500 death sentences in California",
+          "url": "https://www.theguardian.com/us-news/2026/nov/05/gavin-newsom-commutes-death-sentences-california"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c06",
+      "drop": "2026-11-05T20",
+      "headline": "DOJ civil rights chief Harmeet Dhillon resigns",
+      "summary": "Harmeet Dhillon stepped down as head of the Justice Department's Civil Rights Division, Attorney General Todd Blanche said. Fox News reports she said the White House asked her to wait until after the midterms.",
+      "why_it_matters": "The division enforces voting, policing and discrimination laws, and a Democratic Congress is expected to scrutinize its work.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "us-politics"
+      ],
+      "entities": [
+        "Harmeet Dhillon",
+        "Justice Department",
+        "Todd Blanche"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T15:51:18.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Head of Justice Department office on Civil Rights resigns",
+          "url": "https://www.npr.org/2026/11/05/g-s1-152080/head-of-justice-department-office-on-civil-rights-resigns"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "DOJ civil rights chief Harmeet Dhillon resigns, says White House asked her to wait until after midterms",
+          "url": "https://www.foxnews.com/politics/doj-civil-rights-chief-harmeet-dhillon-resigns-says-white-house-asked-her-wait-until-after-midterms"
+        },
+        {
+          "outlet": "Axios",
+          "title": "DOJ's Harmeet Dhillon resigns",
+          "url": "https://www.axios.com/2026/11/05/justice-department-midterms-harmeet-dhillon-steps-down"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c07",
+      "drop": "2026-11-05T20",
+      "headline": "Paraguay's president resigns and is impeached after bank collapse",
+      "summary": "President Santiago Peña resigned after the collapse of Ueno Bank froze millions of savings accounts; lawmakers voted to impeach him minutes later, NPR reports. His government had allowed the bank to expand sharply.",
+      "why_it_matters": "A banking collapse toppling a US-aligned government shows how fast financial crises can become political ones in the region.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "economy"
+      ],
+      "entities": [
+        "Santiago Peña",
+        "Paraguay",
+        "Ueno Bank"
+      ],
+      "importance": 4,
+      "follows": "2026-11-05T07-c09",
+      "storyline_id": null,
+      "published_at": "2026-11-05T17:40:40.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
+          "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Paraguay President Santiago Peña resigns after bank collapse",
+          "url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c08",
+      "drop": "2026-11-05T20",
+      "headline": "French strike draws hundreds of thousands; counts differ widely",
+      "summary": "Unions staged a general strike with marches over cost of living and public services. The interior ministry estimated 600,000 marchers, the unions said far more, and Al Jazeera cited more than 250,000. About 70,000 police were deployed.",
+      "why_it_matters": "Sustained unrest in the euro zone's second-largest economy adds to budget and borrowing-cost pressure in Europe.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "economy",
+        "jobs-labor"
+      ],
+      "entities": [
+        "France"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T07-c24",
+      "storyline_id": "sl-france-unrest",
+      "published_at": "2026-11-05T17:21:45.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "French protests see numbers surge as unions join strikes over high cost of living",
+          "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Protesters march in cities across France as unions stage general strike",
+          "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Mass protests in France driven by nationwide strike action",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c09",
+      "drop": "2026-11-05T20",
+      "headline": "Melania Trump hosts Russian and Ukrainian officials, urges lasting truce",
+      "summary": "The first lady met delegations from both countries at the White House and urged them to build on a recent local ceasefire. Both sides credited her with an unspecified role in the truce.",
+      "why_it_matters": "The meeting precedes US-mediated talks in Abu Dhabi on Nov. 10-11, a possible step toward ending a war that affects US allies.",
+      "region": "US",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Melania Trump",
+        "Russia",
+        "Ukraine"
+      ],
+      "importance": 3,
+      "follows": "2026-11-04T20-c28",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-05T19:08:08.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+          "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Melania Trump calls for peace at meeting with Russia, Ukraine officials",
+          "url": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c10",
+      "drop": "2026-11-05T20",
+      "headline": "Iran says five tankers hit by fire in Strait of Hormuz",
+      "summary": "Iranian forces say five oil tankers and a tugboat caught fire in several incidents in the strait, amid fears of a new US attack. The causes were not independently confirmed in the article.",
+      "why_it_matters": "Hormuz carries a large share of the world's oil, so shipping incidents quickly move fuel prices.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "energy",
+        "war-conflict"
+      ],
+      "entities": [
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-05T18:47:10.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran says tankers struck in Hormuz amid fears of new US attack",
+          "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c11",
+      "drop": "2026-11-05T20",
+      "headline": "Hoax bomb threats disrupt at least 25 European flights",
+      "summary": "Threats forced emergency landings and diversions for flights across Europe for the second time in a week. The UK called it a malicious hoax; the BBC says there is no hard evidence linking it to Russia, Iran or proxies.",
+      "why_it_matters": "Repeated disruption to transatlantic and European air travel affects American travelers and raises hybrid-warfare concerns for NATO allies.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "geopolitics",
+        "autos-transport"
+      ],
+      "entities": [
+        "Europe"
+      ],
+      "importance": 3,
+      "follows": "2026-11-03T23-c22",
+      "storyline_id": null,
+      "published_at": "2026-11-05T18:17:36.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears",
+          "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Who could be behind hoax bomb threats to European air travel?",
+          "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c12",
+      "drop": "2026-11-05T20",
+      "headline": "Israel's Arab parties back Eisenkot over Netanyahu",
+      "summary": "Arab parties including Ra'am and the Democrats told President Herzog they support Gadi Eisenkot to form the next government. Herzog has under a week to decide whom to task, as neither bloc has a majority.",
+      "why_it_matters": "The outcome decides Israel's leadership during the Iran war and Gaza ceasefire diplomacy involving the US.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "elections"
+      ],
+      "entities": [
+        "Gadi Eisenkot",
+        "Benjamin Netanyahu",
+        "Isaac Herzog"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T07-c15",
+      "storyline_id": "sl-israel-election",
+      "published_at": "2026-11-05T18:13:01.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Israel’s Arab parties choose between ‘bad and even worse’ as they back Gadi Eisenkot over Netanyahu to form government",
+          "url": "https://www.washingtonexaminer.com/news/world/4794224/israel-arab-parties-back-eisenkot/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Arab party backs Eisenkot in bid to form Israel’s next government",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/arab-party-backs-eisenkot-in-bid-to-form-israels-next-government?traffic_source=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Herzog to meet Israeli election rivals as decision nears on path to power",
+          "url": "https://www.theguardian.com/world/2026/nov/05/herzog-netanyahu-eisenkot-israel-election-decision"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c13",
+      "drop": "2026-11-05T20",
+      "headline": "Russell Brand convicted of rape",
+      "summary": "A UK jury convicted comedian Russell Brand, 51, of rape and the judge said he will receive a prison term. Brand denied the charges. Police say they are investigating two further rape complaints.",
+      "why_it_matters": "The case is a high-profile test of how courts handle allegations against celebrities, with a sentence still to come.",
+      "region": "Europe",
+      "topics": [
+        "crime-justice",
+        "culture-sports"
+      ],
+      "entities": [
+        "Russell Brand"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T15:44:49.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Russell Brand is convicted of rape, and judge says he'll get a prison term",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6030720/russell-brand-rape-sexual-assault-prison"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Russell Brand is being investigated over two new rape complaints, police say",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgx8q09gg4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c14",
+      "drop": "2026-11-05T20",
+      "headline": "NY appeals court weighs whether Trump's conviction survives immunity",
+      "summary": "A New York appeals panel questioned whether presidential immunity or federal law bars Trump's hush money conviction. Trump's lawyers argue it should be tossed; the Manhattan district attorney's office is defending it.",
+      "why_it_matters": "The ruling could determine whether a sitting president's criminal conviction stands, with wide implications for presidential accountability.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Alvin Bragg"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T19:45:41.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Appeals court questions if Trump’s conviction survives presidential immunity",
+          "url": "https://thehill.com/regulation/court-battles/6201976-trump-presidential-immunity-hush-money-conviction/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c15",
+      "drop": "2026-11-05T20",
+      "headline": "DOJ opens criminal probe into Supreme Court Roe leak",
+      "summary": "Federal prosecutors are investigating the leak of the ruling overturning Roe v. Wade, Fox News reports, after Chief Justice John Roberts' internal investigation failed to identify the leaker.",
+      "why_it_matters": "A criminal inquiry into the Court itself is unusual and touches on the separation of powers.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "crime-justice"
+      ],
+      "entities": [
+        "Supreme Court",
+        "Justice Department",
+        "John Roberts"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T18:50:24.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "DOJ launches criminal probe into Supreme Court leak that exposed ruling overturning Roe v Wade",
+          "url": "https://www.foxnews.com/politics/doj-launches-criminal-probe-supreme-court-leak-exposed-ruling-overturning-roe-v-wade"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c16",
+      "drop": "2026-11-05T20",
+      "headline": "Democrat Colom leads Mississippi Senate race by about 1,000 votes",
+      "summary": "Scott Colom leads Sen. Cindy Hyde-Smith by just over 1,000 votes, per the BBC, with some counts differing by hour. Republicans are hoping late-arriving mail ballots help Hyde-Smith, the Washington Examiner reports.",
+      "why_it_matters": "The race helps decide the size of the Democratic Senate majority and could elect Mississippi's first Black senator since 1875.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Scott Colom",
+        "Cindy Hyde-Smith"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T00-c02",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-05T14:08:50.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Democrat leads by just over 1,000 votes in surprisingly tight Mississippi Senate race",
+          "url": "https://www.bbc.co.uk/news/articles/c6n9rwxlx992o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "GOP pins hopes in Mississippi Senate race on late-arriving ballots it asked Supreme Court to strike down",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4794101/gop-pins-hopes-mississippi-senate-race-mail-in-ballots/"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Democrat locked in Deep South Senate stunner",
+          "url": "https://www.axios.com/2026/11/05/mississippi-senate-election-scott-colom-democrat"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c17",
+      "drop": "2026-11-05T20",
+      "headline": "Trump says Sullivan should get votes cast for namesake in Alaska",
+      "summary": "Trump wrote that Sen. Dan Sullivan should receive the votes for Dan J. Sullivan, a candidate with the same name. Fox News says the namesake got 3,600 votes against a 642-vote margin between Sullivan and Mary Peltola.",
+      "why_it_matters": "The count could decide a Senate seat, and Trump's DOJ has already sought to intervene in the race.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "courts"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Dan Sullivan",
+        "Mary Peltola"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T00-c01",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-05T14:19:20.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump: Sen. Sullivan should get votes cast for Alaska's other Sullivan",
+          "url": "https://www.axios.com/2026/11/05/trump-dan-sullivan-alaska-senate-race"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Alaska, Mississippi Senate races separated by razor-thin vote margins",
+          "url": "https://www.foxnews.com/politics/alaska-mississippi-senate-races-separate-razor-thin-vote-margins"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c18",
+      "drop": "2026-11-05T20",
+      "headline": "Scalise tells GOP chairmen to prepare for Democratic investigations",
+      "summary": "House Majority Leader Steve Scalise sent a letter urging committee chairs to prepare defenses against probes once Democrats take the House. He warned Democrats will seek 'retribution'; Democrats have said they plan oversight alongside an affordability agenda.",
+      "why_it_matters": "It previews a 2027 Congress dominated by investigations of the administration, which could shape what legislation passes.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Steve Scalise",
+        "House Republicans",
+        "House Democrats"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-05T18:45:01.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Scalise tells GOP chairmen to prepare defenses against Democratic ‘retribution’",
+          "url": "https://www.washingtonexaminer.com/news/house/4794263/scalise-warning-letter-gop-chairmen-prepare-defense-democrat-retribution/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "House GOP launches defense plan to shield Trump from looming Democrat investigations",
+          "url": "https://www.foxnews.com/politics/house-gop-launches-defense-plan-shield-trump-from-looming-democrat-investigations"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c19",
+      "drop": "2026-11-05T20",
+      "headline": "El-Sayed backs Van Hollen over Schumer for Senate leader",
+      "summary": "Michigan Sen.-elect Abdul El-Sayed repeated his call for Chris Van Hollen to lead Senate Democrats instead of Chuck Schumer. Fox News and Al Jazeera report growing division; Schumer sidestepped questions on the filibuster.",
+      "why_it_matters": "Who leads Senate Democrats will shape confirmations, Iran war funding fights and the party's strategy against Trump.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Abdul El-Sayed",
+        "Chuck Schumer",
+        "Chris Van Hollen"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T00-c04",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-05T17:49:51.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "El-Sayed says he'd back Van Hollen as majority leader over Schumer",
+          "url": "https://thehill.com/homenews/senate/6201684-el-sayed-van-hollen-majority-leader/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Schumer faces mutiny from newly elected Senate Dems as party prepares to seize power",
+          "url": "https://www.foxnews.com/politics/schumer-faces-mutiny-from-newly-elected-senate-dems-party-prepares-seize-power"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Division among US Democrats over Schumer’s leadership role",
+          "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c20",
+      "drop": "2026-11-05T20",
+      "headline": "Vance moves toward 2028, blaming Trump's Iran war for losses",
+      "summary": "Vice President Vance posted a 600-word postmortem saying 'the reason we lost is the war,' Axios reports. Al Jazeera says Republicans are weighing a pivot; a House conservative has backed Marco Rubio for 2028.",
+      "why_it_matters": "It signals an early split over the GOP's direction after a heavy midterm defeat.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "JD Vance",
+        "Donald Trump",
+        "Marco Rubio"
+      ],
+      "importance": 3,
+      "follows": "2026-11-04T20-c01",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-05T10:31:32.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Vance takes a step toward 2028 in MAGA power play",
+          "url": "https://www.axios.com/2026/11/05/vance-maga-power-play-2028"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Vance eyes 2028 reset, as Republicans mull pivot after US midterms drubbing",
+          "url": "https://www.aljazeera.com/news/2026/11/5/vance-eyes-2028-reset-as-republicans-mull-pivot-after-us-midterms-drubbing?traffic_source=rss"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "House conservative emerges with 2028 presidential pick after GOP's midterm massacre: 'I am all in'",
+          "url": "https://www.foxnews.com/politics/house-conservative-emerges-2028-presidential-pick-after-gops-midterm-massacre-i-am-all-in"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c21",
+      "drop": "2026-11-05T20",
+      "headline": "Trump arch nears federal approval as planning meeting crashes",
+      "summary": "The National Capital Planning Commission's virtual meeting on Trump's triumphal arch crashed after 90 minutes, during public testimony largely against it. NPR reports the government said construction could begin the same day, while critics seek a court order.",
+      "why_it_matters": "It tests oversight of a major federal monument on the National Mall amid a pending court challenge.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "courts"
+      ],
+      "entities": [
+        "National Capital Planning Commission",
+        "Donald Trump"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T10:02:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "NCPC virtual meeting for Trump triumphal arch crashes during public testimony",
+          "url": "https://thehill.com/homenews/administration/6202036-ncpc-meeting-crashes-trump-arch/"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Trump's arch is on the verge of federal approval. But a judge could block construction",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6027301/trump-arch-federal-approval-judge-construction"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c22",
+      "drop": "2026-11-05T20",
+      "headline": "DOJ sues Penn State over in-state tuition for undocumented students",
+      "summary": "The Justice Department sued Pennsylvania State University, saying in-state tuition for undocumented students discriminates against US citizens and that Congress barred such benefits. The university's response was not in the article.",
+      "why_it_matters": "The case could affect tuition costs and eligibility for immigrant students at public universities nationwide.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Justice Department",
+        "Penn State"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T19:09:12.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "DOJ sues Penn State over in-state tuition for undocumented students",
+          "url": "https://thehill.com/homenews/education/6201779-doj-penn-state-undocumented-students/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c23",
+      "drop": "2026-11-05T20",
+      "headline": "AI firms offer concessions after voters reject data centers",
+      "summary": "OpenAI pledged to publish construction plans, protect ratepayers and stop using NDAs with communities. Meta warned the backlash could make AI expansion harder, and Axios says the industry is rebranding data centers as 'compute campuses.'",
+      "why_it_matters": "Electric bills and local water use are at issue, and the industry's response will affect where AI infrastructure is built.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "policy-regulation",
+        "energy"
+      ],
+      "entities": [
+        "OpenAI",
+        "Meta"
+      ],
+      "importance": 4,
+      "follows": "2026-11-05T00-c13",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-05T10:30:07.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "OpenAI pledges to halt NDAs in new data center policy proposal after election rebuke",
+          "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Tech giants turn to cash, concessions for AI rebrand after voters pummeled data centers 43-1",
+          "url": "https://www.axios.com/2026/11/05/ai-data-center-election-backlash-concessions"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+          "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c24",
+      "drop": "2026-11-05T20",
+      "headline": "$500 million of data center loans go up for auction",
+      "summary": "A roughly $500 million portfolio of loans backing projects including Stargate and CyrusOne was put up for sale at once, Bloomberg reports, days after the Democratic sweep raised doubts about many projects.",
+      "why_it_matters": "A rare forced-looking sale suggests lenders are reassessing risk in debt-funded AI buildouts.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Stargate",
+        "CyrusOne"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-05T18:52:30.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Mystery Seller Puts Up $500 Million Data Center Loans Backing Stargate, CyrusOne",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-05/mystery-seller-puts-up-500-million-data-center-loans-backing-stargate-cyrusone"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c25",
+      "drop": "2026-11-05T20",
+      "headline": "China blocks SoftBank's $5.4 billion ABB Robotics purchase",
+      "summary": "Chinese regulators blocked the deal over concerns that robot data would be transferred overseas and used to train AI models, The Robot Report says.",
+      "why_it_matters": "It shows Beijing using data rules to limit foreign control of robotics, a field central to US-China competition.",
+      "region": "Asia",
+      "topics": [
+        "robotics",
+        "china",
+        "trade"
+      ],
+      "entities": [
+        "SoftBank",
+        "ABB Robotics",
+        "China"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T16:25:46.000Z",
+      "sources": [
+        {
+          "outlet": "The Robot Report",
+          "title": "Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics",
+          "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c26",
+      "drop": "2026-11-05T20",
+      "headline": "Agility Robotics debuts on Nasdaq as first listed humanoid maker",
+      "summary": "Agility Robotics began trading on Nasdaq, becoming the first US-based legged humanoid company to go public. Ars Technica says the listing invites scrutiny of the humanoid robot market.",
+      "why_it_matters": "The debut tests whether investors will fund humanoid robots for warehouses amid a sharp AI-stock selloff.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "startups-vc"
+      ],
+      "entities": [
+        "Agility Robotics",
+        "Nasdaq"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T12:00:41.000Z",
+      "sources": [
+        {
+          "outlet": "The Robot Report",
+          "title": "Agility Robotics begins trading on Nasdaq",
+          "url": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/"
+        },
+        {
+          "outlet": "Ars Technica",
+          "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+          "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c27",
+      "drop": "2026-11-05T20",
+      "headline": "Shield AI to buy radar maker Echodyne for $5.3 billion",
+      "summary": "Defense startup Shield AI agreed to acquire radar firm Echodyne, expected to close in early 2027. The deal gives Shield an in-house counter-drone offering.",
+      "why_it_matters": "Counter-drone systems are a Pentagon priority as drones reshape combat in Ukraine and the Middle East.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "startups-vc"
+      ],
+      "entities": [
+        "Shield AI",
+        "Echodyne"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T16:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "Breaking Defense",
+          "title": "Shield AI acquires radar firm Echodyne in $5.3B deal",
+          "url": "https://breakingdefense.com/2026/11/shield-ai-acquires-radar-firm-echodyne-in-5-3b-deal/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c28",
+      "drop": "2026-11-05T20",
+      "headline": "Zipline valued at $21.5 billion as Walmart expands drone delivery",
+      "summary": "Drone delivery company Zipline raised $1.5 billion and deepened its partnership with Walmart, TechCrunch reports.",
+      "why_it_matters": "Drone delivery to US homes is moving from pilot to scale, which affects retail logistics and airspace rules.",
+      "region": "US",
+      "topics": [
+        "startups-vc",
+        "robotics"
+      ],
+      "entities": [
+        "Zipline",
+        "Walmart"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T15:40:34.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Zipline hits $21.5B valuation as Walmart expands bet on drone delivery",
+          "url": "https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c29",
+      "drop": "2026-11-05T20",
+      "headline": "Claude can now connect to bank accounts to analyze spending",
+      "summary": "Anthropic added a Personal Finance feature that links Claude to bank and card accounts through Plaid so users can ask where their money went.",
+      "why_it_matters": "It puts sensitive financial data into AI chatbots, raising privacy and security questions for everyday users.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Plaid"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T18:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Claude AI can plug directly into your bank account",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Claude can now analyze your spending with its new Personal Finance tool",
+          "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c30",
+      "drop": "2026-11-05T20",
+      "headline": "Blue Origin delays next launch to January 2027 after pad damage",
+      "summary": "CEO Dave Limp said Blue Origin is repairing a launch pad damaged by the New Glenn explosion in May and has pushed its next launch to January 2027.",
+      "why_it_matters": "The delay slows a key competitor to SpaceX in US government and commercial launches.",
+      "region": "US",
+      "topics": [
+        "space"
+      ],
+      "entities": [
+        "Blue Origin",
+        "New Glenn",
+        "Dave Limp"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T19:02:32.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Blue Origin pushes launch to January 2027 as it races to rebuild damaged launch pad",
+          "url": "https://www.cnbc.com/2026/11/05/blue-origin-launch-new-glenn.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c31",
+      "drop": "2026-11-05T20",
+      "headline": "Chinese AI lab Moonshot sought Nvidia Blackwell chips via Europe",
+      "summary": "Moonshot AI has pursued leasing deals with European neoclouds for advanced Nvidia chips, which US export controls bar from China, sources told CNBC.",
+      "why_it_matters": "It shows how Chinese labs try to work around US export controls through overseas cloud access.",
+      "region": "Asia",
+      "topics": [
+        "chips",
+        "china",
+        "ai"
+      ],
+      "entities": [
+        "Moonshot AI",
+        "Nvidia"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T13:34:14.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
+          "url": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c32",
+      "drop": "2026-11-05T20",
+      "headline": "US agencies warn of ongoing freezer hacks tied to Iran",
+      "summary": "A joint US government statement says hacks of industrial, retail and military freezers affect food, transportation and healthcare. Defense One reports officials suspect Iran-linked hackers at military commissaries.",
+      "why_it_matters": "Spoiled food and medical supplies are a direct risk, and attribution to Iran raises the stakes during the war.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "defense"
+      ],
+      "entities": [
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": "2026-11-03T23-c23",
+      "storyline_id": null,
+      "published_at": "2026-11-05T18:48:34.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "US government warns of ‘ongoing cyber threat’ amid mass hacks of industrial retail and military freezers",
+          "url": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/"
+        },
+        {
+          "outlet": "Defense One",
+          "title": "Hackers are targeting refrigerators worldwide, US agencies warn",
+          "url": "https://www.defenseone.com/threats/2026/11/warn-refrigerator-hacks-attacks-military/417076/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c33",
+      "drop": "2026-11-05T20",
+      "headline": "Novartis reports seven tumor cases in children given Zolgensma",
+      "summary": "Novartis acknowledged seven previously unknown instances of tumors in children treated with its spinal muscular atrophy gene therapy, STAT reports. A causal link is described as possible.",
+      "why_it_matters": "The finding bears on the long-term safety of gene therapies given to infants.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "Novartis",
+        "Zolgensma"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T18:53:34.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "STAT+: Novartis cites cases of previously unknown tumors possibly tied to its SMA gene therapy",
+          "url": "https://www.statnews.com/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/?utm_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c34",
+      "drop": "2026-11-05T20",
+      "headline": "Revolution Medicines' pancreatic cancer drug has strong launch",
+      "summary": "Rasonque brought in far higher sales than expected in its first weeks, STAT and MarketWatch report, with one analyst calling it on track for one of the best drug launches of all time.",
+      "why_it_matters": "Pancreatic cancer has few effective treatments, so a successful new drug matters for patients.",
+      "region": "US",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "Revolution Medicines",
+        "Rasonque"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T12:33:01.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "STAT+: Revolution Medicines’ pancreatic cancer drug has stunning commercial debut",
+          "url": "https://www.statnews.com/2026/11/05/rasonque-revolution-medicines-pancreatic-cancer-commercial-launch/?utm_campaign=rss"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’",
+          "url": "https://www.marketwatch.com/story/this-pancreatic-cancer-treatment-is-on-track-for-one-of-the-best-drug-launches-of-all-time-37bf86ce?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c35",
+      "drop": "2026-11-05T20",
+      "headline": "Cancer diagnoses in England hit record, over 1,000 a day",
+      "summary": "NHS figures show record cancer diagnoses, but experts say the service is missing timescale targets for diagnosis and treatment.",
+      "why_it_matters": "It highlights strain in a major public health system and the global trend of rising cancer detection.",
+      "region": "Europe",
+      "topics": [
+        "health"
+      ],
+      "entities": [
+        "NHS England"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T18:49:25.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Cancer diagnoses in England hit record high of more than 1,000 people a day",
+          "url": "https://www.theguardian.com/society/2026/nov/05/nhs-england-cancer-diagnoses-record-high-1000-people-diagnosed-every-day"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c36",
+      "drop": "2026-11-05T20",
+      "headline": "Germany names Army chief Freuding as next defense chief",
+      "summary": "Army Chief Christian Freuding will succeed Carsten Breuer as Germany's chief of defense in February 2027.",
+      "why_it_matters": "Germany is the largest European NATO military spender in the Ukraine war era, so its top commander matters to US planning.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "europe"
+      ],
+      "entities": [
+        "Christian Freuding",
+        "Carsten Breuer",
+        "Germany"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T18:30:53.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "Germany names Army Chief Freuding as next chief of defense",
+          "url": "https://www.defensenews.com/global/europe/2026/11/05/germany-names-army-chief-freuding-as-next-chief-of-defense/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c37",
+      "drop": "2026-11-05T20",
+      "headline": "Mexican judge arrested over alleged $2 million bribe",
+      "summary": "US officials say Judge Luis Benítez Alcántara took $2 million to release a Canadian suspect linked to Ryan Wedding's cocaine enterprise during extradition proceedings. The judge's response was not reported.",
+      "why_it_matters": "It shows US efforts to pursue cartel-linked corruption in extradition cases that affect drug flows into the US.",
+      "region": "Americas",
+      "topics": [
+        "crime-justice",
+        "latin-america"
+      ],
+      "entities": [
+        "Luis Benítez Alcántara",
+        "Ryan Wedding",
+        "Mexico"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T18:01:23.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "US accuses Mexican judge of $2m bribe to free accused drug trafficker allegedly linked to ex-Olympic snowboarder",
+          "url": "https://www.theguardian.com/us-news/2026/nov/05/mexican-judge-us-arrest-drug-trafficking"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Mexican judge arrested after U.S. charges him of accepting $2M bribe in case linked to former Olympian",
+          "url": "https://www.foxnews.com/politics/mexican-judge-arrested-us-charges-accepting-2m-bribe-free-canadian-drug-trafficker"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c38",
+      "drop": "2026-11-05T20",
+      "headline": "Eight killed in series of shootings in western Turkey",
+      "summary": "Victims were found in several locations in three separate vehicles, according to local reports cited by the BBC. A motive and suspects were not given.",
+      "why_it_matters": "Details are unclear, but mass shootings in a NATO member and tourist destination draw international attention.",
+      "region": "Middle East",
+      "topics": [
+        "crime-justice"
+      ],
+      "entities": [
+        "Turkey"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T19:32:54.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Eight killed in series of shootings in western Turkey",
+          "url": "https://www.bbc.co.uk/news/articles/cvj6jj21pd2ko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c39",
+      "drop": "2026-11-05T20",
+      "headline": "IRS 2027 tax brackets rise at steeper pace on inflation",
+      "summary": "The 2027 federal tax brackets, standard deduction and SALT limits were published, adjusting by more than this year as inflation persists, MarketWatch reports.",
+      "why_it_matters": "Bracket changes set how much of your income is taxed and show how inflation affects take-home pay.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Internal Revenue Service"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T20:22:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+          "url": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c40",
+      "drop": "2026-11-05T20",
+      "headline": "Florida chapter of CAIR suspends operations after designation",
+      "summary": "The Council on American-Islamic Relations suspended Florida operations as the state's terrorist designation took effect after a federal court declined to block it. CAIR's position on the designation was not detailed in the summary.",
+      "why_it_matters": "The case tests how far states can go in designating advocacy groups, with free speech and security arguments on both sides.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Council on American-Islamic Relations",
+        "Florida"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T20:27:05.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "CAIR shuts down in Florida after court upholds foreign terrorist designation",
+          "url": "https://www.washingtonexaminer.com/news/justice/4794522/cair-shut-down-florida-court-foreign-terrorist-designation/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c41",
+      "drop": "2026-11-05T20",
+      "headline": "LIV Golf to wind down operations in bankruptcy court",
+      "summary": "A lawyer told a bankruptcy court that LIV Golf will shut down rather than launch a new version because it lacked enough support, ending a five-year run.",
+      "why_it_matters": "It ends a league that split professional golf and reshaped the sport's finances.",
+      "region": "Global",
+      "topics": [
+        "culture-sports"
+      ],
+      "entities": [
+        "LIV Golf"
+      ],
+      "importance": 2,
+      "follows": "2026-11-05T00-c34",
+      "storyline_id": null,
+      "published_at": "2026-11-05T20:01:07.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "LIV golf to shutter league, lawyer says in bankruptcy hearing",
+          "url": "https://thehill.com/policy/sports-gaming/6202125-liv-golf-bankruptcy-hearing/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-05T20-c42",
+      "drop": "2026-11-05T20",
+      "headline": "Cristiano Ronaldo retires from international football",
+      "summary": "Ronaldo, 41, ended a 23-year Portugal career spanning six World Cups after a falling-out with coach Jorge Jesus, according to Al Jazeera and the BBC.",
+      "why_it_matters": "It closes the international career of one of the world's most recognized athletes, with a large US fan base.",
+      "region": "Europe",
+      "topics": [
+        "culture-sports"
+      ],
+      "entities": [
+        "Cristiano Ronaldo",
+        "Portugal",
+        "Jorge Jesus"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T14:29:40.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why has Cristiano Ronaldo retired from international football?",
+          "url": "https://www.aljazeera.com/sports/2026/11/5/why-has-cristiano-ronaldo-retired-from-international-football?traffic_source=rss"
+        },
+        {
+          "outlet": "BBC",
+          "title": "A bitter end for Ronaldo - the icon who transformed Portugal",
+          "url": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c43",
+      "drop": "2026-11-05T20",
+      "headline": "New evidence suggests Mars may be volcanically active",
+      "summary": "Recent surface fractures and gases detected by an orbiter provide some of the strongest evidence yet that Mars is volcanically active, New Scientist reports.",
+      "why_it_matters": "Active volcanism could mean heat and chemistry that improve the odds of finding life on Mars.",
+      "region": "Global",
+      "topics": [
+        "science",
+        "space"
+      ],
+      "entities": [
+        "Mars"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T16:42:06.000Z",
+      "sources": [
+        {
+          "outlet": "New Scientist",
+          "title": "Evidence of active volcanoes on Mars may boost chances of finding life",
+          "url": "https://www.newscientist.com/article/2597667-evidence-of-active-volcanoes-on-mars-may-boost-chances-of-finding-life/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c44",
+      "drop": "2026-11-05T20",
+      "headline": "Siberian tomb hair shows cannabis use 2,800 years ago",
+      "summary": "Psychoactive compounds found in a hair from a Scythian tomb give the earliest direct evidence of cannabis being used as a drug.",
+      "why_it_matters": "It adds to the long human history of psychoactive plants as debates over cannabis policy continue.",
+      "region": "Global",
+      "topics": [
+        "science"
+      ],
+      "entities": [
+        "Scythians"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T19:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "New Scientist",
+          "title": "Tomb in Siberia reveals humans were using cannabis 2800 years ago",
+          "url": "https://www.newscientist.com/article/2597653-tomb-in-siberia-reveals-humans-were-using-cannabis-2800-years-ago/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-05T20-c45",
+      "drop": "2026-11-05T20",
+      "headline": "Wall Street donors spent over $300 million on GOP with little effect",
+      "summary": "Top hedge fund and private equity executives spent more than $300 million on Republican campaigns to little or no effect, the Financial Times reports.",
+      "why_it_matters": "It shows the limits of big-money influence in an election driven by cost-of-living concerns.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "markets"
+      ],
+      "entities": [
+        "Republican Party"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-05T19:48:28.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Wall Street mega-donors clobbered by Democratic sweep",
+          "url": "https://www.ft.com/content/1338f6b6-81b1-478b-9807-5cfe1fc39113?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    }
+  ]
+}
