@@ -1,0 +1,1048 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-06T07",
+    "at": "2026-11-06T07:43:07Z",
+    "model": "claude-sonnet-5-5",
+    "count": 34
+  },
+  "cards": [
+    {
+      "id": "2026-11-06T07-c01",
+      "drop": "2026-11-06T07",
+      "headline": "Judge halts work on Trump's arch hours after planning approval",
+      "summary": "A federal judge issued a 14-day restraining order on construction of the 250-foot arch near Arlington National Cemetery, hours after the National Capital Planning Commission approved it 8-4. The administration had hoped to start work immediately.",
+      "why_it_matters": "The ruling delays one of the president's signature projects and shows how courts are weighing challenges to federal construction on the National Mall.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "National Capital Planning Commission"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T20-c21",
+      "storyline_id": null,
+      "published_at": "2026-11-06T04:02:05.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Judge temporarily halts building work on Trump’s triumphal arch",
+          "url": "https://www.theguardian.com/us-news/2026/nov/06/judge-temporarily-halts-work-trump-triumphal-arch-washington"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Federal judge temporarily blocks construction of Trump's Arlington triumphal arch hours after approval",
+          "url": "https://www.foxnews.com/politics/trumps-massive-arlington-triumphal-arch-approved-construction-federal-planning-commission"
+        },
+        {
+          "outlet": "NPR",
+          "title": "A judge blocks construction of Trump's arch moments after it won federal approval",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c02",
+      "drop": "2026-11-06T07",
+      "headline": "Nikkei enters bear market as Asian AI selloff deepens",
+      "summary": "Japan's Nikkei 225 fell below 60,000 for the first time since May, putting it in a technical bear market. Seoul's Kospi dropped below 5,000 as investors unwound AI-related trades following the Wall Street rout.",
+      "why_it_matters": "Asian chipmakers supply much of the AI hardware US tech depends on, and the losses are spreading to retirement and pension portfolios.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "chips",
+        "ai"
+      ],
+      "entities": [
+        "Nikkei 225",
+        "Kospi",
+        "SK Hynix",
+        "Samsung"
+      ],
+      "importance": 4,
+      "follows": "2026-11-05T23-c02",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T00:15:36.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Japan’s Nikkei 225 Enters Bear Market as AI Selloff Deepens",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/japan-s-nikkei-breaks-below-key-60-000-level-on-ai-selloff"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Asian tech stocks sink",
+          "url": "https://www.ft.com/content/b77ebe43-a017-4e63-af84-5bdec8f47648?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+          "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c03",
+      "drop": "2026-11-06T07",
+      "headline": "Trump tells voters they have themselves to blame for market drop",
+      "summary": "Trump wrote on Truth Social that the stock market crashed because Democrats had a big Tuesday and said voters had only themselves to blame. Investors and analysts have linked the selloff to fears of tighter AI and data center oversight.",
+      "why_it_matters": "Market swings affect 401(k)s and borrowing costs, and the president's framing sets up a political fight over who owns the downturn.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "markets"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Nasdaq"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T00:28:09.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Trump says voters should blame themselves for stock market rout",
+          "url": "https://www.axios.com/2026/11/06/trump-stock-market-sell-off"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump tells voters ‘you only have yourselves to blame’ for post-midterm market ‘crash’",
+          "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4795045/trump-voters-blame-midterms-stock-market-crash/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c04",
+      "drop": "2026-11-06T07",
+      "headline": "OpenAI drops NDAs with officials on data center projects",
+      "summary": "OpenAI announced new community commitments, including no non-disclosure agreements with public officials on data center projects. It came days after voters broadly opposed data center expansion in the midterms.",
+      "why_it_matters": "Secrecy around data centers has fueled local backlash over power and water use; AI firms are now adjusting to political pressure.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "policy-regulation",
+        "energy"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T20-c23",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T00:37:56.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "OpenAI is stepping back from NDAs for data center projects",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c05",
+      "drop": "2026-11-06T07",
+      "headline": "Herzog to name Israel's government candidate on Sunday",
+      "summary": "Israel's president said he will name a candidate to form a government on Sunday, after a majority of lawmakers endorsed Gadi Eisenkot over Benjamin Netanyahu.",
+      "why_it_matters": "The choice decides whether Netanyahu stays in power, with consequences for the Iran war and US-Israel relations.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "elections",
+        "geopolitics"
+      ],
+      "entities": [
+        "Isaac Herzog",
+        "Gadi Eisenkot",
+        "Benjamin Netanyahu"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T20-c12",
+      "storyline_id": "sl-israel-election",
+      "published_at": "2026-11-06T07:09:42.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israel’s President Herzog to name candidate to form government on Sunday",
+          "url": "https://www.aljazeera.com/news/2026/11/6/israels-herzog-to-name-a-candidate-to-form-government-on-sunday?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c06",
+      "drop": "2026-11-06T07",
+      "headline": "Trump says Russia-Ukraine deal is 'very close' after Putin envoy meeting",
+      "summary": "Trump met a Russian envoy after the envoy appeared with Melania Trump and Ukrainian officials. He called a deal very close but gave no specifics and did not meet the Ukrainian delegation.",
+      "why_it_matters": "A deal would reshape European security and US aid decisions, but the lack of detail leaves the claim unverified.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Russia",
+        "Ukraine",
+        "Melania Trump"
+      ],
+      "importance": 4,
+      "follows": "2026-11-05T20-c09",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-05T23:52:48.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
+          "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians?traffic_source=rss"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Melania Trump touts rare agreement she brokered between Russia and Ukraine",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6030662/melania-trump-touts-rare-agreement-she-brokered-between-russia-and-ukraine"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c07",
+      "drop": "2026-11-06T07",
+      "headline": "Iran exempts India, China, Qatar and Iraq from Hormuz limits",
+      "summary": "Tehran says ships from four countries can cross the Strait of Hormuz freely. Analysts cited by Al Jazeera say the arrangements carry political risks for the countries involved.",
+      "why_it_matters": "Selective access to a key oil chokepoint can shift energy prices and alliances, and shows Iran using the strait as leverage.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "energy",
+        "geopolitics"
+      ],
+      "entities": [
+        "Iran",
+        "India",
+        "China",
+        "Qatar"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-06T06:06:24.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c08",
+      "drop": "2026-11-06T07",
+      "headline": "Satellite images show construction near Iran missile bases",
+      "summary": "BBC reports satellite imagery taken in November shows digging and new buildings near Iranian missile bases. The images suggest major construction is ongoing; the BBC did not detail its purpose.",
+      "why_it_matters": "Rebuilding missile sites could factor into Trump's pending decision on resuming strikes.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "defense",
+        "war-conflict"
+      ],
+      "entities": [
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-06T07:33:41.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
+          "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c09",
+      "drop": "2026-11-06T07",
+      "headline": "Qatar-led mediators push interim US-Iran deal; Iran envoy meets Putin",
+      "summary": "The FT reports Qatar-led negotiators are stepping up efforts to broker an interim agreement. Separately, Iran's security chief met Putin and delivered a letter from Supreme Leader Mojtaba Khamenei.",
+      "why_it_matters": "A deal could avert renewed US strikes and ease oil prices; Russia's role adds a layer to the diplomacy.",
+      "region": "Middle East",
+      "topics": [
+        "geopolitics",
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Qatar",
+        "Iran",
+        "Vladimir Putin",
+        "Mojtaba Khamenei"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-06T02:48:19.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Iran celebrates Trump’s election defeat as mediators push for deal to end war",
+          "url": "https://www.ft.com/content/eced6084-7cd7-4633-a8ba-559173e0f6c1?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran’s security chief meets Putin, delivers message from Khamenei",
+          "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c10",
+      "drop": "2026-11-06T07",
+      "headline": "Fox reports Vance privately criticized Netanyahu on Iran war",
+      "summary": "Fox News reports JD Vance privately said Benjamin Netanyahu was wrong on everything about the Iran war, as the vice president positions for a 2028 run. The report relies on private remarks; Vance has not been quoted on record.",
+      "why_it_matters": "It points to a split inside the administration over Iran and Israel policy as the president weighs next steps.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "middle-east"
+      ],
+      "entities": [
+        "JD Vance",
+        "Benjamin Netanyahu"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-05T23:49:09.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Vance ‘privately’ blasts Netanyahu as Iran war divides Trump administration and 2028 ambitions loom",
+          "url": "https://www.foxnews.com/politics/vance-privately-blasts-netanyahu-iran-war-divides-trump-admin-2028-ambitions-loom"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c11",
+      "drop": "2026-11-06T07",
+      "headline": "White House denies Hegseth and Rubio are leaving after losses",
+      "summary": "The White House denied reports that Defense Secretary Pete Hegseth or Secretary of State Marco Rubio would leave. The Hill cites sources saying Hegseth's critics blame him for the Iran war; AP says he is not being considered for a Senate seat.",
+      "why_it_matters": "The Pentagon's leadership matters as the president weighs resuming the Iran war and Democrats prepare oversight.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "defense"
+      ],
+      "entities": [
+        "Pete Hegseth",
+        "Marco Rubio",
+        "White House"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T23:41:23.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Hegseth in ‘trouble’ as Trump faces music on Iran war, midterms",
+          "url": "https://thehill.com/policy/defense/6202854-hegseth-pentagon-future-uncertain/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Hegseth not being considered for Blackburn’s Tennessee Senate seat: Report",
+          "url": "https://www.washingtonexaminer.com/news/senate/4794945/hegseth-marsha-blackburn-tennessee-senate-seat/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c12",
+      "drop": "2026-11-06T07",
+      "headline": "Two House Democrats float impeaching Attorney General Blanche",
+      "summary": "Reps. Hank Johnson and Deborah Ross raised impeaching Attorney General Todd Blanche, saying Democrats might win enough Republican Senate votes to remove him. No formal move has been announced.",
+      "why_it_matters": "It signals how aggressively the incoming Democratic House may use oversight powers against Justice Department leadership.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "crime-justice"
+      ],
+      "entities": [
+        "Todd Blanche",
+        "Hank Johnson",
+        "Deborah Ross"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T02:08:29.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "2 House Democrats float idea of Blanche impeachment",
+          "url": "https://thehill.com/homenews/house/6203031-house-democrats-push-blanche-impeachment/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c13",
+      "drop": "2026-11-06T07",
+      "headline": "Democrats flip Colorado seat and unseat Rep. Lawler in New York",
+      "summary": "Democrat Jessica Killin is projected to beat Rep. Jeff Crank in Colorado's 5th, a district that never elected a Democrat. Fox reports ex-Biden official Cait Conley is projected to unseat Rep. Mike Lawler in New York's 17th.",
+      "why_it_matters": "The wins widen the Democratic House majority and show gains in districts that long favored Republicans.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Jessica Killin",
+        "Jeff Crank",
+        "Cait Conley",
+        "Mike Lawler"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T23-c11",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-05T22:47:56.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Democrat Jessica Killin flips longtime GOP-held Colorado House seat",
+          "url": "https://thehill.com/homenews/campaign/6180533-jessica-killin-unseats-jeff-crank-colorado-5th-district/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Ex-Biden official projected to win bid to unseat Mike Lawler in high-stakes House race",
+          "url": "https://www.foxnews.com/politics/ex-biden-official-projected-win-bid-unseat-mike-lawler-high-stakes-house-race"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c14",
+      "drop": "2026-11-06T07",
+      "headline": "Texas governor-elect Hinojosa vows to protect Texans from data centers",
+      "summary": "Democratic Gov.-elect Gina Hinojosa said projects must be a partnership that benefits Texans once she is sworn in in January, describing a shift from the state's pro-business stance.",
+      "why_it_matters": "Texas is a leading data center market, so state policy there affects AI buildout, power prices and grid reliability.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "energy",
+        "ai"
+      ],
+      "entities": [
+        "Gina Hinojosa",
+        "Texas"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T02:28:10.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Hinojosa vows to protect Texas citizens from data centers",
+          "url": "https://thehill.com/homenews/state-watch/6203045-texas-hinojosa-data-centers/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c15",
+      "drop": "2026-11-06T07",
+      "headline": "Macau jails democracy campaigner Au Kam San for 12.5 years",
+      "summary": "Au Kam San was sentenced to 12 years and six months for subversion against the political power of the state, in Macau's first national security case.",
+      "why_it_matters": "It extends Beijing's security crackdown beyond Hong Kong and affects the rights of residents and foreign business in the region.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Au Kam San",
+        "Macau"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T06:46:21.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Macau jails pro-democracy campaigner in city's first national security case",
+          "url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c16",
+      "drop": "2026-11-06T07",
+      "headline": "Turkish parliament ratifies defence pact with Saudi Arabia",
+      "summary": "Turkey's parliament approved the Mecca defence agreement, which Al Jazeera says lays groundwork for more Turkish involvement in Saudi Arabia's conflict with the Houthis.",
+      "why_it_matters": "It adds another regional military player to Gulf conflicts that already threaten oil shipping.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "defense",
+        "geopolitics"
+      ],
+      "entities": [
+        "Turkey",
+        "Saudi Arabia",
+        "Houthis"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T00:15:22.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Turkiye’s parliament ratifies Mecca defence agreement",
+          "url": "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c17",
+      "drop": "2026-11-06T07",
+      "headline": "Israeli settlers seize eight Palestinian homes in Jericho",
+      "summary": "The UN says settlers reportedly used live ammunition and beat Palestinians, forcing families to flee. Al Jazeera reports dozens were displaced.",
+      "why_it_matters": "Settler violence and displacement in the West Bank shape US diplomacy and Israel's political debate.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Jericho",
+        "United Nations"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T04:30:26.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israeli settlers seize 8 Palestinian homes in Jericho, displacing dozens",
+          "url": "https://www.aljazeera.com/news/2026/11/6/israeli-settlers-seize-8-palestinian-homes-in-jericho-displacing-dozens?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c18",
+      "drop": "2026-11-06T07",
+      "headline": "Meta, Google and TikTok sue California over teen social media law",
+      "summary": "The companies filed separate suits against the state's Digital Age Assurance Act, effective Jan. 1, arguing it violates their First Amendment rights. TechCrunch says it would restrict social media access for under-16s.",
+      "why_it_matters": "The case could set a national precedent for how states regulate children's access to social media.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "big-tech",
+        "courts"
+      ],
+      "entities": [
+        "Meta",
+        "Google",
+        "TikTok",
+        "California"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T00:01:38.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Meta, TikTok, Google sue California over child online safety restrictions",
+          "url": "https://thehill.com/policy/technology/6202882-meta-tiktok-google-social-media-california/"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Meta, Google, and TikTok sue California AG over teen social media law",
+          "url": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c19",
+      "drop": "2026-11-06T07",
+      "headline": "Palo Alto Networks in talks to buy AI agent security startup Clutch",
+      "summary": "Palo Alto Networks is reportedly negotiating to acquire Clutch for about $500 million. Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, per a source.",
+      "why_it_matters": "It shows security vendors racing to protect AI agents that companies are starting to deploy.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "startups-vc",
+        "ai"
+      ],
+      "entities": [
+        "Palo Alto Networks",
+        "Clutch"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T06:28:32.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+          "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c20",
+      "drop": "2026-11-06T07",
+      "headline": "New *sshole flaw lets hackers log into some Linux devices",
+      "summary": "A vulnerability nicknamed *sshole allows attackers to log in over SSH without a password on certain Alpine Linux configurations. Other distributions may also be affected.",
+      "why_it_matters": "Linux runs routers, servers and embedded devices; administrators need to check configurations and patch.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity"
+      ],
+      "entities": [
+        "Alpine Linux"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T23:09:36.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+          "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c21",
+      "drop": "2026-11-06T07",
+      "headline": "Blue Origin says new engine is higher-performing at a quarter of the cost",
+      "summary": "Blue Origin announced rocket upgrades including an engine it says delivers better performance at one quarter of the cost. Ars Technica quotes the company calling it a game-changer.",
+      "why_it_matters": "Cheaper launches could narrow SpaceX's lead and cut costs for NASA and defense missions.",
+      "region": "US",
+      "topics": [
+        "space"
+      ],
+      "entities": [
+        "Blue Origin"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T00:17:06.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+          "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c22",
+      "drop": "2026-11-06T07",
+      "headline": "At least 10 local governments move to drop Flock surveillance cameras",
+      "summary": "Since summer, at least 10 local governments have moved to end contracts for Flock's cameras, citing privacy, data-sharing and procurement concerns, TechCrunch reports.",
+      "why_it_matters": "Police license-plate camera networks are spreading across US towns; local pushback shapes how much surveillance residents accept.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "big-tech"
+      ],
+      "entities": [
+        "Flock Safety"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T07:18:44.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "At least 10 local governments have moved to drop Flock’s surveillance cameras since summer",
+          "url": "https://techcrunch.com/2026/11/05/at-least-10-local-governments-have-moved-to-drop-flocks-surveillance-cameras-since-summer/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c23",
+      "drop": "2026-11-06T07",
+      "headline": "Airbnb plans AI travel agent for first half of 2027",
+      "summary": "Airbnb said in its third-quarter shareholder letter it will launch an AI agent to help users plan, compare and book travel, and assist during stays.",
+      "why_it_matters": "Travel booking is becoming another front for AI agents that act on users' behalf.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Airbnb"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T22:40:55.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+          "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
+        },
+        {
+          "outlet": "The Verge",
+          "title": "Airbnb is working on an AI travel agent",
+          "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c24",
+      "drop": "2026-11-06T07",
+      "headline": "Cloudflare and IREN rebound after brutal AI selloff",
+      "summary": "Cloudflare rose after its fastest sales growth in nearly four years on demand for AI protection. IREN gained after a new cloud deal and noting much of its backlog is tied to investment-grade counterparties.",
+      "why_it_matters": "The rebounds hint that investors are separating AI firms with firm revenue from those with shaky financing.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Cloudflare",
+        "IREN"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T01:06:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+          "url": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d?mod=mw_rss_topstories"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
+          "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c25",
+      "drop": "2026-11-06T07",
+      "headline": "Gold falls and copper hits July low as tech rout spreads",
+      "summary": "Gold dropped as investors sold it to cover losses elsewhere during the tech selloff. Copper fell to its lowest since July as the election threatened AI buildout and tariff trades.",
+      "why_it_matters": "Even traditional havens are being sold in the rout, and copper signals doubts about AI infrastructure spending.",
+      "region": "Global",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "Gold",
+        "Copper"
+      ],
+      "importance": 2,
+      "follows": "2026-11-05T00-c07",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T00:09:55.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Gold Drops as Tech Stock Slump Forces Investors to Cover Losses",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/gold-set-for-biggest-weekly-gain-since-august-after-us-midterms"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Copper Moves Lower as US Election Undermines AI and Tariff Trade",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/copper-moves-lower-as-us-election-undermines-ai-and-tariff-trade"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c26",
+      "drop": "2026-11-06T07",
+      "headline": "Moody's says Senegal debt rework likely counts as default",
+      "summary": "Moody's said Senegal's plan to restructure billions in debt will probably constitute a default under its methodology, even though the country keeps making scheduled payments.",
+      "why_it_matters": "Another African sovereign default would raise borrowing costs for emerging markets and hit holders of its bonds.",
+      "region": "Africa",
+      "topics": [
+        "economy",
+        "markets",
+        "africa"
+      ],
+      "entities": [
+        "Senegal",
+        "Moody's Ratings"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T06:01:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Moody’s Warns Senegal Debt Rework Likely Tantamount to Default",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/moody-s-warns-senegal-debt-rework-likely-tantamount-to-default"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c27",
+      "drop": "2026-11-06T07",
+      "headline": "Russia seizes Japan Tobacco's Russian arm; Japan demands return",
+      "summary": "Putin's government transferred Japan Tobacco's Russian assets to a local firm. Japan demanded the assets be returned in an escalating diplomatic spat.",
+      "why_it_matters": "Asset seizures raise risk for foreign firms in Russia, including US companies, and strain Japan-Russia ties.",
+      "region": "Asia",
+      "topics": [
+        "geopolitics",
+        "trade"
+      ],
+      "entities": [
+        "Japan Tobacco",
+        "Vladimir Putin",
+        "Japan"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T00:31:44.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Putin Transfers Japan Tobacco Assets to Local Firm in Latest Asset Seizure",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/japan-protests-russia-s-seizure-of-japan-tobacco-assets"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c28",
+      "drop": "2026-11-06T07",
+      "headline": "US sanctions 10 more Cuban targets over oil and shipping",
+      "summary": "The State Department sanctioned 10 individuals and entities tied to Cuba's government, military and oil industry. It accuses the ruling elite of hoarding the island's energy, shipping and other resources.",
+      "why_it_matters": "Pressure on Cuba's energy supply affects migration flows and US relations across the Caribbean.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "policy-regulation",
+        "energy"
+      ],
+      "entities": [
+        "Cuba",
+        "Marco Rubio",
+        "State Department"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T01:53:06.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Rubio places additional sanctions on Cuba, targeting 'illicit' shipping network",
+          "url": "https://thehill.com/policy/defense/6202991-rubio-broadens-cuba-sanctions-crude-oil/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T07-c29",
+      "drop": "2026-11-06T07",
+      "headline": "Three states carry out executions on the same day",
+      "summary": "Alabama, Florida and Indiana all carried out executions Thursday, an unusual coincidence last seen in 2010. Florida's was a record-tying 19th this year.",
+      "why_it_matters": "It comes the same week California's governor commuted all 548 death sentences, underscoring the split in US capital punishment.",
+      "region": "US",
+      "topics": [
+        "crime-justice"
+      ],
+      "entities": [
+        "Alabama",
+        "Florida",
+        "Indiana"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T00:27:20.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Alabama, Florida and Indiana carry out executions on same day",
+          "url": "https://www.theguardian.com/us-news/2026/nov/05/executions-florida-alabama-indiana"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c30",
+      "drop": "2026-11-06T07",
+      "headline": "Pope Leo begins Latin America trip weeks after lung surgery",
+      "summary": "Pope Leo, who had part of a lung removed last month, started a lengthy trip to Uruguay, Argentina and Peru.",
+      "why_it_matters": "The first American pope's health and travel matter to the world's Catholics, including large Latino communities in the US.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "health",
+        "culture-sports"
+      ],
+      "entities": [
+        "Pope Leo"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T00:02:57.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+          "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c31",
+      "drop": "2026-11-06T07",
+      "headline": "High rates push some US buyers toward adjustable-rate mortgages",
+      "summary": "With 30-year fixed mortgage rates at 7% or more, NPR reports some borrowers are reconsidering adjustable-rate mortgages. New analysis shows ARMs have paid off for borrowers.",
+      "why_it_matters": "Homebuyers weighing high fixed rates face a tradeoff: lower initial payments against the risk of resets if rates keep rising.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "fed-rates"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-05T23:09:10.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "With stubbornly high interest rates, some are reconsidering adjustable-rate mortgages",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6026480/with-stubbornly-high-interest-rates-some-are-reconsidering-adjustable-rate-mortgages"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c32",
+      "drop": "2026-11-06T07",
+      "headline": "UK firms told to publish salaries in job adverts",
+      "summary": "Ahead of a new law, UK firms are being told to publish pay in job adverts. The government argues it will help jobseekers and could help prevent pay discrimination.",
+      "why_it_matters": "US firms with UK staff must adapt, and it echoes pay-transparency laws in several US states.",
+      "region": "Europe",
+      "topics": [
+        "jobs-labor",
+        "policy-regulation"
+      ],
+      "entities": [
+        "United Kingdom"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T07:36:41.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Firms told to publish salaries in job adverts ahead of new law",
+          "url": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c33",
+      "drop": "2026-11-06T07",
+      "headline": "Earliest polar vortex weakening on record clouds winter outlook",
+      "summary": "An unprecedented early weakening of the polar vortex has left experts uncertain about its effect on UK weather, including possible snow.",
+      "why_it_matters": "Polar vortex disruptions can also send cold air into North America, so winter forecasts carry more uncertainty.",
+      "region": "Europe",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T01:22:39.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Could the earliest weakening of the polar vortex on record bring UK snow?",
+          "url": "https://www.bbc.co.uk/weather/articles/cwyvrz09mnd6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T07-c34",
+      "drop": "2026-11-06T07",
+      "headline": "Peru seizes 3,000 tarantulas hidden in socks bound for Germany",
+      "summary": "Authorities at Lima's airport found more than 3,000 tarantulas in dirty socks inside three suitcases. They could fetch an estimated 1.5 million euros in Germany.",
+      "why_it_matters": "It highlights the scale of the illegal wildlife trade, which threatens species and ecosystems worldwide.",
+      "region": "Americas",
+      "topics": [
+        "science",
+        "crime-justice"
+      ],
+      "entities": [
+        "Peru"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T01:22:49.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Peru airport officials discover 3,000 tarantulas smuggled inside dirty socks",
+          "url": "https://www.theguardian.com/world/2026/nov/06/3000-tarantulas-smuggled-inside-dirty-socks-peru"
+        }
+      ],
+      "has_article": false
+    }
+  ]
+}

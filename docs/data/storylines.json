@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T23:57:21Z",
+  "updated_at": "2026-11-06T07:43:07Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -70,11 +70,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Ukraine says at least 40 died in a Russian strike on Komyshuvakha. Melania Trump hosted Russian and Ukrainian delegations Thursday and urged a lasting truce; US-mediated talks in Abu Dhabi are set for Nov. 10-11.",
+      "summary": "Trump says a Russia-Ukraine deal is very close after meeting a Putin envoy, without specifics. Melania Trump hosted both delegations and urged a lasting truce; Ukraine says at least 40 died in the Komyshuvakha strike. US-mediated talks in Abu Dhabi are set for Nov. 10-11.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Trump says a Russia-Ukraine deal is 'very close' after meeting Putin's envoy, giving no specifics; he did not meet the Ukrainian delegation.",
+          "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians?traffic_source=rss"
+        },
         {
           "date": "2026-11-05",
           "text": "Melania Trump hosts Russian and Ukrainian officials at the White House and urges them to build on the recent local truce.",
@@ -164,27 +169,27 @@
           "date": "2026-10-21",
           "text": "Russia to send its first diesel tanker to the US on Thursday under the Trump deal.",
           "url": "https://www.aljazeera.com/economy/2026/10/21/russia-to-send-first-diesel-tanker-to-the-us-amid-trump-deal?traffic_source=rss"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Putin tells Witkoff he agrees in principle to resume trilateral talks; Russia releases American Stephen Hubbard.",
-          "url": "https://www.axios.com/2026/10/21/russia-ukraine-putin-witkoff-peace"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Witkoff to present Putin an updated proposal in St. Petersburg Wednesday, a US official says; Kushner to join virtually.",
-          "url": "https://www.axios.com/2026/10/20/putin-witkoff-russia-ukraine-war"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged. The S&P 500 lost an estimated $2.9 trillion Thursday and the Nasdaq 100 fell 6.4%, per the FT, on fears of a slower data center buildout. Asian chip stocks are sliding; Meta warns of backlash.",
+      "summary": "After Democrats won Congress, AI stocks plunged. The S&P 500 lost an estimated $2.9 trillion Thursday and the Nasdaq 100 fell 6.4%. Asia followed: the Nikkei entered a bear market and Kospi fell below 5,000. OpenAI and Meta are responding to data center backlash.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Japan's Nikkei 225 enters a technical bear market and Seoul's Kospi falls below 5,000 as the AI selloff deepens in Asia, Bloomberg reports.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/japan-s-nikkei-breaks-below-key-60-000-level-on-ai-selloff"
+        },
+        {
+          "date": "2026-11-05",
+          "text": "OpenAI says it will stop using NDAs with public officials on data center projects after voters rejected expansion.",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+        },
         {
           "date": "2026-11-05",
           "text": "Wall Street sheds about $3.2 trillion as the Nasdaq 100 falls 6.4%, the FT reports; MarketWatch calls it tech's worst day since 2020.",
@@ -274,16 +279,6 @@
           "date": "2026-10-21",
           "text": "Meta says it will issue a new class of non-voting shares, trading from 2027, to fund AI initiatives, acquisitions and pay.",
           "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "SpaceX shares jump about 10% on earnings and Tesla merger talk, while its bonds weaken on debt fears.",
-          "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Nebius says AI computing prices are rising as investors question neocloud debt and economics.",
-          "url": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html"
         }
       ]
     },
@@ -340,11 +335,16 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Mississippi (Colom leads by about 1,000; NRSC demands ballot preservation) and Alaska remain uncalled. Raman won the Los Angeles mayoralty. Jeffries seeks speaker; Johnson steps aside; Schumer faces pressure.",
+      "summary": "Democrats won the House, Senate and most governorships, flipping more House seats including Colorado's 5th and NY-17. Mississippi (Colom leads by about 1,000) and Alaska remain uncalled. Raman won the Los Angeles mayoralty. Jeffries seeks speaker; Johnson steps aside.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Democrats Jessica Killin and Cait Conley are projected to flip Colorado's 5th and New York's 17th, unseating Reps. Crank and Lawler.",
+          "url": "https://thehill.com/homenews/campaign/6180533-jessica-killin-unseats-jeff-crank-colorado-5th-district/"
+        },
         {
           "date": "2026-11-05",
           "text": "Nithya Raman is declared winner of the Los Angeles mayoral race over incumbent Karen Bass.",
@@ -439,22 +439,32 @@
           "date": "2026-11-03",
           "text": "Rep. Haley Stevens requests US marshals' protection after death threats over her Rogers endorsement, Axios reports.",
           "url": "https://www.axios.com/2026/11/03/haley-stevens-death-threats-marshals"
-        },
-        {
-          "date": "2026-11-02",
-          "text": "Supreme Court rejects the Trump administration's emergency bid to set aside about 20,000 California ballots, with no noted dissents.",
-          "url": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Trump said after meeting his national security team that he will soon decide whether to resume all-out war. Iran says five tankers and a tugboat burned in Hormuz. Oil is heading for its biggest weekly loss since April; 23 US troops have died.",
+      "summary": "Trump said he will soon decide whether to resume all-out war. Qatar-led mediators push an interim deal; Iran exempts India, China, Qatar and Iraq from Hormuz limits. Satellite images show construction near missile bases. Oil heads for its biggest weekly loss since April; 23 US troops have died.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Iran says ships from India, China, Qatar and Iraq can cross Hormuz freely; analysts cited by Al Jazeera warn of political risks.",
+          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss"
+        },
+        {
+          "date": "2026-11-05",
+          "text": "BBC: satellite images from November suggest major construction near Iranian missile bases.",
+          "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-11-05",
+          "text": "FT: Qatar-led mediators step up efforts to broker an interim US-Iran agreement.",
+          "url": "https://www.ft.com/content/eced6084-7cd7-4633-a8ba-559173e0f6c1?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-05",
           "text": "Trump says after meeting national security advisers that he will soon decide whether to resume all-out war; Bloomberg says oil is set for its biggest weekly loss since April.",
@@ -539,21 +549,6 @@
           "date": "2026-11-01",
           "text": "Axios: Trump has a frank call with Netanyahu about how quickly to return to combat; Netanyahu presses for strikes.",
           "url": "https://www.axios.com/2026/11/01/trump-netanyahu-iran-negotiations-war"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Trump says the US is not in much of a hurry for an Iran deal; Araghchi says Iran and Qatar have a plan to reopen Hormuz in two days.",
-          "url": "https://www.washingtonexaminer.com/news/world/4787211/trump-iran-negotiations-not-in-hurry/"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Qatari mediators hold 12-plus hours of talks in Tehran to restart US-Iran negotiations; talks continue in Doha.",
-          "url": "https://www.axios.com/2026/10/31/qatari-mediators-iran-war-deal-before-midterms"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Supreme Leader Mojtaba Khamenei orders an immediate response without geographical limits to any US or Israeli attack.",
-          "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack"
         }
       ]
     },
@@ -605,11 +600,16 @@
     {
       "id": "sl-israel-election",
       "title": "Israel election deadlock",
-      "summary": "Israel's election produced a deadlock, with Arab parties holding the balance. Netanyahu claims the vote was 'stolen'; the election body says results stand. Arab parties now back Gadi Eisenkot, and Herzog decides within a week whom to task.",
+      "summary": "A majority of Israeli lawmakers, including Arab parties, have endorsed Gadi Eisenkot over Netanyahu, who claims the vote was 'stolen'; the election body says results stand. President Herzog will name a candidate to form a government on Sunday.",
       "status": "active",
       "first_seen": "2026-11-01",
       "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Herzog says he will name a candidate on Sunday after a majority of lawmakers endorse Eisenkot over Netanyahu, Al Jazeera reports.",
+          "url": "https://www.aljazeera.com/news/2026/11/6/israels-herzog-to-name-a-candidate-to-form-government-on-sunday?traffic_source=rss"
+        },
         {
           "date": "2026-11-05",
           "text": "Arab parties led by Yousef Jabareen tell Herzog they back Gadi Eisenkot over Netanyahu to form a government.",
