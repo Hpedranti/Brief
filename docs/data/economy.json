@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updated_at": "2026-11-06T07:43:07Z",
-  "read": "Inflation is re-accelerating at 3.7% while unemployment ticked up to 4.20%. The Fed hiked in September and traders now see a December hike as likelier than not. Mortgage rates near 7.2% weigh on housing, and a sharp AI-driven stock selloff is adding market stress ahead of Friday's jobs report.",
+  "updated_at": "2026-11-06T19:52:32Z",
+  "read": "The labor market looks firmer than expected: October payrolls rose 165,000 and unemployment slipped to 4.1%. Inflation is 3.7% and mortgage rates are above 7%. Markets price a likely December Fed hike while a tech selloff has rattled equities.",
   "indicators": [
     {
       "key": "fedfunds",
       "label": "Fed funds target",
       "value": "3.75–4.00",
       "unit": "%",
-      "as_of": "2026-11-05",
-      "change": "up 0.25",
+      "as_of": "2026-11-06",
+      "change": "up from 3.50–3.75",
       "note": "Raised in September"
     },
     {
@@ -19,7 +19,7 @@
       "unit": "%",
       "as_of": "2026-10-01",
       "change": "up 0.13",
-      "note": "Tracks the higher target range"
+      "note": "Tracks target range"
     },
     {
       "key": "cpi_yoy",
@@ -33,11 +33,11 @@
     {
       "key": "unrate",
       "label": "Unemployment",
-      "value": "4.20",
+      "value": "4.10",
       "unit": "%",
-      "as_of": "2026-09-01",
-      "change": "up 0.1",
-      "note": "Labor market softening slightly"
+      "as_of": "2026-10-01",
+      "change": "down 0.1",
+      "note": "Payrolls beat forecasts"
     },
     {
       "key": "dgs10",
@@ -46,7 +46,7 @@
       "unit": "%",
       "as_of": "2026-11-04",
       "change": "down 0.05",
-      "note": "Haven buying amid tech selloff"
+      "note": "Haven buying during selloff"
     },
     {
       "key": "dgs2",
@@ -55,7 +55,7 @@
       "unit": "%",
       "as_of": "2026-11-04",
       "change": "down 0.03",
-      "note": "Slightly lower on rate-path bets"
+      "note": "Slightly lower"
     },
     {
       "key": "mortgage30",
@@ -72,32 +72,32 @@
     "odds": [
       {
         "label": "Hike 25bps",
-        "prob": 0.67
+        "prob": 0.79
       },
       {
         "label": "Fed maintains rate",
-        "prob": 0.33
-      },
-      {
-        "label": "Cut 25bps",
-        "prob": 0.03
-      },
-      {
-        "label": "Hike >25bps",
-        "prob": 0.01
+        "prob": 0.21
       },
       {
         "label": "Cut >25bps",
         "prob": 0.01
+      },
+      {
+        "label": "Cut 25bps",
+        "prob": 0.01
+      },
+      {
+        "label": "Hike >25bps",
+        "prob": 0.01
       }
     ],
-    "note": "Kalshi traders lean toward another quarter-point hike at the December meeting."
+    "note": "Strong October jobs data strengthened bets on a December quarter-point hike."
   },
   "week_ahead": [
     {
-      "date": "2026-11-06",
-      "event": "October jobs report",
-      "why_it_matters": "Shows whether hiring is cooling as the Fed weighs another hike."
+      "date": "2026-12-09",
+      "event": "FOMC rate decision",
+      "why_it_matters": "Markets favor a 25bp hike; outside this week's window."
     }
   ]
 }

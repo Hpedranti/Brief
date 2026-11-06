@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T07:43:07Z",
+  "updated_at": "2026-11-06T19:52:32Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -70,11 +70,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump says a Russia-Ukraine deal is very close after meeting a Putin envoy, without specifics. Melania Trump hosted both delegations and urged a lasting truce; Ukraine says at least 40 died in the Komyshuvakha strike. US-mediated talks in Abu Dhabi are set for Nov. 10-11.",
+      "summary": "Trump says a Russia-Ukraine deal is very close after meeting a Putin envoy. Al Jazeera reports Russian gains are dwindling and US traders reportedly refuse the diesel deal. US-mediated talks in Abu Dhabi are set for Nov. 10-11.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-05",
+      "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Al Jazeera reports Russia's territorial gains are dwindling and US traders reportedly refuse to honor Trump's diesel deal with Putin.",
+          "url": "https://www.aljazeera.com/news/2026/11/6/in-ukraine-russias-territorial-gains-dwindle-as-its-diesel-goes-unsold?traffic_source=rss"
+        },
         {
           "date": "2026-11-05",
           "text": "Trump says a Russia-Ukraine deal is 'very close' after meeting Putin's envoy, giving no specifics; he did not meet the Ukrainian delegation.",
@@ -164,22 +169,32 @@
           "date": "2026-10-21",
           "text": "Trump links his Russia sanctions waiver to the release of jailed American Stephen Hubbard.",
           "url": "https://thehill.com/homenews/6163898-trump-waives-russian-sanctions-hubbard/"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Russia to send its first diesel tanker to the US on Thursday under the Trump deal.",
-          "url": "https://www.aljazeera.com/economy/2026/10/21/russia-to-send-first-diesel-tanker-to-the-us-amid-trump-deal?traffic_source=rss"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged. The S&P 500 lost an estimated $2.9 trillion Thursday and the Nasdaq 100 fell 6.4%. Asia followed: the Nikkei entered a bear market and Kospi fell below 5,000. OpenAI and Meta are responding to data center backlash.",
+      "summary": "After Democrats won Congress, AI stocks plunged. Friday brought a partial US rebound led by chips, while Asia and Europe fell. Microsoft is trimming neocloud partners, OpenAI says it will keep building data centers, and the White House canceled a tech advisers meeting.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-05",
+      "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "US stocks rebound, with the Nasdaq 100 up over 1% in afternoon trading as chipmakers recover; options volume hit a record Thursday.",
+          "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Microsoft winds down the number of neocloud partners as the AI buildout shows signs of strain, CNBC reports.",
+          "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "OpenAI's CFO tells CNBC the company will keep investing in data centers despite election results.",
+          "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html"
+        },
         {
           "date": "2026-11-05",
           "text": "Japan's Nikkei 225 enters a technical bear market and Seoul's Kospi falls below 5,000 as the AI selloff deepens in Asia, Bloomberg reports.",
@@ -264,32 +279,22 @@
           "date": "2026-10-22",
           "text": "Treasury yields sink below 5% as investors seek safety from AI fallout, MarketWatch reports.",
           "url": "https://www.marketwatch.com/story/ai-is-on-trial-bond-yields-sink-below-5-as-investors-look-for-safety-dbc86ee9?mod=mw_rss_topstories"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "DeepSeek reportedly raises $15 billion days after US federal restrictions.",
-          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Stocks fall as megacap earnings fail to reassure on AI; Treasuries and yen rally as havens and Chinese equities near a bear market.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-21/stock-market-today-dow-s-p-live-updates"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Meta says it will issue a new class of non-voting shares, trading from 2027, to fund AI initiatives, acquisitions and pay.",
-          "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
         }
       ]
     },
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. Kalshi traders put a December 25bp hike at 81%. ADP shows 86,000 private jobs added in October; with Democrats controlling the Senate, Trump's push to reshape the Fed board looks stalled.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. October payrolls rose 165,000 versus about 59,000 expected and unemployment fell to 4.1%; Kalshi traders put a December 25bp hike at 79%.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-04",
+      "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "US adds 165,000 jobs in October and unemployment slips to 4.1%; Treasuries fall as bets on a December Fed hike strengthen.",
+          "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+        },
         {
           "date": "2026-11-04",
           "text": "ADP says private employers added 86,000 jobs in October, slightly above expectations.",
@@ -335,11 +340,31 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships, flipping more House seats including Colorado's 5th and NY-17. Mississippi (Colom leads by about 1,000) and Alaska remain uncalled. Raman won the Los Angeles mayoralty. Jeffries seeks speaker; Johnson steps aside.",
+      "summary": "Democrats won the House, Senate and most governorships. Trump named Stephen Miller chief of staff replacing Wiles and backed RNC chair Gruters. Incoming Democratic senators resist Schumer as leader; Jeffries faces calls against his speaker bid. Mississippi and Alaska remain uncalled.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-05",
+      "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Trump names Stephen Miller chief of staff to replace Susie Wiles, who moves to his political operation.",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Incoming Democratic senators including Annie Andrews and Abdul El-Sayed say they do not want Schumer as leader, though he likely has the votes.",
+          "url": "https://www.theguardian.com/us-news/2026/nov/06/chuck-schumer-majority-leader-incoming-democratic-senators"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Trump backs Joe Gruters for another term as RNC chairman after the party's midterm losses.",
+          "url": "https://thehill.com/homenews/administration/6204698-trump-backs-gruters-rnc-reelection/"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Democrat Sean McCann is projected to oust Rep. Bill Huizenga in Michigan's 4th District.",
+          "url": "https://thehill.com/homenews/campaign/6185341-sean-mccann-wins-michigan-district/"
+        },
         {
           "date": "2026-11-05",
           "text": "Democrats Jessica Killin and Cait Conley are projected to flip Colorado's 5th and New York's 17th, unseating Reps. Crank and Lawler.",
@@ -419,37 +444,27 @@
           "date": "2026-11-03",
           "text": "Trump says he is willing to accept the results but Republicans would have won in a landslide if he were on the ballot.",
           "url": "https://www.axios.com/2026/11/04/trump-republicans-midterms-2026-landslide-blue-wave"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Trump-backed Ed Gallrein is projected to win Rep. Thomas Massie's Kentucky seat, per Decision Desk HQ.",
-          "url": "https://thehill.com/homenews/campaign/6186595-trump-backed-kentucky-republican-wins-house-seat/"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "First polls close; Westchester County machines reject paper ballots, which will still be counted.",
-          "url": "https://www.axios.com/2026/11/03/election-day-midterm-trump-democrats-republicans"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "DOJ reportedly sends target letters to about 20 Democrats, including Marc Elias, over the alleged decoy Dan Sullivan candidacy.",
-          "url": "https://www.washingtonexaminer.com/news/justice/4789916/doj-sends-target-letters-to-marc-elias-and-more-democrats-over-second-dan-sullivan-candidacy/"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Rep. Haley Stevens requests US marshals' protection after death threats over her Rogers endorsement, Axios reports.",
-          "url": "https://www.axios.com/2026/11/03/haley-stevens-death-threats-marshals"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Trump said he will soon decide whether to resume all-out war. Qatar-led mediators push an interim deal; Iran exempts India, China, Qatar and Iraq from Hormuz limits. Satellite images show construction near missile bases. Oil heads for its biggest weekly loss since April; 23 US troops have died.",
+      "summary": "Trump said he will soon decide whether to resume all-out war. Qatar-led mediators push an interim deal; Iran exempts India, China, Qatar and Iraq from Hormuz limits. Oil swung Friday on de-escalation hopes; Fox reports Russian missile-launcher contracts for Iran. 23 US troops have died.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-05",
+      "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Oil swings as traders weigh diplomatic efforts to de-escalate the Iran war, Bloomberg reports.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/oil-declines-on-signs-of-moves-toward-gulf-war-de-escalation"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Fox News reports Russian documents show a contract for 90 precision-guided missile launchers destined for Iran before the war.",
+          "url": "https://www.foxnews.com/politics/russia-secretly-bolstered-irans-missile-arsenal-before-war-us-records-uncover"
+        },
         {
           "date": "2026-11-05",
           "text": "Iran says ships from India, China, Qatar and Iraq can cross Hormuz freely; analysts cited by Al Jazeera warn of political risks.",
@@ -539,16 +554,6 @@
           "date": "2026-11-01",
           "text": "FT: Gulf states brace for escalation between the US-Israel alliance and Iran; diplomats warn renewed conflict would be more damaging than earlier rounds.",
           "url": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Gulf leaders meet in Qatar as mediators await Washington's reply to an Iranian proposal involving $6 billion in assets and reopening Hormuz.",
-          "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Axios: Trump has a frank call with Netanyahu about how quickly to return to combat; Netanyahu presses for strikes.",
-          "url": "https://www.axios.com/2026/11/01/trump-netanyahu-iran-negotiations-war"
         }
       ]
     },
