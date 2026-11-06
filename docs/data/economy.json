@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-11-06T19:52:32Z",
-  "read": "The labor market looks firmer than expected: October payrolls rose 165,000 and unemployment slipped to 4.1%. Inflation is 3.7% and mortgage rates are above 7%. Markets price a likely December Fed hike while a tech selloff has rattled equities.",
+  "updated_at": "2026-11-06T23:39:52Z",
+  "read": "Hiring rebounded in October with 165,000 jobs and unemployment at 4.1%, but inflation is rising at 3.7% and the Fed has already hiked once. Markets price a December hike. Mortgage rates remain above 7%, and a tech selloff clouds growth.",
   "indicators": [
     {
       "key": "fedfunds",
@@ -9,8 +9,8 @@
       "value": "3.75–4.00",
       "unit": "%",
       "as_of": "2026-11-06",
-      "change": "up from 3.50–3.75",
-      "note": "Raised in September"
+      "change": "up 0.25",
+      "note": "Raised from 3.50–3.75 in September"
     },
     {
       "key": "fedfunds_effective",
@@ -19,7 +19,7 @@
       "unit": "%",
       "as_of": "2026-10-01",
       "change": "up 0.13",
-      "note": "Tracks target range"
+      "note": "Tracks the higher target range"
     },
     {
       "key": "cpi_yoy",
@@ -28,7 +28,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.3",
-      "note": "Inflation accelerating"
+      "note": "Inflation accelerated in September"
     },
     {
       "key": "unrate",
@@ -37,25 +37,25 @@
       "unit": "%",
       "as_of": "2026-10-01",
       "change": "down 0.1",
-      "note": "Payrolls beat forecasts"
+      "note": "Payrolls beat forecasts in October"
     },
     {
       "key": "dgs10",
       "label": "10-yr Treasury",
-      "value": "4.90",
+      "value": "4.84",
       "unit": "%",
-      "as_of": "2026-11-04",
-      "change": "down 0.05",
-      "note": "Haven buying during selloff"
+      "as_of": "2026-11-05",
+      "change": "down 0.06",
+      "note": "Haven buying during tech selloff"
     },
     {
       "key": "dgs2",
       "label": "2-yr Treasury",
-      "value": "4.58",
+      "value": "4.46",
       "unit": "%",
-      "as_of": "2026-11-04",
-      "change": "down 0.03",
-      "note": "Slightly lower"
+      "as_of": "2026-11-05",
+      "change": "down 0.12",
+      "note": "Fell more than the 10-year"
     },
     {
       "key": "mortgage30",
@@ -64,7 +64,7 @@
       "unit": "%",
       "as_of": "2026-11-05",
       "change": "down 0.06",
-      "note": "Still above 7%"
+      "note": "Third straight weekly decline"
     }
   ],
   "fed": {
@@ -72,18 +72,18 @@
     "odds": [
       {
         "label": "Hike 25bps",
-        "prob": 0.79
+        "prob": 0.78
       },
       {
         "label": "Fed maintains rate",
-        "prob": 0.21
-      },
-      {
-        "label": "Cut >25bps",
-        "prob": 0.01
+        "prob": 0.24
       },
       {
         "label": "Cut 25bps",
+        "prob": 0.01
+      },
+      {
+        "label": "Cut >25bps",
         "prob": 0.01
       },
       {
@@ -91,13 +91,18 @@
         "prob": 0.01
       }
     ],
-    "note": "Strong October jobs data strengthened bets on a December quarter-point hike."
+    "note": "Strong jobs data reinforces expectations of another quarter-point hike in December."
   },
   "week_ahead": [
     {
-      "date": "2026-12-09",
-      "event": "FOMC rate decision",
-      "why_it_matters": "Markets favor a 25bp hike; outside this week's window."
+      "date": "2026-11-08",
+      "event": "Herzog to name Israel's government candidate",
+      "why_it_matters": "Affects Middle East diplomacy and Iran war dynamics."
+    },
+    {
+      "date": "2026-11-10",
+      "event": "US-mediated Russia-Ukraine talks begin in Abu Dhabi",
+      "why_it_matters": "Possible progress on ending the war; talks run through Nov. 11."
     }
   ]
 }

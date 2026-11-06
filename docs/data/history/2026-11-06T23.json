@@ -1,0 +1,876 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-06T23",
+    "at": "2026-11-06T23:39:52Z",
+    "model": "claude-sonnet-5-5",
+    "count": 29
+  },
+  "cards": [
+    {
+      "id": "2026-11-06T23-c01",
+      "drop": "2026-11-06T23",
+      "headline": "Democrats condemn Miller promotion; allies see executive-action push",
+      "summary": "Jeffries called Stephen Miller a 'dangerous xenophobe' and urged Trump to fire him. Schumer said Trump 'learned nothing' from the midterms. Fox News reports Miller and Russ Vought are identifying policies Trump can enact by executive order.",
+      "why_it_matters": "The new chief of staff shapes immigration, tariff and spending policy, and the choice sets up clashes with a Democratic Congress.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Stephen Miller",
+        "Hakeem Jeffries",
+        "Chuck Schumer",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c01",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-06T20:34:35.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Democrats blast 'dangerous' elevation of Miller as refusal to learn from the election",
+          "url": "https://thehill.com/homenews/house/6205303-democrats-trump-miller-promotion/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump's move from Wiles to Miller signals major tactical shift for governing without Congress",
+          "url": "https://www.foxnews.com/politics/trumps-move-wiles-miller-signals-major-tactical-shift-governing-without-congress"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump signals no retreat from MAGA agenda with Stephen Miller promotion",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796047/trump-signals-no-retreat-maga-agenda-stephen-miller-promotion/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c02",
+      "drop": "2026-11-06T23",
+      "headline": "OpenAI reportedly raises another $11 billion at $1.25 trillion value",
+      "summary": "TechCrunch reports OpenAI has raised an additional $11 billion in a funding round that has not closed but is expected to in coming weeks, at a $1.25 trillion valuation.",
+      "why_it_matters": "The raise shows capital is still flowing to leading AI labs even as AI stocks sell off.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "startups-vc"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T22:53:46.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c03",
+      "drop": "2026-11-06T23",
+      "headline": "Anthropic presses ahead with IPO; investors doubt $1.5 trillion value",
+      "summary": "The FT reports Anthropic intends to list before Thanksgiving targeting a $1.5 trillion valuation despite the tech rout. CNBC reports investors expect a lower valuation and call $1.5 trillion a stretch.",
+      "why_it_matters": "A major AI listing will test whether public investors still pay top prices for AI companies.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "markets",
+        "startups-vc"
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c33",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T21:00:09.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+          "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+          "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c04",
+      "drop": "2026-11-06T23",
+      "headline": "Democrats renew calls for data center pauses after midterm wins",
+      "summary": "Several newly elected Democrats and Sen. Bernie Sanders have renewed calls for data center moratoriums. The tech industry fears delays to its multi-trillion-dollar AI infrastructure buildout.",
+      "why_it_matters": "Data center limits could affect power bills, local development and the AI buildout that has supported stock prices.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "ai",
+        "energy"
+      ],
+      "entities": [
+        "Bernie Sanders",
+        "Democratic Party"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T21:14:46.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Several Democrats renew calls for datacenter pauses after blue wave",
+          "url": "https://www.theguardian.com/us-news/2026/nov/06/democrats-renew-calls-for-datacenter-pauses"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
+          "url": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c05",
+      "drop": "2026-11-06T23",
+      "headline": "Vance reportedly leads behind-the-scenes push for new Iran deal",
+      "summary": "Axios, citing two sources, reports Vice President Vance has spent two weeks personally involved in indirect talks with Iran aimed at a new ceasefire and a return to nuclear negotiations.",
+      "why_it_matters": "A deal could end a war that has killed 23 US troops and kept oil prices high.",
+      "region": "Middle East",
+      "topics": [
+        "geopolitics",
+        "war-conflict",
+        "us-politics"
+      ],
+      "entities": [
+        "JD Vance",
+        "Iran"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-06T22:41:57.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Vance leads behind-the-scenes push for new Iran deal",
+          "url": "https://www.axios.com/2026/11/06/vance-leads-push-new-iran-deal"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c06",
+      "drop": "2026-11-06T23",
+      "headline": "Netanyahu calls end of US military aid 'mutual investment'",
+      "summary": "Netanyahu's office said ending US military aid is a shared decision between allies and opens an era of partnership and mutual investment. The Washington Examiner reports plans for military cooperation remain unclear.",
+      "why_it_matters": "The shift changes a decades-old US funding commitment to a key ally.",
+      "region": "Middle East",
+      "topics": [
+        "geopolitics",
+        "defense",
+        "middle-east"
+      ],
+      "entities": [
+        "Benjamin Netanyahu",
+        "Israel",
+        "United States"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T22:36:10.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Netanyahu says US aid cut makes way for ‘mutual investment’ amid unclear plans for military cooperation",
+          "url": "https://www.washingtonexaminer.com/news/world/4795451/netanyahu-us-israel-aid-cut-mutual-investment/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c07",
+      "drop": "2026-11-06T23",
+      "headline": "Meghan's father Thomas Markle charged over child abuse material",
+      "summary": "Federal agents arrested Thomas Markle, 82, near Tampa. The BBC reports the FBI searched two Los Angeles-area storage units he rented. He appeared in court on charges of possessing child sexual abuse material.",
+      "why_it_matters": "A high-profile federal prosecution; the charges are allegations and he has yet to face trial.",
+      "region": "US",
+      "topics": [
+        "crime-justice"
+      ],
+      "entities": [
+        "Thomas Markle"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T21:26:56.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Thomas Markle, Meghan’s father, charged in Florida in connection to child sexual abuse material",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Meghan's father Thomas Markle appears in court over child sex abuse material",
+          "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c08",
+      "drop": "2026-11-06T23",
+      "headline": "Cornell faculty vote no confidence in leaders over Jane Doe case",
+      "summary": "Cornell's Faculty Senate passed a symbolic no-confidence vote against the administration and President Michael Kotlikoff over the response to an alleged fraternity gang rape. The board of trustees backs Kotlikoff.",
+      "why_it_matters": "The vote reflects pressure on universities over campus sexual assault handling, though faculty cannot remove leaders.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Cornell University",
+        "Michael Kotlikoff"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T21:09:33.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Cornell Faculty Senate passes no-confidence vote over Jane Doe case, but board of trustees backs president",
+          "url": "https://thehill.com/homenews/education/6205152-cornell-faculty-senate-no-confidence-vote-jane-doe-new-york/"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Cornell faculty pass no confidence vote over leadership's handling of Jane Doe allegations",
+          "url": "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c09",
+      "drop": "2026-11-06T23",
+      "headline": "Mississippi Senate race heads toward possible legal fight",
+      "summary": "Lawyers for both campaigns are preparing for a possible legal battle and recount as counting continues. NPR reports no one knows how many ballots are outstanding; Axios says a voter-roll cleanup is under scrutiny.",
+      "why_it_matters": "The seat could decide the size of the Democratic Senate majority.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Scott Colom",
+        "Cindy Hyde-Smith"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-06T19:50:14.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Razor-tight Mississippi Senate race sparks ballot battle - could there be a recount?",
+          "url": "https://www.bbc.co.uk/news/articles/cwj0llvqqm72o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "NPR",
+          "title": "No one knows how many ballots are outstanding in Mississippi's Senate race",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6030645/mississippi-senate-results-provisional-ballots"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Colom and Hyde-Smith's razor-thin Senate race spotlights Mississippi's voter rolls",
+          "url": "https://www.axios.com/2026/11/06/mississippi-colom-hyde-smith-inactive-voter-registrations"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c10",
+      "drop": "2026-11-06T23",
+      "headline": "Sen. Ron Johnson seeks to delay Senate GOP leadership elections",
+      "summary": "Sen. Ron Johnson has the five signatures needed to request a conference meeting on postponing next week's Senate Republican leadership vote after the midterm losses. He called going ahead 'political malpractice'.",
+      "why_it_matters": "A delay would affect who leads Senate Republicans as the party adjusts to minority status.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Ron Johnson",
+        "John Thune",
+        "Tom Cotton"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-06T19:53:51.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Johnson, staunch Trump ally, seeks to delay Senate GOP leadership election after big losses",
+          "url": "https://thehill.com/homenews/senate/6204900-ron-johnson-senate-gop-leadership-election-midterm-election-losses/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Ron Johnson presses to delay Senate GOP leadership elections: ‘Political malpractice’",
+          "url": "https://www.washingtonexaminer.com/news/senate/4796082/ron-johnson-delay-senate-gop-leadership-elections/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c11",
+      "drop": "2026-11-06T23",
+      "headline": "Defense spending fight looms as Democrats take House",
+      "summary": "Defense One reports a reconciliation bill is likely off the table and the presumed House Armed Services chair is discussing a $1 trillion cap on defense spending.",
+      "why_it_matters": "It sets up a clash with the Pentagon's request for $350 billion more and affects contractors and troop funding.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Pentagon",
+        "House Armed Services Committee"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T21:24:24.000Z",
+      "sources": [
+        {
+          "outlet": "Defense One",
+          "title": "Blue wave presages a defense-spending showdown",
+          "url": "https://www.defenseone.com/policy/2026/11/blue-wave-presages-defense-spending-showdown/417111/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c12",
+      "drop": "2026-11-06T23",
+      "headline": "Calley Means says alleged corruption prompted his resignation",
+      "summary": "Calley Means, a former adviser to Health Secretary Robert F. Kennedy Jr., said he resigned over alleged internal corruption by a 'concentrated group of people' and that industry influence derailed the MAHA agenda.",
+      "why_it_matters": "The claims, which are unproven, expose a rift among health-policy allies in the administration.",
+      "region": "US",
+      "topics": [
+        "health",
+        "us-politics"
+      ],
+      "entities": [
+        "Calley Means",
+        "Robert F. Kennedy Jr."
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T18:52:51.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Ex-RFK Jr. adviser says Trump admin corruption prompted resignation",
+          "url": "https://www.axios.com/2026/11/06/trump-joe-rogan-calley-means"
+        },
+        {
+          "outlet": "STAT",
+          "title": "STAT+: MAHA leader Calley Means castigates White House officials as bending to industry",
+          "url": "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/?utm_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c13",
+      "drop": "2026-11-06T23",
+      "headline": "States sue again to delay Medicaid work requirements",
+      "summary": "States filed another lawsuit against the Trump administration's Medicaid changes, less than a week after a federal judge ruled that implementing work requirements would cause 'irreparable' harm.",
+      "why_it_matters": "The outcome decides whether millions of Medicaid enrollees face work rules soon.",
+      "region": "US",
+      "topics": [
+        "health",
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Medicaid",
+        "Trump administration"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T22:05:39.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "STAT+: States sue Trump administration again to delay Medicaid work requirements",
+          "url": "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/?utm_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c14",
+      "drop": "2026-11-06T23",
+      "headline": "Wall Street sees US hitting $41.1 trillion debt cap in February",
+      "summary": "Wall Street strategists expect the Treasury to reach its borrowing limit as early as February, triggering extraordinary measures, before facing a funding crunch in late 2027.",
+      "why_it_matters": "A debt-limit fight with a Democratic Congress could roil markets and federal payments.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "policy-regulation",
+        "markets"
+      ],
+      "entities": [
+        "US Treasury"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T20:33:40.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Wall Street Sees US Hitting $41.1 Trillion Debt Cap in February",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c15",
+      "drop": "2026-11-06T23",
+      "headline": "Chainalysis says hackers stole credentials for all of its customers",
+      "summary": "Blockchain analytics firm Chainalysis said a 'multifront cyberattack' that involved AI agents and an on-path data snatch exposed credentials and tokens for all of its customers.",
+      "why_it_matters": "Chainalysis tools are used by banks and law enforcement, so the breach could expose investigations and financial data.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "ai"
+      ],
+      "entities": [
+        "Chainalysis"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T20:56:41.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+          "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c16",
+      "drop": "2026-11-06T23",
+      "headline": "Three men charged with using AI to impersonate CEOs, steal over $100m",
+      "summary": "Three foreign nationals were arrested and charged in a newly unsealed indictment with using AI to impersonate executives' voices and images and persuade employees to send large payments.",
+      "why_it_matters": "Deepfake fraud targets company payment systems and shows how AI lowers the cost of scams.",
+      "region": "US",
+      "topics": [
+        "cybersecurity",
+        "crime-justice",
+        "ai"
+      ],
+      "entities": [
+        "Department of Justice"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T21:20:49.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Three men charged in US with using AI to impersonate CEOs and steal millions",
+          "url": "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c17",
+      "drop": "2026-11-06T23",
+      "headline": "Nvidia hardware worth $11.4 million vanished en route to Texas",
+      "summary": "Six pallets of Nvidia hardware went missing between Oakland and Texas. Two months later there have been no arrests.",
+      "why_it_matters": "The theft highlights the value and security risks of AI chips in transit.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "crime-justice"
+      ],
+      "entities": [
+        "Nvidia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T20:05:30.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Nvidia hardware worth $11.4M vanished between Oakland and Texas",
+          "url": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c18",
+      "drop": "2026-11-06T23",
+      "headline": "Airbnb jumps 12% on accelerating growth and higher outlook",
+      "summary": "Airbnb shares rose about 12% after the company reported accelerating growth and raised its outlook, according to Bloomberg's market close coverage.",
+      "why_it_matters": "It shows consumer travel demand holding up while tech and AI stocks fall.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "Airbnb"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T21:32:56.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Airbnb Surges 12% as Growth Accelerates and Outlook Rises | Closing Bell",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c19",
+      "drop": "2026-11-06T23",
+      "headline": "Tanzanian opposition leader Tundu Lissu jailed",
+      "summary": "Tanzanian opposition leader Tundu Lissu has been jailed in a case that critics widely condemn as politically motivated. Al Jazeera did not report the government's response.",
+      "why_it_matters": "The case is a test of political freedom in East Africa's major democracy.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "elections"
+      ],
+      "entities": [
+        "Tundu Lissu",
+        "Tanzania"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T19:42:46.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Tanzanian opposition leader jailed in ‘politically motivated’ case",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/tanzanian-opposition-leader-jailed-in-politically-motivated-case?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c20",
+      "drop": "2026-11-06T23",
+      "headline": "Yemen market strikes kill at least 30; both sides trade blame",
+      "summary": "Strikes on al-Hadara market in Taiz governorate killed at least 30 people, according to Houthi rebels. Yemeni government forces and the Houthis blame each other.",
+      "why_it_matters": "Civilian deaths continue in Yemen as the wider Iran conflict affects the region.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "Houthis",
+        "Yemen"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T18:09:49.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
+          "url": "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c21",
+      "drop": "2026-11-06T23",
+      "headline": "Over 3,200 migrants rescued near Canary Islands in six days",
+      "summary": "More than 3,200 migrants were rescued in the first six days of November in the Canary Islands, Al Jazeera reports.",
+      "why_it_matters": "The surge adds pressure on Spain and the EU over migration policy.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Spain",
+        "Canary Islands"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T20:27:09.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Migrants arrive in Spain’s Canary Islands after being rescued at sea",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/6-11-sv-canaryislandsmigrantarrivalssurge-es?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c22",
+      "drop": "2026-11-06T23",
+      "headline": "Navajo Nation elects first woman president",
+      "summary": "Navajo Nation voters elected Crystalyne Curley as the tribe's first woman president, and she faces political fights before taking office, Axios reports.",
+      "why_it_matters": "A historic result for the largest US tribal nation by land area.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Crystalyne Curley",
+        "Navajo Nation"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T19:53:41.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Navajo Nation elects its first woman president as political battles loom",
+          "url": "https://www.axios.com/2026/11/06/navajo-nation-first-woman-president-tribe"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c23",
+      "drop": "2026-11-06T23",
+      "headline": "Sen. Chris Murphy to miss weeks of votes during stroke recovery",
+      "summary": "Sen. Chris Murphy, a Connecticut Democrat, was discharged from Johns Hopkins Hospital and will spend several weeks at a rehabilitation center, missing votes.",
+      "why_it_matters": "His absence matters in a closely divided lame-duck Senate.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "health"
+      ],
+      "entities": [
+        "Chris Murphy"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T20:05:14.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Chris Murphy to miss 'several weeks' of votes for stroke recovery",
+          "url": "https://thehill.com/homenews/senate/6204922-senator-chris-murphy-stroke-recovery/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c24",
+      "drop": "2026-11-06T23",
+      "headline": "Hedge funds cut bullish oil bets before post-election drop",
+      "summary": "Hedge funds trimmed bullish crude bets by the most since June as the US and Iran struck rare de-escalatory notes, Bloomberg reports, positioning them to profit from the selloff.",
+      "why_it_matters": "Oil prices drive US gasoline costs, which voters cited in the midterms.",
+      "region": "Global",
+      "topics": [
+        "energy",
+        "markets"
+      ],
+      "entities": [
+        "Iran"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-06T21:29:28.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Hedge Funds Fled Bullish Oil Bets Ahead of Election Day Drop",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/hedge-funds-fled-bullish-oil-bets-ahead-of-election-day-drop"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c25",
+      "drop": "2026-11-06T23",
+      "headline": "Musk opens door to SpaceX acquisition as Starlink eyes carriers",
+      "summary": "MarketWatch says Elon Musk opened the door to a big SpaceX acquisition as it seeks to challenge telecom giants. SpaceX has declared Starlink Mobile will be a major mobile carrier; Google's Don Harrison resigned from its board.",
+      "why_it_matters": "A SpaceX push into mobile service could change competition among AT&T, Verizon and T-Mobile.",
+      "region": "US",
+      "topics": [
+        "space",
+        "big-tech"
+      ],
+      "entities": [
+        "SpaceX",
+        "Elon Musk",
+        "Starlink"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T21:45:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Elon Musk opens the door for a big SpaceX acquisition",
+          "url": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "SpaceX says Google exec Don Harrison has resigned from its board",
+          "url": "https://www.cnbc.com/2026/11/06/tesdonald-harrison.html"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c26",
+      "drop": "2026-11-06T23",
+      "headline": "US and Colombian troops open large exercise in Colombia",
+      "summary": "Hundreds of US and Colombian troops began a sprawling military exercise in Colombia as the Pentagon sharpens its focus on the Western Hemisphere.",
+      "why_it_matters": "It signals a shift of US military attention toward Latin America.",
+      "region": "Americas",
+      "topics": [
+        "defense",
+        "latin-america"
+      ],
+      "entities": [
+        "Pentagon",
+        "Colombia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T19:27:32.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot",
+          "url": "https://www.defensenews.com/global/the-americas/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c27",
+      "drop": "2026-11-06T23",
+      "headline": "Hotter feedback may explain early record heat; robots learn from octopus",
+      "summary": "NPR reports researchers studying how octopuses squeeze through tiny holes to inspire search-and-rescue robots that can wriggle through narrow cracks and crevices.",
+      "why_it_matters": "Bio-inspired designs could help robots reach people trapped in collapsed buildings.",
+      "region": "Global",
+      "topics": [
+        "robotics",
+        "science"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T22:24:10.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "How octopuses squeeze through teeny tiny holes",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6027897/how-octopuses-squeeze-through-teeny-tiny-holes"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-06T23-c28",
+      "drop": "2026-11-06T23",
+      "headline": "Record-breaking spinning magnet could help probe new physics",
+      "summary": "New Scientist reports a magnet barely wider than a human hair is among the fastest spinning objects ever made and could be useful for fundamental physics experiments and quantum technology.",
+      "why_it_matters": "Such devices could sharpen tests of physics and help quantum technology.",
+      "region": "Global",
+      "topics": [
+        "science"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T19:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "New Scientist",
+          "title": "Record-breaking, fast-spinning magnet could help uncover new physics",
+          "url": "https://www.newscientist.com/article/2597816-record-breaking-fast-spinning-magnet-could-help-uncover-new-physics/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-06T23-c29",
+      "drop": "2026-11-06T23",
+      "headline": "Tesla's Musk signals end of Cybertruck to make room for Cybercab",
+      "summary": "Musk appears to signal the end of the Cybertruck, saying the shift makes room for production of Cybercab driverless taxis. Wired says smaller EVs are proliferating as large models are cut.",
+      "why_it_matters": "It marks a retreat on a high-profile EV and a pivot to autonomous taxis.",
+      "region": "US",
+      "topics": [
+        "autos-transport",
+        "big-tech"
+      ],
+      "entities": [
+        "Tesla",
+        "Elon Musk"
+      ],
+      "importance": 2,
+      "follows": "2026-11-06T19-c17",
+      "storyline_id": null,
+      "published_at": "2026-11-06T18:54:00.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+          "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Cybertruck’s run comes to an end as Musk kills off pricey pet project",
+          "url": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}

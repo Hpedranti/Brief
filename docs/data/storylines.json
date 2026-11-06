@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T19:52:32Z",
+  "updated_at": "2026-11-06T23:39:52Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -175,11 +175,26 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged. Friday brought a partial US rebound led by chips, while Asia and Europe fell. Microsoft is trimming neocloud partners, OpenAI says it will keep building data centers, and the White House canceled a tech advisers meeting.",
+      "summary": "After Democrats won Congress, AI stocks plunged and Wall Street lost about $5.7 trillion this week, per Bloomberg. Friday brought a tepid US rebound. OpenAI reportedly raised $11 billion at $1.25 trillion; Anthropic plans an IPO; Democrats renew data center pause calls.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Democrats and Sen. Bernie Sanders renew calls for data center moratoriums after the midterms, the Guardian reports.",
+          "url": "https://www.theguardian.com/us-news/2026/nov/06/democrats-renew-calls-for-datacenter-pauses"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "FT says Anthropic will press ahead with an IPO before Thanksgiving; CNBC says investors expect a valuation below $1.5 trillion.",
+          "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation in a round not yet closed, TechCrunch reports.",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+        },
         {
           "date": "2026-11-06",
           "text": "US stocks rebound, with the Nasdaq 100 up over 1% in afternoon trading as chipmakers recover; options volume hit a record Thursday.",
@@ -264,28 +279,13 @@
           "date": "2026-11-01",
           "text": "Bloomberg: AI enthusiasm is collapsing and Big Tech earnings made it worse; CNBC says stocks reversed from early-week gains.",
           "url": "https://www.bloomberg.com/news/articles/2026-10-31/ai-enthusiasm-is-collapsing-and-tech-earnings-just-made-it-worse"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "OpenAI pares fundraising goal to as much as $20 billion; S&P turns negative on Meta; Intel has worst day since the 1970s.",
-          "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "Meta falls 6% as AI spending pushes free cash flow negative and its credit default swaps hit records; tech stocks slide.",
-          "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "Treasury yields sink below 5% as investors seek safety from AI fallout, MarketWatch reports.",
-          "url": "https://www.marketwatch.com/story/ai-is-on-trial-bond-yields-sink-below-5-as-investors-look-for-safety-dbc86ee9?mod=mw_rss_topstories"
         }
       ]
     },
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. October payrolls rose 165,000 versus about 59,000 expected and unemployment fell to 4.1%; Kalshi traders put a December 25bp hike at 79%.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. October payrolls rose 165,000 versus about 59,000 expected and unemployment fell to 4.1%; Kalshi traders put a December 25bp hike at 78%.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-06",
@@ -340,11 +340,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Trump named Stephen Miller chief of staff replacing Wiles and backed RNC chair Gruters. Incoming Democratic senators resist Schumer as leader; Jeffries faces calls against his speaker bid. Mississippi and Alaska remain uncalled.",
+      "summary": "Democrats won the House, Senate and most governorships. Trump replaced chief of staff Wiles with Stephen Miller; Democrats condemned the pick. Senate Republicans may delay leadership elections. Schumer and Jeffries face internal pressure. Mississippi and Alaska remain uncalled, with legal fights looming.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Jeffries calls Stephen Miller a 'dangerous xenophobe' and Schumer says Trump 'learned nothing'; Fox reports Miller and Vought plan executive-order policies.",
+          "url": "https://thehill.com/homenews/house/6205303-democrats-trump-miller-promotion/"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Sen. Ron Johnson gets five signatures to seek a delay of next week's Senate GOP leadership elections.",
+          "url": "https://thehill.com/homenews/senate/6204900-ron-johnson-senate-gop-leadership-election-midterm-election-losses/"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Lawyers for both Mississippi Senate campaigns prepare for a possible legal battle and recount as the count continues, the BBC reports.",
+          "url": "https://www.bbc.co.uk/news/articles/cwj0llvqqm72o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-06",
           "text": "Trump names Stephen Miller chief of staff to replace Susie Wiles, who moves to his political operation.",
@@ -429,32 +444,22 @@
           "date": "2026-11-04",
           "text": "Mississippi Senate race between Scott Colom and Cindy Hyde-Smith remains too close to call.",
           "url": "https://www.npr.org/2026/11/04/nx-s1-6028618/votes-are-still-being-counted-in-mississippi-u-s-senate-race"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Democrats flip Senate seats in Kansas, Iowa, South Carolina, North Carolina and Maine, and win the House's 218th seat, taking both chambers.",
-          "url": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Democrat James Talarico defeats Ken Paxton to win the Texas Senate seat, the first Democratic Senate win there since 1988.",
-          "url": "https://www.theguardian.com/us-news/2026/nov/03/james-talarico-ken-paxton-texas-senate"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Trump says he is willing to accept the results but Republicans would have won in a landslide if he were on the ballot.",
-          "url": "https://www.axios.com/2026/11/04/trump-republicans-midterms-2026-landslide-blue-wave"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Trump said he will soon decide whether to resume all-out war. Qatar-led mediators push an interim deal; Iran exempts India, China, Qatar and Iraq from Hormuz limits. Oil swung Friday on de-escalation hopes; Fox reports Russian missile-launcher contracts for Iran. 23 US troops have died.",
+      "summary": "Trump said he will soon decide whether to resume all-out war. Axios reports Vance has led indirect talks for two weeks toward a new ceasefire. Qatar-led mediators push an interim deal; Iran exempts India, China, Qatar and Iraq from Hormuz limits. 23 US troops have died.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Axios, citing two sources, reports Vance has been personally involved for two weeks in indirect talks with Iran on a ceasefire and nuclear negotiations.",
+          "url": "https://www.axios.com/2026/11/06/vance-leads-push-new-iran-deal"
+        },
         {
           "date": "2026-11-06",
           "text": "Oil swings as traders weigh diplomatic efforts to de-escalate the Iran war, Bloomberg reports.",
@@ -549,11 +554,6 @@
           "date": "2026-11-01",
           "text": "Oil declines after a report Trump wants to give Iran diplomacy more time before possibly resuming strikes after the midterms, Bloomberg says.",
           "url": "https://www.bloomberg.com/news/articles/2026-11-01/latest-oil-market-news-and-analysis-for-nov-2"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "FT: Gulf states brace for escalation between the US-Israel alliance and Iran; diplomats warn renewed conflict would be more damaging than earlier rounds.",
-          "url": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1"
         }
       ]
     },

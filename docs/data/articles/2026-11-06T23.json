@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "drop": "2026-11-06T23",
+  "articles": {
+    "2026-11-06T23-c29": {
+      "paragraphs": [
+        "Tesla will wind down production of the Cybertruck at its Texas factory next year, according to Elon Musk, as reported by the BBC. Musk did not say whether Tesla plans to stop making the vehicle entirely or move production elsewhere, but said the decision was meant to \"make room\" for building more of its self-driving Cybercab cars.",
+        "The project's lead engineer, Wes Morrill, appeared to suggest the truck is being discontinued. He wrote on X that the Cybertruck \"was an incredible technology development platform and lives on through Cybercab.\" When a fan lamented that it was being \"discontinued next year\", Musk replied \"true\", adding that \"the Cybertruck fleet will be around for a long time.\" Tesla's stock rose 4.7% on Friday after the announcement.",
+        "The Cybertruck launched in 2023 after delays, keeping its angular stainless steel design. Musk said in 2019 that it had received 146,000 orders while still in development, and he later predicted annual sales of 250,000 once commercial production began. According to Kelley Blue Book, Tesla sold 20,237 in 2025, down from 38,965 a year earlier.",
+        "The vehicle drew both devoted fans and sharp critics. Some compared its look to something out of Blade Runner, while others called it \"ugly as sin\". Tesla also faced recalls, including one in 2025 affecting more than 46,000 trucks over concerns that part of the trim could fall off. On price, Musk told analysts in 2025 that Tesla needed to make it affordable; the fully equipped version cost $61,000, and the 2026 Cyberbeast model costs $102,000.",
+        "What happens to Cybertruck production beyond next year remains unstated, since Tesla has not said whether it will end entirely or move."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-06T23-c15": {
+      "paragraphs": [
+        "Blockchain analysis firm Chainalysis said hackers obtained names, usernames, password hashes and live tokens for all of its users after a breach of its network security, according to Ars Technica. The firm's customers include government agencies such as the FBI, Immigration and Customs Enforcement and the US Air Force, and companies such as Microsoft, Coinbase and Barclays. Ars reported that it is unclear whether the theft exposed those customers to further threats.",
+        "Chainalysis first disclosed last Friday that it had been hit by a cybersecurity incident in October. It said an external actor used AI agent-assisted offensive techniques to get into its systems and internal tools. An email to affected customers described the accessed data, such as user IDs, full names, email addresses and organization role labels, as non-sensitive. Ars noted it is not clear why the company viewed that information that way.",
+        "In a Wednesday update, the company said an on-path attack, also called an adversary-in-the-middle attack, had exposed a subset of customer passwords, and that the attack vector had been identified and fixed. Later that day it said a Monday investigation had found that information for all users was exposed. It took down its login page and its know-your-transaction service and removed access to its Reactor and Data Solutions services.",
+        "On Friday, Chainalysis said it had begun phasing customers back into KYT and Address Screening. It asked customers to submit trusted IP addresses for an allow list and to prepare for a mandatory credential reset. It said its investigation had found no evidence that investigation data was accessed or that attribution data was manipulated.",
+        "Ars listed several unanswered questions. Chainalysis has not said where the infrastructure compromise occurred, whether the captured data was TLS encrypted, why it waited two days to disclose the exposure of all users, or how the AI agents worked. A company representative said it would not comment beyond its blog post."
+      ],
+      "based_on": [
+        "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/"
+      ]
+    },
+    "2026-11-06T23-c16": {
+      "paragraphs": [
+        "Three foreign nationals have been arrested and charged with using artificial intelligence to impersonate executives and attorneys and steal more than $100 million from companies, according to an indictment newly unsealed by the US Department of Justice. The Guardian reported that the men are Jacob Soall, Sharon Hazan and Guy Sheetrit. Soall and Hazan were arrested in Spain over the summer, and Sheetrit was arrested in the United Kingdom in September.",
+        "According to the US attorney's office for the Southern District of New York, the alleged fraud ran from 2024 to 2026. The men allegedly used AI to alter the voices and images of executives and lawyers. Posing as a corporate executive, they told employees they needed help with sensitive financial transactions and directed them to contact lawyers at a large international law firm. The men then allegedly posed as a lawyer from that firm and had the employees wire large sums.",
+        "The DOJ said the men took more than $129 million from companies around the world. Alleged victims include a Missouri hospital system (nearly $5 million), a Rhode Island bank (about $2.7 million), a California hospital system (about $3 million), a Massachusetts mutual fund (over $4.6 million), a Florida pet food company (about $5 million) and a UK tech company (over $11 million).",
+        "Prosecutors said employees were told to wire money to accounts in countries including the United States, Spain, Portugal, Greece, the United Arab Emirates, Singapore, Austria, Slovakia and China. The money was then allegedly converted into cryptocurrency to hide its source and shared among the men and their co-conspirators.",
+        "FBI Assistant Director in Charge James C Barnacle Jr said the case shows how advanced technology can be exploited for large-scale fraud. The men face charges of conspiracy to commit wire fraud, money-laundering conspiracy and aggravated identity theft."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft"
+      ]
+    },
+    "2026-11-06T23-c17": {
+      "paragraphs": [
+        "A shipment of Nvidia hardware valued at $11.4 million disappeared in transit between Oakland and Texas this summer, and more than two months later police have announced no arrests and no recovery of the cargo, according to Ars Technica, citing The Mercury News.",
+        "The six pallets left Oakland on August 29 on a truck bound for Fort Worth, Texas. The truck was reportedly picked up as scheduled by a vehicle bearing the logo of a food transportation company, then vanished. Buyers realized in early September that the shipment had not arrived. Police tracing the route found that the truck made several multi-hour stops before it was lost somewhere in San Bernardino County, California. Oakland police said a grand theft report was filed on September 13 and the investigation is ongoing. Authorities have not said which Nvidia equipment was taken or how the theft was carried out.",
+        "Ars described the case as the latest in a wave of increasingly bold hardware heists, saying thieves have taken more than $100 million in similar shipments since June. Investigators cited by NBC News pointed to techniques such as GPS location spoofing and staged collisions with police escort vehicles. Stolen parts can be stripped and sold on gray markets or shipped to countries where access to US tech is restricted.",
+        "Nvidia hardware has been a repeated target. In 2025, police investigated burglaries of more than $7.5 million of Nvidia equipment around Fremont and Union City, California. UC Berkeley professor Olaf Groth told ABC News that a chip costing about $550,000 can sell for $1 million or more abroad, which he said may be encouraging more complex, professionalized crews.",
+        "Not every attempt succeeded. Wired reported that in September two trailers marked with Nvidia and PlusAI logos were stolen from a California warehouse but were later recovered, each holding 20,000 pounds of sand used to simulate freight."
+      ],
+      "based_on": [
+        "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/"
+      ]
+    },
+    "2026-11-06T23-c20": {
+      "paragraphs": [
+        "Yemen's government forces and the Houthi rebel group are blaming each other for an attack on the al-Hadara market in Taiz governorate that both sides say killed and injured dozens of people, according to Al Jazeera. The network said it could not independently verify the reports.",
+        "Government spokesperson Colonel Majed al-Nazili said the Houthis struck the market on Friday with ballistic missiles, causing dozens of civilian casualties. He called the attack a war crime and urged accountability. The Houthis said Saudi Arabia, which backs Yemen's internationally recognised government, carried out three air strikes on the market, killing at least 30 civilians and injuring eight. The Houthi-run health ministry in Sanaa called it a horrific crime and asked for an independent international investigation into what it called Saudi Arabia's systematic targeting of civilians. Al Jazeera said the Saudi-led coalition had not responded.",
+        "Al Jazeera's reporter in Sanaa said the market is in the al-Waziiya district, which the Houthis control and where fighting has continued. He said the coalition has carried out daily attacks to take the district and its strategic mountain range, adding that whoever controls it controls most of the western Red Sea coastline.",
+        "The Yemeni army said it recaptured several areas of Taiz governorate on Friday, including al-Nidani village, Shaab al-Sarari, large parts of Sanamat and Ribat al-Qarn in Dhi al-Barh. It also said it imposed a siege on entrances to al-Sarari.",
+        "The Houthis control much of the governorate, but the city of Taiz is government-held and has been under a Houthi siege for 30 days, affecting hundreds of thousands of people. The United Nations has warned of a catastrophe there as food and medicine run short. The government launched Operation Dawn of Yemen on October 5, and Al Jazeera said the Houthis have since fired missiles and drones daily into Saudi Arabia, hitting oil facilities and disrupting air traffic."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market?traffic_source=rss"
+      ]
+    },
+    "2026-11-06T23-c26": {
+      "paragraphs": [
+        "Hundreds of American and Colombian troops began a large military exercise in Colombia this week, training for jungle operations and counter-explosive tasks, Defense News reported. Exercise Southern Vanguard 2027 is the 41st edition of the annual event and runs through mid-November, the Army announced. It is hosted by the Colombian Army and led by U.S. Army Western Hemisphere Command, with roughly 350 U.S. personnel and more than 400 Colombian soldiers.",
+        "The U.S. Army said the drills will focus on jungle warfare and counter-IED skills, along with command post training, maritime interdiction, cyber skills and ground security. A separate release said troops planned medical evacuation drills from Colombia's Tolemaida military base to its Cavalry School in Bogotá. Brig. Gen. Edilberto Cortés of the Colombian National Army said the presence shows the nations' shared commitment to strengthening readiness and cooperation.",
+        "Defense News tied the exercise to a broader shift in Pentagon priorities. The Army created Western Hemisphere Command in late 2025, and the 2026 National Defense Strategy puts defending the U.S. homeland and the Western Hemisphere ahead of countering China. At an Army conference in October, Gen. Joseph Ryan, the command's commander, said the end state of Washington's regional security plans is economic supremacy for the United States. He also said the U.S. has ceded control of the hemisphere's economic terrain to China over at least two decades, which he called a major national security threat.",
+        "The Pentagon has also emphasized jungle skills, reviving a jungle school in Panama with Panamanian forces. A U.S. official told Military Times in September that Colombian soldiers would soon attend the reestablished Green Hell course. The U.S. and Colombia have long cooperated, and both belong to the U.S.-chaired Counter Cartel Coalition. Earlier this year, U.S. soldiers took part in Exercise Southern Vanguard 2026, which brought about 400 soldiers together for jungle training in Peru."
+      ],
+      "based_on": [
+        "https://www.defensenews.com/global/the-americas/2026/11/06/us-colombian-troops-kick-off-exercise-amid-the-pentagons-western-hemisphere-pivot/"
+      ]
+    },
+    "2026-11-06T23-c28": {
+      "paragraphs": [
+        "Researchers have set a tiny levitating magnet spinning at 138 million revolutions per minute, which New Scientist says may make it the fastest spinning object visible to the naked eye and one of the fastest ever made. The work was led by Tao Wang at the Agency for Science, Technology and Research in Singapore and is published in Science Advances.",
+        "The rotor was a spherical magnet of neodymium, iron and boron, about 30 micrometres wide, similar to a fine human hair. The team placed it in a cylindrical lead container inside a vacuum chamber and used liquid helium to cool the setup to about minus 269 degrees Celsius. At that temperature lead becomes a superconductor, which expels magnetic fields and so makes the magnet levitate. With no air, nothing collided with the magnet. A magnetic coil then spun it up.",
+        "Wang said the spin was also stable: it would take 17 days for the speed to fall by half, which he said puts it in the same league as Earth's rotation in terms of turns made before slowing significantly. He called it the fastest magnetically levitated rotor so far. The record for the fastest human-made rotating object is held by a levitated sphere that is nano-sized, invisible to the naked eye, and held by laser beams.",
+        "Because the rotor has essentially no friction and is magnetic and cold, it is very sensitive to its surroundings, which makes it a promising sensor. The team has already tested it as a gauge of vacuum at very low temperatures, which Wang said could help builders of quantum computers. Benjamin Stickler of Ulm University said it could also measure magnetic fields precisely. Team member Andrea Vinante said it could be used to look for effects of dark matter, sense gravitational waves at unexplored frequencies, and explore quantum mechanics and gravity at micrometre scales."
+      ],
+      "based_on": [
+        "https://www.newscientist.com/article/2597816-record-breaking-fast-spinning-magnet-could-help-uncover-new-physics/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+      ]
+    },
+    "2026-11-06T23-c01": {
+      "paragraphs": [
+        "President Donald Trump has named Stephen Miller to succeed Susie Wiles as White House chief of staff, according to Fox News. Miller starts Monday, and Wiles will move to Trump's political operation. The change comes as Democrats prepare to take control of Congress in January.",
+        "Fox News cited a Reuters report, which relied on three people familiar with the planning, saying Miller, budget director Russell Vought and White House lawyers have worked since April to identify actions Trump could take without new legislation. The areas named were immigration, tariffs, housing costs and federal spending. In a CBS interview, Trump pointed to the Supreme Court's June ruling in Trump v. Slaughter, which found he could remove an FTC commissioner despite a law limiting that power. He said it gives the president powers he never had before, and he also discussed vetoing bills from a Democratic Congress.",
+        "Reaction in the Fox report was mixed. A Trump administration official called Miller a great pick and said he has the trust of Americans who see reversing mass migration as the crisis of our time. One House Republican, speaking anonymously, said they had been concerned about a greater reliance on executive action for two years and worried Trump might side with Democrats on populist measures. Another said the administration would keep governing without Congress.",
+        "A White House official told Fox that if Democrats use investigations and subpoenas for political ends, they should remember Republicans still control the federal government. Spokeswoman Lauren Bis said Trump is willing to work with anyone, and that Democrats who pursue what she called sham investigations are choosing to work against Americans. The Fox page did not include the Democratic criticism of Miller described in the card summary.",
+        "The Washington Examiner described the promotion as a sign Trump will hold firm on his agenda for the last two years of his term. It noted Democrats won majorities in the House and Senate on Tuesday, helped by some Latino and male voters who backed Trump in 2024."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/trumps-move-wiles-miller-signals-major-tactical-shift-governing-without-congress",
+        "https://www.washingtonexaminer.com/news/white-house/4796047/trump-signals-no-retreat-maga-agenda-stephen-miller-promotion/"
+      ]
+    },
+    "2026-11-06T23-c02": {
+      "paragraphs": [
+        "OpenAI has reportedly raised $11 billion so far in a new funding round that values the company at $1.25 trillion. TechCrunch relayed the news from Bloomberg, which reported it Friday citing sources familiar with the matter. TechCrunch said it had asked OpenAI for comment and had not yet received a response.",
+        "According to Bloomberg, the $11 billion is only part of a larger round that has not closed. The round is expected to close in the coming weeks and could total about $20 billion, a source told the outlet. That is well below the $30 billion Bloomberg reported in late September that OpenAI was seeking.",
+        "The report arrived alongside news about OpenAI's chief competitor. Bloomberg also reported that potential buyers of shares in Anthropic's planned IPO are eyeing a substantially lower valuation than the company had targeted. Some think it could be as low as $1.1 trillion, compared with the $2 trillion investors were said to expect about a month ago.",
+        "TechCrunch said OpenAI had previously suggested it would go public this year but delayed those plans, and that an IPO sometime next year is expected. It described the AI market as being in a precarious position. In its account, the Democratic landslide in the midterms and strongly negative voter sentiment about data centers have made markets jittery, with many investors anticipating possible regulatory challenges ahead.",
+        "What to watch: whether the round closes in the coming weeks and at what total, and how the pricing of Anthropic's IPO shapes expectations for OpenAI's own listing."
+      ],
+      "based_on": [
+        "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+      ]
+    },
+    "2026-11-06T23-c03": {
+      "paragraphs": [
+        "Investors are lowering their expectations for Anthropic's stock market debut after a sharp tech selloff this week, according to CNBC. The company had been looking toward a $2 trillion valuation until recently, but stakeholders told CNBC that even $1.5 trillion is now in doubt, with one investor calling it a stretch. Anthropic declined to comment.",
+        "CNBC tied the shift to concerns about heavy spending by AI companies and a post-midterm market slump. The Nasdaq fell more than 5% on Thursday, its steepest drop in 19 months, which CNBC said reflected fears that Democrats' new power in Washington and a nationwide rebuke of AI will slow the buildout of data centers. The Nasdaq also had its worst month since March 2025 in October, led by declines in chipmakers and neoclouds.",
+        "Anthropic plans to list on the Nasdaq under the ticker ANT, with a debut expected within weeks. It was privately valued at $965 billion as of May. One investor, who asked not to be named because they were not authorized to speak on the matter, said a target of $1 trillion to $1.25 trillion is now more likely, though that could change with market conditions.",
+        "Gil Luria, an analyst at D.A. Davidson, told CNBC that investors will expect the IPO to be priced at least at the low end of earlier expectations. He said the market needs the offering to go well and that the best way to set Anthropic up for success is to price it well.",
+        "The company is expected to begin its roadshow next week. The page text did not include the Financial Times report that Anthropic intends to list before Thanksgiving at a $1.5 trillion target."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
+      ]
+    },
+    "2026-11-06T23-c04": {
+      "paragraphs": [
+        "Several newly elected Democrats and Sen. Bernie Sanders have renewed calls for data center moratoriums in the days after the midterm elections, according to The Guardian. The paper said the Democratic victory, helped in part by backlash to the tech industry, has added momentum to efforts to slow the multi-trillion-dollar buildout of facilities that power artificial intelligence.",
+        "Sanders posted on X on Wednesday calling for an immediate national moratorium, saying Americans do not want Big Tech oligarchs wrecking the environment and gutting jobs. Rep. Yassamin Ansari of Arizona called for a pause on advanced AI development and a ban on artificial superintelligence. Elon Musk mocked her post and the two sparred. Incoming Texas Governor Gina Hinojosa said on CNN that new data center projects should halt until protections are in place. The Guardian said newly elected governors in Texas and Georgia have also called for moratoriums.",
+        "The Guardian described data center opposition as one of the most visible issues of the midterms, with dozens of local ballot measures passed to restrict projects. Senator-elect Chris Pappas, Rep. Gabe Vasquez and Senator-elect Sherrod Brown all spoke against data center projects in their victory remarks, and several winners promised to give communities more say over them.",
+        "Industry reaction has been wary. Meta's president, Dina Powell McCormick, told the Wall Street Journal building data centers is going to be harder after the vote, and the Guardian said fears of new regulation helped drive a large selloff in AI stocks this week. White House economic adviser Kevin Hassett told CNBC he is confident construction will continue, arguing the ballot initiatives largely would not affect existing projects."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/nov/06/democrats-renew-calls-for-datacenter-pauses"
+      ]
+    },
+    "2026-11-06T23-c07": {
+      "paragraphs": [
+        "Thomas Markle, the 82-year-old father of Meghan, Duchess of Sussex, was arrested by federal agents in Florida on Friday and charged with one count of possessing child sexual abuse material, according to the FBI as reported by The Guardian and the BBC. He was taken into custody at a senior care facility in Polk County and made a brief appearance in federal court in Tampa. The court ordered home detention at his assisted living facility with electronic monitoring. No plea was taken, and an arraignment date in California will be set later. If convicted, he faces up to 20 years in prison.",
+        "A 14-page criminal complaint alleges Markle kept the material in two Los Angeles-area storage units he had rented since 2008. Agents seized about 78 items, including slides, photographs, film negatives and books. Two images were said to show a man identified by witnesses as Markle with an underage girl. The BBC reported that the man pictured appears to be in his 30s or 40s. The FBI is still reviewing the material.",
+        "FBI Director Kash Patel said Markle allegedly targeted innocent children. Bill Essayli, first assistant US attorney for the Central District of California, said prosecutors would pursue the case to the fullest extent of federal law. He told the Associated Press there was no evidence of victims in the US based on the seized material, that the investigation continues, and that his office was aware of public reporting that Markle might have dementia.",
+        "Markle has denied the accusations, previously calling them sick lies. His court-appointed lawyer could not be reached by the AP. The case follows a Philippines investigation opened last month, in which Markle's son, Thomas Markle Jr, handed police boxes of devices and media. Meghan said last month she was deeply distressed by the allegations. Her spokesperson did not immediately respond to a request for comment, and the couple have not commented on the arrest."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested",
+        "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-06T23-c08": {
+      "paragraphs": [
+        "Cornell University's Faculty Senate passed a vote of no confidence on Friday in the central administration's handling of what it called a crisis of sexual assault, the BBC reported. The vote was 75 to 50. It is largely symbolic because the senate cannot remove leaders. The resolution did not make specific recommendations or say what administrators did wrong.",
+        "The vote follows a lawsuit filed in September by a former student known as Jane Doe against Cornell and the Chi Phi fraternity. She alleges she was gang raped by several men at the fraternity house in October 2024. All seven accused have denied wrongdoing when contacted by CBS, the BBC's US partner, and none has been charged. She reported the incident to campus police, and the local prosecutor declined to bring charges at the time.",
+        "The resolution is a rebuke of leaders including President Michael Kotlikoff. Doe has accused him of asking why she waited several weeks to report, an account Cornell has called incorrect. Her lawyer, Thomas Giuffra, said the senate did not reach its decision lightly and expressed hope it would help address what he called a longstanding scourge of sexual assault on campus.",
+        "Cornell initially defended its disciplinary measures but has since acknowledged it fell short in her case. It has hired a former attorney general to run an independent review and announced new measures, including cancelling fraternity parties. The BBC reported that New York state prosecutors led by Attorney General Letitia James are conducting their own investigation to decide whether criminal charges are warranted. Governor Kathy Hochul said this week that state police would investigate any future sexual offense complaints at the university.",
+        "The page text did not include the board of trustees' stated support for Kotlikoff mentioned in the card summary."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-06T23-c09": {
+      "paragraphs": [
+        "Mississippi's US Senate race is too close to call, and lawyers for both campaigns are preparing for a possible legal fight, according to the BBC and NPR. Democrat Scott Colom led Republican Sen. Cindy Hyde-Smith by about 2,500 votes with 97% counted on Friday, per the BBC. NPR put the gap at more than 2,000 votes. The state's certification deadline is November 13.",
+        "The number of uncounted ballots is unclear. Secretary of State Michael Watson said 3,600 mail-in ballots were outstanding, plus an unknown number of provisional ballots. The state Republican chair estimated about 20,000 outstanding ballots, and the Colom campaign said it knew of more than 15,000 provisional ballots. Watson said over 9,000 provisionals had been processed by midday Friday, and that even his office did not know how many remained. Counties run their own elections.",
+        "Both sides say they are confident. Hyde-Smith's campaign said thousands of votes remain in dozens of Republican counties. Colom said he expects to flip the seat. Her lawyers asked all 82 counties to keep provisional ballots separate and preserve records as potential evidence. Colom's lawyers said the request has no legal authority and could let a ballot be traced to a voter. University of Mississippi law professor Ronald Rychlak told the BBC the secrecy concern is the more reasonable argument.",
+        "Mississippi has no set recount procedure, leaving disputes largely to judges, the BBC said. NPR reported the state's provisional rate may be among the nation's highest, partly because inactive voters must vote provisionally. It said the state has used credit data in culling voter lists. Watson defended the system as producing cleaner rolls, while former Pennsylvania official Kathy Boockvar said it does not build trust. Mail and ID deadlines are November 10."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cwj0llvqqm72o?at_medium=RSS&at_campaign=rss",
+        "https://www.npr.org/2026/11/06/nx-s1-6030645/mississippi-senate-results-provisional-ballots"
+      ]
+    },
+    "2026-11-06T23-c11": {
+      "paragraphs": [
+        "Democratic control of Congress is likely to set up a fight over defense spending, according to Defense One. The biggest near-term question is a proposed reconciliation bill that the Trump administration is counting on for $350 billion of its plan to spend $1.5 trillion on defense in fiscal 2027. Some Republicans doubted they could pass it even before the election, and Defense One says a lame-duck effort is unlikely to succeed and the new Congress is expected to kill it.",
+        "The bill was meant to fund munitions, including nearly doubling spending to $76.3 billion, plus $17 billion for a Golden Dome missile defense fund and nearly $54 billion for the Defense Autonomous Warfare Group. If it is dead, lawmakers must decide whether to move any of those items into the defense appropriations bill.",
+        "The Pentagon's $1.1 trillion base budget request is $242.4 billion, or 28 percent, above the fiscal 2026 level. Rep. Adam Smith, expected to lead the House Armed Services Committee again, said this week he wants total defense spending held to $1 trillion. The administration proposed offsetting the increase with cuts to domestic non-defense programs.",
+        "Defense One expects scrutiny of Golden Dome's space-based interceptors and the Navy's Trump-class battleship. It also says Democrats will press the administration to end the war with Iran and are likelier to back more support for Ukraine. Areas of expected agreement include replenishing munitions, counter-drone systems, shipbuilding and autonomous systems.",
+        "Congress did not pass most spending bills before the fiscal year began October 1, and the government is running on a continuing resolution through December 11. Defense One expects another stopgap that extends into next year, with the Iran war, spending levels and the debt ceiling as possible obstacles to a final bill."
+      ],
+      "based_on": [
+        "https://www.defenseone.com/policy/2026/11/blue-wave-presages-defense-spending-showdown/417111/"
+      ]
+    }
+  }
+}
