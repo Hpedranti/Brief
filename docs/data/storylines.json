@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T20:29:36Z",
+  "updated_at": "2026-11-05T23:57:21Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -180,11 +180,16 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged: the Nasdaq had its worst day since April 2025 as chip and neocloud shares fell on fears of a slower data center buildout. SpaceX credit risk hit a record; AI firms are offering concessions.",
+      "summary": "After Democrats won Congress, AI stocks plunged. The S&P 500 lost an estimated $2.9 trillion Thursday and the Nasdaq 100 fell 6.4%, per the FT, on fears of a slower data center buildout. Asian chip stocks are sliding; Meta warns of backlash.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Wall Street sheds about $3.2 trillion as the Nasdaq 100 falls 6.4%, the FT reports; MarketWatch calls it tech's worst day since 2020.",
+          "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-05",
           "text": "CNBC: chip stocks and neoclouds plunge, pushing the Nasdaq to its worst day since April 2025 on fears of a post-midterm AI slowdown.",
@@ -279,11 +284,6 @@
           "date": "2026-10-21",
           "text": "Nebius says AI computing prices are rising as investors question neocloud debt and economics.",
           "url": "https://www.cnbc.com/2026/10/21/nebius-ai-computing-nvidia-gpu-prices.html"
-        },
-        {
-          "date": "2026-10-20",
-          "text": "Stocks rise as strong tech earnings revive the AI trade after last week's selloff; oil gains.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates"
         }
       ]
     },
@@ -340,11 +340,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Mississippi (Colom leads by about 1,000) and Alaska (Sullivan-Peltola, with a namesake candidate dispute) remain uncalled. Jeffries seeks speaker; Johnson steps aside; Schumer faces leadership pressure. Trump and Vance blame the Iran war.",
+      "summary": "Democrats won the House, Senate and most governorships. Mississippi (Colom leads by about 1,000; NRSC demands ballot preservation) and Alaska remain uncalled. Raman won the Los Angeles mayoralty. Jeffries seeks speaker; Johnson steps aside; Schumer faces pressure.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Nithya Raman is declared winner of the Los Angeles mayoral race over incumbent Karen Bass.",
+          "url": "https://www.theguardian.com/us-news/2026/nov/05/los-angeles-mayor-nithya-raman-karen-bass"
+        },
+        {
+          "date": "2026-11-05",
+          "text": "The NRSC demands Mississippi officials preserve affidavit ballots; the state GOP chair says the party will accept a Colom win if laws are followed.",
+          "url": "https://thehill.com/homenews/campaign/6202795-nrsc-demands-mississippi-ballot-preservation/"
+        },
         {
           "date": "2026-11-05",
           "text": "Trump says Sen. Dan Sullivan should receive the votes cast for namesake Dan J. Sullivan in Alaska, where the margin is 642 votes.",
@@ -434,27 +444,22 @@
           "date": "2026-11-02",
           "text": "Supreme Court rejects the Trump administration's emergency bid to set aside about 20,000 California ballots, with no noted dissents.",
           "url": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump"
-        },
-        {
-          "date": "2026-11-02",
-          "text": "Axios says final polls, models and markets forecast Democratic gains; Cook shifts Michigan Senate to lean Democratic.",
-          "url": "https://www.axios.com/2026/11/03/2026-midterms-polls-predictions"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Stevens is removed from the Michigan Democratic Party, Washington Examiner reports; some House Democrats seek her removal from caucus, Axios reports.",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4787498/michigan-democrats-disarray-haley-stevens-endorses-mike-rogers/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Iran says five tankers and a tugboat caught fire in Hormuz amid fears of a new US attack. Oil fell below $100 earlier this week on hopes a Democratic Congress will push to end the war; 23 US service members have died.",
+      "summary": "Trump said after meeting his national security team that he will soon decide whether to resume all-out war. Iran says five tankers and a tugboat burned in Hormuz. Oil is heading for its biggest weekly loss since April; 23 US troops have died.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-05",
       "events": [
+        {
+          "date": "2026-11-05",
+          "text": "Trump says after meeting national security advisers that he will soon decide whether to resume all-out war; Bloomberg says oil is set for its biggest weekly loss since April.",
+          "url": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision"
+        },
         {
           "date": "2026-11-05",
           "text": "Iran says five oil tankers and a tugboat caught fire in several incidents in the Strait of Hormuz amid fears of a new US attack.",
@@ -549,11 +554,6 @@
           "date": "2026-11-01",
           "text": "Supreme Leader Mojtaba Khamenei orders an immediate response without geographical limits to any US or Israeli attack.",
           "url": "https://www.axios.com/2026/10/31/irans-supreme-leader-maximum-response-us-attack"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "Oil jumps to a five-month high as Iran's IRGC says it hit four vessels in the northern Gulf and three ships struck mines near Hormuz.",
-          "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply"
         }
       ]
     },
