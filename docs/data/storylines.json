@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T23:39:52Z",
+  "updated_at": "2026-11-07T06:51:36Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -70,11 +70,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Trump says a Russia-Ukraine deal is very close after meeting a Putin envoy. Al Jazeera reports Russian gains are dwindling and US traders reportedly refuse the diesel deal. US-mediated talks in Abu Dhabi are set for Nov. 10-11.",
+      "summary": "Russia struck Kyiv again, injuring two civilians, while Trump says a deal is very close after meeting a Putin envoy. US-mediated talks in Abu Dhabi are set for Nov. 10-11; Russian gains reportedly dwindle.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Russia fires missiles at Kyiv, damaging buildings and injuring two civilians after Zelenskyy warned of new attacks, Al Jazeera reports.",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
+        },
         {
           "date": "2026-11-06",
           "text": "Al Jazeera reports Russia's territorial gains are dwindling and US traders reportedly refuse to honor Trump's diesel deal with Putin.",
@@ -164,22 +169,27 @@
           "date": "2026-10-21",
           "text": "Missiles hit Kyiv after Russia agrees in principle to resume peace talks; Trump says the world is 'the closest we've been' to ending the war.",
           "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-21",
-          "text": "Trump links his Russia sanctions waiver to the release of jailed American Stephen Hubbard.",
-          "url": "https://thehill.com/homenews/6163898-trump-waives-russian-sanctions-hubbard/"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged and Wall Street lost about $5.7 trillion this week, per Bloomberg. Friday brought a tepid US rebound. OpenAI reportedly raised $11 billion at $1.25 trillion; Anthropic plans an IPO; Democrats renew data center pause calls.",
+      "summary": "After Democrats won Congress, AI stocks plunged and Wall Street lost about $5.7 trillion this week, per Bloomberg. Friday brought a tepid rebound. Voters rejected 40 of 41 data center measures; OpenAI reportedly raised $11 billion; Anthropic plans an IPO.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Al Jazeera reports voters rejected data center development in all but one of 41 ballot measures in Tuesday's midterms.",
+          "url": "https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres?traffic_source=rss"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Crusoe sells a troubled Wyoming data center project to Google, TechCrunch reports.",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        },
         {
           "date": "2026-11-06",
           "text": "Democrats and Sen. Bernie Sanders renew calls for data center moratoriums after the midterms, the Guardian reports.",
@@ -269,16 +279,6 @@
           "date": "2026-11-01",
           "text": "FT says the global AI selloff eases after the Nasdaq's worst month in over a year; US stock futures gain in Asian trading.",
           "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "FT reports a junk debt rout sparking a 'bloodbath' for credit investors; Bloomberg says investors brace for more volatile days after the tech rout.",
-          "url": "https://www.ft.com/content/fdc9a85d-d2c4-465f-99ca-609d68b6d443?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Bloomberg: AI enthusiasm is collapsing and Big Tech earnings made it worse; CNBC says stocks reversed from early-week gains.",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-31/ai-enthusiasm-is-collapsing-and-tech-earnings-just-made-it-worse"
         }
       ]
     },
@@ -340,11 +340,21 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Trump replaced chief of staff Wiles with Stephen Miller; Democrats condemned the pick. Senate Republicans may delay leadership elections. Schumer and Jeffries face internal pressure. Mississippi and Alaska remain uncalled, with legal fights looming.",
+      "summary": "Democrats won the House, Senate and most governorships. Trump replaced chief of staff Wiles with Stephen Miller; Democrats condemned the pick and Sen. Tillis urged a rethink. Senate Republicans may delay leadership elections. Mississippi and Alaska remain uncalled.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Sen. Thom Tillis says Stephen Miller is the 'worst of all possible choices' for chief of staff and Trump needs to rethink it.",
+          "url": "https://thehill.com/homenews/administration/6205824-tillis-slams-trump-miller-hire/"
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Democrat Nancy Lacore, a retired Navy admiral, wins South Carolina's 1st District over Republican Jenny Costa Honeycutt, the AP calls.",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4790136/nancy-mace-jenny-costa-honeycutt-south-carolina-1st-district-results/"
+        },
         {
           "date": "2026-11-06",
           "text": "Jeffries calls Stephen Miller a 'dangerous xenophobe' and Schumer says Trump 'learned nothing'; Fox reports Miller and Vought plan executive-order policies.",
@@ -363,7 +373,7 @@
         {
           "date": "2026-11-06",
           "text": "Trump names Stephen Miller chief of staff to replace Susie Wiles, who moves to his political operation.",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff"
+          "url": "https://www.npr.org/2026/11/06/nx-s-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff"
         },
         {
           "date": "2026-11-06",
@@ -434,27 +444,22 @@
           "date": "2026-11-04",
           "text": "Speaker Mike Johnson will not stay on as House Republican leader; Scalise and Jordan eye the job.",
           "url": "https://www.npr.org/2026/11/04/g-s1-151854/2026-midterms-mike-johnson-speaker"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Democrats outline investigations of the Trump administration while promising an affordability focus.",
-          "url": "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Mississippi Senate race between Scott Colom and Cindy Hyde-Smith remains too close to call.",
-          "url": "https://www.npr.org/2026/11/04/nx-s1-6028618/votes-are-still-being-counted-in-mississippi-u-s-senate-race"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Trump said he will soon decide whether to resume all-out war. Axios reports Vance has led indirect talks for two weeks toward a new ceasefire. Qatar-led mediators push an interim deal; Iran exempts India, China, Qatar and Iraq from Hormuz limits. 23 US troops have died.",
+      "summary": "Trump confirmed another round of limited US strikes on an Iranian air defense system and claimed 'a lot of progress' in talks. Vance has led indirect talks; Qatar-led mediators push an interim deal. 23 US troops have died.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Trump confirms a new round of limited strikes on an Iranian air defense system at Qeshm island and claims 'a lot of progress' in talks.",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss"
+        },
         {
           "date": "2026-11-06",
           "text": "Axios, citing two sources, reports Vance has been personally involved for two weeks in indirect talks with Iran on a ceasefire and nuclear negotiations.",
@@ -549,11 +554,6 @@
           "date": "2026-11-02",
           "text": "Trump tells Axios he is 'in no rush' to decide whether to resume fighting in Iran.",
           "url": "https://www.axios.com/2026/11/02/trump-axios-interview-no-rush-resume-war"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Oil declines after a report Trump wants to give Iran diplomacy more time before possibly resuming strikes after the midterms, Bloomberg says.",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-01/latest-oil-market-news-and-analysis-for-nov-2"
         }
       ]
     },
@@ -605,11 +605,16 @@
     {
       "id": "sl-israel-election",
       "title": "Israel election deadlock",
-      "summary": "A majority of Israeli lawmakers, including Arab parties, have endorsed Gadi Eisenkot over Netanyahu, who claims the vote was 'stolen'; the election body says results stand. President Herzog will name a candidate to form a government on Sunday.",
+      "summary": "A majority of Israeli lawmakers, including Arab parties, have endorsed Gadi Eisenkot over Netanyahu, who claims the vote was 'stolen'; the election body says results stand. Herzog is to name a candidate Sunday; failure to form a government could leave Netanyahu in power.",
       "status": "active",
       "first_seen": "2026-11-01",
-      "last_updated": "2026-11-05",
+      "last_updated": "2026-11-06",
       "events": [
+        {
+          "date": "2026-11-06",
+          "text": "Al Jazeera says Eisenkot's bloc and Arab-led parties seek to oust Netanyahu, but failure to form a government could leave him in power.",
+          "url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government?traffic_source=rss"
+        },
         {
           "date": "2026-11-05",
           "text": "Herzog says he will name a candidate on Sunday after a majority of lawmakers endorse Eisenkot over Netanyahu, Al Jazeera reports.",

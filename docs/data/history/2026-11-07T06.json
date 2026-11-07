@@ -1,0 +1,1077 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-07T06",
+    "at": "2026-11-07T06:51:36Z",
+    "model": "claude-sonnet-5-5",
+    "count": 36
+  },
+  "cards": [
+    {
+      "id": "2026-11-07T06-c01",
+      "drop": "2026-11-07T06",
+      "headline": "Trump confirms new limited US strikes on Iran's Qeshm island",
+      "summary": "Trump said US forces carried out another round of limited strikes on an Iranian air defense system on Friday, which he called minor. He also claimed 'a lot of progress' in negotiations with Tehran. Qatar's prime minister urged both sides not to wait.",
+      "why_it_matters": "Strikes alongside talks show the war could still escalate or end. Oil prices and the safety of US troops depend on which path wins.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Qatar"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-07T03:07:01.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
+          "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump confirms new US strikes on Iran’s Qeshm island",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c02",
+      "drop": "2026-11-07T06",
+      "headline": "US sanctions eight Canadian money exchange firms over Iran ties",
+      "summary": "The US Treasury said the eight firms helped sanctioned Iranian entities and handled funds linked to an alleged drug trafficking boss. The action extends US financial pressure on Iran to businesses in a neighboring ally.",
+      "why_it_matters": "It shows Washington is targeting Iran's financial links in allied countries, and it raises compliance risk for firms that move money across the US-Canada border.",
+      "region": "Americas",
+      "topics": [
+        "policy-regulation",
+        "middle-east",
+        "crime-justice"
+      ],
+      "entities": [
+        "US Treasury",
+        "Iran",
+        "Canada"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T04:50:46.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
+          "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c03",
+      "drop": "2026-11-07T06",
+      "headline": "US offers up to $20 million for tips on Iran's nuclear program",
+      "summary": "The State Department's Rewards for Justice program is offering up to $20 million for information on Iran's nuclear program. Tips can be sent through Signal or Tor tip lines.",
+      "why_it_matters": "The offer signals that Washington is still pursuing Iran's nuclear work while ceasefire and nuclear talks run in parallel.",
+      "region": "Middle East",
+      "topics": [
+        "geopolitics",
+        "middle-east",
+        "defense"
+      ],
+      "entities": [
+        "State Department",
+        "Iran"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T02:03:34.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "US offers $20 million reward for information on Iran's nuclear program",
+          "url": "https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c04",
+      "drop": "2026-11-07T06",
+      "headline": "Ships loiter near subsea cables as Iran warns Trump",
+      "summary": "Ars Technica reports ships have been loitering near subsea cables after Iran threatened to attack the cables if the US escalates its military strikes again.",
+      "why_it_matters": "Undersea cables carry most international internet traffic, so an attack could disrupt banking, communications and cloud services used by Americans.",
+      "region": "Middle East",
+      "topics": [
+        "cybersecurity",
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "Iran",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T22:41:37.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Ships loiter near subsea cables amid Iran's warnings to Trump",
+          "url": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c05",
+      "drop": "2026-11-07T06",
+      "headline": "Russia fires missiles at Kyiv, injuring residents",
+      "summary": "Russian air strikes damaged buildings in Kyiv and injured two civilians, after Zelenskyy warned of possible new attacks. The strike comes ahead of US-mediated talks planned in Abu Dhabi for Nov. 10-11.",
+      "why_it_matters": "Continued attacks on Kyiv complicate Trump's claim that a deal is close and test US efforts to broker talks.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics",
+        "europe"
+      ],
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Volodymyr Zelenskyy"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-07T05:11:03.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Russia launches missile attack on Kyiv, injuring residents",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c06",
+      "drop": "2026-11-07T06",
+      "headline": "Governing party ahead in early New Zealand results",
+      "summary": "Early results show New Zealand's governing party leading in a knife-edge election. Polls had indicated no coalition was likely to win an outright majority of seats, leaving a minor party as kingmaker.",
+      "why_it_matters": "The outcome of this close vote in a US partner will shape the next government's stance on trade, China and security ties.",
+      "region": "Asia",
+      "topics": [
+        "elections",
+        "geopolitics"
+      ],
+      "entities": [
+        "New Zealand"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T07-c23",
+      "storyline_id": null,
+      "published_at": "2026-11-07T06:20:27.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Governing party ahead in early results of New Zealand’s knife-edge vote",
+          "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results?traffic_source=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "NZ election 2026 live results: count on as National and Labour battle it out in knife-edge New Zealand poll",
+          "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c07",
+      "drop": "2026-11-07T06",
+      "headline": "Paraguay's Peña impeached and arrested; Alliana sworn in",
+      "summary": "Congress impeached President Santiago Peña, who was detained minutes later and is reported under house arrest or military protection. Pedro Alliana was sworn in. The Ueno Bank suspension has left about 60% of Paraguayans unable to access accounts, the Guardian reports.",
+      "why_it_matters": "A banking collapse toppling a president is a sign of financial fragility in a US-aligned Latin American economy.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "economy",
+        "elections"
+      ],
+      "entities": [
+        "Santiago Peña",
+        "Pedro Alliana",
+        "Paraguay"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c27",
+      "storyline_id": null,
+      "published_at": "2026-11-07T00:31:41.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Paraguay's President Santiago Peña impeached and arrested",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+          "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in",
+          "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c08",
+      "drop": "2026-11-07T06",
+      "headline": "Herzog faces key choice as Israel struggles to form government",
+      "summary": "Eisenkot's bloc and Arab-led parties seek to oust Netanyahu, but Al Jazeera notes a failure to form a government could leave him in power. The Guardian reports the US midterm results may help unite the opposition.",
+      "why_it_matters": "Who governs Israel affects US policy on Iran, Gaza and the end of US military aid, which Netanyahu has called a mutual investment.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "elections",
+        "geopolitics"
+      ],
+      "entities": [
+        "Isaac Herzog",
+        "Benjamin Netanyahu",
+        "Gadi Eisenkot"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T07-c05",
+      "storyline_id": "sl-israel-election",
+      "published_at": "2026-11-07T05:16:18.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "President Herzog faces key choice as Israel struggles to form government",
+          "url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government?traffic_source=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
+          "url": "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c09",
+      "drop": "2026-11-07T06",
+      "headline": "Tillis urges Trump to rethink Miller as chief of staff",
+      "summary": "Sen. Thom Tillis, a Republican, called Stephen Miller the 'worst of all possible choices' and said Trump needs to rethink the decision. Washington Examiner reports the pick signals Trump will not retreat from his agenda.",
+      "why_it_matters": "Republican dissent over the White House's new direction could affect how the party handles a Democratic Congress.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Thom Tillis",
+        "Stephen Miller",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c01",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-06T23:00:20.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Tillis says Miller is 'worst of all possible choices' for chief of staff role",
+          "url": "https://thehill.com/homenews/administration/6205824-tillis-slams-trump-miller-hire/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump signals no retreat from MAGA agenda with Stephen Miller promotion",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796047/trump-signals-no-retreat-maga-agenda-stephen-miller-promotion/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c10",
+      "drop": "2026-11-07T06",
+      "headline": "Trump says he expects to fire Cabinet members after midterms",
+      "summary": "In a preview of a CBS 60 Minutes interview with Ross Douthat, Trump said he expects to fire some Cabinet members after the midterm losses. He did not say who.",
+      "why_it_matters": "Cabinet turnover could change policy on defense, trade and health, and it adds to uncertainty about the administration's direction.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Ross Douthat"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T00:54:31.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump says he expects to fire Cabinet members after midterm defeat",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796291/trump-expects-to-fire-cabinet-members-midterm-defeat/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c11",
+      "drop": "2026-11-07T06",
+      "headline": "Trump says Senate must act in lame duck, is 'killing our country'",
+      "summary": "Trump told reporters the Senate is getting nothing passed and needs to act when it returns for the lame-duck session next week. He said its inaction is 'killing our country.'",
+      "why_it_matters": "The lame-duck session is Republicans' last window with full control, and it will decide what legislation moves before Democrats take over.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Donald Trump",
+        "US Senate"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T02:43:11.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump rebukes Senate after midterm romp: ‘It’s just killing our country’",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796330/trump-rebukes-senate-after-midterm-romp/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c12",
+      "drop": "2026-11-07T06",
+      "headline": "DeSantis denies report he is preparing a 2028 presidential bid",
+      "summary": "Florida Gov. Ron DeSantis accused The Washington Post of fabricating claims that he reached out to political consultants about a possible 2028 run.",
+      "why_it_matters": "Early 2028 maneuvering is starting inside a Republican Party weighing its direction after heavy midterm losses.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Ron DeSantis",
+        "The Washington Post"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T05:09:45.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "DeSantis blasts Washington Post over report he's preparing 2028 presidential bid",
+          "url": "https://www.foxnews.com/politics/desantis-blasts-washington-post-report-preparing-2028-presidential-bid"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c13",
+      "drop": "2026-11-07T06",
+      "headline": "Retired admiral Lacore wins South Carolina seat held by Mace",
+      "summary": "The Associated Press called South Carolina's 1st District for Democrat Nancy Lacore, a retired Navy admiral, over Republican Jenny Costa Honeycutt, 49.7% to 48%. Washington Examiner says Hegseth had fired her from the Navy.",
+      "why_it_matters": "The result adds to Democratic House gains and shows how far the midterm swing reached in a Republican-leaning state.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Nancy Lacore",
+        "Nancy Mace",
+        "Pete Hegseth"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T01:02:17.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Navy admiral fired by Hegseth wins election to Congress",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4790136/nancy-mace-jenny-costa-honeycutt-south-carolina-1st-district-results/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c14",
+      "drop": "2026-11-07T06",
+      "headline": "DOJ drops lawsuit over 20,000 disputed California ballots",
+      "summary": "The Justice Department asked to dismiss its suit seeking to have California set aside about 20,000 ballots it alleged came from non-citizens. The Hill notes the Supreme Court had already ruled against the administration.",
+      "why_it_matters": "It ends one federal challenge to California's vote counting and shows the limits of efforts to contest ballots after an election.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "elections",
+        "crime-justice"
+      ],
+      "entities": [
+        "Justice Department",
+        "California",
+        "Supreme Court"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T02:32:58.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "DOJ dismisses lawsuit over California's 20,000 disputed ballots",
+          "url": "https://thehill.com/blogs/ballot-box/6205747-doj-dismisses-california-ballot-lawsuit/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c15",
+      "drop": "2026-11-07T06",
+      "headline": "Armed man arrested near White House after threat against Trump",
+      "summary": "The Secret Service charged Ronny Yordrix Guanipa Chrinos after finding him in a vehicle near the White House with multiple guns. The Guardian says he told officers voices told him to kill Trump. DHS describes him as a Venezuelan migrant.",
+      "why_it_matters": "It is the latest security scare around the president, and the case is likely to feed the immigration debate.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "us-politics"
+      ],
+      "entities": [
+        "Secret Service",
+        "Donald Trump",
+        "Department of Homeland Security"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T00:31:59.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Man in custody after being found in vehicle near White House with guns",
+          "url": "https://www.theguardian.com/us-news/2026/nov/06/secret-service-man-in-custody-trump"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Armed migrant arrested next to White House after alleged threat to assassinate Trump",
+          "url": "https://www.washingtonexaminer.com/news/crime/4796235/armed-migrant-arrest-white-house-threat-assassinate-trump/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c16",
+      "drop": "2026-11-07T06",
+      "headline": "DC officials ask new Democratic governors to pull Guard troops",
+      "summary": "Washington, D.C., officials are asking incoming Democratic governors in five states that flipped blue to withdraw their National Guard troops from the capital deployment.",
+      "why_it_matters": "Governors' decisions could shrink the Guard presence in Washington and test how far the federal deployment depends on state cooperation.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "defense"
+      ],
+      "entities": [
+        "National Guard",
+        "Washington, D.C."
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T00:43:12.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "DC officials ask incoming Democratic governors to pull Guard troops",
+          "url": "https://thehill.com/newsletters/defense-national-security/6205686-dc-officials-ask-incoming-democratic-governors-to-pull-guard-troops/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c17",
+      "drop": "2026-11-07T06",
+      "headline": "US says Nvidia's Huang had relationship with alleged Chinese spy",
+      "summary": "The FT reports US intelligence believes Jensen Huang had a romantic relationship with Megaspeed executive Alice Huang, who the NYT says China's security ministry recruited to gather information on Nvidia. Claims are unconfirmed in the articles.",
+      "why_it_matters": "It deepens scrutiny of Nvidia's China ties as Congress weighs chip export rules and a briefing request.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "china",
+        "cybersecurity"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Megaspeed"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T23-c05",
+      "storyline_id": null,
+      "published_at": "2026-11-06T23:00:44.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+          "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "The Verge",
+          "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c18",
+      "drop": "2026-11-07T06",
+      "headline": "Beijing vows to retaliate against US sanctions on two Chinese firms",
+      "summary": "China's Commerce Ministry said it strongly opposes US sanctions on two Chinese companies over dealings with a third party. It reserves the right to take 'necessary measures' to protect its interests.",
+      "why_it_matters": "The dispute adds strain to the Busan trade truce, which Washington says China is not fully honoring.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "trade",
+        "geopolitics"
+      ],
+      "entities": [
+        "China",
+        "Ministry of Commerce"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c19",
+      "storyline_id": null,
+      "published_at": "2026-11-07T01:54:36.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Beijing Vows to Hit Back Against US Sanctions on China Companies",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/beijing-vows-to-hit-back-against-us-sanctions-on-china-companies"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c19",
+      "drop": "2026-11-07T06",
+      "headline": "China extends gold-buying streak to two years as prices drop",
+      "summary": "China's central bank added to its gold reserves in October, extending a buying streak to two years. Gold fell almost 7% in the month and ended it below the $4,000-an-ounce support level.",
+      "why_it_matters": "Central bank buying affects gold prices and signals how China is managing reserves outside the dollar.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "china",
+        "economy"
+      ],
+      "entities": [
+        "People's Bank of China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T02:26:22.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "China Extends Gold-Buying Streak to Two Years as Prices Drop",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/china-extends-gold-buying-streak-to-two-years-as-prices-drop"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c20",
+      "drop": "2026-11-07T06",
+      "headline": "CDC reports over 5,000 US measles cases, a 35-year high",
+      "summary": "The CDC has confirmed more than 5,000 measles cases, the most in 35 years, with children and teens nearly 60%. The US and Mexico face a PAHO review of their elimination status next week.",
+      "why_it_matters": "Losing elimination status would mark a public health setback and signals falling vaccination coverage.",
+      "region": "US",
+      "topics": [
+        "health"
+      ],
+      "entities": [
+        "CDC",
+        "Pan American Health Organization"
+      ],
+      "importance": 4,
+      "follows": "2026-11-06T19-c38",
+      "storyline_id": null,
+      "published_at": "2026-11-07T00:56:46.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "CDC reports more than 5,000 measles cases, highest number in 35 years",
+          "url": "https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years?traffic_source=rss"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "US measles status to go up for review",
+          "url": "https://thehill.com/newsletters/healthcare/6205697-us-mexico-measles-status-review/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c21",
+      "drop": "2026-11-07T06",
+      "headline": "Voters rejected data centers in 40 of 41 midterm ballot measures",
+      "summary": "Al Jazeera reports voters rejected data center development in all but one of the 41 measures on Tuesday's ballot. OpenAI's CFO told CNBC the company will keep investing regardless.",
+      "why_it_matters": "Local opposition could slow the AI buildout, raise project costs and shape electricity and land-use fights near American communities.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "energy",
+        "policy-regulation"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-06T22:25:58.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "How the US midterm elections reflected resistance to data centres",
+          "url": "https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres?traffic_source=rss"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "OpenAI will keep investing in AI data centers despite election results, CFO tells CNBC",
+          "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c22",
+      "drop": "2026-11-07T06",
+      "headline": "Crusoe sells troubled Wyoming data center project to Google",
+      "summary": "AI infrastructure firm Crusoe sold a troubled Wyoming data center project to Google. TechCrunch says the deal highlights the challenges of developing massive AI data centers.",
+      "why_it_matters": "It shows even well-funded builders struggle with projects as AI financing tightens and local resistance grows.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "big-tech",
+        "startups-vc"
+      ],
+      "entities": [
+        "Crusoe",
+        "Google"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-07T01:40:28.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Crusoe sells troubled Wyoming data center project to Google",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c23",
+      "drop": "2026-11-07T06",
+      "headline": "Sequoia shuts down its Scouts program",
+      "summary": "Sequoia is closing the scouts program it pioneered, in which outside people made early investments for the firm. TechCrunch says a consensus is forming that the model has reached its limits in its current form.",
+      "why_it_matters": "It signals changing tactics in venture capital as funding for startups gets more selective.",
+      "region": "US",
+      "topics": [
+        "startups-vc"
+      ],
+      "entities": [
+        "Sequoia Capital"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T05:01:54.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Sequoia shutting down its Scouts program marks the end of an era",
+          "url": "https://techcrunch.com/2026/11/06/sequoia-shutting-down-its-scouts-program-marks-the-end-of-an-era/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c24",
+      "drop": "2026-11-07T06",
+      "headline": "Google executive Don Harrison resigns from SpaceX board",
+      "summary": "SpaceX announced that Don Harrison, a Google executive, resigned from its board of directors. No reason was given in the article summary.",
+      "why_it_matters": "The departure comes as SpaceX pursues Starlink mobile service and potential acquisitions that could put it in competition with large tech and telecom companies.",
+      "region": "US",
+      "topics": [
+        "space",
+        "big-tech"
+      ],
+      "entities": [
+        "SpaceX",
+        "Google",
+        "Don Harrison"
+      ],
+      "importance": 2,
+      "follows": "2026-11-06T23-c25",
+      "storyline_id": null,
+      "published_at": "2026-11-06T22:30:22.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "SpaceX says Google exec Don Harrison has resigned from its board",
+          "url": "https://www.cnbc.com/2026/11/06/tesdonald-harrison.html"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c25",
+      "drop": "2026-11-07T06",
+      "headline": "Trump touts NASA nuclear-powered Mars mission for 2028",
+      "summary": "Trump said NASA will launch its first nuclear-powered spacecraft to Mars within two years, with the aim of sending astronauts to the red planet. Fox News reported the announcement; no technical details appeared in the summary.",
+      "why_it_matters": "Nuclear propulsion could cut travel time to Mars and shapes how US space money is spent.",
+      "region": "US",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "NASA",
+        "Donald Trump",
+        "Mars"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T01:54:19.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Trump highlights NASA nuclear-powered Mars spacecraft mission planned for 2028",
+          "url": "https://www.foxnews.com/politics/trump-highlights-nasa-nuclear-powered-mars-spacecraft-mission-planned-2028"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c26",
+      "drop": "2026-11-07T06",
+      "headline": "European agencies probe whether bomb hoaxes started in Russia",
+      "summary": "The FT reports security agencies are investigating whether the coordinated bomb threats that hit flights and newsrooms originated in Russia. The working hypothesis is that pro-Kremlin activists or hacking groups produced them; no link is confirmed.",
+      "why_it_matters": "If tied to Russia, the hoaxes would be a new form of hybrid pressure on NATO allies' air travel.",
+      "region": "Europe",
+      "topics": [
+        "cybersecurity",
+        "geopolitics",
+        "europe"
+      ],
+      "entities": [
+        "Russia"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c18",
+      "storyline_id": null,
+      "published_at": "2026-11-07T05:00:33.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "European security agencies probe whether bomb hoaxes started in Russia",
+          "url": "https://www.ft.com/content/0845687f-1f74-4bbf-88c9-5c6b031c7f20?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c27",
+      "drop": "2026-11-07T06",
+      "headline": "Haiti police say gang leader Mathias Saintil killed in gunfire",
+      "summary": "Haiti's National Police said alleged gang leader Mathias Saintil was killed in an exchange of gunfire. The prime minister celebrated the operation as 'one less gang leader.'",
+      "why_it_matters": "Gang violence has driven Haiti's crisis and a regional security deployment, with consequences for migration toward the US.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "crime-justice"
+      ],
+      "entities": [
+        "Haiti",
+        "Mathias Saintil"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T05:02:49.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "‘One less gang leader’: Haiti’s prime minister celebrates police operation",
+          "url": "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c28",
+      "drop": "2026-11-07T06",
+      "headline": "EU prosecutors investigate fatal train crash in Spain",
+      "summary": "The EU prosecutor's office carried out probes at Spain's rail network administrator, its safety agency and state auditors in connection with a fatal train crash.",
+      "why_it_matters": "An EU-level inquiry suggests possible misuse of EU funds, and it could prompt rail safety changes in Europe.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "autos-transport",
+        "crime-justice"
+      ],
+      "entities": [
+        "European Public Prosecutor's Office",
+        "Spain"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T01:33:39.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "EU prosecutor office investigates fatal train crash in Spain",
+          "url": "https://www.aljazeera.com/news/2026/11/7/eu-prosecutor-office-investigates-fatal-train-crash-in-spain?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c29",
+      "drop": "2026-11-07T06",
+      "headline": "Mortgage rates fall for a third straight week",
+      "summary": "Mortgage rates declined for the third straight week while stocks rallied Friday after several days of losses, The Hill reports. FRED data show the 30-year rate at 7.18%.",
+      "why_it_matters": "Slightly lower rates ease borrowing costs for home buyers, though affordability remains stretched.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "markets"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T22:44:35.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Mortgage rates drop and stocks rebound slightly",
+          "url": "https://thehill.com/newsletters/business-economy/6205506-mortgage-rates-stocks-rebound/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c30",
+      "drop": "2026-11-07T06",
+      "headline": "CoreWeave and Nebius earnings, inflation data loom next week",
+      "summary": "CNBC's Jim Cramer says AI data center stocks face another test from CoreWeave and Nebius earnings, while key inflation reports could shape the Fed's next rate decision.",
+      "why_it_matters": "Results from AI infrastructure firms and inflation data could move stocks and mortgage rates.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "fed-rates",
+        "ai"
+      ],
+      "entities": [
+        "CoreWeave",
+        "Nebius",
+        "Federal Reserve"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T23:13:10.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Cramer’s week ahead: AI data center stocks face another hurdle and so does the Fed",
+          "url": "https://www.cnbc.com/2026/11/06/cramer-coreweave-nebius-earnings.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c31",
+      "drop": "2026-11-07T06",
+      "headline": "Ten years after Paris, climate talks face questions on progress",
+      "summary": "The Guardian reports the agreement's key temperature goal has been missed, but experts say it still acts as a vital moral compass. Last year's summit in Belem sidelined some contested issues.",
+      "why_it_matters": "US climate policy and emissions affect global warming outcomes, and the treaty's credibility shapes international pressure on big emitters.",
+      "region": "Global",
+      "topics": [
+        "climate",
+        "geopolitics"
+      ],
+      "entities": [
+        "Paris Agreement"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T05:00:02.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "What’s the point? Ten years after the Paris treaty, are climate talks getting anywhere?",
+          "url": "https://www.theguardian.com/environment/ng-interactive/2026/nov/07/whats-the-point-ten-years-after-the-paris-treaty-are-climate-talks-getting-anywhere"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c32",
+      "drop": "2026-11-07T06",
+      "headline": "Mice with human brain cells prompt debate over neurohybrids",
+      "summary": "Modified mice carrying human brain cells have ignited debate over neurohybrids and the future of cross-species medical research, Al Jazeera reports.",
+      "why_it_matters": "Such models could speed research on brain disorders, but they raise ethical questions regulators and the public have yet to settle.",
+      "region": "Global",
+      "topics": [
+        "science",
+        "health"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T05:57:25.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "‘Alien-cortical’ mice: Can human brain cells grow inside animals?",
+          "url": "https://www.aljazeera.com/news/2026/11/7/alien-cortical-mice-can-human-brain-cells-grow-inside-animals?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c33",
+      "drop": "2026-11-07T06",
+      "headline": "An AI-generated animated feature is heading to theaters",
+      "summary": "Fable Studio CEO Edward Saatchi says 30 people spent nine months making 'Gods Don't Give Gifts,' an AI-generated animated feature that still relies on human directors, writers, voice actors and artists.",
+      "why_it_matters": "It shows how AI is entering film production, with implications for jobs in entertainment.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "culture-sports",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Fable Studio",
+        "Edward Saatchi"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T22:29:48.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "AI-Generated Movie Heading Theaters",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-06/ai-generated-movie-heading-theaters-video"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T06-c34",
+      "drop": "2026-11-07T06",
+      "headline": "Jehovah's Witness leaders relax blood transfusion rules",
+      "summary": "The BBC reports that Jehovah's Witness leaders relaxed strict rules on blood transfusions. The change came 23 days too late for Isaac Valdez, who had refused life-saving treatment because of his religion.",
+      "why_it_matters": "The shift affects medical decisions for members, including American adherents, and highlights tensions between faith and emergency care.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "culture-sports"
+      ],
+      "entities": [
+        "Jehovah's Witnesses"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T01:27:47.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "This man refused life-saving treatment because of his religion - days later the rules changed",
+          "url": "https://www.bbc.co.uk/news/articles/cx5ynly549njo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c35",
+      "drop": "2026-11-07T06",
+      "headline": "Doctors remove knife that passed through man's eye and brain",
+      "summary": "Doctors pulled a knife from a man's eye that had gone through his brain, and he has recovered. Doctors say the exact path of the wound, not its apparent severity, matters most.",
+      "why_it_matters": "The case shows how much depends on where a penetrating injury travels, which informs emergency care decisions.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-06T23:09:45.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
+          "url": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T06-c36",
+      "drop": "2026-11-07T06",
+      "headline": "Leonid meteor shower starts this weekend",
+      "summary": "The Leonid meteor shower, known for bright, fast meteors, kicks off this weekend and runs through the end of November, the BBC reports.",
+      "why_it_matters": "A free, easy-to-see skywatching event for anyone with a clear night.",
+      "region": "Global",
+      "topics": [
+        "science",
+        "space"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T02:03:28.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "One of the year's most prolific meteor showers to light up the night sky this weekend",
+          "url": "https://www.bbc.co.uk/weather/articles/cmlykqq7zg9zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}
