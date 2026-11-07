@@ -1,0 +1,1137 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-07T17",
+    "at": "2026-11-07T17:57:34Z",
+    "model": "claude-sonnet-5-5",
+    "count": 38
+  },
+  "cards": [
+    {
+      "id": "2026-11-07T17-c01",
+      "drop": "2026-11-07T17",
+      "headline": "Six killed in shooting at Kraków market square",
+      "summary": "A gunman fired at random from a car near Kraków's main market square, killing six and injuring about 15, per The Guardian. Police wounded him as he tried to flee. Early reports differ on the toll. Prime Minister Tusk is traveling to the city.",
+      "why_it_matters": "A rare mass shooting in a NATO ally's tourist center; Americans visiting Poland may be affected, and the US ambassador has commented.",
+      "region": "Europe",
+      "topics": [
+        "crime-justice",
+        "europe"
+      ],
+      "entities": [
+        "Kraków",
+        "Donald Tusk",
+        "Poland"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T15:22:55.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
+          "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "At least five people killed in shooting in Poland’s Krakow",
+          "url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c02",
+      "drop": "2026-11-07T17",
+      "headline": "Binance CFO leaves to 'pursue a new venture' after hack",
+      "summary": "Binance's chief financial officer is departing barely a week after hackers stole $6.3 billion worth of cryptocurrency from users. The company described the move as a decision to pursue a new venture.",
+      "why_it_matters": "Leadership turnover at the world's largest crypto exchange bears on whether millions of users, including Americans, can trust it with their funds.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity",
+        "markets"
+      ],
+      "entities": [
+        "Binance"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-binance-hack",
+      "published_at": "2026-11-07T17:24:07.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack",
+          "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c03",
+      "drop": "2026-11-07T17",
+      "headline": "New Zealand election too close to call; talks may take weeks",
+      "summary": "Preliminary results show no clear winner. National is the largest party, but Prime Minister Christopher Luxon says he has a path to government, and a divided parliament points to weeks of coalition talks.",
+      "why_it_matters": "A close ally's government is in limbo, which could delay decisions on trade and security cooperation with Washington.",
+      "region": "Asia",
+      "topics": [
+        "elections",
+        "geopolitics"
+      ],
+      "entities": [
+        "New Zealand",
+        "Christopher Luxon"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T06-c06",
+      "storyline_id": null,
+      "published_at": "2026-11-07T13:48:18.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "No clear winner after tight New Zealand general election",
+          "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "New Zealand faces weeks of uncertainty with election ‘too close to call’",
+          "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c04",
+      "drop": "2026-11-07T17",
+      "headline": "US cleared Nvidia H200 chip sales to a firm with an empty office",
+      "summary": "The New York Times reports that New Matrix, on the list of Chinese firms approved to handle Nvidia's H200 chips, has empty offices. Concerns are rising that neither the Commerce Department nor Nvidia is vetting buyers carefully.",
+      "why_it_matters": "It bears on whether US export controls actually keep advanced AI chips out of the wrong hands.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "china",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Nvidia",
+        "Commerce Department",
+        "New Matrix"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T15:43:45.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "The US let Nvidia sell chips to an empty office in China",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c05",
+      "drop": "2026-11-07T17",
+      "headline": "Miller pledges 'absolute loyalty' as chief of staff; House GOP split",
+      "summary": "Stephen Miller said at a Mar-a-Lago event that his promotion is the honor of his life and pledged loyalty to Trump. Fox reports some House Republicans reacted angrily; The Guardian says critics fear a harder immigration agenda.",
+      "why_it_matters": "The chief of staff shapes White House policy, including immigration and executive actions, heading into a divided Congress.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Stephen Miller",
+        "Donald Trump",
+        "Susie Wiles"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c01",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T12:30:07.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Miller calls chief of staff promotion 'honor of my life' at Mar-a-Lago event",
+          "url": "https://thehill.com/homenews/administration/6206000-stephen-miller-white-house-promotion-speech/"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Stephen Miller, Trump’s incoming chief of staff, pledges ‘total devotion’ to the president",
+          "url": "https://www.theguardian.com/us-news/2026/nov/07/stephen-miller-trump-loyalty"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "House GOP erupts at Stephen Miller as Trump elevates him after midterm massacre: 'Megalomaniac'",
+          "url": "https://www.foxnews.com/politics/house-gop-erupts-stephen-miller-trump-elevates-him-after-midterm-massacre-megalomaniac"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c06",
+      "drop": "2026-11-07T17",
+      "headline": "Russia hits Kyiv's power grid with 172 drones and 36 missiles",
+      "summary": "An overnight attack on energy substations and a Dnipro bridge caused blackouts and water shortages in Kyiv, The Guardian reports. Zelenskyy says Russia aims to plunge the country into blackout. BBC says nine were wounded; talks in Abu Dhabi are due next week.",
+      "why_it_matters": "Winter attacks on Ukraine's grid raise humanitarian stakes and test US-brokered talks set for Nov. 10-11.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "Russia",
+        "Ukraine",
+        "Volodymyr Zelenskyy"
+      ],
+      "importance": 4,
+      "follows": "2026-11-07T06-c05",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-07T12:49:36.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Blackouts and water shortages in Kyiv after Russia strikes Ukraine’s energy grid",
+          "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
+          "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c07",
+      "drop": "2026-11-07T17",
+      "headline": "European troops to train in Poland for postwar Ukraine force",
+      "summary": "Britain and France will lead 2,800 troops from 11 nations in a two-week exercise testing how to move, protect and supply a force to rebuild Ukraine's military after the war ends.",
+      "why_it_matters": "Europe's postwar planning shapes how much security burden Washington may be asked to carry in any Ukraine settlement.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "europe"
+      ],
+      "entities": [
+        "Britain",
+        "France",
+        "Poland",
+        "Ukraine"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-07T15:05:44.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "European troops set to train in Poland for postwar Ukraine deployment",
+          "url": "https://www.defensenews.com/news/2026/11/07/european-troops-set-to-train-in-poland-for-postwar-ukraine-deployment/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c08",
+      "drop": "2026-11-07T17",
+      "headline": "IRGC says it is building underground weapons sites",
+      "summary": "Iran's Revolutionary Guards say underground military complexes let missile production continue under heavy bombardment. Separately, Qatar is reportedly urging Tehran to allow UN inspectors into bombed nuclear sites, possibly tied to reopening Hormuz.",
+      "why_it_matters": "It signals Iran can rebuild arsenals despite strikes, complicating the war and any deal that affects oil prices.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "Iran",
+        "Islamic Revolutionary Guard Corps",
+        "Qatar"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-07T07:00:04.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran’s IRGC says building underground sites for weapons production, storage",
+          "url": "https://www.aljazeera.com/news/2026/11/7/irans-irgc-says-building-underground-sites-for-weapons-production-storage?traffic_source=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+          "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c09",
+      "drop": "2026-11-07T17",
+      "headline": "Iraq says outside parties use its soil to attack Gulf neighbors",
+      "summary": "Iraq's foreign minister told Al Jazeera that Baghdad is investigating attacks on Gulf states launched from Iraqi territory, saying external parties are using the country to strike its neighbors.",
+      "why_it_matters": "It shows the Iran war spreading across the region, with risks to US forces and Gulf energy infrastructure.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Iraq"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-07T14:24:48.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iraq’s FM says external parties using Iraqi soil to attack neighbours",
+          "url": "https://www.aljazeera.com/news/2026/11/7/iraqs-fm-says-external-parties-using-iraqi-soil-to-attack-neighbours?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c10",
+      "drop": "2026-11-07T17",
+      "headline": "Trump's judicial pipeline slows as Democrats take the Senate",
+      "summary": "Starting Jan. 3, Democrats will control Senate judicial confirmations, possibly until at least 2030, NPR reports. The Hill says pressure had grown on Justices Thomas and Alito to retire, but neither shows signs of leaving.",
+      "why_it_matters": "It shapes who sits on federal courts and what happens if a Supreme Court seat opens.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Senate",
+        "Clarence Thomas",
+        "Samuel Alito"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T12:41:11.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "How the new Senate majority shifts control over the federal judiciary",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6032757/how-the-new-senate-majority-shifts-control-over-the-federal-judiciary"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Trump’s glide path to judicial confirmations comes to an end",
+          "url": "https://thehill.com/regulation/court-battles/6205209-trump-judicial-confirmations-democrats-senate/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c11",
+      "drop": "2026-11-07T17",
+      "headline": "Republicans face lame-duck deadlines on defense bill and funding",
+      "summary": "The current Republican-led Congress must address the National Defense Authorization Act and a government funding bill before Democrats take over in January, NPR reports.",
+      "why_it_matters": "Missed deadlines could risk a shutdown and affect military pay and programs.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Congress"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T12:41:10.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "GOP's lame-duck clock is ticking",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6032594/gops-lame-duck-clock-is-ticking"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c12",
+      "drop": "2026-11-07T17",
+      "headline": "Peltola campaign sues Alaska over rejected absentee ballot records",
+      "summary": "Democrat Mary Peltola's campaign is suing the state to obtain records of absentee ballots rejected by the Division of Elections, saying earlier requests went unanswered. The Senate race with Sen. Dan Sullivan remains uncalled.",
+      "why_it_matters": "A close Alaska result could decide the Senate's final margin.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "courts"
+      ],
+      "entities": [
+        "Mary Peltola",
+        "Alaska",
+        "Dan Sullivan"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T13:03:05.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Peltola campaign sues Alaska over rejected absentee ballot records",
+          "url": "https://thehill.com/homenews/campaign/6205934-peltola-campaign-alaska-ballot-lawsuit/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c13",
+      "drop": "2026-11-07T17",
+      "headline": "Hispanic voters drive Texas's flip to Democrats, NPR reports",
+      "summary": "NPR says Texas turned blue in the midterms, with Hispanic voters along the Texas-Mexico border among the most notable shifts.",
+      "why_it_matters": "A realignment in the country's second-largest state reshapes both parties' 2028 map.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Texas"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T12:41:08.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Border shift: Hispanic voters drive Texas' historic flip to blue",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6030994/border-shift-hispanic-voters-drive-texas-historic-flip-to-blue"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c14",
+      "drop": "2026-11-07T17",
+      "headline": "Democratic socialists win in LA and DC; Fox counts four big cities",
+      "summary": "The Guardian says democratic socialists won Los Angeles's mayoralty and a House seat. Fox News says Los Angeles and Washington now join Seattle and New York as large cities led by DSA-affiliated mayors.",
+      "why_it_matters": "It shows where the Democratic Party's left flank is gaining power in major cities.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Nithya Raman",
+        "Democratic Socialists of America"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T10:00:54.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "LA’s newer, bluer wave: Nithya Raman leads way as city’s progressives make their mark",
+          "url": "https://www.theguardian.com/us-news/2026/nov/07/los-angeles-mayor-nithya-raman-progressives-dsa"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "4 of nation's largest cities now led by socialist mayors after Tuesday's election, affecting tens of millions",
+          "url": "https://www.foxnews.com/politics/4-nations-largest-cities-led-socialist-mayors-tuesday-election-affecting-tens-millions"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c15",
+      "drop": "2026-11-07T17",
+      "headline": "Democrats eye DOGE probe, Raskin says",
+      "summary": "Rep. Jamie Raskin told Fox News he is pretty certain at least one House committee will investigate DOGE, which he called a catastrophe. Illinois Gov. JB Pritzker reportedly drew a line on Elon Musk.",
+      "why_it_matters": "It previews oversight fights over federal spending cuts once Democrats control the House.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Jamie Raskin",
+        "Elon Musk",
+        "DOGE"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T09:00:43.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Democrats set sights on Elon Musk probe after midterm wins, but Pritzker draws a surprising line",
+          "url": "https://www.foxnews.com/politics/democrats-set-sights-elon-musk-probe-after-midterm-wins-pritzker-draws-surprising-line"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c16",
+      "drop": "2026-11-07T17",
+      "headline": "California prosecutors push back on Newsom's death row commutations",
+      "summary": "District attorneys and law enforcement unions criticize Gov. Gavin Newsom's commutation of all 548 death sentences, saying it overrides juries and victims' families, and warn of a legal fight. Newsom has not been quoted in the Fox reports.",
+      "why_it_matters": "The largest US death row is being emptied, which may spark court challenges with national implications for capital punishment.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "courts"
+      ],
+      "entities": [
+        "Gavin Newsom",
+        "California"
+      ],
+      "importance": 3,
+      "follows": "2026-11-05T20-c05",
+      "storyline_id": null,
+      "published_at": "2026-11-07T12:33:13.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Newsom’s death-row commutations spark DA revolt as prosecutors warn of legal fight",
+          "url": "https://www.foxnews.com/politics/newsoms-death-row-commutations-spark-da-revolt-prosecutors-warn-legal-fight"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "California prosecutors slam Newsom's death row commutations, accuse governor of putting 'politics over people'",
+          "url": "https://www.foxnews.com/politics/california-prosecutors-slam-newsoms-death-row-commutations-accuse-governor-putting-politics-over-people"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c17",
+      "drop": "2026-11-07T17",
+      "headline": "Strategists call post-election stock rout a buying chance",
+      "summary": "Bloomberg reports Wall Street strategists who expected a short-term post-midterm selloff are calling it a chance to buy at a discount. The FT says hedge funds and retail investors fled the AI trade after the vote.",
+      "why_it_matters": "It shows how deeply AI shares drive retirement accounts and what strategists expect from the recent losses.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Wall Street"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-07T05:00:31.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Wall Street Strategists Call Stock Rout a Fresh Reason to Buy",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/wall-street-strategists-call-stock-rout-a-fresh-reason-to-buy"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "How Wall Street’s all-in bet on AI blew up",
+          "url": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c18",
+      "drop": "2026-11-07T17",
+      "headline": "Berkshire Hathaway buys back record $9.6 billion of stock",
+      "summary": "Berkshire spent about $9.6 billion on its own shares in the third quarter. Operating income fell 5.8 percent from a year earlier as insurance underwriting weakened, per the FT and Bloomberg.",
+      "why_it_matters": "The buyback signals management sees the shares as undervalued during a volatile market.",
+      "region": "US",
+      "topics": [
+        "markets"
+      ],
+      "entities": [
+        "Berkshire Hathaway",
+        "Greg Abel"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T13:01:21.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Berkshire Hathaway Boosts Buybacks as Operating Income Slips",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/berkshire-hathaway-s-operating-earnings-fall-buybacks-rise"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Berkshire Hathaway steps up share buybacks with $9.6bn of purchases",
+          "url": "https://www.ft.com/content/1f153350-2377-4e48-a073-0539376eab4c?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c19",
+      "drop": "2026-11-07T17",
+      "headline": "Strong jobs report raises odds of a December Fed hike",
+      "summary": "Bloomberg Economics' Anna Wong says October's jobs gain broadened into white-collar, manufacturing and transportation jobs, strengthening the case for another Federal Reserve rate hike.",
+      "why_it_matters": "A further hike would keep mortgage and borrowing costs high for households.",
+      "region": "US",
+      "topics": [
+        "fed-rates",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Federal Reserve",
+        "Anna Wong"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c02",
+      "storyline_id": "sl-fed-warsh",
+      "published_at": "2026-11-07T13:16:33.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "US Jobs Surge Raises Odds of December Fed Hike",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-07/us-jobs-surge-raises-odds-of-december-fed-hike-video"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c20",
+      "drop": "2026-11-07T17",
+      "headline": "Crypto's Washington run ends as Democrats take Congress",
+      "summary": "Bloomberg reports the crypto industry's run of political good fortune has halted. With Democrats set to control Congress, it faces tougher rules and closer scrutiny of its ties to President Trump.",
+      "why_it_matters": "Crypto holders and investors may face new regulation and oversight.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "markets"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Congress"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T13:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Crypto’s Trump-Fueled Washington Boom Reaches Its Endgame",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/crypto-s-trump-fueled-washington-boom-reaches-its-endgame"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c21",
+      "drop": "2026-11-07T17",
+      "headline": "Two heart drugs fail in big trials at AHA conference",
+      "summary": "Novartis's Lp(a)-lowering drug pelacarsen cut a risk marker but not heart attacks or strokes. Novo Nordisk's anti-inflammatory ziltivekimab also failed its trial, though cardiologists say they will keep pursuing the approach.",
+      "why_it_matters": "Heart disease is the leading US killer, and two promising therapies fell short.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "Novartis",
+        "Novo Nordisk"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T14:35:00.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "A promising new medicine against heart disease fails unexpectedly",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6026379/lpa-drug-lipoproteina-heart-attack"
+        },
+        {
+          "outlet": "STAT",
+          "title": "STAT+: Despite Novo drug’s failure, cardiologists say they will still pursue anti-inflammatories",
+          "url": "https://www.statnews.com/2026/11/07/aha-2026-conference-novo-nordisk-zeus-trial-ziltivekimab-results/?utm_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c22",
+      "drop": "2026-11-07T17",
+      "headline": "Drug industry group sues to block Medicare drug pricing pilot",
+      "summary": "The trade group BIO has joined legal action against a Medicare model that ties drug prices to those in peer countries, a test of Trump's most-favored-nation approach. STAT says its impact is likely to be limited.",
+      "why_it_matters": "The outcome could affect what Medicare pays for medicines and how drugmakers price them.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation",
+        "courts"
+      ],
+      "entities": [
+        "BIO",
+        "Medicare"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T16:57:13.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "STAT+: BIO joins the legal fight against Medicare pilot that ties drug prices to peer countries",
+          "url": "https://www.statnews.com/2026/11/07/bio-sues-to-block-globe-drug-pricing-model/?utm_campaign=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c23",
+      "drop": "2026-11-07T17",
+      "headline": "Anthropic report: AI models speed up AI development",
+      "summary": "AI safety group METR says in a report that Anthropic is using AI to build more powerful AI, with its models improving roughly twice as quickly as a year ago and little sign of slowing, per The Verge.",
+      "why_it_matters": "Faster self-improving AI raises safety questions that regulators and the public are only beginning to address.",
+      "region": "US",
+      "topics": [
+        "ai"
+      ],
+      "entities": [
+        "Anthropic",
+        "METR"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T12:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c24",
+      "drop": "2026-11-07T17",
+      "headline": "Google tells schools to accept some AI or lose search access",
+      "summary": "The Hill reports schools are scrambling after Google said education leaders must accept some AI in classrooms or lose access to its search engine, with little time to respond.",
+      "why_it_matters": "Parents and teachers face pressure over AI in classrooms, with a dominant search provider setting terms.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Google"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T11:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Schools scramble after Google gives AI ultimatum",
+          "url": "https://thehill.com/homenews/education/6198820-schools-scramble-after-google-gives-ai-ultimatum/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c25",
+      "drop": "2026-11-07T17",
+      "headline": "Rep. Gottheimer bought AI stocks after backing trading ban",
+      "summary": "CNBC reports Rep. Josh Gottheimer, a Democrat shaping AI policy, disclosed new AI-linked stock purchases months after voting for a congressional trading ban, as Democrats prepare to regulate the industry.",
+      "why_it_matters": "Lawmakers' personal stakes in industries they oversee are a live ethics issue.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "ai"
+      ],
+      "entities": [
+        "Josh Gottheimer"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T13:30:01.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
+          "url": "https://www.cnbc.com/2026/11/07/josh-gottheimer-ai-stocks-congress-trading-ban.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c26",
+      "drop": "2026-11-07T17",
+      "headline": "Tech firms face rising child safety lawsuits as AI enters schools",
+      "summary": "CNBC reports lawsuits against Snap, Meta and Google over child safety are creating headwinds for the companies just as their AI tools expand into classrooms.",
+      "why_it_matters": "The cases could shape what tools children and teens use at home and in school.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "courts"
+      ],
+      "entities": [
+        "Snap",
+        "Meta",
+        "Google"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T12:00:01.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+          "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c27",
+      "drop": "2026-11-07T17",
+      "headline": "Pro-Russian hackers leak Italian foreign minister's data",
+      "summary": "Prime Minister Giorgia Meloni blamed pro-Russian hackers for publishing foreign minister Antonio Tajani's personal data online, and the minister said the cyberthreat is ongoing.",
+      "why_it_matters": "It shows Russia-linked cyber pressure on NATO governments, a risk that extends to US allies and infrastructure.",
+      "region": "Europe",
+      "topics": [
+        "cybersecurity",
+        "europe"
+      ],
+      "entities": [
+        "Italy",
+        "Giorgia Meloni",
+        "Russia"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T12:29:48.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Italian foreign minister says hackers leaked his personal data",
+          "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
+          "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c28",
+      "drop": "2026-11-07T17",
+      "headline": "Guatemalan lawmaker and three police officers killed in attack",
+      "summary": "An armed attack killed a Guatemalan lawmaker and three police officers in a region known for drug trafficking activity, Al Jazeera reports.",
+      "why_it_matters": "Cartel violence in Central America feeds drug flows and migration that affect the US.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "crime-justice"
+      ],
+      "entities": [
+        "Guatemala"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T16:15:18.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Guatemalan lawmaker and three police officers killed in armed attack",
+          "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c29",
+      "drop": "2026-11-07T17",
+      "headline": "Heavy rain floods Gaza displacement camps",
+      "summary": "Heavy rain and strong winds have flooded tents across Gaza and put war-damaged buildings at risk of collapse, Al Jazeera reports.",
+      "why_it_matters": "Winter weather deepens the humanitarian crisis for displaced Gazans, which draws US aid and diplomatic attention.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict"
+      ],
+      "entities": [
+        "Gaza"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T13:07:23.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Buildings damaged in Israeli bombings risk collapse as rain inundates Gaza",
+          "url": "https://www.aljazeera.com/features/2026/11/7/buildings-damaged-in-israel-bombing-at-risk-of-collapse-as-rain-floods-gaza?traffic_source=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Gaza displacement camps collapse under rainwater",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/gaza-displacement-camps-collapse-under-rainwater?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c30",
+      "drop": "2026-11-07T17",
+      "headline": "Midterm results could help unite Israeli coalition against Netanyahu",
+      "summary": "The Guardian reports the Democratic sweep may make it easier for Israel's divided opposition to form a coalition and remove Netanyahu, who is closely allied with Trump. President Herzog names a candidate Sunday.",
+      "why_it_matters": "Who governs Israel affects US policy on Gaza, Iran and military aid.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Israel",
+        "Benjamin Netanyahu",
+        "Isaac Herzog"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T06-c08",
+      "storyline_id": "sl-israel-election",
+      "published_at": "2026-11-07T06:00:04.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
+          "url": "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c31",
+      "drop": "2026-11-07T17",
+      "headline": "Turkey arrests former markets regulator deputy chief in fund probe",
+      "summary": "Turkish authorities arrested the former deputy chairman of the markets regulator, Anadolu reported, the latest executive caught in a widening investment fund scandal.",
+      "why_it_matters": "The widening probe raises governance and market-stability questions in a major NATO member's economy.",
+      "region": "Middle East",
+      "topics": [
+        "markets",
+        "geopolitics"
+      ],
+      "entities": [
+        "Turkey",
+        "Anadolu Agency"
+      ],
+      "importance": 2,
+      "follows": "2026-11-05T23-c29",
+      "storyline_id": null,
+      "published_at": "2026-11-07T13:56:55.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Turkey Arrests Former Regulatory Executive in Growing Fund Probe",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/turkey-arrests-former-regulatory-executive-in-growing-fund-probe"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c32",
+      "drop": "2026-11-07T17",
+      "headline": "Copper premiums hit records in Asia as China supply tightens",
+      "summary": "Trafigura has been buying large volumes of copper to sell into Asia as local supplies run low, pushing regional premiums for spot cargoes to record highs, Bloomberg reports.",
+      "why_it_matters": "Copper is central to wiring, EVs and data centers, so tight supply can raise costs.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "trade"
+      ],
+      "entities": [
+        "Trafigura",
+        "China"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T08:00:21.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Trafigura Snaps Up Copper in Asia as China Faces Supply Crunch",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/trafigura-snaps-up-copper-in-asia-as-china-faces-supply-crunch"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c33",
+      "drop": "2026-11-07T17",
+      "headline": "Democrats' win revives Social Security funding debate",
+      "summary": "MarketWatch says Democratic gains revive the difficult question of who pays to shore up Social Security. It notes there are many ideas for saving the program and all of them involve costs for someone.",
+      "why_it_matters": "Benefits, payroll taxes and retirement planning for tens of millions of Americans depend on the answer.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Social Security"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T17:43:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Democrats’ big election win revives a difficult Social Security question: Who pays?",
+          "url": "https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c34",
+      "drop": "2026-11-07T17",
+      "headline": "Richest 10% of Americans pulling further ahead",
+      "summary": "MarketWatch reports the median net worth of the wealthiest 10% is $800,000 greater than three years ago, and examines what is driving the gains.",
+      "why_it_matters": "It underscores the affordability and inequality themes that shaped the midterms.",
+      "region": "US",
+      "topics": [
+        "economy"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T17:04:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "The wealthiest 10% of Americans are pulling ahead of everyone else. This is what’s making them richer.",
+          "url": "https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T17-c35",
+      "drop": "2026-11-07T17",
+      "headline": "Thomas Markle placed under house arrest on child abuse material charge",
+      "summary": "Meghan's father, 82, appeared in a Florida court after the FBI searched two Los Angeles-area storage units he rented, and was placed under house arrest, BBC reports.",
+      "why_it_matters": "It is a federal criminal case involving a high-profile figure, now moving through US courts.",
+      "region": "US",
+      "topics": [
+        "crime-justice"
+      ],
+      "entities": [
+        "Thomas Markle"
+      ],
+      "importance": 2,
+      "follows": "2026-11-06T23-c07",
+      "storyline_id": null,
+      "published_at": "2026-11-07T07:27:44.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+          "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c36",
+      "drop": "2026-11-07T17",
+      "headline": "France debates Mélenchon as he emerges as 2027 contender",
+      "summary": "Al Jazeera says hard-left leader Jean-Luc Mélenchon has become a real contender in next year's French presidential election, with some calling him radical and others a hero.",
+      "why_it_matters": "France's election, amid weeks of unrest, will shape European policy on Ukraine and trade.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "elections"
+      ],
+      "entities": [
+        "Jean-Luc Mélenchon",
+        "France"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T13:35:46.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "‘Radical’ or ‘hero’?: France debates leftist candidate Jean-Luc Melenchon",
+          "url": "https://www.aljazeera.com/news/2026/11/7/radical-or-hero-france-debates-leftist-candidate-jean-luc-melenchon?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c37",
+      "drop": "2026-11-07T17",
+      "headline": "Common 'safe' plasticizer linked to lower birth weight",
+      "summary": "A study found exposure to Dinch, a newer plasticizer used as a safer alternative in the EU and US, is linked to lower birth weight and fetal development complications, The Guardian reports.",
+      "why_it_matters": "Food packaging chemicals touch most households, and the findings challenge assumptions about replacements for older plasticizers.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "Dinch"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T12:00:13.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "New ‘high safety’ chemicals in plastic food packaging linked to lower birth weight, study finds",
+          "url": "https://www.theguardian.com/us-news/2026/nov/07/nontoxic-plastic-lower-birth-weight-study"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T17-c38",
+      "drop": "2026-11-07T17",
+      "headline": "Genes and archaeology trace how Bantu speakers spread across Africa",
+      "summary": "Ars Technica reports that genetic and archaeological evidence is revealing how the Bantu expansion spread languages, genes and cultures across much of Africa, though scientists are still tracing details.",
+      "why_it_matters": "It sheds light on the deep history of hundreds of millions of people today.",
+      "region": "Africa",
+      "topics": [
+        "science"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T12:15:55.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "The Bantu expansion changed Africa. Scientists are still tracing how.",
+          "url": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}
