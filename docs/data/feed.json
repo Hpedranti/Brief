@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-07T17:57:34Z",
+  "updated_at": "2026-11-07T22:30:18Z",
   "drops": [
     {
       "id": "2026-11-05T23",
@@ -37,6 +37,12 @@
       "at": "2026-11-07T17:57:34Z",
       "model": "claude-sonnet-5-5",
       "count": 38
+    },
+    {
+      "id": "2026-11-07T22",
+      "at": "2026-11-07T22:30:18Z",
+      "model": "claude-sonnet-5-5",
+      "count": 27
     }
   ],
   "cards": [
@@ -6642,6 +6648,832 @@
           "outlet": "Ars Technica",
           "title": "The Bantu expansion changed Africa. Scientists are still tracing how.",
           "url": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c01",
+      "drop": "2026-11-07T22",
+      "headline": "Herzog gives Eisenkot 28 days to form Israel's government",
+      "summary": "Israeli President Isaac Herzog tasked opposition leader Gadi Eisenkot with forming a government, a setback for Benjamin Netanyahu, whose coalition lost its majority on Oct. 27. Eisenkot must secure 61 Knesset seats within 28 days.",
+      "why_it_matters": "A change of leadership in Israel would affect US policy on the Iran war, Gaza and Lebanon, and relations with a close Trump ally.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Gadi Eisenkot",
+        "Benjamin Netanyahu",
+        "Isaac Herzog",
+        "Israel"
+      ],
+      "importance": 4,
+      "follows": "2026-11-07T17-c30",
+      "storyline_id": "sl-israel-election",
+      "published_at": "2026-11-07T20:26:58.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+          "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government?traffic_source=rss"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Netanyahu rival Eisenkot tapped to form Israeli government",
+          "url": "https://www.axios.com/2026/11/07/israel-eisenkot-netanyahu-government-herzog"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Israeli president picks Netanyahu's rival Eisenkot to form new government",
+          "url": "https://thehill.com/policy/international/6206234-herzog-appoints-eisenkot-form-government/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c02",
+      "drop": "2026-11-07T22",
+      "headline": "Trump says he offered press secretary job to UFC's Dana White",
+      "summary": "Trump said on Truth Social he offered the White House press secretary job to UFC chief executive Dana White, a longtime ally. The BBC has asked the White House and UFC whether the offer is genuine; neither had confirmed.",
+      "why_it_matters": "The White House press office is the main channel between the administration and the public, so who fills it shapes how the government communicates.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Dana White",
+        "UFC"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T18:55:25.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump says he offered White House press secretary job to Dana White",
+          "url": "https://thehill.com/homenews/administration/6206117-trump-says-he-offered-white-house-press-secretary-job-to-dana-white/"
+        },
+        {
+          "outlet": "BBC",
+          "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+          "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Trump asks UFC boss Dana White to be new press secretary",
+          "url": "https://www.ft.com/content/52c3c7ac-f0ee-4b90-a2c8-68e76d120a79?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c03",
+      "drop": "2026-11-07T22",
+      "headline": "Trump asks DOJ to investigate Democrats over impeachment threats",
+      "summary": "Trump called some Democrats' talk of impeaching administration officials and punishing Republican donors 'extortion' and asked the Justice Department to look into it, naming Sen. Elissa Slotkin. Democrats have not accepted that characterization in the reports cited.",
+      "why_it_matters": "Using the Justice Department against political opponents, or Congress's impeachment power against officials, would test the boundaries between the branches as Democrats take over.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "crime-justice"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Elissa Slotkin",
+        "Department of Justice"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T18:34:14.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump orders DOJ to investigate Democrats for ‘threatening’ people",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-orders-doj-to-investigate-democrats-for-threatening-people?traffic_source=rss"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Trump orders DOJ probe into Democrats over alleged threats against admin officials",
+          "url": "https://www.foxnews.com/politics/trump-orders-doj-probe-democrats-over-alleged-threats-against-admin-officials"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump orders DOJ to investigate Democrats over ‘extortion’ and calls out Slotkin by name",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796578/trump-order-doj-investigate-democrat-extortion-slotkin/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c04",
+      "drop": "2026-11-07T22",
+      "headline": "Congress to probe Nvidia's Huang over alleged Chinese spy ties",
+      "summary": "Multiple reports Friday night said US intelligence believed Nvidia chief Jensen Huang had a romantic relationship with a Megaspeed executive allegedly recruited by China's spy agency. Axios says Congress will investigate. Huang's response is not given in these reports.",
+      "why_it_matters": "Nvidia chips are central to US-China technology rivalry and export controls, so any security concern about its leadership could affect policy and the company.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "china",
+        "us-politics"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Megaspeed",
+        "China"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T06-c17",
+      "storyline_id": null,
+      "published_at": "2026-11-07T21:06:38.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "\"Congress will investigate\": Nvidia CEO Jensen Huang faces probe over alleged Chinese spy ties",
+          "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+          "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c05",
+      "drop": "2026-11-07T22",
+      "headline": "New cost-of-living protests sweep France; tear gas in Paris and Lyon",
+      "summary": "More than 140,000 people rallied across France, Al Jazeera reports, with tear gas used in Paris and Lyon. Yellow Vests defied a ban on their Paris rally, leading to arrests. The interior minister said authorities are ready for rioters.",
+      "why_it_matters": "Prolonged unrest in France, a key US ally, weighs on European stability, markets and political risk.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "economy"
+      ],
+      "entities": [
+        "France",
+        "Yellow Vests"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-france-unrest",
+      "published_at": "2026-11-07T20:12:22.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "More than 140,000 rally as new protests against rising costs sweep France",
+          "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france?traffic_source=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Police clash with protesters as anti-government rallies sweep France",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/police-clash-with-protesters-as-anti-government-rallies-sweep-france?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c06",
+      "drop": "2026-11-07T22",
+      "headline": "Kraków gunman's home yielded three more victims, police say",
+      "summary": "Six people were killed and 16 wounded in the Kraków market square shooting. Three more bodies were found at the suspect's home. Poland's interior minister said the suspect held far-right, ultra-nationalist views.",
+      "why_it_matters": "A mass shooting in a major tourist destination in a NATO ally raises security and extremism concerns for Europe and visiting Americans.",
+      "region": "Europe",
+      "topics": [
+        "crime-justice",
+        "europe"
+      ],
+      "entities": [
+        "Kraków",
+        "Poland",
+        "Donald Tusk"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T17-c01",
+      "storyline_id": null,
+      "published_at": "2026-11-07T21:19:01.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+          "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman"
+        },
+        {
+          "outlet": "BBC",
+          "title": "What we know so far after Krakow gun attack",
+          "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c07",
+      "drop": "2026-11-07T22",
+      "headline": "Paraguay's ousted president Peña charged over bank collapse",
+      "summary": "Former Paraguayan President Santiago Peña appeared before prosecutors and was charged after being impeached over the collapse of Ueno Bank, which left millions unable to access their money.",
+      "why_it_matters": "A sitting government falling over a banking collapse shows the political risk in Latin America's financial stress, a concern for investors and neighbors.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "crime-justice"
+      ],
+      "entities": [
+        "Santiago Peña",
+        "Paraguay",
+        "Ueno Bank"
+      ],
+      "importance": 2,
+      "follows": "2026-11-07T06-c07",
+      "storyline_id": null,
+      "published_at": "2026-11-07T18:35:15.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Paraguay's former president charged after bank collapse",
+          "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Paraguay’s ousted president charged over banking scandal",
+          "url": "https://www.aljazeera.com/economy/2026/11/7/paraguays-ousted-president-charged-over-banking-scandal?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c08",
+      "drop": "2026-11-07T22",
+      "headline": "Houthis report 25 to 27 killed in strikes on Yemeni village",
+      "summary": "The Houthis say at least 25 people were killed and 30 injured in air strikes in Sanaa province; Al Jazeera puts the toll at 27. Saudi Arabia, which leads the coalition, has not commented. Yemeni government forces report advances.",
+      "why_it_matters": "Escalating fighting in Yemen adds to Gulf instability during the US-Iran war and threatens shipping routes.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "Houthis",
+        "Saudi Arabia",
+        "Yemen"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T17:09:24.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Houthis say at least 25 killed in Saudi air strike",
+          "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa",
+          "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c09",
+      "drop": "2026-11-07T22",
+      "headline": "Kansas Attorney General Kobach loses reelection",
+      "summary": "The Associated Press projected that Republican Kris Kobach lost his bid for a second term as Kansas attorney general to Democrat Chris Mann, a former prosecutor, who leads 50.6 percent to 49.4 percent.",
+      "why_it_matters": "State attorneys general drive major litigation on immigration, elections and consumer protection, so a flip changes who sues and who gets sued.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Kris Kobach",
+        "Chris Mann",
+        "Kansas"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T20:06:14.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Republican Kris Kobach loses AG reelection bid in Kansas",
+          "url": "https://thehill.com/homenews/campaign/6206185-kris-kobach-loses-kansas-election/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c10",
+      "drop": "2026-11-07T22",
+      "headline": "Meta strategy chief Dave Wehner leaves to be Fireworks CFO",
+      "summary": "Dave Wehner, Meta's chief strategy officer, is leaving to become CFO of Fireworks, an AI infrastructure startup valued at $17.5 billion in July.",
+      "why_it_matters": "Senior talent moving from Big Tech to AI infrastructure startups reflects where the industry sees growth, even amid a market selloff.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "startups-vc",
+        "ai"
+      ],
+      "entities": [
+        "Meta",
+        "Dave Wehner",
+        "Fireworks"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T22:01:17.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Meta chief strategy officer Dave Wehner leaves to join AI infrastructure startup Fireworks as CFO",
+          "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c11",
+      "drop": "2026-11-07T22",
+      "headline": "Meta's $25 billion bond sale tests tech debt market",
+      "summary": "Bloomberg reports Meta's roughly $25 billion bond sale, launched on Election Day, highlights a shifting landscape for tech borrowing as AI spending strains investor appetite.",
+      "why_it_matters": "How easily tech giants can borrow for AI buildout affects the stocks in many American retirement accounts.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "big-tech",
+        "ai"
+      ],
+      "entities": [
+        "Meta"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-07T20:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Meta’s $25 Billion Bond Sale Highlights Shifting Landscape for Tech Debt",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-07/meta-s-bond-sale-shows-new-reality-for-tech-debt-credit-weekly"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c12",
+      "drop": "2026-11-07T22",
+      "headline": "NASA opens applications for its next astronaut class",
+      "summary": "NASA is accepting applications for a new astronaut class that will join the agency as it returns to the Moon, builds what it calls the Moon Base, and prepares for crewed Mars missions.",
+      "why_it_matters": "The next generation of US astronauts will fly the missions that define American spaceflight for decades.",
+      "region": "US",
+      "topics": [
+        "space"
+      ],
+      "entities": [
+        "NASA"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T18:11:57.000Z",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
+          "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c13",
+      "drop": "2026-11-07T22",
+      "headline": "Judge questions whether ICE skirted release orders in Colorado",
+      "summary": "A Biden-appointed federal judge in Colorado is probing whether ICE circumvented court-ordered releases after 14 detainees were re-arrested. Denver ICE field office director Nathan Rasper must appear in court. ICE's position is not stated in the report.",
+      "why_it_matters": "The case tests whether immigration agents must honor judicial release orders, with implications for detainees' rights and executive-court relations.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "ICE",
+        "Nathan Rasper"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T18:25:53.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Biden-appointed judge probes whether ICE skirted judge's release orders in Colorado cases",
+          "url": "https://www.foxnews.com/politics/biden-appointed-judge-probes-whether-ice-circumvented-judicial-release-orders-colorado-cases"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c14",
+      "drop": "2026-11-07T22",
+      "headline": "Malaysian king warns against defying Najib house arrest order",
+      "summary": "Malaysia's king warned against defying an order placing ex-PM Najib Razak under house arrest, after the attorney general postponed his transfer from jail following a court ruling Friday clearing him.",
+      "why_it_matters": "The dispute shows tension between Malaysia's palace, courts and government over a high-profile corruption convict.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "courts"
+      ],
+      "entities": [
+        "Najib Razak",
+        "Malaysia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T19:24:21.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Malaysian king warns against defying house arrest order for ex-PM Najib",
+          "url": "https://www.aljazeera.com/news/2026/11/7/malaysian-king-warns-against-defying-house-arrest-order-for-ex-pm-najib?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c15",
+      "drop": "2026-11-07T22",
+      "headline": "FAA says first US digital air traffic towers are operating",
+      "summary": "The FAA said the first US digital air traffic control towers, in Florida and Alaska, are operational. The systems give a 360-degree view of airport operations; concerns have been raised about the technology.",
+      "why_it_matters": "Digital towers could extend air traffic control to smaller airports, but safety questions will matter to every traveler.",
+      "region": "US",
+      "topics": [
+        "autos-transport",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Federal Aviation Administration"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T20:03:23.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "FAA announces first US digital air traffic control towers in Florida and Alaska",
+          "url": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c16",
+      "drop": "2026-11-07T22",
+      "headline": "AIPAC-backed candidates mostly won, but most spending went to losers",
+      "summary": "Al Jazeera reports many candidates backed by the pro-Israel group AIPAC won in the midterms, but most of the money it spent went to candidates who lost.",
+      "why_it_matters": "Outside spending on Israel policy is an increasingly contested issue inside both parties as a new Congress takes shape.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "AIPAC"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T19:29:06.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "How did AIPAC-backed candidates fare in the US midterm elections?",
+          "url": "https://www.aljazeera.com/news/2026/11/7/how-did-aipac-backed-candidates-fare-in-the-us-midterm-elections?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c17",
+      "drop": "2026-11-07T22",
+      "headline": "Rep.-elect Kiros leaves Jeffries speaker vote 'up in the air'",
+      "summary": "Colorado Democrat Melat Kiros, a Representative-elect, declined to commit to backing Hakeem Jeffries for speaker, saying her vote is 'still up in the air'. Earlier reports said some House Democrats were hearing calls against electing him.",
+      "why_it_matters": "A narrow Democratic majority means a few holdouts could complicate who leads the House and how it confronts Trump.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Melat Kiros",
+        "Hakeem Jeffries"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T19:03:20.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Melat Kiros doesn’t commit to supporting Jeffries speaker bid: ‘Still up in the air’",
+          "url": "https://www.washingtonexaminer.com/news/house/4796549/melat-kiros-doesnt-commit-support-jeffries/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c18",
+      "drop": "2026-11-07T22",
+      "headline": "Trump says he could 'very easily' stop insulting Democrats",
+      "summary": "In a preview of a 60 Minutes interview airing Sunday, Trump said he could 'very easily' refrain from insulting Democrats in order to make a bipartisan deal in the next Congress.",
+      "why_it_matters": "With Democrats controlling Congress, any deal on spending, the Iran war or tariffs needs cooperation across the aisle.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "60 Minutes"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T16:31:19.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump says he could ‘very easily’ refrain from insulting Democrats to make a bipartisan deal",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796477/trump-could-refrain-insult-democrat-bipartisan-deal/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c19",
+      "drop": "2026-11-07T22",
+      "headline": "Cyberattacks on European grocers raise US food-supply worries",
+      "summary": "A series of cyberattacks on grocery stores in Europe has raised concern about similar threats in the US, The Hill reports. Al Jazeera asks who is behind Europe's suspected hybrid attacks, including bomb hoaxes; no culprit is confirmed in these reports.",
+      "why_it_matters": "Attacks on retail and food logistics could disrupt supplies and prices if they spread to American systems.",
+      "region": "Europe",
+      "topics": [
+        "cybersecurity",
+        "europe"
+      ],
+      "entities": [
+        "Europe"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T17:01:21.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Are hackers targeting America's food supply?",
+          "url": "https://thehill.com/policy/technology/6206043-fridges-blood-banks-cyberattacks-federal-warning/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Who is behind Europe’s suspected hybrid attacks?",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/7/who-is-behind-europes-suspected-hybrid-attacks?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c20",
+      "drop": "2026-11-07T22",
+      "headline": "Medicare prescription drug costs to jump 50% in 2027",
+      "summary": "MarketWatch reports Medicare prescription drug costs will rise 50% in 2027 and urges enrollees to review plans during open enrollment.",
+      "why_it_matters": "Seniors who do not compare Medicare drug plans during open enrollment could face sharply higher out-of-pocket costs.",
+      "region": "US",
+      "topics": [
+        "health",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Medicare"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T19:20:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.",
+          "url": "https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c21",
+      "drop": "2026-11-07T22",
+      "headline": "IRS releases 2027 tax brackets, adjusting more steeply",
+      "summary": "The IRS released 2027 tax brackets, standard deduction and capital-gains thresholds. MarketWatch says brackets adjust at a steeper level than this year, reflecting inflation's return.",
+      "why_it_matters": "Higher thresholds affect what most Americans owe next year and when to plan investment sales.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Internal Revenue Service"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T16:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+          "url": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories"
+        },
+        {
+          "outlet": "MarketWatch",
+          "title": "Here are the 2027 capital-gains tax rates for each income level",
+          "url": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c22",
+      "drop": "2026-11-07T22",
+      "headline": "Israel builds 90km military road network in southern Lebanon",
+      "summary": "Al Jazeera reports Israel is building a roughly 90 km network of roads and military outposts across southern Lebanon.",
+      "why_it_matters": "Permanent-looking military infrastructure could prolong the Israel-Lebanon conflict and complicate US diplomacy in the region.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "defense"
+      ],
+      "entities": [
+        "Israel",
+        "Lebanon"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T16:30:33.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Israel builds 90km network of military roads across southern Lebanon",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/israel-builds-90km-network-of-military-roads-across-southern-lebanon?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c23",
+      "drop": "2026-11-07T22",
+      "headline": "Latvian farmers protest Russian grain transit",
+      "summary": "Latvian farmers are protesting Russian grain moving through their country, arguing the trade helps fund Moscow's war in Ukraine.",
+      "why_it_matters": "The protests show the strain of EU sanctions enforcement and how trade ties with Russia remain contested among US allies.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "trade"
+      ],
+      "entities": [
+        "Latvia",
+        "Russia"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T19:10:34.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Latvian farmers protest over ‘blood grain’ trade with Russia",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-sv-latvia-farmers-protest-russian-grain-transit?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c24",
+      "drop": "2026-11-07T22",
+      "headline": "Police use water cannon on masked protesters in Tirana",
+      "summary": "Police in Albania's capital used water cannons to disperse masked protesters who set off firecrackers and blocked roads.",
+      "why_it_matters": "Unrest in a NATO member in the Balkans adds to Europe's run of political protests.",
+      "region": "Europe",
+      "topics": [
+        "europe"
+      ],
+      "entities": [
+        "Albania"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T19:49:19.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Masked protesters set off firecrackers and block roads in Albania",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/masked-protesters-set-off-firecrackers-and-block-roads-in-albania?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c25",
+      "drop": "2026-11-07T22",
+      "headline": "NPR correspondent finds Cubans struggling amid outages",
+      "summary": "An NPR correspondent reports Cuba's people are struggling, with widespread power outages and fuel shortages complicating daily life and reporting.",
+      "why_it_matters": "Cuba's crisis, close to US shores, is tied to US sanctions policy and could affect migration.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "energy"
+      ],
+      "entities": [
+        "Cuba"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T22:12:06.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "A correspondent finds Cuba's people struggling",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6029398/a-correspondent-finds-cubas-people-struggling"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-07T22-c26",
+      "drop": "2026-11-07T22",
+      "headline": "Australia's Bowen faces tension brokering COP31 as coal exporter",
+      "summary": "Ahead of COP31, Australian climate minister Chris Bowen dismissed concerns that his country, a major coal and gas producer, cannot lead the world away from fossil fuels. Experts criticize Australian fossil fuel approvals.",
+      "why_it_matters": "The credibility of host-country leadership will shape whether UN climate talks yield commitments that affect global energy prices and US climate policy.",
+      "region": "Asia",
+      "topics": [
+        "climate",
+        "energy"
+      ],
+      "entities": [
+        "Chris Bowen",
+        "Australia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T19:00:20.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
+          "url": "https://www.theguardian.com/environment/2026/nov/08/chris-bowen-cop31-experts-condemn-australia-coal-gas-approvals"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-07T22-c27",
+      "drop": "2026-11-07T22",
+      "headline": "Richard Lloyd, Television guitarist, dies at 75",
+      "summary": "Richard Lloyd, founding member and guitarist of the influential punk band Television, has died at age 75, his family confirmed.",
+      "why_it_matters": "Television helped shape the 1970s New York punk scene and later alternative rock.",
+      "region": "US",
+      "topics": [
+        "culture-sports"
+      ],
+      "entities": [
+        "Richard Lloyd",
+        "Television"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T20:06:25.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
+          "url": "https://www.theguardian.com/music/2026/nov/07/richard-lloyd-punk-band-television-dies-aged-75"
         }
       ],
       "has_article": true
