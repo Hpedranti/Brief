@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T06:57:32Z",
+  "updated_at": "2026-11-08T22:40:38Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -75,11 +75,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Russia hit Kyiv's power grid with 172 drones and 36 missiles, causing blackouts, as Trump says a deal is very close. US-mediated talks in Abu Dhabi are set for Nov. 10-11; European troops plan postwar-deployment drills in Poland.",
+      "summary": "Russia hit Kyiv's power grid with 172 drones and 36 missiles, causing blackouts, as Trump says a deal is very close. Europe will join US-mediated talks in Abu Dhabi on Nov. 10-11; European troops plan postwar-deployment drills in Poland.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-07",
+      "last_updated": "2026-11-08",
       "events": [
+        {
+          "date": "2026-11-08",
+          "text": "France says European officials will attend the Abu Dhabi talks, the first three-way round since February, defying Kremlin objections, NPR reports.",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia"
+        },
         {
           "date": "2026-11-07",
           "text": "Russia strikes Kyiv's energy grid with 172 drones and 36 ballistic missiles, causing blackouts and water shortages, The Guardian reports.",
@@ -350,11 +355,16 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Trump named Stephen Miller chief of staff and on Saturday asked the DOJ to look into Democrats' impeachment talk. Mississippi and Alaska remain uncalled; Peltola's campaign sued Alaska.",
+      "summary": "Democrats won the House, Senate and most governorships. Trump named Stephen Miller chief of staff and asked the DOJ to look into Democrats' impeachment talk; Attorney General Blanche backed that and would not rule out prosecutions. Mississippi and Alaska remain uncalled.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-07",
+      "last_updated": "2026-11-08",
       "events": [
+        {
+          "date": "2026-11-08",
+          "text": "Attorney General Todd Blanche backs Trump's call for a DOJ probe of Democrats' impeachment threats and declines to rule out prosecuting lawmakers, Axios reports.",
+          "url": "https://www.axios.com/2026/11/08/todd-blanche-doj-prosecuting-democrats-oversight"
+        },
         {
           "date": "2026-11-07",
           "text": "Trump asks the Justice Department to investigate Democrats, including Sen. Elissa Slotkin, over what he calls 'extortion' in impeachment threats against officials.",
@@ -455,11 +465,16 @@
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "The US launched a task force to cut Iran's land supply routes and disabled a commercial ship in the Gulf of Oman, while Trump claims progress in talks. Qatar-led mediators push an interim deal; 23 US troops have died.",
+      "summary": "Iran's foreign minister gave the US two days to accept Tehran's offer or face escalation; Trump says renewed attacks are highly unlikely if talks progress. The US launched a task force on Iran's land supply routes. Qatar-led mediators push an interim deal; 23 US troops have died.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-07",
+      "last_updated": "2026-11-08",
       "events": [
+        {
+          "date": "2026-11-08",
+          "text": "Iran's foreign minister gives the US two days to accept Tehran's offer or face escalation; Trump says renewed strikes are 'highly unlikely' if talks progress.",
+          "url": "https://thehill.com/policy/international/6206904-iran-gives-us-two-day-diplomacy-ultimatum/"
+        },
         {
           "date": "2026-11-07",
           "text": "US launches a task force to stop Iran moving weapons and materials over land routes; Iranian media report blasts on Qeshm and in Bandar Abbas.",
@@ -554,11 +569,6 @@
           "date": "2026-11-04",
           "text": "Schumer says Democrats will use the power of the purse to end the Iran war; Iran's chief negotiator says Americans voted no to war.",
           "url": "https://thehill.com/homenews/senate/6198699-schumer-republicans-iran-war-end/"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Iran calls the US reply to its Hormuz plan unconvincing as indirect talks continue; Trump confirms a strike on an Iranian anti-aircraft facility.",
-          "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss"
         }
       ]
     },
@@ -615,11 +625,16 @@
     {
       "id": "sl-israel-election",
       "title": "Israel election deadlock",
-      "summary": "President Herzog on Saturday tasked Gadi Eisenkot with forming a government, giving him 28 days to reach 61 Knesset seats, a setback for Netanyahu, who claims the vote was stolen. A majority of lawmakers, including Arab parties, had endorsed Eisenkot.",
+      "summary": "President Herzog tasked Gadi Eisenkot with forming a government, giving him 28 days to reach 61 Knesset seats, a setback for Netanyahu, who claims the vote was stolen. Eisenkot has begun reaching out to Netanyahu's allies.",
       "status": "active",
       "first_seen": "2026-11-01",
-      "last_updated": "2026-11-07",
+      "last_updated": "2026-11-08",
       "events": [
+        {
+          "date": "2026-11-08",
+          "text": "Eisenkot starts coalition talks, reaching out to Netanyahu allies and warning Israel nears a 'point of no return,' the Guardian reports.",
+          "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government"
+        },
         {
           "date": "2026-11-07",
           "text": "Herzog gives Gadi Eisenkot 28 days to form a government, passing over Netanyahu after the deadlocked Oct. 27 election.",

@@ -1,0 +1,1356 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-08T22",
+    "at": "2026-11-08T22:40:38Z",
+    "model": "claude-sonnet-5-5",
+    "count": 44
+  },
+  "cards": [
+    {
+      "id": "2026-11-08T22-c01",
+      "drop": "2026-11-08T22",
+      "headline": "Nvidia board investigates CEO Huang over alleged Chinese spy tie",
+      "summary": "Nvidia opened an independent board investigation after reports that CEO Jensen Huang had a relationship with a woman US officials believe spied for China. Huang told staff he had an affair; Nvidia says he stays in his role and will cooperate.",
+      "why_it_matters": "Nvidia is central to US AI and chip export policy, and the probe adds uncertainty to a tech sector already hit by a selloff.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "big-tech",
+        "geopolitics"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "China"
+      ],
+      "importance": 4,
+      "follows": "2026-11-07T06-c17",
+      "storyline_id": null,
+      "published_at": "2026-11-08T21:00:58.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy",
+          "url": "https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+          "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c02",
+      "drop": "2026-11-08T22",
+      "headline": "Iran gives US two days to accept its offer as Trump weighs strikes",
+      "summary": "Iran's foreign minister said Washington must accept Tehran's latest offer to end the war or face escalation. Trump told CNN he is 'highly unlikely' to renew attacks if talks show progress on the nuclear program and Hormuz, per The Hill.",
+      "why_it_matters": "The choice between a deal and renewed strikes affects oil prices, US troops in the region and the war's cost.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east",
+        "energy"
+      ],
+      "entities": [
+        "Iran",
+        "Donald Trump",
+        "Abbas Araghchi"
+      ],
+      "importance": 4,
+      "follows": "2026-11-08T06-c01",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-08T20:13:39.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Iran gives US two-day diplomacy ultimatum",
+          "url": "https://thehill.com/policy/international/6206904-iran-gives-us-two-day-diplomacy-ultimatum/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Trump says he's 'unlikely' to renew attacks on Iran if talks show progress",
+          "url": "https://thehill.com/homenews/administration/6206935-trump-unlikely-attack-iran/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Iran threatens to ‘rain down hell’ if US escalates war",
+          "url": "https://www.aljazeera.com/news/2026/11/8/iran-threatens-to-rain-down-hell-if-us-escalates-war?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c03",
+      "drop": "2026-11-08T22",
+      "headline": "Jeffries backs Hegseth impeachment; House vote possible this week",
+      "summary": "House Minority Leader Hakeem Jeffries said he is a 'hard yes' on an impeachment resolution against Defense Secretary Pete Hegseth, saying he abused his power. The Pentagon says Hegseth will not be deterred by 'phony investigations.' Axios reports GOP leaders brace for defections.",
+      "why_it_matters": "A House impeachment vote on a sitting Cabinet secretary would be a rare step and tests Republican unity after the midterm losses.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "defense"
+      ],
+      "entities": [
+        "Hakeem Jeffries",
+        "Pete Hegseth",
+        "Thomas Massie"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T12:45:05.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Top House Democrat 'a hard yes' on impeaching Hegseth",
+          "url": "https://www.bbc.co.uk/news/articles/cj4g1nwx39wno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Axios",
+          "title": "House poised to impeach Pete Hegseth after GOP midterm defeat",
+          "url": "https://www.axios.com/2026/11/08/pete-hegseth-impeachment-house-republicans-massie"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Jeffries a ‘hard yes’ on Hegseth impeachment ahead of expected Massie resolution",
+          "url": "https://www.washingtonexaminer.com/news/house/4796743/hakeem-jeffries-hard-yes-pete-hegseth-impeachment/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c04",
+      "drop": "2026-11-08T22",
+      "headline": "Blanche backs DOJ probe of Democrats, won't rule out prosecutions",
+      "summary": "Attorney General Todd Blanche said Democrats are threatening administration officials and backed Trump's call for a DOJ investigation. He declined to rule out prosecuting lawmakers who say they will investigate officials. Democrats describe their plans as routine oversight.",
+      "why_it_matters": "The dispute over Congress's oversight role and the Justice Department's independence will shape how divided government works.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "us-politics"
+      ],
+      "entities": [
+        "Todd Blanche",
+        "Donald Trump",
+        "Justice Department"
+      ],
+      "importance": 4,
+      "follows": "2026-11-07T22-c03",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T17:07:33.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Blanche backs Trump call for DOJ investigation into Democratic impeachment push",
+          "url": "https://www.washingtonexaminer.com/news/justice/4796775/blanche-trump-doj-investigation-democrats-threats/"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Trump's AG won't rule out prosecuting Democrats who threaten to investigate",
+          "url": "https://www.axios.com/2026/11/08/todd-blanche-doj-prosecuting-democrats-oversight"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c05",
+      "drop": "2026-11-08T22",
+      "headline": "Deputy chief of staff Walters leaves as Miller reshapes White House",
+      "summary": "Deputy chief of staff Richard Walters is departing after Stephen Miller was named chief of staff. NPR says Trump's staffing changes signal how he may approach divided government. Rep. Marlin Stutzman, a Republican, called the Miller promotion a mistake.",
+      "why_it_matters": "Who runs the White House shapes how Trump deals with a Democratic Congress on spending, immigration and oversight.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Stephen Miller",
+        "Richard Walters",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c01",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T20:43:44.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "White House deputy chief of staff departs under Miller shakeup",
+          "url": "https://thehill.com/homenews/administration/6206974-white-house-deputy-chief-of-staff-departs-stephen-miller/"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Trump staffing changes post-midterms signal he's battle ready",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034003/trump-staffing-changes-post-midterms-signal-hes-battle-ready"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Deputy White House Chief of Staff Richard Walters exits job ahead of Stephen Miller takeover",
+          "url": "https://www.foxnews.com/politics/deputy-white-house-chief-staff-richard-walters-exits-job-ahead-stephen-miller-takeover"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c06",
+      "drop": "2026-11-08T22",
+      "headline": "Blanche dismisses Means corruption claims as MAHA feud grows",
+      "summary": "Attorney General Todd Blanche dismissed former health adviser Calley Means' corruption allegations against senior White House officials. A former FDA commissioner described pressure from tobacco lobbyists, and a Republican congressman called for scrutiny, Axios reports.",
+      "why_it_matters": "The dispute exposes a split inside the GOP over health policy and industry influence.",
+      "region": "US",
+      "topics": [
+        "health",
+        "us-politics"
+      ],
+      "entities": [
+        "Todd Blanche",
+        "Calley Means"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T23-c12",
+      "storyline_id": null,
+      "published_at": "2026-11-08T12:51:25.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Blanche dismisses Means allegations as GOP's MAHA feud deepens",
+          "url": "https://www.axios.com/2026/11/08/todd-blanche-calley-means-susie-wiles-maha-allegations"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Republican infighting mounts over corruption claims after midterms wipeout",
+          "url": "https://www.ft.com/content/66e9ca46-d1ea-473c-b8d6-06ba1dfc9e76?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c07",
+      "drop": "2026-11-08T22",
+      "headline": "White House says immigration crackdown will continue after midterms",
+      "summary": "The White House and Department of Homeland Security said they will keep up the immigration crackdown despite Republican midterm losses. The Guardian reports Trump is expected to refuse concessions to the new Democratic majority.",
+      "why_it_matters": "Immigration enforcement affects communities, employers and local governments, and may be a flashpoint with Democratic lawmakers.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Department of Homeland Security"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T17:58:43.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "White House vows to keep up immigration crackdown after midterms defeat",
+          "url": "https://www.bbc.co.uk/news/articles/cmg476w7wnl2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Trump set to lurch further right, claiming US took ‘giant step back’ in elections",
+          "url": "https://www.theguardian.com/us-news/2026/nov/08/trump-midterm-elections-loss-democrats-immigration"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c08",
+      "drop": "2026-11-08T22",
+      "headline": "Group seeks Massie as Libertarian 2028 nominee",
+      "summary": "Axios reports a coalition wants to recruit outgoing Rep. Thomas Massie as the Libertarian Party's 2028 presidential nominee, betting that splits among Trump supporters could make a third-party bid a spoiler for the Republican nominee. Massie has not said he will run.",
+      "why_it_matters": "A third-party bid could affect the 2028 race and reflects strains inside the Republican coalition.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Thomas Massie",
+        "Libertarian Party"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T22:30:06.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "MAGA castoffs plot 2028 spoiler bid",
+          "url": "https://www.axios.com/2026/11/08/massie-president-2028-libertarian"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c09",
+      "drop": "2026-11-08T22",
+      "headline": "Democrats weigh Trump investigations; Sanders urges limits",
+      "summary": "The FT reports Democrats plan to pursue impeachments and probes of Hegseth, Elon Musk and Venezuelan oil deals. Sen. Bernie Sanders said Democrats should hold the administration accountable but 'cannot spend all of our time' on investigations.",
+      "why_it_matters": "How Democrats balance oversight against a legislative agenda on costs and health care will define the new Congress.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Bernie Sanders",
+        "Elon Musk",
+        "Democratic Party"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T17:21:26.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Democrats vow to impeach Trump officials and investigate Republican donors",
+          "url": "https://www.ft.com/content/111fefdb-0f85-4f8f-854f-86a5f81aceec?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Sanders says Democrats should hold Trump accountable but 'cannot spend all of our time'",
+          "url": "https://thehill.com/homenews/senate/6206576-sanders-democrats-trump-accountability/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c10",
+      "drop": "2026-11-08T22",
+      "headline": "Slotkin won't commit to backing Schumer as Senate leader",
+      "summary": "Sen. Elissa Slotkin told Politico she would oppose Chuck Schumer as majority leader 'until I see a plan' and did not rule out a leadership challenge. Several incoming Democratic senators have also said they do not want Schumer as leader.",
+      "why_it_matters": "Leadership of the new Senate majority will determine how Democrats use their power over spending and nominees.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Elissa Slotkin",
+        "Chuck Schumer"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c10",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T15:41:55.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Slotkin vows to oppose Schumer ‘until I see a plan,’ won’t rule out leadership challenge",
+          "url": "https://www.washingtonexaminer.com/news/senate/4796722/elissa-slotkin-schumer-senate-majority-leader/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c11",
+      "drop": "2026-11-08T22",
+      "headline": "Peltola leads Alaska Senate race by 637 votes",
+      "summary": "Fox News reports Democrat Mary Peltola leads Republican Dan Sullivan by 637 votes in the uncalled Alaska Senate race. Gov. Mike Dunleavy, a Republican, called the state's ranked-choice system 'very confusing.' Peltola's campaign has sued for rejected-ballot records.",
+      "why_it_matters": "The race could affect the size of the Democratic Senate majority.",
+      "region": "US",
+      "topics": [
+        "elections"
+      ],
+      "entities": [
+        "Mary Peltola",
+        "Dan Sullivan",
+        "Mike Dunleavy"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T17-c12",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T18:41:53.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Dunleavy calls Alaska voting system ‘very confusing’ as razor-thin Senate race frozen in time",
+          "url": "https://www.foxnews.com/politics/dunleavy-calls-alaska-voting-system-very-confusing-razor-thin-senate-race-frozen-time"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c12",
+      "drop": "2026-11-08T22",
+      "headline": "Democrats gained 500-plus state legislative seats, Politico says",
+      "summary": "Politico reports Democrats picked up more than 500 state legislative seats, with the count continuing, and flipped at least 12 chambers. NPR looked at North Carolina and Arizona to see what flipped legislatures may pursue.",
+      "why_it_matters": "State legislatures set policy on abortion, elections, taxes and energy, and draw district maps.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Democratic Party"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T13:16:08.000Z",
+      "sources": [
+        {
+          "outlet": "Politico",
+          "title": "Democratic thrashing redraws the map of state power",
+          "url": "https://www.politico.com/news/2026/11/08/democratic-thrashing-redraws-the-map-of-state-power-01154607"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Historically red state legislatures have flipped. Here's what's on their agenda",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6032600/historically-red-state-legislatures-have-flipped-heres-whats-on-their-agenda"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c13",
+      "drop": "2026-11-08T22",
+      "headline": "Texas Republican urges special session before Hinojosa takes office",
+      "summary": "Rep. Brian Harrison urged Gov. Greg Abbott to call a special session restricting emergency powers before Democrat Gina Hinojosa is sworn in, Fox News reports. Axios calls Texas central to the future of US politics, immigration and AI.",
+      "why_it_matters": "Texas is the nation's second-largest state, and the power shift affects data centers, immigration and energy policy.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Gina Hinojosa",
+        "Greg Abbott",
+        "Brian Harrison"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T14:18:01.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "11th-hour power play targets incoming Dem governor after historic GOP defeat",
+          "url": "https://www.foxnews.com/politics/11th-hour-power-play-targets-incoming-dem-governor-historic-gop-defeat"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Behind the Curtain: Texas is the #1 story of America",
+          "url": "https://www.axios.com/2026/11/08/behind-the-curtain-texas-democrats-2026"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c14",
+      "drop": "2026-11-08T22",
+      "headline": "Mamdani says abolishing ICE is DSA's most palatable plank",
+      "summary": "New York Mayor Zohran Mamdani, a Democratic Socialists of America member, told Fox News that abolishing Immigration and Customs Enforcement is the DSA platform item most 'acceptable' to 'mainstream America.' Republicans have targeted DSA wins.",
+      "why_it_matters": "The remark shows the debate inside the Democratic Party over how far left to go on immigration enforcement.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "us-politics"
+      ],
+      "entities": [
+        "Zohran Mamdani",
+        "Democratic Socialists of America"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T20:55:16.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Mamdani: Abolishing ICE is the most 'acceptable' part of DSA platform to 'mainstream America'",
+          "url": "https://thehill.com/homenews/state-watch/6206862-mamdani-ice-abolition-statement/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c15",
+      "drop": "2026-11-08T22",
+      "headline": "Democrats see path to bypass Electoral College by 2028, Fox says",
+      "summary": "Fox News reports Democratic trifectas in swing states could push the National Popular Vote Interstate Compact past the 270 electoral votes needed to take effect. Gov. Josh Shapiro recently signaled openness to abolishing the Electoral College.",
+      "why_it_matters": "If activated, the compact would change how Americans elect presidents, ahead of 2028.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "policy-regulation"
+      ],
+      "entities": [
+        "National Popular Vote Interstate Compact"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T13:00:09.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Democrats’ midterm sweep opens path to bypassing Electoral College by 2028",
+          "url": "https://www.foxnews.com/politics/democrats-midterm-sweep-opens-path-bypassing-electoral-college-2028"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c16",
+      "drop": "2026-11-08T22",
+      "headline": "Eisenkot reaches out to Netanyahu allies to form Israeli government",
+      "summary": "Gadi Eisenkot began coalition talks after President Herzog tasked him with forming a government, contacting allies of Benjamin Netanyahu. He warned Israel is approaching a 'point of no return' and, per Al Jazeera, is open to Netanyahu joining.",
+      "why_it_matters": "The outcome decides who leads a key US ally during the Iran war and Gaza talks.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Gadi Eisenkot",
+        "Benjamin Netanyahu",
+        "Isaac Herzog"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T22-c01",
+      "storyline_id": "sl-israel-election",
+      "published_at": "2026-11-08T17:53:59.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
+          "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Eisenkot open to Netanyahu joining Israel’s next government",
+          "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c17",
+      "drop": "2026-11-08T22",
+      "headline": "Trump pressed Netanyahu to advance Gaza peace plan, Axios reports",
+      "summary": "Citing two sources, Axios reports Trump told Netanyahu in a Thursday call to take steps to implement his Gaza peace plan, which calls for disarming Hamas and demilitarizing Gaza. The White House has not commented in the article.",
+      "why_it_matters": "Gaza's ceasefire and reconstruction depend on this plan, and it ties into US-Israel relations.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "geopolitics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Benjamin Netanyahu",
+        "Hamas"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T17:59:28.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Scoop: Trump asked Netanyahu to move on Gaza peace plan in post-election call",
+          "url": "https://www.axios.com/2026/11/08/trump-netanyahu-implement-gaza-peace-plan"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c18",
+      "drop": "2026-11-08T22",
+      "headline": "Europe to join US-brokered Ukraine talks in Abu Dhabi",
+      "summary": "France says European officials will attend this week's US-mediated Russia-Ukraine talks in Abu Dhabi, defying Kremlin objections. It would be the first three-way round since February. Talks are set for Nov. 10-11.",
+      "why_it_matters": "European involvement could shape any deal on Ukraine's security and sanctions, which affect NATO allies and US commitments.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "geopolitics",
+        "europe"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia",
+        "France"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-08T19:25:30.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c19",
+      "drop": "2026-11-08T22",
+      "headline": "Zaporizhzhia nuclear plant loses all outside power again",
+      "summary": "Ukraine's Zaporizhzhia nuclear plant switched to emergency diesel generators after losing its last external power line. The cause of the latest disconnection is unknown, according to The Hill.",
+      "why_it_matters": "Repeated power losses at Europe's largest nuclear plant raise the risk of a radiation accident.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "Zaporizhzhia Nuclear Power Plant",
+        "Ukraine"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T19:36:53.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Ukrainian nuclear plant switches to generators after losing final power line",
+          "url": "https://thehill.com/policy/international/6206805-ukraine-nuclear-safety-threatened/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c20",
+      "drop": "2026-11-08T22",
+      "headline": "Houthi strike damages Aramco tower in Riyadh finance district",
+      "summary": "A Houthi attack damaged a landmark in Riyadh's financial district, including the Saudi Aramco tower, Bloomberg reports. It comes about a month after deadly strikes on the city's airport disrupted travel and canceled major events.",
+      "why_it_matters": "Attacks on Saudi Arabia's capital threaten Gulf energy infrastructure and investor confidence.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "Houthis",
+        "Saudi Aramco",
+        "Saudi Arabia"
+      ],
+      "importance": 3,
+      "follows": "2026-11-08T06-c04",
+      "storyline_id": null,
+      "published_at": "2026-11-08T17:15:42.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/saudi-aramco-tower-targeted-in-rare-strike-on-riyadh-finance-hub"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c21",
+      "drop": "2026-11-08T22",
+      "headline": "Iran executes three men over January protests",
+      "summary": "Iran executed Hassan Dioband, Hamid Kazemi and Reza Zanganeh for 'armed unrest,' the BBC reports. They were said to be part of anti-government protests earlier this year.",
+      "why_it_matters": "The executions show Tehran's domestic crackdown continuing during the war with the US.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "crime-justice"
+      ],
+      "entities": [
+        "Iran"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T13:37:50.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Iran executes three men for 'armed unrest' after January protests",
+          "url": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c22",
+      "drop": "2026-11-08T22",
+      "headline": "Poland opens terrorism probe into Kraków shooting",
+      "summary": "Polish prosecutors opened a terrorism investigation after a 24-year-old killed six in Kraków's market square; officials say far-right ideology probably inspired him. Two police officers who pursued him were injured and hailed as heroes.",
+      "why_it_matters": "The attack in a NATO and EU country raises concerns about far-right violence across Europe.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "crime-justice"
+      ],
+      "entities": [
+        "Kraków",
+        "Poland"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T17-c01",
+      "storyline_id": null,
+      "published_at": "2026-11-08T11:50:15.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
+          "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Two police officers hailed as heroes for confronting Kraków gunman",
+          "url": "https://www.theguardian.com/world/2026/nov/08/two-police-officers-heroes-confronting-krakow-gunman-poland"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c23",
+      "drop": "2026-11-08T22",
+      "headline": "Train collision near Cairo kills seven, injures more than 100",
+      "summary": "Two trains collided in al-Ayyat, Giza province, killing seven and injuring over 100, officials said. Carriages derailed, and the conductor was among the dead. The president ordered a prompt investigation.",
+      "why_it_matters": "The crash is Egypt's latest deadly rail accident and raises safety questions in a major US partner.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "autos-transport"
+      ],
+      "entities": [
+        "Egypt"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T17:51:17.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Seven dead and more than 100 injured after trains collide in Egypt",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Collision of two trains in Egypt kills at least seven",
+          "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c24",
+      "drop": "2026-11-08T22",
+      "headline": "Pope Leo arrives in Argentina amid tensions with Milei",
+      "summary": "Pope Leo XIV began the first papal visit to Argentina in nearly four decades, welcomed by President Javier Milei. The two differ on many issues, and Milei once called Leo's predecessor the 'representative of the Evil One,' per the Guardian.",
+      "why_it_matters": "The first US-born pope's trip tests relations with a libertarian government aligned with Washington.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "culture-sports"
+      ],
+      "entities": [
+        "Pope Leo XIV",
+        "Javier Milei",
+        "Argentina"
+      ],
+      "importance": 2,
+      "follows": "2026-11-06T19-c39",
+      "storyline_id": null,
+      "published_at": "2026-11-08T16:30:16.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "President Milei welcomes Pope Leo during historic visit to Argentina",
+          "url": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina?traffic_source=rss"
+        },
+        {
+          "outlet": "NPR",
+          "title": "After a successful trip to Uruguay, Pope Leo heads to Argentina",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6033992/after-a-successful-trip-to-uruguay-pope-leo-heads-to-argentina"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c25",
+      "drop": "2026-11-08T22",
+      "headline": "New Zealand election: National gets path back to power",
+      "summary": "NPR reports no clear winner, with weeks of coalition talks ahead and Prime Minister Christopher Luxon leading a caretaker government. Bloomberg says the National Party has a path back to power, lifting the New Zealand dollar.",
+      "why_it_matters": "The outcome affects policy in a close US ally and currency markets.",
+      "region": "Asia",
+      "topics": [
+        "elections",
+        "asia"
+      ],
+      "entities": [
+        "Christopher Luxon",
+        "National Party",
+        "New Zealand"
+      ],
+      "importance": 2,
+      "follows": "2026-11-07T17-c03",
+      "storyline_id": null,
+      "published_at": "2026-11-08T16:46:15.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "New Zealand Dollar Advances as Ruling Party Gets Election Edge",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/new-zealand-dollar-advances-as-ruling-party-gets-election-edge"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c26",
+      "drop": "2026-11-08T22",
+      "headline": "Huawei goes on trial in New York over stolen tech and sanctions",
+      "summary": "Huawei, the world's largest telecoms firm, is on trial in New York, accused of stealing American technology and evading US sanctions, NPR reports. The outcome has global implications.",
+      "why_it_matters": "The case tests US efforts to enforce tech sanctions on China and may affect US-China relations.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "china",
+        "big-tech"
+      ],
+      "entities": [
+        "Huawei",
+        "China"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T22:04:13.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "The world's largest telecoms firm is on trial and the outcome has global implications",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6030670/the-worlds-largest-telecoms-firm-is-on-trial-and-the-outcome-has-global-implications"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c27",
+      "drop": "2026-11-08T22",
+      "headline": "Treasuries get boost as election hits the AI trade",
+      "summary": "Bloomberg says Wall Street sees the Treasury market as a winner of the Democratic midterm landslide, giving traders a reason to rethink this year's sharp selloff. Asian markets may open under pressure from the Nvidia probe.",
+      "why_it_matters": "Bond yields drive mortgage rates and borrowing costs for households and the government.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "Treasury",
+        "Nvidia"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T20:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Treasury Rally Gets New Boost as Election Hammers the AI Trade",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/treasury-rally-gets-new-boost-as-election-hammers-the-ai-trade"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Asian Markets at Risk of Pressure on Nvidia Probe: Markets Wrap",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/stock-market-today-dow-s-p-live-updates"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c28",
+      "drop": "2026-11-08T22",
+      "headline": "US earnings beat estimates by narrowest margin in four years",
+      "summary": "MarketWatch reports S&P 500 companies are mostly topping analysts' profit estimates, but by the narrowest margin in roughly four years.",
+      "why_it_matters": "Thin earnings cushions leave stocks and retirement accounts more exposed to disappointment.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "S&P 500"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T15:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "MarketWatch",
+          "title": "Corporate America’s profit numbers are just barely beating Wall Street’s expectations",
+          "url": "https://www.marketwatch.com/story/corporate-americas-profit-numbers-are-just-barely-beating-wall-streets-expectations-eaa67fe2?mod=mw_rss_topstories"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c29",
+      "drop": "2026-11-08T22",
+      "headline": "Latin America's Trump-linked trades face a Democratic Congress",
+      "summary": "Bloomberg says investors who priced Latin American assets by countries' standing with Trump now face a new variable: a Democratic-controlled US Congress.",
+      "why_it_matters": "US policy toward Latin America affects trade, migration and investments tied to the region.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "markets"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Congress"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T13:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Democratic Sweep Tests Trump-Linked Trades Across Latin America",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/democratic-sweep-tests-trump-linked-trades-across-latin-america"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c30",
+      "drop": "2026-11-08T22",
+      "headline": "COP31 climate talks open Monday with host urging visible progress",
+      "summary": "Talks involving nearly 190 countries begin Monday. The host says the summit must deliver a tangible outcome people can see is real, as El Niño, supercharged by fossil fuels, shapes the backdrop.",
+      "why_it_matters": "The talks set the pace for emissions cuts and climate finance that affect energy costs and extreme weather.",
+      "region": "Global",
+      "topics": [
+        "climate",
+        "geopolitics"
+      ],
+      "entities": [
+        "COP31",
+        "Australia"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T22-c26",
+      "storyline_id": null,
+      "published_at": "2026-11-08T13:24:00.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Cop31 must deliver climate progress that people can see is real, host says",
+          "url": "https://www.theguardian.com/environment/2026/nov/08/cop31-climate-summit-deliver-progress-real-host-says"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c31",
+      "drop": "2026-11-08T22",
+      "headline": "Hundreds of thousands march in Amsterdam against Israel",
+      "summary": "Al Jazeera reports hundreds of thousands joined Amsterdam's 'Red Line' protest, seeking stricter trade restrictions on Israel and a halt to all arms sales.",
+      "why_it_matters": "The protest shows European public pressure on governments over Israel policy and arms trade.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "middle-east"
+      ],
+      "entities": [
+        "Israel",
+        "Amsterdam"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T17:44:51.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel",
+          "url": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c32",
+      "drop": "2026-11-08T22",
+      "headline": "Labour expected to cut UK electric vehicle targets",
+      "summary": "The Guardian reports ministers are expected this week to make steep cuts to UK electric vehicle sales targets despite protests from some Labour MPs over climate commitments. Prime Minister Andy Burnham says he remains committed to the green transition.",
+      "why_it_matters": "UK targets influence global automakers' EV plans, including US firms selling in Britain.",
+      "region": "Europe",
+      "topics": [
+        "autos-transport",
+        "climate",
+        "europe"
+      ],
+      "entities": [
+        "Andy Burnham",
+        "Louise Haigh"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T17:51:19.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Labour expected to cut EV targets for UK’s car industry despite MPs’ protests",
+          "url": "https://www.theguardian.com/environment/2026/nov/08/labour-cut-ev-target-car-industry-despite-climate-concerns"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c33",
+      "drop": "2026-11-08T22",
+      "headline": "UK weighs banning under-16s from Vinted and eBay",
+      "summary": "The UK culture secretary confirmed the government is 'looking seriously' at adding Vinted and eBay to platforms that under-16s would be banned from next March, the BBC reports.",
+      "why_it_matters": "The widening age limits could influence US tech and marketplace firms' policies abroad.",
+      "region": "Europe",
+      "topics": [
+        "policy-regulation",
+        "big-tech"
+      ],
+      "entities": [
+        "Vinted",
+        "eBay",
+        "United Kingdom"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T15:37:25.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
+          "url": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c34",
+      "drop": "2026-11-08T22",
+      "headline": "BYD's Dutch offices raided over Land Rover 'copycat' claim",
+      "summary": "Bailiffs acting for Jaguar Land Rover reportedly raided BYD's Dutch offices and seized digital records before a court case this week over whether a BYD model infringes intellectual property on the Land Rover Defender.",
+      "why_it_matters": "The case tests how Western automakers defend designs against fast-rising Chinese rivals.",
+      "region": "Europe",
+      "topics": [
+        "autos-transport",
+        "china",
+        "courts"
+      ],
+      "entities": [
+        "BYD",
+        "Jaguar Land Rover"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T16:50:58.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Chinese carmaker BYD’s offices in Netherlands raided over JLR ‘copycat car’ claim",
+          "url": "https://www.theguardian.com/business/2026/nov/08/chinese-carmaker-byd-offices-raided-netherlands-land-rover-copycat-claim"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c35",
+      "drop": "2026-11-08T22",
+      "headline": "Apple pushes to make Siri a more capable AI agent",
+      "summary": "Bloomberg's Mark Gurman reports CEO John Ternus is pressing AI chief Craig Federighi to speed up Siri's roadmap and deliver an agent competitive with OpenAI's and Meta's products, according to The Verge.",
+      "why_it_matters": "Siri upgrades affect hundreds of millions of iPhone users and Apple's position in AI.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Apple",
+        "John Ternus",
+        "Craig Federighi"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T19:18:19.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Apple is racing to make Siri more agentic",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c36",
+      "drop": "2026-11-08T22",
+      "headline": "Elvis and Eminem rights holders sue AI music firm Suno",
+      "summary": "Rights holders of Elvis Presley's music and the publisher of Eminem's records sued Suno, claiming it illegally generates music and lyrics that mimic those artists. Suno faces other lawsuits.",
+      "why_it_matters": "The suits will help set limits on how AI can use artists' work.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "courts",
+        "culture-sports"
+      ],
+      "entities": [
+        "Suno",
+        "Elvis Presley",
+        "Eminem"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T17:23:19.000Z",
+      "sources": [
+        {
+          "outlet": "The Verge",
+          "title": "Elvis and Eminem rights holders are suing Suno",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c37",
+      "drop": "2026-11-08T22",
+      "headline": "Sequoia partners reportedly surprised by Botha's SpaceX board seat",
+      "summary": "TechCrunch reports Sequoia partners were blindsided when Roelof Botha joined SpaceX's board. The FT says the venture firm's new leaders closed its London office and a permanent capital fund.",
+      "why_it_matters": "Leadership changes at a top venture firm shape funding for startups.",
+      "region": "US",
+      "topics": [
+        "startups-vc",
+        "space"
+      ],
+      "entities": [
+        "Sequoia Capital",
+        "Roelof Botha",
+        "SpaceX"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T14:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
+          "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Sequoia’s new chiefs sweep away last remnants of Botha era",
+          "url": "https://www.ft.com/content/abf66424-1738-4c1b-9d6b-a868be30b474?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c38",
+      "drop": "2026-11-08T22",
+      "headline": "Amazon forms new home robotics team after Astro struggles",
+      "summary": "CNBC's analysis of job posts shows Amazon has formed a new home robotics team and is hiring for a 'new-to-world robot product,' even as its Astro home robot looks headed for the 'trash heap.'",
+      "why_it_matters": "A new Amazon robot could shape the consumer home robot market.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "big-tech"
+      ],
+      "entities": [
+        "Amazon"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T13:00:01.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
+          "url": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c39",
+      "drop": "2026-11-08T22",
+      "headline": "Gabon seeks $2 billion to revive Mabounié rare earths project",
+      "summary": "Gabon is seeking a $2 billion development of its stalled Mabounié niobium and rare-earth project with Emirati-backed New Energy Metals and Chinese engineering group ENFI, Bloomberg reports.",
+      "why_it_matters": "Rare earths are critical for electronics and defense, and China dominates supply.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "trade",
+        "china"
+      ],
+      "entities": [
+        "Gabon",
+        "ENFI",
+        "New Energy Metals"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T11:27:12.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Gabon Seeks $2 Billion to Revive Mabounie Rare Earths Project",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/gabon-seeks-2-billion-to-revive-mabounie-rare-earths-project"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T22-c40",
+      "drop": "2026-11-08T22",
+      "headline": "Cardiac arrest survival did not improve after responder training",
+      "summary": "A new study found survival after sudden cardiac arrest did not improve with advance training of bystanders and emergency responders. Researchers are not ready to rule out benefits, STAT reports.",
+      "why_it_matters": "Public CPR training programs are widespread, so evidence on what saves lives guides health spending.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T22:15:00.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "Survival after sudden cardiac arrest didn’t improve despite training bystanders, emergency responders",
+          "url": "https://www.statnews.com/2026/11/08/sudden-cardiac-arrest-survival-cpr-defibrillation-training/?utm_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c41",
+      "drop": "2026-11-08T22",
+      "headline": "Physicists use electrical noise to probe superconductor mystery",
+      "summary": "Researchers listened to electronic noise to tell whether electrons in a superconductor have paired up, helping crack a long-running puzzle, Ars Technica reports.",
+      "why_it_matters": "Understanding superconductors could eventually lead to more efficient power grids and electronics.",
+      "region": "Global",
+      "topics": [
+        "science"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T12:15:31.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "Physicists listened to electrical noise to crack a superconductor mystery",
+          "url": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c42",
+      "drop": "2026-11-08T22",
+      "headline": "Young mathematicians solve 55-year-old juggling-inspired conjecture",
+      "summary": "A group of young mathematicians solved a conjecture first inspired by juggling, found through randomness and friendship, Wired reports. The title notes it was solved by humans, not AI.",
+      "why_it_matters": "It shows human researchers still solving long-open math problems amid the rise of AI.",
+      "region": "Global",
+      "topics": [
+        "science"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T10:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "Wired",
+          "title": "A 55-Year-Old Math Problem Was Solved—This Time by Humans",
+          "url": "https://www.wired.com/story/a-55-year-old-math-problem-was-solved-this-time-by-humans/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c43",
+      "drop": "2026-11-08T22",
+      "headline": "NASA opens $1 million Moon Base Student Challenge",
+      "summary": "NASA announced a $1 million Moon Base Student Challenge at Kennedy Space Center, inviting US high school and post-secondary student teams to contribute designs for a lunar base.",
+      "why_it_matters": "The contest feeds the US push to return to the Moon and build a workforce.",
+      "region": "US",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "NASA"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T15:26:38.000Z",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
+          "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T22-c44",
+      "drop": "2026-11-08T22",
+      "headline": "3D printing and drones fuel return of antipersonnel mines in Ukraine",
+      "summary": "New Scientist reports 3D printing, microcontrollers and drones have enabled a resurgence of antipersonnel mines in the Russia-Ukraine war, making them deadlier and more accessible.",
+      "why_it_matters": "Cheap, easily built mines could spread beyond Ukraine and threaten civilians for decades.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "defense"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T10:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "New Scientist",
+          "title": "Antipersonnel mines have returned in Ukraine and now threaten the world",
+          "url": "https://www.newscientist.com/article/2597901-antipersonnel-mines-have-returned-in-ukraine-and-now-threaten-the-world/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}
