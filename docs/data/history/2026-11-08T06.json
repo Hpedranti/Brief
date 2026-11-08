@@ -1,0 +1,840 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-08T06",
+    "at": "2026-11-08T06:57:32Z",
+    "model": "claude-sonnet-5-5",
+    "count": 29
+  },
+  "cards": [
+    {
+      "id": "2026-11-08T06-c01",
+      "drop": "2026-11-08T06",
+      "headline": "US launches task force to disrupt Iran's land supply routes",
+      "summary": "The US said it has started an operation to stop Iran from using ground routes to move weapons and other materials. Iranian state media reported blasts on Qeshm Island and in Jask, Sirik and Bandar Abbas.",
+      "why_it_matters": "It widens the US campaign beyond air defenses and shipping, raising the risk of escalation while talks over an interim deal continue.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "Iran",
+        "United States",
+        "Qeshm"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-08T02:34:04.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US launches task force to disrupt Iran’s land-based supply routes",
+          "url": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c02",
+      "drop": "2026-11-08T06",
+      "headline": "US aircraft disable commercial ship in Gulf of Oman",
+      "summary": "CENTCOM said a US military aircraft fired on and disabled a commercial vessel on Saturday after its civilian crew ignored repeated warnings. The Hill reports it as the latest move in the conflict with Iran.",
+      "why_it_matters": "Strikes on merchant shipping can disrupt oil flows and insurance costs, and raise the odds of clashes with third countries.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "CENTCOM",
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-08T01:45:13.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "US military fires at cargo ship in Gulf of Oman",
+          "url": "https://thehill.com/policy/defense/6206359-us-military-disables-oman-vessel/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c03",
+      "drop": "2026-11-08T06",
+      "headline": "Rubio defends Trump's decision to start the Iran conflict",
+      "summary": "Secretary of State Marco Rubio told a Mar-a-Lago event Friday that Trump was elected to do hard things, defending the Iran war days after Vice President Vance reportedly blamed it for GOP midterm losses.",
+      "why_it_matters": "It shows how the administration is framing the war as Democrats take Congress and pledge to use funding power to end it.",
+      "region": "US",
+      "topics": [
+        "geopolitics",
+        "us-politics"
+      ],
+      "entities": [
+        "Marco Rubio",
+        "Donald Trump",
+        "Iran"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-07T22:31:28.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Rubio defends Trump’s Iran decision: ‘Elected to do the hard things’",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796607/rubio-defends-trump-iran-decision/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c04",
+      "drop": "2026-11-08T06",
+      "headline": "Houthis say at least 33 killed in Saudi air strike",
+      "summary": "The Houthis said a Saudi air strike killed at least 33 people. Saudi Arabia, which leads the coalition fighting the Houthis in Yemen, has not commented, and the claim is unverified.",
+      "why_it_matters": "Yemen's war is feeding the wider regional conflict involving Iran and Red Sea shipping, which affects oil prices and security.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "Houthis",
+        "Saudi Arabia",
+        "Yemen"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T22-c08",
+      "storyline_id": null,
+      "published_at": "2026-11-08T04:03:12.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Houthis say at least 33 killed in Saudi air strike",
+          "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c05",
+      "drop": "2026-11-08T06",
+      "headline": "Sotomayor says she hopes court will overturn immunity ruling",
+      "summary": "Justice Sonia Sotomayor said at a Mount Vernon civics talk that she hopes the court's decision granting former presidents broad criminal immunity will be overturned, adding that colleagues have done some crazy things.",
+      "why_it_matters": "Rare public criticism of a colleague-backed ruling from a sitting justice, as the court's role in presidential power stays contested.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Sonia Sotomayor",
+        "Supreme Court"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T03:49:29.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Sotomayor says she hopes Supreme Court will overturn presidential immunity decision",
+          "url": "https://thehill.com/regulation/court-battles/6206392-sotomayor-hopes-immunity-overturned/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c06",
+      "drop": "2026-11-08T06",
+      "headline": "Dana White to meet Trump Monday on press secretary offer",
+      "summary": "The UFC chief said at a London boxing event he is flying to Washington to meet Trump on Monday. BBC noted it was unclear how genuine the president's public offer of the job was.",
+      "why_it_matters": "The pick would fill a high-profile White House role as Trump reshuffles staff after the midterms.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Dana White",
+        "Donald Trump",
+        "UFC"
+      ],
+      "importance": 2,
+      "follows": "2026-11-07T22-c02",
+      "storyline_id": null,
+      "published_at": "2026-11-08T00:31:53.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+          "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Dana White responds to question about Trump’s White House press secretary request",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796653/dana-white-responds-question-trump-white-house-press-secretary-request/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c07",
+      "drop": "2026-11-08T06",
+      "headline": "Drone attack on Colombian army base kills three soldiers",
+      "summary": "A drone attack on an army base in Santa Rosa del Sur killed three soldiers and wounded 16. President de la Espriella said those responsible will have nowhere to hide.",
+      "why_it_matters": "Armed groups' use of drones raises security risks as US and Colombian troops hold large joint exercises in the country.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "war-conflict"
+      ],
+      "entities": [
+        "Colombia",
+        "de la Espriella"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T04:56:37.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Drone attack on Colombian army base kills three soldiers and wounds 16",
+          "url": "https://www.aljazeera.com/news/2026/11/8/drone-attack-on-colombian-army-base-kills-three-soldiers-and-wounds-16?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c08",
+      "drop": "2026-11-08T06",
+      "headline": "Magnitude 5.7 earthquake injures more than 20 in central Japan",
+      "summary": "The quake struck Shizuoka prefecture and injured more than 20 people. Authorities warned of possible strong aftershocks in the coming days.",
+      "why_it_matters": "Shizuoka is home to major manufacturing and a seismically watched coast; aftershocks could affect supply chains and travelers.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "science"
+      ],
+      "entities": [
+        "Japan",
+        "Shizuoka"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T04:20:57.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Earthquake hits central Japan, injuring more than 20 people",
+          "url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c09",
+      "drop": "2026-11-08T06",
+      "headline": "China set to lead world in energy investment at $940 billion",
+      "summary": "China is expected to invest $940 billion in energy in 2026, the most of any country, according to a report from a Chinese policy group as relayed by CCTV.",
+      "why_it_matters": "The figure comes from a Chinese state-linked source, but it signals competition with the US in power, grids and clean-energy supply chains.",
+      "region": "Asia",
+      "topics": [
+        "energy",
+        "china"
+      ],
+      "entities": [
+        "China",
+        "CCTV"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T04:02:33.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "China Set to Lead World in Energy Investment in 2026, CCTV Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/china-set-to-lead-world-in-energy-investment-in-2026-cctv-says"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c10",
+      "drop": "2026-11-08T06",
+      "headline": "China sets 2,360 delegate quota for 2027 Party Congress",
+      "summary": "Xinhua reported the Communist Party's 21st national congress in 2027 will have 2,360 delegates, 60 more than the previous gathering.",
+      "why_it_matters": "The congress will shape Xi Jinping's leadership and China's direction on trade, technology and Taiwan.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "geopolitics"
+      ],
+      "entities": [
+        "Communist Party of China",
+        "Xinhua"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T03:29:25.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "China Raises Delegate Count to 2,360 for 2027 Party Congress",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/china-raises-delegate-count-to-2-360-for-2027-party-congress"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c11",
+      "drop": "2026-11-08T06",
+      "headline": "Uyghurs facing deportation from Thailand fear forced labor in China",
+      "summary": "Activists say two more Uyghurs could be deported from Thailand to China, where one of the men says they would be treated like slaves. Activists cite reports of torture and abuse of the minority.",
+      "why_it_matters": "Deportations to China test Thailand's ties with Beijing and international refugee protections that the US has publicly backed.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "china"
+      ],
+      "entities": [
+        "Thailand",
+        "China",
+        "Uyghurs"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T03:00:28.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+          "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c12",
+      "drop": "2026-11-08T06",
+      "headline": "El Hierro declares emergency as over 3,300 migrants arrive",
+      "summary": "The Canary island of El Hierro asked Spain's government for help after more than 3,300 people arrived on boats since the start of November.",
+      "why_it_matters": "The surge strains a small island and keeps Atlantic migration, a central issue in European politics, in focus.",
+      "region": "Europe",
+      "topics": [
+        "europe"
+      ],
+      "entities": [
+        "El Hierro",
+        "Spain"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T23-c21",
+      "storyline_id": null,
+      "published_at": "2026-11-08T01:37:55.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Canary Islands’ El Hierro declares emergency amid migrant, refugee influx",
+          "url": "https://www.aljazeera.com/news/2026/11/8/canary-islands-el-hierro-declares-emergency-amid-migrant-refugee-influx?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c13",
+      "drop": "2026-11-08T06",
+      "headline": "Wisconsin state trooper released after ICE detention",
+      "summary": "Carel Aaron Van Der Merwe, 21 and originally from South Africa, was freed Friday after ICE agents detained him the day before while he was traveling to visit family. His lawyer called it a dramatic experience.",
+      "why_it_matters": "The case shows how immigration enforcement can reach people working in law enforcement, a point of dispute over how broadly it should apply.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "crime-justice"
+      ],
+      "entities": [
+        "ICE",
+        "Wisconsin State Patrol"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T00:58:51.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Wisconsin state trooper released from ICE custody after 'dramatic' arrest",
+          "url": "https://thehill.com/homenews/state-watch/6206341-wisconsin-trooper-ice-arrest/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c14",
+      "drop": "2026-11-08T06",
+      "headline": "Shapiro signals openness to abolishing the Electoral College",
+      "summary": "Pennsylvania Gov. Josh Shapiro, a Democrat, expressed openness to abolishing the Electoral College when asked by Pod Save America's Jon Favreau at an event in Washington after the midterms.",
+      "why_it_matters": "A prominent potential 2028 contender raising the idea could shape the Democratic debate over how presidents are elected.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Josh Shapiro",
+        "Democratic Party"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T02:22:44.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Josh Shapiro signals support for abolishing Electoral College",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4796647/josh-shapiro-signals-support-abolish-electoral-college/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c15",
+      "drop": "2026-11-08T06",
+      "headline": "Centrists make up most of new Democratic Congress, FT says",
+      "summary": "The Financial Times reports most Democrats who won in the midterm wave are moderates, even as progressive winners draw more attention. Hillary Clinton urged the party to put points on the board with legislation.",
+      "why_it_matters": "The mix of moderates and progressives will shape what Democrats can pass and how they use oversight power.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Democratic Party",
+        "Hillary Clinton"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T00:39:19.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "‘Radical left’ get the headlines but centrists dominate new US Congress",
+          "url": "https://www.ft.com/content/c8692ed7-f32b-487f-9efa-3ccd3d144f42?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Hillary Clinton says Democrats should prioritize passing legislation: ‘Put some points on the board’",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4796638/hillary-clinton-democrats-prioritize-passing-legislation/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c16",
+      "drop": "2026-11-08T06",
+      "headline": "Republicans weigh Trumpism or a new path after midterm losses",
+      "summary": "BBC says Republicans can stick with Trumpism or chart a new course after the Trump coalition fractured. Heritage Foundation president Kevin Roberts told NPR about his priorities for the party's future.",
+      "why_it_matters": "The direction Republicans choose will shape the 2028 primary, party leadership fights and policy in the lame-duck session.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Republican Party",
+        "Heritage Foundation",
+        "Kevin Roberts"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T22:12:03.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "The Trump coalition is shattered - what will Republicans do now?",
+          "url": "https://www.bbc.co.uk/news/articles/cm3r5gnxqz3jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "NPR",
+          "title": "President of The Heritage Foundation looks ahead to the future of the GOP",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6029779/president-of-the-heritage-foundation-looks-ahead-to-the-future-of-the-gop"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c17",
+      "drop": "2026-11-08T06",
+      "headline": "Sunday shows to feature Democratic agenda and leadership infighting",
+      "summary": "The Hill previews Sunday talk shows, where lawmakers are expected to lay out plans for the lame-duck period and Democrats' legislative agenda, alongside disputes over congressional leadership.",
+      "why_it_matters": "The plans signal what Democrats will prioritize when they take control of both chambers in January.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Democratic Party",
+        "Congress"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T23:27:18.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Sunday shows preview: Democrats lay out legislative agenda; Congress leadership sparks infighting",
+          "url": "https://thehill.com/homenews/sunday-talk-shows/6206302-congress-leadership-fight-democrats-agenda-midterms/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c18",
+      "drop": "2026-11-08T06",
+      "headline": "Crypto industry braces for probes of Trump family ties",
+      "summary": "The Financial Times reports crypto firms are preparing for scrutiny after Democrats vowed to investigate the president's family following their midterm win.",
+      "why_it_matters": "Investigations could affect crypto regulation and firms with business ties to the Trump family, which holders and investors may feel.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "markets"
+      ],
+      "entities": [
+        "Democratic Party",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:00:19.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Crypto industry braces for reckoning over Trump ties",
+          "url": "https://www.ft.com/content/f1b98a61-4103-447c-bb9a-3dccc0819f61?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c19",
+      "drop": "2026-11-08T06",
+      "headline": "Apple saved $2.7 billion in taxes by booking profits in Singapore",
+      "summary": "New disclosures show Singapore has overtaken Ireland as Apple's biggest tax shelter, saving the iPhone maker $2.7 billion in taxes, the Financial Times reports.",
+      "why_it_matters": "It feeds the debate over corporate tax avoidance and global minimum tax rules that affect US revenue.",
+      "region": "Global",
+      "topics": [
+        "big-tech",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Apple",
+        "Singapore",
+        "Ireland"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:00:11.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Apple saves $2.7bn in taxes by booking profits in Singapore",
+          "url": "https://www.ft.com/content/49453406-99f2-4f5b-8f5d-01dc8cac5ede?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c20",
+      "drop": "2026-11-08T06",
+      "headline": "Russia races to build rival to Musk's Starlink",
+      "summary": "The Financial Times reports Moscow's flagship space project would enable more deadly drone strikes deep inside Ukraine by offering Russian forces satellite connectivity.",
+      "why_it_matters": "Satellite internet has become a battlefield asset, and a Russian rival would reduce reliance on Western networks.",
+      "region": "Europe",
+      "topics": [
+        "space",
+        "defense"
+      ],
+      "entities": [
+        "Russia",
+        "Starlink",
+        "Ukraine"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:00:11.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Russia races to build rival to Elon Musk’s Starlink",
+          "url": "https://www.ft.com/content/423ca208-8e22-4fb3-a76d-b9c722fd8cc0?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c21",
+      "drop": "2026-11-08T06",
+      "headline": "NASA awards Moon Base projects, including nuclear-powered rover",
+      "summary": "NASA announced awards to expand Moon Base work, covering commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface systems.",
+      "why_it_matters": "The awards show how NASA is building a lunar presence with commercial partners as the US competes with China.",
+      "region": "US",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "NASA"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T22:47:03.000Z",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c22",
+      "drop": "2026-11-08T06",
+      "headline": "Salvadoran troops fighting gangs in Haiti win some local cheers",
+      "summary": "Some Haitians have cheered El Salvador troops deployed to fight gangs in the capital, praising President Nayib Bukele's approach, Al Jazeera reports.",
+      "why_it_matters": "Haiti's gang crisis affects Caribbean stability and US migration policy, and outside forces are testing new approaches.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "war-conflict"
+      ],
+      "entities": [
+        "El Salvador",
+        "Haiti",
+        "Nayib Bukele"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:09:39.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Haitians cheer El Salvador’s Bukele amid gang war",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/haitians-cheer-el-salvadors-bukele-amid-gang-war?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c23",
+      "drop": "2026-11-08T06",
+      "headline": "AI slump revives Asia's forgotten trades as Wood sees 'wall of worry'",
+      "summary": "Bloomberg says the AI trade's unraveling is pushing investors toward out-of-favor Chinese and Indian stocks. Ark's Cathie Wood told CNBC she feels better when markets are worried.",
+      "why_it_matters": "Shifts in where money flows after the tech rout can affect retirement portfolios and global fund performance.",
+      "region": "Global",
+      "topics": [
+        "markets"
+      ],
+      "entities": [
+        "Cathie Wood",
+        "Ark Invest"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-08T00:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "AI Slump Revives Asia’s Forgotten Trades From China to India",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/ai-slump-revives-asia-s-forgotten-trades-from-china-to-india"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Cathie Wood 'always feels better when the market is worried' — here's why",
+          "url": "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c24",
+      "drop": "2026-11-08T06",
+      "headline": "Midterms leave Musk and data centers facing a rockier road",
+      "summary": "TechCrunch's Equity podcast discusses what the Democratic wins mean for the tech industry, including Elon Musk's businesses and data center plans.",
+      "why_it_matters": "Political backlash against data centers could affect power prices, local projects and the AI companies building them.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Elon Musk"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-07T22:07:22.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+          "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c25",
+      "drop": "2026-11-08T06",
+      "headline": "AI speeds recruitment and pressures agency fees",
+      "summary": "Recruiters say AI is speeding up candidate screening and reshaping agency work, raising questions about whether percentage-based placement fees can hold.",
+      "why_it_matters": "AI is changing how people find jobs and how hiring intermediaries earn money.",
+      "region": "Global",
+      "topics": [
+        "jobs-labor",
+        "ai"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T06:00:01.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "AI is speeding up recruitment — and putting agency fees under pressure",
+          "url": "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c26",
+      "drop": "2026-11-08T06",
+      "headline": "FT asks whether Europe is serious about ending tech dependence",
+      "summary": "The Financial Times says Brussels is moving in the right direction on reducing reliance on foreign technology but could push national governments further.",
+      "why_it_matters": "European moves toward tech sovereignty could affect US cloud and software firms that dominate the market.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "big-tech"
+      ],
+      "entities": [
+        "European Union"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:00:19.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Is Europe getting serious about ending tech dependence?",
+          "url": "https://www.ft.com/content/bd763f67-4c23-4e55-8fbf-3ca0ed520175?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c27",
+      "drop": "2026-11-08T06",
+      "headline": "Labubu craze fades as Pop Mart revenue falls",
+      "summary": "Pop Mart's revenue has fallen as appetite for its collectible Labubu monsters wanes, the BBC reports.",
+      "why_it_matters": "A faded fad shows how quickly consumer demand for collectibles can swing, with effects on retailers and investors.",
+      "region": "Asia",
+      "topics": [
+        "culture-sports",
+        "markets"
+      ],
+      "entities": [
+        "Pop Mart",
+        "Labubu"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T23:02:35.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c28",
+      "drop": "2026-11-08T06",
+      "headline": "Studies explore harder-than-expected blood pressure control",
+      "summary": "New research presented at the American Heart Association conference examines how to lower blood pressure after stroke and in people with diabetes, and why doing so remains challenging.",
+      "why_it_matters": "High blood pressure affects roughly half of US adults, so better treatment targets could change routine care.",
+      "region": "US",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "American Heart Association"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T21:39:02.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "Lowering blood pressure after stroke or with diabetes poses challenges, in research and practice",
+          "url": "https://www.statnews.com/2026/11/07/new-studies-on-blood-pressure-management-aha-conference-news/?utm_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c29",
+      "drop": "2026-11-08T06",
+      "headline": "Nintendo's Zelda remake gets a review",
+      "summary": "Nintendo has released a remake of a game widely considered one of the best ever. The BBC's Tom Gerken weighs in on whether it captures the original's magic.",
+      "why_it_matters": "A major release for a large gaming audience heading into the holiday shopping season.",
+      "region": "Global",
+      "topics": [
+        "culture-sports",
+        "big-tech"
+      ],
+      "entities": [
+        "Nintendo"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T00:37:45.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Can the Zelda remake capture the magic of the original?",
+          "url": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    }
+  ]
+}

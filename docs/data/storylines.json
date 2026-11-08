@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T22:30:18Z",
+  "updated_at": "2026-11-08T06:57:32Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -449,22 +449,27 @@
           "date": "2026-11-04",
           "text": "Scott Wiener is poised to win Pelosi's seat; Nithya Raman is projected to unseat Los Angeles Mayor Karen Bass, per Decision Desk HQ.",
           "url": "https://thehill.com/homenews/house/6184793-scott-wiener-wins-pelosi-seat/"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Sen. Ted Cruz says Republicans did not grasp cost-of-living concerns and calls Democratic Texas wins a 'blue tsunami'.",
-          "url": "https://www.foxnews.com/politics/ted-cruz-says-blue-tsunami-took-over-texas-after-democrats-swept-statewide-races"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Trump confirmed another round of limited US strikes on Iranian air defenses and claimed 'a lot of progress' in talks. Vance has led indirect talks; Qatar-led mediators push an interim deal and nuclear inspections. The IRGC says it is building underground weapons sites. 23 US troops have died.",
+      "summary": "The US launched a task force to cut Iran's land supply routes and disabled a commercial ship in the Gulf of Oman, while Trump claims progress in talks. Qatar-led mediators push an interim deal; 23 US troops have died.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-07",
       "events": [
+        {
+          "date": "2026-11-07",
+          "text": "US launches a task force to stop Iran moving weapons and materials over land routes; Iranian media report blasts on Qeshm and in Bandar Abbas.",
+          "url": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss"
+        },
+        {
+          "date": "2026-11-07",
+          "text": "CENTCOM says it disabled a commercial vessel in the Gulf of Oman after its crew ignored repeated warnings.",
+          "url": "https://thehill.com/policy/defense/6206359-us-military-disables-oman-vessel/"
+        },
         {
           "date": "2026-11-07",
           "text": "Iran's IRGC says it is building underground sites for weapons production and storage so missile output can continue under bombardment.",
@@ -554,16 +559,6 @@
           "date": "2026-11-03",
           "text": "Iran calls the US reply to its Hormuz plan unconvincing as indirect talks continue; Trump confirms a strike on an Iranian anti-aircraft facility.",
           "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Trump tells the FT the US has no immediate plan to strike Iran and calls his position brilliant; oil edges higher.",
-          "url": "https://www.ft.com/content/f3afd549-65fc-487e-922e-2748fa6a8a5f?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Yemen's government accuses Iran's IRGC and Hezbollah of sending 21 experts to back the Houthis.",
-          "url": "https://www.aljazeera.com/news/2026/11/3/yemen-govt-accuses-irgc-hezbollah-of-sending-21-experts-back-houthis?traffic_source=rss"
         }
       ]
     },

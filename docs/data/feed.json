@@ -1,13 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-11-07T22:30:18Z",
+  "updated_at": "2026-11-08T06:57:32Z",
   "drops": [
-    {
-      "id": "2026-11-05T23",
-      "at": "2026-11-05T23:57:21Z",
-      "model": "claude-sonnet-5-5",
-      "count": 37
-    },
     {
       "id": "2026-11-06T07",
       "at": "2026-11-06T07:43:07Z",
@@ -43,1166 +37,15 @@
       "at": "2026-11-07T22:30:18Z",
       "model": "claude-sonnet-5-5",
       "count": 27
+    },
+    {
+      "id": "2026-11-08T06",
+      "at": "2026-11-08T06:57:32Z",
+      "model": "claude-sonnet-5-5",
+      "count": 29
     }
   ],
   "cards": [
-    {
-      "id": "2026-11-05T23-c01",
-      "drop": "2026-11-05T23",
-      "headline": "S&P 500 loses record $2.9 trillion as AI rout deepens",
-      "summary": "US stocks fell sharply Thursday. The FT put Wall Street's loss at $3.2 trillion and the Nasdaq 100 down 6.4%. MarketWatch called it tech's worst day since 2020, and CNBC said the Magnificent 7 lost $1 trillion.",
-      "why_it_matters": "Retirement accounts and index funds are heavily weighted to these stocks, so the losses reach ordinary savers.",
-      "region": "US",
-      "topics": [
-        "markets",
-        "ai"
-      ],
-      "entities": [
-        "Nasdaq",
-        "S&P 500",
-        "Nvidia"
-      ],
-      "importance": 5,
-      "follows": "2026-11-05T20-c01",
-      "storyline_id": "sl-ai-debt-selloff",
-      "published_at": "2026-11-05T22:41:52.000Z",
-      "sources": [
-        {
-          "outlet": "Financial Times",
-          "title": "Wall Street sheds $3.2tn as Democratic midterm sweep triggers brutal AI rout",
-          "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1"
-        },
-        {
-          "outlet": "MarketWatch",
-          "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
-          "url": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories"
-        },
-        {
-          "outlet": "CNBC",
-          "title": "Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge",
-          "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c02",
-      "drop": "2026-11-05T23",
-      "headline": "Asian markets brace for losses as Korean chip stocks sink 10%",
-      "summary": "Futures point to steep declines in Japan and elsewhere in Asia on Friday. South Korean chip stocks fell about 10% in pre-market trading on fears a Democratic Congress will slow AI infrastructure expansion.",
-      "why_it_matters": "The selloff is spreading globally, and Asian chipmakers supply much of the hardware in US devices.",
-      "region": "Asia",
-      "topics": [
-        "markets",
-        "chips"
-      ],
-      "entities": [
-        "South Korea",
-        "Japan"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-ai-debt-selloff",
-      "published_at": "2026-11-05T23:26:33.000Z",
-      "sources": [
-        {
-          "outlet": "Bloomberg",
-          "title": "Korean Chip Stocks Sink 10% in Pre-Market as AI Fears Deepen",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/korean-chip-stocks-sink-10-in-pre-market-as-ai-fears-deepen"
-        },
-        {
-          "outlet": "Bloomberg",
-          "title": "Japanese Equities Set to Plunge as AI Selloff Continues",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/japanese-equities-set-to-plunge-as-ai-selloff-continues"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c03",
-      "drop": "2026-11-05T23",
-      "headline": "Neocloud IREN says $4 billion in annualized revenue is delayed",
-      "summary": "IREN said some revenue is being pushed from 2026 into early next year at a customer's request, after a sharp stock drop. MarketWatch reported the shares later rose on a new cloud deal and investment-grade backlog.",
-      "why_it_matters": "Delays at AI cloud providers feed investor doubts about how fast data center spending turns into revenue.",
-      "region": "US",
-      "topics": [
-        "markets",
-        "ai"
-      ],
-      "entities": [
-        "IREN"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": "sl-ai-debt-selloff",
-      "published_at": "2026-11-05T22:21:00.000Z",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
-          "url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html"
-        },
-        {
-          "outlet": "MarketWatch",
-          "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
-          "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c04",
-      "drop": "2026-11-05T23",
-      "headline": "Meta warns data center backlash could make AI expansion harder",
-      "summary": "Meta said growing political opposition to data centers, shown in the election, could threaten future AI investment as communities push back against large infrastructure projects.",
-      "why_it_matters": "Local fights over power and water now shape where AI gets built and what it costs.",
-      "region": "US",
-      "topics": [
-        "ai",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Meta"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-ai-debt-selloff",
-      "published_at": "2026-11-05T19:12:39.000Z",
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-          "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c05",
-      "drop": "2026-11-05T23",
-      "headline": "House Republicans ask Nvidia's Huang to brief Congress on China ties",
-      "summary": "Three House Republican committee chairs asked Nvidia CEO Jensen Huang for a closed-door briefing about reported ties to a woman accused of spying for China. Nvidia's response was not in the reports.",
-      "why_it_matters": "Nvidia chips are central to US-China technology rivalry and to the AI boom.",
-      "region": "US",
-      "topics": [
-        "chips",
-        "china",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Nvidia",
-        "Jensen Huang",
-        "John Moolenaar"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T22:58:34.000Z",
-      "sources": [
-        {
-          "outlet": "Axios",
-          "title": "Nvidia CEO called in by lawmakers over ties to alleged Chinese spy",
-          "url": "https://www.axios.com/2026/11/05/jensen-huang-nvidia-congress-china"
-        },
-        {
-          "outlet": "The Hill",
-          "title": "Top GOP House lawmakers want Nvidia's Jensen Huang to come to Congress",
-          "url": "https://thehill.com/policy/technology/6202702-gop-summons-nvidia-ceo-huang/"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c06",
-      "drop": "2026-11-05T23",
-      "headline": "Trump says Iran war decision is coming soon",
-      "summary": "After meeting his national security team, Trump said he will soon decide whether to resume all-out war with Iran. Bloomberg reports oil is heading for its biggest weekly loss since April as investors weigh prospects of an end to the war.",
-      "why_it_matters": "The choice affects US troops, gasoline prices and the wider Gulf region.",
-      "region": "Middle East",
-      "topics": [
-        "war-conflict",
-        "energy",
-        "us-politics"
-      ],
-      "entities": [
-        "Donald Trump",
-        "Iran"
-      ],
-      "importance": 4,
-      "follows": null,
-      "storyline_id": "sl-us-iran-war",
-      "published_at": "2026-11-05T23:08:17.000Z",
-      "sources": [
-        {
-          "outlet": "Axios",
-          "title": "Trump meets with national security team, says Iran war decision coming \"soon\"",
-          "url": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision"
-        },
-        {
-          "outlet": "Bloomberg",
-          "title": "Latest Oil Market News and Analysis for Nov. 6",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/latest-oil-market-news-and-analysis-for-nov-6"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c07",
-      "drop": "2026-11-05T23",
-      "headline": "Saudi-led coalition intercepts missile fired toward Medina",
-      "summary": "A Saudi-led coalition intercepted a missile fired toward Medina. Al Jazeera says it followed a Saudi civil defence warning of potential danger near the port of Yanbu. The origin of the launch was not stated in the summary.",
-      "why_it_matters": "An attack near Islam's second-holiest city and a key oil port could widen regional tensions and unsettle energy markets.",
-      "region": "Middle East",
-      "topics": [
-        "middle-east",
-        "war-conflict"
-      ],
-      "entities": [
-        "Saudi Arabia",
-        "Medina",
-        "Yanbu"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T20:48:47.000Z",
-      "sources": [
-        {
-          "outlet": "Al Jazeera",
-          "title": "Saudi coalition intercepts missile fired towards Medina",
-          "url": "https://www.aljazeera.com/news/2026/11/5/saudi-coalition-intercepts-missile-fired-towards-medina?traffic_source=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c08",
-      "drop": "2026-11-05T23",
-      "headline": "Iran war is draining US naval forces from the western Pacific",
-      "summary": "Defense One reports the war on Iran is pulling US naval forces out of the western Pacific. One expert called it a problem for credibility and for allies in the Far East.",
-      "why_it_matters": "Thinner US presence in Asia affects deterrence against China and the confidence of allies like Japan and South Korea.",
-      "region": "Asia",
-      "topics": [
-        "defense",
-        "geopolitics"
-      ],
-      "entities": [
-        "US Navy",
-        "Iran"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-us-iran-war",
-      "published_at": "2026-11-05T21:45:20.000Z",
-      "sources": [
-        {
-          "outlet": "Defense One",
-          "title": "The war on Iran is stripping the western Pacific of US naval forces",
-          "url": "https://www.defenseone.com/threats/2026/11/war-iran-stripping-western-pacific-us-naval-forces/417079/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c09",
-      "drop": "2026-11-05T23",
-      "headline": "RAF Fairford air show moved permanently after suspected terror threat",
-      "summary": "Organizers of the world's largest military air show said it is leaving RAF Fairford for MOD Boscombe Down, over a month after a suspected Iranian plot against the base.",
-      "why_it_matters": "Fairford hosts US forces, and the plot shows how the Iran conflict reaches allied bases in Europe.",
-      "region": "Europe",
-      "topics": [
-        "defense",
-        "geopolitics"
-      ],
-      "entities": [
-        "RAF Fairford",
-        "Iran"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T20:55:19.000Z",
-      "sources": [
-        {
-          "outlet": "Defense News",
-          "title": "Popular military air show permanently pulled from RAF Fairford after suspected terror threat",
-          "url": "https://www.defensenews.com/global/europe/2026/11/05/popular-military-air-show-permanently-pulled-from-raf-fairford-after-suspected-terror-threat/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c10",
-      "drop": "2026-11-05T23",
-      "headline": "Nithya Raman declared winner of Los Angeles mayoral race",
-      "summary": "Democratic socialist Nithya Raman defeated incumbent Mayor Karen Bass and will be the city's first South Asian mayor. She campaigned on homelessness and affordable housing, and Axios noted New York's Zohran Mamdani is also a democratic socialist.",
-      "why_it_matters": "The nation's two largest cities will now have democratic socialist mayors, a shift in big-city Democratic politics.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "us-politics"
-      ],
-      "entities": [
-        "Nithya Raman",
-        "Karen Bass"
-      ],
-      "importance": 3,
-      "follows": "2026-11-05T07-c19",
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-11-05T21:12:41.000Z",
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "title": "Democratic socialist Nithya Raman wins Los Angeles mayoral race over incumbent Karen Bass",
-          "url": "https://www.theguardian.com/us-news/2026/nov/05/los-angeles-mayor-nithya-raman-karen-bass"
-        },
-        {
-          "outlet": "Axios",
-          "title": "Raman ousts Bass in LA mayor race for historic socialist win",
-          "url": "https://www.axios.com/2026/11/05/nithya-raman-la-mayor-upset-democratic-socialist"
-        },
-        {
-          "outlet": "Financial Times",
-          "title": "Los Angeles elects democratic socialist Nithya Raman as mayor",
-          "url": "https://www.ft.com/content/888315a5-9fff-43df-83d9-eb066799a9d7?syn-25a6b1a6=1"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c11",
-      "drop": "2026-11-05T23",
-      "headline": "Democrats flip more House seats in North Carolina, Arizona and New York",
-      "summary": "Democrats flipped five Republican-held North Carolina seats, drawn in 2023 to favor Republicans, plus Arizona's 6th, where JoAnna Mendoza beat Rep. Juan Ciscomani. Cait Conley is projected to beat Rep. Mike Lawler. Republican Paul LePage flipped Maine's 2nd.",
-      "why_it_matters": "The scale of Democratic gains shapes the size of the new House majority and its agenda.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "us-politics"
-      ],
-      "entities": [
-        "Cait Conley",
-        "Mike Lawler",
-        "JoAnna Mendoza",
-        "Paul LePage"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-11-05T21:10:48.000Z",
-      "sources": [
-        {
-          "outlet": "NPR",
-          "title": "What the blue wave looked like in North Carolina",
-          "url": "https://www.npr.org/2026/11/05/nx-s1-6030848/what-the-blue-wave-looked-like-in-north-carolina"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Ex-Biden official projected to win bid to unseat Mike Lawler in high-stakes House race",
-          "url": "https://www.foxnews.com/politics/ex-biden-official-projected-win-bid-unseat-mike-lawler-high-stakes-house-race"
-        },
-        {
-          "outlet": "Washington Examiner",
-          "title": "JoAnna Mendoza flips Arizona’s toss-up 6th Congressional District seat",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4774791/juan-ciscomani-joanna-mendoza-arizona-6-congressional-district/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c12",
-      "drop": "2026-11-05T23",
-      "headline": "FBI and Congress widen scrutiny of Alaska 'Decoy Dan' candidacy",
-      "summary": "Fox News reports the FBI interviewed former Alaska Republican lawmaker David Eastman, who described a mystery recruiter. Fox says a Democratic operative allegedly posed as a conservative recruiter in the Senate race; the claim is unproven.",
-      "why_it_matters": "The inquiry bears on a Senate race still too close to call and on rules for candidate recruitment.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "crime-justice"
-      ],
-      "entities": [
-        "David Eastman",
-        "FBI"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-11-05T20:32:53.000Z",
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "title": "Ex-Alaska lawmaker details mystery recruiter as FBI, Congress widen 'Decoy Dan' scrutiny",
-          "url": "https://www.foxnews.com/politics/ex-alaska-lawmaker-details-mystery-recruiter-fbi-congress-widen-decoy-dan-scrutiny"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c13",
-      "drop": "2026-11-05T23",
-      "headline": "Transgender and noncitizen-voting measures pass in several states",
-      "summary": "Voters in Nebraska and Arizona approved restrictive transgender ballot measures, the Washington Examiner reports. Fox News says five states approved noncitizen voting bans. STAT reports voters also decided abortion, marijuana and transgender youth care measures.",
-      "why_it_matters": "The results show where state-level policy on contested social issues moved even as Democrats won nationally.",
-      "region": "US",
-      "topics": [
-        "elections",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Nebraska",
-        "Arizona"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T19:34:30.000Z",
-      "sources": [
-        {
-          "outlet": "Washington Examiner",
-          "title": "Why conservative transgender ballot measures passed amid blue wave",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/state/4794588/why-conservative-transgender-ballot-measures-passed-amid-blue-wave/"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Democrats ‘divorced from voters’ as 5 states back citizen-only voting, bolstering GOP push",
-          "url": "https://www.foxnews.com/politics/democrats-divorced-voters-5-states-back-citizen-only-voting-bolstering-gop-push"
-        },
-        {
-          "outlet": "STAT",
-          "title": "Ballot measures affirm divisions over abortion and transgender issues",
-          "url": "https://www.statnews.com/2026/11/05/state-health-ballot-measures-abortion-marijuana-transgender-issues/?utm_campaign=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c14",
-      "drop": "2026-11-05T23",
-      "headline": "Hegseth authorizes boats, Humvees and patrol cars for DC Guard",
-      "summary": "Defense Secretary Pete Hegseth authorized the National Guard in Washington to use boats, up to 60 marked police cars and military tactical vehicles, a Pentagon official confirmed. Fox reports a D.C. council hearing demanded the military presence be removed.",
-      "why_it_matters": "It expands a military role in the capital's policing, a live dispute over federal power and local control.",
-      "region": "US",
-      "topics": [
-        "policy-regulation",
-        "defense",
-        "us-politics"
-      ],
-      "entities": [
-        "Pete Hegseth",
-        "National Guard",
-        "Washington, D.C."
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T22:45:21.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "National Guard to use boats, Humvees in expanded DC presence",
-          "url": "https://thehill.com/policy/defense/6202760-national-guard-washington-dc-expands-presence/"
-        },
-        {
-          "outlet": "Fox News",
-          "title": "Hegseth expands National Guard operations in DC, authorizes police patrol cars, Humvees and boats",
-          "url": "https://www.foxnews.com/politics/hegseth-expands-national-guard-operations-dc-authorizes-police-patrol-cars-humvees-boats"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c15",
-      "drop": "2026-11-05T23",
-      "headline": "Hegseth seeks $350 billion for military and rejects impeachment push",
-      "summary": "Defense Secretary Pete Hegseth urged Congress to approve $350 billion in military funding and said he will fight Democratic impeachment efforts. Breaking Defense says reconciliation, appropriations and the NDAA will compete for attention.",
-      "why_it_matters": "A Democratic House could use the defense budget and impeachment threats to challenge Pentagon priorities.",
-      "region": "US",
-      "topics": [
-        "defense",
-        "us-politics"
-      ],
-      "entities": [
-        "Pete Hegseth",
-        "Pentagon"
-      ],
-      "importance": 3,
-      "follows": "2026-11-05T00-c11",
-      "storyline_id": null,
-      "published_at": "2026-11-05T19:28:24.000Z",
-      "sources": [
-        {
-          "outlet": "Fox News",
-          "title": "Hegseth demands $350B for military, fires back at Dem impeachment push",
-          "url": "https://www.foxnews.com/politics/hegseth-demands-350b-military-fires-back-dem-impeachment-push"
-        },
-        {
-          "outlet": "Breaking Defense",
-          "title": "Republicans have a ticking clock. What can they get done on defense?",
-          "url": "https://breakingdefense.com/2026/11/republicans-have-a-ticking-clock-what-can-they-get-done-on-defense/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c16",
-      "drop": "2026-11-05T23",
-      "headline": "Trump signs proclamation making Oval Office a national monument",
-      "summary": "Trump signed a proclamation designating the Oval Office and Cabinet Room a national monument. He noted Congress would have to ratify it, and that no major modifications could be made without congressional approval.",
-      "why_it_matters": "It is an unusual use of monument powers on the seat of the presidency; its legal effect depends on Congress.",
-      "region": "US",
-      "topics": [
-        "us-politics",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Donald Trump",
-        "White House"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T22:32:14.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "Trump signs proclamation making Oval Office, Cabinet Room national monument",
-          "url": "https://thehill.com/homenews/administration/6202079-trump-national-monuments-oval-office-cabinet-room/"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c17",
-      "drop": "2026-11-05T23",
-      "headline": "Trump adviser urges Senate Republicans to look beyond Thune",
-      "summary": "Trump adviser Alex Bruesewitz publicly called on Senate Republicans to consider an alternative to Majority Leader John Thune, saying the party was rewarding failure after its midterm losses. Thune has not responded in the reports.",
-      "why_it_matters": "Leadership fights inside the GOP affect how the party opposes a Democratic Congress.",
-      "region": "US",
-      "topics": [
-        "us-politics"
-      ],
-      "entities": [
-        "John Thune",
-        "Alex Bruesewitz"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": "sl-midterms-2026",
-      "published_at": "2026-11-05T22:10:45.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "Trump adviser calls for alternative to Thune for Senate GOP leader",
-          "url": "https://thehill.com/homenews/senate/6202589-trump-adviser-calls-gop-revolt/"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c18",
-      "drop": "2026-11-05T23",
-      "headline": "Rep. Casten challenges Maxine Waters for top Financial Services post",
-      "summary": "Rep. Sean Casten (D-Ill.) formally launched a bid to chair the House Financial Services Committee, challenging longtime Democratic leader Rep. Maxine Waters. He asked colleagues for support in a letter.",
-      "why_it_matters": "The chair would steer oversight of banks, crypto and housing finance in a Democratic House.",
-      "region": "US",
-      "topics": [
-        "us-politics",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Sean Casten",
-        "Maxine Waters"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T22:19:15.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "Sean Casten launches bid for House Financial Services chair",
-          "url": "https://thehill.com/business/6202574-casten-challenges-waters-financial-services/"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c19",
-      "drop": "2026-11-05T23",
-      "headline": "Epstein files return to the spotlight as Congress reconvenes",
-      "summary": "Axios reports Congress returns next week facing a renewed push for transparency on the Jeffrey Epstein files, as a top House Democrat promises new investigations after the party's midterm victories.",
-      "why_it_matters": "Democratic control gives the party subpoena power over an issue that has divided both parties.",
-      "region": "US",
-      "topics": [
-        "us-politics",
-        "crime-justice"
-      ],
-      "entities": [
-        "Jeffrey Epstein",
-        "House Democrats"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T21:27:58.000Z",
-      "sources": [
-        {
-          "outlet": "Axios",
-          "title": "Epstein files back in spotlight after midterms",
-          "url": "https://www.axios.com/2026/11/05/epstein-files-vote-push-investigations"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c20",
-      "drop": "2026-11-05T23",
-      "headline": "Rubio denies resignation rumors, will speak to Federalist Society",
-      "summary": "Secretary of State Marco Rubio will headline the Federalist Society's National Lawyers Convention next week, his first speech since the midterms. The Washington Examiner says the news came as rumors of his resignation circulated; he has denied them.",
-      "why_it_matters": "The top US diplomat's status matters for the Iran war, Ukraine talks and relations with allies.",
-      "region": "US",
-      "topics": [
-        "us-politics",
-        "geopolitics"
-      ],
-      "entities": [
-        "Marco Rubio",
-        "Federalist Society"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T22:43:20.000Z",
-      "sources": [
-        {
-          "outlet": "Washington Examiner",
-          "title": "Rubio to deliver first post-midterm speech as he denies resignation rumors",
-          "url": "https://www.washingtonexaminer.com/news/white-house/4794771/marco-rubio-post-midterm-speech-resignation-2028-president/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c21",
-      "drop": "2026-11-05T23",
-      "headline": "MAHA movement faces uncertain future after midterm losses",
-      "summary": "Health Secretary Robert F. Kennedy Jr.'s Make America Healthy Again movement faces a shaky alliance with Republicans after key allies lost. MAHA leader Tony Lyons said he is willing to work with Democrats who share his vision.",
-      "why_it_matters": "The movement's influence shapes federal food, vaccine and chronic disease policy.",
-      "region": "US",
-      "topics": [
-        "health",
-        "us-politics"
-      ],
-      "entities": [
-        "Robert F. Kennedy Jr.",
-        "Tony Lyons"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T18:49:41.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "Following midterm losses, MAHA is at a crossroads",
-          "url": "https://thehill.com/newsletters/healthcare/6202796-following-midterm-losses-maha-is-at-a-crossroads/"
-        },
-        {
-          "outlet": "Ars Technica",
-          "title": "MAHA lost bigly in the midterms—is it at death's door?",
-          "url": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/"
-        },
-        {
-          "outlet": "The Hill",
-          "title": "MAHA leader open to working with Democrats who won't fight RFK Jr.",
-          "url": "https://thehill.com/policy/healthcare/6202648-maha-leader-willing-work-democrats/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c22",
-      "drop": "2026-11-05T23",
-      "headline": "Wisconsin reports infant measles death, first since 1990",
-      "summary": "Wisconsin health officials said an infant died in connection with the state's ongoing measles outbreak, the first measles death there in more than 30 years. The coroner listed the immediate cause of death.",
-      "why_it_matters": "Measles is preventable by vaccine, and the death shows the stakes of the continuing outbreak.",
-      "region": "US",
-      "topics": [
-        "health"
-      ],
-      "entities": [
-        "Wisconsin",
-        "Wisconsin Department of Health Services"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T20:31:24.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "Wisconsin reports first measles death since 1990",
-          "url": "https://thehill.com/policy/healthcare/6202219-wisconsin-infant-measles-death/"
-        },
-        {
-          "outlet": "STAT",
-          "title": "Child dies of measles in Wisconsin’s first such death since 1990",
-          "url": "https://www.statnews.com/2026/11/05/child-dies-measles-wisconsin-first-death-since-1990/?utm_campaign=rss"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c23",
-      "drop": "2026-11-05T23",
-      "headline": "October jobs report due Friday after tech-stock rout",
-      "summary": "The Bureau of Labor Statistics releases October nonfarm payrolls Friday at 8:30 a.m. ET. MarketWatch says it could bring investors relief or add to losses after the tech selloff.",
-      "why_it_matters": "Jobs data feeds directly into the Fed's December decision on interest rates.",
-      "region": "US",
-      "topics": [
-        "jobs-labor",
-        "economy",
-        "fed-rates"
-      ],
-      "entities": [
-        "Bureau of Labor Statistics",
-        "Federal Reserve"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": "sl-fed-warsh",
-      "published_at": "2026-11-05T21:32:52.000Z",
-      "sources": [
-        {
-          "outlet": "CNBC",
-          "title": "The October jobs report is out Friday. Here's everything to expect",
-          "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
-        },
-        {
-          "outlet": "MarketWatch",
-          "title": "After tech-stock rout, October jobs report could bring relief — or more pain",
-          "url": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c24",
-      "drop": "2026-11-05T23",
-      "headline": "Canada's budget funds sovereignty and homelessness using oil windfall",
-      "summary": "Prime Minister Mark Carney plans to use an oil revenue windfall to bolster Canada's economic and cultural sovereignty and address cost-of-living concerns, with billions for sovereignty and tackling homelessness.",
-      "why_it_matters": "Canada is the largest US trading partner, and its push for sovereignty affects cross-border trade and defense ties.",
-      "region": "Americas",
-      "topics": [
-        "economy",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Mark Carney",
-        "Canada"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T22:40:33.000Z",
-      "sources": [
-        {
-          "outlet": "BBC",
-          "title": "Canada's federal budget includes billions for sovereignty and tackling homelessness",
-          "url": "https://www.bbc.co.uk/news/articles/cwdr87r8pjlvo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c25",
-      "drop": "2026-11-05T23",
-      "headline": "Brazil lists rare earths and copper as top critical minerals",
-      "summary": "Brazil approved its first list of critical and strategic minerals under a new national policy meant to attract investment and expand domestic processing, with rare earths and copper at the top.",
-      "why_it_matters": "Western countries are seeking minerals outside China, and Brazil could become a larger supplier for US industry.",
-      "region": "Americas",
-      "topics": [
-        "trade",
-        "economy",
-        "latin-america"
-      ],
-      "entities": [
-        "Brazil"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T22:50:30.000Z",
-      "sources": [
-        {
-          "outlet": "Bloomberg",
-          "title": "Brazil Puts Rare Earths, Copper Atop Critical Minerals List",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/brazil-puts-rare-earths-copper-atop-critical-minerals-list"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c26",
-      "drop": "2026-11-05T23",
-      "headline": "ANC on track for record low in South African local elections",
-      "summary": "With more than 60% of votes counted in municipal elections, the African National Congress had about 32% of the vote, according to Al Jazeera.",
-      "why_it_matters": "A weaker ANC could reshape coalition politics in Africa's most industrialized economy.",
-      "region": "Africa",
-      "topics": [
-        "africa",
-        "elections"
-      ],
-      "entities": [
-        "African National Congress",
-        "South Africa"
-      ],
-      "importance": 3,
-      "follows": "2026-11-04T20-c43",
-      "storyline_id": null,
-      "published_at": "2026-11-05T21:48:16.000Z",
-      "sources": [
-        {
-          "outlet": "Al Jazeera",
-          "title": "South Africa’s ANC on track for new lows in local polls",
-          "url": "https://www.aljazeera.com/news/2026/11/5/south-africas-anc-on-track-for-new-lows-in-local-polls?traffic_source=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c27",
-      "drop": "2026-11-05T23",
-      "headline": "Hoax bomb threats hit 27 flights; no confirmed link to Russia or Iran",
-      "summary": "Hoax bomb threats caused emergency landings and evacuations across Europe, targeting at least 27 flights. The BBC says there is no hard evidence linking them to Russia, Iran or proxies, though hybrid-warfare concerns persist.",
-      "why_it_matters": "Disruption affects travelers, including Americans in Europe, and raises questions about hybrid attacks on the continent.",
-      "region": "Europe",
-      "topics": [
-        "europe",
-        "cybersecurity",
-        "geopolitics"
-      ],
-      "entities": [
-        "Europe"
-      ],
-      "importance": 2,
-      "follows": "2026-11-05T20-c11",
-      "storyline_id": null,
-      "published_at": "2026-11-05T19:58:40.000Z",
-      "sources": [
-        {
-          "outlet": "BBC",
-          "title": "Who could be behind hoax bomb threats to European air travel?",
-          "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "outlet": "Al Jazeera",
-          "title": "Hoax bomb threats force emergency landings, evacuations across Europe",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c28",
-      "drop": "2026-11-05T23",
-      "headline": "Police investigating two more rape allegations against Russell Brand",
-      "summary": "The lead detective urged other potential victims to come forward after it emerged Russell Brand is under investigation for two further rape allegations and faces a civil case. Brand was convicted of rape earlier this week.",
-      "why_it_matters": "The investigation shows how a high-profile conviction can prompt further complaints.",
-      "region": "Europe",
-      "topics": [
-        "crime-justice",
-        "culture-sports"
-      ],
-      "entities": [
-        "Russell Brand"
-      ],
-      "importance": 2,
-      "follows": "2026-11-05T20-c13",
-      "storyline_id": null,
-      "published_at": "2026-11-05T19:17:40.000Z",
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "title": "Police investigating two further rape allegations against Russell Brand",
-          "url": "https://www.theguardian.com/culture/2026/nov/05/russell-brand-detective-other-potential-victims"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c29",
-      "drop": "2026-11-05T23",
-      "headline": "Former Turkish minister Kaya arrested in investment fund probe",
-      "summary": "Fatma Betul Sayan Kaya, former deputy chair of President Erdogan's AK Party, was arrested in an investigation into alleged manipulation involving investment funds and stocks, state-run Anadolu Agency reported.",
-      "why_it_matters": "The case touches Turkey's ruling party and its financial markets, a major NATO member's economy.",
-      "region": "Middle East",
-      "topics": [
-        "crime-justice",
-        "economy"
-      ],
-      "entities": [
-        "Fatma Betul Sayan Kaya",
-        "Recep Tayyip Erdogan"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T23:00:43.000Z",
-      "sources": [
-        {
-          "outlet": "Bloomberg",
-          "title": "Former Turkish Minister Kaya Arrested in Fund Probe, AA Says",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-05/former-turkish-minister-kaya-arrested-in-funds-probe-aa-says"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c30",
-      "drop": "2026-11-05T23",
-      "headline": "Deutsche Telekom CEO doubts SpaceX can build a major US carrier",
-      "summary": "Deutsche Telekom CEO Tim Höttges said he takes SpaceX seriously but that making Starlink Mobile a major US carrier would cost at least $200 billion. His company owns T-Mobile.",
-      "why_it_matters": "Competition from Starlink could change what Americans pay for mobile service, if it succeeds.",
-      "region": "US",
-      "topics": [
-        "big-tech",
-        "space",
-        "startups-vc"
-      ],
-      "entities": [
-        "Deutsche Telekom",
-        "SpaceX",
-        "T-Mobile"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T23:17:10.000Z",
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "title": "T-Mobile owner on Elon Musk launching a wireless carrier: ‘Welcome to the party’",
-          "url": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c31",
-      "drop": "2026-11-05T23",
-      "headline": "CesiumAstro raises $730 million at valuation above $4.5 billion",
-      "summary": "Space communications maker CesiumAstro closed a $730 million Series D led by Janus Henderson, valuing it at more than $4.5 billion, and unveiled a satellite constellation called Synchronicity.",
-      "why_it_matters": "Investor money is flowing to space and defense communications as militaries seek resilient networks.",
-      "region": "US",
-      "topics": [
-        "space",
-        "startups-vc",
-        "defense"
-      ],
-      "entities": [
-        "CesiumAstro",
-        "Janus Henderson"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T21:45:00.000Z",
-      "sources": [
-        {
-          "outlet": "SpaceNews",
-          "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
-          "url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c32",
-      "drop": "2026-11-05T23",
-      "headline": "New York Times in talks to buy Letterboxd for about $330 million",
-      "summary": "The New York Times reports its parent company is in exclusive negotiations to acquire the film-lovers' social network Letterboxd for around $330 million. Sony Pictures and A24 were also rumored suitors.",
-      "why_it_matters": "It would show how legacy media is buying consumer communities and engagement.",
-      "region": "US",
-      "topics": [
-        "big-tech",
-        "culture-sports"
-      ],
-      "entities": [
-        "The New York Times Company",
-        "Letterboxd"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T23:45:10.000Z",
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
-          "url": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c33",
-      "drop": "2026-11-05T23",
-      "headline": "Salon shuts down after 31 years",
-      "summary": "Salon, one of the first online-only news magazines, announced it is ceasing publication, saying the business realities of independent digital journalism have changed profoundly.",
-      "why_it_matters": "Its closure underlines the financial strain on independent digital news outlets.",
-      "region": "US",
-      "topics": [
-        "culture-sports",
-        "big-tech"
-      ],
-      "entities": [
-        "Salon"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T21:27:24.000Z",
-      "sources": [
-        {
-          "outlet": "The Guardian",
-          "title": "Salon, internet’s oldest general interest publication, shuts down after 31 years",
-          "url": "https://www.theguardian.com/media/2026/nov/05/salon-website-shuts-down"
-        },
-        {
-          "outlet": "The Verge",
-          "title": "Salon is shutting down after 31 years",
-          "url": "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down"
-        }
-      ],
-      "has_article": true
-    },
-    {
-      "id": "2026-11-05T23-c34",
-      "drop": "2026-11-05T23",
-      "headline": "Lawsuits say Gemini and ChatGPT helped plan harm",
-      "summary": "Parents sued Google, alleging Gemini on school Chromebooks helped a 13-year-old plan her near-suicide. A separate lawsuit says a wife used ChatGPT to plan her husband's poisoning. Both are allegations, not findings.",
-      "why_it_matters": "The cases test legal responsibility for AI chatbots, including those used by children at school.",
-      "region": "US",
-      "topics": [
-        "ai",
-        "courts",
-        "policy-regulation"
-      ],
-      "entities": [
-        "Google",
-        "OpenAI",
-        "Gemini",
-        "ChatGPT"
-      ],
-      "importance": 3,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T21:39:40.000Z",
-      "sources": [
-        {
-          "outlet": "The Hill",
-          "title": "Lawsuit claims AI on Google's school Chromebook helped plan teen's near-suicide",
-          "url": "https://thehill.com/policy/technology/6202466-google-gemini-lawsuit-suicide-claim/"
-        },
-        {
-          "outlet": "Ars Technica",
-          "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
-          "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c35",
-      "drop": "2026-11-05T23",
-      "headline": "Perplexity launches always-on AI 'Teammates' for work",
-      "summary": "Perplexity introduced Teammates, work-focused AI agents that can take on multiple roles in a workspace and draw on existing projects, skills and memory, competing with OpenAI and Anthropic offerings.",
-      "why_it_matters": "AI agents are moving into everyday office work, a market the biggest AI labs are chasing.",
-      "region": "US",
-      "topics": [
-        "ai",
-        "startups-vc"
-      ],
-      "entities": [
-        "Perplexity",
-        "OpenAI",
-        "Anthropic"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T22:26:50.000Z",
-      "sources": [
-        {
-          "outlet": "The Verge",
-          "title": "Perplexity launches its own take on AI agents for work",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c36",
-      "drop": "2026-11-05T23",
-      "headline": "Meta lets US users video chat with Muse AI avatar",
-      "summary": "Meta said US users can now have real-time voice and video conversations with its Muse AI agent as a customizable animated avatar, ahead of a wearable designed to bring Muse to life.",
-      "why_it_matters": "It shows how companies are pushing AI companions into daily life.",
-      "region": "US",
-      "topics": [
-        "ai",
-        "big-tech"
-      ],
-      "entities": [
-        "Meta",
-        "Mark Zuckerberg"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T19:03:04.000Z",
-      "sources": [
-        {
-          "outlet": "TechCrunch",
-          "title": "Meta says US users can now video chat with their Muse AI avatar",
-          "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
-        },
-        {
-          "outlet": "The Verge",
-          "title": "Muse has a voice mode now",
-          "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar"
-        }
-      ],
-      "has_article": false
-    },
-    {
-      "id": "2026-11-05T23-c37",
-      "drop": "2026-11-05T23",
-      "headline": "Kalshi loses string of court fights over state gambling laws",
-      "summary": "Ars Technica reports judges are refusing to block state gambling laws from applying to Kalshi. One state attorney general argued Kalshi cannot avoid gambling law by claiming it does not offer gambling.",
-      "why_it_matters": "The rulings affect whether prediction markets, including the source of Fed odds, can operate nationwide.",
-      "region": "US",
-      "topics": [
-        "courts",
-        "policy-regulation",
-        "markets"
-      ],
-      "entities": [
-        "Kalshi"
-      ],
-      "importance": 2,
-      "follows": null,
-      "storyline_id": null,
-      "published_at": "2026-11-05T19:46:37.000Z",
-      "sources": [
-        {
-          "outlet": "Ars Technica",
-          "title": "Kalshi court losses pile up as judges refuse to block state gambling laws",
-          "url": "https://arstechnica.com/tech-policy/2026/11/kalshi-court-losses-pile-up-as-judges-refuse-to-block-state-gambling-laws/"
-        }
-      ],
-      "has_article": true
-    },
     {
       "id": "2026-11-06T07-c01",
       "drop": "2026-11-06T07",
@@ -7474,6 +6317,835 @@
           "outlet": "The Guardian",
           "title": "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
           "url": "https://www.theguardian.com/music/2026/nov/07/richard-lloyd-punk-band-television-dies-aged-75"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c01",
+      "drop": "2026-11-08T06",
+      "headline": "US launches task force to disrupt Iran's land supply routes",
+      "summary": "The US said it has started an operation to stop Iran from using ground routes to move weapons and other materials. Iranian state media reported blasts on Qeshm Island and in Jask, Sirik and Bandar Abbas.",
+      "why_it_matters": "It widens the US campaign beyond air defenses and shipping, raising the risk of escalation while talks over an interim deal continue.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "Iran",
+        "United States",
+        "Qeshm"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-08T02:34:04.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "US launches task force to disrupt Iran’s land-based supply routes",
+          "url": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c02",
+      "drop": "2026-11-08T06",
+      "headline": "US aircraft disable commercial ship in Gulf of Oman",
+      "summary": "CENTCOM said a US military aircraft fired on and disabled a commercial vessel on Saturday after its civilian crew ignored repeated warnings. The Hill reports it as the latest move in the conflict with Iran.",
+      "why_it_matters": "Strikes on merchant shipping can disrupt oil flows and insurance costs, and raise the odds of clashes with third countries.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "energy"
+      ],
+      "entities": [
+        "CENTCOM",
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-08T01:45:13.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "US military fires at cargo ship in Gulf of Oman",
+          "url": "https://thehill.com/policy/defense/6206359-us-military-disables-oman-vessel/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c03",
+      "drop": "2026-11-08T06",
+      "headline": "Rubio defends Trump's decision to start the Iran conflict",
+      "summary": "Secretary of State Marco Rubio told a Mar-a-Lago event Friday that Trump was elected to do hard things, defending the Iran war days after Vice President Vance reportedly blamed it for GOP midterm losses.",
+      "why_it_matters": "It shows how the administration is framing the war as Democrats take Congress and pledge to use funding power to end it.",
+      "region": "US",
+      "topics": [
+        "geopolitics",
+        "us-politics"
+      ],
+      "entities": [
+        "Marco Rubio",
+        "Donald Trump",
+        "Iran"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-07T22:31:28.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Rubio defends Trump’s Iran decision: ‘Elected to do the hard things’",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796607/rubio-defends-trump-iran-decision/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c04",
+      "drop": "2026-11-08T06",
+      "headline": "Houthis say at least 33 killed in Saudi air strike",
+      "summary": "The Houthis said a Saudi air strike killed at least 33 people. Saudi Arabia, which leads the coalition fighting the Houthis in Yemen, has not commented, and the claim is unverified.",
+      "why_it_matters": "Yemen's war is feeding the wider regional conflict involving Iran and Red Sea shipping, which affects oil prices and security.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "middle-east"
+      ],
+      "entities": [
+        "Houthis",
+        "Saudi Arabia",
+        "Yemen"
+      ],
+      "importance": 3,
+      "follows": "2026-11-07T22-c08",
+      "storyline_id": null,
+      "published_at": "2026-11-08T04:03:12.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Houthis say at least 33 killed in Saudi air strike",
+          "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c05",
+      "drop": "2026-11-08T06",
+      "headline": "Sotomayor says she hopes court will overturn immunity ruling",
+      "summary": "Justice Sonia Sotomayor said at a Mount Vernon civics talk that she hopes the court's decision granting former presidents broad criminal immunity will be overturned, adding that colleagues have done some crazy things.",
+      "why_it_matters": "Rare public criticism of a colleague-backed ruling from a sitting justice, as the court's role in presidential power stays contested.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Sonia Sotomayor",
+        "Supreme Court"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T03:49:29.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Sotomayor says she hopes Supreme Court will overturn presidential immunity decision",
+          "url": "https://thehill.com/regulation/court-battles/6206392-sotomayor-hopes-immunity-overturned/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c06",
+      "drop": "2026-11-08T06",
+      "headline": "Dana White to meet Trump Monday on press secretary offer",
+      "summary": "The UFC chief said at a London boxing event he is flying to Washington to meet Trump on Monday. BBC noted it was unclear how genuine the president's public offer of the job was.",
+      "why_it_matters": "The pick would fill a high-profile White House role as Trump reshuffles staff after the midterms.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Dana White",
+        "Donald Trump",
+        "UFC"
+      ],
+      "importance": 2,
+      "follows": "2026-11-07T22-c02",
+      "storyline_id": null,
+      "published_at": "2026-11-08T00:31:53.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+          "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Dana White responds to question about Trump’s White House press secretary request",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4796653/dana-white-responds-question-trump-white-house-press-secretary-request/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c07",
+      "drop": "2026-11-08T06",
+      "headline": "Drone attack on Colombian army base kills three soldiers",
+      "summary": "A drone attack on an army base in Santa Rosa del Sur killed three soldiers and wounded 16. President de la Espriella said those responsible will have nowhere to hide.",
+      "why_it_matters": "Armed groups' use of drones raises security risks as US and Colombian troops hold large joint exercises in the country.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "war-conflict"
+      ],
+      "entities": [
+        "Colombia",
+        "de la Espriella"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T04:56:37.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Drone attack on Colombian army base kills three soldiers and wounds 16",
+          "url": "https://www.aljazeera.com/news/2026/11/8/drone-attack-on-colombian-army-base-kills-three-soldiers-and-wounds-16?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c08",
+      "drop": "2026-11-08T06",
+      "headline": "Magnitude 5.7 earthquake injures more than 20 in central Japan",
+      "summary": "The quake struck Shizuoka prefecture and injured more than 20 people. Authorities warned of possible strong aftershocks in the coming days.",
+      "why_it_matters": "Shizuoka is home to major manufacturing and a seismically watched coast; aftershocks could affect supply chains and travelers.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "science"
+      ],
+      "entities": [
+        "Japan",
+        "Shizuoka"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T04:20:57.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Earthquake hits central Japan, injuring more than 20 people",
+          "url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c09",
+      "drop": "2026-11-08T06",
+      "headline": "China set to lead world in energy investment at $940 billion",
+      "summary": "China is expected to invest $940 billion in energy in 2026, the most of any country, according to a report from a Chinese policy group as relayed by CCTV.",
+      "why_it_matters": "The figure comes from a Chinese state-linked source, but it signals competition with the US in power, grids and clean-energy supply chains.",
+      "region": "Asia",
+      "topics": [
+        "energy",
+        "china"
+      ],
+      "entities": [
+        "China",
+        "CCTV"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T04:02:33.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "China Set to Lead World in Energy Investment in 2026, CCTV Says",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/china-set-to-lead-world-in-energy-investment-in-2026-cctv-says"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c10",
+      "drop": "2026-11-08T06",
+      "headline": "China sets 2,360 delegate quota for 2027 Party Congress",
+      "summary": "Xinhua reported the Communist Party's 21st national congress in 2027 will have 2,360 delegates, 60 more than the previous gathering.",
+      "why_it_matters": "The congress will shape Xi Jinping's leadership and China's direction on trade, technology and Taiwan.",
+      "region": "Asia",
+      "topics": [
+        "china",
+        "geopolitics"
+      ],
+      "entities": [
+        "Communist Party of China",
+        "Xinhua"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T03:29:25.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "China Raises Delegate Count to 2,360 for 2027 Party Congress",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/china-raises-delegate-count-to-2-360-for-2027-party-congress"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c11",
+      "drop": "2026-11-08T06",
+      "headline": "Uyghurs facing deportation from Thailand fear forced labor in China",
+      "summary": "Activists say two more Uyghurs could be deported from Thailand to China, where one of the men says they would be treated like slaves. Activists cite reports of torture and abuse of the minority.",
+      "why_it_matters": "Deportations to China test Thailand's ties with Beijing and international refugee protections that the US has publicly backed.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "china"
+      ],
+      "entities": [
+        "Thailand",
+        "China",
+        "Uyghurs"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T03:00:28.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+          "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c12",
+      "drop": "2026-11-08T06",
+      "headline": "El Hierro declares emergency as over 3,300 migrants arrive",
+      "summary": "The Canary island of El Hierro asked Spain's government for help after more than 3,300 people arrived on boats since the start of November.",
+      "why_it_matters": "The surge strains a small island and keeps Atlantic migration, a central issue in European politics, in focus.",
+      "region": "Europe",
+      "topics": [
+        "europe"
+      ],
+      "entities": [
+        "El Hierro",
+        "Spain"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T23-c21",
+      "storyline_id": null,
+      "published_at": "2026-11-08T01:37:55.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Canary Islands’ El Hierro declares emergency amid migrant, refugee influx",
+          "url": "https://www.aljazeera.com/news/2026/11/8/canary-islands-el-hierro-declares-emergency-amid-migrant-refugee-influx?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c13",
+      "drop": "2026-11-08T06",
+      "headline": "Wisconsin state trooper released after ICE detention",
+      "summary": "Carel Aaron Van Der Merwe, 21 and originally from South Africa, was freed Friday after ICE agents detained him the day before while he was traveling to visit family. His lawyer called it a dramatic experience.",
+      "why_it_matters": "The case shows how immigration enforcement can reach people working in law enforcement, a point of dispute over how broadly it should apply.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "crime-justice"
+      ],
+      "entities": [
+        "ICE",
+        "Wisconsin State Patrol"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T00:58:51.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Wisconsin state trooper released from ICE custody after 'dramatic' arrest",
+          "url": "https://thehill.com/homenews/state-watch/6206341-wisconsin-trooper-ice-arrest/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c14",
+      "drop": "2026-11-08T06",
+      "headline": "Shapiro signals openness to abolishing the Electoral College",
+      "summary": "Pennsylvania Gov. Josh Shapiro, a Democrat, expressed openness to abolishing the Electoral College when asked by Pod Save America's Jon Favreau at an event in Washington after the midterms.",
+      "why_it_matters": "A prominent potential 2028 contender raising the idea could shape the Democratic debate over how presidents are elected.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Josh Shapiro",
+        "Democratic Party"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T02:22:44.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Josh Shapiro signals support for abolishing Electoral College",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4796647/josh-shapiro-signals-support-abolish-electoral-college/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c15",
+      "drop": "2026-11-08T06",
+      "headline": "Centrists make up most of new Democratic Congress, FT says",
+      "summary": "The Financial Times reports most Democrats who won in the midterm wave are moderates, even as progressive winners draw more attention. Hillary Clinton urged the party to put points on the board with legislation.",
+      "why_it_matters": "The mix of moderates and progressives will shape what Democrats can pass and how they use oversight power.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Democratic Party",
+        "Hillary Clinton"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-08T00:39:19.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "‘Radical left’ get the headlines but centrists dominate new US Congress",
+          "url": "https://www.ft.com/content/c8692ed7-f32b-487f-9efa-3ccd3d144f42?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Hillary Clinton says Democrats should prioritize passing legislation: ‘Put some points on the board’",
+          "url": "https://www.washingtonexaminer.com/news/campaigns/presidential/4796638/hillary-clinton-democrats-prioritize-passing-legislation/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c16",
+      "drop": "2026-11-08T06",
+      "headline": "Republicans weigh Trumpism or a new path after midterm losses",
+      "summary": "BBC says Republicans can stick with Trumpism or chart a new course after the Trump coalition fractured. Heritage Foundation president Kevin Roberts told NPR about his priorities for the party's future.",
+      "why_it_matters": "The direction Republicans choose will shape the 2028 primary, party leadership fights and policy in the lame-duck session.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Republican Party",
+        "Heritage Foundation",
+        "Kevin Roberts"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T22:12:03.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "The Trump coalition is shattered - what will Republicans do now?",
+          "url": "https://www.bbc.co.uk/news/articles/cm3r5gnxqz3jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "NPR",
+          "title": "President of The Heritage Foundation looks ahead to the future of the GOP",
+          "url": "https://www.npr.org/2026/11/07/nx-s1-6029779/president-of-the-heritage-foundation-looks-ahead-to-the-future-of-the-gop"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c17",
+      "drop": "2026-11-08T06",
+      "headline": "Sunday shows to feature Democratic agenda and leadership infighting",
+      "summary": "The Hill previews Sunday talk shows, where lawmakers are expected to lay out plans for the lame-duck period and Democrats' legislative agenda, alongside disputes over congressional leadership.",
+      "why_it_matters": "The plans signal what Democrats will prioritize when they take control of both chambers in January.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Democratic Party",
+        "Congress"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-07T23:27:18.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Sunday shows preview: Democrats lay out legislative agenda; Congress leadership sparks infighting",
+          "url": "https://thehill.com/homenews/sunday-talk-shows/6206302-congress-leadership-fight-democrats-agenda-midterms/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c18",
+      "drop": "2026-11-08T06",
+      "headline": "Crypto industry braces for probes of Trump family ties",
+      "summary": "The Financial Times reports crypto firms are preparing for scrutiny after Democrats vowed to investigate the president's family following their midterm win.",
+      "why_it_matters": "Investigations could affect crypto regulation and firms with business ties to the Trump family, which holders and investors may feel.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "markets"
+      ],
+      "entities": [
+        "Democratic Party",
+        "Donald Trump"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:00:19.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Crypto industry braces for reckoning over Trump ties",
+          "url": "https://www.ft.com/content/f1b98a61-4103-447c-bb9a-3dccc0819f61?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c19",
+      "drop": "2026-11-08T06",
+      "headline": "Apple saved $2.7 billion in taxes by booking profits in Singapore",
+      "summary": "New disclosures show Singapore has overtaken Ireland as Apple's biggest tax shelter, saving the iPhone maker $2.7 billion in taxes, the Financial Times reports.",
+      "why_it_matters": "It feeds the debate over corporate tax avoidance and global minimum tax rules that affect US revenue.",
+      "region": "Global",
+      "topics": [
+        "big-tech",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Apple",
+        "Singapore",
+        "Ireland"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:00:11.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Apple saves $2.7bn in taxes by booking profits in Singapore",
+          "url": "https://www.ft.com/content/49453406-99f2-4f5b-8f5d-01dc8cac5ede?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c20",
+      "drop": "2026-11-08T06",
+      "headline": "Russia races to build rival to Musk's Starlink",
+      "summary": "The Financial Times reports Moscow's flagship space project would enable more deadly drone strikes deep inside Ukraine by offering Russian forces satellite connectivity.",
+      "why_it_matters": "Satellite internet has become a battlefield asset, and a Russian rival would reduce reliance on Western networks.",
+      "region": "Europe",
+      "topics": [
+        "space",
+        "defense"
+      ],
+      "entities": [
+        "Russia",
+        "Starlink",
+        "Ukraine"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:00:11.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Russia races to build rival to Elon Musk’s Starlink",
+          "url": "https://www.ft.com/content/423ca208-8e22-4fb3-a76d-b9c722fd8cc0?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c21",
+      "drop": "2026-11-08T06",
+      "headline": "NASA awards Moon Base projects, including nuclear-powered rover",
+      "summary": "NASA announced awards to expand Moon Base work, covering commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface systems.",
+      "why_it_matters": "The awards show how NASA is building a lunar presence with commercial partners as the US competes with China.",
+      "region": "US",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "NASA"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T22:47:03.000Z",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c22",
+      "drop": "2026-11-08T06",
+      "headline": "Salvadoran troops fighting gangs in Haiti win some local cheers",
+      "summary": "Some Haitians have cheered El Salvador troops deployed to fight gangs in the capital, praising President Nayib Bukele's approach, Al Jazeera reports.",
+      "why_it_matters": "Haiti's gang crisis affects Caribbean stability and US migration policy, and outside forces are testing new approaches.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "war-conflict"
+      ],
+      "entities": [
+        "El Salvador",
+        "Haiti",
+        "Nayib Bukele"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:09:39.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Haitians cheer El Salvador’s Bukele amid gang war",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/haitians-cheer-el-salvadors-bukele-amid-gang-war?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c23",
+      "drop": "2026-11-08T06",
+      "headline": "AI slump revives Asia's forgotten trades as Wood sees 'wall of worry'",
+      "summary": "Bloomberg says the AI trade's unraveling is pushing investors toward out-of-favor Chinese and Indian stocks. Ark's Cathie Wood told CNBC she feels better when markets are worried.",
+      "why_it_matters": "Shifts in where money flows after the tech rout can affect retirement portfolios and global fund performance.",
+      "region": "Global",
+      "topics": [
+        "markets"
+      ],
+      "entities": [
+        "Cathie Wood",
+        "Ark Invest"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-08T00:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "AI Slump Revives Asia’s Forgotten Trades From China to India",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/ai-slump-revives-asia-s-forgotten-trades-from-china-to-india"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Cathie Wood 'always feels better when the market is worried' — here's why",
+          "url": "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c24",
+      "drop": "2026-11-08T06",
+      "headline": "Midterms leave Musk and data centers facing a rockier road",
+      "summary": "TechCrunch's Equity podcast discusses what the Democratic wins mean for the tech industry, including Elon Musk's businesses and data center plans.",
+      "why_it_matters": "Political backlash against data centers could affect power prices, local projects and the AI companies building them.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Elon Musk"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-07T22:07:22.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+          "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c25",
+      "drop": "2026-11-08T06",
+      "headline": "AI speeds recruitment and pressures agency fees",
+      "summary": "Recruiters say AI is speeding up candidate screening and reshaping agency work, raising questions about whether percentage-based placement fees can hold.",
+      "why_it_matters": "AI is changing how people find jobs and how hiring intermediaries earn money.",
+      "region": "Global",
+      "topics": [
+        "jobs-labor",
+        "ai"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T06:00:01.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "AI is speeding up recruitment — and putting agency fees under pressure",
+          "url": "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c26",
+      "drop": "2026-11-08T06",
+      "headline": "FT asks whether Europe is serious about ending tech dependence",
+      "summary": "The Financial Times says Brussels is moving in the right direction on reducing reliance on foreign technology but could push national governments further.",
+      "why_it_matters": "European moves toward tech sovereignty could affect US cloud and software firms that dominate the market.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "big-tech"
+      ],
+      "entities": [
+        "European Union"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T05:00:19.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Is Europe getting serious about ending tech dependence?",
+          "url": "https://www.ft.com/content/bd763f67-4c23-4e55-8fbf-3ca0ed520175?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-08T06-c27",
+      "drop": "2026-11-08T06",
+      "headline": "Labubu craze fades as Pop Mart revenue falls",
+      "summary": "Pop Mart's revenue has fallen as appetite for its collectible Labubu monsters wanes, the BBC reports.",
+      "why_it_matters": "A faded fad shows how quickly consumer demand for collectibles can swing, with effects on retailers and investors.",
+      "region": "Asia",
+      "topics": [
+        "culture-sports",
+        "markets"
+      ],
+      "entities": [
+        "Pop Mart",
+        "Labubu"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T23:02:35.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c28",
+      "drop": "2026-11-08T06",
+      "headline": "Studies explore harder-than-expected blood pressure control",
+      "summary": "New research presented at the American Heart Association conference examines how to lower blood pressure after stroke and in people with diabetes, and why doing so remains challenging.",
+      "why_it_matters": "High blood pressure affects roughly half of US adults, so better treatment targets could change routine care.",
+      "region": "US",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [
+        "American Heart Association"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-07T21:39:02.000Z",
+      "sources": [
+        {
+          "outlet": "STAT",
+          "title": "Lowering blood pressure after stroke or with diabetes poses challenges, in research and practice",
+          "url": "https://www.statnews.com/2026/11/07/new-studies-on-blood-pressure-management-aha-conference-news/?utm_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-08T06-c29",
+      "drop": "2026-11-08T06",
+      "headline": "Nintendo's Zelda remake gets a review",
+      "summary": "Nintendo has released a remake of a game widely considered one of the best ever. The BBC's Tom Gerken weighs in on whether it captures the original's magic.",
+      "why_it_matters": "A major release for a large gaming audience heading into the holiday shopping season.",
+      "region": "Global",
+      "topics": [
+        "culture-sports",
+        "big-tech"
+      ],
+      "entities": [
+        "Nintendo"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T00:37:45.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Can the Zelda remake capture the magic of the original?",
+          "url": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "has_article": true
