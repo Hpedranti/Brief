@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-11-08T22:40:38Z",
-  "read": "Hiring is firm: October payrolls rose 165,000 and unemployment fell to 4.1%. Inflation is rising, with CPI at 3.7% in September, and the Fed raised rates in September. Markets see a December hike as likely, while mortgage rates remain above 7% and tech stocks are reeling.",
+  "updated_at": "2026-11-09T07:41:42Z",
+  "read": "The labor market is firm: October payrolls beat forecasts and unemployment slipped to 4.10 percent. Inflation is running hotter at 3.7 percent, and the Fed has raised rates once since September, with traders favoring another hike in December. Mortgage rates remain above 7 percent, while falling oil and an AI-driven stock slump add uncertainty.",
   "indicators": [
     {
       "key": "fedfunds",
@@ -10,7 +10,7 @@
       "unit": "%",
       "as_of": "2026-11-08",
       "change": "up 0.25",
-      "note": "Raised in September from 3.50–3.75"
+      "note": "Range raised in September"
     },
     {
       "key": "fedfunds_effective",
@@ -19,7 +19,7 @@
       "unit": "%",
       "as_of": "2026-10-01",
       "change": "up 0.13",
-      "note": "Reflects the September hike"
+      "note": "Tracks the higher target range"
     },
     {
       "key": "cpi_yoy",
@@ -36,8 +36,8 @@
       "value": "4.10",
       "unit": "%",
       "as_of": "2026-10-01",
-      "change": "down 0.1",
-      "note": "Payrolls beat expectations in October"
+      "change": "down 0.10",
+      "note": "Jobless rate eased in October"
     },
     {
       "key": "dgs10",
@@ -46,7 +46,7 @@
       "unit": "%",
       "as_of": "2026-11-05",
       "change": "down 0.06",
-      "note": "Yields eased slightly day over day"
+      "note": "Yield dipped from prior day"
     },
     {
       "key": "dgs2",
@@ -83,26 +83,15 @@
         "prob": 0.02
       },
       {
-        "label": "Cut 25bps",
+        "label": "Cut >25bps",
         "prob": 0.01
       },
       {
-        "label": "Cut >25bps",
+        "label": "Cut 25bps",
         "prob": 0.01
       }
     ],
-    "note": "Traders favor a December hike after strong October jobs data."
+    "note": "Strong October jobs data pushed traders toward a December quarter-point hike."
   },
-  "week_ahead": [
-    {
-      "date": "2026-11-09",
-      "event": "Dana White meets Trump on press secretary offer",
-      "why_it_matters": "Shapes White House communications as Congress changes hands."
-    },
-    {
-      "date": "2026-11-10",
-      "event": "US-mediated Russia-Ukraine talks begin in Abu Dhabi",
-      "why_it_matters": "A deal could move oil, defense spending and sanctions."
-    }
-  ]
+  "week_ahead": []
 }

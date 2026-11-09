@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T22:40:38Z",
+  "updated_at": "2026-11-09T07:41:42Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -75,11 +75,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Russia hit Kyiv's power grid with 172 drones and 36 missiles, causing blackouts, as Trump says a deal is very close. Europe will join US-mediated talks in Abu Dhabi on Nov. 10-11; European troops plan postwar-deployment drills in Poland.",
+      "summary": "Russia hit Kyiv's power grid with 172 drones and 36 missiles as Trump says a deal is close, and on Sunday blamed Zelensky-Putin 'hatred' for the impasse. Europe joins US-mediated Abu Dhabi talks Nov. 10-11; Kyiv is uneasy over US support.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-08",
       "events": [
+        {
+          "date": "2026-11-08",
+          "text": "Trump tells '60 Minutes' that 'hatred' between Zelensky and Putin is a main obstacle to ending the war, The Hill reports.",
+          "url": "https://thehill.com/homenews/6207193-trump-blames-zelensky-putin-hatred/"
+        },
         {
           "date": "2026-11-08",
           "text": "France says European officials will attend the Abu Dhabi talks, the first three-way round since February, defying Kremlin objections, NPR reports.",
@@ -174,22 +179,27 @@
           "date": "2026-11-01",
           "text": "US approves sale of 500 Patriot missiles to Ukraine, with $2.1 billion to be paid by allies.",
           "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "Russia fires three waves of ballistic missiles at Kyiv; Downing Street and Zelenskyy rebuke Witkoff for calling Putin a 'humanitarian'.",
-          "url": "https://www.theguardian.com/world/2026/oct/22/downing-street-us-envoy-witkoff-putin-humanitarian"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged and Wall Street lost about $5.7 trillion this week, per Bloomberg. Friday brought a tepid rebound; strategists call the rout a buying chance. Voters rejected 40 of 41 data center measures; Meta sold about $25 billion of bonds.",
+      "summary": "After Democrats won Congress, AI stocks plunged and Wall Street lost about $5.7 trillion last week, per Bloomberg. Asian stocks rebounded Monday after bear-market declines; Alphabet mulls Asian bonds. Voters rejected 40 of 41 data center measures.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-07",
+      "last_updated": "2026-11-08",
       "events": [
+        {
+          "date": "2026-11-08",
+          "text": "Alphabet has discussed its first Hong Kong and Singapore dollar bonds, Bloomberg reports, a test of Asian appetite after the AI selloff.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/alphabet-mulls-asia-bond-sale-as-ai-fears-fuel-global-volatility"
+        },
+        {
+          "date": "2026-11-08",
+          "text": "Asian stocks rebound after last week's AI-driven rout pushed many indices into bear market territory, the FT reports.",
+          "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-07",
           "text": "Bloomberg says Meta's roughly $25 billion bond sale, launched on Election Day, highlights a shifting landscape for tech debt.",
@@ -274,21 +284,6 @@
           "date": "2026-11-04",
           "text": "Voters approve dozens of data center moratoriums; hyperscalers and Apple surge while chipmakers and data center stocks fall, CNBC and the FT report.",
           "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Stocks and the dollar fall as Democrats win Congress; traders fear tighter AI oversight and slower data center buildout, the FT reports.",
-          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "Meta seeks to raise $20 billion to $25 billion in a bond sale for AI spending.",
-          "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "AMD jumps 8% as data center revenue nearly doubles; Palantir and Shopify fall after earnings.",
-          "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
         }
       ]
     },
@@ -328,7 +323,7 @@
         {
           "date": "2026-11-01",
           "text": "NPR: GDP growth is up but so are prices; interest rates are staying the same for now, with midterms ahead.",
-          "url": "https://www.npr.org/2026/10/31/nx-s1-6022285/mixed-economic-forecast-weighs-heavy-ahead-of-midterms"
+          "url": "https://www.npr.org/2026/10/31/nx-s-6022285/mixed-economic-forecast-weighs-heavy-ahead-of-midterms"
         },
         {
           "date": "2026-10-21",
@@ -355,11 +350,16 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Trump named Stephen Miller chief of staff and asked the DOJ to look into Democrats' impeachment talk; Attorney General Blanche backed that and would not rule out prosecutions. Mississippi and Alaska remain uncalled.",
+      "summary": "Democrats won the House, Senate and most governorships. Trump named Stephen Miller chief of staff, asked the DOJ to look into Democrats, and on Sunday said his deportation policy 'might be too tough,' floating an immigration deal. Mississippi and Alaska remain uncalled.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-08",
       "events": [
+        {
+          "date": "2026-11-08",
+          "text": "Trump tells '60 Minutes' his deportation policy 'might be too tough' and helped and hurt Republicans, and offers Democrats an immigration deal, The Hill reports.",
+          "url": "https://thehill.com/homenews/6207170-trump-immigration-policy-midterm-losses/"
+        },
         {
           "date": "2026-11-08",
           "text": "Attorney General Todd Blanche backs Trump's call for a DOJ probe of Democrats' impeachment threats and declines to rule out prosecuting lawmakers, Axios reports.",
@@ -454,22 +454,27 @@
           "date": "2026-11-05",
           "text": "BBC: Democrat Scott Colom leads Cindy Hyde-Smith by just over 1,000 votes in Mississippi; Republicans pin hopes on late-arriving ballots.",
           "url": "https://www.bbc.co.uk/news/articles/c6n9rwxlx992o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Scott Wiener is poised to win Pelosi's seat; Nithya Raman is projected to unseat Los Angeles Mayor Karen Bass, per Decision Desk HQ.",
-          "url": "https://thehill.com/homenews/house/6184793-scott-wiener-wins-pelosi-seat/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Iran's foreign minister gave the US two days to accept Tehran's offer or face escalation; Trump says renewed attacks are highly unlikely if talks progress. The US launched a task force on Iran's land supply routes. Qatar-led mediators push an interim deal; 23 US troops have died.",
+      "summary": "Iran's foreign minister gave the US two days to accept Tehran's offer or face escalation; Rubio calls Iran's demands unrealistic, and Trump says renewed attacks are unlikely if talks progress. Oil had its biggest weekly drop since April 2020. 23 US troops have died.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-08",
       "events": [
+        {
+          "date": "2026-11-08",
+          "text": "Oil extends its biggest weekly drop since April 2020 as traders weigh diplomacy against fresh attacks, Bloomberg reports.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/latest-oil-market-news-and-analysis-for-nov-9"
+        },
+        {
+          "date": "2026-11-08",
+          "text": "Rubio calls the Iran war unpopular but necessary and Tehran's negotiating demands 'outrageous and ridiculous,' Al Jazeera reports.",
+          "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss"
+        },
         {
           "date": "2026-11-08",
           "text": "Iran's foreign minister gives the US two days to accept Tehran's offer or face escalation; Trump says renewed strikes are 'highly unlikely' if talks progress.",
@@ -554,21 +559,6 @@
           "date": "2026-11-04",
           "text": "Oil steadies after falling more than 8% as investors bet a Democratic sweep could accelerate efforts to end the war.",
           "url": "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Defense News reports two US airmen died in non-hostile incidents last week, raising the war's US death toll to 23.",
-          "url": "https://www.defensenews.com/news/pentagon-congress/2026/11/04/amid-iran-conflict-non-hostile-deaths-of-2-us-airmen-raise-overseas-toll-to-23/"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Oil falls below $100 as Vance blames the Iran war for GOP losses and traders see pressure for an offramp.",
-          "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Schumer says Democrats will use the power of the purse to end the Iran war; Iran's chief negotiator says Americans voted no to war.",
-          "url": "https://thehill.com/homenews/senate/6198699-schumer-republicans-iran-war-end/"
         }
       ]
     },

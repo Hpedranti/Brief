@@ -1,0 +1,952 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-09T07",
+    "at": "2026-11-09T07:41:42Z",
+    "model": "claude-sonnet-5-5",
+    "count": 31
+  },
+  "cards": [
+    {
+      "id": "2026-11-09T07-c01",
+      "drop": "2026-11-09T07",
+      "headline": "Trump says deportation policy was 'too tough,' floats immigration deal",
+      "summary": "In a CBS '60 Minutes' interview, Trump said his deportation policy 'might be too tough' and that it both helped and hurt Republicans in the midterms. He offered to strike an immigration deal with Democrats, the FT and Guardian report.",
+      "why_it_matters": "It signals a possible shift on a signature policy, and a possible opening for bipartisan immigration talks in a divided Congress.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Stephen Miller"
+      ],
+      "importance": 4,
+      "follows": "2026-11-08T22-c07",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-09T01:23:22.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump says his immigration crackdown ‘might be too tough’ after midterm losses",
+          "url": "https://thehill.com/homenews/6207170-trump-immigration-policy-midterm-losses/"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Trump admits deportation policy was ‘too tough’ despite promotion of Stephen Miller",
+          "url": "https://www.theguardian.com/us-news/2026/nov/09/trump-tells-60-minutes-deportation-policy-too-tough-ice-immigration"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Trump says he was ‘too tough’ on immigrants as he floats amnesty deal",
+          "url": "https://www.ft.com/content/c82ac9a2-617e-400a-a5b7-e8d6674a80d4?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c02",
+      "drop": "2026-11-09T07",
+      "headline": "Trump says he was only kidding about Dana White as press secretary",
+      "summary": "Trump told reporters in West Palm Beach he was 'only kidding' when he said a day earlier that he had offered UFC chief Dana White the press secretary job, though he said White 'loves the idea.'",
+      "why_it_matters": "It resolves a day of speculation about who will speak for the White House as Stephen Miller reshapes the staff.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Dana White"
+      ],
+      "importance": 2,
+      "follows": "2026-11-08T06-c06",
+      "storyline_id": null,
+      "published_at": "2026-11-09T01:10:55.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump says he was 'kidding' about Dana White for press secretary",
+          "url": "https://thehill.com/homenews/6207197-trump-dana-white-press-secretary-joke/"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Trump says he was ‘only kidding’ about making UFC’s Dana White next press secretary",
+          "url": "https://www.theguardian.com/us-news/2026/nov/08/trump-dana-white-press-secretary"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c03",
+      "drop": "2026-11-09T07",
+      "headline": "Kraków shooting suspect dies in hospital; six were killed",
+      "summary": "Polish police said the 24-year-old suspect died Monday morning after being shot by officers and arrested. Six people were killed and 16 injured, per Bloomberg. A terrorism investigation is open and the motive is still unclear.",
+      "why_it_matters": "A rare mass shooting in a major European tourist city, with the motive unknown, raises security concerns for travelers and Poland's NATO neighbors.",
+      "region": "Europe",
+      "topics": [
+        "crime-justice",
+        "europe"
+      ],
+      "entities": [
+        "Kraków",
+        "Poland"
+      ],
+      "importance": 3,
+      "follows": "2026-11-08T22-c22",
+      "storyline_id": null,
+      "published_at": "2026-11-09T06:22:55.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Kraków shooting suspect who killed six has died, say police in Poland",
+          "url": "https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Krakow shooting suspect has died in hospital, police say",
+          "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Gunman in Polish Mass Shooting Dies in Hospital, Police Say",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/krakow-mass-shooter-dies-in-the-hospital-polish-police-says"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c04",
+      "drop": "2026-11-09T07",
+      "headline": "Huang admits affair with suspected Chinese spy; Trump defends him",
+      "summary": "Nvidia CEO Jensen Huang told staff he had an affair, and the board has opened an investigation into his relationship with a woman US officials suspect worked for China. Lawmakers from both parties want to question him; Trump defended him.",
+      "why_it_matters": "Nvidia chips sit at the center of AI and US-China export controls, so leadership turmoil could affect markets and national security policy.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "big-tech",
+        "geopolitics"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Donald Trump",
+        "China"
+      ],
+      "importance": 4,
+      "follows": "2026-11-08T22-c01",
+      "storyline_id": null,
+      "published_at": "2026-11-08T22:53:57.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Trump backs Nvidia's Huang amid affair, spy investigation",
+          "url": "https://www.axios.com/2026/11/09/trump-jensen-huang-nvidia"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy",
+          "url": "https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c05",
+      "drop": "2026-11-09T07",
+      "headline": "Pope Leo tells Milei growth must benefit all, in rebuke of austerity",
+      "summary": "Speaking alongside Argentine President Javier Milei in Buenos Aires, Pope Leo said the economy must benefit everyone and leaders should know the limits of power. The BBC and Guardian describe it as a rebuke of Milei's austerity.",
+      "why_it_matters": "The Church's moral weight in a major Latin American economy, and a US-backed leader's austerity model, are both in the spotlight.",
+      "region": "Americas",
+      "topics": [
+        "latin-america",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Pope Leo XIV",
+        "Javier Milei",
+        "Argentina"
+      ],
+      "importance": 3,
+      "follows": "2026-11-08T22-c24",
+      "storyline_id": null,
+      "published_at": "2026-11-09T02:11:25.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
+          "url": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Pope delivers veiled rebuke of Milei's austerity measures",
+          "url": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c06",
+      "drop": "2026-11-09T07",
+      "headline": "Rubio calls Iran war unpopular but necessary, rejects Tehran's demands",
+      "summary": "Secretary of State Marco Rubio said the war is unpopular but necessary to stop Iran's nuclear threat. He called Iran's negotiating demands 'outrageous and ridiculous, and really not realistic,' as Tehran's two-day deadline runs.",
+      "why_it_matters": "The administration's public stance suggests a deal is far off, with oil prices, US troops and Gulf shipping at stake.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Marco Rubio",
+        "Iran",
+        "United States"
+      ],
+      "importance": 3,
+      "follows": "2026-11-08T06-c03",
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-09T04:02:18.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
+          "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c07",
+      "drop": "2026-11-09T07",
+      "headline": "Drone attack halts Iraq's Khor Mor gas field, cutting Kurdistan power",
+      "summary": "A drone attack suspended production at Khor Mor in northern Iraq, leaving more than 70 percent of the Kurdish region without power, Al Jazeera reports. The reports provided do not say who was responsible.",
+      "why_it_matters": "Attacks on Gulf-region energy infrastructure show the Iran war spreading and add risk to regional energy supply.",
+      "region": "Middle East",
+      "topics": [
+        "middle-east",
+        "energy"
+      ],
+      "entities": [
+        "Iraq",
+        "Khor Mor"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T01:19:09.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Drone attack suspends production at Iraq’s Khor Mor gasfield",
+          "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c08",
+      "drop": "2026-11-09T07",
+      "headline": "At least 25 seafarers killed since Iran war began, IMO records",
+      "summary": "The International Maritime Organization has recorded at least 25 seafarer deaths since the conflict started on February 28, Al Jazeera reports, in a profile of the crews caught in the war.",
+      "why_it_matters": "Merchant crews carry the oil and goods Americans buy, and their safety affects shipping costs and Gulf trade.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "trade"
+      ],
+      "entities": [
+        "International Maritime Organization",
+        "Iran"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T07:07:26.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Who are the seafarers caught in the US-Israeli war on Iran?",
+          "url": "https://www.aljazeera.com/news/2026/11/9/who-are-the-seafarers-caught-in-the-us-israeli-war-on-iran?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c09",
+      "drop": "2026-11-09T07",
+      "headline": "Oil posts biggest weekly drop since April 2020 on Iran diplomacy",
+      "summary": "Bloomberg says oil extended its biggest weekly decline since April 2020 as traders weighed diplomacy against fresh attacks. Gold rose, erasing Friday's decline, as falling oil eased inflation worries.",
+      "why_it_matters": "Lower oil can ease gasoline prices and inflation pressure, which matters for the Fed's expected December decision.",
+      "region": "Global",
+      "topics": [
+        "energy",
+        "markets"
+      ],
+      "entities": [
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-08T23:03:27.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Latest Oil Market News and Analysis for Nov. 9",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/latest-oil-market-news-and-analysis-for-nov-9"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Gold Climbs as Oil’s Retreat and Stock Rebound Lend Support",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-08/gold-holds-decline-as-us-jobs-data-fan-december-rate-hike-bets"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c10",
+      "drop": "2026-11-09T07",
+      "headline": "Asian stocks rebound after AI-driven rout",
+      "summary": "Asian markets climbed Monday after last week's declines pushed many indices into bear market territory. Bloomberg says the selloff exposed how stretched AI bets and political uncertainty had left markets vulnerable.",
+      "why_it_matters": "US retirement accounts are heavily exposed to AI stocks, so global swings in the trade affect American savings.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "ai"
+      ],
+      "entities": [
+        "Nasdaq"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-09T04:03:02.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Asian stocks rebound after AI rout",
+          "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Asian stock markets climb after earlier tech rout",
+          "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout?traffic_source=rss"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Tech Stock Rout Exposes Market Risks From AI Bets and Political Uncertainty",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/market-vulnerability-has-been-exposed-for-good-taking-stock"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c11",
+      "drop": "2026-11-09T07",
+      "headline": "Alphabet weighs first Hong Kong and Singapore dollar bonds",
+      "summary": "Alphabet has held talks about its first bonds in Hong Kong and Singapore dollars, people familiar told Bloomberg, a deal that would test Asian investor appetite after the AI selloff.",
+      "why_it_matters": "Big Tech's borrowing to fund AI buildouts is a key test of whether the spending boom can keep being financed.",
+      "region": "Global",
+      "topics": [
+        "big-tech",
+        "markets"
+      ],
+      "entities": [
+        "Alphabet"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-09T06:37:30.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Alphabet Mulls Asia Bond Sale as AI Fears Fuel Volatility",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/alphabet-mulls-asia-bond-sale-as-ai-fears-fuel-global-volatility"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c12",
+      "drop": "2026-11-09T07",
+      "headline": "China producer prices rise 5.7% in October, a four-year high",
+      "summary": "China's October producer price index rose 5.7%, above the 5.3% economists expected, the highest in more than four years, while a consumer inflation measure slowed, CNBC reports.",
+      "why_it_matters": "Higher Chinese factory prices can feed into the cost of imported goods sold in the US.",
+      "region": "Asia",
+      "topics": [
+        "economy",
+        "china"
+      ],
+      "entities": [
+        "China"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T02:50:22.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+          "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c13",
+      "drop": "2026-11-09T07",
+      "headline": "Soybeans rise as US presses China on farm purchases",
+      "summary": "Soybean futures posted their biggest gain in more than two weeks as the Trump administration pressed China to follow through on pledges to buy US farm goods, Bloomberg reports.",
+      "why_it_matters": "American farmers depend on Chinese demand, and compliance with the Busan trade terms affects rural incomes.",
+      "region": "Global",
+      "topics": [
+        "trade",
+        "china"
+      ],
+      "entities": [
+        "China",
+        "Trump administration"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T03:50:23.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Soybeans Rise as US Presses China to Boost Farm Goods Purchases",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/soybeans-rise-as-us-presses-china-to-boost-farm-goods-purchases"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c14",
+      "drop": "2026-11-09T07",
+      "headline": "Mexico arrests alleged Jalisco cartel leader known as 'R2'",
+      "summary": "Mexican authorities captured Rafael Alvarez, alias 'R2,' described as a major leader of the Jalisco cartel, using intelligence shared by the US Drug Enforcement Administration, Al Jazeera reports.",
+      "why_it_matters": "The Jalisco cartel is a major supplier of fentanyl and other drugs reaching the US, and the arrest shows US-Mexico cooperation.",
+      "region": "Americas",
+      "topics": [
+        "crime-justice",
+        "latin-america"
+      ],
+      "entities": [
+        "Jalisco cartel",
+        "Mexico",
+        "Drug Enforcement Administration"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T03:42:57.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Mexico arrests alleged major leader of Jalisco cartel",
+          "url": "https://www.aljazeera.com/news/2026/11/9/mexico-arrests-major-leader-of-jalisco-cartel?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c15",
+      "drop": "2026-11-09T07",
+      "headline": "South Africa's ANC posts worst-ever local election result at 30%",
+      "summary": "The African National Congress won about 30 percent of the vote in South Africa's local elections, its worst local result, Al Jazeera reports.",
+      "why_it_matters": "The decline of the governing party reshapes politics in Africa's most industrialized economy, a key US trade partner.",
+      "region": "Africa",
+      "topics": [
+        "africa",
+        "elections"
+      ],
+      "entities": [
+        "African National Congress",
+        "South Africa"
+      ],
+      "importance": 3,
+      "follows": "2026-11-06T19-c26",
+      "storyline_id": null,
+      "published_at": "2026-11-09T03:09:51.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "South Africa’s ANC suffers worst-ever local elections result",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/south-africas-anc-suffers-worst-ever-local-elections-result?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c16",
+      "drop": "2026-11-09T07",
+      "headline": "Ousted Bangladesh PM Hasina seeks passport, promises December return",
+      "summary": "Sheikh Hasina, who has lived in India for two years, has applied for a passport in what Al Jazeera calls a sign of plans to return to Bangladesh, which she has promised to do in December.",
+      "why_it_matters": "A return could unsettle Bangladesh's politics and its ties with India in a strategically important region.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "geopolitics"
+      ],
+      "entities": [
+        "Sheikh Hasina",
+        "Bangladesh",
+        "India"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T07:12:09.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Ousted PM Sheikh Hasina seeks passport in sign of Bangladesh return plan",
+          "url": "https://www.aljazeera.com/news/2026/11/9/ousted-pm-sheikh-hasina-seeks-passport-in-sign-of-bangladesh-return-plan?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c17",
+      "drop": "2026-11-09T07",
+      "headline": "COP31 opens as scientists predict 2026 hottest year on record",
+      "summary": "The COP31 climate summit opens as scientists predict 2026 could be the hottest year on record. Nature reports the world faces imminent overshoot of the 1.5°C target, with scientists urging governments to commit to carbon dioxide removal.",
+      "why_it_matters": "The talks shape global emissions policy, energy costs and climate risks such as heat and storms that affect US communities.",
+      "region": "Global",
+      "topics": [
+        "climate",
+        "science"
+      ],
+      "entities": [
+        "COP31"
+      ],
+      "importance": 3,
+      "follows": "2026-11-08T22-c30",
+      "storyline_id": null,
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Scientists predict 2026 hottest year on record as climate talks begin",
+          "url": "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "Nature",
+          "title": "COP31 kicks off as planet faces imminent overshoot of 1.5°C climate target",
+          "url": "https://www.nature.com/articles/d41586-026-03631-w"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c18",
+      "drop": "2026-11-09T07",
+      "headline": "Ozone hole reaches 2026 maximum, seventh largest in 48 years",
+      "summary": "NASA says the Antarctic ozone hole hit its 2026 peak, ranking seventh largest by area in 48 years of monitoring, though it was not as deep as other large holes on record.",
+      "why_it_matters": "It tracks the recovery of the ozone layer, which shields people from harmful ultraviolet radiation.",
+      "region": "Global",
+      "topics": [
+        "science",
+        "climate"
+      ],
+      "entities": [
+        "NASA"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T05:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "Ozone Hole Reaches Its 2026 Maximum",
+          "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c19",
+      "drop": "2026-11-09T07",
+      "headline": "Shapiro says Democrats are 'lining up' to primary Fetterman in 2028",
+      "summary": "Pennsylvania Gov. Josh Shapiro said on NBC's Meet the Press that he believes Sen. John Fetterman will face a Democratic primary challenge in 2028, saying Democrats are 'lining up,' the Washington Examiner reports.",
+      "why_it_matters": "It shows Democratic intraparty tensions already forming after the midterm wins, in a state central to national elections.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Josh Shapiro",
+        "John Fetterman"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T00:57:01.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Democrats are ‘lining up’ to primary Fetterman in 2028, Shapiro says",
+          "url": "https://www.washingtonexaminer.com/news/senate/4796912/democrats-lining-up-primary-fetterman-2028-shapiro/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c20",
+      "drop": "2026-11-09T07",
+      "headline": "Mamdani courts union leaders to back a leftist 2028 candidate, Axios says",
+      "summary": "Four people familiar told Axios that New York Mayor Zohran Mamdani has met privately with union leaders, urging them to back a labor-aligned or leftist 2028 presidential candidate, positioning himself as a progressive kingmaker.",
+      "why_it_matters": "It shows the left wing of the Democratic Party organizing early for the 2028 nomination fight.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "elections"
+      ],
+      "entities": [
+        "Zohran Mamdani"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-08T23:15:49.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "Scoop: Mamdani's bid for 2028 kingmaker",
+          "url": "https://www.axios.com/2026/11/08/scoop-mamdanis-bid-for-2028-kingmaker"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c21",
+      "drop": "2026-11-09T07",
+      "headline": "Biden says prostate cancer will limit memoir promotion",
+      "summary": "Former President Joe Biden said his prostate cancer treatment has slowed him down and will limit promotional events for his memoir 'Promise Me, America,' due out Nov. 17, Fox News reports.",
+      "why_it_matters": "It gives an update on the former president's health and his public role as Democrats regroup.",
+      "region": "US",
+      "topics": [
+        "culture-sports",
+        "health"
+      ],
+      "entities": [
+        "Joe Biden"
+      ],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T00:29:19.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Joe Biden says cancer slowed him down, limiting memoir promotion tour",
+          "url": "https://www.foxnews.com/politics/joe-biden-says-cancer-slowed-him-down-limiting-memoir-promotion-tour"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c22",
+      "drop": "2026-11-09T07",
+      "headline": "Russian units post manipulated videos to claim battlefield wins",
+      "summary": "Russian army units and pro-war military bloggers are posting videos that researchers say have been manipulated with deepfake techniques to claim battlefield success, the FT reports.",
+      "why_it_matters": "AI-made war propaganda makes it harder for Americans and allies to judge what is happening in Ukraine.",
+      "region": "Europe",
+      "topics": [
+        "war-conflict",
+        "ai"
+      ],
+      "entities": [
+        "Russia",
+        "Ukraine"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T05:00:25.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Russian military turns to deepfake videos to claim battlefield success",
+          "url": "https://www.ft.com/content/7f36031b-ea90-4a3a-a570-a6c6ff96e45a?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c23",
+      "drop": "2026-11-09T07",
+      "headline": "EU sues IBM and partners over troubled border system",
+      "summary": "The EU has filed a lawsuit in Estonia against IBM and partners over repeated delays in developing the Entry/Exit System for its borders, the FT reports.",
+      "why_it_matters": "The delays affect travel into Europe, including for US visitors, and show the cost of big government tech projects.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "big-tech",
+        "policy-regulation"
+      ],
+      "entities": [
+        "European Union",
+        "IBM"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T05:00:16.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "EU sues IBM and partners over troubled border system",
+          "url": "https://www.ft.com/content/eacea609-d571-4725-b795-a1afd5c3c301?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c24",
+      "drop": "2026-11-09T07",
+      "headline": "Moldova opens new power line to Romania to cut Russia reliance",
+      "summary": "Moldova launched a new power line to Romania, and President Maia Sandu said two more are on the way, to reduce dependence on Russian energy, Al Jazeera reports.",
+      "why_it_matters": "Energy independence for Moldova strengthens a Western-leaning neighbor of Ukraine and reduces Russian leverage in Europe.",
+      "region": "Europe",
+      "topics": [
+        "energy",
+        "europe"
+      ],
+      "entities": [
+        "Moldova",
+        "Romania",
+        "Maia Sandu"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T02:35:15.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Moldova launches new power line to Romania to cut reliance on Russia",
+          "url": "https://www.aljazeera.com/news/2026/11/9/moldova-launches-new-power-line-to-romania-to-cut-reliance-on-russia?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c25",
+      "drop": "2026-11-09T07",
+      "headline": "Trump says Zelensky-Putin 'hatred' is main obstacle to ending war",
+      "summary": "On '60 Minutes,' Trump said the 'hatred between' Zelensky and Putin is one of the primary obstacles to ending the war. Bloomberg reports Kyiv is uneasy after a satellite connectivity interruption last month raised fears of reduced US support.",
+      "why_it_matters": "US mediation shapes the war's course and Europe's security, with talks in Abu Dhabi set for Nov. 10-11.",
+      "region": "Europe",
+      "topics": [
+        "geopolitics",
+        "war-conflict"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Volodymyr Zelensky",
+        "Vladimir Putin",
+        "Ukraine"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-09T02:41:43.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Trump says ‘hatred’ between Zelensky, Putin is main obstacle to ending war",
+          "url": "https://thehill.com/homenews/6207193-trump-blames-zelensky-putin-hatred/"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "Trump’s Weakness and Overtures to Russia Put Ukraine on Edge",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/trump-s-weakness-and-overtures-to-russia-put-ukraine-on-edge"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c26",
+      "drop": "2026-11-09T07",
+      "headline": "Analysts see Democratic win giving China a 'window to catch up' on AI",
+      "summary": "The FT reports analysts say Democrats' midterm victory could slow US data center construction under tougher newly elected politicians, giving China a chance to narrow the AI gap, with possible effects on exporters.",
+      "why_it_matters": "US AI leadership depends on power and data center buildout, which political resistance could slow.",
+      "region": "Global",
+      "topics": [
+        "ai",
+        "china",
+        "policy-regulation"
+      ],
+      "entities": [
+        "China",
+        "Democratic Party"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T05:00:48.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Democrat triumph offers China ‘window to catch up’ on AI",
+          "url": "https://www.ft.com/content/ff0e9974-b855-4b9a-a8c9-0782e7af16ff?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c27",
+      "drop": "2026-11-09T07",
+      "headline": "Smog blankets New Delhi as Diwali fireworks worsen air quality",
+      "summary": "Air quality in the Indian capital reached severe levels after Diwali fireworks, posing heightened health risks for more than 30 million residents, Al Jazeera reports.",
+      "why_it_matters": "Severe pollution affects public health in one of the world's largest cities and in the Indian-American community's ties there.",
+      "region": "Asia",
+      "topics": [
+        "health",
+        "climate"
+      ],
+      "entities": [
+        "New Delhi"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T05:20:08.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Smog blankets New Delhi as Diwali firecrackers worsen air quality",
+          "url": "https://www.aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c28",
+      "drop": "2026-11-09T07",
+      "headline": "Poll puts Victorian Labor at 18%, behind One Nation and the Coalition",
+      "summary": "A new poll ahead of Victoria's election puts Labor at an all-time low of 18%, behind One Nation on 21% and the Coalition on 33%, the Guardian reports. Labor MPs voiced concern.",
+      "why_it_matters": "It shows populist right gains in an allied democracy, a trend relevant to US allies' politics.",
+      "region": "Asia",
+      "topics": [
+        "elections"
+      ],
+      "entities": [
+        "Victorian Labor",
+        "One Nation"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T04:55:15.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Victorian election 2026: Concern and scepticism among Labor MPs as new poll shows party trailing One Nation",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/09/victoria-election-2026-labor-mps-new-opinion-poll-one-nation-ntwnfb"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c29",
+      "drop": "2026-11-09T07",
+      "headline": "Record foreign inflows pour into Indian stocks as AI trade falters",
+      "summary": "Foreign funds were net buyers of close to $5 billion of Indian stocks last week, and HSBC and Citi turned more bullish after the market's sharpest rally in more than four years, Bloomberg reports.",
+      "why_it_matters": "Money rotating out of AI stocks is reshaping global portfolios that include many American funds.",
+      "region": "Asia",
+      "topics": [
+        "markets",
+        "economy"
+      ],
+      "entities": [
+        "HSBC",
+        "Citi",
+        "India"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T02:45:32.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Foreign Funds Pile Into India as AI Trade Falters",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-09/foreign-funds-pile-into-india-as-ai-trade-falters"
+        },
+        {
+          "outlet": "Bloomberg",
+          "title": "HSBC, Citi Turn Bullish as Indian Stocks Draw Record Inflows",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/hsbc-citi-turn-bullish-as-indian-stocks-draw-record-inflows"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-09T07-c30",
+      "drop": "2026-11-09T07",
+      "headline": "BBC enters Marseille's drug gangs recruiting children to kill",
+      "summary": "A BBC investigation inside Marseille's underworld describes young people trapped, brutalized and exploited by drug gangs that recruit children for killings.",
+      "why_it_matters": "It shows how organized crime is reaching minors in Europe, amid unrest already straining France.",
+      "region": "Europe",
+      "topics": [
+        "crime-justice",
+        "europe"
+      ],
+      "entities": [
+        "Marseille",
+        "France"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T06:00:26.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Inside the French drug gangs recruiting children to kill",
+          "url": "https://www.bbc.co.uk/news/articles/cq62y01r2313o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-09T07-c31",
+      "drop": "2026-11-09T07",
+      "headline": "ECB contender Klaas Knot says he would act in a debt crisis",
+      "summary": "Klaas Knot, a candidate for a top ECB role, told the FT he 'won't hesitate' to act in a debt crisis and would be ready to invent new crisis-fighting tools if required.",
+      "why_it_matters": "With French borrowing costs elevated, ECB leadership affects eurozone stability and the dollar and global bond markets.",
+      "region": "Europe",
+      "topics": [
+        "economy",
+        "fed-rates",
+        "europe"
+      ],
+      "entities": [
+        "Klaas Knot",
+        "European Central Bank"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-09T05:00:34.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "ECB contender Klaas Knot ‘won’t hesitate’ to act in a debt crisis",
+          "url": "https://www.ft.com/content/4dfbc7b0-1add-4bc3-ab5e-78c18b2ca87a?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    }
+  ]
+}
