@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "updated_at": "2026-11-09T07:41:42Z",
-  "read": "The labor market is firm: October payrolls beat forecasts and unemployment slipped to 4.10 percent. Inflation is running hotter at 3.7 percent, and the Fed has raised rates once since September, with traders favoring another hike in December. Mortgage rates remain above 7 percent, while falling oil and an AI-driven stock slump add uncertainty.",
+  "updated_at": "2026-11-09T22:54:07Z",
+  "read": "The economy looks hot but price-pressured: October payrolls beat forecasts, unemployment is 4.10%, CPI inflation is 3.7%, and the Fed raised rates in September. Markets price a likely December hike. Stocks rebounded sharply Monday after last week's AI-led selloff; oil has fallen on Iran diplomacy.",
   "indicators": [
     {
       "key": "fedfunds",
       "label": "Fed funds target",
       "value": "3.75–4.00",
       "unit": "%",
-      "as_of": "2026-11-08",
+      "as_of": "2026-11-09",
       "change": "up 0.25",
-      "note": "Range raised in September"
+      "note": "Raised in September; held in October"
     },
     {
       "key": "fedfunds_effective",
@@ -28,7 +28,7 @@
       "unit": "%",
       "as_of": "2026-09-01",
       "change": "up 0.3",
-      "note": "Inflation accelerated in September"
+      "note": "October CPI due Tuesday"
     },
     {
       "key": "unrate",
@@ -36,26 +36,26 @@
       "value": "4.10",
       "unit": "%",
       "as_of": "2026-10-01",
-      "change": "down 0.10",
-      "note": "Jobless rate eased in October"
+      "change": "down 0.1",
+      "note": "Payrolls beat expectations"
     },
     {
       "key": "dgs10",
       "label": "10-yr Treasury",
-      "value": "4.84",
+      "value": "4.86",
       "unit": "%",
-      "as_of": "2026-11-05",
-      "change": "down 0.06",
-      "note": "Yield dipped from prior day"
+      "as_of": "2026-11-06",
+      "change": "up 0.02",
+      "note": "Yields rose after jobs data"
     },
     {
       "key": "dgs2",
       "label": "2-yr Treasury",
-      "value": "4.46",
+      "value": "4.51",
       "unit": "%",
-      "as_of": "2026-11-05",
-      "change": "down 0.12",
-      "note": "Short yields fell more than long"
+      "as_of": "2026-11-06",
+      "change": "up 0.05",
+      "note": "Reflects expected December hike"
     },
     {
       "key": "mortgage30",
@@ -72,26 +72,37 @@
     "odds": [
       {
         "label": "Hike 25bps",
-        "prob": 0.77
+        "prob": 0.81
       },
       {
         "label": "Fed maintains rate",
-        "prob": 0.23
+        "prob": 0.2
       },
       {
         "label": "Hike >25bps",
         "prob": 0.02
       },
       {
-        "label": "Cut >25bps",
+        "label": "Cut 25bps",
         "prob": 0.01
       },
       {
-        "label": "Cut 25bps",
+        "label": "Cut >25bps",
         "prob": 0.01
       }
     ],
-    "note": "Strong October jobs data pushed traders toward a December quarter-point hike."
+    "note": "Kalshi traders favor a December hike; Goolsbee warns the AI buildout is overheating the economy."
   },
-  "week_ahead": []
+  "week_ahead": [
+    {
+      "date": "2026-11-10",
+      "event": "October CPI report",
+      "why_it_matters": "Expected +0.3% headline, +0.2% core; guides the December Fed decision."
+    },
+    {
+      "date": "2026-11-10",
+      "event": "Fed speakers and Anthropic IPO marketing",
+      "why_it_matters": "Fed commentary and AI listing could move markets."
+    }
+  ]
 }

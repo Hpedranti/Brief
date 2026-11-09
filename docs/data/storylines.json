@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T07:41:42Z",
+  "updated_at": "2026-11-09T22:54:07Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -75,11 +75,21 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Russia hit Kyiv's power grid with 172 drones and 36 missiles as Trump says a deal is close, and on Sunday blamed Zelensky-Putin 'hatred' for the impasse. Europe joins US-mediated Abu Dhabi talks Nov. 10-11; Kyiv is uneasy over US support.",
+      "summary": "Russia hit Kyiv's grid as Trump says a deal is close. The White House is cautiously optimistic ahead of US-mediated Abu Dhabi talks Nov. 10-11 with Europe attending. Zelenskyy warns Russia aims to cut Ukraine in half; Russia rations petrol.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-08",
+      "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "White House says it is cautiously optimistic about Abu Dhabi talks on Tuesday and Wednesday, the first with US mediators since February, Axios reports.",
+          "url": "https://www.axios.com/2026/11/09/ukraine-russia-zelensky-putin-peace-abu-dhabi"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Rosneft limits petrol sales after new Ukrainian refinery strikes, the FT reports.",
+          "url": "https://www.ft.com/content/ae06452b-3447-4fee-bd94-355cd324d1c5?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-08",
           "text": "Trump tells '60 Minutes' that 'hatred' between Zelensky and Putin is a main obstacle to ending the war, The Hill reports.",
@@ -164,32 +174,32 @@
           "date": "2026-11-01",
           "text": "Air raid alert apps in Ukraine and Russia are hit by cyberattacks after the truce ends; Ukraine blames Russia for fake nuclear warnings.",
           "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Ukraine resumes attacks on Russian oil refineries in defiance of Trump pressure, the Guardian reports; the Kremlin says Kyiv is ignoring US wishes.",
-          "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Evacuees from Russian-occupied Oleshky reach Ukraine during a localized US-brokered ceasefire.",
-          "url": "https://thehill.com/policy/international/6186192-oleshky-residents-return-ukraine/"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "US approves sale of 500 Patriot missiles to Ukraine, with $2.1 billion to be paid by allies.",
-          "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged and Wall Street lost about $5.7 trillion last week, per Bloomberg. Asian stocks rebounded Monday after bear-market declines; Alphabet mulls Asian bonds. Voters rejected 40 of 41 data center measures.",
+      "summary": "After Democrats won Congress, AI stocks plunged. On Monday US stocks had their best day in seven months as tech rebounded and oil fell, though Nvidia dropped on CEO scandal. Anthropic can start marketing its IPO; CoreWeave and Nebius have halved.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-08",
+      "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "US stocks post their best day in seven months as tech rallies and oil slumps, while Nvidia falls, Bloomberg reports.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Anthropic can begin formally marketing its IPO as early as Tuesday, Bloomberg reports, after releasing new models.",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/anthropic-ipo-s-moment-of-truth-nears-as-waiting-period-expires"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Goldman CEO Solomon says AI financing remains strong despite market jitters; CoreWeave and Nebius have lost about half their value in a month.",
+          "url": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html"
+        },
         {
           "date": "2026-11-08",
           "text": "Alphabet has discussed its first Hong Kong and Singapore dollar bonds, Bloomberg reports, a test of Asian appetite after the AI selloff.",
@@ -274,27 +284,27 @@
           "date": "2026-11-04",
           "text": "Asian tech stocks slide on fears Democratic control slows data center buildout; Hong Kong rebounds as investors rotate away from AI hardware.",
           "url": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "The Hill reports data centers lost overwhelmingly where they were on the ballot; Ars Technica says Big Tech calls the backlash anti-Trump, not anti-tech.",
-          "url": "https://thehill.com/newsletters/energy-environment/6199755-blue-wave-crashes-into-data-centers/"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Voters approve dozens of data center moratoriums; hyperscalers and Apple surge while chipmakers and data center stocks fall, CNBC and the FT report.",
-          "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html"
         }
       ]
     },
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. October payrolls rose 165,000 versus about 59,000 expected and unemployment fell to 4.1%; Kalshi traders put a December 25bp hike at 77%.",
+      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. October payrolls rose 165,000 and unemployment fell to 4.1%. Kalshi puts a December 25bp hike at 81%; Goolsbee says the AI buildout is overheating the economy; CPI due Tuesday.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-07",
+      "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "Chicago Fed's Goolsbee says the AI data center buildout is overheating the economy and putting upward pressure on prices.",
+          "url": "https://thehill.com/business/6209140-fed-official-warns-ai-data-center-inflation/"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "October CPI is due Tuesday, expected at +0.3% headline and +0.2% core, CNBC reports.",
+          "url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html"
+        },
         {
           "date": "2026-11-07",
           "text": "Bloomberg Economics' Anna Wong says the broad-based jobs gain strengthens the case for another Fed rate hike in December.",
@@ -350,11 +360,36 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Trump named Stephen Miller chief of staff, asked the DOJ to look into Democrats, and on Sunday said his deportation policy 'might be too tough,' floating an immigration deal. Mississippi and Alaska remain uncalled.",
+      "summary": "Democrats won the House, Senate and most governorships. Miller is now chief of staff. Massie moved to impeach Hegseth, Trump alleged fraud without evidence and floated an immigration deal; GOP leaders face delay pushes. Mississippi and Alaska remain uncalled.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-08",
+      "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "Rep. Thomas Massie files articles of impeachment against Defense Secretary Hegseth; a House vote could come this week, NPR reports.",
+          "url": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Trump questions midterm integrity on Truth Social without evidence, the BBC reports; Schumer criticizes the claims.",
+          "url": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Trump tells DHS chief Mullin to engage Democrats on immigration but rules out amnesty, Fox reports; Jeffries says Democrats won't fund deportations.",
+          "url": "https://www.foxnews.com/politics/trump-tells-dhs-chief-work-democrats-immigration-reform-no-amnesty"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Sullivan campaign moves to intervene against Peltola's ballot-records lawsuit in Alaska, The Hill reports.",
+          "url": "https://thehill.com/regulation/court-battles/6209007-sullivan-campaign-intervenes-peltola-lawsuit/"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "House Ways and Means Chair Jason Smith urges delaying Tuesday's GOP leadership election, The Hill reports.",
+          "url": "https://thehill.com/homenews/6209196-jason-smith-calls-delay-gop-elections/"
+        },
         {
           "date": "2026-11-08",
           "text": "Trump tells '60 Minutes' his deportation policy 'might be too tough' and helped and hurt Republicans, and offers Democrats an immigration deal, The Hill reports.",
@@ -424,47 +459,32 @@
           "date": "2026-11-06",
           "text": "Trump backs Joe Gruters for another term as RNC chairman after the party's midterm losses.",
           "url": "https://thehill.com/homenews/administration/6204698-trump-backs-gruters-rnc-reelection/"
-        },
-        {
-          "date": "2026-11-06",
-          "text": "Democrat Sean McCann is projected to oust Rep. Bill Huizenga in Michigan's 4th District.",
-          "url": "https://thehill.com/homenews/campaign/6185341-sean-mccann-wins-michigan-district/"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "Democrats Jessica Killin and Cait Conley are projected to flip Colorado's 5th and New York's 17th, unseating Reps. Crank and Lawler.",
-          "url": "https://thehill.com/homenews/campaign/6180533-jessica-killin-unseats-jeff-crank-colorado-5th-district/"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "Nithya Raman is declared winner of the Los Angeles mayoral race over incumbent Karen Bass.",
-          "url": "https://www.theguardian.com/us-news/2026/nov/05/los-angeles-mayor-nithya-raman-karen-bass"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "The NRSC demands Mississippi officials preserve affidavit ballots; the state GOP chair says the party will accept a Colom win if laws are followed.",
-          "url": "https://thehill.com/homenews/campaign/6202795-nrsc-demands-mississippi-ballot-preservation/"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "Trump says Sen. Dan Sullivan should receive the votes cast for namesake Dan J. Sullivan in Alaska, where the margin is 642 votes.",
-          "url": "https://www.axios.com/2026/11/05/trump-dan-sullivan-alaska-senate-race"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "BBC: Democrat Scott Colom leads Cindy Hyde-Smith by just over 1,000 votes in Mississippi; Republicans pin hopes on late-arriving ballots.",
-          "url": "https://www.bbc.co.uk/news/articles/c6n9rwxlx992o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Iran's foreign minister gave the US two days to accept Tehran's offer or face escalation; Rubio calls Iran's demands unrealistic, and Trump says renewed attacks are unlikely if talks progress. Oil had its biggest weekly drop since April 2020. 23 US troops have died.",
+      "summary": "Trump says new Iran attacks are 'quite unlikely' and the war is effectively over after meeting Qatar's prime minister, while keeping forces posture; officials doubt a breakthrough. Oil had its biggest weekly drop since April 2020. Saudi Arabia reports a new pipeline attack. 23 US troops have died.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-08",
+      "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "Trump calls the Iran war 'effectively over' and new attacks 'quite unlikely' after meeting Qatar's prime minister, Al Jazeera and Axios report.",
+          "url": "https://www.axios.com/2026/11/09/trump-iran-war-qatar-negotiations-attacks-unlikely"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Saudi Arabia reports a new attack on its East-West pipeline, which bypasses the Strait of Hormuz, Al Jazeera reports.",
+          "url": "https://www.aljazeera.com/news/2026/11/9/saudi-arabia-reports-new-attack-on-key-east-west-pipeline?traffic_source=rss"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "France blames Iran's Revolutionary Guards for cyberattacks on supermarket refrigeration, the Guardian reports.",
+          "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges"
+        },
         {
           "date": "2026-11-08",
           "text": "Oil extends its biggest weekly drop since April 2020 as traders weigh diplomacy against fresh attacks, Bloomberg reports.",
@@ -544,21 +564,6 @@
           "date": "2026-11-05",
           "text": "Iran says five oil tankers and a tugboat caught fire in several incidents in the Strait of Hormuz amid fears of a new US attack.",
           "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Axios says Trump, who blames the war for GOP losses, faces mostly bad options: strike again or seek a deal.",
-          "url": "https://www.axios.com/2026/11/05/trump-iran-war-midterm-defeat-bad-options"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "South Korea plans to extend its anti-piracy unit's area closer to the Strait of Hormuz after Trump criticism over Iran war support.",
-          "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Oil steadies after falling more than 8% as investors bet a Democratic sweep could accelerate efforts to end the war.",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5"
         }
       ]
     },
@@ -615,11 +620,16 @@
     {
       "id": "sl-israel-election",
       "title": "Israel election deadlock",
-      "summary": "President Herzog tasked Gadi Eisenkot with forming a government, giving him 28 days to reach 61 Knesset seats, a setback for Netanyahu, who claims the vote was stolen. Eisenkot has begun reaching out to Netanyahu's allies.",
+      "summary": "President Herzog tasked Gadi Eisenkot with forming a government, giving him 28 days to reach 61 Knesset seats, a setback for Netanyahu, who claims the vote was stolen. Eisenkot has begun reaching out to Netanyahu's allies; Foreign Policy sees four hard paths.",
       "status": "active",
       "first_seen": "2026-11-01",
-      "last_updated": "2026-11-08",
+      "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "Foreign Policy says Eisenkot has four paths to a coalition, none easy.",
+          "url": "https://foreignpolicy.com/2026/11/09/israel-eisenkot-netanyahu-election-government-herzog/"
+        },
         {
           "date": "2026-11-08",
           "text": "Eisenkot starts coalition talks, reaching out to Netanyahu allies and warning Israel nears a 'point of no return,' the Guardian reports.",
