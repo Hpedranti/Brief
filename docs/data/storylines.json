@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T01:53:56Z",
+  "updated_at": "2026-11-10T08:02:02Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -75,11 +75,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "US-mediated trilateral talks open in Abu Dhabi Nov. 10-11 with Europe attending; US officials cite some flexibility on both sides. Zelenskyy warns Russia aims to cut Ukraine in half by hitting Dnipro bridges; Russia rations petrol after refinery strikes.",
+      "summary": "US-mediated trilateral talks open in Abu Dhabi Nov. 10-11 with Europe attending; US officials seek a 'final end' to the war, but the FT says expectations are low. Zelenskyy warns Russia aims to cut Ukraine in half; Russia rations petrol.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-09",
+      "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "US officials say they will seek a 'final end' to the war at Abu Dhabi talks, including a security-architecture proposal; the FT says expectations are low.",
+          "url": "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks"
+        },
         {
           "date": "2026-11-09",
           "text": "BBC: Kyiv, Washington and Moscow send delegations to the UAE; US officials cite 'some flexibility' by both sides.",
@@ -180,11 +185,16 @@
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged; Monday brought the best day in seven months, though the Dow has had three 1,000-point swings in four days. Anthropic is expected to set its IPO valuation range this week; CoreWeave and Nebius have halved.",
+      "summary": "After Democrats won Congress, AI stocks plunged; Monday brought the best day in seven months, though the Dow has had three 1,000-point swings in four days. SoftBank posted a $7 billion loss; Anthropic is expected to set its IPO range this week.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-09",
+      "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "SoftBank swings to a roughly $7 billion quarterly net loss, its first in nearly two years, as its share price has halved, the FT reports.",
+          "url": "https://www.ft.com/content/5ceed157-0016-4822-a272-8b607911da5e?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-09",
           "text": "Anthropic is expected to set its IPO valuation range this week, the WSJ reported, per TechCrunch.",
@@ -277,11 +287,6 @@
         },
         {
           "date": "2026-11-05",
-          "text": "OpenAI says it will stop using NDAs with public officials on data center projects after voters rejected expansion.",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
-        },
-        {
-          "date": "2026-11-05",
           "text": "Wall Street sheds about $3.2 trillion as the Nasdaq 100 falls 6.4%, the FT reports; MarketWatch calls it tech's worst day since 2020.",
           "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1"
         }
@@ -360,11 +365,16 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Miller is chief of staff. Trump backs Hegseth as Massie forces an impeachment vote; GOP leaders face delay pushes, and Speaker Johnson won't commit to serving. Mississippi and Alaska remain uncalled.",
+      "summary": "Democrats won the House, Senate and most governorships. Miller is chief of staff. Trump backs Hegseth as Massie forces an impeachment vote and predicts Hegseth leaves by year-end; GOP leaders face delay pushes, and Speaker Johnson won't commit to serving.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-09",
+      "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "Massie says there is a 'high probability' Hegseth won't last the year; Trump says Hegseth should be praised, not impeached.",
+          "url": "https://thehill.com/policy/defense/6209701-massie-impeaches-hegseth/"
+        },
         {
           "date": "2026-11-09",
           "text": "Speaker Mike Johnson declines to commit to serving in the next Congress, the Washington Examiner reports.",
@@ -454,22 +464,27 @@
           "date": "2026-11-06",
           "text": "Sen. Ron Johnson gets five signatures to seek a delay of next week's Senate GOP leadership elections.",
           "url": "https://thehill.com/homenews/senate/6204900-ron-johnson-senate-gop-leadership-election-midterm-election-losses/"
-        },
-        {
-          "date": "2026-11-06",
-          "text": "Lawyers for both Mississippi Senate campaigns prepare for a possible legal battle and recount as the count continues, the BBC reports.",
-          "url": "https://www.bbc.co.uk/news/articles/cwj0llvqqm72o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Trump calls the war effectively over and cites positive momentum after meeting Qatar's prime minister; Iranian officials dismiss this as fake news and demand US acceptance of their conditions. Oil is near its lowest since August. Saudi Arabia reports a new pipeline attack.",
+      "summary": "Trump calls the war effectively over and more US attacks 'highly unlikely' while staying 'locked and loaded'; Iran dismisses this and demands US acceptance of its conditions. Oil is near its lowest since August. Saudi Arabia reports pipeline attacks and missiles at Riyadh.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-09",
+      "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "US reportedly evacuated aircraft from RAF Mildenhall after an Iranian threat, the WSJ reported, per the Guardian.",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat"
+        },
+        {
+          "date": "2026-11-10",
+          "text": "Saudi forces intercept two missiles fired at Riyadh after reporting damage to the East-West pipeline, Al Jazeera reports.",
+          "url": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss"
+        },
         {
           "date": "2026-11-09",
           "text": "Iranian officials dismiss Trump's 'effectively over' remarks as fake news and demand the US accept Iran's conditions, Al Jazeera reports.",
@@ -559,11 +574,6 @@
           "date": "2026-11-05",
           "text": "BBC: satellite images from November suggest major construction near Iranian missile bases.",
           "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "FT: Qatar-led mediators step up efforts to broker an interim US-Iran agreement.",
-          "url": "https://www.ft.com/content/eced6084-7cd7-4633-a8ba-559173e0f6c1?syn-25a6b1a6=1"
         }
       ]
     },
@@ -620,11 +630,16 @@
     {
       "id": "sl-israel-election",
       "title": "Israel election deadlock",
-      "summary": "President Herzog tasked Gadi Eisenkot with forming a government, giving him 28 days to reach 61 Knesset seats, a setback for Netanyahu, who claims the vote was stolen. Eisenkot has begun reaching out to Netanyahu's allies; Foreign Policy sees four hard paths.",
+      "summary": "President Herzog tasked Gadi Eisenkot with forming a government, giving him 28 days to reach 61 Knesset seats; Netanyahu claims the vote was stolen, though Shin Bet found no foreign interference. The new Knesset is sworn in Tuesday.",
       "status": "active",
       "first_seen": "2026-11-01",
-      "last_updated": "2026-11-09",
+      "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "New Knesset is sworn in Tuesday, giving opposition a chance at some levers of power; Shin Bet reportedly finds no foreign election interference.",
+          "url": "https://www.theguardian.com/world/2026/nov/10/new-knesset-speaker-ousting-netanyahu-israel-pm"
+        },
         {
           "date": "2026-11-09",
           "text": "Foreign Policy says Eisenkot has four paths to a coalition, none easy.",
@@ -685,11 +700,16 @@
     {
       "id": "sl-nvidia-huang",
       "title": "Nvidia CEO Huang spy scandal",
-      "summary": "Nvidia's board is investigating CEO Jensen Huang over his affair with Alice Huang, an alleged Chinese spy tied to Megaspeed. Trump says the FBI is looking into it and defends Huang. Nvidia stock fell about 4% Monday.",
+      "summary": "Nvidia's board is investigating CEO Jensen Huang over his affair with Alice Huang, an alleged Chinese spy tied to Megaspeed. Trump says the FBI is looking into it and defends Huang. Shareholders have now sued Nvidia and Huang.",
       "status": "active",
       "first_seen": "2026-11-08",
-      "last_updated": "2026-11-09",
+      "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "Shareholders sue Nvidia and Huang, accusing them of defrauding investors over the affair with an alleged Chinese spy, the Guardian reports.",
+          "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi"
+        },
         {
           "date": "2026-11-09",
           "text": "Trump says the FBI is looking into Huang's affair with an alleged Chinese spy and that he believes Huang did not know of her work, the BBC reports.",

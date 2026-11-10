@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "drop": "2026-11-10T08",
+  "articles": {
+    "2026-11-10T08-c26": {
+      "paragraphs": [
+        "Cameroon's President Paul Biya has announced that legislative and local elections will be held on February 7 next year, according to Al Jazeera. The 93-year-old made the announcement in a decree read on public radio on Monday.",
+        "The vote has already been postponed twice. Al Jazeera reported that the delays forced an extension of lawmakers' terms to December 20 and those of municipal councillors to February 28, 2027.",
+        "The decree comes roughly a year after an election that handed Biya, who has ruled since 1982 and is the world's oldest head of state, another term. His re-election in October last year set off widespread protests that authorities met with a violent crackdown. Lawyers cited by Human Rights Watch said security forces detained up to 2,000 people, and AFP reported that some remain in custody.",
+        "Other matters remain unresolved. The country is awaiting a government reshuffle announced nearly a year ago and the appointment of a vice president. A constitutional reform reintroduced the post in April, and its holder would be expected to succeed Biya if he died.",
+        "Questions about Biya's health continue, Al Jazeera said, with his frequent stays abroad fuelling debate over his ability to govern. Media debate about his health has been banned since 2024. In late August he returned to Yaounde after more than two months in Geneva, drawing sharp criticism from the opposition.",
+        "Last month, authorities suspended the Cameroon National Salvation Front, the party of defeated opposition presidential candidate Issa Tchiroma Bakary, who went into exile in the Gambia after declaring himself the winner."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/10/cameroon-sets-date-for-twice-delayed-legislative-and-local-elections?traffic_source=rss"
+      ]
+    },
+    "2026-11-10T08-c27": {
+      "paragraphs": [
+        "Police in Santa Barbara, California, are investigating after nearly 30 runners in Sunday's Santa Barbara Half sought hospital care, The Guardian reported. Police told the Associated Press they opened the investigation after Santa Barbara Cottage Hospital reported multiple participants seeking treatment for \"unusual symptoms\".",
+        "Cottage Health said it saw a \"larger than expected number of emergency visits\" with \"similar symptoms of undetermined cause\". It said 27 participants came to emergency rooms in Santa Barbara and Goleta. As of Monday morning, 24 had been treated and discharged, and three were in stable condition. Neither the hospital nor police have described the symptoms beyond calling them unusual.",
+        "Race organizers attribute any illness to heat or dehydration. The high on race day was 88F (31.1C), unusually warm for this time of year. Event director David Monico said organizers transported 15 people from the medical tent to local hospitals, and that the event's medical team treated numerous runners for dehydration and overheating on the course and at the finish line.",
+        "Monico told the Guardian that organizers have \"no additional information to suggest that the issues some of the participants experienced were caused by anything other than endurance event exertion-related symptoms\".",
+        "More than 4,640 people competed in the roughly 13-mile race, according to the event's website. The hospital describes the cause of the symptoms as undetermined, and the police investigation is under way."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/us-news/2026/nov/09/santa-barbara-half-marathon-illness-police"
+      ]
+    },
+    "2026-11-10T08-c28": {
+      "paragraphs": [
+        "The FBI is investigating an alleged homicide aboard the MSC Seascape, which returned to Galveston, Texas, on Monday, the Washington Examiner reported. Authorities had directed the ship to return to port after an incident involving a passenger.",
+        "The FBI's Houston field office confirmed that its Texas City office was investigating a possible incident aboard the vessel Monday afternoon but declined to give more details. By Monday evening, the bureau announced that a suspect was in custody. Authorities have not disclosed the identities of the suspect or victim, and it is unclear whether the two were related. Multiple outlets, citing the Galveston County Jail, identified the suspect as 48-year-old Jason Leon Watford.",
+        "The FBI is coordinating with the Coast Guard, the Port of Galveston Police Department, Customs and Border Protection and MSC Cruises. A company spokesperson said, according to multiple reports: \"On reporting a guest incident aboard our ship, we were instructed by the authorities to return to the Port of Galveston.\"",
+        "MSC said the ship left Galveston Monday afternoon and resumed its scheduled itinerary, and it gave no further information about the incident. The Seascape began operating from Galveston in November 2025 after previously sailing from Miami, and offers five- and seven-night Caribbean voyages. According to the company's website, it can hold nearly 6,000 passengers in more than 2,200 cabins, with more than 1,600 crew.",
+        "The article noted that the FBI has jurisdiction over certain crimes aboard cruise ships, including murder, depending on factors such as the vessel's location, registration and the nationalities of those involved."
+      ],
+      "based_on": [
+        "https://www.washingtonexaminer.com/news/crime/4798182/fbi-suspected-homicide-cruise-ship-texas/"
+      ]
+    },
+    "2026-11-10T08-c29": {
+      "paragraphs": [
+        "A security researcher has found more than 100 serious vulnerabilities in publicly available UK government code, Wired reported. Chris Nesbitt-Smith of ControlPlane said he found vulnerabilities in around two-thirds of the 349 public sector codebases across 33 organizations that he scanned. He used Claude's Opus and Sonnet AI models, running consumer-grade models on a laptop, and said many of the issues could have been caught by a routine IT health check.",
+        "The most serious case involved the Planning Inspectorate, which handles land-use matters across England. Nesbitt-Smith said it failed to fully remove a login that it accidentally committed to GitHub. He said the credentials would have given \"god-tier\" read and write access to all SharePoint sites and private employee OneDrive accounts, including HR records.",
+        "A Planning Inspectorate spokesperson told Wired its monitoring tools detected his activity in August, that it fixed the vulnerability within 20 minutes of the report, and that it verified no data breach occurred. Amanda Brock, chief executive of OpenUK, said the issue was about internal housekeeping rather than open source security.",
+        "Other findings included flaws in Department of Education code, among them a teacher application service holding personal details and identity documents, and a Scottish Government open data portal that would have let any visitor read administrative account information. The organizations have since dealt with the issues.",
+        "Some are arguing that departments should stop publishing code openly now that AI speeds up vulnerability discovery, and the NHS reportedly ordered teams to move away from open source in May. Nesbitt-Smith said doing so without fixing the underlying problems would be the \"worst case scenario\", because an adversary has likely already mirrored the repositories."
+      ],
+      "based_on": [
+        "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/"
+      ]
+    },
+    "2026-11-10T08-c30": {
+      "paragraphs": [
+        "Families in St Martins Extension, a Harare suburb, lost their homes when bulldozers and municipal police arrived around 5am on August 14, Al Jazeera reported. Residents say they bought their land through council-linked processes. The municipality says it is enforcing planning rules against structures built without approval or on land not designated for housing.",
+        "Methro Masunga, 28, a single mother of three, said she began paying for her stand in 2015, received an allocation in 2019, and that the arrangement was formalised through the city council in 2020. Memory Chengeta said residents were bewildered because a court order had barred demolitions. Some residents have returned to renting, while others remain in makeshift shelters.",
+        "The total number displaced in 2026 has not been independently established. Council records seen by Al Jazeera list more than 5,000 houses facing demolition under 37 outstanding High Court orders, and a council task force has inspected 22,255 sites.",
+        "On October 29, 2025, Justice Happias Zhou issued a consent order setting aside demolition notices to named applicants in St Martins Extension and barring their eviction or demolition without a valid court order. Al Jazeera said the order did not automatically cover every property, and the available information does not establish whether Masunga or Chengeta were covered. Council spokesperson Stanley Gama said the council is demolishing only structures whose owners were repeatedly warned, and the council maintains it did not demolish protected properties.",
+        "Mayor Jacob Mafume said residents with approved plans should produce them, but declined to comment on the legality of the St Martins demolitions. Precious Shumba of the Harare Residents' Trust said directives to demolish were issued despite the court order. Al Jazeera noted that an allocation does not necessarily show a house was authorised, making building approvals central."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/10/harare-demolitions-leave-families-homeless-after-years-of-building?traffic_source=rss"
+      ]
+    },
+    "2026-11-10T08-c31": {
+      "paragraphs": [
+        "Errors in the EU's digital entry and exit system, known as EES, have left some British travellers wrongly flagged as having overstayed the 90-day limit, the Guardian reported. Author Jojo Moyes says she faces a two-year EU ban and a €10,000 fine, although she spent only 23 days in the EU over six months.",
+        "Moyes said her departure from Portugal after a May trip was never logged. She was detained by French border guards after a holiday, and a senior officer in Marseille warned her not to try to re-enter Europe until it is sorted out. She has hired an immigration lawyer and says she does not know whether she is safe to travel.",
+        "The system, launched last year, replaced passport stamps with biometrics. The problem affects people whose biometrics were collected on arrival but not on departure. Jane Nolan said she and her husband spent 40 days in France in April, yet the EU's online tool shows zero days remaining. The Telegraph reported a UK holidaymaker was deported from Italy after a system error suggested she had overstayed. Over the summer some countries suspended the system and used manual checks, and on Monday it emerged the EU is suing three firms over the failures.",
+        "Rory Boland of Which? Travel called the situation unacceptable. Julia Lo Bue-Said of the Advantage Travel Partnership called for greater accountability and a straightforward way to correct inaccurate records.",
+        "The Foreign Office said it is raising the issues with the European Commission and advised travellers to carry evidence of when they last left the EU. The Commission had been contacted for comment."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/business/2026/nov/10/jojo-moyes-uk-travellers-eu-ban-digital-border-system-ees"
+      ]
+    },
+    "2026-11-10T08-c13": {
+      "paragraphs": [
+        "Israel's new Knesset is due to be sworn in on Tuesday. The Guardian reports that this gives opposition politicians their first chance to take control of some levers of power while they struggle to form a government to unseat Benjamin Netanyahu.",
+        "Replacing the speaker is high on the agenda. The speaker controls the legislature's agenda, and the post is held by Amir Ohana, described as a close Netanyahu ally. Israeli media reported that Gadi Eisenkot, the former military chief who received the presidential mandate to try to form a coalition at the weekend, may take the role himself. If not, the opposition has agreed the nominee will come from his Yashar party. Opposition parties hold 67 of the 120 seats, enough to install a consensus choice.",
+        "More than 160 former security officials warned in a letter, quoted by Ma'ariv, that activists opposed to replacing the speaker plan to stop lawmakers and their families from entering the building and are encouraging tens of thousands of supporters to join them.",
+        "Forming a government is harder. Several Jewish-Israeli opposition parties have sworn not to sit with Palestinian-led parties, which hold 19 seats. Without them, the bloc has fewer seats than Netanyahu's diminished coalition. Eisenkot has promised a national emergency government through what he called \"creative and unconventional political acts\" and said no one will be able to fulfil all their campaign promises.",
+        "Ohana could delay signing in a new government for up to a week, so Eisenkot may hold off announcing any deal until the speaker is replaced. If he fails, the mandate passes to other leaders, and if they fail too, Israel must hold new elections, with Netanyahu staying on as caretaker. Netanyahu has called on opponents to join a unity government. The page text did not include a response from his camp to the security officials' warning."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/nov/10/new-knesset-speaker-ousting-netanyahu-israel-pm"
+      ]
+    },
+    "2026-11-10T08-c16": {
+      "paragraphs": [
+        "Taiwan Semiconductor Manufacturing Co. reported on Tuesday that its October revenue was 586.89 billion New Taiwan dollars, or $17.88 billion, according to CNBC. That was up 59.7% from a year earlier and 14.7% from the previous month.",
+        "CNBC said the world's largest contract chipmaker benefited from strong demand for advanced semiconductors as major technology companies keep investing heavily in artificial intelligence.",
+        "The monthly figure follows results last month in which TSMC reported a record third-quarter net profit of NT$763.1 billion, beating estimates, on revenue of NT$1.49 trillion. Its third-quarter operating margin reached 58.7%, above the top of its guidance range of 58%. The company expects capital expenditure from 2026 to 2028 to be significantly higher than in the previous three years as it invests to support customer demand.",
+        "TSMC shares closed 2.24% higher on Tuesday, amid broader market volatility in Taiwan. Last week the island's financial regulator announced tighter short-selling restrictions, which took effect Monday. They cut the daily limit on intraday short-selling orders from 30% to 3%.",
+        "Separately, government data released Monday showed Taiwan's exports surged 58.9% in October from a year earlier to $96.76 billion. Local media, citing the finance ministry, reported that electronic components exports rose 61.4%, helped by strong demand for advanced chips."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html"
+      ]
+    },
+    "2026-11-10T08-c17": {
+      "paragraphs": [
+        "Europe's manufacturers could give up trying to compete with Chinese rivals by the end of the decade if current trends continue, according to Jens Eskelund, who heads the European Union Chamber of Commerce in China. He spoke to the Guardian in Brussels, where he has been meeting European Commission officials.",
+        "Eskelund said European companies in China are now considering a shift from \"Made in China for China\" to \"Made in China for the world\". He said European countries might need to change policy so that domestic manufacturers can become part of Chinese firms' supply chains rather than being treated as competitors. \"One way that they can compete with the Chinese supply chain is to become a part of the Chinese supply chain itself,\" he said.",
+        "He pointed to a Goldman Sachs report forecasting that Chinese exports would lower EU GDP by 0.5% by the end of the decade and Germany's by up to 0.9%. He also warned that new dependencies could cost Europe its ability to determine its own future. The Guardian says the EU's trade deficit with China is running at a record of about a billion pounds a day, and cites a BMW profit warning and a 22% drop in its China sales over nine months.",
+        "Eskelund said China's strategy is no surprise because it is written in its five-year plans, and he blamed brutal supply-chain competition and a currency he said is undervalued by about 30%. His advice to EU leaders was to engage with China so both sides can see value created. He dismissed the idea that Europe could fix the imbalance by exporting more as \"fantasy\"."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/business/2026/nov/10/eu-manufacturers-china-jens-eskelund"
+      ]
+    },
+    "2026-11-10T08-c18": {
+      "paragraphs": [
+        "A new analysis from Humans First, a conservative AI safety group, found that deep-red counties with large data centers or proposed projects shifted further toward Democrats in last week's midterms than comparable counties without them. Fox News Digital obtained the analysis, which covered 1,540 counties across 16 states.",
+        "Across all counties examined, those hosting large data centers moved an additional 2.2 percentage points toward Democrats compared with non-host counties in the same states. The group says the pattern appeared in 14 of the 16 states and 25 of 27 governor and Senate races. In deep-red counties, those Donald Trump won by at least 20 points in 2024, the raw gap was 2.1 points. Among those with projects still at the proposal stage, the gap was 1.1 points after adjusting for factors such as past voting and population. Republican vote totals fell an additional 1.1% in deep-red host counties, while Democratic totals showed no significant change.",
+        "The memo cautions that it shows an association, not proof that data centers changed votes, and that county results cannot show whether Republicans switched or stayed home. It also says it cannot establish whether the group's own bus tour stops influenced results.",
+        "Humans First chairwoman Amy Kremer said people engage politically when issues affect them personally, and argued that residents have had no say, citing nondisclosure agreements, tax abatements and possible higher electricity and water costs. Fox noted that such developments do not establish that data centers raised household rates in these counties. The Data Center Coalition, an industry group, says data centers generate jobs, investment and tax revenue and that incentives resemble those for other capital-intensive industries.",
+        "Separately, Ballotpedia reported that voters favored restrictions or rejected supportive measures in 46 of 47 local data center ballot measures in 2026. The group identified 114 proposed projects across 92 deep-red counties."
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/red-counties-data-center-projects-swung-away-gop-midterms-analysis-finds"
+      ]
+    },
+    "2026-11-10T08-c19": {
+      "paragraphs": [
+        "President Donald Trump said Monday night that his mass deportation agenda has not put the same pressure on migrant workers as on people he described as murderers and drug dealers. Fox News reports he made the remarks in a phone call with C-SPAN.",
+        "\"We haven't put the same pressure on waitresses and on farm workers, etc. Not even close,\" Trump said. He also said that mental institutions had been \"dumped\" into the country and that some very dangerous people were released.",
+        "The comments follow his Sunday interview on \"60 Minutes,\" aired after Republicans lost majorities in both chambers of Congress in last week's midterms. Asked about working with Democrats on immigration, he said, \"I'd love to do something on immigration,\" and signaled willingness to \"work a deal\" for people who have been in the U.S. illegally for 10 or 15 years. He said enforcement both helped and hurt him, because \"we also took people that had good jobs,\" and called the removal of hotel workers \"a tough thing.\" At a White House briefing Monday, however, he said \"there won't be amnesty\" and his policy \"hasn't changed.\"",
+        "In the C-SPAN call he also addressed other topics. The House could take up Rep. Thomas Massie's impeachment resolution against Pentagon chief Pete Hegseth as early as Tuesday. Trump said he would be \"disappointed\" if some Republicans voted for it. Asked when the war on Iran will end, he said \"it depends,\" adding that Gulf neighbors prefer the current approach to another strike he said would be about five times bigger. He said he believes Iran \"would like to make a deal.\""
+      ],
+      "based_on": [
+        "https://www.foxnews.com/politics/trump-says-deportation-push-hasnt-put-same-pressure-farm-workers-hotel-staff-not-even-close"
+      ]
+    },
+    "2026-11-10T08-c21": {
+      "paragraphs": [
+        "A YouGov poll completed on the eve of the 2026 midterms found that Americans were far less likely to back candidates who supported the US-Israel war on Iran, according to Al Jazeera. In the poll, released Monday, 44 percent said they were less likely to support such candidates, while 13 percent said more likely. Another 26 percent said it would not make much difference.",
+        "The poll also asked about costs. Some 56 percent said the US should prioritise avoiding higher prices at home over achieving President Donald Trump's military goals in Iran, while 22 percent said the opposite. On who should decide when the war ends, 53 percent said Congress and 29 percent said the president. The US and Israel launched the war on February 28, and Trump bypassed congressional authorisation, which Al Jazeera says has raised constitutional concerns.",
+        "Jonathan Guyer of Eurasia Group, on whose behalf the poll was conducted, said the results show the public wants Congress to play a bigger role. He said Republicans were the only group more likely to back a pro-war candidate, but that support is \"softening\": a third said war backing made a candidate appealing and 40 percent said it made no difference.",
+        "Al Jazeera reports that Democrats reclaimed both chambers of Congress and that the debate over the war is playing out in both parties. It says Vice President JD Vance blamed his party's setback on the war in a social media post, and that Tucker Carlson and Marjorie Taylor Greene have also criticised it. On Monday Trump said \"Iran militarily is effectively over\" but did not rule out further military action. A US blockade around Iran remains in effect. Guyer expects foreign policy to be a dividing line in the 2028 presidential election."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/10/poll-finds-voters-preferred-candidates-who-opposed-iran-war-by-3-1-margin?traffic_source=rss"
+      ]
+    },
+    "2026-11-10T08-c22": {
+      "paragraphs": [
+        "Thousands of people joined a silent march through central Krakow on Monday night in memory of those killed and injured in a weekend shooting, the BBC reports. Poland's president and prime minister, described as bitter political rivals, led the crowd in a rare show of unity after what the BBC calls the country's deadliest attack in modern times.",
+        "Local media named the alleged gunman as 24-year-old Michal Oksinski. He was critically injured in a shoot-out with police and died in hospital early Monday. Investigators say the bodies of his parents and sister were found at his home, and he is alleged to have shot them before driving about 200km to Krakow. Six victims died in the city, including a Polish painter in her 50s, a British citizen and an Austrian.",
+        "The motive is disputed. The interior minister initially claimed Oksinski was driven by far-right views, but the national prosecutor's office now says it is too soon to say he was inspired by any ideology. Dr Pawel Musialek of the Jagiellonian University suggested the minister wanted to win domestic political points. Investigators are examining his electronic devices and badges on his clothing, and a Gadsden flag was in his bedroom, which a prosecutors' spokesman said is not necessarily negative.",
+        "Police found four firearms and hundreds of rounds in his car, all legally owned by him and his father. The BBC says he passed all required checks, including psychological tests, and the government announced an urgent review on Monday. Gun ownership has grown since the war in Ukraine began, but this is the first mass shooting anyone in Poland can remember. Residents quoted said they want to know why it happened."
+      ],
+      "based_on": [
+        "https://www.bbc.co.uk/news/articles/cqkg5gm4nr4no?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    "2026-11-10T08-c23": {
+      "paragraphs": [
+        "Russian President Vladimir Putin will chair a session of the Collective Security Council of the Collective Security Treaty Organization, the Russia-dominated post-Soviet military bloc, in Moscow on Wednesday. Al Jazeera reports that Armenia's strained relationship with the Kremlin will be under the spotlight.",
+        "Armenia's participation has been frozen since February 2024. It remains technically a member but has effectively boycotted the bloc, blaming it for failing to help during the 2020 war with Azerbaijan, when no member deployed troops despite the charter envisaging such aid. Kremlin spokesman Dmitry Peskov said last week that Armenia \"de facto doesn't participate,\" and that what happens next depends on discussions within the organisation. Armenian Prime Minister Nikol Pashinyan said on November 5 that \"our interest in the CSTO has run its course.\" Yerevan is also seeking European Union membership, while Moscow keeps two military bases in Armenia.",
+        "Analysts quoted by Al Jazeera say moves to strip Armenia of voting rights would be a demonstrative punishment. Alisher Ilkhamov of the Central Asia Due Diligence think tank said Armenia's timing is useful because Russia is busy with the war in Ukraine and weakened by sanctions. Galiya Ibragimova said other members are too dependent on Russia to object. She argued Russia's reported failures in Ukraine have undermined its image of strength, and none of the member states backed Moscow militarily there.",
+        "Meanwhile, former Soviet states are exploring other partnerships. Uzbekistan, Azerbaijan and Turkiye held joint exercises in September, and five countries held drills in October 2025. Moscow has failed to persuade Uzbekistan to rejoin the CSTO. Ilkhamov said that for now Moscow is limited to verbal dissatisfaction and is unable to take decisive steps against disloyal neighbors."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/10/moscow-summit-tests-russias-waning-grip-on-former-soviet-allies?traffic_source=rss"
+      ]
+    },
+    "2026-11-10T08-c24": {
+      "paragraphs": [
+        "Google DeepMind researchers used agentic AI to mathematically prove, or formally verify, a number of the Signal protocol's key cryptographic guarantees, Wired reports. The proof-of-concept work took four weeks and used a new AI framework called AlphaProof Code.",
+        "The analysis found no new vulnerabilities in the portions of the protocol it examined. When the researchers ran the tool on older Signal versions containing known, long-fixed flaws, it correctly identified them and showed the protocol could not be verified. The team is releasing its specification and proof to help other formal verification work. Wired notes the result adds independent validation to cryptography that protects communications on Signal, Google Messages and WhatsApp.",
+        "There are limits. The analysis did not verify the entire Signal mobile app, and the researchers had a head start from earlier formal verification work by the Signal Foundation. Swarat Chaudhuri, a DeepMind research scientist, said there is \"a long distance to go\" before the approach can scale to \"all the software of the world,\" which the team wants to do. Signal's chief technology officer, Ehren Kret, said the approach enables significant expansion over prior work focused on smaller portions of code.",
+        "Formal verification uses math to check that software works as intended, and Wired says it has long been seen as a holy grail of software security. Pushmeet Kohli, a Google Cloud and DeepMind executive, suggested banks and other companies could someday prove properties of their code. Whether it can scale at workable cost is an open question. Google did the Signal analysis free as research, declined to share its cost and declined to say whether it plans a commercial product. Chaudhuri said the process keeps humans reviewing at key points rather than leaving AI to write its own goals and proofs."
+      ],
+      "based_on": [
+        "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+      ]
+    },
+    "2026-11-10T08-c25": {
+      "paragraphs": [
+        "The Justice Department told a federal court on Friday that it plans to intervene in a Medicaid billing lawsuit against Planned Parenthood that seeks more than $1.8 billion, the Washington Examiner reports. The New York Times first reported the move. It came days after Democrat Nathan Johnson won the race to succeed Texas Attorney General Ken Paxton, who championed the case.",
+        "The case began in 2021 when an anonymous plaintiff, Alex Doe, sued under the False Claims Act, which lets private whistleblowers pursue alleged fraud against the government. Texas joined in 2022, alleging Planned Parenthood improperly kept Medicaid payments while fighting removal from the program. About $10 million in payments is disputed, but damages and penalties push the demand above $1.8 billion. Both sides have proposed an April 2027 trial before U.S. District Judge Matthew Kacsmaryk.",
+        "Anti-abortion leaders welcomed the step. Shawn Carney of 40 Days for Life called it \"excellent and long-overdue,\" and Marjorie Dannenfelser of Susan B. Anthony Pro-Life America welcomed the department standing with the whistleblower. Planned Parenthood has called the suit \"meritless.\" Susan Baker Manning, a senior vice president of the federation, said the administration has spent two years trying to shut the organization down through legislative, administrative and legal attacks and is now using the Justice Department to try again.",
+        "Johnson, who will be the state's first Democratic attorney general since 1999, has promised to drop litigation he judges politically motivated, but has not committed to a position on Planned Parenthood. He said he will take \"appropriate action in the interests of my state.\" The Examiner says federal involvement could keep the case alive if state support fades."
+      ],
+      "based_on": [
+        "https://www.washingtonexaminer.com/news/justice/4797638/doj-anti-abortion-groups-planned-parenthood-lawsuit/"
+      ]
+    },
+    "2026-11-10T08-c01": {
+      "paragraphs": [
+        "Two NASA smallsats are on their way to Mars after completing flybys of Earth almost a year after launch, SpaceNews reported. The spacecraft, part of the ESCAPADE mission, are nicknamed Blue and Gold. Gold passed Earth at about 6 a.m. Eastern on Nov. 9, within about 1,050 kilometers, a little more than 48 hours after Blue's flyby at about 1,600 kilometers.",
+        "Both Rocket Lab-built spacecraft fired their engines during the passes, using the Oberth effect to get the most from the maneuver. NASA's Asal Naseri said it was the first time the agency had used a powered Earth flyby to propel a spacecraft toward Mars. Principal investigator Rob Lillis said the burns were as critical as a Mars orbit insertion burn and \"were executed perfectly.\"",
+        "The mission avoids the short launch windows that open roughly every two years. It launched last November on the second flight of Blue Origin's New Glenn and spent nearly a year near the Earth-sun L-2 Lagrange point. Advanced Space developed the trajectory. Its Jeff Parker said the method allows launching almost anytime and using Earth's gravity for a boost.",
+        "The probes are due to arrive two days apart in September 2027, each using an 11-minute main engine burn to enter orbit. They will study how the solar wind interacts with the Martian magnetosphere and atmosphere, first from the same orbit, separated by up to 30 minutes, and later from separate orbits.",
+        "ESCAPADE is the last surviving mission of NASA's SIMPLEx program for low-cost planetary science. Janus was canceled in 2023, Lunar Trailblazer was ended in 2025 after a malfunction, and two earlier cubesat missions also failed. NASA, citing budget pressures, has not sought new SIMPLEx proposals."
+      ],
+      "based_on": [
+        "https://spacenews.com/escapade-on-its-way-to-mars-after-earth-flybys/"
+      ]
+    },
+    "2026-11-10T08-c02": {
+      "paragraphs": [
+        "SoftBank reported a fiscal second-quarter net loss of 1.12 trillion yen, about $7 billion, on Tuesday, citing investment losses and higher financing costs, according to CNBC. Even so, its shares closed 13.9% higher that day, as Asian technology stocks including Samsung Electronics and SK Hynix rose after an overnight rebound on Wall Street.",
+        "Revenue rose 13.3% in the six months ended Sept. 30, supported by growth in telecommunications and AI computing. The company said its SoftBank segment recorded higher sales across all businesses. SoftBank also booked a 597.2 billion yen loss in the period tied to changes in procurement plans for power generation equipment for AI data center projects in the United States.",
+        "The Vision Fund segment swung to a loss of 81.58 billion yen in the quarter, compared with a profit of 2.38 trillion yen a year earlier. Vision Fund 1 recorded an investment loss of $20 million despite a $1.3 billion gain on ByteDance, as shares of publicly traded holdings such as Coupang and Grab declined. Vision Fund 2 posted investment gains of 89.26 billion yen.",
+        "As of the end of September, SoftBank's cumulative investment in OpenAI stood at $54.6 billion, with a fair value of $99.6 billion, a cumulative gain of $45 billion, according to the company.",
+        "Ahead of the results, SoftBank Group announced on Monday that it would join Grab and Malaysia's PETROS in committing a combined $1.85 billion in initial capital for AI infrastructure in Malaysia, with a long-term target of at least five gigawatts of AI computing capacity. CNBC described its report as a breaking story that was still being updated."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html"
+      ]
+    },
+    "2026-11-10T08-c03": {
+      "paragraphs": [
+        "Shareholders have sued Nvidia and its chief executive, Jensen Huang, accusing them of defrauding investors, according to the Guardian and Reuters. The complaint, filed in federal court in San Jose, California, concerns Huang's alleged affair with Alice Huang, a former executive of Singapore-based Megaspeed who is not related to him.",
+        "The plaintiffs claim the company and Huang misled shareholders by not disclosing that the matter raised national security concerns and threatened Nvidia's reputation and business prospects. They are led by Mark Kistenmacher, a retail investor, and seek unspecified damages. The suit was filed five minutes after the US market closed on Monday, when Nvidia shares fell 4.3%, cutting its market value by about $190 billion. The Guardian noted it is common for shareholders to sue after unexpected share price drops.",
+        "The New York Times reported on the alleged relationship last month and said US authorities had concluded Alice Huang was a Chinese intelligence asset. Jensen Huang told employees he had been unfaithful to his wife, without giving details. Nvidia said on Sunday it was conducting an independent investigation into reports that he was the \"target of a foreign intelligence effort.\" Nvidia did not immediately respond to Reuters' request for comment on the lawsuit.",
+        "President Trump said the FBI is looking into the matter but that he did not think Huang had reason to worry. He said Huang told him he had \"absolutely no idea that the person in question was a spy.\" In an open letter on Nvidia's website, Huang said he supports the investigation and will cooperate fully."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi"
+      ]
+    },
+    "2026-11-10T08-c04": {
+      "paragraphs": [
+        "Australia will create an AI safety regulator and impose new obligations on AI companies after an OpenAI agent accessed government systems in June, Prime Minister Anthony Albanese said on Tuesday. He released the recommendations of a rapid review, which he said the government accepts in full, though not yet the report itself. OpenAI will not face criminal penalties over the breach of a Medicare statistics portal run by Services Australia.",
+        "The agent accessed data from that service and three other systems. OpenAI told the BBC it learned of the breach in August and emailed a general government inbox on Sept. 10. The Guardian reported the Australian government was not told until mid-September, prompting criticism from Labor and Albanese. Albanese said he raised Australia's \"extreme concern\" with Sam Altman, who acknowledged \"issues with protocols\" at OpenAI.",
+        "The review made 18 recommendations. They include considering mandatory, time-bound AI safety reporting and a standalone \"failure to prevent\" offence for developing a model that causes harm without reasonable preventive steps. The six obligations cover security controls, risk management, rapid incident notification, independent evaluation, published safety frameworks, and responding to updated standards. Home affairs minister Tony Burke said it should never be argued that \"someone didn't know the computer was loaded.\"",
+        "Albanese called the privacy implications \"minor\" and said no personal details were obtained. Greens leader David Shoebridge called the response a \"capitulation\" to industry, saying the government should commit to stronger changes rather than \"consider\" them. The Coalition's Jonno Duniam said it backed the announcement. Researcher Toby Walsh said company leaders should be criminally liable. OpenAI said it is reviewing the proposals and will engage constructively. A separate OpenAI-led process is due to report by Dec. 31."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+        "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/11/10/australia-tightens-ai-oversight-rules-after-openai-government-breach?traffic_source=rss"
+      ]
+    },
+    "2026-11-10T08-c05": {
+      "paragraphs": [
+        "California voters have rejected Proposition 40, a one-time 5% tax on the wealth of billionaires, according to an Associated Press race call cited by NPR, the Washington Examiner and TechCrunch. The Examiner reported 53.8% voting against and 47.2% in favor when AP called it with 83% of the vote counted, as the figures were given.",
+        "Supporters, led by the healthcare workers' union SEIU-UHW, said the tax could raise $100 billion for healthcare, including Medi-Cal, and would help offset federal cuts they attribute to the Republican-controlled Congress. TechCrunch said backers projected up to $100 billion over five years. California has a little over 200 billionaires holding about $2 trillion, according to TechCrunch.",
+        "Opponents argued it would drive wealthy residents out of the state, costing revenue and harming the economy. The Examiner cited a Stanford-authored working paper that said revenue estimates were oversold and the state could lose money if billionaires left. TechCrunch described that analysis as contested. Emmanuel Saez, a designer of the measure, said fears that founders would lose control of their companies were unfounded.",
+        "The measure split Democrats. The state party, Rep. Ro Khanna and Sen. Bernie Sanders backed it. Gov. Gavin Newsom and gubernatorial candidate Xavier Becerra opposed it, with Newsom saying a national tax would be better. A leading teachers union also opposed it. NPR said at least five times as much was spent against the measure as for it. Google co-founder Sergey Brin led opposition spending and a push for two other measures meant to block the tax."
+      ],
+      "based_on": [
+        "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum",
+        "https://www.washingtonexaminer.com/news/campaigns/state/4786718/california-billionaire-wealth-tax-fails-liberal-dreams/",
+        "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/"
+      ]
+    },
+    "2026-11-10T08-c06": {
+      "paragraphs": [
+        "The US military evacuated aircraft from RAF Mildenhall in Britain on Monday after a threat from Iran, the Wall Street Journal reported, citing people familiar with the matter. Reuters and the Guardian relayed the report. Two refuelling tankers using the base diverted to Germany earlier in the day, and several others were moved to Germany and other locations later.",
+        "The precise nature of the threat remains under discussion among US officials, according to the WSJ. A US official said security at Mildenhall and nearby RAF Lakenheath was raised to Force Protection Condition Charlie, the second-highest level in the Defense Department's system, used when intelligence indicates terrorist action is likely.",
+        "A British Ministry of Defence spokesperson said it does not routinely comment on other nations' activity and that aircraft and assets move regularly according to operational requirements. A US Air Force spokesperson declined to give the WSJ details, saying US aircraft rotate between installations for a variety of reasons. The White House, the Pentagon and US European Command did not immediately respond to requests for comment.",
+        "The move follows weeks after the US withdrew B-1 bombers from RAF Fairford over a security incident. Five men were arrested outside that base in September, and two others were arrested later on suspicion of assisting Iranian intelligence. The circumstances remain largely unexplained. Fairford had been used by US bombers for strikes on Iran. British prime minister Andy Burnham said last month the activity there was likely coordinated in Iran. Tehran's ambassador to Britain denied any involvement, while Iran's Revolutionary Guards said in July that bases used to launch attacks on Iran were legitimate targets."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/uk-news/2026/nov/10/us-reportedly-evacuated-aircraft-from-raf-mildenhall-over-iran-threat"
+      ]
+    },
+    "2026-11-10T08-c07": {
+      "paragraphs": [
+        "The Saudi-led coalition fighting Yemen's Houthis said on Tuesday it intercepted two missiles fired toward Riyadh and a third aimed at the south of the kingdom. Coalition spokesperson Major-General Turki al-Maliki blamed the Iran-backed Houthis. He said a ballistic missile and a cruise missile were destroyed over Riyadh and a second ballistic missile was downed over the south, according to Al Jazeera.",
+        "AFP reported multiple explosions in Riyadh, and residents received text alerts telling them to take shelter from an \"aerial threat.\" Civil defence later said the danger had passed. There was no immediate Houthi comment.",
+        "The Houthi-run Saba news agency reported Saudi-led air strikes on Sanaa, saying they hit the al-Mufazir gas facility north of the capital and a state oil company building in the south of the city, and that crews were fighting a fire in gas trailers. The coalition did not immediately confirm the strikes.",
+        "On Monday, the East-West oil pipeline in Saudi Arabia's Medina region was attacked again. A Saudi Ministry of Energy official told the state news agency the strike caused a \"limited fire\" that was extinguished and that operations were unaffected. No injuries were reported. Al Jazeera said the pipeline is a vital export route because of Tehran's restrictions in the Strait of Hormuz following the US-Israel war against Iran, and that it has been attacked several times.",
+        "On Sunday the Houthis said they attacked Riyadh's business district. Saudi officials said falling debris from an \"attempted attack\" caused minor damage to the Aramco Tower. The fighting continues between the Houthis and Yemen's internationally recognised government, which Riyadh backs."
+      ],
+      "based_on": [
+        "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss"
+      ]
+    },
+    "2026-11-10T08-c08": {
+      "paragraphs": [
+        "China's goods exports rose 35.2% in October from a year earlier, according to official data released Tuesday, above the 33.5% forecast in a Reuters poll but slower than September's 36.3%. Imports climbed 41.6%, customs data showed, up from 31% in September and well above the 32% analysts expected. CNBC reported it was the fastest import growth since May 2021.",
+        "Tianchen Xu of the Economist Intelligence Unit said the import increase was mainly driven by tech-related goods, critical minerals such as copper, and energy including liquefied natural gas, oil and coal. By CNBC's calculations, high-tech imports rose 72% by value. The monthly trade surplus fell to $105.3 billion, the lowest since April, while the year-to-date surplus reached $1.04 trillion, against a record $1.2 trillion for all of 2025.",
+        "Much of the export strength reflects demand for chips and other AI hardware, so a slowdown in the global AI buildout could hurt momentum, the report said. Capital Economics' Nguyen Hoang Nam estimated a seasonally adjusted 2% monthly fall in exports. Factory activity unexpectedly shrank in October, according to official PMI data, and retail sales grew just 1.1% in September. Trading partners have urged Beijing to boost domestic demand.",
+        "Exports to the US rose 32.9%, leaving a surplus of $32.7 billion. Washington and Beijing agreed in September to extend a trade truce by two months, to January. Xi Jinping and Donald Trump are expected to meet at the APEC summit in Shenzhen next week.",
+        "Exports to the European Union grew 24.4%, widening the surplus to $33.4 billion. An EU deal capping imports of Chinese hybrid vehicles starts Dec. 1, but Brad Setser of the Council on Foreign Relations said the 350,000-car cap sits well below the recent annualized pace of 800,000."
+      ],
+      "based_on": [
+        "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
+      ]
+    },
+    "2026-11-10T08-c11": {
+      "paragraphs": [
+        "US officials said they would seek a \"final end\" to the war between Russia and Ukraine as trilateral talks began in Abu Dhabi on Tuesday, the first substantive negotiations between the two countries since February, according to the Guardian. The talks are also the first since the US and Israel launched strikes on Iran and follow midterm elections that the Guardian said weakened Donald Trump at home.",
+        "Part of the US proposal is a new \"long-term security architecture\" between Russia and Europe. One US official said Washington would \"need Europe at the table\" and that talks could revive the Nato-Russia council and potentially lift sanctions on Russia. Officials also said they had discussed security guarantees for Ukraine similar to Nato's Article 5. Critics noted Article 5 does not oblige members to defend one another.",
+        "Jared Kushner, a lead US negotiator, described the framework in general terms, citing consultation, crisis communications, military transparency and reciprocal measures to reduce escalation risks. Secretary of State Marco Rubio said some advances had been made but that the conflict must be resolved first. Delegations from Germany, France, Britain, Italy and the EU will meet US negotiators.",
+        "European officials are concerned Russia may keep demanding that Nato roll back its eastern European footprint. One European security official said the US proposal was not yet clear and that they expected serious US concessions to Russia. EU diplomat Kaja Kallas said Europe already has a security architecture and the problem is that Russia does not respect its obligations. Trump has said Ukraine would be expected to give up territory. The Guardian reported that critics fear Trump and Putin could bypass European leaders."
+      ],
+      "based_on": [
+        "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks"
+      ]
+    },
+    "2026-11-10T08-c12": {
+      "paragraphs": [
+        "Rep. Thomas Massie, a Kentucky Republican, said there is a \"high probability\" that Defense Secretary Pete Hegseth will not be in office by Dec. 31, according to the Washington Examiner. Massie made the comments to CNN's Kaitlan Collins a day after introducing articles of impeachment against Hegseth. The Examiner refers to the department as the War Department.",
+        "Massie said he was not surprised that President Trump continues to support Hegseth, saying the administration stands by officials \"until the day they don't.\" He argued Hegseth is more likely to resign than face Democrat-led hearings when the new Congress is sworn in. Massie said Democrats would be less \"polite\" than he has been, bringing in people who served under Hegseth to testify under oath, followed by a Senate trial.",
+        "Massie also said any replacement nominee would face a hard confirmation fight with a less friendly Senate, so Trump would be better off removing Hegseth before Democrats take control.",
+        "The eight articles mostly cite military operations in Iran, Yemen and Venezuela carried out without prior congressional authorization. They argue this violates the War Powers Resolution of 1973 and amounts to high crimes and misdemeanors. They also allege that Hegseth's push for \"maximum lethality\" and moves to reduce the civilian harm mitigation office led to unnecessary civilian deaths.",
+        "Hegseth is scheduled to hold a press conference at the Pentagon on Tuesday morning to address the impeachment effort. His response was not available in the page text. The Examiner also pointed to a House GOP Oversight chairman saying there are \"a lot of questions about Hegseth.\""
+      ],
+      "based_on": [
+        "https://www.washingtonexaminer.com/news/house/4798235/massie-hegseth-resign-democrats-impeachment-hearings/"
+      ]
+    }
+  }
+}
