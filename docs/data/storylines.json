@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T08:02:02Z",
+  "updated_at": "2026-11-10T20:19:20Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -75,11 +75,16 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "US-mediated trilateral talks open in Abu Dhabi Nov. 10-11 with Europe attending; US officials seek a 'final end' to the war, but the FT says expectations are low. Zelenskyy warns Russia aims to cut Ukraine in half; Russia rations petrol.",
+      "summary": "US-mediated trilateral talks opened in Abu Dhabi with Europe attending; the first day lasted nearly four hours and Zelensky called it constructive. Talks resume Wednesday. Zelenskyy warns Russia aims to cut Ukraine in half; Russia rations petrol.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "First day of Abu Dhabi talks lasts nearly four hours; Zelensky calls it constructive and talks are expected to resume Wednesday, BBC and NPR report.",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+        },
         {
           "date": "2026-11-10",
           "text": "US officials say they will seek a 'final end' to the war at Abu Dhabi talks, including a security-architecture proposal; the FT says expectations are low.",
@@ -169,27 +174,22 @@
           "date": "2026-11-03",
           "text": "Russian attacks on an aid centre, hospice and hospital kill at least 38 in 24 hours; Zelenskyy says dozens may be trapped.",
           "url": "https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-11-03",
-          "text": "US Air Force asks industry to mass produce the Extended Range Attack Munition cruise missile for Ukraine.",
-          "url": "https://www.defensenews.com/industry/2026/11/03/us-air-force-asks-industry-for-new-cruise-missile-for-ukraine/"
-        },
-        {
-          "date": "2026-11-02",
-          "text": "Witkoff announces US-mediated Ukraine-Russia talks in Abu Dhabi on Nov. 10-11, restarting a track suspended in February.",
-          "url": "https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged; Monday brought the best day in seven months, though the Dow has had three 1,000-point swings in four days. SoftBank posted a $7 billion loss; Anthropic is expected to set its IPO range this week.",
+      "summary": "After Democrats won Congress, AI stocks plunged; Monday brought the best day in seven months. SoftBank posted a $7 billion loss. Anthropic set an IPO range of $70-$78 a share, implying up to $1.4 trillion, with pricing expected Nov. 18.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "Anthropic sets an IPO range of $70 to $78 a share, implying a valuation up to $1.404 trillion; trading is expected Nov. 19.",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        },
         {
           "date": "2026-11-10",
           "text": "SoftBank swings to a roughly $7 billion quarterly net loss, its first in nearly two years, as its share price has halved, the FT reports.",
@@ -284,22 +284,27 @@
           "date": "2026-11-05",
           "text": "Japan's Nikkei 225 enters a technical bear market and Seoul's Kospi falls below 5,000 as the AI selloff deepens in Asia, Bloomberg reports.",
           "url": "https://www.bloomberg.com/news/articles/2026-11-06/japan-s-nikkei-breaks-below-key-60-000-level-on-ai-selloff"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "Wall Street sheds about $3.2 trillion as the Nasdaq 100 falls 6.4%, the FT reports; MarketWatch calls it tech's worst day since 2020.",
-          "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1"
         }
       ]
     },
     {
       "id": "sl-fed-warsh",
       "title": "Fed under Warsh weighs further hikes",
-      "summary": "After a September hike, the Fed under Chairman Kevin Warsh held in October. October payrolls rose 165,000 and unemployment fell to 4.1%. Kalshi puts a December 25bp hike at 81%; Goolsbee says the AI buildout is overheating the economy; CPI due Tuesday.",
+      "summary": "After a September hike, the Fed held in October. October CPI rose 0.4%, above forecasts, and Treasuries sold off. Governor Waller floated a 50bp hike. Kalshi puts a December 25bp hike at 85%. October payrolls rose 165,000; unemployment is 4.1%.",
       "status": "active",
       "first_seen": "2026-10-16",
-      "last_updated": "2026-11-09",
+      "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "Governor Waller says policymakers should weigh a 50bp hike if inflation fails to slow, the FT reports.",
+          "url": "https://www.ft.com/content/72abed21-6043-4b2b-81b1-f3a2547da5b7?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-11-10",
+          "text": "October consumer prices rise 0.4%, more than expected; Treasury yields jump as December hike bets firm, CNBC and Bloomberg report.",
+          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+        },
         {
           "date": "2026-11-09",
           "text": "Chicago Fed's Goolsbee says the AI data center buildout is overheating the economy and putting upward pressure on prices.",
@@ -365,11 +370,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Miller is chief of staff. Trump backs Hegseth as Massie forces an impeachment vote and predicts Hegseth leaves by year-end; GOP leaders face delay pushes, and Speaker Johnson won't commit to serving.",
+      "summary": "Democrats won the House, Senate and most governorships. House Republicans elected Jim Jordan minority leader; Senate Republicans paused leadership elections. Hegseth calls Massie's impeachment push a farce as a House vote nears; Miller is chief of staff.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "House Republicans elect Jim Jordan minority leader over Steve Scalise, 106-73; Tom Emmer remains whip.",
+          "url": "https://www.theguardian.com/us-news/2026/nov/10/jim-jordan-house-republican-leader"
+        },
+        {
+          "date": "2026-11-10",
+          "text": "Senate Republicans pause their leadership elections after a closed-door meeting where conservatives pressed Majority Leader Thune, The Hill reports.",
+          "url": "https://thehill.com/video-clips/6211465-watch-live-senate-gop-press-conference-leadership-elections-midterms/"
+        },
+        {
+          "date": "2026-11-10",
+          "text": "Hegseth calls the impeachment effort a 'farce' at his first briefing since May; Vance says the vote 'isn't about Iran.'",
+          "url": "https://www.defensenews.com/pentagon/2026/11/10/hegseth-denounces-farce-impeachment-in-first-briefing-since-may/"
+        },
         {
           "date": "2026-11-10",
           "text": "Massie says there is a 'high probability' Hegseth won't last the year; Trump says Hegseth should be praised, not impeached.",
@@ -449,32 +469,27 @@
           "date": "2026-11-06",
           "text": "Sen. Thom Tillis says Stephen Miller is the 'worst of all possible choices' for chief of staff and Trump needs to rethink it.",
           "url": "https://thehill.com/homenews/administration/6205824-tillis-slams-trump-miller-hire/"
-        },
-        {
-          "date": "2026-11-06",
-          "text": "Democrat Nancy Lacore, a retired Navy admiral, wins South Carolina's 1st District over Republican Jenny Costa Honeycutt, the AP calls.",
-          "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4790136/nancy-mace-jenny-costa-honeycutt-south-carolina-1st-district-results/"
-        },
-        {
-          "date": "2026-11-06",
-          "text": "Jeffries calls Stephen Miller a 'dangerous xenophobe' and Schumer says Trump 'learned nothing'; Fox reports Miller and Vought plan executive-order policies.",
-          "url": "https://thehill.com/homenews/house/6205303-democrats-trump-miller-promotion/"
-        },
-        {
-          "date": "2026-11-06",
-          "text": "Sen. Ron Johnson gets five signatures to seek a delay of next week's Senate GOP leadership elections.",
-          "url": "https://thehill.com/homenews/senate/6204900-ron-johnson-senate-gop-leadership-election-midterm-election-losses/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Trump calls the war effectively over and more US attacks 'highly unlikely' while staying 'locked and loaded'; Iran dismisses this and demands US acceptance of its conditions. Oil is near its lowest since August. Saudi Arabia reports pipeline attacks and missiles at Riyadh.",
+      "summary": "Trump calls the war effectively over; Rubio says no need for further major combat operations. Iran dismisses this and demands US acceptance of its conditions. Oil fell below $90. A Reuters/Ipsos poll finds 71% want Congress to end the war. Saudi Arabia reports pipeline attacks.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "Oil falls below $90 as Trump pulls back from threat to strike Iran; Rubio says there is no need for major combat operations.",
+          "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1"
+        },
+        {
+          "date": "2026-11-10",
+          "text": "Reuters/Ipsos poll finds 71% of Americans want Congress to pass legislation ending the conflict with Iran.",
+          "url": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/"
+        },
         {
           "date": "2026-11-10",
           "text": "US reportedly evacuated aircraft from RAF Mildenhall after an Iranian threat, the WSJ reported, per the Guardian.",
@@ -564,16 +579,6 @@
           "date": "2026-11-06",
           "text": "Fox News reports Russian documents show a contract for 90 precision-guided missile launchers destined for Iran before the war.",
           "url": "https://www.foxnews.com/politics/russia-secretly-bolstered-irans-missile-arsenal-before-war-us-records-uncover"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "Iran says ships from India, China, Qatar and Iraq can cross Hormuz freely; analysts cited by Al Jazeera warn of political risks.",
-          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "BBC: satellite images from November suggest major construction near Iranian missile bases.",
-          "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -630,7 +635,7 @@
     {
       "id": "sl-israel-election",
       "title": "Israel election deadlock",
-      "summary": "President Herzog tasked Gadi Eisenkot with forming a government, giving him 28 days to reach 61 Knesset seats; Netanyahu claims the vote was stolen, though Shin Bet found no foreign interference. The new Knesset is sworn in Tuesday.",
+      "summary": "President Herzog tasked Gadi Eisenkot with forming a government, giving him 28 days to reach 61 Knesset seats; Netanyahu claims the vote was stolen, though Shin Bet found no foreign interference. The new Knesset was sworn in Tuesday.",
       "status": "active",
       "first_seen": "2026-11-01",
       "last_updated": "2026-11-10",
@@ -700,11 +705,16 @@
     {
       "id": "sl-nvidia-huang",
       "title": "Nvidia CEO Huang spy scandal",
-      "summary": "Nvidia's board is investigating CEO Jensen Huang over his affair with Alice Huang, an alleged Chinese spy tied to Megaspeed. Trump says the FBI is looking into it and defends Huang. Shareholders have now sued Nvidia and Huang.",
+      "summary": "Nvidia's board is investigating CEO Jensen Huang over his affair with Alice Huang, an alleged Chinese spy tied to Megaspeed, and has hired Wachtell Lipton to lead the probe. Trump says the FBI is looking into it; shareholders have sued.",
       "status": "active",
       "first_seen": "2026-11-08",
       "last_updated": "2026-11-10",
       "events": [
+        {
+          "date": "2026-11-10",
+          "text": "Nvidia hires law firm Wachtell Lipton, including a former acting SDNY US attorney, to lead the probe of Huang's affair, CNBC and the FT report.",
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html"
+        },
         {
           "date": "2026-11-10",
           "text": "Shareholders sue Nvidia and Huang, accusing them of defrauding investors over the affair with an alleged Chinese spy, the Guardian reports.",

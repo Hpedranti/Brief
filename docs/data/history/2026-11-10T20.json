@@ -1,0 +1,1472 @@
+{
+  "version": 2,
+  "drop": {
+    "id": "2026-11-10T20",
+    "at": "2026-11-10T20:19:20Z",
+    "model": "claude-sonnet-5-5",
+    "count": 47
+  },
+  "cards": [
+    {
+      "id": "2026-11-10T20-c01",
+      "drop": "2026-11-10T20",
+      "headline": "October consumer prices rise 0.4%, above forecasts",
+      "summary": "The Labor Department reported consumer prices rose 0.4% in October, more than economists expected. Axios counts a third straight month of hotter-than-expected readings. NPR notes gasoline fell below $4 a gallon, but overall costs remain high.",
+      "why_it_matters": "Stubborn inflation keeps pressure on household budgets and makes a December Fed rate hike more likely, which would lift borrowing costs.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "fed-rates"
+      ],
+      "entities": [
+        "Federal Reserve",
+        "Bureau of Labor Statistics"
+      ],
+      "importance": 4,
+      "follows": "2026-11-09T22-c20",
+      "storyline_id": "sl-fed-warsh",
+      "published_at": "2026-11-10T14:35:50.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Harsh new inflation reality",
+          "url": "https://www.axios.com/2026/11/10/inflation-cpi-interest-rates"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Gas prices dip below $4 but inflation remains stubbornly high",
+          "url": "https://www.npr.org/2026/11/10/nx-s1-6034518/inflation-consumer-prices-economy-gas-prices"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c02",
+      "drop": "2026-11-10T20",
+      "headline": "Treasuries sell off sharply on bets for a December Fed hike",
+      "summary": "Bloomberg says bonds suffered one of their biggest selloffs since April 2025 after inflation topped forecasts. The FT reports two-year yields rose the most since 2024. Bloomberg adds the dollar headed for its best day since September.",
+      "why_it_matters": "Higher yields feed through to mortgage and loan rates, and a stronger dollar affects import prices and travel.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "fed-rates"
+      ],
+      "entities": [
+        "Federal Reserve"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-fed-warsh",
+      "published_at": "2026-11-10T13:41:23.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Bonds Tumble Most Since Tariff Meltdown on Rising Rate-Hike Bets",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/treasuries-slide-as-hot-us-inflation-cements-december-rate-bets"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Treasuries slide as ‘hot’ inflation sparks bets on Fed rate rise",
+          "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c03",
+      "drop": "2026-11-10T20",
+      "headline": "Fed's Waller says a 50bp hike is possible if inflation holds",
+      "summary": "Fed Governor Christopher Waller said policymakers should weigh a 50 basis point increase if US inflation fails to slow, the FT reports. It would be the largest rate rise since 2022.",
+      "why_it_matters": "A bigger hike would raise costs on mortgages, car loans and credit cards faster than markets had expected.",
+      "region": "US",
+      "topics": [
+        "fed-rates",
+        "economy"
+      ],
+      "entities": [
+        "Christopher Waller",
+        "Federal Reserve"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-fed-warsh",
+      "published_at": "2026-11-10T16:03:45.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Top Fed official considers largest rate rise since 2022",
+          "url": "https://www.ft.com/content/72abed21-6043-4b2b-81b1-f3a2547da5b7?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c04",
+      "drop": "2026-11-10T20",
+      "headline": "House Republicans elect Jim Jordan as minority leader",
+      "summary": "House Republicans chose Judiciary Chair Jim Jordan over Steve Scalise, 106-73, to lead them in the next Congress after midterm losses. Tom Emmer beat August Pfluger to remain the party's No. 2 as whip.",
+      "why_it_matters": "Jordan will lead Republican opposition to a Democratic House and defend Trump in investigations over the final two years of his term.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "Jim Jordan",
+        "Steve Scalise",
+        "Tom Emmer"
+      ],
+      "importance": 4,
+      "follows": null,
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-10T19:40:10.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Republicans elect Jim Jordan as House minority leader after midterm defeats",
+          "url": "https://www.theguardian.com/us-news/2026/nov/10/jim-jordan-house-republican-leader"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Jim Jordan wins House GOP minority leader race",
+          "url": "https://www.axios.com/2026/11/10/jim-jordan-house-republicans-leadership-elections-scalise"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Tom Emmer defeats August Pfluger for No. 2 spot in House GOP minority",
+          "url": "https://www.washingtonexaminer.com/news/house/4798776/tom-emmer-august-pfluger-whip-results-2026/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c05",
+      "drop": "2026-11-10T20",
+      "headline": "Senate Republicans pause leadership elections after midterm losses",
+      "summary": "After nearly two hours behind closed doors, Senate Republicans delayed their leadership elections as conservatives pressed Majority Leader John Thune. Axios had reported eight senators wanted a delay, though Thune was still expected to be reelected.",
+      "why_it_matters": "Who leads Senate Republicans shapes how they handle a Democratic Congress, judicial nominations and spending fights.",
+      "region": "US",
+      "topics": [
+        "us-politics"
+      ],
+      "entities": [
+        "John Thune",
+        "Senate Republicans"
+      ],
+      "importance": 3,
+      "follows": "2026-11-10T01-c15",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-10T16:33:12.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Watch live: Senate Republicans give remarks after pause on leadership elections",
+          "url": "https://thehill.com/video-clips/6211465-watch-live-senate-gop-press-conference-leadership-elections-midterms/"
+        },
+        {
+          "outlet": "Axios",
+          "title": "Pressure builds on Thune ahead of GOP leadership elections",
+          "url": "https://www.axios.com/2026/11/09/thune-senate-republican-leadership-elections"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c06",
+      "drop": "2026-11-10T20",
+      "headline": "Hegseth calls impeachment effort a 'farce' as vote nears",
+      "summary": "At his first Pentagon briefing since May, Hegseth called Rep. Massie's impeachment articles a political spectacle. Vance said the vote 'isn't about Iran.' Democrats, per Fox, rallied behind Massie's resolution and signaled more action in January.",
+      "why_it_matters": "A House impeachment vote on a sitting Cabinet secretary would be rare and would cast a spotlight on the Iran war.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "defense"
+      ],
+      "entities": [
+        "Pete Hegseth",
+        "Thomas Massie",
+        "JD Vance"
+      ],
+      "importance": 4,
+      "follows": "2026-11-10T08-c12",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-10T14:43:42.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "Hegseth denounces ‘farce’ impeachment in first briefing since May",
+          "url": "https://www.defensenews.com/pentagon/2026/11/10/hegseth-denounces-farce-impeachment-in-first-briefing-since-may/"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Vance backs Hegseth as Congress prepares historic impeachment: ‘This isn’t about Iran’",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4798627/jd-vance-backs-pete-hegseth-congress-prepares-historic-impeachment/"
+        },
+        {
+          "outlet": "Fox News",
+          "title": "Democrats rally behind GOP lawmaker's Hegseth impeachment push, signal more to come in January",
+          "url": "https://www.foxnews.com/politics/democrats-rally-behind-gop-lawmaker-hegseth-impeachment-push-signal-more-january"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c07",
+      "drop": "2026-11-10T20",
+      "headline": "Peltola's Alaska Senate lead grows to 2,517 votes",
+      "summary": "Democrat Mary Peltola widened her lead over Republican Sen. Dan Sullivan after Monday's ballot drop, Fox News reports. Tens of thousands of absentee ballots remain uncounted, so the race is still uncalled.",
+      "why_it_matters": "The Alaska result helps determine the size of the Democratic Senate majority.",
+      "region": "US",
+      "topics": [
+        "elections",
+        "us-politics"
+      ],
+      "entities": [
+        "Mary Peltola",
+        "Dan Sullivan"
+      ],
+      "importance": 3,
+      "follows": "2026-11-08T22-c11",
+      "storyline_id": "sl-midterms-2026",
+      "published_at": "2026-11-10T19:46:24.000Z",
+      "sources": [
+        {
+          "outlet": "Fox News",
+          "title": "Peltola widens narrow Alaska Senate lead over Sullivan as counting continues",
+          "url": "https://www.foxnews.com/politics/peltola-widens-narrow-alaska-senate-lead-sullivan-counting-continues"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c08",
+      "drop": "2026-11-10T20",
+      "headline": "First day of Abu Dhabi talks 'constructive,' Zelensky says",
+      "summary": "Russian, Ukrainian and US delegations met for nearly four hours and are expected to resume Wednesday. Zelensky called the first day constructive and said humanitarian issues were discussed. Europeans, per the Washington Examiner, were told to wait at their hotel.",
+      "why_it_matters": "These are the first three-way talks since February and the most direct US effort in months to end Europe's largest war since 1945.",
+      "region": "Middle East",
+      "topics": [
+        "war-conflict",
+        "geopolitics"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia",
+        "Volodymyr Zelensky"
+      ],
+      "importance": 4,
+      "follows": "2026-11-10T08-c11",
+      "storyline_id": "sl-ukraine-us-rift",
+      "published_at": "2026-11-10T10:58:18.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "First day of Ukraine peace talks constructive, Zelensky says",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
+        },
+        {
+          "outlet": "Washington Examiner",
+          "title": "Europeans told to ‘sit there in the hotel’ during Ukraine-Russia talks in Abu Dhabi",
+          "url": "https://www.washingtonexaminer.com/news/world/4798498/europeans-sit-hotel-ukraine-russia-talks/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c09",
+      "drop": "2026-11-10T20",
+      "headline": "Anthropic sets IPO range of $70-$78, implying $1.4 trillion value",
+      "summary": "Anthropic set a price range of $70 to $78 a share, implying a valuation up to $1.404 trillion and a raise of up to about $64 billion. Pricing is expected Nov. 18, trading Nov. 19. The BBC says the range is below expectations.",
+      "why_it_matters": "It would be among the largest IPOs ever and a major test of investor appetite for AI after a volatile week.",
+      "region": "US",
+      "topics": [
+        "ai",
+        "markets",
+        "startups-vc"
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "importance": 4,
+      "follows": "2026-11-10T01-c08",
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-10T14:01:39.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+          "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c10",
+      "drop": "2026-11-10T20",
+      "headline": "Anthropic's seven founders to each sell about $250 million in IPO",
+      "summary": "Each co-founder plans to sell the same number of shares, bringing about $250 million apiece at the midpoint of the price range, TechCrunch reports. The group would keep control of the company.",
+      "why_it_matters": "It shows how concentrated ownership stays at the top of a company that could be worth over $1 trillion.",
+      "region": "US",
+      "topics": [
+        "startups-vc",
+        "ai"
+      ],
+      "entities": [
+        "Anthropic"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-ai-debt-selloff",
+      "published_at": "2026-11-10T19:57:52.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c11",
+      "drop": "2026-11-10T20",
+      "headline": "Nvidia hires Wachtell Lipton to lead probe of CEO Huang",
+      "summary": "Nvidia retained the law firm Wachtell Lipton, with a former acting SDNY US attorney, to investigate Jensen Huang's affair with an alleged Chinese spy. CNBC reports Schumer accused Trump of defending Huang at the cost of national security.",
+      "why_it_matters": "The probe's findings could decide who leads the dominant AI chipmaker and shape US policy on chip sales to China.",
+      "region": "US",
+      "topics": [
+        "big-tech",
+        "chips",
+        "china"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Wachtell Lipton"
+      ],
+      "importance": 4,
+      "follows": "2026-11-10T08-c03",
+      "storyline_id": "sl-nvidia-huang",
+      "published_at": "2026-11-10T19:24:52.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Nvidia hires former US prosecutor at Wachtell to lead Jensen Huang probe",
+          "url": "https://www.ft.com/content/8d59bf02-960e-4eb1-b5dc-55397e31cea5?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "CNBC",
+          "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
+          "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c12",
+      "drop": "2026-11-10T20",
+      "headline": "UK police arrest senior US soldier over alleged Russia links",
+      "summary": "British counter-terrorism police arrested a 41-year-old US Army member near Gloucester on suspicion of National Security Act offences relating to Russia. The FBI director referred to allegations of espionage; police worked with US authorities.",
+      "why_it_matters": "A suspected Russia-linked leak inside the US military touches allied intelligence sharing and base security.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "crime-justice",
+        "geopolitics"
+      ],
+      "entities": [
+        "US Army",
+        "Russia",
+        "FBI"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T19:34:48.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "UK counter-terrorism police arrest senior US soldier with alleged links to Russia",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/10/uk-counter-terrorism-police-arrest-member-of-us-army-in-gloucestershire"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Senior US soldier arrested by UK counter-terror police",
+          "url": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c13",
+      "drop": "2026-11-10T20",
+      "headline": "House Oversight Republicans release final Epstein report",
+      "summary": "The Republican-led committee's report, after a 15-month inquiry, says federal authorities could have prevented Epstein's crimes and urges more DOJ scrutiny of key witnesses. The Hill says it states Trump was not implicated in the trafficking.",
+      "why_it_matters": "The report is the House GOP's formal account of how the Epstein case was handled, a matter of lasting public interest.",
+      "region": "US",
+      "topics": [
+        "crime-justice",
+        "us-politics"
+      ],
+      "entities": [
+        "Jeffrey Epstein",
+        "House Oversight Committee",
+        "Ghislaine Maxwell"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T17:59:02.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "House Republicans urge DoJ to further investigate ‘key witnesses’ in Epstein case",
+          "url": "https://www.theguardian.com/us-news/2026/nov/10/house-republicans-epstein-investigation"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "House Oversight Republicans release final Epstein report",
+          "url": "https://thehill.com/homenews/house/6210993-house-oversight-committee-republicans-jeffrey-epstein-probe-final-report/"
+        },
+        {
+          "outlet": "BBC",
+          "title": "US federal authorities could have prevented Epstein crimes, report finds",
+          "url": "https://www.bbc.co.uk/news/articles/cq5ynyn8zyr8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c14",
+      "drop": "2026-11-10T20",
+      "headline": "Trump administration seeks to cut food aid for 6 million people",
+      "summary": "The proposal builds on earlier cuts to the federal food aid program used by more than 36 million low-income Americans, Al Jazeera reports. It would cut aid for over six million people.",
+      "why_it_matters": "Changes to food assistance affect grocery budgets for millions of families and are likely to be a Congress fight.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "economy"
+      ],
+      "entities": [
+        "Trump administration"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T20:00:18.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump administration seeks to cut food aid for more than six million people",
+          "url": "https://www.aljazeera.com/news/2026/11/10/trump-administration-seeks-to-cut-food-aid-for-more-than-six-million-people?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c15",
+      "drop": "2026-11-10T20",
+      "headline": "US skips UN human rights review for second straight year",
+      "summary": "The United States boycotted a key UN Human Rights Council review of its record. The council delayed the examination until January. Rights groups warn the absence undermines global accountability.",
+      "why_it_matters": "US withdrawal from UN processes reduces its leverage when it presses other countries on rights.",
+      "region": "Global",
+      "topics": [
+        "geopolitics",
+        "policy-regulation"
+      ],
+      "entities": [
+        "United States",
+        "UN Human Rights Council"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T18:29:56.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "U.S. boycotts U.N. human rights review for second year running",
+          "url": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump administration again boycotts UN human rights review",
+          "url": "https://www.aljazeera.com/news/2026/11/10/trump-administration-again-boycotts-un-human-rights-review?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c16",
+      "drop": "2026-11-10T20",
+      "headline": "Reuters/Ipsos: 71% want Congress to pass legislation ending Iran war",
+      "summary": "A Reuters/Ipsos poll found 71% of Americans want Congress to pass legislation ending the conflict with Iran. Al Jazeera reports most also want Democrats to focus on lowering costs.",
+      "why_it_matters": "The poll signals the priorities a Democratic Congress will face on war powers and the cost of living.",
+      "region": "US",
+      "topics": [
+        "us-politics",
+        "war-conflict"
+      ],
+      "entities": [
+        "Reuters/Ipsos",
+        "Congress"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-10T19:29:39.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
+          "url": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Most Americans want Democrats focused on ending Iran war, lower costs: Poll",
+          "url": "https://www.aljazeera.com/news/2026/11/10/most-americans-want-democrats-focused-on-ending-iran-war-lowering-costs?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c17",
+      "drop": "2026-11-10T20",
+      "headline": "Oil falls below $90 as Trump pulls back from Iran strike threat",
+      "summary": "Crude dropped under $90, supporting a recovery in global stocks, the FT reports. Secretary of State Rubio said there is no need for further major combat operations against Iran.",
+      "why_it_matters": "Lower oil eases pump prices and inflation pressure, but depends on the fragile diplomacy holding.",
+      "region": "Global",
+      "topics": [
+        "energy",
+        "markets",
+        "geopolitics"
+      ],
+      "entities": [
+        "Marco Rubio",
+        "Iran"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-10T17:05:30.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran",
+          "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Rubio says no need for major combat operations against Iran",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/rubio-says-no-need-for-major-combat-operations-against-iran?traffic_source=rss"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c18",
+      "drop": "2026-11-10T20",
+      "headline": "Judge freezes most discovery in Patel's suit against The Atlantic",
+      "summary": "A federal judge ruled for The Atlantic and froze most discovery in FBI Director Kash Patel's defamation suit, Axios reports. The ruling shields the magazine from demands for its reporting materials.",
+      "why_it_matters": "The ruling bears on press protections for sources and reporting records in suits brought by officials.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Kash Patel",
+        "The Atlantic"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T18:25:31.000Z",
+      "sources": [
+        {
+          "outlet": "Axios",
+          "title": "The Atlantic can pursue FBI records in fight with Kash Patel",
+          "url": "https://www.axios.com/2026/11/10/kash-patel-atlantic-fbi-defamation-records-lawsuit"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c19",
+      "drop": "2026-11-10T20",
+      "headline": "Appeals court limits DOJ access to journalists' LinkedIn records",
+      "summary": "A unanimous three-judge appeals panel limited the Trump administration's access to journalists' LinkedIn records in a national security leak probe, saying broad access could deal a damaging blow to First Amendment rights.",
+      "why_it_matters": "The decision sets limits on how far investigators can reach into reporters' private communications.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Justice Department"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T18:00:53.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Appeals court limits Trump DOJ's access to journalists’ private chat logs",
+          "url": "https://thehill.com/regulation/court-battles/6210910-court-blocks-trump-linkedin-access-journalists/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c20",
+      "drop": "2026-11-10T20",
+      "headline": "Trump administration asks Supreme Court to end ballroom lawsuit",
+      "summary": "Solicitor General D. John Sauer filed a petition asking the Supreme Court to end the legal fight over the White House ballroom project, after the justices earlier this year let construction continue.",
+      "why_it_matters": "The case tests who can challenge major changes to federal property in court.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "us-politics"
+      ],
+      "entities": [
+        "Supreme Court",
+        "D. John Sauer"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T18:47:14.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Trump asks Supreme Court to end White House ballroom legal battle",
+          "url": "https://www.washingtonexaminer.com/news/supreme-court/4798499/trump-asks-supreme-court-to-end-white-house-ballroom-legal-battle/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c21",
+      "drop": "2026-11-10T20",
+      "headline": "Transgender sports and surgery measures pass; Washington ban challenged",
+      "summary": "Decision Desk HQ projects Colorado voters approved Proposition 134, designating teams by biological sex, and Proposition 135, banning gender-affirming surgery for minors. In Washington, parents sued to block a voter-approved sports ban, calling it discriminatory.",
+      "why_it_matters": "State ballot results are moving the national fight over transgender policy and now head to the courts.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "courts",
+        "elections"
+      ],
+      "entities": [
+        "Colorado",
+        "Washington state"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T18:58:36.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "Colorado approves ballot measure designating biological sexes to sports teams",
+          "url": "https://thehill.com/homenews/state-watch/6186456-ballot-measure-designates-biological-sex/"
+        },
+        {
+          "outlet": "The Hill",
+          "title": "Colorado approves ban on gender-affirming surgery for minors",
+          "url": "https://thehill.com/homenews/campaign/6186466-colorado-proposition-135-passes/"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Parents sue to stop Washington state trans sports ban that could require ‘invasive’ genital exams",
+          "url": "https://www.theguardian.com/us-news/2026/nov/10/washington-trans-sports-ban-lawsuit"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c22",
+      "drop": "2026-11-10T20",
+      "headline": "ICE habeas corpus cases approach 100,000",
+      "summary": "The number of ICE detainees filing habeas corpus petitions to challenge their detention is nearing 100,000, far above the hundreds seen in a normal year, the Washington Examiner reports.",
+      "why_it_matters": "The surge is straining federal courts and shows how detainees are contesting the deportation push.",
+      "region": "US",
+      "topics": [
+        "courts",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Immigration and Customs Enforcement"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T19:57:59.000Z",
+      "sources": [
+        {
+          "outlet": "Washington Examiner",
+          "title": "Habeas corpus cases near 100,000 as ICE detainees seize on new way to fight detention",
+          "url": "https://www.washingtonexaminer.com/policy/immigration/4798637/habeas-corpus-cases-near-100k-as-ice-detainees-seize-new-way-to-fight-detention/"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c23",
+      "drop": "2026-11-10T20",
+      "headline": "SEC enforcement cases fall about 25% in Trump-era first full year",
+      "summary": "The Securities and Exchange Commission reported enforcement cases dropped about 25% in its first full fiscal year under Trump-era leadership, which Bloomberg describes as a return to basics.",
+      "why_it_matters": "Less enforcement changes the oversight investors and savers can expect from Wall Street's main regulator.",
+      "region": "US",
+      "topics": [
+        "policy-regulation",
+        "markets"
+      ],
+      "entities": [
+        "Securities and Exchange Commission"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T19:12:41.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "SEC Fines, Cases Plunge in Trump-Era ‘Return to Basics’",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/sec-fines-cases-plunge-in-trump-era-return-to-basics"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c24",
+      "drop": "2026-11-10T20",
+      "headline": "CFTC postpones push to trade AI computing futures",
+      "summary": "The Commodity Futures Trading Commission delayed exchanges' plans to list AI computing futures, raising concerns about price manipulation as they race to create a new asset class, the FT reports.",
+      "why_it_matters": "It shows regulators wary of financial products tied to AI infrastructure amid debt worries.",
+      "region": "US",
+      "topics": [
+        "markets",
+        "ai",
+        "policy-regulation"
+      ],
+      "entities": [
+        "Commodity Futures Trading Commission"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T19:58:11.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "US regulator postpones Wall Street push to trade AI computing futures",
+          "url": "https://www.ft.com/content/269b0245-44c4-4e34-94df-202bef642539?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c25",
+      "drop": "2026-11-10T20",
+      "headline": "Weil partners vote to dissolve nearly century-old law firm",
+      "summary": "Partners at Weil approved a plan to shut down the firm after a series of defections plunged it into crisis, the FT reports.",
+      "why_it_matters": "The collapse of a major Wall Street law firm affects deals work and thousands of employees.",
+      "region": "US",
+      "topics": [
+        "economy",
+        "jobs-labor"
+      ],
+      "entities": [
+        "Weil"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T19:52:25.000Z",
+      "sources": [
+        {
+          "outlet": "Financial Times",
+          "title": "Weil partners approve plan to shut down law firm",
+          "url": "https://www.ft.com/content/7088e087-c688-485a-8e8d-efb6b75bc571?syn-25a6b1a6=1"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c26",
+      "drop": "2026-11-10T20",
+      "headline": "Saudi Arabia faces liquidity squeeze as Iran war drains deposits",
+      "summary": "Bloomberg reports Saudi Arabia is under renewed liquidity pressure as the Iran war prompts the government and banks in the UAE to pull back deposits.",
+      "why_it_matters": "Financial strain in the top oil exporter could affect energy markets and Gulf stability.",
+      "region": "Middle East",
+      "topics": [
+        "economy",
+        "energy",
+        "middle-east"
+      ],
+      "entities": [
+        "Saudi Arabia",
+        "Mohammed bin Salman"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": "sl-us-iran-war",
+      "published_at": "2026-11-10T13:00:04.000Z",
+      "sources": [
+        {
+          "outlet": "Bloomberg",
+          "title": "Saudi Liquidity Squeeze Adds to Challenges for Crown Prince",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-10/saudi-liquidity-squeeze-adds-to-economic-stress-for-crown-prince"
+        }
+      ],
+      "has_article": false
+    },
+    {
+      "id": "2026-11-10T20-c27",
+      "drop": "2026-11-10T20",
+      "headline": "Violence erupts in Bangladesh at protest by ousted PM's supporters",
+      "summary": "Violence broke out as supporters of Sheikh Hasina protested, demanding her return from exile in India, the BBC reports. Hasina has promised a December return.",
+      "why_it_matters": "Unrest in a major garment exporter and South Asian partner raises stability concerns ahead of her announced return.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "geopolitics"
+      ],
+      "entities": [
+        "Sheikh Hasina",
+        "Bangladesh"
+      ],
+      "importance": 2,
+      "follows": "2026-11-09T07-c16",
+      "storyline_id": null,
+      "published_at": "2026-11-10T19:26:42.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
+          "url": "https://www.bbc.co.uk/news/articles/cwkg5g5pjpyko?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c28",
+      "drop": "2026-11-10T20",
+      "headline": "Najib Razak leaves jail for house arrest",
+      "summary": "Malaysia's former prime minister, convicted over the 1MDB sovereign wealth fund scandal, moved from jail to house arrest, the BBC reports.",
+      "why_it_matters": "The 1MDB case involved US-linked investigations; the move is politically sensitive in Malaysia.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "crime-justice"
+      ],
+      "entities": [
+        "Najib Razak",
+        "Malaysia"
+      ],
+      "importance": 2,
+      "follows": "2026-11-07T22-c14",
+      "storyline_id": null,
+      "published_at": "2026-11-10T18:33:51.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
+          "url": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c29",
+      "drop": "2026-11-10T20",
+      "headline": "Indonesia's vice president offers to resign over eligibility questions",
+      "summary": "Indonesia's vice president offered his resignation as questions mount over his eligibility, NPR reports, amid a widening rift between President Prabowo and Widodo and a probe into alleged police wiretapping of the president.",
+      "why_it_matters": "Political turmoil in Southeast Asia's largest economy matters for regional stability and investors.",
+      "region": "Asia",
+      "topics": [
+        "asia",
+        "geopolitics"
+      ],
+      "entities": [
+        "Indonesia",
+        "Prabowo Subianto",
+        "Joko Widodo"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T14:01:14.000Z",
+      "sources": [
+        {
+          "outlet": "NPR",
+          "title": "Indonesia's VP offers resignation as questions mount over his eligibility",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c30",
+      "drop": "2026-11-10T20",
+      "headline": "Spain braces for 24-hour nationwide strike over housing and costs",
+      "summary": "Spain's two biggest unions called a 24-hour walkout starting Wednesday as anger grows over housing and the cost of living, Al Jazeera reports.",
+      "why_it_matters": "Cost-of-living unrest is spreading across Europe, a major US trading partner.",
+      "region": "Europe",
+      "topics": [
+        "europe",
+        "jobs-labor",
+        "economy"
+      ],
+      "entities": [
+        "Spain"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T18:07:23.000Z",
+      "sources": [
+        {
+          "outlet": "Al Jazeera",
+          "title": "Spain braces for nationwide strike as anger over housing, costs boils over",
+          "url": "https://www.aljazeera.com/news/2026/11/10/spain-braces-for-nationwide-walkout-as-anger-over-housing-costs-boils-over?traffic_source=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c31",
+      "drop": "2026-11-10T20",
+      "headline": "French police raid Ritz hotel in Al Fayed abuse investigation",
+      "summary": "French police searched three properties, including the Ritz in Paris, and made arrests in an investigation into sexual abuse and trafficking by the late Mohamed Al Fayed.",
+      "why_it_matters": "The case widens accountability for alleged abuse by a powerful businessman, with several people now in custody.",
+      "region": "Europe",
+      "topics": [
+        "crime-justice",
+        "europe"
+      ],
+      "entities": [
+        "Mohamed Al Fayed",
+        "Ritz Paris"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T16:19:48.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "French police raid Ritz hotel in Mohamed Al Fayed sexual abuse investigation",
+          "url": "https://www.theguardian.com/world/2026/nov/10/french-police-raid-ritz-hotel-in-mohamed-al-fayed-sexual-abuse-investigation"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Arrests made in Mohamed Al Fayed probe in France, police say",
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvwyrd4ywo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c32",
+      "drop": "2026-11-10T20",
+      "headline": "UK and Argentina clash at tribunal over Falklands oil project",
+      "summary": "At a Hamburg tribunal, the UK attorney general said Falkland Islanders face devastating consequences if Argentina blocks the Sea Lion offshore oilfield. The case risks deepening the sovereignty dispute.",
+      "why_it_matters": "A ruling could affect offshore energy development and a long-running dispute between two US partners.",
+      "region": "Europe",
+      "topics": [
+        "energy",
+        "geopolitics",
+        "latin-america"
+      ],
+      "entities": [
+        "Falkland Islands",
+        "Argentina",
+        "United Kingdom"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T19:01:33.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+          "url": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c33",
+      "drop": "2026-11-10T20",
+      "headline": "UK's top court for Caribbean overturns Trinidad anti-gay laws",
+      "summary": "The Privy Council in London overturned a 2025 ruling that had outlawed anal sex in Trinidad and Tobago, ending activist Jason Jones's decade-long fight. The Guardian says it could help overturn similar laws elsewhere in the Caribbean.",
+      "why_it_matters": "The ruling advances LGBTQ rights in the Caribbean, a region with deep ties to the US.",
+      "region": "Americas",
+      "topics": [
+        "courts",
+        "latin-america"
+      ],
+      "entities": [
+        "Jason Jones",
+        "Trinidad and Tobago",
+        "Privy Council"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T17:55:10.000Z",
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Anti-homosexuality laws in Trinidad and Tobago overturned",
+          "url": "https://www.bbc.co.uk/news/articles/cm0e0evlpp87o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Activist wins 10-year fight against homophobic Trinidad and Tobago laws",
+          "url": "https://www.theguardian.com/world/2026/nov/10/activist-jason-jones-wins-10-year-fight-against-homophobic-trinidad-tobago-laws"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c34",
+      "drop": "2026-11-10T20",
+      "headline": "Britain reports 41% rise in Russian naval activity near UK",
+      "summary": "A British defence minister said Russian naval activity around the UK rose 41% in the first nine months of the year. The Royal Navy announced a new defensive initiative with the Netherlands and Baltic and Nordic countries.",
+      "why_it_matters": "Rising Russian naval activity near NATO waters affects undersea cables and allied security.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "europe",
+        "geopolitics"
+      ],
+      "entities": [
+        "Royal Navy",
+        "Russia",
+        "NATO"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T17:26:59.000Z",
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "Russian naval aggression prompts new defensive initiative with ‘beer-drinking nations’",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/10/russian-naval-aggression-defensive-initiative-beer-drinking-nations"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c35",
+      "drop": "2026-11-10T20",
+      "headline": "Report: Russian ships ferry tanks and rocket launchers to Africa",
+      "summary": "A new investigation found Russian cargo ships carried tanks, armored vehicles and rocket launchers to African ports that serve as gateways for Moscow's forces on the continent, Defense News reports.",
+      "why_it_matters": "It shows Russia expanding its military footprint in Africa as US attention is elsewhere.",
+      "region": "Africa",
+      "topics": [
+        "defense",
+        "africa",
+        "geopolitics"
+      ],
+      "entities": [
+        "Russia"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T15:24:07.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "Report: Russian ships are pumping tanks, MRAPs and rocket launchers into Africa",
+          "url": "https://www.defensenews.com/global/mideast-africa/2026/11/10/report-russian-ships-are-pumping-tanks-mraps-and-rocket-launchers-into-africa/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c36",
+      "drop": "2026-11-10T20",
+      "headline": "France orders $1.7 billion in military imaging satellites",
+      "summary": "France awarded Airbus and Thales Alenia Space a contract worth over 1.5 billion euros for two IRIS military Earth-observation satellites, replacing three current orbiters with clearer imaging and faster access.",
+      "why_it_matters": "European governments are building sovereign space intelligence capacity as reliance on the US comes under scrutiny.",
+      "region": "Europe",
+      "topics": [
+        "defense",
+        "space",
+        "europe"
+      ],
+      "entities": [
+        "France",
+        "Airbus",
+        "Thales Alenia Space"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T11:13:15.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "France orders military Earth-observation satellites for more than €1.5 billion",
+          "url": "https://www.defensenews.com/global/europe/2026/11/10/france-orders-military-earth-observation-satellites-for-more-than-e1-5-billion/"
+        },
+        {
+          "outlet": "Breaking Defense",
+          "title": "France awards $1.7 billion contract to Airbus-Thales team for new military satellites",
+          "url": "https://breakingdefense.com/2026/11/france-awards-1-7-billion-contract-to-airbus-thales-team-for-new-military-satellites/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c37",
+      "drop": "2026-11-10T20",
+      "headline": "Collaborative Combat Aircraft fly together for first time",
+      "summary": "Shield's Hivemind software let CCA drones fly in a multi-ship formation and carry out beyond-visual-range counter-air tactics for the first time, Defense News reports.",
+      "why_it_matters": "Autonomous wingmen are central to the Air Force's plan to field more combat power at lower cost.",
+      "region": "US",
+      "topics": [
+        "defense",
+        "robotics",
+        "ai"
+      ],
+      "entities": [
+        "Shield AI"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T18:17:13.000Z",
+      "sources": [
+        {
+          "outlet": "Defense News",
+          "title": "First-ever Collaborative Combat Aircraft fly in formation, demonstrate air combat maneuvers",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/11/10/first-ever-collaborative-combat-aircraft-fly-in-formation-demonstrate-air-combat-maneuvers/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c38",
+      "drop": "2026-11-10T20",
+      "headline": "Amazon's Ring unveils $250 flying indoor drone and patrol robot",
+      "summary": "Ring's Drone Cam flies from room to room to investigate suspicious activity and films at night. A Rover Cam for businesses uses technology from Amazon's former Astro robot.",
+      "why_it_matters": "Home security robots bring new privacy questions as autonomous cameras enter living spaces.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "big-tech",
+        "ai"
+      ],
+      "entities": [
+        "Amazon",
+        "Ring"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T13:30:00.000Z",
+      "sources": [
+        {
+          "outlet": "CNBC",
+          "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+          "url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html"
+        },
+        {
+          "outlet": "Wired",
+          "title": "Ring’s Indoor Drone Camera Is Back—and Now Powered by AI",
+          "url": "https://www.wired.com/story/ring-robotics-drone-cam-rover-cam/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c39",
+      "drop": "2026-11-10T20",
+      "headline": "Axon invests $1.2 billion in drone maker Skydio",
+      "summary": "Axon will invest $1.2 billion in Skydio and become its US public safety distributor, expanding its Drone as First Responder program to more agencies, The Robot Report says.",
+      "why_it_matters": "Police drones are spreading in American cities, raising oversight and privacy questions.",
+      "region": "US",
+      "topics": [
+        "robotics",
+        "startups-vc",
+        "defense"
+      ],
+      "entities": [
+        "Axon",
+        "Skydio"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T13:06:58.000Z",
+      "sources": [
+        {
+          "outlet": "The Robot Report",
+          "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+          "url": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c40",
+      "drop": "2026-11-10T20",
+      "headline": "DeepMind unveils Gemini Robotics 2.5 and a safety benchmark",
+      "summary": "Google DeepMind released Gemini Robotics 2.5, which it says is up to twice as successful at some tasks, plus an open safety benchmark called ASIMOV-jailbreak.",
+      "why_it_matters": "Better robot AI and shared safety tests shape how soon machines can work safely around people.",
+      "region": "Global",
+      "topics": [
+        "robotics",
+        "ai"
+      ],
+      "entities": [
+        "Google DeepMind"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T15:00:39.000Z",
+      "sources": [
+        {
+          "outlet": "Ars Technica",
+          "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+          "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c41",
+      "drop": "2026-11-10T20",
+      "headline": "Google adds two specialized AI chips to its TPU lineup",
+      "summary": "Google's new tensor processing units target confidential model training and higher memory capacity, broadening its chip portfolio beyond general AI workloads, TechCrunch reports.",
+      "why_it_matters": "Custom chips from cloud giants add competition to Nvidia at a moment of upheaval at that company.",
+      "region": "US",
+      "topics": [
+        "chips",
+        "ai",
+        "big-tech"
+      ],
+      "entities": [
+        "Google"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T15:54:08.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c42",
+      "drop": "2026-11-10T20",
+      "headline": "N-able pulls remote access service after dozens of zero-day bugs published",
+      "summary": "N-able took its remote access service offline and urged self-hosted customers to take down servers, citing a critical security incident after a researcher published dozens of zero-day vulnerabilities.",
+      "why_it_matters": "Remote access tools are widely used by IT providers, so flaws can expose many businesses at once.",
+      "region": "Global",
+      "topics": [
+        "cybersecurity"
+      ],
+      "entities": [
+        "N-able"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T15:45:27.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "N-able takes its remote access service offline after researcher publishes dozens of zero-day bugs",
+          "url": "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c43",
+      "drop": "2026-11-10T20",
+      "headline": "Oura to buy AI primary care startup Counsel Health for $625 million",
+      "summary": "The smart ring maker will acquire Counsel Health weeks after indefinitely postponing an IPO of up to $2.2 billion, citing uncertainty in the IPO market.",
+      "why_it_matters": "It shows consumer health companies betting on AI care even as the IPO window narrows.",
+      "region": "US",
+      "topics": [
+        "health",
+        "startups-vc",
+        "ai"
+      ],
+      "entities": [
+        "Oura",
+        "Counsel Health"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T17:14:42.000Z",
+      "sources": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+        },
+        {
+          "outlet": "STAT",
+          "title": "STAT+: Oura to acquire Counsel Health for $625 million, placing a big bet on AI care",
+          "url": "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/?utm_campaign=rss"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c44",
+      "drop": "2026-11-10T20",
+      "headline": "COP31 presidency pushes electrification target as Kerry praises China",
+      "summary": "The COP31 presidency is pushing a target requiring the world to quadruple its pace of electrification, New Scientist reports. John Kerry said China has hugely accelerated its move from fossil fuels and others should follow.",
+      "why_it_matters": "The climate talks will shape energy costs and clean-tech competition between the US and China.",
+      "region": "Global",
+      "topics": [
+        "climate",
+        "energy",
+        "china"
+      ],
+      "entities": [
+        "COP31",
+        "John Kerry",
+        "China"
+      ],
+      "importance": 3,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T12:08:23.000Z",
+      "sources": [
+        {
+          "outlet": "New Scientist",
+          "title": "What is the electrification target at COP31 and can countries meet it?",
+          "url": "https://www.newscientist.com/article/2598177-what-is-the-electrification-target-at-cop31-and-can-countries-meet-it/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "US and rest of world must follow China’s lead on green energy, says John Kerry",
+          "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c45",
+      "drop": "2026-11-10T20",
+      "headline": "Voyager 1 to reach one light-day from Earth on Nov. 18",
+      "summary": "NASA says Voyager 1, launched in 1977, will be more than 16 billion miles away on Nov. 18, so light from Earth would take 24 hours to reach it. NASA is inviting media and the public to events.",
+      "why_it_matters": "It marks a milestone for the most distant human-made object, still operating after nearly 50 years.",
+      "region": "Global",
+      "topics": [
+        "space",
+        "science"
+      ],
+      "entities": [
+        "NASA",
+        "Voyager 1"
+      ],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T19:22:45.000Z",
+      "sources": [
+        {
+          "outlet": "NASA",
+          "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c46",
+      "drop": "2026-11-10T20",
+      "headline": "Quantum error correction may be harder than expected",
+      "summary": "New Scientist reports that some types of errors in quantum computers, and the complications they bring, may be more likely than previously thought, complicating efforts to make the machines practical.",
+      "why_it_matters": "Error correction is the main hurdle to useful quantum computers, which could affect encryption and drug research.",
+      "region": "Global",
+      "topics": [
+        "science"
+      ],
+      "entities": [],
+      "importance": 2,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T20:00:00.000Z",
+      "sources": [
+        {
+          "outlet": "New Scientist",
+          "title": "Correcting quantum computer errors may be more complicated than expected",
+          "url": "https://www.newscientist.com/article/2598161-correcting-quantum-computer-errors-may-be-more-complicated-than-expected/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+        }
+      ],
+      "has_article": true
+    },
+    {
+      "id": "2026-11-10T20-c47",
+      "drop": "2026-11-10T20",
+      "headline": "Study links more daylight exposure to lower dementia risk",
+      "summary": "A study of nearly 90,000 participants, none with dementia at the start, found more daylight exposure was linked to a lower chance of developing dementia, The Hill reports. The finding shows association, not proof of cause.",
+      "why_it_matters": "Light exposure is a simple habit that researchers are examining as a way to reduce brain-health risk.",
+      "region": "Global",
+      "topics": [
+        "health",
+        "science"
+      ],
+      "entities": [],
+      "importance": 1,
+      "follows": null,
+      "storyline_id": null,
+      "published_at": "2026-11-10T18:35:46.000Z",
+      "sources": [
+        {
+          "outlet": "The Hill",
+          "title": "More daylight linked to lower chance of dementia: Study",
+          "url": "https://thehill.com/policy/healthcare/6209469-daylight-exposure-lower-dementia-link-study/"
+        }
+      ],
+      "has_article": false
+    }
+  ]
+}
