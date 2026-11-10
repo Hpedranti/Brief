@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T22:54:07Z",
+  "updated_at": "2026-11-10T01:53:56Z",
   "storylines": [
     {
       "id": "sl-france-unrest",
@@ -75,11 +75,21 @@
     {
       "id": "sl-ukraine-us-rift",
       "title": "US-Ukraine rift over Starlink and strikes",
-      "summary": "Russia hit Kyiv's grid as Trump says a deal is close. The White House is cautiously optimistic ahead of US-mediated Abu Dhabi talks Nov. 10-11 with Europe attending. Zelenskyy warns Russia aims to cut Ukraine in half; Russia rations petrol.",
+      "summary": "US-mediated trilateral talks open in Abu Dhabi Nov. 10-11 with Europe attending; US officials cite some flexibility on both sides. Zelenskyy warns Russia aims to cut Ukraine in half by hitting Dnipro bridges; Russia rations petrol after refinery strikes.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "BBC: Kyiv, Washington and Moscow send delegations to the UAE; US officials cite 'some flexibility' by both sides.",
+          "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Zelenskyy warns Russian strikes on Dnipro bridges aim to cut Ukraine in half, the FT reports.",
+          "url": "https://www.ft.com/content/efc3048c-c614-4d71-bf1b-e8cdce40722f?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-09",
           "text": "White House says it is cautiously optimistic about Abu Dhabi talks on Tuesday and Wednesday, the first with US mediators since February, Axios reports.",
@@ -164,27 +174,27 @@
           "date": "2026-11-02",
           "text": "Witkoff announces US-mediated Ukraine-Russia talks in Abu Dhabi on Nov. 10-11, restarting a track suspended in February.",
           "url": "https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner"
-        },
-        {
-          "date": "2026-11-02",
-          "text": "Russian bombs hit an aid centre and shelter in southern Ukraine, killing at least 26; Zelenskyy calls the attack vile.",
-          "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha"
-        },
-        {
-          "date": "2026-11-01",
-          "text": "Air raid alert apps in Ukraine and Russia are hit by cyberattacks after the truce ends; Ukraine blames Russia for fake nuclear warnings.",
-          "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
         }
       ]
     },
     {
       "id": "sl-ai-debt-selloff",
       "title": "AI debt worries and market selloff",
-      "summary": "After Democrats won Congress, AI stocks plunged. On Monday US stocks had their best day in seven months as tech rebounded and oil fell, though Nvidia dropped on CEO scandal. Anthropic can start marketing its IPO; CoreWeave and Nebius have halved.",
+      "summary": "After Democrats won Congress, AI stocks plunged; Monday brought the best day in seven months, though the Dow has had three 1,000-point swings in four days. Anthropic is expected to set its IPO valuation range this week; CoreWeave and Nebius have halved.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "Anthropic is expected to set its IPO valuation range this week, the WSJ reported, per TechCrunch.",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "MarketWatch: the Dow has its third 1,000-point swing in four days, and volatility may not be over.",
+          "url": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories"
+        },
         {
           "date": "2026-11-09",
           "text": "US stocks post their best day in seven months as tech rallies and oil slumps, while Nvidia falls, Bloomberg reports.",
@@ -274,16 +284,6 @@
           "date": "2026-11-05",
           "text": "Wall Street sheds about $3.2 trillion as the Nasdaq 100 falls 6.4%, the FT reports; MarketWatch calls it tech's worst day since 2020.",
           "url": "https://www.ft.com/content/3d079b3d-580d-400b-bf9c-56af6a08f60f?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "CNBC: chip stocks and neoclouds plunge, pushing the Nasdaq to its worst day since April 2025 on fears of a post-midterm AI slowdown.",
-          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
-        },
-        {
-          "date": "2026-11-04",
-          "text": "Asian tech stocks slide on fears Democratic control slows data center buildout; Hong Kong rebounds as investors rotate away from AI hardware.",
-          "url": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952?syn-25a6b1a6=1"
         }
       ]
     },
@@ -360,11 +360,26 @@
     {
       "id": "sl-midterms-2026",
       "title": "2026 midterm elections",
-      "summary": "Democrats won the House, Senate and most governorships. Miller is now chief of staff. Massie moved to impeach Hegseth, Trump alleged fraud without evidence and floated an immigration deal; GOP leaders face delay pushes. Mississippi and Alaska remain uncalled.",
+      "summary": "Democrats won the House, Senate and most governorships. Miller is chief of staff. Trump backs Hegseth as Massie forces an impeachment vote; GOP leaders face delay pushes, and Speaker Johnson won't commit to serving. Mississippi and Alaska remain uncalled.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "Speaker Mike Johnson declines to commit to serving in the next Congress, the Washington Examiner reports.",
+          "url": "https://www.washingtonexaminer.com/news/house/4798162/mike-johnson-120th-congress-blue-wave/"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Seven GOP senators now seek a delay of leadership elections; Thune is still expected to be reelected, Axios reports.",
+          "url": "https://www.axios.com/2026/11/09/thune-senate-republican-leadership-elections"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Trump says he will stand by Hegseth as Massie forces a House impeachment vote later this week.",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4798081/trump-stand-by-hegseth-massie-impeachment/"
+        },
         {
           "date": "2026-11-09",
           "text": "Rep. Thomas Massie files articles of impeachment against Defense Secretary Hegseth; a House vote could come this week, NPR reports.",
@@ -444,32 +459,27 @@
           "date": "2026-11-06",
           "text": "Lawyers for both Mississippi Senate campaigns prepare for a possible legal battle and recount as the count continues, the BBC reports.",
           "url": "https://www.bbc.co.uk/news/articles/cwj0llvqqm72o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "date": "2026-11-06",
-          "text": "Trump names Stephen Miller chief of staff to replace Susie Wiles, who moves to his political operation.",
-          "url": "https://www.npr.org/2026/11/06/nx-s-6032795/stephen-miller-replace-susie-wiles-trumps-chief-of-staff"
-        },
-        {
-          "date": "2026-11-06",
-          "text": "Incoming Democratic senators including Annie Andrews and Abdul El-Sayed say they do not want Schumer as leader, though he likely has the votes.",
-          "url": "https://www.theguardian.com/us-news/2026/nov/06/chuck-schumer-majority-leader-incoming-democratic-senators"
-        },
-        {
-          "date": "2026-11-06",
-          "text": "Trump backs Joe Gruters for another term as RNC chairman after the party's midterm losses.",
-          "url": "https://thehill.com/homenews/administration/6204698-trump-backs-gruters-rnc-reelection/"
         }
       ]
     },
     {
       "id": "sl-us-iran-war",
       "title": "US-Iran war and oil prices",
-      "summary": "Trump says new Iran attacks are 'quite unlikely' and the war is effectively over after meeting Qatar's prime minister, while keeping forces posture; officials doubt a breakthrough. Oil had its biggest weekly drop since April 2020. Saudi Arabia reports a new pipeline attack. 23 US troops have died.",
+      "summary": "Trump calls the war effectively over and cites positive momentum after meeting Qatar's prime minister; Iranian officials dismiss this as fake news and demand US acceptance of their conditions. Oil is near its lowest since August. Saudi Arabia reports a new pipeline attack.",
       "status": "active",
       "first_seen": "2026-10-16",
       "last_updated": "2026-11-09",
       "events": [
+        {
+          "date": "2026-11-09",
+          "text": "Iranian officials dismiss Trump's 'effectively over' remarks as fake news and demand the US accept Iran's conditions, Al Jazeera reports.",
+          "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "Trump hails 'positive momentum' toward ending the war after calls with regional leaders, the FT reports.",
+          "url": "https://www.ft.com/content/4a75299e-a705-493f-91a7-07d3b87ecc4e?syn-25a6b1a6=1"
+        },
         {
           "date": "2026-11-09",
           "text": "Trump calls the Iran war 'effectively over' and new attacks 'quite unlikely' after meeting Qatar's prime minister, Al Jazeera and Axios report.",
@@ -554,16 +564,6 @@
           "date": "2026-11-05",
           "text": "FT: Qatar-led mediators step up efforts to broker an interim US-Iran agreement.",
           "url": "https://www.ft.com/content/eced6084-7cd7-4633-a8ba-559173e0f6c1?syn-25a6b1a6=1"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "Trump says after meeting national security advisers that he will soon decide whether to resume all-out war; Bloomberg says oil is set for its biggest weekly loss since April.",
-          "url": "https://www.axios.com/2026/11/05/trump-iran-war-national-security-team-decision"
-        },
-        {
-          "date": "2026-11-05",
-          "text": "Iran says five oil tankers and a tugboat caught fire in several incidents in the Strait of Hormuz amid fears of a new US attack.",
-          "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack?traffic_source=rss"
         }
       ]
     },
@@ -679,6 +679,26 @@
           "date": "2026-11-01",
           "text": "Arab coalition leader Yousef Jabareen says he is ready to join the opposition bloc to oust Netanyahu after record seat gains, the Guardian reports.",
           "url": "https://www.theguardian.com/world/2026/nov/02/israel-opposition-bloc-arab-coalition-knesset-yousef-jabareen"
+        }
+      ]
+    },
+    {
+      "id": "sl-nvidia-huang",
+      "title": "Nvidia CEO Huang spy scandal",
+      "summary": "Nvidia's board is investigating CEO Jensen Huang over his affair with Alice Huang, an alleged Chinese spy tied to Megaspeed. Trump says the FBI is looking into it and defends Huang. Nvidia stock fell about 4% Monday.",
+      "status": "active",
+      "first_seen": "2026-11-08",
+      "last_updated": "2026-11-09",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "text": "Trump says the FBI is looking into Huang's affair with an alleged Chinese spy and that he believes Huang did not know of her work, the BBC reports.",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "date": "2026-11-09",
+          "text": "CNBC profiles Megaspeed, the Singapore-based Nvidia chip buyer previously probed over alleged chip supplies to China.",
+          "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html"
         }
       ]
     }
